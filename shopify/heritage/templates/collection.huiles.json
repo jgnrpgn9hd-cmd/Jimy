@@ -1,0 +1,579 @@
+{
+  "sections": {
+    "banner": {
+      "type": "hero",
+      "blocks": {
+        "g": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "center",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 14,
+            "width": "fill"
+          },
+          "blocks": {
+            "t": {
+              "type": "text",
+              "settings": {
+                "text": "<h1>{{ closest.collection.title }}</h1>",
+                "type_preset": "h1",
+                "text_color": "{{ settings.color_palette.background }}",
+                "alignment": "center"
+              }
+            },
+            "p": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Vierge extra, d'Andalousie. Récoltées tôt, pressées à froid.</p>",
+                "type_preset": "rte",
+                "text_color": "{{ settings.color_palette.background }}",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "t",
+            "p"
+          ]
+        }
+      },
+      "block_order": [
+        "g"
+      ],
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/IMG_9101.png",
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "full-width",
+        "section_height": "small",
+        "toggle_overlay": true,
+        "overlay_color": "#00000059",
+        "overlay_style": "solid",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "filters": {
+          "type": "filters",
+          "static": true,
+          "settings": {
+            "enable_filtering": false,
+            "filter_style": "horizontal",
+            "filter_width": "centered",
+            "text_label_case": "default",
+            "show_swatch_label": false,
+            "show_filter_label": false,
+            "enable_sorting": true,
+            "enable_grid_density": false,
+            "background_color": "",
+            "text_color": "",
+            "padding-block-start": 0,
+            "padding-block-end": 16,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "facets_margin_bottom": 8,
+            "facets_margin_right": 20
+          },
+          "blocks": {}
+        },
+        "product-card": {
+          "type": "_product-card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 8,
+            "background_color": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "card-gallery": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "image_ratio": "portrait",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "group": {
+              "type": "_product-card-group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 4,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "background_media": "none",
+                "background_color": "",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "link": "",
+                "open_in_new_tab": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "product_title_mwB3E6": {
+                  "type": "product-title",
+                  "name": "t:names.product_title",
+                  "settings": {
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h5",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "text_color": "",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "price": {
+                  "type": "price",
+                  "settings": {
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": false,
+                    "type_preset": "",
+                    "width": "100%",
+                    "alignment": "left",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "text_color": "",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "swatches": {
+                  "type": "swatches",
+                  "settings": {
+                    "product_swatches_alignment": "flex-start",
+                    "product_swatches_alignment_mobile": "flex-start",
+                    "hide_padding": false,
+                    "product_swatches_padding_top": 4,
+                    "product_swatches_padding_bottom": 0,
+                    "product_swatches_padding_left": 0,
+                    "product_swatches_padding_right": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "product_title_mwB3E6",
+                "price",
+                "swatches"
+              ]
+            }
+          },
+          "block_order": [
+            "card-gallery",
+            "group"
+          ]
+        }
+      },
+      "settings": {
+        "layout_type": "grid",
+        "product_card_size": "large",
+        "mobile_product_card_size": "small",
+        "enable_infinite_scroll": true,
+        "products_per_page": 24,
+        "product_grid_width": "centered",
+        "full_width_on_mobile": true,
+        "columns_gap_horizontal": 24,
+        "columns_gap_vertical": 40,
+        "padding-inline-start": 0,
+        "padding-inline-end": 0,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 72,
+        "padding-block-end": 96
+      }
+    },
+    "choisir": {
+      "type": "section",
+      "blocks": {
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Laquelle choisir ?</h2>",
+            "type_preset": "h2",
+            "text_color": "{{ settings.color_palette.foreground }}",
+            "alignment": "center"
+          }
+        },
+        "cols": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "space-between",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 48,
+            "width": "fill"
+          },
+          "blocks": {
+            "c1": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill"
+              },
+              "blocks": {
+                "h": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Pour tous les jours</h3>",
+                    "type_preset": "h4",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>L'Arbequina ou le Coupage. Douces et polyvalentes, à cru comme en cuisson douce.</p>",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                },
+                "b": {
+                  "type": "button",
+                  "settings": {
+                    "label": "Voir l'Arbequina",
+                    "link": "shopify://products/sans-titre-19aout_12-19-21",
+                    "style_class": "button-unstyled",
+                    "custom_button_background": "",
+                    "custom_button_text": "",
+                    "custom_button_border": ""
+                  }
+                }
+              },
+              "block_order": [
+                "h",
+                "p",
+                "b"
+              ]
+            },
+            "c2": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill"
+              },
+              "blocks": {
+                "h": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Pour la goûter crue</h3>",
+                    "type_preset": "h4",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>L'Arbequina première récolte. Plus fraîche, avec des notes de pomme verte et un léger piquant.</p>",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                },
+                "b": {
+                  "type": "button",
+                  "settings": {
+                    "label": "Voir la première récolte",
+                    "link": "shopify://products/huile-d-olive-virgen-extra-500ml",
+                    "style_class": "button-unstyled",
+                    "custom_button_background": "",
+                    "custom_button_text": "",
+                    "custom_button_border": ""
+                  }
+                }
+              },
+              "block_order": [
+                "h",
+                "p",
+                "b"
+              ]
+            },
+            "c3": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill"
+              },
+              "blocks": {
+                "h": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Pour offrir</h3>",
+                    "type_preset": "h4",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Le coffret dégustation. Hojiblanca, Arbosana et Picual, à comparer côte à côte.</p>",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                },
+                "b": {
+                  "type": "button",
+                  "settings": {
+                    "label": "Voir le coffret",
+                    "link": "shopify://products/coffret-3-bouteilles-aove-monovarietal-hojiblanca-arbosana-y-picual",
+                    "style_class": "button-unstyled",
+                    "custom_button_background": "",
+                    "custom_button_text": "",
+                    "custom_button_border": ""
+                  }
+                }
+              },
+              "block_order": [
+                "h",
+                "p",
+                "b"
+              ]
+            }
+          },
+          "block_order": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      },
+      "block_order": [
+        "t",
+        "cols"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "section_width": "page-width",
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 40,
+        "background_color": "{{ settings.color_palette.color3 }}",
+        "padding-block-start": 88,
+        "padding-block-end": 88
+      }
+    },
+    "faq": {
+      "type": "section",
+      "blocks": {
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Questions fréquentes</h2>",
+            "type_preset": "h3",
+            "text_color": "{{ settings.color_palette.foreground }}",
+            "alignment": "center"
+          }
+        },
+        "wrap": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "center",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 0,
+            "width": "custom",
+            "custom_width": 60,
+            "width_mobile": "fill"
+          },
+          "blocks": {
+            "acc": {
+              "type": "accordion",
+              "settings": {
+                "icon": "plus",
+                "dividers": true,
+                "type_preset": "rte"
+              },
+              "blocks": {
+                "r1": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Quels sont les délais de livraison ?",
+                    "open_by_default": false,
+                    "icon": "none"
+                  },
+                  "blocks": {
+                    "t": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Votre commande est préparée sous 1 à 3 jours ouvrés, puis livrée en France métropolitaine sous 6 à 8 jours ouvrés.</p>",
+                        "width": "100%",
+                        "type_preset": "rte"
+                      }
+                    }
+                  },
+                  "block_order": [
+                    "t"
+                  ]
+                },
+                "r2": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Comment conserver mon huile ?",
+                    "open_by_default": false,
+                    "icon": "none"
+                  },
+                  "blocks": {
+                    "t": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Bien fermée, à l'abri de la lumière et de la chaleur. Évitez de la garder à côté des plaques de cuisson.</p>",
+                        "width": "100%",
+                        "type_preset": "rte"
+                      }
+                    }
+                  },
+                  "block_order": [
+                    "t"
+                  ]
+                },
+                "r3": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Une bouteille est arrivée cassée, que faire ?",
+                    "open_by_default": false,
+                    "icon": "none"
+                  },
+                  "blocks": {
+                    "t": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Écrivez-nous sous 48 heures avec une photo à davicojairo09@gmail.com. Nous vous la renvoyons ou nous vous remboursons.</p>",
+                        "width": "100%",
+                        "type_preset": "rte"
+                      }
+                    }
+                  },
+                  "block_order": [
+                    "t"
+                  ]
+                }
+              },
+              "block_order": [
+                "r1",
+                "r2",
+                "r3"
+              ]
+            }
+          },
+          "block_order": [
+            "acc"
+          ]
+        }
+      },
+      "block_order": [
+        "t",
+        "wrap"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "section_width": "page-width",
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 32,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 88,
+        "padding-block-end": 96
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "choisir",
+    "faq"
+  ]
+}
