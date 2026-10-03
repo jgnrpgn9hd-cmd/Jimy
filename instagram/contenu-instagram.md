@@ -1,4 +1,4 @@
-# Instagram Jiménez : contenu de lancement
+# Instagram Jiménez (@jimenez_shop_fr) : contenu de lancement
 
 Visuels générés dans Canva (4 propositions pour chacun). Ouvre le lien, choisis ta version préférée, puis « Partager → Télécharger ».
 

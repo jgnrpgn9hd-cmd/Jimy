@@ -8,7 +8,7 @@
 4. **Ajouter les 3 pages légales ci-dessous** : Paramètres → **Politiques** → coller chaque texte dans la bonne case → Enregistrer.
 5. **Médiateur de la consommation** (obligatoire en France) : adhère à un médiateur agréé (ex. CM2C, Medicys, environ 50 à 150 € par an), puis ajoute son nom et son site à la fin des conditions de vente.
 6. **Passer une commande test** : Paramètres → Paiements → mode test, ou commande réelle remboursée ensuite. Vérifie l'e-mail de confirmation et les frais de port.
-7. **Lien Instagram du pied de page** : donne-moi ton @, je le mets à jour (aujourd'hui il pointe vers instagram.com tout court).
+7. **Lien Instagram du pied de page** : Personnaliser → pied de page → bloc « Liens sociaux » → Instagram : `https://www.instagram.com/jimenez_shop_fr` → Enregistrer.
 
 ---
 
