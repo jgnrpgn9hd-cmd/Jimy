@@ -1,0 +1,73 @@
+{%- comment -%}
+  Fondus d'apparition sur toutes les pages.
+  part: 'head' masque le contenu le temps de préparer les animations (évite un flash),
+  part: 'body' prépare les éléments et les fait apparaître au défilement.
+{%- endcomment -%}
+{%- unless request.design_mode -%}
+{%- if part == 'head' -%}
+<style>
+  html.jz-pending #MainContent, html.jz-pending footer { opacity: 0; }
+  @keyframes jzFade { from { opacity: 0; } to { opacity: 1; } }
+  #header-group { animation: jzFade 1.2s ease both; }
+  .jz-f { opacity: 0; transform: translateY(18px); transition: opacity 1.1s ease, transform 1.1s cubic-bezier(.2,.7,.2,1); }
+  .jz-i { opacity: 0; transform: scale(1.05); transition: opacity 1.6s ease, transform 1.8s cubic-bezier(.2,.6,.2,1); }
+  .jz-f.jz-in, .jz-i.jz-in { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    html.jz-pending #MainContent, html.jz-pending footer { opacity: 1; }
+    #header-group { animation: none; }
+    .jz-f, .jz-i { opacity: 1; transform: none; transition: none; }
+  }
+</style>
+<script>
+  (function () {
+    if (!('IntersectionObserver' in window)) return;
+    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var root = document.documentElement;
+    root.classList.add('jz-pending');
+    setTimeout(function () { root.classList.remove('jz-pending'); }, 3000);
+  })();
+</script>
+{%- elsif part == 'body' -%}
+<script>
+  (function () {
+    var root = document.documentElement;
+    if (!root.classList.contains('jz-pending')) return;
+
+    var SELECTOR = 'h1,h2,h3,h4,h5,p,blockquote,a.button,a.button-secondary,button.button,.resource-list__item,img,video';
+    var SKIP = 'dialog,[role="dialog"],header,cart-drawer-component,predictive-search-component,.jz-skip';
+
+    function cleanup(el) {
+      el.classList.remove('jz-f', 'jz-i', 'jz-in');
+      el.style.transitionDelay = '';
+    }
+
+    var io = new IntersectionObserver(function (entries) {
+      var delay = 0;
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        var el = entry.target;
+        io.unobserve(el);
+        el.style.transitionDelay = Math.min(delay, 600) + 'ms';
+        delay += 90;
+        el.classList.add('jz-in');
+        setTimeout(function () { cleanup(el); }, 2000 + Math.min(delay, 600));
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+
+    document.querySelectorAll('#MainContent, footer').forEach(function (area) {
+      area.querySelectorAll(SELECTOR).forEach(function (el) {
+        if (el.closest(SKIP)) return;
+        var item = el.closest('.resource-list__item');
+        if (item && item !== el) return;
+        if (el.parentElement && el.parentElement.closest('.jz-f')) return;
+        var media = el.tagName === 'IMG' || el.tagName === 'VIDEO';
+        el.classList.add(media ? 'jz-i' : 'jz-f');
+        io.observe(el);
+      });
+    });
+
+    requestAnimationFrame(function () { root.classList.remove('jz-pending'); });
+  })();
+</script>
+{%- endif -%}
+{%- endunless -%}
