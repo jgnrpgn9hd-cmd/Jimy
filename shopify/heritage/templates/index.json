@@ -1,0 +1,1274 @@
+{
+  "sections": {
+    "hero_DdhBcH": {
+      "type": "hero",
+      "blocks": {
+        "group_iCr8Rp": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 18,
+            "width": "fill"
+          },
+          "blocks": {
+            "text_kicker": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Épicerie fine espagnole</p>",
+                "type_preset": "h6",
+                "text_color": "{{ settings.color_palette.background }}"
+              }
+            },
+            "text_yn8mJC": {
+              "type": "text",
+              "settings": {
+                "text": "<h1>L'Andalousie, directement du domaine</h1>",
+                "type_preset": "h1",
+                "text_color": "{{ settings.color_palette.background }}"
+              }
+            },
+            "text_sub": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Huiles d'olive vierge extra, jambons et charcuteries ibériques, sélectionnés à la source.</p>",
+                "type_preset": "rte",
+                "text_color": "{{ settings.color_palette.background }}"
+              }
+            },
+            "group_Kd6LcE": {
+              "type": "group",
+              "settings": {
+                "content_direction": "row",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill"
+              },
+              "blocks": {
+                "button_4nF9Lg": {
+                  "type": "button",
+                  "settings": {
+                    "label": "Découvrir la boutique",
+                    "link": "shopify://collections/all",
+                    "style_class": "button-custom",
+                    "custom_button_background": "{{ settings.color_palette.background }}",
+                    "custom_button_text": "{{ settings.color_palette.foreground }}",
+                    "custom_button_border": "{{ settings.color_palette.background }}"
+                  }
+                }
+              },
+              "block_order": [
+                "button_4nF9Lg"
+              ]
+            }
+          },
+          "block_order": [
+            "text_kicker",
+            "text_yn8mJC",
+            "text_sub",
+            "group_Kd6LcE"
+          ]
+        }
+      },
+      "block_order": [
+        "group_iCr8Rp"
+      ],
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/IMG_9100_3afe6125-d8cc-4dd3-a81d-2f4cee7d0c06.png",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": true,
+        "media_type_1_mobile": "image",
+        "image_1_mobile": "shopify://shop_images/IMG_9100_3afe6125-d8cc-4dd3-a81d-2f4cee7d0c06.png",
+        "media_type_2_mobile": "image",
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "flex-end",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "large",
+        "toggle_overlay": true,
+        "overlay_color": "#00000066",
+        "overlay_style": "gradient",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 56
+      }
+    },
+    "marquee_Mq1": {
+      "type": "marquee",
+      "blocks": {
+        "mq1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Huile d'olive vierge extra  •</p>",
+            "type_preset": "custom",
+            "text_color": "{{ settings.color_palette.background }}",
+            "font_size": "0.875rem",
+            "letter_spacing": "loose",
+            "case": "uppercase",
+            "wrap": "nowrap"
+          }
+        },
+        "mq2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jambon ibérique de bellota  •</p>",
+            "type_preset": "custom",
+            "text_color": "{{ settings.color_palette.background }}",
+            "font_size": "0.875rem",
+            "letter_spacing": "loose",
+            "case": "uppercase",
+            "wrap": "nowrap"
+          }
+        },
+        "mq3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Charcuterie ibérique  •</p>",
+            "type_preset": "custom",
+            "text_color": "{{ settings.color_palette.background }}",
+            "font_size": "0.875rem",
+            "letter_spacing": "loose",
+            "case": "uppercase",
+            "wrap": "nowrap"
+          }
+        },
+        "mq4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Coffrets cadeaux  •</p>",
+            "type_preset": "custom",
+            "text_color": "{{ settings.color_palette.background }}",
+            "font_size": "0.875rem",
+            "letter_spacing": "loose",
+            "case": "uppercase",
+            "wrap": "nowrap"
+          }
+        },
+        "mq5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Expédié depuis l'Espagne  •</p>",
+            "type_preset": "custom",
+            "text_color": "{{ settings.color_palette.background }}",
+            "font_size": "0.875rem",
+            "letter_spacing": "loose",
+            "case": "uppercase",
+            "wrap": "nowrap"
+          }
+        }
+      },
+      "block_order": [
+        "mq1",
+        "mq2",
+        "mq3",
+        "mq4",
+        "mq5"
+      ],
+      "settings": {
+        "movement_direction": "normal",
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "padding-block-start": 16,
+        "padding-block-end": 16,
+        "gap_between_elements": 28
+      }
+    },
+    "collection_list_Univers": {
+      "type": "collection-list",
+      "blocks": {
+        "group_head": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "center",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 14,
+            "width": "fill",
+            "padding-block-end": 24
+          },
+          "blocks": {
+            "t_kicker": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Nos univers</p>",
+                "type_preset": "h6",
+                "text_color": "{{ settings.color_palette.color2 }}",
+                "alignment": "center"
+              }
+            },
+            "t2": {
+              "type": "text",
+              "settings": {
+                "text": "<h2>Peu de produits, bien choisis.</h2>",
+                "type_preset": "h2",
+                "text_color": "{{ settings.color_palette.foreground }}",
+                "alignment": "center"
+              }
+            },
+            "t3": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Nous travaillons en direct avec de petits producteurs d'Andalousie et d'Estrémadure.</p>",
+                "type_preset": "rte",
+                "text_color": "{{ settings.color_palette.foreground }}",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "t_kicker",
+            "t2",
+            "t3"
+          ]
+        },
+        "static-collection-card": {
+          "type": "_collection-card",
+          "static": true,
+          "settings": {
+            "placement": "below_image",
+            "horizontal_alignment": "center",
+            "vertical_alignment": "center",
+            "collection_card_gap": 10,
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0
+          },
+          "blocks": {
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "static": true,
+              "settings": {
+                "image_ratio": "portrait",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0
+              }
+            },
+            "collection-title": {
+              "type": "collection-title",
+              "settings": {
+                "type_preset": "h5",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "center",
+                "background": false,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            }
+          },
+          "block_order": [
+            "collection-title"
+          ]
+        }
+      },
+      "block_order": [
+        "group_head"
+      ],
+      "settings": {
+        "collection_list": [
+          "huiles-d-olives",
+          "jamones",
+          "paletas",
+          "embutidos"
+        ],
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "columns": 4,
+        "mobile_columns": "2",
+        "columns_gap": 16,
+        "rows_gap": 24,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "gap": 12,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 88,
+        "padding-block-end": 88
+      }
+    },
+    "media_with_content_CwFqjm": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/IMG_9101.png",
+            "image_position": "cover"
+          }
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "t0": {
+              "type": "text",
+              "settings": {
+                "text": "<p>L'huile</p>",
+                "type_preset": "h6",
+                "text_color": "{{ settings.color_palette.background }}"
+              }
+            },
+            "g1": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 16,
+                "width": "fill"
+              },
+              "blocks": {
+                "h": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h2>Une huile, un domaine</h2>",
+                    "type_preset": "h2",
+                    "text_color": "{{ settings.color_palette.background }}"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Sélectionnée avec soin auprès de notre producteur partenaire. Une huile d'olive pure, issue d'un savoir-faire artisanal et d'un amour du fruit.</p>",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.background }}"
+                  }
+                }
+              },
+              "block_order": [
+                "h",
+                "p"
+              ]
+            },
+            "g2": {
+              "type": "group",
+              "settings": {
+                "content_direction": "row",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill"
+              },
+              "blocks": {
+                "b": {
+                  "type": "button",
+                  "settings": {
+                    "label": "Voir les huiles",
+                    "link": "shopify://collections/huiles-d-olives",
+                    "style_class": "button-custom",
+                    "custom_button_background": "{{ settings.color_palette.color3 }}",
+                    "custom_button_text": "{{ settings.color_palette.foreground }}",
+                    "custom_button_border": "{{ settings.color_palette.color3 }}"
+                  }
+                }
+              },
+              "block_order": [
+                "b"
+              ]
+            }
+          },
+          "block_order": [
+            "t0",
+            "g1",
+            "g2"
+          ]
+        }
+      },
+      "settings": {
+        "media_position": "right",
+        "media_width": "medium",
+        "media_height": "80svh",
+        "section_width": "page-width",
+        "extend_media": true,
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "product_list_Huiles": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "title": {
+              "type": "_product-list-text",
+              "settings": {
+                "text": "<h3>Nos huiles d'olive</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "view_all": {
+              "type": "button",
+              "settings": {
+                "label": "Tout voir",
+                "link": "shopify://collections/huiles-d-olives",
+                "open_in_new_tab": false,
+                "style_class": "button-unstyled",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "title",
+            "view_all"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 8,
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "gallery": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "info": {
+              "type": "_product-card-group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 4,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "open_in_new_tab": false,
+                "padding-block-start": 8,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "ptitle": {
+                  "type": "product-title",
+                  "settings": {
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "pprice": {
+                  "type": "price",
+                  "settings": {
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": false,
+                    "width": "100%",
+                    "alignment": "left",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.875rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "ptitle",
+                "pprice"
+              ]
+            }
+          },
+          "block_order": [
+            "gallery",
+            "info"
+          ]
+        }
+      },
+      "settings": {
+        "collection": "huiles-d-olives",
+        "layout_type": "carousel",
+        "carousel_on_mobile": false,
+        "max_products": 8,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 20,
+        "rows_gap": 36,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 28,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 88,
+        "padding-block-end": 88
+      }
+    },
+    "media_with_content_xUctDh": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/FullSizeRender_fad614a1-2bde-4095-b50b-8af006805f6d.jpg",
+            "image_position": "cover"
+          }
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "t0": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Les coffrets</p>",
+                "type_preset": "h6",
+                "text_color": "{{ settings.color_palette.foreground }}"
+              }
+            },
+            "g1": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 16,
+                "width": "fill"
+              },
+              "blocks": {
+                "h": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h2>Offrir de l'huile d'olive</h2>",
+                    "type_preset": "h2",
+                    "text_color": "{{ settings.color_palette.foreground }}"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Trois bouteilles monovariétales — Hojiblanca, Arbosana et Picual — pour comparer les caractères et goûter la différence d'une olive à l'autre.</p>",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}"
+                  }
+                }
+              },
+              "block_order": [
+                "h",
+                "p"
+              ]
+            },
+            "g2": {
+              "type": "group",
+              "settings": {
+                "content_direction": "row",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill"
+              },
+              "blocks": {
+                "b": {
+                  "type": "button",
+                  "settings": {
+                    "label": "Voir le coffret",
+                    "link": "shopify://products/coffret-3-bouteilles-aove-monovarietal-hojiblanca-arbosana-y-picual",
+                    "style_class": "button-custom",
+                    "custom_button_background": "{{ settings.color_palette.foreground }}",
+                    "custom_button_text": "{{ settings.color_palette.background }}",
+                    "custom_button_border": "{{ settings.color_palette.foreground }}"
+                  }
+                }
+              },
+              "block_order": [
+                "b"
+              ]
+            }
+          },
+          "block_order": [
+            "t0",
+            "g1",
+            "g2"
+          ]
+        }
+      },
+      "settings": {
+        "media_position": "left",
+        "media_width": "medium",
+        "media_height": "80svh",
+        "section_width": "page-width",
+        "extend_media": true,
+        "background_color": "{{ settings.color_palette.color3 }}",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "product_list_Iberique": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "title": {
+              "type": "_product-list-text",
+              "settings": {
+                "text": "<h3>La charcuterie ibérique</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "view_all": {
+              "type": "button",
+              "settings": {
+                "label": "Tout voir",
+                "link": "shopify://collections/embutidos",
+                "open_in_new_tab": false,
+                "style_class": "button-unstyled",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "title",
+            "view_all"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 8,
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "gallery": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "info": {
+              "type": "_product-card-group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 4,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "open_in_new_tab": false,
+                "padding-block-start": 8,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "ptitle": {
+                  "type": "product-title",
+                  "settings": {
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "pprice": {
+                  "type": "price",
+                  "settings": {
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": false,
+                    "width": "100%",
+                    "alignment": "left",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.875rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "ptitle",
+                "pprice"
+              ]
+            }
+          },
+          "block_order": [
+            "gallery",
+            "info"
+          ]
+        }
+      },
+      "settings": {
+        "collection": "embutidos",
+        "layout_type": "carousel",
+        "carousel_on_mobile": false,
+        "max_products": 8,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 20,
+        "rows_gap": 36,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 28,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 88,
+        "padding-block-end": 88
+      }
+    },
+    "section_Reassurance": {
+      "type": "section",
+      "blocks": {
+        "pillars": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "space-between",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 32,
+            "width": "fill"
+          },
+          "blocks": {
+            "p1": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 10,
+                "width": "fill"
+              },
+              "blocks": {
+                "i": {
+                  "type": "icon",
+                  "settings": {
+                    "icon": "leaf",
+                    "width": 32,
+                    "icon_color": "{{ settings.color_palette.color1 }}"
+                  }
+                },
+                "h": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Producteurs en direct</strong></p>",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Des domaines familiaux d'Andalousie et d'Estrémadure.</p>",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                }
+              },
+              "block_order": [
+                "i",
+                "h",
+                "p"
+              ]
+            },
+            "p2": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 10,
+                "width": "fill"
+              },
+              "blocks": {
+                "i": {
+                  "type": "icon",
+                  "settings": {
+                    "icon": "serving_dish",
+                    "width": 32,
+                    "icon_color": "{{ settings.color_palette.color1 }}"
+                  }
+                },
+                "h": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Qualité ibérique</strong></p>",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Huiles vierge extra et charcuteries de tradition.</p>",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                }
+              },
+              "block_order": [
+                "i",
+                "h",
+                "p"
+              ]
+            },
+            "p3": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 10,
+                "width": "fill"
+              },
+              "blocks": {
+                "i": {
+                  "type": "icon",
+                  "settings": {
+                    "icon": "truck",
+                    "width": 32,
+                    "icon_color": "{{ settings.color_palette.color1 }}"
+                  }
+                },
+                "h": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Expédition soignée</strong></p>",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Chaque colis est préparé et protégé avec attention.</p>",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                }
+              },
+              "block_order": [
+                "i",
+                "h",
+                "p"
+              ]
+            },
+            "p4": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 10,
+                "width": "fill"
+              },
+              "blocks": {
+                "i": {
+                  "type": "icon",
+                  "settings": {
+                    "icon": "lock",
+                    "width": 32,
+                    "icon_color": "{{ settings.color_palette.color1 }}"
+                  }
+                },
+                "h": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Paiement sécurisé</strong></p>",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Vos transactions sont protégées par Shopify.</p>",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}",
+                    "alignment": "center"
+                  }
+                }
+              },
+              "block_order": [
+                "i",
+                "h",
+                "p"
+              ]
+            }
+          },
+          "block_order": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        }
+      },
+      "block_order": [
+        "pillars"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "section_width": "page-width",
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 20,
+        "background_color": "{{ settings.color_palette.color3 }}",
+        "padding-block-start": 64,
+        "padding-block-end": 64
+      }
+    },
+    "section_Cta": {
+      "type": "section",
+      "blocks": {
+        "c1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Buen provecho</h2>",
+            "type_preset": "h2",
+            "text_color": "{{ settings.color_palette.background }}",
+            "alignment": "center"
+          }
+        },
+        "c2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le goût de l'Espagne, livré chez vous.</p>",
+            "type_preset": "rte",
+            "text_color": "{{ settings.color_palette.background }}",
+            "alignment": "center"
+          }
+        },
+        "c3": {
+          "type": "button",
+          "settings": {
+            "label": "Voir toute la sélection",
+            "link": "shopify://collections/all",
+            "style_class": "button-custom",
+            "custom_button_background": "{{ settings.color_palette.background }}",
+            "custom_button_text": "{{ settings.color_palette.foreground }}",
+            "custom_button_border": "{{ settings.color_palette.background }}"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "section_width": "page-width",
+        "section_height": "small",
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 20,
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "padding-block-start": 96,
+        "padding-block-end": 96
+      }
+    },
+    "custom_liquid_Anim": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n@keyframes jzFade{from{opacity:0}to{opacity:1}}\n@keyframes jzUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}\n.header-logo__image{animation:jzFade 1.4s ease both}\n[id$=\"hero_DdhBcH\"] h1{animation:jzUp 1s .35s cubic-bezier(.2,.7,.2,1) both}\n[id$=\"hero_DdhBcH\"] p{animation:jzUp 1s .55s cubic-bezier(.2,.7,.2,1) both}\n[id$=\"hero_DdhBcH\"] a{animation:jzUp 1s .8s cubic-bezier(.2,.7,.2,1) both}\n[id$=\"hero_DdhBcH\"] h1{max-width:16ch}\n[id$=\"hero_DdhBcH\"] p{max-width:46ch}\n.jz-r{opacity:0;transform:translateY(32px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}\n.jz-r.jz-in{opacity:1;transform:none}\n[id$=\"collection_list_Univers\"] .resource-list__item img,[id*=\"product_list_\"] .product-card img{transition:transform .8s cubic-bezier(.2,.7,.2,1)}\n[id$=\"collection_list_Univers\"] .resource-list__item:hover img,[id*=\"product_list_\"] .product-card:hover img{transform:scale(1.04)}\n[id$=\"collection_list_Univers\"] .resource-list__item{overflow:hidden}\n@media (prefers-reduced-motion:reduce){\n.header-logo__image,[id$=\"hero_DdhBcH\"] h1,[id$=\"hero_DdhBcH\"] p,[id$=\"hero_DdhBcH\"] a{animation:none}\n.jz-r{opacity:1;transform:none;transition:none}\n[id$=\"collection_list_Univers\"] .resource-list__item:hover img,[id*=\"product_list_\"] .product-card:hover img{transform:none}\n}\n</style>\n<script>\n(function(){\nif(window.Shopify&&Shopify.designMode)return;\nif(window.matchMedia&&matchMedia(\"(prefers-reduced-motion: reduce)\").matches)return;\nif(!(\"IntersectionObserver\" in window))return;\nfunction go(){\nvar els=document.querySelectorAll('[id$=\"collection_list_Univers\"],[id$=\"CwFqjm\"],[id$=\"product_list_Huiles\"],[id$=\"xUctDh\"],[id$=\"product_list_Iberique\"],[id$=\"section_Reassurance\"],[id$=\"section_Cta\"]');\nvar io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add(\"jz-in\");io.unobserve(x.target)}})},{threshold:.12});\nels.forEach(function(el){el.classList.add(\"jz-r\");io.observe(el)});\n}\nif(document.readyState===\"loading\")document.addEventListener(\"DOMContentLoaded\",go);else go();\n})();\n</script>",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    }
+  },
+  "order": [
+    "hero_DdhBcH",
+    "marquee_Mq1",
+    "collection_list_Univers",
+    "media_with_content_CwFqjm",
+    "product_list_Huiles",
+    "media_with_content_xUctDh",
+    "product_list_Iberique",
+    "section_Reassurance",
+    "section_Cta",
+    "custom_liquid_Anim"
+  ]
+}
