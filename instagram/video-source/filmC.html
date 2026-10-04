@@ -26,8 +26,7 @@ const eo=t=>1-Math.pow(1-clamp(t),4), eio=t=>{t=clamp(t);return t<.5?8*t*t*t*t:1
 const es=t=>{t=clamp(t);return t*t*(3-2*t)}; const prog=(t,a,b)=>clamp((t-a)/(b-a)); const $=id=>document.getElementById(id);
 // id, img, bg, box[x,y,w,h], objpos, fade mask?, card?, kicker, title, textTop, inType
 const S=[
- ['arb','n_arbequina.jpg','#E2D0B8',[0,330,1080,1590],'50% 40%',true,false,'Arbequina','Première récolte.',250,'circle'],
- ['cou','n_coupage.jpg','#FFFFFF',[-280,470,1640,1535],'50% 50%',true,false,'Picual & Arbequina','Coupage.',250,'wipe'],
+ ['cou','n_coupage.jpg','#FFFFFF',[-280,470,1640,1535],'50% 50%',true,false,'Picual & Arbequina','Coupage.',250,'circle'],
  ['tri','n_trio.jpg','#FCF3F3',[0,0,1080,1340],'50% 50%',true,false,'Hojiblanca · Arbosana · Picual','Trois variétés.',1470,'fade'],
  ['eco','n_eco.jpg','#D6D2D2',[-500,560,1740,1134],'50% 50%',true,false,'Arbequina','Écologique.',250,'wipe'],
  ['tin','n_tins.jpg','#ECE8D8',[180,530,720,1120],'50% 50%',false,true,'Arbequina · Pressée à froid','Le grand format.',230,'fade'],

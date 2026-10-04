@@ -31,8 +31,8 @@ const DURATION=13.0;
 function word(el,w,t,st,en){ if(el.dataset.w!==w){el.dataset.w=w;el.innerHTML='';[...w].forEach(c=>{const s=document.createElement('span');s.className='ch';s.textContent=c===' '?' ':c;el.appendChild(s)})}
  [...el.children].forEach((c,i)=>{const p=eo(prog(t,st+i*.03,st+.7+i*.03)), q=en?eo(prog(t,en+i*.012,en+.4+i*.012)):0;
   c.style.opacity=p*(1-q); c.style.transform=`translateY(${(1-p)*40-q*24}px)`; c.style.filter=`blur(${(1-p)*10+q*10}px)`;});}
-const IM=['n_arbequina.jpg','n_coupage.jpg','n_eco.jpg','n_tins.jpg','n_ceramic.jpg','n_trio.jpg'];
-const OP=['50% 45%','30% 50%','60% 50%','50% 50%','50% 45%','50% 50%'];
+const IM=['n_coupage.jpg','n_eco.jpg','n_tins.jpg','n_ceramic.jpg','n_trio.jpg'];
+const OP=['30% 50%','60% 50%','50% 50%','50% 45%','50% 50%'];
 const C=IM.map((src,i)=>{const d=document.createElement('div');d.className='card';d.innerHTML=`<img src="hq/${src}" style="object-position:${OP[i]}">`;$('cards').appendChild(d);return d;});
 function render(t){
   const f=Math.floor(t*24); $('turb').setAttribute('seed',f%97); $('grain').style.transform=`translate(${(f*37)%60-30}px,${(f*53)%60-30}px)`;
@@ -44,7 +44,7 @@ function render(t){
   if(kOn){ $('kk').textContent="Huile d'olive vierge extra"; $('kk').style.opacity=eo(prog(t,2.7,3.1))*(1-eo(prog(t,8.9,9.2)));
     if(t<5.9) word($('t1'),'Directement',t,2.7,5.5); else word($('t1'),"En Andalousie.",t,5.9,8.9);
     if(t<5.9 && t>=5.5){} }
-  C.forEach((c,i)=>{const st=2.9+i*.8; const p=eb(prog(t,st,st+.7));
+  C.forEach((c,i)=>{const st=2.9+i*.95; const p=eb(prog(t,st,st+.7));
     const fan=(i-(C.length-1)/2); // final fan layout
     const spread=0; // after all in, fan out
     const gather=eio(prog(t,8.5,9.25));
