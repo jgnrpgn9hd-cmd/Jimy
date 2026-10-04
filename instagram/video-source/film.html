@@ -128,8 +128,8 @@ for(let i=0;i<40;i++){const p=document.createElement('div');p.className='p9';$('
 // ---------- timeline ----------
 const S=[ // [id, start, end]
  ['s1',0,2.2],['s2',2.2,4.6],['s3',4.6,7.6],['s4',7.6,8.9],['s5',8.9,10.2],
- ['s6',10.2,12.4],['s7',12.4,14.6],['s8',14.6,16.0],['s9',16.0,18.2],['s10',18.2,20.0]];
-const DURATION=20.0;
+ ['s6',10.2,12.4],['s7',12.4,14.6],['s9',14.6,16.8],['s10',16.8,18.6]];
+const DURATION=18.6;
 
 function render(t){
   for(const [id,a,b] of S){ $(id).style.display=(t>=a&&t<b)?'flex':'none';
@@ -172,7 +172,7 @@ function render(t){
    const p=eo(prog(l,.15,.7)); $('c8').style.opacity=p; $('c8').style.transform=`translateY(${(1-p)*40}px)`;}
 
   // S9: particles converge into the wordmark
-  {const l=t-16.0, c=eio(prog(l,0,1.1));
+  {const l=t-14.6, c=eio(prog(l,0,1.1));
    parts.forEach(o=>{const a=o.a+l*o.sp, r=lerp(o.r,0,c);
      o.el.style.width=o.el.style.height=o.s*(1-c*.8)+'px';
      o.el.style.transform=`translate(${Math.cos(a)*r}px,${Math.sin(a)*r}px)`; o.el.style.opacity=1-prog(l,.9,1.2)});
@@ -180,7 +180,7 @@ function render(t){
    const g=eo(prog(l,1.3,1.8)); $('tag').style.opacity=g; $('rule').style.width=lerp(0,320,g)+'px';}
 
   // S10: url
-  {const l=t-18.2, p=eo(prog(l,0,.5)); $('u1').style.opacity=p; $('u1').style.transform=`translateY(${(1-p)*40}px)`;
+  {const l=t-16.8, p=eo(prog(l,0,.5)); $('u1').style.opacity=p; $('u1').style.transform=`translateY(${(1-p)*40}px)`;
    const q=eo(prog(l,.3,.8)); $('u2').style.opacity=q;}
 }
 window.render=render; window.DURATION=DURATION;
