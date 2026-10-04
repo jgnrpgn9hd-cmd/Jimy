@@ -4,12 +4,12 @@ const fs = require('fs');
   const mode = process.argv[2] || 'preview';
   const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--no-sandbox'] });
   const p = await b.newPage({ viewport: { width: 1080, height: 1920 } });
-  await p.goto('file://' + __dirname + '/film.html');
+  await p.goto('file://' + __dirname + '/' + (process.env.FILM || 'film.html'));
   await p.evaluate(() => document.fonts.ready);
   await p.waitForTimeout(800);
   if (mode === 'preview') {
     fs.mkdirSync('prev', { recursive: true });
-    const ts = [4.6, 5.6, 16.4, 3.0];
+    const ts = [0.9, 1.5, 2.6, 3.8, 4.7, 6.2, 8.0, 9.9, 11.8, 12.9, 13.8, 15.9, 18.0];
     for (const t of ts) { await p.evaluate(t => render(t), t); await p.screenshot({ path: `prev/t${t.toFixed(1)}.jpg`, type: 'jpeg', quality: 70 }); }
   } else {
     fs.mkdirSync('frames', { recursive: true });
