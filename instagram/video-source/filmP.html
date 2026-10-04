@@ -11,8 +11,8 @@ body{font-family:"Instrument Sans",sans-serif;color:#1F241C}
 #grain{position:absolute;left:-60px;top:-60px;opacity:.05;mix-blend-mode:multiply;z-index:100;pointer-events:none}
 </style></head><body>
 <svg id="grain" width="1200" height="2040"><filter id="n"><feTurbulence id="turb" type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="1"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
-<div class="cap serif" id="l1" style="top:760px;font-size:140px"></div>
-<div class="cap serif" id="l2" style="top:900px;font-size:140px;color:#4B523C"></div>
+<div class="cap serif" id="l1" style="top:780px;font-size:110px"></div>
+<div class="cap serif" id="l2" style="top:900px;font-size:110px;color:#4B523C"></div>
 <div class="cap k" id="kk" style="top:250px"></div>
 <div class="cap serif" id="t1" style="top:300px;font-size:104px"></div>
 <div id="cards"></div>
@@ -20,7 +20,7 @@ body{font-family:"Instrument Sans",sans-serif;color:#1F241C}
   <img id="lg" src="img/logo_cream.png" style="width:440px">
   <div id="u1" style="margin-top:50px;font-size:56px;font-weight:600;letter-spacing:-1px">jimenez-shop.com</div>
   <div id="u2" style="margin-top:16px;font-size:36px;color:#C9AE7C">@jimenez_shop_fr</div>
-  <div id="u3" class="serif" style="margin-top:110px;font-size:64px;text-align:center">Un partage aide<br>beaucoup. Merci !</div>
+  <div id="u3" style="margin-top:110px;font-size:26px;letter-spacing:8px;text-transform:uppercase;color:#E6DDCE">Commande en ligne · Livraison en France</div>
 </div>
 <script>
 const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)), lerp=(a,b,t)=>a+(b-a)*t;
@@ -37,12 +37,12 @@ const C=IM.map((src,i)=>{const d=document.createElement('div');d.className='card
 function render(t){
   const f=Math.floor(t*24); $('turb').setAttribute('seed',f%97); $('grain').style.transform=`translate(${(f*37)%60-30}px,${(f*53)%60-30}px)`;
   // intro 0..2.6
-  word($('l1'),'Ça y est,',t,.15,2.3); word($('l2'),'c\'est lancé.',t,.65,2.35);
+  word($('l1'),'Une nouvelle adresse',t,.15,2.3); word($('l2'),'pour l\'huile d\'olive.',t,.65,2.35);
   // cards 2.6..9.2
   const kOn=t>2.5&&t<9.4;
   $('kk').style.display=$('t1').style.display=kOn?'block':'none';
   if(kOn){ $('kk').textContent="Huile d'olive vierge extra"; $('kk').style.opacity=eo(prog(t,2.7,3.1))*(1-eo(prog(t,8.9,9.2)));
-    if(t<5.9) word($('t1'),'La boutique est',t,2.7,5.5); else word($('t1'),"Directement d'Andalousie.",t,5.9,8.9);
+    if(t<5.9) word($('t1'),'Directement',t,2.7,5.5); else word($('t1'),"En Andalousie.",t,5.9,8.9);
     if(t<5.9 && t>=5.5){} }
   C.forEach((c,i)=>{const st=2.9+i*.8; const p=eb(prog(t,st,st+.7));
     const fan=(i-(C.length-1)/2); // final fan layout
@@ -55,7 +55,7 @@ function render(t){
     c.style.display=t>=st-.05&&t<9.4?'block':'none'; c.style.zIndex=10+i;
     c.style.transform=`translate(${x}px,${y}px) rotate(${r}deg) scale(${s})`; c.style.opacity=clamp(p*3);});
   // "en ligne" word between 3.7 and 5.5 handled by line 2
-  if(t>3.6&&t<5.9){ const el=$('l2'); el.style.top='420px'; el.style.fontSize='104px'; word(el,'en ligne.',t,3.7,5.5);} else { $('l2').style.top='900px'; $('l2').style.fontSize='140px'; }
+  if(t>2.9&&t<5.9){ const el=$('l2'); el.style.top='420px'; el.style.fontSize='104px'; word(el,'du producteur.',t,3.0,5.5);} else { $('l2').style.top='900px'; $('l2').style.fontSize='110px'; }
   // end 9.2..
   const eOn=t>=9.2; $('end').style.display=eOn?'flex':'none'; $('end').style.zIndex=50;
   if(eOn){ $('end').style.clipPath=`circle(${eio(prog(t,9.2,9.8))*120}% at 50% 50%)`;
