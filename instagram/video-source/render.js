@@ -9,11 +9,11 @@ const fs = require('fs');
   await p.waitForTimeout(800);
   if (mode === 'preview') {
     fs.mkdirSync('prev', { recursive: true });
-    const ts = [0.9, 1.5, 2.6, 3.8, 4.7, 6.2, 8.0, 9.9, 11.8, 12.9, 13.8, 15.9, 18.0];
+    const ts = [0.6, 1.1, 4.7, 6.0, 12.9];
     for (const t of ts) { await p.evaluate(t => render(t), t); await p.screenshot({ path: `prev/t${t.toFixed(1)}.jpg`, type: 'jpeg', quality: 70 }); }
   } else {
     fs.mkdirSync('frames', { recursive: true });
-    const fps = 30, D = await p.evaluate(() => DURATION), N = Math.round(D * fps);
+    const fps = +(process.env.FPS||30), D = await p.evaluate(() => DURATION), N = Math.round(D * fps);
     for (let i = 0; i < N; i++) { await p.evaluate(t => render(t), i / fps); await p.screenshot({ path: `frames/f${String(i).padStart(4, '0')}.jpg`, type: 'jpeg', quality: 92 }); }
     console.log('frames', N);
   }
