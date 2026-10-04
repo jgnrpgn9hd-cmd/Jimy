@@ -59,7 +59,7 @@ const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)), lerp=(a,b,t)=>a+(b-a)*t;
 const eo=t=>1-Math.pow(1-clamp(t),4), eio=t=>{t=clamp(t);return t<.5?8*t*t*t*t:1-Math.pow(-2*t+2,4)/2};
 const eb=t=>{t=clamp(t);const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(t-1,3)+c1*Math.pow(t-1,2)};
 const prog=(t,a,b)=>clamp((t-a)/(b-a)); const $=id=>document.getElementById(id);
-const DURATION=10.2;
+const DURATION=11.6;
 let seed=11;const rnd=()=>{seed=(seed*16807)%2147483647;return seed/2147483647};
 
 // ---- olive tree svg factory
@@ -131,25 +131,25 @@ function render(t){
     gv.style.opacity=1-eio(prog(t,5.9,6.25));
   }
   // ---------- swap 6.0..8.6
-  const sw=$('sw'); const sOn=t>=5.9&&t<8.75; sw.style.display=sOn?'block':'none';
+  const sw=$('sw'); const sOn=t>=5.9&&t<10.15; sw.style.display=sOn?'block':'none';
   if(sOn){
-    sw.style.opacity=eo(prog(t,5.9,6.2))*(1-eio(prog(t,8.5,8.75)));
+    sw.style.opacity=eo(prog(t,5.9,6.2))*(1-eio(prog(t,9.9,10.15)));
     let d='M0 10';for(let x=0;x<=380;x+=10){d+=` L${x} ${(10+Math.sin(x/14+t*6)*5).toFixed(1)}`} $('waveP').setAttribute('d',d);
     $('wave').style.clipPath=`inset(0 ${(1-eo(prog(t,6.0,6.6)))*100}% 0 0)`;
-    const per=.5, i=clamp(Math.floor((t-6.15)/per),0,VARS.length-1), lt=(t-6.15)-i*per;
+    const per=.78, i=clamp(Math.floor((t-6.15)/per),0,VARS.length-1), lt=(t-6.15)-i*per;
     const [w,c,sub]=VARS[i]; const v=$('var');
     if(v.dataset.w!==w){v.dataset.w=w; v.innerHTML=''; [...w].forEach(ch=>{const s=document.createElement('span');s.className='ch';s.textContent=ch;v.appendChild(s)});
       const dot=document.createElement('span');dot.id='dot';dot.style.cssText=`position:absolute;right:-30px;top:-6px;width:26px;height:34px;border-radius:50%;background:${c};transform:rotate(25deg)`;v.appendChild(dot);
       $('sub').textContent=sub;}
-    [...v.querySelectorAll('.ch')].forEach((s,k)=>{const p=eo(prog(lt,k*.018,.2+k*.018)); s.style.transform=`translateY(${(1-p)*40}px)`; s.style.opacity=t<6.15?0:p; s.style.filter=`blur(${(1-p)*6}px)`;});
+    [...v.querySelectorAll('.ch')].forEach((s,k)=>{const p=eo(prog(lt,k*.025,.35+k*.025)); s.style.transform=`translateY(${(1-p)*40}px)`; s.style.opacity=t<6.15?0:p; s.style.filter=`blur(${(1-p)*6}px)`;});
     const dp=eb(prog(lt,.08,.3)); $('dot').style.transform=`rotate(25deg) scale(${t<6.15?0:dp})`;
     $('sub').style.opacity=t<6.15?0:eo(prog(lt,.1,.3));
   }
   // ---------- end 8.6..
-  const en=$('en'); const eOn=t>=8.6&&t<9.55; en.style.display=eOn?'flex':'none';
-  if(eOn){const p=eo(prog(t,8.65,9.1)); $('lg').style.clipPath=`inset(-10% ${(1-eio(prog(t,8.65,9.2)))*100}% -10% 0)`; $('en2').style.opacity=p; $('en2').style.transform=`translateY(${(1-p)*20}px)`;}
-  const e3=$('en3'); e3.style.display=t>=9.5?'flex':'none';
-  if(t>=9.5){e3.style.clipPath=`circle(${eio(prog(t,9.5,9.85))*120}% at 50% 50%)`;}
+  const en=$('en'); const eOn=t>=10.0&&t<10.95; en.style.display=eOn?'flex':'none';
+  if(eOn){const p=eo(prog(t,10.05,10.5)); $('lg').style.clipPath=`inset(-10% ${(1-eio(prog(t,10.05,10.6)))*100}% -10% 0)`; $('en2').style.opacity=p; $('en2').style.transform=`translateY(${(1-p)*20}px)`;}
+  const e3=$('en3'); e3.style.display=t>=10.9?'flex':'none';
+  if(t>=10.9){e3.style.clipPath=`circle(${eio(prog(t,10.9,11.3))*120}% at 50% 50%)`;}
 }
 window.render=render; window.DURATION=DURATION; render(0);
 </script></body></html>
