@@ -20,7 +20,7 @@ body{font-family:"Instrument Sans",sans-serif;color:#1F241C}
   <img id="lg" src="img/logo_cream.png" style="width:440px">
   <div id="u1" style="margin-top:50px;font-size:56px;font-weight:600;letter-spacing:-1px">jimenez-shop.com</div>
   <div id="u2" style="margin-top:16px;font-size:36px;color:#C9AE7C">@jimenez_shop_fr</div>
-  <div id="u3" class="serif" style="margin-top:110px;font-size:64px;text-align:center">Un partage m'aiderait<br>beaucoup. Merci !</div>
+  <div id="u3" class="serif" style="margin-top:110px;font-size:64px;text-align:center">Un partage aide<br>beaucoup. Merci !</div>
 </div>
 <script>
 const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)), lerp=(a,b,t)=>a+(b-a)*t;
@@ -37,12 +37,12 @@ const C=IM.map((src,i)=>{const d=document.createElement('div');d.className='card
 function render(t){
   const f=Math.floor(t*24); $('turb').setAttribute('seed',f%97); $('grain').style.transform=`translate(${(f*37)%60-30}px,${(f*53)%60-30}px)`;
   // intro 0..2.6
-  word($('l1'),'Ça y est,',t,.15,2.3); word($('l2'),'je me lance.',t,.65,2.35);
+  word($('l1'),'Ça y est,',t,.15,2.3); word($('l2'),'c\'est lancé.',t,.65,2.35);
   // cards 2.6..9.2
   const kOn=t>2.5&&t<9.4;
   $('kk').style.display=$('t1').style.display=kOn?'block':'none';
   if(kOn){ $('kk').textContent="Huile d'olive vierge extra"; $('kk').style.opacity=eo(prog(t,2.7,3.1))*(1-eo(prog(t,8.9,9.2)));
-    if(t<5.9) word($('t1'),'Ma boutique est',t,2.7,5.5); else word($('t1'),"d'Andalousie.",t,5.9,8.9);
+    if(t<5.9) word($('t1'),'La boutique est',t,2.7,5.5); else word($('t1'),"Directement d'Andalousie.",t,5.9,8.9);
     if(t<5.9 && t>=5.5){} }
   C.forEach((c,i)=>{const st=2.9+i*.8; const p=eb(prog(t,st,st+.7));
     const fan=(i-(C.length-1)/2); // final fan layout
