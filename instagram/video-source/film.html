@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<link href="fonts/fonts.css" rel="stylesheet">
+<style>
+:root{--cream:#F6F1E7;--ink:#1F241C;--olive:#4B523C;--gold:#A88B57;--beige:#E6DDCE}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--cream)}
+body{font-family:"Instrument Sans",sans-serif;color:var(--ink)}
+.scene{position:absolute;inset:0;overflow:hidden;display:none}
+.center{display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center}
+.serif{font-family:"Instrument Serif",serif}
+/* S1 orbit */
+#s1{background:var(--olive)}
+.dot{position:absolute;left:540px;top:960px;border-radius:50%;background:var(--gold)}
+/* S2 marquee */
+#s2{background:var(--olive)}
+#band{position:absolute;left:-400px;top:420px;width:1880px;height:1080px;background:var(--gold);transform:rotate(-9deg);overflow:hidden}
+.row{white-space:nowrap;font-weight:700;font-size:150px;line-height:1;color:var(--ink);letter-spacing:-2px;height:216px;display:flex;align-items:center}
+/* S3 cards */
+#s3{background:var(--cream)}
+#grid{position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:540px 960px}
+.card{position:absolute;border-radius:28px;overflow:hidden;background:#fff;box-shadow:0 20px 50px rgba(31,36,28,.12);display:flex;flex-direction:column;justify-content:flex-end;padding:34px}
+.card.dark{background:var(--olive);color:var(--cream)}
+.card.gold{background:var(--gold);color:var(--ink)}
+.card .k{font-size:22px;letter-spacing:4px;text-transform:uppercase;opacity:.7;margin-bottom:12px}
+.card .n{font-size:44px;font-weight:600;line-height:1.1}
+.card .p{font-size:40px;margin-top:10px}
+.card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+/* big words */
+.big{font-weight:700;letter-spacing:-6px;line-height:.95}
+#s4{background:var(--cream)}
+#s5{background:var(--olive);color:var(--gold)}
+/* photo scenes */
+.full{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(20,24,18,.72),rgba(20,24,18,0) 55%)}
+.cap{position:absolute;left:80px;right:80px;bottom:180px;color:var(--cream)}
+.cap .k{font-size:28px;letter-spacing:6px;text-transform:uppercase;color:#E6DDCE}
+.cap .t{font-size:84px;font-weight:600;line-height:1.05;margin-top:18px}
+/* S7 */
+#s7{background:var(--ink);color:var(--cream)}
+.var{font-size:96px;font-weight:600;line-height:1.25}
+.var span{color:var(--gold)}
+/* S9 logo */
+#s9{background:var(--olive);color:var(--cream)}
+.p9{position:absolute;left:540px;top:900px;width:14px;height:14px;border-radius:50%;background:var(--gold)}
+#word{font-size:190px;letter-spacing:-3px;font-weight:500}
+#tag{font-size:30px;letter-spacing:9px;text-transform:uppercase;color:var(--beige);margin-top:26px}
+#rule{width:0;height:2px;background:var(--gold);margin-top:40px}
+/* S10 */
+#s10{background:var(--cream)}
+</style></head><body>
+
+<div class="scene" id="s1"></div>
+
+<div class="scene" id="s2"><div id="band"></div></div>
+
+<div class="scene" id="s3"><div id="grid"></div></div>
+
+<div class="scene center" id="s4"><div class="big" id="w4" style="font-size:210px">Récoltée<br>tôt.</div></div>
+
+<div class="scene center" id="s5"><div class="big" id="w5" style="font-size:200px">Pressée<br>à froid.</div></div>
+
+<div class="scene" id="s6"><img class="full" id="i6" src="img/bottle_warm.png"><div class="shade"></div>
+  <div class="cap" id="c6"><div class="k">Arbequina</div><div class="t">Première<br>récolte.</div></div></div>
+
+<div class="scene center" id="s7">
+  <div class="big" id="w7" style="font-size:230px">3 olives.</div>
+  <div id="vars" style="margin-top:80px">
+    <div class="var" id="v1">Hojiblanca <span>· ronde</span></div>
+    <div class="var" id="v2">Arbosana <span>· fruitée</span></div>
+    <div class="var" id="v3">Picual <span>· piquante</span></div>
+  </div>
+  <div id="cof" style="margin-top:90px;font-size:38px;letter-spacing:8px;text-transform:uppercase;color:var(--beige)">Coffret dégustation · 42 €</div>
+</div>
+
+<div class="scene" id="s8"><img class="full" id="i8" src="img/grove.png"><div class="shade" style="background:linear-gradient(to top,rgba(246,241,231,.0),rgba(246,241,231,0))"></div>
+  <div class="cap" id="c8" style="color:var(--ink);bottom:auto;top:260px;text-align:center"><div class="k" style="color:var(--olive)">Directement du domaine</div><div class="t" style="font-size:150px;letter-spacing:-4px;font-weight:700">Andalousie.</div></div></div>
+
+<div class="scene center" id="s9">
+  <div id="parts"></div>
+  <div id="word">Jiménez</div>
+  <div id="tag">Huile d'olive vierge extra</div>
+  <div id="rule"></div>
+</div>
+
+<div class="scene center" id="s10">
+  <div id="u1" style="font-size:96px;font-weight:600;letter-spacing:-2px">jimenez-shop.com</div>
+  <div id="u2" style="font-size:40px;margin-top:30px;color:var(--olive)">@jimenez_shop_fr</div>
+</div>
+
+<script>
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const lerp=(a,b,t)=>a+(b-a)*t;
+const eo=t=>1-Math.pow(1-clamp(t),3);            // ease out
+const eio=t=>{t=clamp(t);return t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2};
+const prog=(t,a,b)=>clamp((t-a)/(b-a));
+const $=id=>document.getElementById(id);
+
+// ---------- build static content ----------
+// S1 dots
+const dots=[];
+for(let i=0;i<12;i++){const d=document.createElement('div');d.className='dot';$('s1').appendChild(d);dots.push(d)}
+// S2 marquee rows
+const words=["Arbequina","Coupage","Hojiblanca","Arbosana","Picual","Andalousie"];
+const rows=[];
+for(let r=0;r<5;r++){const el=document.createElement('div');el.className='row';
+  let s='';for(let k=0;k<6;k++){for(const w of words){s+=w+'  ◆  '}}
+  el.textContent=s;$('band').appendChild(el);rows.push(el)}
+// S3 cards: real products and prices from the site
+const cards=[
+ {x:60,y:180,w:470,h:620,img:'img/bottle_cream.png'},
+ {x:560,y:180,w:460,h:300,cls:'dark',k:'Arbequina',n:'Tous les jours',p:'14 €'},
+ {x:560,y:510,w:460,h:290,cls:'',k:'Première récolte',n:'Pomme verte, amande',p:'23 €'},
+ {x:60,y:830,w:460,h:300,cls:'gold',k:'Coupage',n:'Rond et équilibré',p:'13 €'},
+ {x:550,y:830,w:470,h:620,img:'img/bottle_close.png'},
+ {x:60,y:1160,w:460,h:290,cls:'',k:'Arbequina bio',n:'1 L',p:'12 €'},
+ {x:60,y:1480,w:960,h:280,cls:'dark',k:'Coffret dégustation',n:'Hojiblanca · Arbosana · Picual',p:'42 €'},
+];
+const cardEls=cards.map(c=>{const e=document.createElement('div');e.className='card '+(c.cls||'');
+  Object.assign(e.style,{left:c.x+'px',top:c.y+'px',width:c.w+'px',height:c.h+'px'});
+  e.innerHTML=c.img?`<img src="${c.img}">`:`<div class="k">${c.k}</div><div class="n">${c.n}</div><div class="p">${c.p}</div>`;
+  $('grid').appendChild(e);return e});
+// S9 particles
+const parts=[];
+for(let i=0;i<40;i++){const p=document.createElement('div');p.className='p9';$('parts').appendChild(p);
+  const a=Math.random()*Math.PI*2, r=380+Math.random()*520;parts.push({el:p,a,r,s:6+Math.random()*16,sp:.4+Math.random()})}
+
+// ---------- timeline ----------
+const S=[ // [id, start, end]
+ ['s1',0,2.2],['s2',2.2,4.6],['s3',4.6,7.6],['s4',7.6,8.9],['s5',8.9,10.2],
+ ['s6',10.2,12.4],['s7',12.4,14.6],['s8',14.6,16.0],['s9',16.0,18.2],['s10',18.2,20.0]];
+const DURATION=20.0;
+
+function render(t){
+  for(const [id,a,b] of S){ $(id).style.display=(t>=a&&t<b)?'flex':'none';
+    if($(id).classList.contains('center')===false && t>=a && t<b) $(id).style.display='block'; }
+
+  // S1: gold olives orbit and converge
+  {const l=t-0, n=dots.length;
+   dots.forEach((d,i)=>{const a=i/n*Math.PI*2+l*1.6, r=lerp(430,40,eio(prog(l,0.9,2.0)));
+     const s=lerp(18,i%3?10:26,0.5)*(1+ (i%4)*.25);
+     d.style.width=d.style.height=s+'px';
+     d.style.transform=`translate(${Math.cos(a)*r-s/2}px,${Math.sin(a)*r*0.9-s/2}px)`;
+     d.style.opacity=eo(prog(l,0,.5));});}
+
+  // S2: marquee rows slide in alternating directions
+  {const l=t-2.2;
+   rows.forEach((r,i)=>{const dir=i%2?1:-1; r.style.transform=`translateX(${dir*(-300+l*260)-600}px)`});
+   $('band').style.transform=`rotate(-9deg) scale(${lerp(1.15,1,eo(prog(l,0,.6)))})`;}
+
+  // S3: cards pop in, camera drifts
+  {const l=t-4.6;
+   cardEls.forEach((e,i)=>{const p=eo(prog(l,i*.12,i*.12+.6));
+     e.style.opacity=p; e.style.transform=`translateY(${(1-p)*80}px) scale(${lerp(.92,1,p)})`});
+   $('grid').style.transform=`scale(${lerp(1.08,0.96,eio(prog(l,0,3)))}) rotate(${lerp(-2,1,eio(prog(l,0,3)))}deg)`;}
+
+  // S4/S5: big words
+  {const l=t-7.6, p=eo(prog(l,0,.5)); $('w4').style.transform=`scale(${lerp(1.25,1,p)})`; $('w4').style.opacity=p;}
+  {const l=t-8.9, p=eo(prog(l,0,.5)); $('w5').style.transform=`translateY(${(1-p)*90}px)`; $('w5').style.opacity=p;}
+
+  // S6: bottle photo, slow zoom + caption
+  {const l=t-10.2; $('i6').style.transform=`scale(${lerp(1.18,1.04,eio(prog(l,0,2.2)))})`;
+   const p=eo(prog(l,.3,.9)); $('c6').style.opacity=p; $('c6').style.transform=`translateY(${(1-p)*40}px)`;}
+
+  // S7: 3 olives + varieties
+  {const l=t-12.4; const p=eo(prog(l,0,.45)); $('w7').style.opacity=p; $('w7').style.transform=`scale(${lerp(1.2,1,p)})`;
+   ['v1','v2','v3'].forEach((id,i)=>{const q=eo(prog(l,.5+i*.25,1+i*.25)); $(id).style.opacity=q; $(id).style.transform=`translateX(${(1-q)*-120}px)`});
+   const c=eo(prog(l,1.4,1.9)); $('cof').style.opacity=c;}
+
+  // S8: engraving grove pan + title
+  {const l=t-14.6; $('i8').style.transform=`scale(${lerp(1.35,1.15,eio(prog(l,0,1.4)))}) translateX(${lerp(40,-40,prog(l,0,1.4))}px)`;
+   const p=eo(prog(l,.15,.7)); $('c8').style.opacity=p; $('c8').style.transform=`translateY(${(1-p)*40}px)`;}
+
+  // S9: particles converge into the wordmark
+  {const l=t-16.0, c=eio(prog(l,0,1.1));
+   parts.forEach(o=>{const a=o.a+l*o.sp, r=lerp(o.r,0,c);
+     o.el.style.width=o.el.style.height=o.s*(1-c*.8)+'px';
+     o.el.style.transform=`translate(${Math.cos(a)*r}px,${Math.sin(a)*r}px)`; o.el.style.opacity=1-prog(l,.9,1.2)});
+   const w=eo(prog(l,.9,1.5)); $('word').style.opacity=w; $('word').style.transform=`scale(${lerp(.85,1,w)})`; $('word').style.filter=`blur(${(1-w)*12}px)`;
+   const g=eo(prog(l,1.3,1.8)); $('tag').style.opacity=g; $('rule').style.width=lerp(0,320,g)+'px';}
+
+  // S10: url
+  {const l=t-18.2, p=eo(prog(l,0,.5)); $('u1').style.opacity=p; $('u1').style.transform=`translateY(${(1-p)*40}px)`;
+   const q=eo(prog(l,.3,.8)); $('u2').style.opacity=q;}
+}
+window.render=render; window.DURATION=DURATION;
+render(0);
+</script>
+</body></html>
