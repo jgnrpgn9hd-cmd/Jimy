@@ -9,7 +9,7 @@ const fs = require('fs');
   await p.waitForTimeout(800);
   if (mode === 'preview') {
     fs.mkdirSync('prev', { recursive: true });
-    const ts = [0.3, 0.55, 0.85, 1.6, 3.15, 4.3, 7.15];
+    const ts = (process.env.TS||'0.3').split(',').map(Number);
     for (const t of ts) { await p.evaluate(t => render(t), t); await p.screenshot({ path: `prev/t${t.toFixed(1)}.jpg`, type: 'jpeg', quality: 70 }); }
   } else {
     fs.mkdirSync('frames', { recursive: true });
