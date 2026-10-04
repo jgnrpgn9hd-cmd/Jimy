@@ -1,0 +1,155 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><link href="fonts/fonts.css" rel="stylesheet"><style>
+:root{--cream:#F6F1E7;--ink:#1F241C;--olive:#4B523C;--olive2:#3A4030;--gold:#A88B57;--gold2:#C9AE7C;--beige:#E6DDCE}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--cream)}
+body{font-family:"Instrument Sans",sans-serif;color:var(--ink)}
+.L{position:absolute;inset:0;overflow:hidden}
+#grain{position:absolute;left:-60px;top:-60px;opacity:.06;mix-blend-mode:multiply;z-index:100;pointer-events:none}
+.ch{display:inline-block}
+.tree{position:absolute;left:0;top:0;transform-origin:50% 100%}
+.serif{font-family:"Instrument Serif",serif}
+</style></head><body>
+<svg id="grain" width="1200" height="2040"><filter id="n"><feTurbulence id="turb" type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="1"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
+
+<!-- GROVE (bottom layer) -->
+<div class="L" id="grove" style="background:linear-gradient(#EFE7D6 0%,#F3EADA 38%,#E6D8BC 64.1%,#D2BC93 100%)">
+  <svg id="gnd" width="1080" height="1920" style="position:absolute;left:0;top:0"></svg>
+  <div id="trees"></div>
+  <div id="sun" style="position:absolute;left:390px;top:1030px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(255,244,214,.9),rgba(255,244,214,0) 70%)"></div>
+  <div id="gtxt" style="z-index:3000;position:absolute;left:0;right:0;top:300px;text-align:center;font-size:66px;font-weight:500;letter-spacing:-1px;color:var(--ink)"></div>
+</div>
+
+<!-- OPENING: une olive -->
+<div class="L" id="op" style="background:var(--cream)">
+  <div id="w1" style="position:absolute;left:0;right:0;top:900px;text-align:center;font-size:72px;font-weight:500;letter-spacing:-1.5px;white-space:nowrap"><span id="pre">Une&nbsp;</span><span id="oSlot" class="ch" style="width:44px"></span><span id="rest">live</span></div>
+  <svg id="bigO" width="1080" height="1920" style="position:absolute;left:0;top:0;overflow:visible">
+    <defs><radialGradient id="og" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#8C9A5E"/><stop offset=".55" stop-color="#5E6A3C"/><stop offset="1" stop-color="#2F3620"/></radialGradient>
+    <mask id="hole"><rect x="-5000" y="-5000" width="11000" height="11000" fill="#fff"/><circle id="holeC" cx="540" cy="960" r="0" fill="#000"/></mask></defs>
+    <g id="oG" mask="url(#hole)">
+      <rect id="bgDark" x="-10" y="-10" width="1100" height="1940" fill="#1F241C" opacity="0"/>
+      <g id="olv"><ellipse rx="34" ry="46" fill="url(#og)"/><ellipse id="hl" cx="-11" cy="-18" rx="7" ry="11" fill="#fff" opacity=".85"/>
+        <path id="stem" d="M2 -46 C 6 -60, 14 -66, 22 -70" stroke="#3A3328" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+        <path id="leaf" d="M20 -69 C 40 -86, 70 -86, 86 -78 C 66 -66, 40 -62, 20 -69 Z" fill="#7E8C5E"/></g>
+    </g>
+    <circle id="ring" cx="540" cy="960" r="0" fill="none" stroke="#C9AE7C" stroke-width="4" opacity="0"/>
+  </svg>
+</div>
+
+<!-- SWAP: Huile d'olive ___ -->
+<div class="L" id="sw" style="background:var(--cream);display:none">
+  <div style="position:absolute;left:0;right:0;top:900px;display:flex;justify-content:center;align-items:baseline;gap:22px;font-size:68px;letter-spacing:-1.5px;white-space:nowrap">
+    <span style="font-weight:400;position:relative">Huile d'olive<svg id="wave" width="380" height="22" style="position:absolute;left:0;top:84px"><path id="waveP" d="" stroke="#A88B57" stroke-width="3" fill="none"/></svg></span>
+    <span id="var" style="font-weight:700;position:relative;display:inline-block;min-width:10px"></span>
+  </div>
+  <div id="sub" style="position:absolute;left:0;right:0;top:1040px;text-align:center;font-size:30px;letter-spacing:6px;text-transform:uppercase;color:var(--gold);font-weight:500"></div>
+</div>
+
+<!-- END -->
+<div class="L" id="en" style="background:var(--cream);display:none;display:flex;align-items:center;justify-content:center;flex-direction:column">
+  <img id="lg" src="img/logo_ink.png" style="width:420px">
+  <div id="en2" style="margin-top:40px;font-size:30px;letter-spacing:7px;text-transform:uppercase;color:var(--olive)">jimenez-shop.com</div>
+</div>
+<div class="L" id="en3" style="background:var(--ink);display:none;align-items:center;justify-content:center;flex-direction:column;color:var(--cream)">
+  <img src="img/logo_cream.png" style="width:300px">
+  <div style="margin-top:34px;font-size:26px;letter-spacing:7px;text-transform:uppercase;color:var(--gold2)">Huile d'olive vierge extra · Andalousie</div>
+</div>
+
+<script>
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)), lerp=(a,b,t)=>a+(b-a)*t;
+const eo=t=>1-Math.pow(1-clamp(t),4), eio=t=>{t=clamp(t);return t<.5?8*t*t*t*t:1-Math.pow(-2*t+2,4)/2};
+const eb=t=>{t=clamp(t);const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(t-1,3)+c1*Math.pow(t-1,2)};
+const prog=(t,a,b)=>clamp((t-a)/(b-a)); const $=id=>document.getElementById(id);
+const DURATION=10.2;
+let seed=11;const rnd=()=>{seed=(seed*16807)%2147483647;return seed/2147483647};
+
+// ---- olive tree svg factory
+const COLS=['#4B523C','#5E6A48','#6F7B52','#7E8C5E','#98A673','#A9B48A'];
+function treeSVG(){
+  let s='<svg viewBox="-130 -260 260 262" width="260" height="262" style="overflow:visible">';
+  const lean=(rnd()-.5)*14;
+  s+=`<ellipse cx="18" cy="2" rx="95" ry="14" fill="#8A7550" opacity=".28"/>`;
+  s+=`<path d="M-12 0 C -20 -40, ${4+lean} -60, ${-6+lean} -105 L ${8+lean} -105 C ${16+lean} -60, -2 -40, 14 0 Z" fill="#4A4032"/>`;
+  s+=`<path d="M${lean} -95 C ${-30+lean} -120, -50 -140, -60 -150" stroke="#4A4032" stroke-width="9" fill="none" stroke-linecap="round"/>`;
+  s+=`<path d="M${lean} -95 C ${30+lean} -125, 50 -140, 66 -150" stroke="#4A4032" stroke-width="9" fill="none" stroke-linecap="round"/>`;
+  const blobs=[];
+  for(let i=0;i<70;i++){const a=rnd()*Math.PI*2, r=Math.sqrt(rnd());
+    const x=Math.cos(a)*r*110, y=-165+Math.sin(a)*r*68; blobs.push([y,`<ellipse cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" rx="${(18+rnd()*22).toFixed(1)}" ry="${(12+rnd()*14).toFixed(1)}" fill="${COLS[Math.min(5,Math.floor((1-(y+233)/136)*3+rnd()*3))]}" transform="rotate(${(rnd()*60-30).toFixed(0)} ${x.toFixed(1)} ${y.toFixed(1)})"/>`]);}
+  blobs.sort((a,b)=>b[0]-a[0]).forEach(b=>s+=b[1]);
+  return s+'</svg>';}
+const T=[]; const XS=[-2.3,2.3,-6,6,-9.8,9.8];
+for(let row=0;row<XS.length;row++) for(let k=0;k<14;k++){
+  const d=document.createElement('div');d.className='tree';d.innerHTML=treeSVG();$('trees').appendChild(d);
+  T.push({el:d,X:XS[row]+(rnd()-.5)*.6,Z:2+k*4.2+(row%2)*2.1+rnd()*.8,s:.9+rnd()*.3});}
+const TU=[];for(let i=0;i<160;i++){const d=document.createElement('div');d.style.cssText='position:absolute;left:0;top:0;width:40px;height:10px;border-radius:50%;background:#B79E70';$('grove').insertBefore(d,$('trees'));TU.push({el:d,X:(rnd()-.5)*26,Z:1+rnd()*58,w:.4+rnd()*.8});}
+// ground rows
+{let g='';for(const X of [-4.15,4.15,-7.9,7.9,-11.6,11.6]){g+=`<line class="gl" data-x="${X}" stroke="#C9B084" stroke-width="3"/>`;} $('gnd').innerHTML=g;}
+
+// letters
+function setLetters(el,txt){el.innerHTML='';[...txt].forEach(c=>{const s=document.createElement('span');s.className='ch';s.textContent=c===' '?' ':c;el.appendChild(s)});return [...el.children]}
+const preL=setLetters($('pre'),'Une '), restL=setLetters($('rest'),'live');
+let gWords=[];
+const VARS=[['Arbequina','#98A673','Fruitée et douce'],['Hojiblanca','#48A99A','Ronde'],['Arbosana','#7E8C5E','Verte'],['Picual','#4F5D5A','Robuste'],['Coupage','#A88B57','Équilibrée']];
+
+function render(t){
+  const f=Math.floor(t*24); $('turb').setAttribute('seed',f%97); $('grain').style.transform=`translate(${(f*37)%60-30}px,${(f*53)%60-30}px)`;
+  // ---------- opening 0..2.6
+  const op=$('op'); op.style.display=t<2.7?'block':'none';
+  if(t<2.7){
+    preL.forEach((c,i)=>{const p=eo(prog(t,.05+i*.05,.45+i*.05)); c.style.transform=`translateY(${(1-p)*60}px)`; c.style.opacity=p*(1-eo(prog(t,.95,1.25)));});
+    restL.forEach((c,i)=>{const p=eo(prog(t,.25+i*.05,.65+i*.05)); c.style.transform=`translateY(${(1-p)*60}px)`; c.style.opacity=p*(1-eo(prog(t,.95,1.25)));});
+    // olive: appears as the "o", then grows to center like an eye
+    const ap=eb(prog(t,.15,.55)); const g=eio(prog(t,1.0,1.75));
+    const ox=lerp($('oSlot').getBoundingClientRect().left+22,540,g), oy=lerp(930,960,g);
+    const sc=lerp(.62*ap,13.5,g), rot=lerp(-8,18,g)+Math.sin(t*3)*3*(1-g);
+    $('olv').setAttribute('transform',`translate(${ox} ${oy}) rotate(${rot}) scale(${sc})`);
+    $('stem').style.opacity=$('leaf').style.opacity=clamp(prog(t,.5,.8));
+    $('bgDark').setAttribute('opacity',eio(prog(t,1.05,1.6)));
+    op.style.background='var(--cream)';
+    // pupil hole opens to the grove
+    const h=eio(prog(t,1.85,2.6)); $('holeC').setAttribute('r',h*1300);
+    $('ring').setAttribute('r',h*1300); $('ring').setAttribute('opacity',h>0&&h<1?1:0);
+    op.style.background=h>0?'transparent':'var(--cream)';
+  }
+  // ---------- grove 1.85..6.0
+  const gv=$('grove'); const gOn=t>1.8&&t<6.25; gv.style.display=gOn?'block':'none';
+  if(gOn){
+    const cz=(t-1.8)*4.2; const H=1230, F=950, CH=1.25;
+    T.forEach(o=>{let z=o.Z-cz; while(z<.6) z+=58.8; const sc=F/z;
+      const sx=540+o.X*sc, sy=H+CH*sc; const ts=sc*o.s*3.6/262;
+      o.el.style.transform=`translate(${sx-130}px,${sy-262}px) scale(${ts})`; o.el.style.zIndex=Math.round(1000-z*10);
+      o.el.style.opacity=clamp((60-z)/30)*clamp((z-1.2)/1.4); o.el.style.filter=`saturate(${lerp(1,.55,clamp(z/50))}) brightness(${lerp(1,1.25,clamp(z/55))})`;});
+    TU.forEach(o=>{let z=o.Z-cz; while(z<.8) z+=58; const sc=F/z; o.el.style.transform=`translate(${540+o.X*sc-20}px,${H+CH*sc-5}px) scale(${o.w*sc/40})`; o.el.style.opacity=.55*clamp((50-z)/25);});
+    document.querySelectorAll('.gl').forEach(l=>{const X=+l.dataset.x; l.setAttribute('x1',540+X*F/0.6);l.setAttribute('y1',H+CH*F/0.6);l.setAttribute('x2',540);l.setAttribute('y2',H);});
+    gv.style.transform=`scale(${lerp(1.25,1,eo(prog(t,1.85,2.8)))})`;
+    // text
+    const tx=$('gtxt'); const A=t<4.1;
+    const word=A?'En Andalousie,':'entre les oliviers.';
+    if(tx.dataset.w!==word){tx.dataset.w=word; gWords=setLetters(tx,word);}
+    const st=A?2.45:4.1, en=A?4.0:5.9;
+    gWords.forEach((c,i)=>{const p=eo(prog(t,st+i*.03,st+.45+i*.03)), q=eo(prog(t,en-.25+i*.012,en+i*.012));
+      c.style.transform=`translateY(${(1-p)*50 - q*40}px)`; c.style.opacity=p*(1-q); c.style.filter=`blur(${(1-p)*8+q*8}px)`;});
+    gv.style.opacity=1-eio(prog(t,5.9,6.25));
+  }
+  // ---------- swap 6.0..8.6
+  const sw=$('sw'); const sOn=t>=5.9&&t<8.75; sw.style.display=sOn?'block':'none';
+  if(sOn){
+    sw.style.opacity=eo(prog(t,5.9,6.2))*(1-eio(prog(t,8.5,8.75)));
+    let d='M0 10';for(let x=0;x<=380;x+=10){d+=` L${x} ${(10+Math.sin(x/14+t*6)*5).toFixed(1)}`} $('waveP').setAttribute('d',d);
+    $('wave').style.clipPath=`inset(0 ${(1-eo(prog(t,6.0,6.6)))*100}% 0 0)`;
+    const per=.5, i=clamp(Math.floor((t-6.15)/per),0,VARS.length-1), lt=(t-6.15)-i*per;
+    const [w,c,sub]=VARS[i]; const v=$('var');
+    if(v.dataset.w!==w){v.dataset.w=w; v.innerHTML=''; [...w].forEach(ch=>{const s=document.createElement('span');s.className='ch';s.textContent=ch;v.appendChild(s)});
+      const dot=document.createElement('span');dot.id='dot';dot.style.cssText=`position:absolute;right:-30px;top:-6px;width:26px;height:34px;border-radius:50%;background:${c};transform:rotate(25deg)`;v.appendChild(dot);
+      $('sub').textContent=sub;}
+    [...v.querySelectorAll('.ch')].forEach((s,k)=>{const p=eo(prog(lt,k*.018,.2+k*.018)); s.style.transform=`translateY(${(1-p)*40}px)`; s.style.opacity=t<6.15?0:p; s.style.filter=`blur(${(1-p)*6}px)`;});
+    const dp=eb(prog(lt,.08,.3)); $('dot').style.transform=`rotate(25deg) scale(${t<6.15?0:dp})`;
+    $('sub').style.opacity=t<6.15?0:eo(prog(lt,.1,.3));
+  }
+  // ---------- end 8.6..
+  const en=$('en'); const eOn=t>=8.6&&t<9.55; en.style.display=eOn?'flex':'none';
+  if(eOn){const p=eo(prog(t,8.65,9.1)); $('lg').style.clipPath=`inset(-10% ${(1-eio(prog(t,8.65,9.2)))*100}% -10% 0)`; $('en2').style.opacity=p; $('en2').style.transform=`translateY(${(1-p)*20}px)`;}
+  const e3=$('en3'); e3.style.display=t>=9.5?'flex':'none';
+  if(t>=9.5){e3.style.clipPath=`circle(${eio(prog(t,9.5,9.85))*120}% at 50% 50%)`;}
+}
+window.render=render; window.DURATION=DURATION; render(0);
+</script></body></html>
