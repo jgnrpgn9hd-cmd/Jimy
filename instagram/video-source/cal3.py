@@ -131,11 +131,15 @@ page('J5_carrousel_choisir',sl)
 page('J5_post_ceramique',[P('ceramic',1,1,S3,'Arbequina','La bouteille<br>qu\'on garde<br>sur la table.')])
 page('J5_story_arbequina',[SP('arbequina','Arbequina · Première récolte','Pomme verte<br><span style="color:#4B523C">et amande.</span>')],H=1920)
 # ===== J6
-MO=[('arbequina','8 h · Le petit-déjeuner','Sur le pain<br>encore tiède.'),('eco','12 h · Le déjeuner','Sur une salade<br>bien fraîche.'),('trio','19 h · L\'apéritif','Du pain,<br>trois huiles.'),('coupage','20 h · Le dîner','Sur les légumes<br>rôtis.')]
-sl=[photo_dark('olives',1,6,S2,'Du matin au soir','Une huile<br>pour chaque<br>moment.',op='50% 55%')]
-for q,(key,k,t) in enumerate(MO): sl.append(P(key,q+2,6,S2,k,t))
-sl.append(photo_dark('giftbox',6,6,S2,'Et pour offrir','Le coffret,<br>sur le site.',op='55% 50%',sub='Lien en bio · Livraison en France'))
-page('J6_carrousel_moments',sl)
+AC=[('Arbequina','Avec une<br>burrata.','Douce et fruitée, elle se fond dans la crème. Un tour de poivre, c\'est tout.'),
+('Arbosana','Sur une salade<br>croquante.','Ses notes vertes réveillent les crudités et les herbes fraîches.'),
+('Hojiblanca','Sur des légumes<br>mijotés.','Ronde, légèrement amère, elle apporte de la profondeur aux plats du soir.'),
+('Picual','Sur une viande<br>grillée.','Robuste et piquante, elle tient tête aux saveurs fortes.'),
+('Coupage','Sur tout,<br>tous les jours.','Ronde et équilibrée : celle qu\'on garde à portée de main.')]
+sl=[photo_dark('giftbox',1,7,S2,'Les accords','Quelle huile<br>avec quel plat ?',op='55% 50%')]
+for q,(k,t,d) in enumerate(AC): sl.append(typo(q+2,7,S2,k,t,d,dark=q%2==1,num=f'0{q+1}'))
+sl.append(P('trio',7,7,S2,'Pour tout goûter','Le coffret<br>dégustation.',sub='Lien en bio · Livraison en France'))
+page('J6_carrousel_accords',sl)
 page('J6_post_eco',[P('eco',1,1,S3,'Arbequina · Écologique','Fruitée, vive,<br>herbacée.')])
 page('J6_story_cadeau',[story_dark('giftbox','À offrir','Le coffret<br>prestige.',op='55% 50%')],H=1920)
 # ===== J7

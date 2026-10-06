@@ -160,18 +160,19 @@
   "caption": null
  },
  {
-  "name": "J6_carrousel_moments",
+  "name": "J6_carrousel_accords",
   "kind": "carrousel",
   "when": "2026-10-12T12:30:00",
   "files": [
-   "J6_carrousel_moments_1.jpg",
-   "J6_carrousel_moments_2.jpg",
-   "J6_carrousel_moments_3.jpg",
-   "J6_carrousel_moments_4.jpg",
-   "J6_carrousel_moments_5.jpg",
-   "J6_carrousel_moments_6.jpg"
+   "J6_carrousel_accords_1.jpg",
+   "J6_carrousel_accords_2.jpg",
+   "J6_carrousel_accords_3.jpg",
+   "J6_carrousel_accords_4.jpg",
+   "J6_carrousel_accords_5.jpg",
+   "J6_carrousel_accords_6.jpg",
+   "J6_carrousel_accords_7.jpg"
   ],
-  "caption": "Du pain grillé du matin aux légumes rôtis du soir : il y a toujours une bonne raison de sortir la bouteille 🫒\n\nEt vous, c'est quoi votre moment ? 👇\nToutes nos huiles, lien en bio · Livraison en France\n\n#huiledolive #cuisinemaison #apero #andalousie #epiceriefine"
+  "caption": "Burrata, salade croquante, légumes mijotés, viande grillée… chaque plat a son huile 🫒\n\nGlissez pour trouver la vôtre, et enregistrez pour votre prochain repas 🔖\nLe coffret dégustation, lien en bio.\n\n#huiledolive #accordsmets #cuisinemaison #burrata #epiceriefine"
  },
  {
   "name": "J6_post_eco",

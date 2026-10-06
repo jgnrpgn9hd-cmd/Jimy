@@ -20,7 +20,7 @@ Collaborateurs invités sur chaque publication : @davico_jairo, @sylvain.davico
 | dim. 11 oct. | 12 h 30 | Carrousel « Quelle huile pour vous ? » | cmuwyse3x01iypk01szumheto | programmé |
 | dim. 11 oct. | 19 h | Post « La bouteille qu'on garde sur la table » | cmuwysepz01j4pk01f9bgxeli | programmé |
 | lun. 12 oct. | 9 h | Story Le coffret prestige | cmuwysgka01jwpk01hx9l0gmy | programmé |
-| lun. 12 oct. | 12 h 30 | Carrousel « Une huile pour chaque moment » (nouveau) | cmuwyuy95022ppk01ss1w8qji | programmé |
+| lun. 12 oct. | 12 h 30 | Carrousel « Quelle huile avec quel plat ? » (remplace « Une huile pour chaque moment », refusé) | — | en attente de validation |
 | lun. 12 oct. | 19 h | Post « Fruitée, vive, herbacée » | cmuwysfyo01jqpk01ys17rwhr | programmé |
 | mar. 13 oct. | 9 h | Story « Tout commence par l'olive » | cmuwytcha01q0pk01kpq97xlk | programmé |
 | mar. 13 oct. | 12 h 30 | Carrousel « Ce qu'on fait tous de travers » | cmuwytb1f01pkpk0105l7kefa | programmé |

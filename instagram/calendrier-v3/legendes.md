@@ -130,15 +130,15 @@ Images : J5_story_arbequina.jpg
 
 (story, sans légende)
 
-## 2026-10-12 à 12:30 — carrousel — J6_carrousel_moments
-Images : J6_carrousel_moments_1.jpg, J6_carrousel_moments_2.jpg, J6_carrousel_moments_3.jpg, J6_carrousel_moments_4.jpg, J6_carrousel_moments_5.jpg, J6_carrousel_moments_6.jpg
+## 2026-10-12 à 12:30 — carrousel — J6_carrousel_accords
+Images : J6_carrousel_accords_1.jpg, J6_carrousel_accords_2.jpg, J6_carrousel_accords_3.jpg, J6_carrousel_accords_4.jpg, J6_carrousel_accords_5.jpg, J6_carrousel_accords_6.jpg, J6_carrousel_accords_7.jpg
 
-> Du pain grillé du matin aux légumes rôtis du soir : il y a toujours une bonne raison de sortir la bouteille 🫒
+> Burrata, salade croquante, légumes mijotés, viande grillée… chaque plat a son huile 🫒
 > 
-> Et vous, c'est quoi votre moment ? 👇
-> Toutes nos huiles, lien en bio · Livraison en France
+> Glissez pour trouver la vôtre, et enregistrez pour votre prochain repas 🔖
+> Le coffret dégustation, lien en bio.
 > 
-> #huiledolive #cuisinemaison #apero #andalousie #epiceriefine
+> #huiledolive #accordsmets #cuisinemaison #burrata #epiceriefine
 
 ## 2026-10-12 à 19:00 — post — J6_post_eco
 Images : J6_post_eco.jpg
