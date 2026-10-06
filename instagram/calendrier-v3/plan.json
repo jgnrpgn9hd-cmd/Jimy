@@ -1,0 +1,230 @@
+[
+ {
+  "name": "J1_carrousel_gout",
+  "kind": "carrousel",
+  "when": "2026-10-07T12:30:00",
+  "files": [
+   "J1_carrousel_gout_1.jpg",
+   "J1_carrousel_gout_2.jpg",
+   "J1_carrousel_gout_3.jpg",
+   "J1_carrousel_gout_4.jpg",
+   "J1_carrousel_gout_5.jpg",
+   "J1_carrousel_gout_6.jpg",
+   "J1_carrousel_gout_7.jpg"
+  ],
+  "caption": "Herbe coupée, pomme verte, amande… et ce petit piquant en fin de bouche 🫒\n\nUne vraie huile d'olive, ça se sent avant même de la goûter. Glissez jusqu'au bout 👉\n\nEnregistrez ce post pour votre prochaine dégustation 🔖\nArbequina première récolte · lien en bio · Livraison en France\n\n#huiledolive #huiledolivevierge #arbequina #degustation #epiceriefine #andalousie #gastronomie"
+ },
+ {
+  "name": "J1_post_arbequina",
+  "kind": "post",
+  "when": "2026-10-07T19:00:00",
+  "files": [
+   "J1_post_arbequina.jpg"
+  ],
+  "caption": "Une tranche de pain encore tiède. Un filet doré. Et ce parfum de pomme verte et d'amande qui monte… 🍞🫒\n\nNotre Arbequina première récolte, pressée à froid en Andalousie.\nLien en bio · Livraison en France\n\n#arbequina #huiledolive #painmaison #andalousie #epiceriefine"
+ },
+ {
+  "name": "J1_story_ceramique",
+  "kind": "story",
+  "when": "2026-10-07T09:00:00",
+  "files": [
+   "J1_story_ceramique.jpg"
+  ],
+  "caption": null
+ },
+ {
+  "name": "J2_carrousel_plats",
+  "kind": "carrousel",
+  "when": "2026-10-08T12:30:00",
+  "files": [
+   "J2_carrousel_plats_1.jpg",
+   "J2_carrousel_plats_2.jpg",
+   "J2_carrousel_plats_3.jpg",
+   "J2_carrousel_plats_4.jpg",
+   "J2_carrousel_plats_5.jpg",
+   "J2_carrousel_plats_6.jpg",
+   "J2_carrousel_plats_7.jpg"
+  ],
+  "caption": "Le pain encore tiède, la tomate bien mûre, la burrata qui fond… Il ne manquait qu'une chose 🫒\n\nGlissez, et dites-nous votre préféré en commentaire 👇\n\nNotre Coupage (Picual & Arbequina), lien en bio.\n\n#huiledolive #recettefacile #cuisinemaison #burrata #tomates #andalousie"
+ },
+ {
+  "name": "J2_post_coffret",
+  "kind": "post",
+  "when": "2026-10-08T19:00:00",
+  "files": [
+   "J2_post_coffret.jpg"
+  ],
+  "caption": "Hojiblanca, ronde. Arbosana, fruitée et verte. Picual, robuste et piquante.\nTrois huiles, trois façons de tremper son pain 🍞\n\nLaquelle vous tente ? 👇\nLe coffret dégustation, lien en bio.\n\n#coffretcadeau #degustation #huiledolive #picual #idéecadeau"
+ },
+ {
+  "name": "J2_story_coupage",
+  "kind": "story",
+  "when": "2026-10-08T09:00:00",
+  "files": [
+   "J2_story_coupage.jpg"
+  ],
+  "caption": null
+ },
+ {
+  "name": "J3_carrousel_recette",
+  "kind": "carrousel",
+  "when": "2026-10-09T12:30:00",
+  "files": [
+   "J3_carrousel_recette_1.jpg",
+   "J3_carrousel_recette_2.jpg",
+   "J3_carrousel_recette_3.jpg",
+   "J3_carrousel_recette_4.jpg",
+   "J3_carrousel_recette_5.jpg",
+   "J3_carrousel_recette_6.jpg"
+  ],
+  "caption": "Croustillant, juteux, doré : le pan con tomate, c'est 2 minutes, 4 ingrédients… et un filet généreux d'huile d'olive 🍅🫒\n\nEnregistrez la recette pour demain matin 🔖\n\n#pancontomate #petitdejeuner #recettefacile #cuisineespagnole #huiledolive"
+ },
+ {
+  "name": "J3_post_cadeau",
+  "kind": "post",
+  "when": "2026-10-09T19:00:00",
+  "files": [
+   "J3_post_cadeau.jpg"
+  ],
+  "caption": "Le cadeau qu'on ouvre à table… et qu'on finit avec du bon pain 🎁\n\nNos huiles d'olive vierge extra d'Andalousie, à offrir (ou à garder).\nLien en bio · Livraison en France\n\n#idéecadeau #coffretcadeau #huiledolive #epiceriefine #cadeaugourmand"
+ },
+ {
+  "name": "J3_story_eco",
+  "kind": "story",
+  "when": "2026-10-09T09:00:00",
+  "files": [
+   "J3_story_eco.jpg"
+  ],
+  "caption": null
+ },
+ {
+  "name": "J4_carrousel_coffret",
+  "kind": "carrousel",
+  "when": "2026-10-10T12:30:00",
+  "files": [
+   "J4_carrousel_coffret_1.jpg",
+   "J4_carrousel_coffret_2.jpg",
+   "J4_carrousel_coffret_3.jpg",
+   "J4_carrousel_coffret_4.jpg",
+   "J4_carrousel_coffret_5.jpg"
+  ],
+  "caption": "Trois olives, trois goûts. On commence par laquelle ? 👇\n\nHojiblanca pour la rondeur, Arbosana pour la fraîcheur, Picual pour le caractère.\nLe coffret dégustation, lien en bio.\n\n#hojiblanca #arbosana #picual #degustation #huiledolive"
+ },
+ {
+  "name": "J4_post_olive",
+  "kind": "post",
+  "when": "2026-10-10T19:00:00",
+  "files": [
+   "J4_post_olive.jpg"
+  ],
+  "caption": "Avant l'huile, il y a l'olive 🫒\nCueillie en Andalousie, pressée à froid, pour garder tout son fruité.\n\nLien en bio · Livraison en France\n\n#olives #andalousie #huiledolive #terroir #arbequina"
+ },
+ {
+  "name": "J4_story_coffret",
+  "kind": "story",
+  "when": "2026-10-10T09:00:00",
+  "files": [
+   "J4_story_coffret.jpg"
+  ],
+  "caption": null
+ },
+ {
+  "name": "J5_carrousel_choisir",
+  "kind": "carrousel",
+  "when": "2026-10-11T12:30:00",
+  "files": [
+   "J5_carrousel_choisir_1.jpg",
+   "J5_carrousel_choisir_2.jpg",
+   "J5_carrousel_choisir_3.jpg",
+   "J5_carrousel_choisir_4.jpg",
+   "J5_carrousel_choisir_5.jpg",
+   "J5_carrousel_choisir_6.jpg",
+   "J5_carrousel_choisir_7.jpg"
+  ],
+  "caption": "Pour tous les jours, pour les connaisseurs, pour comparer ou pour offrir : il y a forcément une huile pour vous 🫒\n\nGlissez, et dites-nous laquelle 👇\nToute la collection, lien en bio.\n\n#huiledolive #epiceriefine #arbequina #coupage #idéecadeau"
+ },
+ {
+  "name": "J5_post_ceramique",
+  "kind": "post",
+  "when": "2026-10-11T19:00:00",
+  "files": [
+   "J5_post_ceramique.jpg"
+  ],
+  "caption": "Trop belle pour finir au placard ✨\n\nNotre Arbequina dans sa bouteille en céramique, à poser sur la table… et à verser sans compter.\nLien en bio.\n\n#arbequina #ceramique #decotable #huiledolive #idéecadeau"
+ },
+ {
+  "name": "J5_story_arbequina",
+  "kind": "story",
+  "when": "2026-10-11T09:00:00",
+  "files": [
+   "J5_story_arbequina.jpg"
+  ],
+  "caption": null
+ },
+ {
+  "name": "J6_carrousel_degustation",
+  "kind": "carrousel",
+  "when": "2026-10-12T12:30:00",
+  "files": [
+   "J6_carrousel_degustation_1.jpg",
+   "J6_carrousel_degustation_2.jpg",
+   "J6_carrousel_degustation_3.jpg",
+   "J6_carrousel_degustation_4.jpg",
+   "J6_carrousel_degustation_5.jpg",
+   "J6_carrousel_degustation_6.jpg",
+   "J6_carrousel_degustation_7.jpg"
+  ],
+  "caption": "Versez, réchauffez, sentez, goûtez… et si ça pique un peu en gorge, c'est le signe d'une huile fraîche 👌\n\nÀ tester ce soir. Enregistrez pour ne pas oublier 🔖\n\n#degustation #huiledolive #gastronomie #foodlover #epiceriefine"
+ },
+ {
+  "name": "J6_post_eco",
+  "kind": "post",
+  "when": "2026-10-12T19:00:00",
+  "files": [
+   "J6_post_eco.jpg"
+  ],
+  "caption": "Fruitée, vive, avec des notes d'herbe fraîche 🌿\n\nNotre Arbequina écologique, pour la salade du midi comme pour les légumes du soir.\nLien en bio.\n\n#arbequina #ecologique #huiledolive #salade #cuisinemaison"
+ },
+ {
+  "name": "J6_story_cadeau",
+  "kind": "story",
+  "when": "2026-10-12T09:00:00",
+  "files": [
+   "J6_story_cadeau.jpg"
+  ],
+  "caption": null
+ },
+ {
+  "name": "J7_carrousel_erreurs",
+  "kind": "carrousel",
+  "when": "2026-10-13T12:30:00",
+  "files": [
+   "J7_carrousel_erreurs_1.jpg",
+   "J7_carrousel_erreurs_2.jpg",
+   "J7_carrousel_erreurs_3.jpg",
+   "J7_carrousel_erreurs_4.jpg",
+   "J7_carrousel_erreurs_5.jpg",
+   "J7_carrousel_erreurs_6.jpg",
+   "J7_carrousel_erreurs_7.jpg"
+  ],
+  "caption": "On l'a tous fait au moins une fois 🙈\n\nGlissez pour savoir comment garder votre huile d'olive au meilleur de son goût. Enregistrez ce post 🔖\nNos huiles d'Andalousie, lien en bio.\n\n#astucecuisine #huiledolive #conservation #cuisinemaison #epiceriefine"
+ },
+ {
+  "name": "J7_post_coupage",
+  "kind": "post",
+  "when": "2026-10-13T19:00:00",
+  "files": [
+   "J7_post_coupage.jpg"
+  ],
+  "caption": "Le caractère de la Picual, la douceur de l'Arbequina : réunies dans une seule bouteille 🫒\n\nRonde, équilibrée, parfaite au quotidien.\nLien en bio.\n\n#coupage #picual #arbequina #huiledolive #andalousie"
+ },
+ {
+  "name": "J7_story_olive",
+  "kind": "story",
+  "when": "2026-10-13T09:00:00",
+  "files": [
+   "J7_story_olive.jpg"
+  ],
+  "caption": null
+ }
+]
