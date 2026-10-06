@@ -11,7 +11,7 @@ Collaborateurs invités sur chaque publication : @davico_jairo, @sylvain.davico
 | jeu. 8 oct. | 12 h 30 | Carrousel « Ce qu'un filet d'huile change à tout » | cmuwymypi00grpk01vrdc4utp | programmé |
 | jeu. 8 oct. | 19 h | Post « Trois huiles. Laquelle pour vous ? » | cmuwymzc300gxpk01m8yjgjhr | programmé |
 | ven. 9 oct. | 9 h | Story Arbequina écologique | cmuwyr9f9018ppk018jarh72k | programmé |
-| ven. 9 oct. | 12 h 30 | Carrousel « Le pan con tomate » (refait) | — | en attente de validation |
+| ven. 9 oct. | 12 h 30 | Carrousel « Le pan con tomate » (refait) | cmuwyuxfl022bpk01t4iakbyr | programmé |
 | ven. 9 oct. | 19 h | Post « Le cadeau qu'on ouvre à table » | cmuwyr8pq0189pk01chjsp5mh | programmé |
 | sam. 10 oct. | 9 h | Story Le coffret | cmuwyrb59019fpk01iiynl0ko | programmé |
 | sam. 10 oct. | 12 h 30 | Carrousel « Trois olives, trois goûts » | cmuwyra0u018xpk01xzbjri93 | programmé |
@@ -20,7 +20,7 @@ Collaborateurs invités sur chaque publication : @davico_jairo, @sylvain.davico
 | dim. 11 oct. | 12 h 30 | Carrousel « Quelle huile pour vous ? » | cmuwyse3x01iypk01szumheto | programmé |
 | dim. 11 oct. | 19 h | Post « La bouteille qu'on garde sur la table » | cmuwysepz01j4pk01f9bgxeli | programmé |
 | lun. 12 oct. | 9 h | Story Le coffret prestige | cmuwysgka01jwpk01hx9l0gmy | programmé |
-| lun. 12 oct. | 12 h 30 | Carrousel « Une huile pour chaque moment » (nouveau) | — | en attente de validation |
+| lun. 12 oct. | 12 h 30 | Carrousel « Une huile pour chaque moment » (nouveau) | cmuwyuy95022ppk01ss1w8qji | programmé |
 | lun. 12 oct. | 19 h | Post « Fruitée, vive, herbacée » | cmuwysfyo01jqpk01ys17rwhr | programmé |
 | mar. 13 oct. | 9 h | Story « Tout commence par l'olive » | cmuwytcha01q0pk01kpq97xlk | programmé |
 | mar. 13 oct. | 12 h 30 | Carrousel « Ce qu'on fait tous de travers » | cmuwytb1f01pkpk0105l7kefa | programmé |
