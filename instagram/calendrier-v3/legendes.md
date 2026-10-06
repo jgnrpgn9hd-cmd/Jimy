@@ -57,7 +57,7 @@ Images : J2_story_coupage.jpg
 (story, sans légende)
 
 ## 2026-10-09 à 12:30 — carrousel — J3_carrousel_recette
-Images : J3_carrousel_recette_1.jpg, J3_carrousel_recette_2.jpg, J3_carrousel_recette_3.jpg, J3_carrousel_recette_4.jpg, J3_carrousel_recette_5.jpg, J3_carrousel_recette_6.jpg
+Images : J3_carrousel_recette_1.jpg, J3_carrousel_recette_2.jpg, J3_carrousel_recette_3.jpg, J3_carrousel_recette_4.jpg
 
 > Croustillant, juteux, doré : le pan con tomate, c'est 2 minutes, 4 ingrédients… et un filet généreux d'huile d'olive 🍅🫒
 > 
@@ -130,14 +130,15 @@ Images : J5_story_arbequina.jpg
 
 (story, sans légende)
 
-## 2026-10-12 à 12:30 — carrousel — J6_carrousel_degustation
-Images : J6_carrousel_degustation_1.jpg, J6_carrousel_degustation_2.jpg, J6_carrousel_degustation_3.jpg, J6_carrousel_degustation_4.jpg, J6_carrousel_degustation_5.jpg, J6_carrousel_degustation_6.jpg, J6_carrousel_degustation_7.jpg
+## 2026-10-12 à 12:30 — carrousel — J6_carrousel_moments
+Images : J6_carrousel_moments_1.jpg, J6_carrousel_moments_2.jpg, J6_carrousel_moments_3.jpg, J6_carrousel_moments_4.jpg, J6_carrousel_moments_5.jpg, J6_carrousel_moments_6.jpg
 
-> Versez, réchauffez, sentez, goûtez… et si ça pique un peu en gorge, c'est le signe d'une huile fraîche 👌
+> Du pain grillé du matin aux légumes rôtis du soir : il y a toujours une bonne raison de sortir la bouteille 🫒
 > 
-> À tester ce soir. Enregistrez pour ne pas oublier 🔖
+> Et vous, c'est quoi votre moment ? 👇
+> Toutes nos huiles, lien en bio · Livraison en France
 > 
-> #degustation #huiledolive #gastronomie #foodlover #epiceriefine
+> #huiledolive #cuisinemaison #apero #andalousie #epiceriefine
 
 ## 2026-10-12 à 19:00 — post — J6_post_eco
 Images : J6_post_eco.jpg

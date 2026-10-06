@@ -73,9 +73,7 @@
    "J3_carrousel_recette_1.jpg",
    "J3_carrousel_recette_2.jpg",
    "J3_carrousel_recette_3.jpg",
-   "J3_carrousel_recette_4.jpg",
-   "J3_carrousel_recette_5.jpg",
-   "J3_carrousel_recette_6.jpg"
+   "J3_carrousel_recette_4.jpg"
   ],
   "caption": "Croustillant, juteux, doré : le pan con tomate, c'est 2 minutes, 4 ingrédients… et un filet généreux d'huile d'olive 🍅🫒\n\nEnregistrez la recette pour demain matin 🔖\n\n#pancontomate #petitdejeuner #recettefacile #cuisineespagnole #huiledolive"
  },
@@ -162,19 +160,18 @@
   "caption": null
  },
  {
-  "name": "J6_carrousel_degustation",
+  "name": "J6_carrousel_moments",
   "kind": "carrousel",
   "when": "2026-10-12T12:30:00",
   "files": [
-   "J6_carrousel_degustation_1.jpg",
-   "J6_carrousel_degustation_2.jpg",
-   "J6_carrousel_degustation_3.jpg",
-   "J6_carrousel_degustation_4.jpg",
-   "J6_carrousel_degustation_5.jpg",
-   "J6_carrousel_degustation_6.jpg",
-   "J6_carrousel_degustation_7.jpg"
+   "J6_carrousel_moments_1.jpg",
+   "J6_carrousel_moments_2.jpg",
+   "J6_carrousel_moments_3.jpg",
+   "J6_carrousel_moments_4.jpg",
+   "J6_carrousel_moments_5.jpg",
+   "J6_carrousel_moments_6.jpg"
   ],
-  "caption": "Versez, réchauffez, sentez, goûtez… et si ça pique un peu en gorge, c'est le signe d'une huile fraîche 👌\n\nÀ tester ce soir. Enregistrez pour ne pas oublier 🔖\n\n#degustation #huiledolive #gastronomie #foodlover #epiceriefine"
+  "caption": "Du pain grillé du matin aux légumes rôtis du soir : il y a toujours une bonne raison de sortir la bouteille 🫒\n\nEt vous, c'est quoi votre moment ? 👇\nToutes nos huiles, lien en bio · Livraison en France\n\n#huiledolive #cuisinemaison #apero #andalousie #epiceriefine"
  },
  {
   "name": "J6_post_eco",

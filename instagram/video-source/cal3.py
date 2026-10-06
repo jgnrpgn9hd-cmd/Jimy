@@ -96,12 +96,19 @@ page('J2_carrousel_plats',[photo_dark('olives',1,7,S2,'Cinq idées','Ce qu\'un f
 page('J2_post_coffret',[P('trio',1,1,S3,'Hojiblanca · Arbosana · Picual','Trois huiles.<br>Laquelle pour vous ?')])
 page('J2_story_coupage',[SP('coupage','Picual & Arbequina','Ronde<br><span style="color:#4B523C">et équilibrée.</span>')],H=1920)
 # ===== J3
-page('J3_carrousel_recette',[P('ceramic',1,6,S2,'2 minutes · 4 ingrédients','Le pan<br>con tomate.'),
- typo(2,6,S2,'Étape 1','Le pain<br>bien doré.','Une belle tranche de pain de campagne, grillée jusqu\'à ce qu\'elle croustille.',num='01'),
- typo(3,6,S2,'Étape 2','La tomate<br>râpée.','Bien mûre, râpée directement dessus. Le jus imbibe la mie.',dark=True,num='02'),
- typo(4,6,S2,'Étape 3','Un filet<br>généreux.','D\'huile d\'olive vierge extra. C\'est elle qui fait tout le goût.',num='03'),
- typo(5,6,S2,'Étape 4','Une pincée<br>de sel.','Et c\'est prêt. Le petit-déjeuner de toute l\'Andalousie.',dark=True,num='04'),
- P('arbequina',6,6,S2,'Notre conseil','Avec l\'Arbequina<br>première récolte.',sub='Lien en bio')])
+ING=[('Le pain','Une belle tranche de pain de campagne'),('La tomate','Une tomate bien mûre'),('L\'huile','Huile d\'olive vierge extra'),('Le sel','Une pincée de fleur de sel')]
+ing='<div class="beige" style="position:absolute;inset:0;background:linear-gradient(#EFE1CD,#F4EADB)"></div>'+chrome(2,4,S2)+'<div class="k" style="position:absolute;left:80px;top:220px;color:#A88B57">Pour une tartine</div><div class="T" style="position:absolute;left:76px;top:270px;font-size:120px">Les ingrédients.</div>'
+for q,(a,b) in enumerate(ING):
+    y=520+q*150
+    ing+=f'<div style="position:absolute;left:80px;right:80px;top:{y}px;height:1px;background:rgba(31,36,28,.18)"></div><div class="T" style="position:absolute;left:80px;top:{y+34}px;font-size:64px">{a}</div><div class="p" style="position:absolute;left:470px;right:80px;top:{y+50}px;font-size:32px;color:#4B523C">{b}</div>'
+ing+='<div style="position:absolute;left:80px;right:80px;top:1120px;height:1px;background:rgba(31,36,28,.18)"></div>'
+STP=['Faites griller le pain jusqu\'à ce qu\'il soit bien doré et croustillant.','Coupez la tomate en deux et râpez-la directement sur le pain chaud.','Versez un filet généreux d\'huile d\'olive : c\'est elle qui fait tout le goût.','Ajoutez une pincée de sel. Croquez tant que c\'est chaud.']
+rec='<div style="position:absolute;inset:0;background:#4B523C"></div>'+chrome(3,4,S2,dark=True)+'<div class="k" style="position:absolute;left:80px;top:220px;color:#D8C08F">2 minutes</div><div class="T" style="position:absolute;left:76px;top:270px;font-size:120px;color:#F5EFE4">La recette.</div>'
+for q,t in enumerate(STP):
+    y=500+q*165
+    rec+=f'<div class="T" style="position:absolute;left:80px;top:{y}px;font-size:84px;color:#D8C08F">{q+1}</div><div class="p" style="position:absolute;left:190px;right:90px;top:{y+14}px;font-size:36px;color:#F5EFE4">{t}</div>'
+page('J3_carrousel_recette',[P('ceramic',1,4,S2,'2 minutes · 4 ingrédients','Le pan<br>con tomate.'),('',ing),('',rec),P('arbequina',4,4,S2,'Notre conseil','Avec l\'Arbequina<br>première récolte.',sub='Lien en bio')])
+
 page('J3_post_cadeau',[photo_dark('giftbox',1,1,'À offrir','Le coffret','Le cadeau qu\'on<br>ouvre à table.',op='55% 50%')])
 page('J3_story_eco',[SP('eco','Arbequina · Écologique','Fruitée<br><span style="color:#4B523C">et vive.</span>')],H=1920)
 # ===== J4
@@ -124,11 +131,11 @@ page('J5_carrousel_choisir',sl)
 page('J5_post_ceramique',[P('ceramic',1,1,S3,'Arbequina','La bouteille<br>qu\'on garde<br>sur la table.')])
 page('J5_story_arbequina',[SP('arbequina','Arbequina · Première récolte','Pomme verte<br><span style="color:#4B523C">et amande.</span>')],H=1920)
 # ===== J6
-DG=[('Versez','Un fond<br>de verre.','Une cuillère à soupe, dans un petit verre.'),('Réchauffez','Dans<br>la main.','Quelques secondes. Les arômes se réveillent.'),('Sentez','Herbe,<br>pomme, amande.','Fermez les yeux. Tout est là.'),('Goûtez','Une petite<br>gorgée.','En aspirant un peu d\'air, pour qu\'elle s\'ouvre.'),('Ça pique ?','C\'est<br>bon signe.','Le piquant en gorge, c\'est la fraîcheur.')]
-sl=[('background:#4B523C',chrome(1,7,S4,dark=True)+'<div class="k" style="position:absolute;left:80px;top:420px;color:#D8C08F">En 5 étapes</div><div class="T" style="position:absolute;left:76px;top:470px;font-size:170px;color:#F5EFE4">Déguster<br>comme<br><span style="color:#D8C08F">un pro.</span></div><div class="p" style="position:absolute;left:80px;top:1060px;font-size:30px;color:#E6DDCE">Glissez →</div>')]
-for j,(k,t,d) in enumerate(DG): sl.append(typo(j+2,7,S4,k,t,d,dark=j%2==1,num=f'0{j+1}'))
-sl.append(photo_dark('giftbox',7,7,S4,'Pour s\'entraîner','Nos coffrets,<br>sur le site.',op='55% 50%',sub='Lien en bio'))
-page('J6_carrousel_degustation',sl)
+MO=[('arbequina','8 h · Le petit-déjeuner','Sur le pain<br>encore tiède.'),('eco','12 h · Le déjeuner','Sur une salade<br>bien fraîche.'),('trio','19 h · L\'apéritif','Du pain,<br>trois huiles.'),('coupage','20 h · Le dîner','Sur les légumes<br>rôtis.')]
+sl=[photo_dark('olives',1,6,S2,'Du matin au soir','Une huile<br>pour chaque<br>moment.',op='50% 55%')]
+for q,(key,k,t) in enumerate(MO): sl.append(P(key,q+2,6,S2,k,t))
+sl.append(photo_dark('giftbox',6,6,S2,'Et pour offrir','Le coffret,<br>sur le site.',op='55% 50%',sub='Lien en bio · Livraison en France'))
+page('J6_carrousel_moments',sl)
 page('J6_post_eco',[P('eco',1,1,S3,'Arbequina · Écologique','Fruitée, vive,<br>herbacée.')])
 page('J6_story_cadeau',[story_dark('giftbox','À offrir','Le coffret<br>prestige.',op='55% 50%')],H=1920)
 # ===== J7
