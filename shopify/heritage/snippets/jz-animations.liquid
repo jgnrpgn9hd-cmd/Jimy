@@ -1,21 +1,48 @@
 {%- comment -%}
-  Fondus d'apparition sur toutes les pages.
-  part: 'head' masque le contenu le temps de préparer les animations (évite un flash),
-  part: 'body' prépare les éléments et les fait apparaître au défilement.
+  Animations du site (toutes les pages).
+  part: 'head' : styles + masque le contenu le temps de préparer les animations (évite un flash).
+  part: 'body' : apparitions au défilement (titres qui se précisent, images qui se dévoilent, textes en fondu),
+                 parallaxe douce sur la première image, barre de progression dorée, en-tête qui se détache.
+  Tout est désactivé si le visiteur a demandé « moins d'animations » dans son système.
 {%- endcomment -%}
 {%- unless request.design_mode -%}
 {%- if part == 'head' -%}
 <style>
   html.jz-pending #MainContent, html.jz-pending footer { opacity: 0; }
-  @keyframes jzFade { from { opacity: 0; } to { opacity: 1; } }
-  #header-group { animation: jzFade 1.2s ease both; }
-  .jz-f { opacity: 0; transform: translateY(18px); transition: opacity 1.1s ease, transform 1.1s cubic-bezier(.2,.7,.2,1); }
-  .jz-i { opacity: 0; transform: scale(1.05); transition: opacity 1.6s ease, transform 1.8s cubic-bezier(.2,.6,.2,1); }
-  .jz-f.jz-in, .jz-i.jz-in { opacity: 1; transform: none; }
+  @keyframes jzFade { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+  #header-group { animation: jzFade 1.1s cubic-bezier(.2,.7,.2,1) both; transition: box-shadow .5s ease; }
+  #header-group.jz-scrolled { box-shadow: 0 8px 28px rgba(31,36,28,.08); }
+
+  /* Textes : fondu qui monte */
+  .jz-f { opacity: 0; transform: translateY(22px); transition: opacity 1.1s ease, transform 1.1s cubic-bezier(.2,.7,.2,1); }
+  /* Titres : apparition floue qui se précise */
+  .jz-h { opacity: 0; filter: blur(8px); transform: translateY(34px); letter-spacing: .02em; transition: opacity 1.1s ease, filter 1.1s ease, transform 1.2s cubic-bezier(.2,.7,.2,1), letter-spacing 1.4s cubic-bezier(.2,.7,.2,1); }
+  /* Images : se dévoilent du bas avec un léger zoom arrière */
+  .jz-i { opacity: 0; clip-path: inset(12% 0 0 0); transform: scale(1.1); transition: opacity 1.2s ease, clip-path 1.6s cubic-bezier(.65,0,.35,1), transform 2s cubic-bezier(.2,.6,.2,1); }
+  /* Cartes produits : montent une par une */
+  .jz-c { opacity: 0; transform: translateY(40px); transition: opacity 1s ease, transform 1.1s cubic-bezier(.2,.7,.2,1); }
+  .jz-f.jz-in, .jz-i.jz-in, .jz-c.jz-in { opacity: 1; clip-path: inset(0 0 0 0); transform: none; }
+  .jz-h.jz-in { opacity: 1; filter: none; transform: none; letter-spacing: inherit; }
+
+  /* Survol : cartes et boutons */
+  .resource-list__item { transition: transform .5s cubic-bezier(.2,.7,.2,1); }
+  .resource-list__item img { transition: transform 1.1s cubic-bezier(.2,.7,.2,1); }
+  @media (hover: hover) {
+    .resource-list__item:hover { transform: translateY(-6px); }
+    .resource-list__item:hover img { transform: scale(1.04); }
+    a.button, button.button, a.button-secondary { transition: transform .35s ease, box-shadow .35s ease; }
+    a.button:hover, button.button:hover, a.button-secondary:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(31,36,28,.14); }
+  }
+
+  /* Barre de progression dorée en haut de page */
+  #jz-progress { position: fixed; top: 0; left: 0; height: 2px; width: 100%; background: #A88B57; transform: scaleX(0); transform-origin: 0 50%; z-index: 9999; pointer-events: none; }
+
   @media (prefers-reduced-motion: reduce) {
     html.jz-pending #MainContent, html.jz-pending footer { opacity: 1; }
     #header-group { animation: none; }
-    .jz-f, .jz-i { opacity: 1; transform: none; transition: none; }
+    .jz-f, .jz-h, .jz-i, .jz-c { opacity: 1; clip-path: none; filter: none; transform: none; transition: none; }
+    .resource-list__item, .resource-list__item img { transition: none; }
+    #jz-progress { display: none; }
   }
 </style>
 <script>
@@ -28,45 +55,92 @@
   })();
 </script>
 {%- elsif part == 'body' -%}
+<div id="jz-progress" aria-hidden="true"></div>
 <script>
   (function () {
     var root = document.documentElement;
-    if (!root.classList.contains('jz-pending')) return;
+    var animate = root.classList.contains('jz-pending');
 
+    /* --- Barre de progression + en-tête au défilement --- */
+    var bar = document.getElementById('jz-progress');
+    var header = document.getElementById('header-group');
+    var hero = null, ticking = false, io = null;
+
+    function onScroll() {
+      ticking = false;
+      var y = window.scrollY || window.pageYOffset;
+      var max = document.documentElement.scrollHeight - window.innerHeight;
+      if (bar) bar.style.transform = 'scaleX(' + (max > 0 ? Math.min(y / max, 1) : 0) + ')';
+      if (header) header.classList.toggle('jz-scrolled', y > 10);
+      if (hero && y < window.innerHeight * 1.2) hero.style.transform = 'translateY(' + (y * 0.12) + 'px) scale(1.06)';
+      if (io && y >= max - 4) revealAll();
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(onScroll); }
+    }, { passive: true });
+
+    if (!animate) { onScroll(); return; }
+
+    /* --- Parallaxe douce sur la première grande image de la page --- */
+    var first = document.querySelector('#MainContent > *:first-child img');
+    if (first && first.getBoundingClientRect().width > window.innerWidth * 0.6) {
+      hero = first;
+      hero.style.willChange = 'transform';
+      hero.style.transform = 'scale(1.06)';
+      hero.classList.add('jz-skip-anim');
+    }
+
+    /* --- Apparitions au défilement --- */
     var SELECTOR = 'h1,h2,h3,h4,h5,p,blockquote,a.button,a.button-secondary,button.button,.resource-list__item,img,video';
     var SKIP = 'dialog,[role="dialog"],header,cart-drawer-component,predictive-search-component,.jz-skip';
 
     function cleanup(el) {
-      el.classList.remove('jz-f', 'jz-i', 'jz-in');
+      el.classList.remove('jz-f', 'jz-h', 'jz-i', 'jz-c', 'jz-in');
       el.style.transitionDelay = '';
     }
 
-    var io = new IntersectionObserver(function (entries) {
+    function reveal(el, delay) {
+      io.unobserve(el);
+      el.style.transitionDelay = Math.min(delay, 700) + 'ms';
+      el.classList.add('jz-in');
+      setTimeout(function () { cleanup(el); }, 2300 + Math.min(delay, 700));
+    }
+
+    /* Bas de page atteint : tout ce qui reste apparaît */
+    function revealAll() {
+      var d = 0;
+      document.querySelectorAll('.jz-f:not(.jz-in),.jz-h:not(.jz-in),.jz-i:not(.jz-in),.jz-c:not(.jz-in)').forEach(function (el) {
+        reveal(el, d); d += 90;
+      });
+    }
+
+    io = new IntersectionObserver(function (entries) {
       var delay = 0;
       entries.forEach(function (entry) {
         if (!entry.isIntersecting) return;
         var el = entry.target;
-        io.unobserve(el);
-        el.style.transitionDelay = Math.min(delay, 600) + 'ms';
-        delay += 90;
-        el.classList.add('jz-in');
-        setTimeout(function () { cleanup(el); }, 2000 + Math.min(delay, 600));
+        reveal(el, delay);
+        delay += el.classList.contains('jz-c') ? 120 : 90;
       });
     }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
 
     document.querySelectorAll('#MainContent, footer').forEach(function (area) {
       area.querySelectorAll(SELECTOR).forEach(function (el) {
-        if (el.closest(SKIP)) return;
+        if (el.closest(SKIP) || el.classList.contains('jz-skip-anim')) return;
         var item = el.closest('.resource-list__item');
         if (item && item !== el) return;
-        if (el.parentElement && el.parentElement.closest('.jz-f')) return;
-        var media = el.tagName === 'IMG' || el.tagName === 'VIDEO';
-        el.classList.add(media ? 'jz-i' : 'jz-f');
+        if (el.parentElement && el.parentElement.closest('.jz-f,.jz-h,.jz-c')) return;
+        var tag = el.tagName;
+        var cls = (tag === 'IMG' || tag === 'VIDEO') ? 'jz-i'
+                : el.classList.contains('resource-list__item') ? 'jz-c'
+                : (tag === 'H1' || tag === 'H2') ? 'jz-h'
+                : 'jz-f';
+        el.classList.add(cls);
         io.observe(el);
       });
     });
 
-    requestAnimationFrame(function () { root.classList.remove('jz-pending'); });
+    requestAnimationFrame(function () { root.classList.remove('jz-pending'); onScroll(); });
   })();
 </script>
 {%- endif -%}
