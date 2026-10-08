@@ -3,9 +3,8 @@
   part: 'head' : styles + masque le contenu le temps de préparer les animations (évite un flash).
   part: 'body' : apparitions au défilement (titres qui se précisent, images qui se dévoilent, textes en fondu),
                  parallaxe douce sur la première image, barre de progression dorée, en-tête qui se détache.
-  Tout est désactivé si le visiteur a demandé « moins d'animations » dans son système.
+  Si le visiteur a demandé « moins d'animations » dans son système : simples fondus, sans mouvement.
 {%- endcomment -%}
-{%- unless request.design_mode -%}
 {%- if part == 'head' -%}
 <style>
   html.jz-pending #MainContent, html.jz-pending footer { opacity: 0; }
@@ -14,15 +13,19 @@
   #header-group.jz-scrolled { box-shadow: 0 8px 28px rgba(31,36,28,.08); }
 
   /* Textes : fondu qui monte */
-  .jz-f { opacity: 0; transform: translateY(22px); transition: opacity 1.1s ease, transform 1.1s cubic-bezier(.2,.7,.2,1); }
+  .jz-f { opacity: 0; transform: translateY(40px); transition: opacity 1.1s ease, transform 1.1s cubic-bezier(.2,.7,.2,1); }
   /* Titres : apparition floue qui se précise */
-  .jz-h { opacity: 0; filter: blur(8px); transform: translateY(34px); letter-spacing: .02em; transition: opacity 1.1s ease, filter 1.1s ease, transform 1.2s cubic-bezier(.2,.7,.2,1), letter-spacing 1.4s cubic-bezier(.2,.7,.2,1); }
+  .jz-h { opacity: 0; filter: blur(12px); transform: translateY(50px); letter-spacing: .02em; transition: opacity 1.1s ease, filter 1.1s ease, transform 1.2s cubic-bezier(.2,.7,.2,1), letter-spacing 1.4s cubic-bezier(.2,.7,.2,1); }
   /* Images : se dévoilent du bas avec un léger zoom arrière */
-  .jz-i { opacity: 0; clip-path: inset(12% 0 0 0); transform: scale(1.1); transition: opacity 1.2s ease, clip-path 1.6s cubic-bezier(.65,0,.35,1), transform 2s cubic-bezier(.2,.6,.2,1); }
+  .jz-i { opacity: 0; clip-path: inset(30% 0 0 0); transform: scale(1.2); transition: opacity 1.2s ease, clip-path 1.6s cubic-bezier(.65,0,.35,1), transform 2s cubic-bezier(.2,.6,.2,1); }
   /* Cartes produits : montent une par une */
-  .jz-c { opacity: 0; transform: translateY(40px); transition: opacity 1s ease, transform 1.1s cubic-bezier(.2,.7,.2,1); }
+  .jz-c { opacity: 0; transform: translateY(80px) scale(.94); transition: opacity 1s ease, transform 1.1s cubic-bezier(.2,.7,.2,1); }
   .jz-f.jz-in, .jz-i.jz-in, .jz-c.jz-in { opacity: 1; clip-path: inset(0 0 0 0); transform: none; }
   .jz-h.jz-in { opacity: 1; filter: none; transform: none; letter-spacing: inherit; }
+
+  /* Grande image du haut : zoom arrière à l'arrivée */
+  @keyframes jzHero { from { transform: scale(1.3); opacity: .3; } to { transform: scale(1.06); opacity: 1; } }
+  .jz-hero { animation: jzHero 2.6s cubic-bezier(.2,.7,.2,1); }
 
   /* Survol : cartes et boutons */
   .resource-list__item { transition: transform .5s cubic-bezier(.2,.7,.2,1); }
@@ -38,17 +41,16 @@
   #jz-progress { position: fixed; top: 0; left: 0; height: 2px; width: 100%; background: #A88B57; transform: scaleX(0); transform-origin: 0 50%; z-index: 9999; pointer-events: none; }
 
   @media (prefers-reduced-motion: reduce) {
-    html.jz-pending #MainContent, html.jz-pending footer { opacity: 1; }
+    /* Pas de mouvement : uniquement des fondus */
     #header-group { animation: none; }
-    .jz-f, .jz-h, .jz-i, .jz-c { opacity: 1; clip-path: none; filter: none; transform: none; transition: none; }
+    .jz-hero { animation: none; }
+    .jz-f, .jz-h, .jz-i, .jz-c { clip-path: none; filter: none; transform: none; transition: opacity 1.2s ease; }
     .resource-list__item, .resource-list__item img { transition: none; }
-    #jz-progress { display: none; }
   }
 </style>
 <script>
   (function () {
     if (!('IntersectionObserver' in window)) return;
-    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     var root = document.documentElement;
     root.classList.add('jz-pending');
     setTimeout(function () { root.classList.remove('jz-pending'); }, 3000);
@@ -82,12 +84,20 @@
     if (!animate) { onScroll(); return; }
 
     /* --- Parallaxe douce sur la première grande image de la page --- */
-    var first = document.querySelector('#MainContent > *:first-child img');
-    if (first && first.getBoundingClientRect().width > window.innerWidth * 0.6) {
+    var calm = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var first = null;
+    if (!calm) {
+      var imgs = document.querySelectorAll('#MainContent img');
+      for (var k = 0; k < imgs.length && k < 6; k++) {
+        var r = imgs[k].getBoundingClientRect();
+        if (r.top < window.innerHeight && r.width > window.innerWidth * 0.6) { first = imgs[k]; break; }
+      }
+    }
+    if (first) {
       hero = first;
       hero.style.willChange = 'transform';
       hero.style.transform = 'scale(1.06)';
-      hero.classList.add('jz-skip-anim');
+      hero.classList.add('jz-skip-anim', 'jz-hero');
     }
 
     /* --- Apparitions au défilement --- */
@@ -144,4 +154,3 @@
   })();
 </script>
 {%- endif -%}
-{%- endunless -%}
