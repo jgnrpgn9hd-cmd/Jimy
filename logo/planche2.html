@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="fonts/fonts.css">
+<style>
+*{margin:0;box-sizing:border-box}
+body{width:1800px;background:#EDE7DB;font-family:'Instrument Sans';color:#1F241C;padding:70px}
+h1{font-family:'Instrument Serif';font-weight:400;font-size:60px}
+.sub{font-size:20px;opacity:.6;margin:6px 0 46px}
+.row{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;margin-bottom:30px}
+.card{border-radius:26px;padding:40px 24px 40px;display:flex;flex-direction:column;align-items:center;background:#F7F3EA}
+.card.g{background:#3F4F24}.card.k{background:#16190F}
+.tag{align-self:flex-start;font-size:14px;letter-spacing:.18em;text-transform:uppercase;opacity:.5;margin:0 0 26px 10px}
+.g .tag,.k .tag{color:#F7F3EA}
+svg{width:230px;height:230px}
+.w{font-weight:700;font-size:40px;letter-spacing:.24em;margin-top:28px;padding-left:.24em}
+.g .w,.k .w{color:#F7F3EA}
+</style></head><body>
+<h1>Jimenez — nouvelles pistes</h1><div class="sub">Plus graphiques et modernes, comme la vidéo : formes pleines, couches décalées, une seule couleur forte.</div>
+<div class="row" id="r1"></div><div class="row" id="r2"></div>
+<script>
+const S={
+D:`<circle cx="128" cy="76" r="56" fill="{C1}"/><g transform="rotate(-45 86 122)"><ellipse cx="86" cy="122" rx="62" ry="36" fill="none" stroke="{BG}" stroke-width="30"/><ellipse cx="86" cy="122" rx="62" ry="36" fill="none" stroke="{C2}" stroke-width="12"/><ellipse cx="86" cy="122" rx="30" ry="13" fill="{C2}"/></g>`,
+E:`<g fill="{C1}"><path d="M96 34 h30 v104 a46 46 0 0 1 -92 0 v-6 h30 v6 a16 16 0 0 0 32 0 z" /></g><g stroke="{BG}" stroke-width="7"><line x1="0" y1="72" x2="200" y2="72"/><line x1="0" y1="110" x2="200" y2="110"/><line x1="0" y1="148" x2="200" y2="148"/></g><circle cx="158" cy="44" r="16" fill="{C2}"/>`,
+F:`<path d="M100 14 C100 14 166 92 166 132 A66 66 0 0 1 34 132 C34 92 100 14 100 14Z" fill="{C1}"/><path d="M112 74 V136 A22 22 0 0 1 68 136" fill="none" stroke="{BG}" stroke-width="20"/>`,
+G:`<circle cx="100" cy="100" r="86" fill="{C1}"/><path d="M114 74 V128 A26 26 0 0 1 62 128" fill="none" stroke="{BG}" stroke-width="22"/><path d="M114 66 C 116 40, 140 30, 158 34 C 154 54, 136 66, 114 66Z" fill="{C2}"/>`};
+const names={D:'D — L’olive en couches',E:'E — Le J en rangs',F:'F — La goutte',G:'G — Le sceau'};
+const themes=[['#F7F3EA','#3F4F24','#A88B57',''],['#3F4F24','#F7F3EA','#C9A86A','g']];
+themes.forEach(([bg,c1,c2,cls],i)=>{for(const k in S){const d=document.createElement('div');d.className='card '+cls;
+d.innerHTML=`<div class="tag">${names[k]}</div><svg viewBox="0 0 200 200">${S[k].replace(/{C1}/g,c1).replace(/{C2}/g,c2).replace(/{BG}/g,bg)}</svg><div class="w">JIMENEZ</div>`;
+document.getElementById('r'+(i+1)).appendChild(d)}});
+</script></body></html>

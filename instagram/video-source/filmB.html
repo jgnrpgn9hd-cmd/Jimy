@@ -1,0 +1,89 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><link href="fonts/fonts.css" rel="stylesheet"><style>
+:root{--cream:#F6F1E7;--ink:#1F241C;--olive:#4B523C;--gold:#A88B57;--gold2:#C9AE7C}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#ECE8D8}
+body{font-family:"Instrument Sans",sans-serif;color:var(--ink)}
+.L{position:absolute;inset:0;overflow:hidden;display:none}
+.ph{position:absolute;left:0;top:0;width:100%;height:100%;object-fit:cover}
+.serif{font-family:"Instrument Serif",serif;font-weight:400;letter-spacing:-1px}
+.k{font-size:24px;letter-spacing:8px;text-transform:uppercase;font-weight:500}
+.ch{display:inline-block}
+#grain{position:absolute;left:-60px;top:-60px;opacity:.05;mix-blend-mode:multiply;z-index:100;pointer-events:none}
+.cap{position:absolute;left:0;right:0;text-align:center}
+</style></head><body>
+<svg id="grain" width="1200" height="2040"><filter id="n"><feTurbulence id="turb" type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="1"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
+
+<div class="L" id="a" style="background:#ECE8D8">
+  <div class="cap serif" style="top:880px;font-size:96px"><span id="aw"></span>
+    <svg id="wv" width="420" height="24" style="display:block;margin:6px auto 0"><path id="wvP" stroke="#A88B57" stroke-width="2.5" fill="none"/></svg></div>
+</div>
+
+<div class="L" id="b"><img class="ph" id="pb" src="hq/bottle_white.jpg">
+  <div class="cap k" id="bk" style="top:250px;color:var(--gold)">Arbequina</div>
+  <div class="cap serif" style="top:310px;font-size:110px"><span id="bw"></span></div></div>
+
+<div class="L" id="c" style="background:#D3CFD1"><img id="pc" src="hq/bio.jpg" style="position:absolute;left:0;top:640px;height:1280px;width:auto;max-width:none;-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 14%)">
+  <div class="cap k" style="top:250px;color:var(--olive)" id="ck">Huile d'olive vierge extra</div>
+  <div class="cap serif" style="top:310px;font-size:110px"><span id="cw"></span></div></div>
+
+<div class="L" id="d" style="background:#EFDDC6"><img id="pd" src="hq/ceramic.jpg" style="position:absolute;left:0;top:560px;width:1080px;height:1360px;object-fit:cover;object-position:50% 20%;-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 12%)">
+  <div class="cap k" style="top:250px;color:var(--gold)" id="dk">Arbequina</div>
+  <div class="cap serif" style="top:310px;font-size:110px"><span id="dw"></span></div></div>
+
+<div class="L" id="e" style="background:#ECE8D8;align-items:center;justify-content:center;flex-direction:column">
+  <img id="lg" src="img/logo_ink.png" style="width:440px">
+  <div id="e2" class="k" style="margin-top:44px;color:var(--olive);font-size:28px">jimenez-shop.com</div></div>
+
+<div id="ring" style="position:absolute;z-index:90;border:3px solid #C9AE7C;border-radius:50%;display:none"></div>
+<div id="lineW" style="position:absolute;z-index:90;top:0;height:1920px;width:3px;background:#C9AE7C;display:none"></div>
+
+<script>
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)), lerp=(a,b,t)=>a+(b-a)*t;
+const eo=t=>1-Math.pow(1-clamp(t),4), eio=t=>{t=clamp(t);return t<.5?8*t*t*t*t:1-Math.pow(-2*t+2,4)/2};
+const es=t=>{t=clamp(t);return t*t*(3-2*t)};
+const prog=(t,a,b)=>clamp((t-a)/(b-a)); const $=id=>document.getElementById(id);
+const DURATION=10.0;
+function word(el,w,t,st,en){ // letter in / out with blur
+  if(el.dataset.w!==w){el.dataset.w=w;el.innerHTML='';[...w].forEach(c=>{const s=document.createElement('span');s.className='ch';s.textContent=c===' '?' ':c;el.appendChild(s)})}
+  const L=[...el.children]; L.forEach((c,i)=>{const p=eo(prog(t,st+i*.025,st+.5+i*.025)), q=en?eo(prog(t,en+i*.012,en+.3+i*.012)):0;
+    c.style.opacity=p*(1-q); c.style.transform=`translateY(${(1-p)*30-q*24}px)`; c.style.filter=`blur(${(1-p)*10+q*10}px)`;});}
+function seq(el,list,t){ // list of [word,start,end]
+  for(const [w,s,e] of list){ if(t<e+.35||w===list[list.length-1][0]){ word(el,w,t,s,e); return; } } }
+function show(id,on,disp='block'){$(id).style.display=on?disp:'none'}
+function render(t){
+  const f=Math.floor(t*24); $('turb').setAttribute('seed',f%97); $('grain').style.transform=`translate(${(f*37)%60-30}px,${(f*53)%60-30}px)`;
+  $('ring').style.display='none'; $('lineW').style.display='none';
+  // A 0..1.9 : word swap
+  show('a',t<2.0);
+  if(t<2.0){ seq($('aw'),[['Une bouteille.',.1,.75],['Un geste.',1.0,1.4],['Un goût.',1.65,null]],t);
+    let d='';for(let x=0;x<=420;x+=6)d+=(x?' L':'M')+x+' '+(12+Math.sin(x/16+t*7)*5).toFixed(1); $('wvP').setAttribute('d',d);
+    $('wv').style.clipPath=`inset(0 ${(1-eo(prog(t,.3,.9)))*100}% 0 0)`; }
+  // B 1.7..4.2 : circle reveal on bottle
+  const bOn=t>=1.7&&t<4.45; show('b',bOn); $('b').style.zIndex=2;
+  if(bOn){ const p=eio(prog(t,1.7,2.35)); const R=p*1150;
+    $('b').style.clipPath=`circle(${R}px at 540px 960px)`;
+    if(p>0&&p<1){const r=$('ring').style;r.display='block';r.width=r.height=2*R+'px';r.left=540-R+'px';r.top=960-R+'px';}
+    $('pb').style.transform=`scale(${lerp(1.35,1.08,es(prog(t,1.7,4.4)))})`;
+    $('bk').style.opacity=eo(prog(t,2.2,2.6))*(1-eo(prog(t,4.0,4.3)));
+    seq($('bw'),[['Récoltée tôt.',2.3,3.2],['Pressée à froid.',3.35,4.0]],t); }
+  // C 4.2..6.6 : green bottles, wipe from right with gold line + pan
+  const cOn=t>=4.2&&t<6.85; show('c',cOn); $('c').style.zIndex=3;
+  if(cOn){ const p=eio(prog(t,4.2,4.75)); $('c').style.clipPath=`inset(0 0 0 ${(1-p)*100}%)`;
+    if(p>0&&p<1){const l=$('lineW').style;l.display='block';l.left=((1-p)*1080-1)+'px';}
+    const w=1280*2412/1572; $('pc').style.transform=`translateX(${lerp(-(w-1080)*.9,-(w-1080)*.45,es(prog(t,4.2,6.8)))}px)`;
+    $('ck').style.opacity=eo(prog(t,4.7,5.1))*(1-eo(prog(t,6.4,6.7)));
+    seq($('cw'),[['Écologique.',4.8,5.6],["L'or vert.",5.75,6.45]],t); }
+  // D 6.6..8.4 : ceramic, soft blur dissolve
+  const dOn=t>=6.6&&t<8.6; show('d',dOn); $('d').style.zIndex=4;
+  if(dOn){ const p=eio(prog(t,6.6,7.1)); $('d').style.opacity=p; $('d').style.filter=`blur(${(1-p)*18}px)`;
+    $('pd').style.transform=`scale(${lerp(1.18,1.04,es(prog(t,6.6,8.6)))}) translateY(${lerp(30,0,es(prog(t,6.6,8.6)))}px)`;
+    $('dk').style.opacity=eo(prog(t,7.0,7.4))*(1-eo(prog(t,8.1,8.4)));
+    seq($('dw'),[['À offrir.',7.05,8.1]],t); }
+  // E 8.35.. : logo
+  const eOn=t>=8.35; show('e',eOn,'flex'); $('e').style.zIndex=5;
+  if(eOn){ const p=eio(prog(t,8.35,8.8)); $('e').style.clipPath=`circle(${p*120}% at 50% 50%)`;
+    $('lg').style.clipPath=`inset(-10% ${(1-eio(prog(t,8.6,9.3)))*100}% -10% 0)`;
+    const q=eo(prog(t,9.1,9.5)); $('e2').style.opacity=q; $('e2').style.transform=`translateY(${(1-q)*16}px)`; }
+}
+window.render=render; window.DURATION=DURATION; render(0);
+</script></body></html>

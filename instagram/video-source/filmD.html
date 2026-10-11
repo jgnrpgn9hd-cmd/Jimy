@@ -1,0 +1,88 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><link href="fonts/fonts.css" rel="stylesheet"><style>
+:root{--bg:#EFE9DC;--ink:#1F241C;--olive:#4B523C;--gold:#A88B57}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+body{font-family:"Instrument Sans",sans-serif;color:var(--ink)}
+.serif{font-family:"Instrument Serif",serif;font-weight:400;letter-spacing:-.02em}
+.k{font-size:22px;letter-spacing:7px;text-transform:uppercase;font-weight:500}
+#frame{position:absolute;left:100px;top:330px;width:880px;height:1180px;overflow:hidden;background:#E4DCCB}
+.ph{position:absolute;inset:0;overflow:hidden}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.mask{position:absolute;overflow:hidden}
+.mask>div{will-change:transform}
+#grain{position:absolute;left:-60px;top:-60px;opacity:.045;mix-blend-mode:multiply;z-index:100;pointer-events:none}
+.hair{position:absolute;height:1px;background:rgba(31,36,28,.25)}
+</style></head><body>
+<svg id="grain" width="1200" height="2040"><filter id="n"><feTurbulence id="turb" type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="1"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
+<!-- top bar -->
+<img id="tlogo" src="img/logo_ink.png" style="position:absolute;left:100px;top:150px;width:150px">
+<div id="tr" class="k" style="position:absolute;right:100px;top:178px;color:var(--olive);font-size:18px">Huile d'olive vierge extra</div>
+<div class="hair" id="h1" style="left:100px;top:250px;width:880px"></div>
+<div id="frame"></div>
+<!-- bottom text -->
+<div class="mask" style="left:100px;top:1555px;width:200px;height:40px"><div id="idx" class="k" style="color:var(--gold)"></div></div>
+<div class="mask" style="left:100px;top:1600px;width:880px;height:130px"><div id="nm" class="serif" style="font-size:112px;line-height:1.1"></div></div>
+<div class="mask" style="left:100px;top:1738px;width:880px;height:44px"><div id="ds" style="font-size:30px;color:var(--olive)"></div></div>
+<div class="hair" style="left:100px;top:1810px;width:880px;opacity:.6"></div>
+<div id="bar" style="position:absolute;left:100px;top:1809px;height:3px;width:0;background:var(--ink)"></div>
+<!-- intro title -->
+<div class="mask" style="left:0;right:0;top:780px;height:170px;text-align:center"><div id="it1" class="serif" style="font-size:150px">La collection.</div></div>
+<div class="mask" style="left:0;right:0;top:960px;height:40px;text-align:center"><div id="it2" class="k" style="color:var(--gold)">Andalousie · Pressée à froid</div></div>
+<!-- outro -->
+<div id="out" style="position:absolute;inset:0;display:none;align-items:center;justify-content:center;flex-direction:column;background:var(--bg)">
+  <img id="ol" src="img/logo_ink.png" style="width:460px">
+  <div class="mask" style="position:relative;height:50px;margin-top:46px;width:700px;text-align:center"><div id="o2" class="k" style="color:var(--olive);font-size:26px">jimenez-shop.com</div></div>
+  <div class="mask" style="position:relative;height:40px;margin-top:6px;width:700px;text-align:center"><div id="o3" class="k" style="color:var(--gold);font-size:18px">Livraison en France</div></div>
+</div>
+<script>
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)), lerp=(a,b,t)=>a+(b-a)*t;
+const eo=t=>1-Math.pow(1-clamp(t),3), e5=t=>1-Math.pow(1-clamp(t),5);
+const eio=t=>{t=clamp(t);return t<.5?16*t**5:1-Math.pow(-2*t+2,5)/2};
+const prog=(t,a,b)=>clamp((t-a)/(b-a)); const $=id=>document.getElementById(id);
+const Z=[1.42,1.0,1.08,1.0,1.0], ORG=['55% 56%','50% 50%','60% 50%','50% 50%','50% 50%'];
+const P=[['n_coupage.jpg','56% 50%','Coupage','Picual & Arbequina'],
+ ['n_trio.jpg','50% 40%','Le coffret','Hojiblanca · Arbosana · Picual'],
+ ['n_eco.jpg','72% 50%','Arbequina','Écologique'],
+ ['n_tins.jpg','50% 60%','Grand format','Arbequina · 1 L'],
+ ['n_ceramic.jpg','50% 45%','La céramique','Arbequina · À offrir']];
+const T0=2.4, D=2.7, N=P.length, TE=T0+N*D, DURATION=TE+3.0;
+const L=P.map(([src,op])=>{const d=document.createElement('div');d.className='ph';d.innerHTML=`<img src="hq/${src}" style="object-position:${op}">`;$('frame').appendChild(d);return d;});
+// text slot: swap with mask slide
+function slot(el,arr,t,st,off){ // arr: texts per index
+  let i=Math.floor((t-st)/D); i=clamp(i,0,N-1); const lt=t-st-i*D;
+  el.textContent=arr[i];
+  const pin=e5(prog(lt,.25+off,.95+off)), pout=i<N-1?eio(prog(lt,D-.45+off*.5,D-.05+off*.5)):eio(prog(t,TE-.1,TE+.4));
+  el.style.transform=`translateY(${(1-pin)*110 - pout*110}%)`;
+  if(t<st+.2) el.style.transform='translateY(110%)';}
+function render(t){
+  const f=Math.floor(t*24); $('turb').setAttribute('seed',f%97); $('grain').style.transform=`translate(${(f*37)%60-30}px,${(f*53)%60-30}px)`;
+  // chrome
+  const c=eo(prog(t,.1,1.0)); $('tlogo').style.opacity=c; $('tr').style.opacity=c; $('h1').style.transform=`scaleX(${e5(prog(t,.2,1.4))})`; $('h1').style.transformOrigin='0 0';
+  // intro
+  const ii=e5(prog(t,.3,1.2)), io=eio(prog(t,1.9,2.5));
+  $('it1').style.transform=`translateY(${(1-ii)*110-io*110}%)`; const j=e5(prog(t,.6,1.4)); $('it2').style.transform=`translateY(${(1-j)*110-io*110}%)`;
+  // frame: grows from a line
+  const fr=eio(prog(t,2.0,2.9)); const fe=eio(prog(t,TE-.2,TE+.6));
+  const H=1180*fr*(1-fe), top=330+(1180-H)/2; $('frame').style.top=top+'px'; $('frame').style.height=H+'px';
+  $('frame').style.display=H<1?'none':'block';
+  L.forEach((d,i)=>{const st=T0+i*D; const on=t>=st-.1&&t<st+D+.9; d.style.display=on?'block':'none'; d.style.zIndex=i;
+    const p=i===0?1:eio(prog(t,st-.35,st+.55)); // curtain reveal from bottom
+    d.style.clipPath=`inset(${(1-p)*100}% 0 0 0)`;
+    const img=d.querySelector('img'); const life=prog(t,st-.35,st+D+.6);
+    img.style.transform=`translateY(${-H/2+590}px) scale(${lerp(1.18,1.0,e5(prog(t,st-.35,st+1.2)))*lerp(1,1.04,life)}) translateY(${lerp(18,-18,life)}px)`;
+    img.style.top=(-(1180-H)/2)+'px'; img.style.height='1180px';
+    img.style.transformOrigin=ORG[i]; img.style.transform=`scale(${Z[i]*lerp(1.18,1.0,e5(prog(t,st-.35,st+1.2)))*lerp(1,1.04,life)}) translateY(${lerp(18,-18,life)}px)`;
+  });
+  // text
+  if(t>=T0-.3&&t<TE+.6){ slot($('idx'),P.map((_,i)=>String(i+1).padStart(2,'0')+' / '+String(N).padStart(2,'0')),t,T0,0);
+    slot($('nm'),P.map(p=>p[2]),t,T0,.06); slot($('ds'),P.map(p=>p[3]),t,T0,.12);}
+  else ['idx','nm','ds'].forEach(id=>$(id).style.transform='translateY(110%)');
+  $('bar').style.width=(880*clamp((t-T0)/(N*D)))+'px'; $('bar').style.opacity=t>T0&&t<TE+.4?1:0;
+  // outro
+  const o=t>=TE+.45; $('out').style.display=o?'flex':'none'; $('out').style.zIndex=60;
+  if(o){ $('out').style.opacity=eo(prog(t,TE+.45,TE+.8));
+    $('ol').style.clipPath=`inset(-10% ${(1-eio(prog(t,TE+.6,TE+1.6)))*100}% -10% 0)`;
+    $('o2').style.transform=`translateY(${(1-e5(prog(t,TE+1.3,TE+2.0)))*110}%)`; $('o3').style.transform=`translateY(${(1-e5(prog(t,TE+1.5,TE+2.2)))*110}%)`;}
+}
+window.render=render; window.DURATION=DURATION; render(0);
+</script></body></html>

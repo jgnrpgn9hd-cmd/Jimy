@@ -10,10 +10,10 @@ Base : environ **-30 % sur le prix public**, commande minimum **6 bouteilles** (
 | Huile d'olive vierge extra Arbequina | 14,00 € | 9,80 € |
 | Arbequina, première récolte | 23,00 € | 16,00 € |
 | Coupage | 13,00 € | 9,10 € |
-| Arbequina bio, 1 L | 12,00 € | 8,40 € |
+| Arbequina écologique, 1 L | 12,00 € | 8,40 € |
 | Coffret dégustation (Hojiblanca, Arbosana, Picual) | 42,00 € | 29,00 € |
 
-> Remarque : l'Arbequina bio 1 L (12 €) est vendue moins cher que la 500 ml classique (14 €). Vérifie que ce prix est voulu avant de démarcher.
+> Remarque : l'Arbequina écologique 1 L (12 €) est vendue moins cher que la 500 ml classique (14 €). Vérifie que ce prix est voulu avant de démarcher.
 
 Livraison offerte dès 12 bouteilles, ou livraison en main propre si le client est proche de Neuilly-sur-Marne.
 

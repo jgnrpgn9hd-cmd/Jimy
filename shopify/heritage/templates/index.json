@@ -19,7 +19,7 @@
             "text_yn8mJC": {
               "type": "text",
               "settings": {
-                "text": "<h1>L'Andalousie, directement du domaine</h1>",
+                "text": "<h1>Le vrai goût de l'huile d'olive andalouse</h1>",
                 "type_preset": "h1",
                 "text_color": "{{ settings.color_palette.background }}"
               }
@@ -27,7 +27,7 @@
             "text_sub": {
               "type": "text",
               "settings": {
-                "text": "<p>Huiles d'olive vierge extra, récoltées tôt et pressées à froid.</p>",
+                "text": "<p>Vierge extra, récoltée tôt, pressée à froid. Expédiée directement d'Andalousie.</p>",
                 "type_preset": "rte",
                 "text_color": "{{ settings.color_palette.background }}"
               }
@@ -48,17 +48,29 @@
                 "button_4nF9Lg": {
                   "type": "button",
                   "settings": {
-                    "label": "Voir les huiles",
+                    "label": "Découvrir nos huiles",
                     "link": "shopify://collections/huiles-d-olives",
                     "style_class": "button-custom",
                     "custom_button_background": "{{ settings.color_palette.background }}",
                     "custom_button_text": "{{ settings.color_palette.foreground }}",
                     "custom_button_border": "{{ settings.color_palette.background }}"
                   }
+                },
+                "button_coffret": {
+                  "type": "button",
+                  "settings": {
+                    "label": "Le coffret dégustation",
+                    "link": "shopify://products/coffret-3-bouteilles-aove-monovarietal-hojiblanca-arbosana-y-picual",
+                    "style_class": "button-custom",
+                    "custom_button_background": "{{ settings.color_palette.foreground }}",
+                    "custom_button_text": "{{ settings.color_palette.background }}",
+                    "custom_button_border": "{{ settings.color_palette.background }}"
+                  }
                 }
               },
               "block_order": [
-                "button_4nF9Lg"
+                "button_4nF9Lg",
+                "button_coffret"
               ]
             }
           },
@@ -113,7 +125,7 @@
         "t3": {
           "type": "text",
           "settings": {
-            "text": "<p>Nous travaillons avec un producteur andalou. Parmi ses huiles, nous avons gardé celles que nous préférons, et c'est tout ce que nous vendons.</p>",
+            "text": "<p>Nous travaillons en direct avec des producteurs andalous. Parmi leurs huiles, nous gardons seulement celles que nous servons à notre propre table.</p>",
             "type_preset": "rte",
             "text_color": "{{ settings.color_palette.foreground }}",
             "alignment": "center",
@@ -494,7 +506,7 @@
                 "h": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>Le coffret dégustation</h2>",
+                    "text": "<h2>À offrir : le coffret dégustation</h2>",
                     "type_preset": "h2",
                     "text_color": "{{ settings.color_palette.foreground }}"
                   }
@@ -559,12 +571,617 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "section_Rassurance": {
+      "type": "section",
+      "blocks": {
+        "row": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 32,
+            "width": "fill"
+          },
+          "blocks": {
+            "r0": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 8,
+                "width": "fill"
+              },
+              "blocks": {
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>En direct du producteur</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "1.5rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.background }}"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Des oliveraies andalouses à votre table, sans intermédiaire.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.background }}"
+                  }
+                }
+              },
+              "block_order": [
+                "t",
+                "p"
+              ]
+            },
+            "r1": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 8,
+                "width": "fill"
+              },
+              "blocks": {
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Récoltée tôt, pressée à froid</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "1.5rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.background }}"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Plus de fraîcheur, plus de goût.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.background }}"
+                  }
+                }
+              },
+              "block_order": [
+                "t",
+                "p"
+              ]
+            },
+            "r2": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 8,
+                "width": "fill"
+              },
+              "blocks": {
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Livraison offerte dès 80 €</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "1.5rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.background }}"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Expédiée d'Andalousie en Chronopost, 7 à 10 jours ouvrés.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.background }}"
+                  }
+                }
+              },
+              "block_order": [
+                "t",
+                "p"
+              ]
+            },
+            "r3": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 8,
+                "width": "fill"
+              },
+              "blocks": {
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>-10 % avec BIENVENUE10</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "1.5rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.background }}"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Sur toute la boutique.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.background }}"
+                  }
+                }
+              },
+              "block_order": [
+                "t",
+                "p"
+              ]
+            }
+          },
+          "block_order": [
+            "r0",
+            "r1",
+            "r2",
+            "r3"
+          ]
+        }
+      },
+      "block_order": [
+        "row"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "section_width": "page-width",
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 20,
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "padding-block-start": 44,
+        "padding-block-end": 44
+      }
+    },
+    "section_Guide": {
+      "type": "section",
+      "blocks": {
+        "h": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Quelle huile pour vous ?</h2>",
+            "width": "100%",
+            "alignment": "center",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "3rem",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "balance",
+            "text_color": "{{ settings.color_palette.foreground }}"
+          }
+        },
+        "row": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 20,
+            "width": "fill"
+          },
+          "blocks": {
+            "c0": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "space-between",
+                "gap": 14,
+                "width": "fill",
+                "height": "fill",
+                "background_media": "none",
+                "background_color": "#EFE8DB",
+                "border": "none",
+                "border_radius": 20,
+                "padding-block-start": 40,
+                "padding-block-end": 36,
+                "padding-inline-start": 24,
+                "padding-inline-end": 24
+              },
+              "blocks": {
+                "l": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>01 · Au quotidien</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.75rem",
+                    "line_height": "normal",
+                    "letter_spacing": "loose",
+                    "case": "uppercase",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.color2 }}"
+                  }
+                },
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Pour tous les jours</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "2rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.foreground }}"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Ronde et équilibrée, crue ou en cuisson douce.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}"
+                  }
+                },
+                "b": {
+                  "type": "button",
+                  "settings": {
+                    "label": "Le Coupage",
+                    "link": "shopify://products/huile-d-olive-virgen-extra-coupage-500ml",
+                    "style_class": "button-secondary"
+                  }
+                }
+              },
+              "block_order": [
+                "l",
+                "t",
+                "p",
+                "b"
+              ]
+            },
+            "c1": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "space-between",
+                "gap": 14,
+                "width": "fill",
+                "height": "fill",
+                "background_media": "none",
+                "background_color": "#EFE8DB",
+                "border": "none",
+                "border_radius": 20,
+                "padding-block-start": 40,
+                "padding-block-end": 36,
+                "padding-inline-start": 24,
+                "padding-inline-end": 24
+              },
+              "blocks": {
+                "l": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>02 · À déguster</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.75rem",
+                    "line_height": "normal",
+                    "letter_spacing": "loose",
+                    "case": "uppercase",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.color2 }}"
+                  }
+                },
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Pour se régaler, crue</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "2rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.foreground }}"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Pomme verte, amande et un petit piquant en fin de bouche.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}"
+                  }
+                },
+                "b": {
+                  "type": "button",
+                  "settings": {
+                    "label": "La première récolte",
+                    "link": "shopify://products/huile-d-olive-virgen-extra-500ml",
+                    "style_class": "button-secondary"
+                  }
+                }
+              },
+              "block_order": [
+                "l",
+                "t",
+                "p",
+                "b"
+              ]
+            },
+            "c2": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "space-between",
+                "gap": 14,
+                "width": "fill",
+                "height": "fill",
+                "background_media": "none",
+                "background_color": "#EFE8DB",
+                "border": "none",
+                "border_radius": 20,
+                "padding-block-start": 40,
+                "padding-block-end": 36,
+                "padding-inline-start": 24,
+                "padding-inline-end": 24
+              },
+              "blocks": {
+                "l": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>03 · En cuisine</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.75rem",
+                    "line_height": "normal",
+                    "letter_spacing": "loose",
+                    "case": "uppercase",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.color2 }}"
+                  }
+                },
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Pour cuisiner sans compter</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "2rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.foreground }}"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Arbequina écologique, en grand format 1 L.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}"
+                  }
+                },
+                "b": {
+                  "type": "button",
+                  "settings": {
+                    "label": "Le grand format",
+                    "link": "shopify://products/huile-d-olive-virgen-extra-arbequina-certificado-ecologico-1l",
+                    "style_class": "button-secondary"
+                  }
+                }
+              },
+              "block_order": [
+                "l",
+                "t",
+                "p",
+                "b"
+              ]
+            },
+            "c3": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "space-between",
+                "gap": 14,
+                "width": "fill",
+                "height": "fill",
+                "background_media": "none",
+                "background_color": "#EFE8DB",
+                "border": "none",
+                "border_radius": 20,
+                "padding-block-start": 40,
+                "padding-block-end": 36,
+                "padding-inline-start": 24,
+                "padding-inline-end": 24
+              },
+              "blocks": {
+                "l": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>04 · À offrir</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.75rem",
+                    "line_height": "normal",
+                    "letter_spacing": "loose",
+                    "case": "uppercase",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.color2 }}"
+                  }
+                },
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Pour offrir</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "2rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.foreground }}"
+                  }
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Trois variétés à goûter côte à côte.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
+                    "type_preset": "rte",
+                    "text_color": "{{ settings.color_palette.foreground }}"
+                  }
+                },
+                "b": {
+                  "type": "button",
+                  "settings": {
+                    "label": "Le coffret",
+                    "link": "shopify://products/coffret-3-bouteilles-aove-monovarietal-hojiblanca-arbosana-y-picual",
+                    "style_class": "button-secondary"
+                  }
+                }
+              },
+              "block_order": [
+                "l",
+                "t",
+                "p",
+                "b"
+              ]
+            }
+          },
+          "block_order": [
+            "c0",
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      },
+      "block_order": [
+        "h",
+        "row"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "section_width": "page-width",
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 40,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 20,
+        "padding-block-end": 100
+      }
     }
   },
   "order": [
     "hero_DdhBcH",
+    "section_Rassurance",
     "section_Intro",
     "product_list_Huiles",
+    "section_Guide",
     "media_with_content_CwFqjm",
     "media_with_content_xUctDh"
   ]
