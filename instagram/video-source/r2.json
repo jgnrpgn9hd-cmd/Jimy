@@ -1,0 +1,5 @@
+{"end":"Du verger<br>à votre table.","scenes":[
+{"img":"ai_film/u14.png","k":"Andalousie","t":"Le jour se lève<br>sur les oliviers.","d":3.2,"zin":true},
+{"img":"ai_film/u07.png","k":"Récoltées tôt","t":"Des olives<br>encore vertes.","d":2.8,"pan":1},
+{"img":"ai_film/u05.png","k":"Pressées à froid","t":"Pour garder<br>tout le fruité.","d":2.8,"zin":true},
+{"img":"ai_film/u09.png","k":"Et le soir","t":"On dresse<br>la table.","d":3.0,"pan":-1}]}

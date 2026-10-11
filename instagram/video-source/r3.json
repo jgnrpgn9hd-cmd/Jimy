@@ -1,0 +1,5 @@
+{"end":"Une huile<br>pour chaque plat.","scenes":[
+{"img":"ai_film/u02.png","k":"Ce soir","t":"Le pain<br>d'abord.","d":2.8,"zin":true},
+{"img":"ai_film/u03.png","k":"Au four","t":"Les légumes<br>rôtis.","d":2.8,"pan":1},
+{"img":"ai_film/u01.png","k":"À la poêle","t":"Le poisson<br>juste saisi.","d":2.8,"zin":true},
+{"img":"ai_film/u04.png","k":"Et pour finir","t":"Trois huiles<br>à goûter.","d":3.0,"pan":-1}]}

@@ -1,0 +1,45 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><link href="fonts/fonts.css" rel="stylesheet"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#111}
+body{font-family:"Instrument Sans",sans-serif}
+.serif{font-family:"Instrument Serif",serif;font-weight:400;letter-spacing:-.02em;line-height:1.02}
+.k{font-size:24px;letter-spacing:8px;text-transform:uppercase;font-weight:600}
+.sc{position:absolute;inset:0;overflow:hidden;opacity:0}
+.sc img{position:absolute;left:50%;top:50%;height:2080px;transform-origin:50% 50%}
+.shade{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(246,240,229,.82) 0%,rgba(246,240,229,.5) 24%,rgba(246,240,229,0) 40%,rgba(246,240,229,0) 82%,rgba(246,240,229,.55) 100%)}
+.shade.dark{background:linear-gradient(to bottom,rgba(18,20,14,.7) 0%,rgba(18,20,14,.3) 26%,rgba(18,20,14,0) 42%,rgba(18,20,14,0) 80%,rgba(18,20,14,.5) 100%)}
+.mask{position:absolute;left:84px;right:84px;overflow:hidden}
+.mask>div{will-change:transform}
+#logo{position:absolute;left:84px;top:110px;width:150px;z-index:20}
+#end{position:absolute;inset:0;background:#F5EFE4;opacity:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:30}
+#grain{position:absolute;left:-60px;top:-60px;opacity:.11;mix-blend-mode:overlay;z-index:50}
+#warm{position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 20% 10%,rgba(255,200,120,.16),rgba(255,200,120,0) 70%);mix-blend-mode:soft-light;z-index:40}
+</style></head><body>
+<div id="stage"></div>
+<img id="logo" src="img/logo_ink.png">
+<div id="end"><img src="img/logo_ink.png" style="width:300px"><div class="mask" style="position:relative;left:0;right:0;width:1000px;height:300px;margin-top:70px;text-align:center"><div id="et" class="serif" style="font-size:118px;color:#1F241C"></div></div>
+<div class="mask" style="position:relative;left:0;right:0;width:1000px;height:44px;margin-top:30px;text-align:center"><div id="eu" class="k" style="color:#A88B57">jimenez-shop.com · lien en bio</div></div></div>
+<div id="warm"></div>
+<svg id="grain" width="1200" height="2040"><filter id="n"><feTurbulence id="turb" type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="1"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
+<script>
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),eo=t=>1-Math.pow(1-clamp(t),3),eio=t=>{t=clamp(t);return t<.5?4*t**3:1-Math.pow(-2*t+2,3)/2};
+const CFG=JSON.parse(decodeURIComponent(location.hash.slice(1)));
+const X=0.7; let t0=0; const S=CFG.scenes.map((s,i)=>{const d=document.createElement('div');d.className='sc';
+ d.innerHTML=`<img src="${s.img}"><div class="shade ${s.dark?'dark':''}"></div>
+ <div class="mask" style="top:250px;height:40px"><div class="k" style="color:${s.dark?'#E2C98F':'#8C6F3E'}">${s.k}</div></div>
+ <div class="mask" style="top:300px;height:${150*(s.t.split('<br>').length)+30}px"><div class="serif" style="font-size:140px;color:${s.dark?'#F5EFE4':'#1F241C'}">${s.t}</div></div>`;
+ document.getElementById('stage').appendChild(d);const o={el:d,img:d.querySelector('img'),k:d.querySelectorAll('.mask>div')[0],t:d.querySelectorAll('.mask>div')[1],a:t0,b:t0+s.d,s,i};t0+=s.d-X;return o});
+const TE=t0+X, DURATION=TE+3.2;
+function render(t){
+ S.forEach(o=>{const lt=t-o.a, D=o.s.d; let op=clamp(lt/X); if(o.i==0) op=1; if(t>o.b-X && o.i<S.length-1) op=Math.min(op,clamp((o.b-t)/X)); o.el.style.opacity=op;
+  const p=clamp(lt/D), z=o.s.zin? 1.0+0.12*p : 1.12-0.12*p, px=(o.s.pan||0)*(p-.5)*80;
+  o.img.style.transform=`translate(calc(-50% + ${px}px),-50%) scale(${z})`;
+  const r1=eo((lt-0.25)/0.9), r2=eo((lt-0.4)/1.0);
+  o.k.style.transform=`translateY(${(1-r1)*110}%)`; o.t.style.transform=`translateY(${(1-r2)*105}%)`;});
+ const e=clamp((t-TE+0.6)/1.0); document.getElementById('end').style.opacity=e; document.getElementById('logo').style.opacity=1-e;
+ document.getElementById('et').innerHTML=CFG.end; document.getElementById('et').style.transform=`translateY(${(1-eo((t-TE-0.1)/1.1))*105}%)`;
+ document.getElementById('eu').style.transform=`translateY(${(1-eo((t-TE-0.5)/1.0))*110}%)`;
+ document.getElementById('turb').setAttribute('seed',Math.floor(t*24)%97+1);
+}
+render(0);
+</script></body></html>
