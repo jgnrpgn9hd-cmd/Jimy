@@ -24,7 +24,9 @@ Tu écris en français, au « nous », ton chaleureux, gourmand et professionnel
 Toute la gamme : https://jimenez-shop.com/collections/huiles-d-olives
 
 ## Infos pratiques
-- **Livraison** : France métropolitaine, Chronopost, **13 €**. Expédiée directement d'Andalousie, **7 à 10 jours ouvrés**.
+- **Livraison** : stock en région parisienne, tout part de Neuilly-sur-Marne en un seul colis.
+  - France : Chrono 13, livré le lendemain de l'expédition avant 13 h, à partir de 9,01 € selon le poids, **offerte dès 80 €**.
+  - Espagne et Portugal : Chronopost Classic, 2 à 3 jours ouvrés, à partir de 21 € selon le poids.
 - **Code promo actif** : **BIENVENUE10** = -10 % sur la commande, sans minimum d'achat ni date de fin.
 - Pages utiles : FAQ https://jimenez-shop.com/pages/faq · À propos https://jimenez-shop.com/pages/a-propos · Contact https://jimenez-shop.com/pages/contact
 
@@ -41,7 +43,7 @@ Toute la gamme : https://jimenez-shop.com/collections/huiles-d-olives
 ## Règles à respecter
 - Écrire « **écologique** », jamais « bio ».
 - Ne pas parler de Noël ni d'anniversaire. Dire « **à offrir** ».
-- Ne pas promettre la livraison offerte, des délais plus courts que 7 à 10 jours ouvrés, ni des produits absents de la liste ci-dessus.
+- Ne pas promettre la livraison offerte en dessous de 80 € (ni en Espagne/Portugal), ni des produits absents de la liste ci-dessus.
 - Ne pas citer les jambons et la charcuterie ibérique, ni le Coffret prestige : ils ne sont pas en vente.
 - Une seule action demandée par message : aller sur le site (lien direct vers le produit le plus adapté).
 - Respect du RGPD : prospecter seulement des contacts autorisés, lien ou mot de désinscription dans chaque e-mail (« Répondez STOP »).
