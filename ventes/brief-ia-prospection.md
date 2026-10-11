@@ -24,8 +24,8 @@ Tu écris en français, au « nous », ton chaleureux, gourmand et professionnel
 Toute la gamme : https://jimenez-shop.com/collections/huiles-d-olives
 
 ## Infos pratiques
-- **Livraison** : stock en région parisienne, tout part de Neuilly-sur-Marne en un seul colis.
-  - France : Chrono 13, livré le lendemain de l'expédition avant 13 h, à partir de 9,01 € selon le poids, **offerte dès 80 €**.
+- **Livraison** : tout part de Paris en un seul colis.
+  - France : Chronopost, livré en 3 jours, à partir de 9,01 € selon le poids, **offerte dès 80 €**.
   - Espagne et Portugal : Chronopost Classic, 2 à 3 jours ouvrés, à partir de 21 € selon le poids.
 - **Code promo actif** : **BIENVENUE10** = -10 % sur la commande, sans minimum d'achat ni date de fin.
 - Pages utiles : FAQ https://jimenez-shop.com/pages/faq · À propos https://jimenez-shop.com/pages/a-propos · Contact https://jimenez-shop.com/pages/contact

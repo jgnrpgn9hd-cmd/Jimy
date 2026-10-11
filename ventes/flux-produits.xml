@@ -22,10 +22,10 @@
     <g:shipping_weight>750 g</g:shipping_weight>
     <g:shipping>
       <g:country>FR</g:country>
-      <g:service>Chrono 13</g:service>
+      <g:service>Chronopost</g:service>
       <g:price>9.01 EUR</g:price>
-      <g:min_transit_time>1</g:min_transit_time>
-      <g:max_transit_time>2</g:max_transit_time>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
       <g:country>ES</g:country>
@@ -61,10 +61,10 @@
     <g:shipping_weight>750 g</g:shipping_weight>
     <g:shipping>
       <g:country>FR</g:country>
-      <g:service>Chrono 13</g:service>
+      <g:service>Chronopost</g:service>
       <g:price>9.01 EUR</g:price>
-      <g:min_transit_time>1</g:min_transit_time>
-      <g:max_transit_time>2</g:max_transit_time>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
       <g:country>ES</g:country>
@@ -99,10 +99,10 @@
     <g:shipping_weight>750 g</g:shipping_weight>
     <g:shipping>
       <g:country>FR</g:country>
-      <g:service>Chrono 13</g:service>
+      <g:service>Chronopost</g:service>
       <g:price>9.01 EUR</g:price>
-      <g:min_transit_time>1</g:min_transit_time>
-      <g:max_transit_time>2</g:max_transit_time>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
       <g:country>ES</g:country>
@@ -137,10 +137,10 @@
     <g:shipping_weight>2.25 kg</g:shipping_weight>
     <g:shipping>
       <g:country>FR</g:country>
-      <g:service>Chrono 13</g:service>
+      <g:service>Chronopost</g:service>
       <g:price>11.86 EUR</g:price>
-      <g:min_transit_time>1</g:min_transit_time>
-      <g:max_transit_time>2</g:max_transit_time>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
       <g:country>ES</g:country>
@@ -175,10 +175,10 @@
     <g:shipping_weight>1.35 kg</g:shipping_weight>
     <g:shipping>
       <g:country>FR</g:country>
-      <g:service>Chrono 13</g:service>
+      <g:service>Chronopost</g:service>
       <g:price>10.28 EUR</g:price>
-      <g:min_transit_time>1</g:min_transit_time>
-      <g:max_transit_time>2</g:max_transit_time>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
       <g:country>ES</g:country>
