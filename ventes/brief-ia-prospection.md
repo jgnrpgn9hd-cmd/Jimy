@@ -26,8 +26,8 @@ Toute la gamme : https://jimenez-shop.com/collections/huiles-d-olives
 ## Infos pratiques
 - **Livraison** : tout part de Paris en un seul colis.
   - France : Chronopost, livré en 3 jours, à partir de 9,01 € selon le poids, **offerte dès 80 €**.
-  - Belgique : Chronopost Classic, 2 à 3 jours ouvrés, à partir de 18 € selon le poids.
-  - Espagne, Italie et Portugal : Chronopost Classic, 2 à 3 jours ouvrés, à partir de 21 € selon le poids.
+  - Belgique : Chronopost Classic, 2 à 3 jours ouvrés, à partir de 21,60 € selon le poids.
+  - Espagne, Italie et Portugal : Chronopost Classic, 2 à 3 jours ouvrés, à partir de 25,20 € selon le poids.
 - **Code promo actif** : **BIENVENUE10** = -10 % sur la commande, sans minimum d'achat ni date de fin.
 - Pages utiles : FAQ https://jimenez-shop.com/pages/faq · À propos https://jimenez-shop.com/pages/a-propos · Contact https://jimenez-shop.com/pages/contact
 

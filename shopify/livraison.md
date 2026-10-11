@@ -12,11 +12,14 @@ Offerte dès 80 € de commande.
 ## Belgique — Chrono Classic (zone 1, 2 à 3 jours ouvrés)
 Zone Shopify « Europe zone 1 : Belgique ».
 Grille La Poste Pro 2026 (HT, Z1, mono-colis) : 0-1 kg 18 € · 1-3 kg 23 € · 3-10 kg 38 €.
+Facturé au client en TTC (+20 % TVA non récupérée) : 21,60 € · 27,60 € · 45,60 €.
 Au-delà de 10 kg : pas de tarif. Pas de livraison offerte.
 
 ## Espagne + Portugal + Italie — Chrono Classic (zone 2, 2 à 3 jours ouvrés)
 Zone Shopify « Europe zone 2 : Espagne, Portugal, Italie ».
 Grille pro Chronopost / La Poste Pro (HT, zone 2) : 0-1 kg 21 € · 1-3 kg 26 € · 3-10 kg 41 €.
+Facturé au client en TTC (+20 %) : 25,20 € · 31,20 € · 49,20 €.
+Prix des produits identiques dans tous les pays (TTC, EUR). Livraison non soumise à TVA dans Shopify (taxShipping = false).
 Au-delà de 10 kg : pas de tarif (grille non trouvée) → commande impossible au-dessus de 10 kg.
 Pas de livraison offerte (à décider).
 Exclus : Canaries (GC, TF), Ceuta, Melilla (hors zone TVA/douane UE). Baléares, Açores, Madère inclus.
