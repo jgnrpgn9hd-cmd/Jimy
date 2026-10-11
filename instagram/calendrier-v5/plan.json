@@ -1,0 +1,101 @@
+[
+ {
+  "name": "L1_matin",
+  "when": "2026-10-12T07:30",
+  "kind": "post",
+  "files": [
+   "L1_matin.jpg"
+  ],
+  "caption": "Bonjour depuis l'Andalousie ☀️\n\nC'est ici, entre ces collines, que poussent les olives de nos huiles. Belle semaine à vous 🫒\n\n#andalousie #oliviers #bonjour #huiledolive #terroir"
+ },
+ {
+  "name": "L2_carrousel_tartines",
+  "when": "2026-10-12T11:30",
+  "kind": "carrousel",
+  "files": [
+   "L2_carrousel_tartines_1.jpg",
+   "L2_carrousel_tartines_2.jpg",
+   "L2_carrousel_tartines_3.jpg",
+   "L2_carrousel_tartines_4.jpg",
+   "L2_carrousel_tartines_5.jpg"
+  ],
+  "caption": "3 tartines pour bien commencer la journée 🍞\n\nTomate & fleur de sel, avocat & citron, fromage frais & herbes… avec un point commun : un filet généreux d'huile d'olive.\nEnregistrez pour demain matin 🔖\n\nArbequina première récolte · lien en bio\n\n#petitdejeuner #tartine #recettefacile #huiledolive #arbequina"
+ },
+ {
+  "name": "L4_soir_table",
+  "when": "2026-10-12T20:00",
+  "kind": "post",
+  "files": [
+   "L4_soir_table.jpg"
+  ],
+  "caption": "Ce soir, on dresse la table 🕯️\n\nDu bon pain, des olives, une coupelle d'huile dorée et les gens qu'on aime. C'est tout l'esprit de l'Andalousie.\nLien en bio.\n\n#artdelatable #diner #andalousie #huiledolive #artdevivre"
+ },
+ {
+  "name": "M2_carrousel_erreurs",
+  "when": "2026-10-13T11:30",
+  "kind": "carrousel",
+  "files": [
+   "M2_carrousel_erreurs_1.jpg",
+   "M2_carrousel_erreurs_2.jpg",
+   "M2_carrousel_erreurs_3.jpg",
+   "M2_carrousel_erreurs_4.jpg",
+   "M2_carrousel_erreurs_5.jpg"
+  ],
+  "caption": "On l'a tous fait au moins une fois 🙈\n\nGlissez pour savoir comment garder votre huile d'olive au meilleur de son goût. Enregistrez ce post 🔖\nNos huiles d'Andalousie · lien en bio\n\n#astucecuisine #huiledolive #conservation #cuisinemaison #epiceriefine"
+ },
+ {
+  "name": "M3_premiere_recolte",
+  "when": "2026-10-13T16:00",
+  "kind": "post",
+  "files": [
+   "M3_premiere_recolte.jpg"
+  ],
+  "caption": "Récoltée tôt, pressée à froid 🌿\n\nNotre Arbequina première récolte : pomme verte, amande, et ce petit piquant qui dit que l'huile est fraîche.\nLien en bio · Livraison en France\n\n#arbequina #premiererecolte #huiledolive #pressageafroid #epiceriefine"
+ },
+ {
+  "name": "M4_soir_coupage",
+  "when": "2026-10-13T20:00",
+  "kind": "post",
+  "files": [
+   "M4_soir_coupage.jpg"
+  ],
+  "caption": "Le caractère de la Picual, la douceur de l'Arbequina : réunies dans une seule huile 🫒\n\nRonde, équilibrée, parfaite au quotidien. Notre Coupage · lien en bio.\n\n#coupage #picual #arbequina #huiledolive #andalousie"
+ },
+ {
+  "name": "W1_matin_oliveraie",
+  "when": "2026-10-14T07:30",
+  "kind": "post",
+  "files": [
+   "W1_matin_oliveraie.jpg"
+  ],
+  "caption": "Des milliers d'oliviers, à perte de vue 😍\n\nC'est de ces collines andalouses que viennent nos huiles, directement du producteur.\n\n#andalousie #oliveraie #huiledolive #espagne #terroir"
+ },
+ {
+  "name": "W3_coffret",
+  "when": "2026-10-14T16:00",
+  "kind": "post",
+  "files": [
+   "W3_coffret.jpg"
+  ],
+  "caption": "Hojiblanca, ronde. Arbosana, fruitée. Picual, robuste.\nTrois olives, trois caractères, un seul coffret 🫒\n\nVous commencez par laquelle ? 👇\nLe coffret dégustation · lien en bio\n\n#coffretdegustation #hojiblanca #arbosana #picual #idéecadeau"
+ },
+ {
+  "name": "W4_carrousel_legumes",
+  "when": "2026-10-14T20:00",
+  "kind": "carrousel",
+  "files": [
+   "W4_carrousel_legumes_1.jpg",
+   "W4_carrousel_legumes_2.jpg"
+  ],
+  "caption": "Ce soir, on fait simple et bon 🥕\n\nDes légumes rôtis, une huile généreuse, 40 minutes de four… et un dernier filet à cru avant de servir : c'est là que tout se joue.\nGlissez pour la recette, et enregistrez 🔖\n\n#legumesrotis #recettefacile #cuisinemaison #huiledolive #dinerdusoir"
+ },
+ {
+  "name": "J1_matin_pain",
+  "when": "2026-10-15T07:30",
+  "kind": "post",
+  "files": [
+   "J1_matin_pain.jpg"
+  ],
+  "caption": "La plus simple des dégustations 🍞🫒\n\nUn bon pain, une bonne huile, et c'est tout. Vous êtes plutôt pain de campagne ou baguette ? 👇\n\n#huiledolive #painmaison #degustation #epiceriefine #andalousie"
+ }
+]
