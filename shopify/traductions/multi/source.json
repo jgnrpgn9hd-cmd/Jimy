@@ -1,0 +1,1260 @@
+[
+ {
+  "rid": "gid://shopify/Page/705948713342",
+  "key": "title",
+  "digest": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e",
+  "fr": "Contact",
+  "id": 0
+ },
+ {
+  "rid": "gid://shopify/Page/707846078846",
+  "key": "title",
+  "digest": "23247a701e9c43e2112b419e72fd3dc62296460069fc7c7f712c4f8fbfaa2f20",
+  "fr": "Huiles D’olives",
+  "id": 1
+ },
+ {
+  "rid": "gid://shopify/Page/708204921214",
+  "key": "title",
+  "digest": "307ef284ba576615fa72dc9a25e2102cd12ea9f7e1aa36f3843232dd6265c5ea",
+  "fr": "À propos",
+  "id": 2
+ },
+ {
+  "rid": "gid://shopify/Page/708204921214",
+  "key": "body_html",
+  "digest": "e94267b93ce90704bcac00230ad60057d1f808aaae6562ae7bc98ed2cf4e28e1",
+  "fr": "<p>Jiménez, c'est une petite maison qui fait venir d'Andalousie de l'huile d'olive vierge extra, directement du producteur.</p><h2>Pourquoi l'Andalousie</h2><p>C'est là que pousse une grande partie des oliviers d'Espagne. On y trouve l'Arbequina, douce et fruitée, mais aussi la Hojiblanca, l'Arbosana ou la Picual, qui ont chacune leur caractère.</p><h2>Ce que nous choisissons</h2><p>Peu d'huiles, toutes goûtées. Nous privilégions les olives récoltées tôt et pressées à froid : l'huile garde plus de fraîcheur, des notes d'herbe et ce léger piquant en fin de bouche.</p><h2>Comment les utiliser</h2><p>Crues, le plus souvent : sur du pain, des tomates, des légumes grillés, un poisson. Si vous hésitez, le coffret dégustation permet de comparer trois variétés côte à côte.</p><p>Une question sur une huile ? Écrivez-nous à <a href=\"mailto:davicojairo09@gmail.com\">davicojairo09@gmail.com</a> ou sur Instagram, <a href=\"https://www.instagram.com/jimenez_shop_fr\">@jimenez_shop_fr</a>.</p>",
+  "id": 3
+ },
+ {
+  "rid": "gid://shopify/Page/708204986750",
+  "key": "title",
+  "digest": "dbc468a14b601d5d9240aeb72b9fcd2f8aed2f4e30932876edf8d16ec313846b",
+  "fr": "FAQ",
+  "id": 4
+ },
+ {
+  "rid": "gid://shopify/Page/708204986750",
+  "key": "body_html",
+  "digest": "c02295dec42b2531a440a5ca7289ea75f00024bd57de248071dc128220c7d33a",
+  "fr": "<h2>Livraison</h2><p><strong>D’où partent les commandes ?</strong><br>Toutes les commandes sont préparées et expédiées depuis Paris, en un seul colis.</p><p><strong>Combien coûte la livraison en France ?</strong><br>La livraison Chronopost à domicile en France métropolitaine est calculée selon le poids de votre colis, à partir de 9,01 €. Elle est offerte dès 80 € d’achat.</p><p><strong>Quels sont les délais en France ?</strong><br>Votre colis est livré en 3 jours.</p><p><strong>Livrez-vous en Belgique, en Espagne, en Italie et au Portugal ?</strong><br>Oui, en Chronopost Classic, en 2 à 3 jours ouvrés après expédition. Le tarif dépend du poids et s’affiche au moment du paiement : à partir de 18 € en Belgique, à partir de 21 € en Espagne, en Italie et au Portugal. Les îles Canaries, Ceuta et Melilla ne sont pas desservies pour le moment.</p><p><strong>Comment sont emballées les huiles ?</strong><br>Nos huiles d’olive sont expédiées dans un emballage adapté afin de protéger les bouteilles pendant le transport.</p><h2>Nos huiles d’olive</h2><p><strong>D’où viennent vos huiles ?</strong><br>Nos huiles d’olive vierge extra viennent de plusieurs producteurs d’Andalousie, sélectionnés pour leur qualité, leur fraîcheur et leur caractère.</p><p><strong>Quelle est la différence entre une Arbequina et un assemblage ?</strong><br>L’Arbequina met en avant les caractéristiques d’une seule variété d’olive. L’assemblage associe plusieurs variétés afin de créer un profil aromatique équilibré et distinctif.</p><p><strong>Comment conserver une huile d’olive ?</strong><br>Conservez-la bien fermée, à l’abri de la lumière, de la chaleur et des variations de température. Évitez de la laisser près d’une source de chaleur.</p><h2>Commande et paiement</h2><p><strong>Quels moyens de paiement acceptez-vous ?</strong><br>Le paiement s’effectue en ligne de manière sécurisée au moment de la commande.</p><p><strong>Puis-je modifier ou annuler ma commande ?</strong><br>Contactez-nous rapidement à davicojairo09@gmail.com : nous ferons notre possible si la commande n’est pas encore expédiée.</p><h2>Retours</h2><p><strong>Puis-je retourner un produit alimentaire ?</strong><br>Pour des raisons sanitaires, les produits alimentaires ouverts ne peuvent pas être repris. Consultez notre politique de retour pour le détail des conditions.</p><p><strong>Que faire si mon colis arrive endommagé ?</strong><br>Contactez-nous sous 48 heures avec des photos à l’appui afin que nous puissions étudier la situation et vous proposer une solution.</p><h2>Une autre question ?</h2><p>Écrivez-nous, nous vous répondrons rapidement.</p>",
+  "id": 5
+ },
+ {
+  "rid": "gid://shopify/Page/708285694334",
+  "key": "title",
+  "digest": "cce9c0a1b975aca056b7a1949b9642ca30768efc4ffd568c35b8eac678ed3f72",
+  "fr": "Mentions légales",
+  "id": 6
+ },
+ {
+  "rid": "gid://shopify/Page/708285694334",
+  "key": "body_html",
+  "digest": "34504061cddea3d908f33d4a4d2a94171b611e50d0e3ca8c39c9acfefa18676a",
+  "fr": "<p><strong>Éditeur du site</strong></p><p>Nom commercial : culinary consulting solution<br>Adresse : 5 Rue du Docteur Schapira, 93330 Neuilly-sur-Marne, France<br>Téléphone : 06 59 66 08 24<br>Email : davicojairo09@gmail.com<br>Numéro SIREN/SIRET : 945 369 957 00010</p><p><strong>Hébergement</strong></p><p>Le site est hébergé par Shopify Inc., 151 O'Connor Street, Ottawa, ON K2P 2L8, Canada.</p><p><strong>Propriété intellectuelle</strong></p><p>L'ensemble des contenus présents sur ce site (textes, images, logos) est la propriété de culinary consulting solution, sauf mention contraire, et ne peut être reproduit sans autorisation préalable.</p>",
+  "id": 7
+ },
+ {
+  "rid": "gid://shopify/Page/709524685182",
+  "key": "title",
+  "digest": "e5305dec009dd2ff1df14eb5eadd30d1d3fdbed762c40e8e2a3a9ecd5372f4f3",
+  "fr": "À offrir",
+  "id": 8
+ },
+ {
+  "rid": "gid://shopify/Page/709524685182",
+  "key": "body_html",
+  "digest": "dcb91eeecf3e5d5ace784fe95bde4e0d2cc7a5e839fde2ea9bf95cebcc1ea6da",
+  "fr": "<p><em>Un cadeau qu'on ouvre à table, et qu'on finit avec du bon pain.</em></p><p>Nos huiles d'olive vierge extra viennent d'Andalousie, directement du producteur. Récoltées tôt, pressées à froid, elles font des cadeaux qu'on a vraiment envie de goûter : pour un dîner chez des amis, ou pour remercier un client.</p><h2>Nos huiles à offrir</h2><h3>Le coffret dégustation</h3><p><img src=\"https://cdn.shopify.com/s/files/1/1007/2742/3358/files/FullSizeRender_fad614a1-2bde-4095-b50b-8af006805f6d.jpg?width=900\" alt=\"Coffret dégustation Hojiblanca, Arbosana et Picual\" width=\"600\"></p><p>Trois huiles d'une seule variété chacune, à goûter côte à côte : la Hojiblanca, ronde et légèrement amère ; l'Arbosana, fruitée et verte ; la Picual, robuste, avec du piquant en fin de bouche. Pour les curieux et les gourmands.</p><p><a href=\"/products/coffret-3-bouteilles-aove-monovarietal-hojiblanca-arbosana-y-picual\">Découvrir le coffret dégustation →</a></p><h3>L'Arbequina première récolte</h3><p><img src=\"https://cdn.shopify.com/s/files/1/1007/2742/3358/files/FullSizeRender_cab5be0f-afe5-46da-99a8-b878ae5126fa.jpg?width=900\" alt=\"Huile d'olive vierge extra Arbequina première récolte\" width=\"600\"></p><p>Pomme verte, amande et un léger piquant, signe d'une huile bien fraîche. Pour ceux qui aiment l'huile à cru, sur du pain, des tomates ou un poisson grillé.</p><p><a href=\"/products/huile-d-olive-virgen-extra-500ml\">Découvrir l'Arbequina première récolte →</a></p><h3>Le Coupage</h3><p><img src=\"https://cdn.shopify.com/s/files/1/1007/2742/3358/files/FullSizeRender_3dedc40a-55ca-4dc2-90c8-396b0164e319.jpg?width=900\" alt=\"Huile d'olive vierge extra Coupage\" width=\"600\"></p><p>L'assemblage de Picual et d'Arbequina : rond, équilibré, parfait au quotidien. Un cadeau qui ne restera pas longtemps au placard.</p><p><a href=\"/products/huile-d-olive-virgen-extra-coupage-500ml\">Découvrir le Coupage →</a></p><h3>Le grand format, 1 L</h3><p><img src=\"https://cdn.shopify.com/s/files/1/1007/2742/3358/files/FullSizeRender_54c2faa6-da10-4132-a32c-b2dd3884e8ca.jpg?width=900\" alt=\"Huile d'olive vierge extra Arbequina, 1 litre\" width=\"600\"></p><p>Pour les grands cuisiniers, ceux qui versent sans compter.</p><p><a href=\"/products/huile-d-olive-virgen-extra-arbequina-certificado-ecologico-1l\">Découvrir le grand format →</a></p><h2>Pour les entreprises</h2><p>Vous souhaitez offrir nos huiles à vos clients, partenaires ou équipes ? Nous préparons les commandes en quantité. Écrivez-nous à <a href=\"mailto:davicojairo09@gmail.com\">davicojairo09@gmail.com</a> en précisant le nombre de bouteilles et la date souhaitée : nous vous répondons rapidement.</p><h2>Commandez en toute confiance</h2><ul>\n<li>\n<strong>Paiement 100 % sécurisé</strong> au moment de la commande.</li>\n<li>\n<strong>Expédiée de Paris</strong> : livrée en 3 jours en France (offerte dès 80 €), en 2 à 3 jours ouvrés en Belgique, en Espagne, en Italie et au Portugal.</li>\n<li>\n<strong>Bien emballée</strong> : chaque bouteille est protégée pour le transport.</li>\n<li>\n<strong>Colis abîmé ?</strong> Contactez-nous sous 48 heures avec une photo : nous trouvons une solution.</li>\n</ul><h2>Le conseil pour la conserver</h2><p>Bien fermée, à l'abri de la lumière et de la chaleur, loin des plaques de cuisson. Elle garde ainsi tout son fruité.</p><p>Une question avant de choisir ? Écrivez-nous sur Instagram, <a href=\"https://www.instagram.com/jimenez_shop_fr\">@jimenez_shop_fr</a>, ou par e-mail. Nous vous aidons à trouver la bonne huile.</p>",
+  "id": 9
+ },
+ {
+  "rid": "gid://shopify/Product/16052426572158",
+  "key": "title",
+  "digest": "229afdfa67dc22548fe9e63d578b136c70ef82c1f327f9fae214eb5b4f331fc7",
+  "fr": "Huile d’olive vierge extra Arbequina",
+  "id": 10
+ },
+ {
+  "rid": "gid://shopify/Product/16052426572158",
+  "key": "body_html",
+  "digest": "3c96b9ee28d15a39b60f5e53bd870371917487791c938333f8961c449ec3ca1f",
+  "fr": "<p>Notre Arbequina de tous les jours. Fruitée et vive, avec des notes d'herbe fraîche.</p><h4>Le goût</h4><p>Douce en bouche, fruitée, avec une finale herbacée. Elle ne prend pas le dessus sur les plats.</p><h4>Comment l'utiliser</h4><p>Crue sur des tomates, du pain ou un poisson grillé, ou en cuisson douce. C'est l'huile qu'on utilise sans compter.</p><h4>En bref</h4><ul>\n<li>Variété : Arbequina</li>\n<li>Origine : Andalousie, Espagne</li>\n<li>Récolte précoce, pressage à froid</li>\n</ul>",
+  "id": 11
+ },
+ {
+  "rid": "gid://shopify/Product/16052426572158",
+  "key": "meta_description",
+  "digest": "4a40776508c7c26081ba3a797bba070d9e897cd67e56cc96e66f83a614703465",
+  "fr": "Huile d'olive vierge extra Arbequina, fruitée et douce. Récoltée tôt et pressée à froid en Andalousie. Expédiée de Paris.",
+  "id": 12
+ },
+ {
+  "rid": "gid://shopify/Product/16052552335742",
+  "key": "title",
+  "digest": "7ac5cce1d867edc30aded40103e796b72a5f488989c9e31ff6b44a89b87aaff0",
+  "fr": "Huile d’olive vierge extra Arbequina, première récolte",
+  "id": 13
+ },
+ {
+  "rid": "gid://shopify/Product/16052552335742",
+  "key": "body_html",
+  "digest": "3949d3178364ea33268f2b17654978d4a1b9be806448cf744ca8865cf28c3b9b",
+  "fr": "<div class=\"shogun-root\" data-shogun-id=\"6a9d9ddaf44c81011482d4a2\" data-shogun-site-id=\"d9f343d4-b759-4f41-b31d-f34775555a36\" data-shogun-page-id=\"6a9d9ddaf44c81011482d4a2\" data-shogun-page-version-id=\"6a9d9ddaf44c81011482d4a3\" data-shogun-platform-type=\"shopify\" data-shogun-variant-id=\"6a9d9ddaf44c81011482d4a4\" data-shogun-page-type=\"product\" data-shogun-power-up-type=\"\" data-shogun-power-up-id=\"\" data-region=\"main\"> <div id=\"s-a4af4e29-a21a-43f6-9198-a2dbe63dbef1\" class=\"shg-c \"> <p><strong>D'où vient-elle ?</strong> Cette huile d'olive Vierge Extra Arbequina provient des mêmes oliveraies andalouses, récoltée précocement et pressée à froid pour garder toute la fraîcheur du fruit. Ce format est notre bouteille classique, sans certification écologique spécifique, mais avec la même exigence de qualité en pressoir.</p>\n<p><strong>Le goût</strong> : fruité et rond, avec des notes de pomme verte et d'amande, une légère amertume et un piquant discret en fin de bouche, signe d'une huile bien fraîche.</p>\n<p><strong>Comment la consommer</strong> : de préférence crue, en assaisonnement, pour préserver ses arômes et ses qualités nutritionnelles.</p>\n<p><strong>Avec quoi l'accompagner</strong> : des tomates de saison, un pain de campagne, des légumes grillés, ou un carpaccio de poisson.</p> </div> </div>",
+  "id": 14
+ },
+ {
+  "rid": "gid://shopify/Product/16052552335742",
+  "key": "meta_description",
+  "digest": "cb4e96c9e914747d87cf5f7c31eb392482d1b24710b56dc3b12d19a6f257804d",
+  "fr": "Arbequina première récolte : pomme verte, amande et léger piquant. Huile d'olive vierge extra d'Andalousie pressée à froid. Expédiée de Paris.",
+  "id": 15
+ },
+ {
+  "rid": "gid://shopify/Product/16052553122174",
+  "key": "title",
+  "digest": "fd046b58e8ae7c789140c1141aa3518b18b27f1675329a5eebd27d2f940fb6d0",
+  "fr": "Huile d’olive vierge extra Coupage",
+  "id": 16
+ },
+ {
+  "rid": "gid://shopify/Product/16052553122174",
+  "key": "body_html",
+  "digest": "7d9ca0fc4583fd292b84495a6d529963e735c03a8ac108f07183c2f4e3881997",
+  "fr": "<p>Un assemblage de plusieurs variétés d'olives andalouses, rond et équilibré.</p><h4>Le goût</h4><p>Entre douceur et caractère : assez ronde pour la cuisine de tous les jours, assez présente pour être goûtée crue.</p><h4>Comment l'utiliser</h4><p>Crue sur une salade ou des légumes grillés, ou en cuisson douce. C'est l'huile à garder près de la plaque.</p><h4>En bref</h4><ul>\n<li>Assemblage de variétés andalouses</li>\n<li>Origine : Andalousie, Espagne</li>\n<li>Pressage à froid</li>\n<li>Bouteille de 500 ml</li>\n</ul>",
+  "id": 17
+ },
+ {
+  "rid": "gid://shopify/Product/16052553122174",
+  "key": "meta_description",
+  "digest": "9fb6c9925a1369f99c70e54c093ae227d2d5fd9e13f5c8cb12837fdbe6a33278",
+  "fr": "Huile d'olive vierge extra Coupage, ronde et équilibrée. Assemblage de variétés andalouses pressé à froid. Expédiée de Paris.",
+  "id": 18
+ },
+ {
+  "rid": "gid://shopify/Product/16104470348158",
+  "key": "title",
+  "digest": "277b465cd77cd4dbaec9c5ed93e70757e16a0f261792fc9fbac2b22fd906f802",
+  "fr": "Coffret dégustation Hojiblanca, Arbosana et Picual",
+  "id": 19
+ },
+ {
+  "rid": "gid://shopify/Product/16104470348158",
+  "key": "body_html",
+  "digest": "8664f1968923b3e58a03a64535d942b3c88ded12b3c6788c2d7feb3f4bd6e8bd",
+  "fr": "<p>Trois huiles d'une seule variété chacune, à goûter côte à côte.</p><h4>Dans le coffret</h4><ul>\n<li>\n<strong>Hojiblanca</strong> : ronde, légèrement amère.</li>\n<li>\n<strong>Arbosana</strong> : fruitée et verte.</li>\n<li>\n<strong>Picual</strong> : plus robuste, avec du piquant en fin de bouche.</li>\n</ul><p>Chaque olive est récoltée et pressée à part, sans assemblage. C'est la meilleure façon de comprendre que toutes les huiles d'olive ne se ressemblent pas.</p><h4>Comment la goûter</h4><p>Un peu de chaque huile dans une coupelle, un morceau de pain, et on compare. Un cadeau qui change du vin.</p>",
+  "id": 20
+ },
+ {
+  "rid": "gid://shopify/Product/16104470348158",
+  "key": "meta_description",
+  "digest": "b06f2e984166fe5267954fb1d3055223e1c2d61e2dc3461186411c9ce1a5a854",
+  "fr": "Coffret de trois huiles d'olive vierge extra d'Andalousie à comparer : Hojiblanca, Arbosana et Picual. Une idée cadeau. Expédié de Paris.",
+  "id": 21
+ },
+ {
+  "rid": "gid://shopify/Product/16104474182014",
+  "key": "title",
+  "digest": "7365d88fda1b1c676a54c0408bec6fe09b86b4ced48c25e6015a1095c3bd31be",
+  "fr": "Huile d’olive vierge extra Arbequina écologique, 1 L",
+  "id": 22
+ },
+ {
+  "rid": "gid://shopify/Product/16104474182014",
+  "key": "body_html",
+  "digest": "bb6c49e880fed77dc32bf42dc01859c9305c14114a94d013b4370b9c52d34f1e",
+  "fr": "<p>Une Arbequina écologique (certificado ecológico), en grand format pour la cuisine de tous les jours.</p><h4>Le goût</h4><p>Douce et fruitée, avec des notes d'amande fraîche et une pointe d'herbe coupée.</p><h4>Comment l'utiliser</h4><p>En filet sur les légumes, dans les salades, ou en cuisson à basse température.</p><h4>En bref</h4><ul>\n<li>Variété : Arbequina</li>\n<li>Écologique (certificado ecológico)</li>\n<li>Origine : Andalousie, Espagne</li>\n<li>Récolte précoce, pressage à froid</li>\n<li>Bouteille de 1 L</li>\n</ul>",
+  "id": 23
+ },
+ {
+  "rid": "gid://shopify/Product/16104474182014",
+  "key": "meta_description",
+  "digest": "b1dd57b3bda405101f5c7732e95850cf13f67e055f9aed7031adec474c4dbf44",
+  "fr": "Huile d'olive vierge extra Arbequina écologique, douce et fruitée, en bouteille de 1 L. Pressée à froid en Andalousie. Expédiée de Paris.",
+  "id": 24
+ },
+ {
+  "rid": "gid://shopify/Collection/747176821118",
+  "key": "title",
+  "digest": "9b87f4b2595358107b068c38c1d573df79daa3bcc33e69c195d05c165aa071b5",
+  "fr": "Page d’accueil",
+  "id": 25
+ },
+ {
+  "rid": "gid://shopify/Collection/750857027966",
+  "key": "title",
+  "digest": "6dd52773a526fa626da9bfd427b9db458fe6be7f16300b226267f7582c6f6598",
+  "fr": "Huiles d’olive",
+  "id": 26
+ },
+ {
+  "rid": "gid://shopify/Collection/750857027966",
+  "key": "body_html",
+  "digest": "9aad5f8405552b38ff36d28020a57236092a8adc6e5c00ddbdac4aa8ebe26b2b",
+  "fr": "<p>Nos huiles d'olive vierge extra viennent d'Andalousie. Récoltées tôt, pressées à froid, importées directement d'Espagne. Arbequina, assemblage ou coffret de trois variétés : à goûter crues, sur du pain, des légumes ou un poisson.</p>",
+  "id": 27
+ },
+ {
+  "rid": "gid://shopify/Collection/750857027966",
+  "key": "meta_description",
+  "digest": "830daaf1214f1119eac0f10e5b0254572516955a01112740c3b2df1218d761b1",
+  "fr": "Huiles d'olive vierge extra d'Andalousie, récoltées tôt et pressées à froid. Arbequina, Coupage et coffret dégustation. Expédiées de Paris.",
+  "id": 28
+ },
+ {
+  "rid": "gid://shopify/Collection/753182933374",
+  "key": "title",
+  "digest": "b6f2cbe8f02f8fa39172136b5831084a6133cc9120398d781213f1c96b4e78bd",
+  "fr": "Jambons ibériques",
+  "id": 29
+ },
+ {
+  "rid": "gid://shopify/Collection/753182933374",
+  "key": "body_html",
+  "digest": "2eec7a07906b74fa93fe6246eef238348fcd99540ae0b452c94f4188c96dcc46",
+  "fr": "<p>Jamones ibériques. Prix indiqués au kg pour les pièces entières et désossées. Les formats tranchés sont proposés au 100 g selon la méthode de coupe indiquée.</p>",
+  "id": 30
+ },
+ {
+  "rid": "gid://shopify/Collection/753182966142",
+  "key": "title",
+  "digest": "8f2b186a50ab9155425064b9c08bf2b46d133eb1b7ce0d5bd820431b2a632f28",
+  "fr": "Épaules ibériques",
+  "id": 31
+ },
+ {
+  "rid": "gid://shopify/Collection/753182966142",
+  "key": "body_html",
+  "digest": "30dedd1022a151a15446e29d16c0b59aa6c39c1b5f8b084f2a25038949f865c6",
+  "fr": "<p>Paletas ibériques. Prix indiqués au kg pour les pièces entières et désossées. Les formats tranchés sont proposés au 100 g lorsque le tarif est disponible.</p>",
+  "id": 32
+ },
+ {
+  "rid": "gid://shopify/Collection/753182998910",
+  "key": "title",
+  "digest": "5868ba6599344b4a2e493a91f26a4f1cb37d1f47acab790136aa9e97ae18e108",
+  "fr": "Charcuterie ibérique",
+  "id": 33
+ },
+ {
+  "rid": "gid://shopify/Collection/753182998910",
+  "key": "body_html",
+  "digest": "9b11f36b5e0d94324dc04fa8acabada8624aa8f8ab9dd2092fc2e939c6422847",
+  "fr": "<p>Charcuteries ibériques en pièce.</p>",
+  "id": 34
+ },
+ {
+  "rid": "gid://shopify/Collection/753408344446",
+  "key": "title",
+  "digest": "88f6fce9dced24c202bd716498bd7c77d94a8f3b3492c8ba42c3ea6ee5853f40",
+  "fr": "Huiles d'olive",
+  "id": 35
+ },
+ {
+  "rid": "gid://shopify/Collection/753408344446",
+  "key": "body_html",
+  "digest": "2403035fa1dab587c62e9c856aa302d7d6c103531ecbec630774f658a04ffb7f",
+  "fr": "<p>Huiles d'olive vierge extra andalouses et coffrets de dégustation, sélectionnées directement auprès des producteurs.</p>",
+  "id": 36
+ },
+ {
+  "rid": "gid://shopify/Link/1448309719422",
+  "key": "title",
+  "digest": "533161735639c51adb4623f3780b497601d7b82108e6f03f5b65b5dd4c89f616",
+  "fr": "Accueil",
+  "id": 37
+ },
+ {
+  "rid": "gid://shopify/Link/1448309784958",
+  "key": "title",
+  "digest": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e",
+  "fr": "Contact",
+  "id": 38
+ },
+ {
+  "rid": "gid://shopify/Link/1448309817726",
+  "key": "title",
+  "digest": "733d1c742675f53792b10c780b3584b2197101e56f892ca382c35133ca6dce55",
+  "fr": "Rechercher",
+  "id": 39
+ },
+ {
+  "rid": "gid://shopify/Link/1448309850494",
+  "key": "title",
+  "digest": "0e3118a24b9ff7bdffb66c7342f1ad65016394b6cc2db7abc9a93b184560b82c",
+  "fr": "Commandes",
+  "id": 40
+ },
+ {
+  "rid": "gid://shopify/Link/1448309883262",
+  "key": "title",
+  "digest": "e267d343821f264e61be7d66ef27acd640e0cdb4ef2df9b54ad6ebff0f3ab35f",
+  "fr": "Profil",
+  "id": 41
+ },
+ {
+  "rid": "gid://shopify/Link/1464601018750",
+  "key": "title",
+  "digest": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e",
+  "fr": "Contact",
+  "id": 42
+ },
+ {
+  "rid": "gid://shopify/Link/1464601051518",
+  "key": "title",
+  "digest": "307ef284ba576615fa72dc9a25e2102cd12ea9f7e1aa36f3843232dd6265c5ea",
+  "fr": "À propos",
+  "id": 43
+ },
+ {
+  "rid": "gid://shopify/Link/1464601084286",
+  "key": "title",
+  "digest": "dbc468a14b601d5d9240aeb72b9fcd2f8aed2f4e30932876edf8d16ec313846b",
+  "fr": "FAQ",
+  "id": 44
+ },
+ {
+  "rid": "gid://shopify/Link/1464601117054",
+  "key": "title",
+  "digest": "cce9c0a1b975aca056b7a1949b9642ca30768efc4ffd568c35b8eac678ed3f72",
+  "fr": "Mentions légales",
+  "id": 45
+ },
+ {
+  "rid": "gid://shopify/Link/1464896553342",
+  "key": "title",
+  "digest": "6dd52773a526fa626da9bfd427b9db458fe6be7f16300b226267f7582c6f6598",
+  "fr": "Huiles d’olive",
+  "id": 46
+ },
+ {
+  "rid": "gid://shopify/Link/1464896586110",
+  "key": "title",
+  "digest": "307ef284ba576615fa72dc9a25e2102cd12ea9f7e1aa36f3843232dd6265c5ea",
+  "fr": "À propos",
+  "id": 47
+ },
+ {
+  "rid": "gid://shopify/Menu/359646003582",
+  "key": "title",
+  "digest": "4546ae0b013232b5b2796928a92cb096edc93c20498337f6c3ee4eb060e57cd9",
+  "fr": "Menu principal",
+  "id": 48
+ },
+ {
+  "rid": "gid://shopify/Menu/359646036350",
+  "key": "title",
+  "digest": "7d9e675b7727a1723186a4427a18d5e1b15c183bbb5ddd7464cdea79fb402c68",
+  "fr": "Menu du pied de page",
+  "id": 49
+ },
+ {
+  "rid": "gid://shopify/Menu/359646069118",
+  "key": "title",
+  "digest": "ee4f1093cdfe3a67b0d73192b63bf09050c44e81ba2ecd02a3d066588d2a26ed",
+  "fr": "Menu principal du compte client",
+  "id": 50
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315902325118",
+  "key": "name",
+  "digest": "6ca8c4996bde3ae857506bca773d476dce1ac566a790e1bf6a56f8a295db6420",
+  "fr": "Livraison Chronopost offerte",
+  "id": 51
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315902325118",
+  "key": "description",
+  "digest": "1f73a03a40b64c629e6d590e4a71d16572ed3b069bf4eb925d155fcd1c9bc737",
+  "fr": "Expédiée de Paris · livrée en 3 jours",
+  "id": 52
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315903734142",
+  "key": "name",
+  "digest": "cacebba8216246603497a9df9229658fda971ac5ae57a3e038e807d90a1e8022",
+  "fr": "Livraison Chronopost à domicile",
+  "id": 53
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315903734142",
+  "key": "description",
+  "digest": "9b5086fd8452184d5a99a12a5af2e6b384a515ec9d12ba39659b07f96d4950f1",
+  "fr": "Expédiée de Paris · livrée en 3 jours · offerte dès 80 €",
+  "id": 54
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315903766910",
+  "key": "name",
+  "digest": "cacebba8216246603497a9df9229658fda971ac5ae57a3e038e807d90a1e8022",
+  "fr": "Livraison Chronopost à domicile",
+  "id": 55
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315903766910",
+  "key": "description",
+  "digest": "9b5086fd8452184d5a99a12a5af2e6b384a515ec9d12ba39659b07f96d4950f1",
+  "fr": "Expédiée de Paris · livrée en 3 jours · offerte dès 80 €",
+  "id": 56
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315903799678",
+  "key": "name",
+  "digest": "cacebba8216246603497a9df9229658fda971ac5ae57a3e038e807d90a1e8022",
+  "fr": "Livraison Chronopost à domicile",
+  "id": 57
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315903799678",
+  "key": "description",
+  "digest": "9b5086fd8452184d5a99a12a5af2e6b384a515ec9d12ba39659b07f96d4950f1",
+  "fr": "Expédiée de Paris · livrée en 3 jours · offerte dès 80 €",
+  "id": 58
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315903832446",
+  "key": "name",
+  "digest": "cacebba8216246603497a9df9229658fda971ac5ae57a3e038e807d90a1e8022",
+  "fr": "Livraison Chronopost à domicile",
+  "id": 59
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315903832446",
+  "key": "description",
+  "digest": "9b5086fd8452184d5a99a12a5af2e6b384a515ec9d12ba39659b07f96d4950f1",
+  "fr": "Expédiée de Paris · livrée en 3 jours · offerte dès 80 €",
+  "id": 60
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315903865214",
+  "key": "name",
+  "digest": "cacebba8216246603497a9df9229658fda971ac5ae57a3e038e807d90a1e8022",
+  "fr": "Livraison Chronopost à domicile",
+  "id": 61
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315903865214",
+  "key": "description",
+  "digest": "9b5086fd8452184d5a99a12a5af2e6b384a515ec9d12ba39659b07f96d4950f1",
+  "fr": "Expédiée de Paris · livrée en 3 jours · offerte dès 80 €",
+  "id": 62
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315903897982",
+  "key": "name",
+  "digest": "cacebba8216246603497a9df9229658fda971ac5ae57a3e038e807d90a1e8022",
+  "fr": "Livraison Chronopost à domicile",
+  "id": 63
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315903897982",
+  "key": "description",
+  "digest": "9b5086fd8452184d5a99a12a5af2e6b384a515ec9d12ba39659b07f96d4950f1",
+  "fr": "Expédiée de Paris · livrée en 3 jours · offerte dès 80 €",
+  "id": 64
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315920937342",
+  "key": "name",
+  "digest": "4d2072c62e0e4113090d0dbd3b8a8a201df6ed79d35f1cbf2db5d78539e6e6f8",
+  "fr": "Chronopost Classic Europe",
+  "id": 65
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315920937342",
+  "key": "description",
+  "digest": "147e588ca11f801032c9a898480e517d0daece5061a84e18494480985b26c400",
+  "fr": "Expédiée de Paris · livrée en 2 à 3 jours ouvrés",
+  "id": 66
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315920970110",
+  "key": "name",
+  "digest": "4d2072c62e0e4113090d0dbd3b8a8a201df6ed79d35f1cbf2db5d78539e6e6f8",
+  "fr": "Chronopost Classic Europe",
+  "id": 67
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315920970110",
+  "key": "description",
+  "digest": "147e588ca11f801032c9a898480e517d0daece5061a84e18494480985b26c400",
+  "fr": "Expédiée de Paris · livrée en 2 à 3 jours ouvrés",
+  "id": 68
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315921002878",
+  "key": "name",
+  "digest": "4d2072c62e0e4113090d0dbd3b8a8a201df6ed79d35f1cbf2db5d78539e6e6f8",
+  "fr": "Chronopost Classic Europe",
+  "id": 69
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315921002878",
+  "key": "description",
+  "digest": "147e588ca11f801032c9a898480e517d0daece5061a84e18494480985b26c400",
+  "fr": "Expédiée de Paris · livrée en 2 à 3 jours ouvrés",
+  "id": 70
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315923493246",
+  "key": "name",
+  "digest": "4d2072c62e0e4113090d0dbd3b8a8a201df6ed79d35f1cbf2db5d78539e6e6f8",
+  "fr": "Chronopost Classic Europe",
+  "id": 71
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315923493246",
+  "key": "description",
+  "digest": "147e588ca11f801032c9a898480e517d0daece5061a84e18494480985b26c400",
+  "fr": "Expédiée de Paris · livrée en 2 à 3 jours ouvrés",
+  "id": 72
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315923526014",
+  "key": "name",
+  "digest": "4d2072c62e0e4113090d0dbd3b8a8a201df6ed79d35f1cbf2db5d78539e6e6f8",
+  "fr": "Chronopost Classic Europe",
+  "id": 73
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315923526014",
+  "key": "description",
+  "digest": "147e588ca11f801032c9a898480e517d0daece5061a84e18494480985b26c400",
+  "fr": "Expédiée de Paris · livrée en 2 à 3 jours ouvrés",
+  "id": 74
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315923558782",
+  "key": "name",
+  "digest": "4d2072c62e0e4113090d0dbd3b8a8a201df6ed79d35f1cbf2db5d78539e6e6f8",
+  "fr": "Chronopost Classic Europe",
+  "id": 75
+ },
+ {
+  "rid": "gid://shopify/DeliveryMethodDefinition/1315923558782",
+  "key": "description",
+  "digest": "147e588ca11f801032c9a898480e517d0daece5061a84e18494480985b26c400",
+  "fr": "Expédiée de Paris · livrée en 2 à 3 jours ouvrés",
+  "id": 76
+ },
+ {
+  "rid": "gid://shopify/ShopPolicy/56979292542",
+  "key": "body",
+  "digest": "c1b18d322015e99685f97ee1470f90ac68bf8fb9868c0043a9c5d784482b9ac1",
+  "fr": "<div>\n  <p>Dernière mise à jour : {{ last_updated }}</p>\n  <p>{{ shop_name }} exploite cette boutique et ce site web, y compris toutes les informations, le contenu, les fonctionnalités, les outils, les produits et les services connexes afin de vous fournir, en tant que client(e), une expérience d’achat personnalisée (ci-après les « Services »). {{ shop_name }} est une boutique propulsée par Shopify, qui nous permet de vous fournir les Services. La présente Politique de confidentialité décrit la façon dont nous collectons, utilisons et divulguons vos informations personnelles lorsque vous accédez aux Services, les utilisez, effectuez un achat ou toute autre transaction, ou lorsque vous communiquez avec nous par tout autre moyen. En cas de contradiction entre nos Conditions de service et la présente Politique de confidentialité, la présente Politique de confidentialité prévaut en ce qui concerne la collecte, le traitement et la divulgation de vos informations personnelles. </p>\n  <p>Veuillez lire attentivement la présente Politique de confidentialité. En accédant à nos Services et en les utilisant, vous reconnaissez avoir lu la présente Politique de confidentialité et comprendre les modalités de collecte, d’utilisation et de divulgation de vos informations qui sont décrites dans la présente Politique de confidentialité.</p>\n  <h2>Les informations personnelles que nous collectons ou traitons</h2>\n  <p>Lorsque nous utilisons le terme « informations personnelles », nous faisons référence aux informations qui permettent de vous identifier ou qui peuvent raisonnablement être reliées à vous ou à une autre personne. Les informations personnelles n’incluent pas les informations collectées anonymement ou rendues non identifiables, de sorte qu’elles ne permettent pas de vous identifier ni d’être raisonnablement reliées à vous. Nous pouvons collecter ou traiter les catégories suivantes d’informations personnelles, y compris les déductions tirées de ces informations personnelles, en fonction de votre manière d’interagir avec les Services, de votre lieu de résidence, et dans la mesure permise ou exigée par la législation applicable :</p>\n  <ul>\n      <li>\n<strong>Coordonnées</strong> y compris votre nom, adresse, adresse de facturation, adresse de livraison, numéro de téléphone et adresse e-mail.</li>\n      <li>\n<strong>Informations financières</strong> y compris les numéros de carte de crédit, de carte de débit et de compte bancaire, les informations relatives aux cartes de paiement, les informations de compte bancaire, les détails de transaction, le moyen de paiement, la confirmation de paiement et les autres détails de paiement.</li>\n      <li>\n<strong>Informations du compte</strong> y compris votre nom d’utilisateur, votre mot de passe, vos questions de sécurité, vos préférences et vos paramètres.</li>\n      <li>\n<strong>Informations de transaction</strong> y compris les articles que vous consultez, placez dans votre panier, ajoutez à votre liste d’envies, achetez, retournez, échangez ou annulez, ainsi que vos transactions passées.</li>\n      <li>\n<strong>Vos communications avec nous</strong> y compris les informations que vous incluez dans vos communications avec nous, par exemple lorsque vous envoyez une enquête au service à la clientèle.</li>\n      <li>\n<strong>Informations sur l’appareil</strong> y compris les informations concernant votre appareil, votre navigateur ou votre connexion réseau, votre adresse IP et d’autres identifiants uniques.</li>\n      <li>\n<strong>Informations d’utilisation</strong> y compris les informations concernant votre interaction avec les Services, notamment comment et quand vous accédez aux Services ou interagissez avec eux. </li>\n  </ul>\n  <h2>Sources des informations personnelles</h2>\n  <p>Nous pouvons collecter des informations personnelles à partir des sources suivantes :</p>\n  <ul>\n      <li>\n<strong>Directement auprès de vous</strong> y compris lorsque vous créez un compte, accédez aux Services ou les utilisez, communiquez avec nous, ou nous fournissez de toute autre manière vos informations personnelles ;</li>\n      <li>\n<strong>Automatiquement via les Services</strong> y compris depuis votre appareil lorsque vous utilisez nos produits ou services ou accédez à nos sites web, et via l’utilisation de cookies et de technologies similaires ;</li>\n      <li>\n<strong>Auprès de nos fournisseurs de services</strong> y compris lorsque nous faisons appel à eux pour mettre en œuvre certaines technologies et lorsqu’ils collectent ou traitent vos informations personnelles en notre nom ; </li>\n      <li><strong>Auprès de nos partenaires ou d’autres tiers.</strong></li>\n  </ul>\n  <h2>Comment nous utilisons vos informations personnelles</h2>\n  <p>En fonction de la façon dont vous interagissez avec nous ou des Services que vous utilisez, nous pouvons utiliser vos informations personnelles aux fins suivantes :</p>\n  <ul>\n      <li>\n<strong>Fournir, adapter et améliorer les Services.</strong> Nous utilisons vos informations personnelles pour vous fournir les Services, notamment afin d’exécuter notre contrat avec vous, de traiter vos paiements, de traiter vos commandes, de mémoriser vos préférences et les articles qui vous intéressent, de vous envoyer des notifications liées à votre compte, de traiter les achats, retours, échanges ou autres transactions, de créer, maintenir et gérer de toute autre façon votre compte, d’organiser les expéditions, de faciliter les éventuels retours et échanges, de vous permettre de publier des avis, et de créer une expérience d’achat personnalisée, par exemple en vous recommandant des produits en lien avec vos achats. Ceci peut inclure l’utilisation de vos informations personnelles afin d’adapter et d’améliorer les Services de manière plus pertinente.</li>\n      <li>\n<strong>Marketing et publicité.</strong> Nous utilisons vos informations personnelles à des fins de marketing et de promotion, par exemple pour vous envoyer des communications marketing, publicitaires et promotionnelles par e-mail, SMS ou courrier postal, et pour vous montrer des publicités en ligne concernant des produits ou des services sur les Services ou sur d’autres sites web, notamment en fonction des articles que vous avez précédemment achetés ou ajoutés à votre panier, ainsi que de vos autres activités sur les Services. </li>\n      <li>\n<strong>Sécurité et prévention de la fraude.</strong> Nous utilisons vos informations personnelles pour authentifier votre compte, offrir une expérience de paiement et d’achat sécurisée, détecter, enquêter ou intervenir en cas d’activité frauduleuse, illégale, dangereuse ou malveillante, protéger la sécurité publique et sécuriser nos services. Si vous choisissez d’utiliser les Services et de créer un compte, vous êtes responsable de la confidentialité des identifiants de votre compte. Nous vous recommandons vivement de ne pas partager votre nom d’utilisateur, votre mot de passe ou tout autre identifiant d’accès avec qui que ce soit.</li>\n      <li>\n<strong>Communiquer avec vous.</strong> Nous utilisons vos informations personnelles pour vous fournir un service à la clientèle, répondre à vos demandes, vous offrir des services efficaces et entretenir notre relation commerciale avec vous. </li>\n      <li>\n<strong>Raisons légales.</strong> Nous utilisons vos informations personnelles afin de nous conformer à la législation en vigueur ou de répondre à des procédures judiciaires valides, notamment aux demandes émanant des forces de l’ordre ou d’organismes gouvernementaux, pour enquêter ou participer à des procédures civiles de communication de preuves, à des litiges potentiels ou en cours, ou à d’autres procédures contentieuses, ainsi que pour faire respecter nos conditions ou politiques, ou enquêter sur d’éventuelles violations de celles-ci.</li>\n  </ul>\n  <h2>Comment nous divulguons les informations personnelles</h2>\n  <p>Dans certaines circonstances, nous pouvons divulguer vos informations personnelles à des tiers pour des raisons légitimes, conformément à la présente Politique de confidentialité. Ces circonstances peuvent inclure :</p>\n  <ul>\n      <li>Avec Shopify, des prestataires et autres tiers qui fournissent des services en notre nom (par exemple gestion informatique, traitement des paiements, analyses de données, service à la clientèle, stockage cloud, traitement et expédition).</li>\n      <li>\nAvec des partenaires commerciaux et marketing afin de vous fournir des services de marketing et de vous adresser des publicités. {% if shopify_network_intelligence_enabled %} Par exemple, nous utilisons Shopify pour prendre en charge la publicité personnalisée via des services tiers, en fonction de votre activité en ligne auprès de différents marchands et sites web.{% endif %}  Nos partenaires commerciaux et marketing utiliseront vos informations conformément à leurs propres avis de confidentialité. En fonction de votre lieu de résidence, vous pouvez avoir le droit de nous demander de ne pas partager d’informations vous concernant dans le but de vous montrer des publicités et des contenus marketing ciblés, basés sur votre activité en ligne auprès de différents marchands et sites web. {% if data_sale_opt_out_enabled %}Vous pouvez exercer vos droits pour vous opposer à ces utilisations <a href=\"{{ data_sale_opt_out_page_url }}\"> ici</a> {% endif %}</li>\n      <li>Lorsque vous nous donnez instruction, nous adressez une demande ou consentez par tout autre moyen à la divulgation de certaines informations à des tiers, par exemple pour vous expédier des produits ou via votre utilisation de widgets de réseaux sociaux ou d’intégrations de connexion.</li>\n      <li>Avec nos affiliés ou plus généralement au sein de notre groupe de sociétés.</li>\n      <li>      Dans le cadre d’une transaction commerciale telle qu’une fusion ou un dépôt de bilan, pour nous conformer à toute obligation légale applicable (notamment en réponse à des citations à comparaître, mandats de perquisition ou demandes similaires), pour faire respecter les conditions de service ou politiques applicables, ainsi que pour protéger ou défendre les Services, nos droits et les droits de nos utilisateurs ou de tiers.\n      </li>\n  </ul>\n  <h2>Relation avec Shopify</h2>\n  <p>Les Services sont hébergés par Shopify, qui collecte et traite des informations personnelles concernant votre accès aux Services et votre utilisation de ceux-ci afin de vous fournir les Services et de les améliorer. Les informations que vous soumettez aux Services seront transmises et partagées avec Shopify, ainsi qu’avec des tiers qui peuvent être situés dans d’autres pays que celui où vous résidez, afin de vous fournir les Services et de les améliorer. {% if shopify_network_intelligence_enabled %}De plus, afin de protéger, développer et améliorer notre activité, nous utilisons certaines fonctionnalités améliorées de Shopify qui intègrent des données et informations issues de vos interactions avec notre Boutique, ainsi qu’avec d’autres marchands et avec Shopify. Pour fournir ces fonctionnalités améliorées, Shopify peut utiliser des informations personnelles collectées à partir de vos interactions avec notre boutique, avec d’autres marchands et avec Shopify. Dans ces circonstances, Shopify est responsable du traitement de vos informations personnelles, notamment afin de répondre à vos demandes d’exercer vos droits concernant l’utilisation de vos informations personnelles à ces fins.{% endif %} Pour en savoir plus sur l’utilisation par Shopify de vos informations personnelles et sur les droits dont vous disposez, vous pouvez consulter la <a href=\"https://www.shopify.com/legal/privacy/app-users\">Politique de confidentialité des consommateurs de Shopify</a> . En fonction de votre lieu de résidence, vous pouvez exercer certains droits relatifs à vos informations personnelles ici <a href=\"https://privacy.shopify.com/en\">Lien du portail de confidentialité de Shopify</a>. </p>\n  <h2>Sites web et liens de tiers</h2>\n  <p>Les Services peuvent fournir des liens à des sites web ou autres plateformes en ligne exploitées par des tiers. Si vous suivez des liens menant vers des sites qui ne sont pas affiliés à nous ou que nous ne contrôlons pas, nous vous recommandons de consulter leurs politiques de confidentialité et de sécurité ainsi que leurs autres conditions générales d’utilisation. Nous ne garantissons pas et ne sommes pas responsables de la confidentialité ou de la sécurité de ces sites, y compris de l’exactitude, de l’exhaustivité ou de la fiabilité des informations qui se trouvent sur ces sites. Les informations que vous fournissez dans des espaces publics ou semi-publics, y compris les informations que vous partagez sur des plateformes de réseaux sociaux tierces, peuvent également être visibles par d’autres utilisateurs des Services et/ou par des utilisateurs de ces plateformes tierces sans restriction quant à leur utilisation par nous ou par un tiers. Le fait que nous incluions ces liens n’implique pas en soi une quelconque approbation du contenu de ces plateformes, ni de leurs propriétaires ou exploitants, sauf indication contraire figurant sur les Services.</p>\n  <h2>Données des enfants</h2>\n  <p>Les Services ne sont pas destinés à être utilisés par des enfants et nous ne collectons sciemment aucune information personnelle concernant des enfants n’ayant pas atteint l’âge de la majorité dans votre juridiction. Si vous êtes le parent ou le tuteur d’un enfant qui nous a fourni ses informations personnelles, vous pouvez nous contacter à l’aide des coordonnées indiquées ci-dessous pour demander leur suppression. À la date d’effet de la présente Politique de confidentialité, nous n’avons pas connaissance du fait que nous « partageons » ou « vendons » (au sens des définitions de ces termes prévues par la législation applicable) des informations personnelles concernant des personnes de moins de 16 ans.</p>\n  <h2>Sécurité et conservation de vos informations</h2>\n  <p>Veuillez noter qu’aucune mesure de sécurité n’est parfaite ou infaillible et que nous ne pouvons garantir une « sécurité parfaite ». De plus, toute information que vous nous envoyez peut ne pas être sécurisée lors de sa transmission. Nous vous recommandons de ne pas utiliser de canaux non sécurisés pour nous communiquer des informations sensibles ou confidentielles.</p>\n  <p>La durée de conservation de vos informations personnelles dépend de différents facteurs, tels que la nécessité de conserver ces informations pour gérer votre compte, vous fournir les Services, respecter nos obligations légales, résoudre les litiges ou faire appliquer tout autre contrat ou politique applicable.</p>\n  <h2>Vos droits et vos choix</h2>\n  <p>En fonction de votre lieu de résidence, vous pouvez disposer de certains ou de l’ensemble des droits indiqués ci-dessous concernant vos informations personnelles. Cependant, ces droits ne sont pas absolus, peuvent s’appliquer uniquement dans certaines circonstances et, dans certains cas, nous pouvons refuser votre demande dans les limites autorisées par la loi.</p>\n  <ul>\n      <li>\n<strong>Droit d’accès/droit à l’information.</strong> Vous pouvez avoir le droit de demander l’accès aux informations personnelles que nous détenons à votre sujet.</li>\n      <li>\n<strong>Droit à l’effacement.</strong> Vous pouvez avoir le droit de demander la suppression des informations personnelles que nous détenons à votre sujet.</li>\n      <li>\n<strong>Droit de rectification.</strong> Vous pouvez avoir le droit de demander la rectification des informations personnelles inexactes que nous détenons à votre sujet.</li>\n      <li>\n<strong>Droit à la portabilité.</strong> Vous pouvez avoir le droit de recevoir une copie des informations personnelles que nous détenons à votre sujet et de demander leur transfert à un tiers, dans certaines circonstances et avec certaines exceptions.</li>\n{% if selling_to_united_states %}\n      <li>\n<strong>Droit de s’opposer à la vente ou au partage à des fins de publicité ciblée.</strong> En fonction de votre lieu de résidence, vous pouvez avoir le droit de vous opposer à la « vente » ou au « partage » de vos informations personnelles ou de vous opposer au traitement de vos informations personnelles à des fins considérées comme de la « publicité ciblée », telles que définies par les lois applicables relatives à la confidentialité. {% if data_sale_opt_out_enabled  %}Vous pouvez exercer vos droits pour vous opposer à ces utilisations <a href=\"{{ data_sale_opt_out_page_url }}\">ici</a>. Veuillez noter que si vous accédez à notre site web avec le signal de préférence de refus Global Privacy Control activé, en fonction de votre lieu de résidence, nous considérerons automatiquement ceci comme une demande de refus pour l’appareil et le navigateur que vous utilisez pour accéder au site web. Si nous parvenons à associer l’appareil envoyant le signal à un compte Shopify, nous appliquerons également la demande de refus au compte. Pour en savoir plus sur Global Privacy Control, vous pouvez consulter https://globalprivacycontrol.org/. À l’exception de Global Privacy Control, nous ne reconnaissons pas les autres signaux Interdire le suivi (« Do Not Track ») pouvant être envoyés depuis votre navigateur web ou votre appareil.{% endif %}</li>\n{% endif %}\n      <li>\n      <strong>Gestion des préférences en matière de communication.</strong> Nous pouvons vous envoyer des e-mails promotionnels. Vous pouvez à tout moment choisir de ne plus en recevoir en utilisant l’option de désabonnement incluse dans nos e-mails. Si vous vous désabonnez, nous pouvons toujours vous envoyer des e-mails non promotionnels, par exemple concernant votre compte ou des commandes que vous avez effectuées.\n      </li>\n  </ul>\n  <div>\n      {% if selling_to_europe %}\n      <p><strong>Si vous résidez au Royaume-Uni ou dans l’Espace économique européen,</strong> et sous réserve des exceptions et limitations prévues par la législation locale, vous pouvez exercer les droits suivants en complément des droits énumérés ci-dessus :</p>\n      <ul>\n      <li>\n<strong>Opposition au traitement et limitation du traitement :</strong> Vous pouvez avoir le droit de nous demander de cesser ou de restreindre le traitement de vos informations personnelles à certaines fins. </li>\n      <li>\n<strong>Retrait du consentement :</strong> Lorsque nous dépendons de votre consentement pour traiter vos informations personnelles, vous avez le droit de retirer ce consentement. Si vous retirez votre consentement, la légalité du traitement fondé sur votre consentement avant son retrait ne sera pas affectée.</li>\n      </ul>\n      {% endif %}\n  </div>\n  <p>Vous pouvez exercer ces droits aux emplacements prévus à cet effet sur les Services ou en nous contactant aux coordonnées fournies ci-dessous. Pour en savoir plus sur l’utilisation par Shopify de vos informations personnelles et sur les droits dont vous pouvez disposer, y compris les droits relatifs aux données traitées par Shopify, vous pouvez consulter https://privacy.shopify.com/fr. </p>\n  <p>Nous ne vous pénaliserons pas pour avoir exercé un de ces droits. Nous devrons peut-être vérifier votre identité avant de pouvoir traiter vos demandes, dans les limites prévues ou autorisées par la législation applicable. Conformément à la législation applicable, vous pouvez désigner un mandataire autorisé pour demander à exercer vos droits en votre nom. Avant d’accepter ladite demande de la part d’un agent, nous exigerons que l’agent fournisse une preuve de l’autorisation que vous lui avez donnée pour agir en votre nom, et il se peut que nous vous demandions de vérifier directement votre identité auprès de nous. Nous répondrons à votre demande dans les délais prévus par la législation applicable.</p>\n  <h2>Plaintes</h2>\n  <p>Si vous souhaitez déposer une plainte concernant notre traitement de vos informations personnelles, veuillez nous contacter aux coordonnées indiquées ci-dessous. En fonction de votre lieu de résidence, vous pouvez avoir le droit de contester notre décision en nous contactant aux coordonnées indiquées ci-dessous, ou en déposant une plainte auprès de l’autorité de protection des données compétente de votre région.{% if selling_to_europe %} Pour l’EEE, vous trouverez une liste des autorités de contrôle responsables de la protection des données <a href=\"https://edpb.europa.eu/about-edpb/about-edpb/members\">ici</a>.{% endif %}</p>\n  <h2>Transferts internationaux</h2>\n  <p>Veuillez noter que nous pouvons transférer, stocker et traiter vos informations personnelles en dehors du pays dans lequel vous résidez. </p>\n  <p>Si nous transférons vos informations personnelles en dehors de l’Espace économique européen ou du Royaume-Uni, nous nous appuierons sur des mécanismes de transfert reconnus, tels que les clauses contractuelles types de la Commission européenne, ou le cas échéant sur tout contrat équivalent émis par l’autorité compétente du Royaume-Uni, sauf si le transfert de données est effectué vers un pays reconnu comme offrant un niveau de protection adéquat.</p>\n  <h2>Modifications de la présente Politique de confidentialité</h2>\n  <p>Nous pouvons mettre à jour cette Politique de confidentialité à tout moment, notamment pour refléter des modifications de nos pratiques ou pour d’autres raisons opérationnelles, juridiques ou réglementaires. Nous publierons la Politique de confidentialité révisée sur ce site web, mettrons à jour la date de « Dernière mise à jour » et fournirons un avis, conformément à la législation applicable.</p>\n  <h2>Contact</h2>\n  <p>Si vous avez des questions sur nos pratiques de confidentialité ou sur cette Politique de confidentialité, ou si vous souhaitez exercer un des droits dont vous disposez, veuillez nous appeler au {{ phone }}, nous envoyer un e-mail à l’adresse{{ email }}{% if address != blank %} ou nous contacter à l’adresse {{ address }}{% endif %} {% if selling_to_europe %}Aux fins de la législation applicable en matière de protection des données, nous sommes le responsable du traitement de vos informations personnelles.{% endif %}</p>\n</div>",
+  "id": 77
+ },
+ {
+  "rid": "gid://shopify/ShopPolicy/56987255166",
+  "key": "body",
+  "digest": "a9d04a10a2aec2b537bb389189889e01732ec70ffe4e1e8148f4bea2c3a43cea",
+  "fr": "<p>Nom commercial : culinary consulting solution&nbsp;</p>\n<p>Numéro de téléphone&nbsp;: 0659660824</p>\n<p>Adresse e-mail&nbsp;: davicojairo09@gmail.com</p>\n<p>Adresse physique&nbsp;: 5 Rue du Docteur Schapira, 93330 Neuilly-sur-Marne, France</p>\n<p>Numéro de TVA : &nbsp;</p>\n<p>Numéro d’entreprise&nbsp;:<span>945 369 957 00010</span></p>",
+  "id": 78
+ },
+ {
+  "rid": "gid://shopify/Shop/100727423358",
+  "key": "meta_title",
+  "digest": "798cc0f0ce54fd42212dbf4b39e414c165f6b9fd0463a5fc12d57d519edd94fc",
+  "fr": "Jimenez",
+  "id": 79
+ },
+ {
+  "rid": "gid://shopify/Blog/124696068478",
+  "key": "title",
+  "digest": "da288dd2a3d9536a6573a49bd70fbb60b4639e5b16dfb2e2595bdb118f9750a9",
+  "fr": "Actualités",
+  "id": 80
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.hero_DdhBcH.group_iCr8Rp__text_yn8mJC.text:2gvimem4iqbbn",
+  "digest": "ea3f4de87d6311f041a3c6a9756ebaf926ae8c9b231e741b76271288014b5aa8",
+  "fr": "<h1>Le vrai goût de l'huile d'olive andalouse</h1>",
+  "ref_es": "<h1>El verdadero sabor del aceite de oliva andaluz</h1>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 81
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.hero_DdhBcH.group_iCr8Rp__text_sub.text:2dupizbe34we4",
+  "digest": "6b103d951b21c8e0f344b551a76e62ceb96c91a0f98efa8b6725b48c5ef6b249",
+  "fr": "<p>Vierge extra, récoltée tôt, pressée à froid. Expédiée directement d'Andalousie.</p>",
+  "ref_es": "<p>Virgen extra, de cosecha temprana, prensado en frío. Enviado desde París, en 2 a 3 días.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 82
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.hero_DdhBcH.group_iCr8Rp__group_Kd6LcE__button_4nF9Lg.label:3soi93pt5fgnp",
+  "digest": "094f516de1dac0e8bf62f7bd71a92e9bfae95d7cdaa0285cca0819a2a9d5eee8",
+  "fr": "Découvrir nos huiles",
+  "ref_es": "Descubrir nuestros aceites",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 83
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.hero_DdhBcH.group_iCr8Rp__group_Kd6LcE__button_coffret.label:1hipf6rkejy8k",
+  "digest": "8ee55bfa2bc224ccf95b2b0b707e54afd50f7dfa311d4bd1c5392b89c85ab24d",
+  "fr": "Le coffret dégustation",
+  "ref_es": "El estuche de cata",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 84
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Rassurance.row__r0__t.text:31hcn99l0qhq9",
+  "digest": "067e6fadef66e00bd229c56ed2df91205c08b2904f88fb4174c10d68a26455f6",
+  "fr": "<h3>En direct du producteur</h3>",
+  "ref_es": "<h3>Directo del productor</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 85
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Rassurance.row__r0__p.text:gu3orxb5wx8l",
+  "digest": "de437ed54d833eeacb3213e40024ce729efdaf4d35d4bdeb1795641af4de0ed7",
+  "fr": "<p>Des oliveraies andalouses à votre table, sans intermédiaire.</p>",
+  "ref_es": "<p>De los olivares andaluces a tu mesa, sin intermediarios.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 86
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Rassurance.row__r1__t.text:14mwfnvppvnts",
+  "digest": "bc090edd3fb98550babe7555535eb05bdc2044a81bea06332b98e3d570ee36fe",
+  "fr": "<h3>Récoltée tôt, pressée à froid</h3>",
+  "ref_es": "<h3>Cosecha temprana, prensado en frío</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 87
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Rassurance.row__r1__p.text:2g51i7llzuk4k",
+  "digest": "163cbaf178597eb39d79409d80789887bd95396645caec4477059689793e41fc",
+  "fr": "<p>Plus de fraîcheur, plus de goût.</p>",
+  "ref_es": "<p>Más frescura, más sabor.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 88
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Rassurance.row__r2__t.text:5yzeymxbq29v",
+  "digest": "33d3e1cda303041b3ab399f676e8d65ed63c94b59ee91af38b5dcd81a22f3e86",
+  "fr": "<h3>Expédiée d'Andalousie</h3>",
+  "ref_es": "<h3>Enviado desde París</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 89
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Rassurance.row__r2__p.text:1hh4hictloykn",
+  "digest": "14ea43b69b9fe5b1e619fcf0c2c73693ab4adddbb8d2b68493f8346c668785d0",
+  "fr": "<p>Chronopost, 7 à 10 jours ouvrés.</p>",
+  "ref_es": "<p>Chronopost, en 2 a 3 días laborables.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 90
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Intro.t2.text:2jayw8r20gko",
+  "digest": "04e147c18ae4d33e9486511052f6d166866a9c01cf1ce817e38387f62f414f53",
+  "fr": "<h2>Peu d'huiles, toutes goûtées.</h2>",
+  "ref_es": "<h2>Pocos aceites, todos probados.</h2>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 91
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Intro.t3.text:3sade15ryut61",
+  "digest": "8706e8ff785a10d293326fda8af15b5c136a1d9c38fcdbb8d45477968a9dd7eb",
+  "fr": "<p>Nous travaillons en direct avec des producteurs andalous. Parmi leurs huiles, nous gardons seulement celles que nous servons à notre propre table.</p>",
+  "ref_es": "<p>Trabajamos directamente con productores andaluces. De sus aceites, solo nos quedamos con los que servimos en nuestra propia mesa.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 92
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.product_list_Huiles.static-header__title.text:2yg3ojsbq8g8r",
+  "digest": "e3015ee0d75e03c728c273fffe6aede0efb815c0c4bdd2d0677f3c64cf5fd326",
+  "fr": "<h3>Nos huiles</h3>",
+  "ref_es": "<h3>Nuestros aceites</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 93
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.product_list_Huiles.static-header__view_all.label:2qyvf0001kbbn",
+  "digest": "ecca5f45eb3b1f16f113aeb37791da190f3d232ba3809f13f27f158fd36022d3",
+  "fr": "Tout voir",
+  "ref_es": "Ver todo",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 94
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.h.text:jddln534g59u",
+  "digest": "8177c0f999fd4a5bab23ff03179bca4e5c9e5732ed3273019ad614add8a47d36",
+  "fr": "<h2>Quelle huile pour vous ?</h2>",
+  "ref_es": "<h2>¿Qué aceite es para ti?</h2>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 95
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c0__l.text:vrjy4tuvaapb",
+  "digest": "8fc116fcdabeb7a4f7867d25342c7686c0a80ef53d1bd5e70aeeb2cc472da1f7",
+  "fr": "<p>01 · Au quotidien</p>",
+  "ref_es": "<p>01 · Para el día a día</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 96
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c0__t.text:3ht82cjqsuxmf",
+  "digest": "a68fc22c3e336463fb6faefa9db756c122515bb11afe64ad7872e3c2fcb9e12f",
+  "fr": "<h3>Pour tous les jours</h3>",
+  "ref_es": "<h3>Para todos los días</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 97
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c0__p.text:26b2zstuiw1bn",
+  "digest": "192e065b45f91a5fe9fcb8b323f5a70396edc8dfc37f09d80f7ab6f2d409fb47",
+  "fr": "<p>Ronde et équilibrée, crue ou en cuisson douce.</p>",
+  "ref_es": "<p>Redondo y equilibrado, en crudo o en cocción suave.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 98
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c0__b.label:56enfm99ned6",
+  "digest": "aa7216b6d9ba6ecce5a9fa453bb377b30f69345b52261ebb90e830dfb789509b",
+  "fr": "Le Coupage",
+  "ref_es": "El Coupage",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 99
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c1__l.text:1ccgqn5y2zff2",
+  "digest": "24fb7a17566dd5eac9df49edf42a0debd1bbbf19489bf26b83f5fad26dba9027",
+  "fr": "<p>02 · À déguster</p>",
+  "ref_es": "<p>02 · Para saborear</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 100
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c1__t.text:28qtttnvrljq",
+  "digest": "917db8c0bcb13e7f83c536ea82982ee8623f21587ed8abce5591bf35901fa514",
+  "fr": "<h3>Pour se régaler, crue</h3>",
+  "ref_es": "<h3>Para disfrutarlo en crudo</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 101
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c1__p.text:2mvzsb5xql61e",
+  "digest": "3f214ed4e15fe06ea4863d488f713ce3e6741c00a4facc9459c2ef0b646a0272",
+  "fr": "<p>Pomme verte, amande et un petit piquant en fin de bouche.</p>",
+  "ref_es": "<p>Manzana verde, almendra y un ligero picor al final.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 102
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c1__b.label:3b275jbxbaxrv",
+  "digest": "95972370113956fab03efc38d2281f5f9b79c07d1bbb4689e44e435bf946057a",
+  "fr": "La première récolte",
+  "ref_es": "La primera cosecha",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 103
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c2__l.text:3szgxr7jyby0d",
+  "digest": "16a4baa167aa8105217dd58767a6e00095a170fd6900d240cc95d27d97861e5b",
+  "fr": "<p>03 · En cuisine</p>",
+  "ref_es": "<p>03 · En la cocina</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 104
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c2__t.text:2ivr0xv9r4451",
+  "digest": "f6020e4e7e19017a9718c27522bb9b8bea62fea2a5707dcd4141f8f214f09d22",
+  "fr": "<h3>Pour cuisiner sans compter</h3>",
+  "ref_es": "<h3>Para cocinar sin contar</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 105
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c2__p.text:17dlye5dh57u9",
+  "digest": "d4c30f5c58316d455d5a014e033ea24cdeede47d1099d522805c88647d2510ce",
+  "fr": "<p>Arbequina écologique, en grand format 1 L.</p>",
+  "ref_es": "<p>Arbequina ecológica, en gran formato de 1 L.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 106
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c2__b.label:1ukbj3vs46708",
+  "digest": "f82ff093583043d8bc4baef169ba68fc1211e6879f9d25ca2bf20f7269753348",
+  "fr": "Le grand format",
+  "ref_es": "El gran formato",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 107
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c3__l.text:2gc98d9xcwkr0",
+  "digest": "41bffb1a0f86b8011331b285e4f43c4ccd2bb7aee64db8afb25483c7a67ba640",
+  "fr": "<p>04 · À offrir</p>",
+  "ref_es": "<p>04 · Para regalar</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 108
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c3__t.text:168jbjxn5oqvo",
+  "digest": "f9377e02a5a99aa84c45c0b247a12d25725e26130400b9e6a082cfcc862111fd",
+  "fr": "<h3>Pour offrir</h3>",
+  "ref_es": "<h3>Para regalar</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 109
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c3__p.text:3qvsa19x0ibdc",
+  "digest": "e43d613b0c4615516badff2fe23416a5603dd2b550f715af7ed7276370fe9a0e",
+  "fr": "<p>Trois variétés à goûter côte à côte.</p>",
+  "ref_es": "<p>Tres variedades para probar una al lado de la otra.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 110
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.section_Guide.row__c3__b.label:3m8u22lcrisxl",
+  "digest": "974d16fd6e369ee288270e963a13a58ceee87d3bde8868feedfac2bf2ef32bc3",
+  "fr": "Le coffret",
+  "ref_es": "El estuche",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 111
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.media_with_content_CwFqjm.content__g1__h.text:zw0g8w7mxkl1",
+  "digest": "9b107c25f8c601860d50cf36c31bc321ecaa5ccbaaa0e358bfb4cbe5715bf118",
+  "fr": "<h2>Récoltée tôt, pressée à froid</h2>",
+  "ref_es": "<h2>Cosecha temprana, prensado en frío</h2>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 112
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.media_with_content_CwFqjm.content__g1__p.text:29zqd28hu5egd",
+  "digest": "fa10063f61ffd8c04fec5e6166a74a1d98027409c10335a4af7321b5aef735fa",
+  "fr": "<p>Les olives sont cueillies en début de saison. L'huile garde plus de fraîcheur, des notes d'herbe et une légère amertume en fin de bouche.</p>",
+  "ref_es": "<p>Las aceitunas se recogen al inicio de la temporada. El aceite conserva más frescura, notas de hierba y un ligero amargor al final.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 113
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.media_with_content_CwFqjm.content__g2__b.label:36ozn2e3rcacn",
+  "digest": "d5462dbc8f4715c7404f9a1fb88cd3984c4352756da7ac09747d848f6a349438",
+  "fr": "Goûter la première récolte",
+  "ref_es": "Probar la primera cosecha",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 114
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.media_with_content_xUctDh.content__g1__h.text:g0lxw90rn8tj",
+  "digest": "e894dc25a4933cc8064565a27e882e5200e50bd3c421996c3cdbb1fbc42d230c",
+  "fr": "<h2>À offrir : le coffret dégustation</h2>",
+  "ref_es": "<h2>Para regalar: el estuche de cata</h2>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 115
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.media_with_content_xUctDh.content__g1__p.text:evntlnaf7kan",
+  "digest": "65242fb1867c93af1797b475a624bd574cec41ded95751f0f7482f09ad027190",
+  "fr": "<p>Hojiblanca, ronde. Arbosana, fruitée. Picual, plus piquante. Trois bouteilles pour sentir la différence d'une olive à l'autre, ou pour offrir.</p>",
+  "ref_es": "<p>Hojiblanca, redonda. Arbosana, afrutada. Picual, más picante. Tres botellas para notar la diferencia entre una aceituna y otra, o para regalar.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 116
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.index.json.media_with_content_xUctDh.content__g2__b.label:26z9qwunoragl",
+  "digest": "c3a8495393588225a11a02eb87a139c3366db0c66032c2e0a7358bd8a76eead0",
+  "fr": "Voir le coffret",
+  "ref_es": "Ver el estuche",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 117
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.banner.g__p.text:1zybmi6rz6jst",
+  "digest": "ef662b47a862d353748171aa3c7407c8fc3db46c17b9ebf7f751d03eba4eb8c9",
+  "fr": "<p>Vierge extra, d'Andalousie. Récoltées tôt, pressées à froid.</p>",
+  "ref_es": "<p>Virgen extra, de Andalucía. Cosecha temprana, prensado en frío.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 118
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.choisir.t.text:3cdsfh1c1z49b",
+  "digest": "e6dd77baaece66d80e98f60330b1de36345e4c63f5fcdf20559ca37b62d8322d",
+  "fr": "<h2>Laquelle choisir ?</h2>",
+  "ref_es": "<h2>¿Cuál elegir?</h2>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 119
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.choisir.cols__c1__h.text:l2c2gqq3qq5u",
+  "digest": "a68fc22c3e336463fb6faefa9db756c122515bb11afe64ad7872e3c2fcb9e12f",
+  "fr": "<h3>Pour tous les jours</h3>",
+  "ref_es": "<h3>Para todos los días</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 120
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.choisir.cols__c1__p.text:1v61za30ayk16",
+  "digest": "7c5ee8b8f716af5353ff08d858c1a4ecfbf84da7dbbdb827f7fd51963ba1a5a4",
+  "fr": "<p>L'Arbequina ou le Coupage. Douces et polyvalentes, à cru comme en cuisson douce.</p>",
+  "ref_es": "<p>La Arbequina o el Coupage. Suaves y versátiles, en crudo o en cocción suave.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 121
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.choisir.cols__c1__b.label:14pwk1xx4rydf",
+  "digest": "c0c3c1c39c86ab426161613785558625acb1b7b18de5ed2b1b8a1d717a76592f",
+  "fr": "Voir l'Arbequina",
+  "ref_es": "Ver la Arbequina",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 122
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.choisir.cols__c2__h.text:21gbkr7sdkydt",
+  "digest": "44e5e9d38e28aabb54c0a6f268ff43956e2ad14a04bd20490e046c35a316708e",
+  "fr": "<h3>Pour la goûter crue</h3>",
+  "ref_es": "<h3>Para tomarlo en crudo</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 123
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.choisir.cols__c2__p.text:3bk1hkk2kss95",
+  "digest": "b4a71e175838e3509389fceec55445f39d63f89400de402a829c1aa69d2ff35b",
+  "fr": "<p>L'Arbequina première récolte. Plus fraîche, avec des notes de pomme verte et un léger piquant.</p>",
+  "ref_es": "<p>La Arbequina de primera cosecha. Más fresca, con notas de manzana verde y un ligero picor.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 124
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.choisir.cols__c2__b.label:rmpcjttni1fk",
+  "digest": "08118c102ee4ebaf9079e43afc9ce8015d3298f2df5c5a69622532d33f0693ee",
+  "fr": "Voir la première récolte",
+  "ref_es": "Ver la primera cosecha",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 125
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.choisir.cols__c3__h.text:17oyj44ax906o",
+  "digest": "f9377e02a5a99aa84c45c0b247a12d25725e26130400b9e6a082cfcc862111fd",
+  "fr": "<h3>Pour offrir</h3>",
+  "ref_es": "<h3>Para regalar</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 126
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.choisir.cols__c3__p.text:2hsofxgl4gu20",
+  "digest": "6476605b38bd673fb04d5bb9c7c7d79063fb21a1e6fc9a22cff25f550c334893",
+  "fr": "<p>Le coffret dégustation. Hojiblanca, Arbosana et Picual, à comparer côte à côte.</p>",
+  "ref_es": "<p>El estuche de cata. Hojiblanca, Arbosana y Picual, para comparar una al lado de la otra.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 127
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.choisir.cols__c3__b.label:13fkl78s2izi9",
+  "digest": "c3a8495393588225a11a02eb87a139c3366db0c66032c2e0a7358bd8a76eead0",
+  "fr": "Voir le coffret",
+  "ref_es": "Ver el estuche",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 128
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.faq.t.text:37p4ws7vbyhzw",
+  "digest": "ea2f490fae7cf95b9f91f1ae2c7cb1716dc1b9b6a31fcc111e13a5f7cb7e6da4",
+  "fr": "<h2>Questions fréquentes</h2>",
+  "ref_es": "<h2>Preguntas frecuentes</h2>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 129
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.faq.wrap__acc__r1.heading:2bb7kmzecgunf",
+  "digest": "996086b889f0a9af413b74e9054bd0c4456af64a9ce2e1696ab9e398be7983ad",
+  "fr": "Quels sont les délais de livraison ?",
+  "ref_es": "¿Cuáles son los plazos de entrega?",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 130
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.faq.wrap__acc__r1__t.text:pukfe4kydn3e",
+  "digest": "2734d3b8538731fd0ae523e9598db31b07173c9535451224dba0ba26bb07f729",
+  "fr": "<p>Votre commande est préparée sous 1 à 3 jours ouvrés, puis livrée en France métropolitaine sous 6 à 8 jours ouvrés.</p>",
+  "ref_es": "<p>Enviamos desde París con Chronopost. España peninsular, Baleares y Portugal: entrega en 2 a 3 días laborables.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 131
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.faq.wrap__acc__r2.heading:3vvm74t1yf83s",
+  "digest": "0f892362af7dccf61fc5e2babfc2b936efa5ed5efe8f62b45f7ebc8f6ea70707",
+  "fr": "Comment conserver mon huile ?",
+  "ref_es": "¿Cómo conservar mi aceite?",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 132
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.faq.wrap__acc__r2__t.text:21shd79kgoll5",
+  "digest": "0a8a4d650d7678f4536efdf6fd00712e245c0017ba7d8ddcd442aa84878bb8c8",
+  "fr": "<p>Bien fermée, à l'abri de la lumière et de la chaleur. Évitez de la garder à côté des plaques de cuisson.</p>",
+  "ref_es": "<p>Bien cerrado, protegido de la luz y del calor. Evita guardarlo junto a los fogones.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 133
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.faq.wrap__acc__r3.heading:21kytgsmtyi21",
+  "digest": "eb3ab80182d5a5fdc956b24981ebea9fa1cbe9a208081ee20ec26e73fa57e010",
+  "fr": "Une bouteille est arrivée cassée, que faire ?",
+  "ref_es": "Una botella ha llegado rota, ¿qué hago?",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 134
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.collection.huiles.json.faq.wrap__acc__r3__t.text:4y15lvp5troo",
+  "digest": "4a34a8a3b64e6f5bfacd88d365d0812a2ec36c80433e493d49a560bec16cbeb9",
+  "fr": "<p>Écrivez-nous sous 48 heures avec une photo via notre <a href=\"/pages/contact\">page contact</a>. Nous vous la renvoyons ou nous vous remboursons.</p>",
+  "ref_es": "<p>Escríbenos en 48 horas con una foto desde nuestra <a href=\"/pages/contact\">página de contacto</a>. Te la reenviamos o te la reembolsamos.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 135
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.product.json.product-information.product-details__group_J87VfC__reassure.text:259e9oakn9767",
+  "digest": "ae66d6338fcee6aa18f5816696f7067d2db732e0ca7f8353038fdc55691f25f4",
+  "fr": "<p>Livraison en France métropolitaine · Paiement sécurisé · Retour sous 14 jours (bouteille fermée)</p>",
+  "ref_es": "<p>Envío a España y Portugal · Pago seguro · Devolución en 14 días (botella cerrada)</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 136
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.product.json.product-information.product-details__group_J87VfC__infos__r1.heading:3qeyc3s3mwtps",
+  "digest": "a8b3d250ac9e1bcd509ffd32eadc4ef0c09164fdd91d99b236ea0bb4bdaa6510",
+  "fr": "Livraison",
+  "ref_es": "Envío",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 137
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.product.json.product-information.product-details__group_J87VfC__infos__r1__t.text:3dwdgexkzggoh",
+  "digest": "0450c065e1b45eb858889c8b948bd469ab8ed255a456f52506b21ecbe78d6cff",
+  "fr": "<p>Votre commande est préparée sous 1 à 3 jours ouvrés, puis livrée en France métropolitaine sous 6 à 8 jours ouvrés. Les frais sont affichés dans le panier, avant le paiement.</p>",
+  "ref_es": "<p>Tu pedido sale de París con Chronopost y se entrega en España peninsular y Baleares en 2 a 3 días laborables. Los gastos se muestran en la cesta, antes del pago.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 138
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.product.json.product-information.product-details__group_J87VfC__infos__r2.heading:2nnvr8xikb7ir",
+  "digest": "e43f60bbc4e69bac962d92f4e903eb284d459dd45574a3cdc7d767b5943fb26d",
+  "fr": "Conservation",
+  "ref_es": "Conservación",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 139
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.product.json.product-information.product-details__group_J87VfC__infos__r2__t.text:x9d9avz43y36",
+  "digest": "0a8a4d650d7678f4536efdf6fd00712e245c0017ba7d8ddcd442aa84878bb8c8",
+  "fr": "<p>Bien fermée, à l'abri de la lumière et de la chaleur. Évitez de la garder à côté des plaques de cuisson.</p>",
+  "ref_es": "<p>Bien cerrado, protegido de la luz y del calor. Evita guardarlo junto a los fogones.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 140
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.product.json.product-information.product-details__group_J87VfC__infos__r3.heading:33e2pz6ppt8z6",
+  "digest": "7c442e059901cc54a0566925d705e35b921fa5f3434308d6f5568fb6f6543d90",
+  "fr": "Retours",
+  "ref_es": "Devoluciones",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 141
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.product.json.product-information.product-details__group_J87VfC__infos__r3__t.text:goggsjvwetdf",
+  "digest": "099913bf3a518215d29db852186756b102608e79c404d665e50d5b989de7d12c",
+  "fr": "<p>Vous avez 14 jours après réception pour changer d'avis, si la bouteille n'a pas été ouverte. Une bouteille arrivée cassée ? Écrivez-nous sous 48 heures avec une photo, nous la renvoyons ou nous la remboursons.</p>",
+  "ref_es": "<p>Tienes 14 días desde la recepción para cambiar de opinión, si la botella no se ha abierto. ¿Una botella ha llegado rota? Escríbenos en 48 horas con una foto: te la reenviamos o te la reembolsamos.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 142
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.product.json.product_recommendations_8RVdzU.text_w3FTGV.text:2rc4obkofn2hs",
+  "digest": "a6535a1f57c7ab6686ced6fa598782537b5e3b186864f355331dd2781021facb",
+  "fr": "<h3>Nos autres huiles</h3>",
+  "ref_es": "<h3>Nuestros otros aceites</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 143
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.sections/footer-group.json.section_UM49qN.text_tqMiyM.text:1oumnf91bsuhp",
+  "digest": "e1b21028a2148d618a16522a50c26a2baedeaed2d6820aeb7e501692cde35b5a",
+  "fr": "<h2>Restons en contact</h2>",
+  "ref_es": "<h2>Sigamos en contacto</h2>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 144
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.sections/footer-group.json.section_UM49qN.text_6qbwK9.text:um3hfn3k8sqw",
+  "digest": "3a7772ecd20230e64fc87af5280636dbd7a179481d71b716df3a8dca5e030a94",
+  "fr": "<p>Un e-mail quand une nouvelle huile arrive. Pas plus.</p>",
+  "ref_es": "<p>Un email cuando llega un aceite nuevo. Nada más.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 145
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.sections/footer-group.json.section_UM49qN.email_signup_zGgJDN.label:2cr327p6aa1ch",
+  "digest": "3c25f4fb5ef99476cb02a7fd23c019b8e06ca9f7dfea8ebf3fe0e3b952fb4364",
+  "fr": "S'inscrire",
+  "ref_es": "Suscribirme",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 146
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.sections/footer-group.json.footer.group_x4FxXe__menu_EQKgTP.heading:2maw302i5a3p5",
+  "digest": "2bb88a8007e958735ca54052a14d374b721ed8b82439c4f0e6f836cbe302f125",
+  "fr": "Boutique",
+  "ref_es": "Tienda",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 147
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.page.contact.json.form.contact_form_UwiCkQ__submit-button.label:1691dx6kcaglv",
+  "digest": "79075209f2bb88659c27b70f45fa4f4df8ecdb6395abcfc2d54b2a5184116950",
+  "fr": "Envoyer",
+  "ref_es": "Enviar",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 148
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.cart.json.cart-section.cart-page-title.title:ffson5e94pnq",
+  "digest": "6d2d59aed44f1efab446c09e60a3da7794ed1e652cd88d0a67914e72d1f9eae8",
+  "fr": "Cart",
+  "ref_es": "Cesta",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 149
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.cart.json.product_list_YRK996.static-header__product_list_text_Dkgy6X.text:2v89bdshwhvvx",
+  "digest": "28ad85c9cd179c34833755761478ac3e881215e2c9871a3eba9bea09c17a04a2",
+  "fr": "<h3>Our bestsellers</h3>",
+  "ref_es": "<h3>Nuestros más vendidos</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 150
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.cart.json.product_list_YRK996.static-header__button_RCgx6a.label:1y1dy8wh30dgy",
+  "digest": "30a64216eaeac5d3a328c11bf5e3269d10a3ca0d50aa7a8b99337ab429b73cb2",
+  "fr": "View all",
+  "ref_es": "Ver todo",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 151
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.404.json.main.text_GqmVFf.text:2i368gao346xo",
+  "digest": "b93488eca6e606b6a169db2c12d968d2d973b6f2e7db9fbb3d077565131c3f40",
+  "fr": "<h1>Page not found</h1>",
+  "ref_es": "<h1>Página no encontrada</h1>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 152
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.404.json.main.text_Ua9XAW.text:10io0lm5gwd3m",
+  "digest": "7bd80c0e6b47cedca869c33808957de9636b15c2670d9eda0bfdb8fe028b878a",
+  "fr": "<p>The link may be incorrect, or the page has been removed. </p>",
+  "ref_es": "<p>El enlace puede ser incorrecto o la página ya no existe.</p>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 153
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.404.json.main.button_PAQMwR.label:30ry970vkw0bt",
+  "digest": "264a224fd18a1bf56b080cb6e2087555c6144c482f7a2e3322662e90eaf1bbfe",
+  "fr": "Continue shopping",
+  "ref_es": "Seguir comprando",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 154
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.404.json.product_list_axmDjT.static-header__product_list_text_E7wGJF.text:371h2rgt814y8",
+  "digest": "28ad85c9cd179c34833755761478ac3e881215e2c9871a3eba9bea09c17a04a2",
+  "fr": "<h3>Our bestsellers</h3>",
+  "ref_es": "<h3>Nuestros más vendidos</h3>",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 155
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.404.json.product_list_axmDjT.static-header__button_Vtz9N9.label:348tkgzv3i1v5",
+  "digest": "30a64216eaeac5d3a328c11bf5e3269d10a3ca0d50aa7a8b99337ab429b73cb2",
+  "fr": "View all",
+  "ref_es": "Ver todo",
+  "note": "Texte du thème : le français est parfois obsolète sur la livraison ; suivre le sens de ref_es (version validée), en adaptant le pays du marché.",
+  "id": 156
+ },
+ {
+  "rid": "gid://shopify/OnlineStoreTheme/197493555582",
+  "key": "section.list-collections.json.collection_list_kTdkcn.group_we9NFt__text_BfQ46x.text:bw368cimbvsh",
+  "digest": "883500fc3d16ebcd07ab4a930c5b655208eb188c20e5a49bad4c7b2a328c288c",
+  "fr": "<h1>Collections</h1>",
+  "id": 157
+ }
+]
