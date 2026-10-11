@@ -41,6 +41,20 @@
       <g:min_transit_time>2</g:min_transit_time>
       <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
+    <g:shipping>
+      <g:country>BE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>18.00 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>IT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.00 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
   </item>
   <item>
     <g:id>shopify_FR_16052552335742_57868278333822</g:id>
@@ -75,6 +89,20 @@
     </g:shipping>
     <g:shipping>
       <g:country>PT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.00 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>BE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>18.00 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>IT</g:country>
       <g:service>Chrono Classic</g:service>
       <g:price>21.00 EUR</g:price>
       <g:min_transit_time>2</g:min_transit_time>
@@ -118,6 +146,20 @@
       <g:min_transit_time>2</g:min_transit_time>
       <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
+    <g:shipping>
+      <g:country>BE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>18.00 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>IT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.00 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
   </item>
   <item>
     <g:id>shopify_FR_16104470348158_58112114098558</g:id>
@@ -156,6 +198,20 @@
       <g:min_transit_time>2</g:min_transit_time>
       <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
+    <g:shipping>
+      <g:country>BE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>23.00 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>IT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>26.00 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
   </item>
   <item>
     <g:id>shopify_FR_16104474182014_58112124289406</g:id>
@@ -189,6 +245,20 @@
     </g:shipping>
     <g:shipping>
       <g:country>PT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>26.00 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>BE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>23.00 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>IT</g:country>
       <g:service>Chrono Classic</g:service>
       <g:price>26.00 EUR</g:price>
       <g:min_transit_time>2</g:min_transit_time>
