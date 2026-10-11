@@ -1,8 +1,8 @@
 # Livraison (mise à jour le 11 oct. 2026)
 
 Zone : France métropolitaine — profil « Profil général »
-- Livraison Chronopost à domicile, au poids (base 9,01 € donnée par Jairo, +0,60 €/kg — à vérifier avec la grille Chronopost réelle) :
-  0-1 kg 9,01 · 1-2 kg 9,61 · 2-3 kg 10,21 · 3-4 kg 10,81 · 4-5 kg 11,41 · 5-6 kg 12,01 · 6-7 kg 12,61 · 7-8 kg 13,21 · 8-9 kg 13,81 · 9-10 kg 14,41 · 10-15 kg 17,41 · 15-20 kg 20,41 · 20-30 kg 26,41
+- Livraison Chronopost à domicile, au poids : base 9,01 € (Jairo) + écarts de la grille officielle Chrono 13 en ligne chronopost.fr 2026 (10,43 / 11,70 / 13,28 / 15,90 / 21,90 / 28,28) :
+  0-1 kg 9,01 · 1-2 kg 10,28 · 2-5 kg 11,86 · 5-10 kg 14,48 · 10-20 kg 20,48 · 20-30 kg 26,86
 - Livraison Chronopost offerte : 0 € dès 80 € de commande
 Description affichée : expédiée directement d'Andalousie · 7 à 10 jours ouvrés
 
