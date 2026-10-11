@@ -1,0 +1,284 @@
+[
+ {
+  "name": "L1_matin_oliviers",
+  "kind": "post",
+  "when": "2026-10-12T07:30:00",
+  "files": [
+   "L1_matin_oliviers.jpg"
+  ],
+  "caption": "Bonjour depuis l'Andalousie ☀️\n\nC'est ici, entre ces collines, que poussent les olives de nos huiles. Belle semaine à vous 🫒\n\n#andalousie #oliviers #bonjour #huiledolive #terroir"
+ },
+ {
+  "name": "L2_carrousel_tartines",
+  "kind": "carrousel",
+  "when": "2026-10-12T11:30:00",
+  "files": [
+   "L2_carrousel_tartines_1.jpg",
+   "L2_carrousel_tartines_2.jpg",
+   "L2_carrousel_tartines_3.jpg",
+   "L2_carrousel_tartines_4.jpg",
+   "L2_carrousel_tartines_5.jpg"
+  ],
+  "caption": "3 tartines pour bien commencer la journée 🍞\n\nTomate & fleur de sel, avocat & citron, fromage frais & herbes… avec un point commun : un filet généreux d'huile d'olive.\nEnregistrez pour demain matin 🔖\n\nArbequina première récolte · lien en bio\n\n#petitdejeuner #tartine #recettefacile #huiledolive #arbequina"
+ },
+ {
+  "name": "L3_post_ceramique",
+  "kind": "post",
+  "when": "2026-10-12T16:00:00",
+  "files": [
+   "L3_post_ceramique.jpg"
+  ],
+  "caption": "Trop belle pour rester au placard ✨\n\nNotre Arbequina dans sa bouteille en céramique : douce, fruitée, et toujours à portée de main sur la table.\nLien en bio.\n\n#arbequina #decotable #huiledolive #epiceriefine #artdelatable"
+ },
+ {
+  "name": "J6_post_eco (v3, déplacé)",
+  "kind": "post",
+  "when": "2026-10-12T20:00:00",
+  "plugkit": "cmuwysfyo01jqpk01ys17rwhr",
+  "files": [
+   "../calendrier-v3/J6_post_eco.jpg"
+  ]
+ },
+ {
+  "name": "M1_fact_olives",
+  "kind": "post",
+  "when": "2026-10-13T07:30:00",
+  "files": [
+   "M1_fact_olives.jpg"
+  ],
+  "caption": "Le saviez-vous ? 🫒\n\nIl faut environ 5 à 6 kg d'olives pour faire un seul litre d'huile. Et quand on les récolte tôt, elles donnent moins d'huile… mais beaucoup plus de goût.\n\nVous le saviez ? 👇\n\n#lesaviezvous #huiledolive #olives #andalousie #culturegourmande"
+ },
+ {
+  "name": "J7_carrousel_erreurs (v3, déplacé)",
+  "kind": "carrousel",
+  "when": "2026-10-13T11:30:00",
+  "plugkit": "cmuwytb1f01pkpk0105l7kefa",
+  "files": [
+   "../calendrier-v3/J7_carrousel_erreurs_1.jpg",
+   "../calendrier-v3/J7_carrousel_erreurs_2.jpg",
+   "../calendrier-v3/J7_carrousel_erreurs_3.jpg",
+   "../calendrier-v3/J7_carrousel_erreurs_4.jpg",
+   "../calendrier-v3/J7_carrousel_erreurs_5.jpg",
+   "../calendrier-v3/J7_carrousel_erreurs_6.jpg",
+   "../calendrier-v3/J7_carrousel_erreurs_7.jpg"
+  ]
+ },
+ {
+  "name": "M3_post_premiere",
+  "kind": "post",
+  "when": "2026-10-13T16:00:00",
+  "files": [
+   "M3_post_premiere.jpg"
+  ],
+  "caption": "Récoltée tôt, pressée à froid 🌿\n\nNotre Arbequina première récolte : pomme verte, amande, et ce petit piquant qui dit que l'huile est fraîche.\nLien en bio · Livraison en France\n\n#arbequina #premiererecolte #huiledolive #pressageafroid #epiceriefine"
+ },
+ {
+  "name": "J7_post_coupage (v3, déplacé)",
+  "kind": "post",
+  "when": "2026-10-13T20:00:00",
+  "plugkit": "cmuwytbsi01pupk01mplg3qhf",
+  "files": [
+   "../calendrier-v3/J7_post_coupage.jpg"
+  ]
+ },
+ {
+  "name": "W1_matin_aerien",
+  "kind": "post",
+  "when": "2026-10-14T07:30:00",
+  "files": [
+   "W1_matin_aerien.jpg"
+  ],
+  "caption": "Vu du ciel, l'Andalousie ressemble à ça 😍\n\nDes milliers d'oliviers en rangs serrés, à perte de vue. C'est de là que viennent nos huiles.\n\n#andalousie #oliveraie #vueduciel #huiledolive #espagne"
+ },
+ {
+  "name": "W2_carrousel_vierge",
+  "kind": "carrousel",
+  "when": "2026-10-14T11:30:00",
+  "files": [
+   "W2_carrousel_vierge_1.jpg",
+   "W2_carrousel_vierge_2.jpg",
+   "W2_carrousel_vierge_3.jpg",
+   "W2_carrousel_vierge_4.jpg",
+   "W2_carrousel_vierge_5.jpg",
+   "W2_carrousel_vierge_6.jpg"
+  ],
+  "caption": "« Vierge extra », on le lit partout… mais ça veut dire quoi ? 🤔\n\nGlissez pour comprendre les 4 critères de la catégorie la plus exigeante. Enregistrez pour vos prochaines courses 🔖\n\nToutes nos huiles sont vierge extra · lien en bio\n\n#huiledolive #viergeextra #lesaviezvous #bienmanger #epiceriefine"
+ },
+ {
+  "name": "W3_post_trio",
+  "kind": "post",
+  "when": "2026-10-14T16:00:00",
+  "files": [
+   "W3_post_trio.jpg"
+  ],
+  "caption": "Hojiblanca, ronde. Arbosana, fruitée. Picual, robuste.\nTrois olives, trois caractères, un seul coffret 🫒\n\nVous commencez par laquelle ? 👇\nLe coffret dégustation · lien en bio\n\n#coffretdegustation #hojiblanca #arbosana #picual #idéecadeau"
+ },
+ {
+  "name": "W4_recette_legumes",
+  "kind": "post",
+  "when": "2026-10-14T20:00:00",
+  "files": [
+   "W4_recette_legumes.jpg"
+  ],
+  "caption": "Ce soir, on fait simple et bon 🥕\n\nDes légumes rôtis, une huile généreuse, 40 minutes de four… et un dernier filet à cru avant de servir : c'est là que tout se joue.\nEnregistrez la recette 🔖\n\n#legumesrotis #recettefacile #cuisinemaison #huiledolive #dinerdusoir"
+ },
+ {
+  "name": "J1_citation_pain",
+  "kind": "post",
+  "when": "2026-10-15T07:30:00",
+  "files": [
+   "J1_citation_pain.jpg"
+  ],
+  "caption": "La plus simple des dégustations 🍞🫒\n\nUn bon pain, une bonne huile, et c'est tout. Vous êtes plutôt pain de campagne ou baguette ? 👇\n\n#huiledolive #painmaison #degustation #epiceriefine #andalousie"
+ },
+ {
+  "name": "J2_carrousel_cuisiner",
+  "kind": "carrousel",
+  "when": "2026-10-15T11:30:00",
+  "files": [
+   "J2_carrousel_cuisiner_1.jpg",
+   "J2_carrousel_cuisiner_2.jpg",
+   "J2_carrousel_cuisiner_3.jpg",
+   "J2_carrousel_cuisiner_4.jpg",
+   "J2_carrousel_cuisiner_5.jpg",
+   "J2_carrousel_cuisiner_6.jpg"
+  ],
+  "caption": "Non, l'huile d'olive vierge extra ne se garde pas que pour la salade 🍳\n\nPoêler, rôtir, mijoter, finir à cru : glissez pour les 4 façons de l'utiliser au quotidien. Enregistrez 🔖\n\nNotre Arbequina écologique en 1 L · lien en bio\n\n#cuisinemaison #astucecuisine #huiledolive #arbequina #ecologique"
+ },
+ {
+  "name": "J3_post_ouverture",
+  "kind": "post",
+  "when": "2026-10-15T16:00:00",
+  "files": [
+   "J3_post_ouverture.jpg"
+  ],
+  "caption": "Le premier geste 🫒\n\nOn dévisse, on approche le nez… et ça sent l'herbe fraîchement coupée. Le signe d'une huile vraiment fraîche.\nLien en bio.\n\n#huiledolive #fraicheur #degustation #epiceriefine #andalousie"
+ },
+ {
+  "name": "J4_apero",
+  "kind": "post",
+  "when": "2026-10-15T20:00:00",
+  "files": [
+   "J4_apero.jpg"
+  ],
+  "caption": "L'apéro, version andalouse 🫒🍞\n\nDu pain, des olives, une bonne huile dans une coupelle. Pas besoin de plus pour passer une belle soirée.\nLien en bio.\n\n#apero #aperoandalou #olives #huiledolive #tapas"
+ },
+ {
+  "name": "V1_matin_bottle",
+  "kind": "post",
+  "when": "2026-10-16T07:30:00",
+  "files": [
+   "V1_matin_bottle.jpg"
+  ],
+  "caption": "Le premier geste du matin ☀️\n\nUn pain bien grillé, un filet d'Arbequina, une pincée de sel. Bonne journée !\nLien en bio.\n\n#petitdejeuner #arbequina #huiledolive #bonjour #painmaison"
+ },
+ {
+  "name": "V2_carrousel_burrata",
+  "kind": "carrousel",
+  "when": "2026-10-16T11:30:00",
+  "files": [
+   "V2_carrousel_burrata_1.jpg",
+   "V2_carrousel_burrata_2.jpg",
+   "V2_carrousel_burrata_3.jpg",
+   "V2_carrousel_burrata_4.jpg"
+  ],
+  "caption": "La burrata parfaite, en 5 minutes chrono 🍅\n\nTomates cerises, basilic, fleur de sel… et une huile fruitée qui se fond dans la crème. Enregistrez pour ce week-end 🔖\n\nArbequina première récolte · lien en bio\n\n#burrata #recetteitalienne #recettefacile #huiledolive #apero"
+ },
+ {
+  "name": "V3_question",
+  "kind": "post",
+  "when": "2026-10-16T16:00:00",
+  "files": [
+   "V3_question.jpg"
+  ],
+  "caption": "On veut savoir 👇\n\nVotre plat préféré avec un filet d'huile d'olive : A, B, C ou D ? Répondez en commentaire, on lit tout 🫒\n\n#huiledolive #cuisinemaison #gourmand #epiceriefine #andalousie"
+ },
+ {
+  "name": "V4_post_etui",
+  "kind": "post",
+  "when": "2026-10-16T20:00:00",
+  "files": [
+   "V4_post_etui.jpg"
+  ],
+  "caption": "Prête à offrir, sans papier cadeau 🎁\n\nNotre Coupage (Picual & Arbequina) dans son étui : rond, équilibré, et toujours apprécié.\nLien en bio · Livraison en France\n\n#idéecadeau #cadeaugourmand #coupage #huiledolive #epiceriefine"
+ },
+ {
+  "name": "S1_matin_marche",
+  "kind": "post",
+  "when": "2026-10-17T07:30:00",
+  "files": [
+   "S1_matin_marche.jpg"
+  ],
+  "caption": "Le programme parfait du samedi 🧺\n\nUn tour au marché, du bon pain, une bonne huile. Et vous, c'est quoi votre rituel du week-end ? 👇\n\n#samedi #marche #weekend #huiledolive #bienmanger"
+ },
+ {
+  "name": "S2_carrousel_salades",
+  "kind": "carrousel",
+  "when": "2026-10-17T11:30:00",
+  "files": [
+   "S2_carrousel_salades_1.jpg",
+   "S2_carrousel_salades_2.jpg",
+   "S2_carrousel_salades_3.jpg",
+   "S2_carrousel_salades_4.jpg",
+   "S2_carrousel_salades_5.jpg"
+  ],
+  "caption": "3 salades d'automne, pleines de goût 🍂\n\nCourge rôtie & feta, lentilles & herbes, pomme & noix… et une huile fruitée pour tout réveiller. Enregistrez 🔖\n\nArbequina écologique · lien en bio\n\n#saladedautomne #recettedesaison #cuisinemaison #huiledolive #ecologique"
+ },
+ {
+  "name": "S3_post_ceramique",
+  "kind": "post",
+  "when": "2026-10-17T16:00:00",
+  "files": [
+   "S3_post_ceramique.jpg"
+  ],
+  "caption": "Directement du producteur à votre table 🫒\n\nNos huiles partent d'Andalousie, sans intermédiaire, pour arriver chez vous aussi fraîches que possible.\nLien en bio.\n\n#producteur #circuitcourt #andalousie #huiledolive #epiceriefine"
+ },
+ {
+  "name": "S4_livraison",
+  "kind": "post",
+  "when": "2026-10-17T20:00:00",
+  "files": [
+   "S4_livraison.jpg"
+  ],
+  "caption": "Bonne nouvelle 📦\n\nLa livraison est désormais offerte dès 80 € d'achat, partout en France métropolitaine. Expédiée directement d'Andalousie en Chronopost.\nLien en bio.\n\n#livraisonofferte #huiledolive #epiceriefine #andalousie #bonplan"
+ },
+ {
+  "name": "D1_matin_dimanche",
+  "kind": "post",
+  "when": "2026-10-18T07:30:00",
+  "files": [
+   "D1_matin_dimanche.jpg"
+  ],
+  "caption": "Dimanche, on prend le temps 🌿\n\nUn long petit-déjeuner, du bon pain, une bonne huile… Bon dimanche à vous.\n\n#dimanche #slowlife #andalousie #huiledolive #oliviers"
+ },
+ {
+  "name": "D2_carrousel_poulet",
+  "kind": "carrousel",
+  "when": "2026-10-18T11:30:00",
+  "files": [
+   "D2_carrousel_poulet_1.jpg",
+   "D2_carrousel_poulet_2.jpg",
+   "D2_carrousel_poulet_3.jpg",
+   "D2_carrousel_poulet_4.jpg"
+  ],
+  "caption": "Le déjeuner du dimanche 🍋\n\nUn poulet rôti au citron, à l'ail et au thym, badigeonné d'huile d'olive. Simple, généreux, inratable. Enregistrez la recette 🔖\n\nNotre Coupage · lien en bio\n\n#pouletroti #dejeunerdudimanche #recettefamiliale #huiledolive #cuisinemaison"
+ },
+ {
+  "name": "D3_post_bio",
+  "kind": "post",
+  "when": "2026-10-18T16:00:00",
+  "files": [
+   "D3_post_bio.jpg"
+  ],
+  "caption": "Cultivée dans le respect de la terre 🌱\n\nNotre Arbequina écologique : fruitée, vive, avec des notes d'herbe fraîche. En grand format, pour cuisiner tous les jours.\nLien en bio.\n\n#ecologique #arbequina #huiledolive #cuisinesaine #andalousie"
+ },
+ {
+  "name": "D4_sondage",
+  "kind": "post",
+  "when": "2026-10-18T20:00:00",
+  "files": [
+   "D4_sondage.jpg"
+  ],
+  "caption": "Votre huile de la semaine ? 🫒\n\nA, B, C ou D : dites-nous en commentaire laquelle vous tente le plus !\nToute la collection · lien en bio\n\n#huiledolive #sondage #epiceriefine #arbequina #coffretdegustation"
+ }
+]
