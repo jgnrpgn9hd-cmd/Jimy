@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root{--olive:#1F241C;--gold:#A88B57;--cream:#F3EDE2;--terra:#9C5A3C}
+*{margin:0;box-sizing:border-box}
+body{width:1800px;background:#E9E2D4;font-family:'Instrument Sans';color:var(--olive);padding:70px}
+h1{font-family:'Instrument Serif';font-weight:400;font-size:64px;margin-bottom:6px}
+.sub{font-size:20px;opacity:.6;margin-bottom:50px}
+.row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.card{border-radius:28px;padding:50px 40px 40px;display:flex;flex-direction:column;align-items:center}
+.l{background:var(--cream)} .d{background:var(--olive);color:var(--cream)}
+.tag{align-self:flex-start;font-size:15px;letter-spacing:.18em;text-transform:uppercase;opacity:.55;margin-bottom:30px}
+.sym{width:260px;height:260px}
+.word{font-family:'Instrument Serif';font-size:66px;letter-spacing:.01em;margin-top:26px;line-height:1}
+.base{font-size:13px;letter-spacing:.32em;text-transform:uppercase;margin-top:12px;opacity:.7}
+.desc{font-size:17px;line-height:1.5;opacity:.75;margin-top:28px;text-align:center;max-width:440px}
+.d .ink{fill:var(--cream)} .d .inks{stroke:var(--cream)} .d .gap{stroke:var(--olive)} .d .faint{fill:var(--cream);opacity:.16}
+.l .ink{fill:var(--olive)} .l .inks{stroke:var(--olive)} .l .gap{stroke:var(--cream)} .l .faint{fill:var(--olive);opacity:.12}
+.gold{fill:var(--gold)}
+</style></head><body>
+<h1>Jimenez — pistes de logo</h1>
+<div class="sub">Inspiration : un détail réel vu du ciel qui devient un signe. Ici, l'oliveraie andalouse en vue aérienne.</div>
+<template id="A"><svg class="sym" viewBox="0 0 200 200"><path class="inks" d="M118 84 V138 A34 34 0 0 1 50 138" fill="none" stroke-width="34"/><circle class="gold" cx="118" cy="40" r="22"/></svg></template>
+<template id="B"><svg class="sym" viewBox="0 0 200 200"><circle class="gold" cx="134" cy="74" r="52"/><path class="gap" d="M100 52 V128 A30 30 0 0 1 40 128" fill="none" stroke-width="50"/><path class="inks" d="M100 52 V128 A30 30 0 0 1 40 128" fill="none" stroke-width="30"/></svg></template>
+<template id="C"><svg class="sym" viewBox="0 0 200 200" id="gridsvg"></svg></template>
+<div class="row" id="r1"></div><div class="row" id="r2"></div>
+<script>
+const info={A:['Piste A — Le « j » de l’olivier','Le point du j est un olivier vu du ciel, doré comme l’huile. Le jambage reprend la ligne d’un rang d’oliviers.'],
+B:['Piste B — Le soleil et le rang','Comme le bateau de la vidéo : une forme pleine (le soleil d’Andalousie, une olive) traversée par le J, séparé par un liseré.'],
+C:['Piste C — L’oliveraie','Une grille d’oliviers vus du ciel. Les arbres dorés dessinent le J : la marque naît du verger.']};
+function grid(svg){const J=[[3,0],[3,1],[3,2],[3,3],[2,4],[1,4],[0,3]];let s='';
+for(let r=0;r<5;r++)for(let c=0;c<5;c++){const on=J.some(([x,y])=>x==c&&y==r);const cx=28+c*36,cy=28+r*36;
+s+=`<circle class="${on?'gold':'faint'}" cx="${cx}" cy="${cy}" r="${on?15:9}"/>`}svg.innerHTML=s}
+for(const [rid,cls] of [['r1','l'],['r2','d']])for(const k of ['A','B','C']){
+const c=document.createElement('div');c.className='card '+cls;
+c.innerHTML=`<div class="tag">${info[k][0]}</div>`+document.getElementById(k).innerHTML+`<div class="word">Jimenez</div><div class="base">Huile d’olive · Andalousie</div>`+(cls=='l'?`<div class="desc">${info[k][1]}</div>`:'');
+document.getElementById(rid).appendChild(c);if(k=='C')grid(c.querySelector('svg'))}
+</script></body></html>
