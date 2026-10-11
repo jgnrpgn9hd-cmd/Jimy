@@ -604,19 +604,28 @@
                 "t": {
                   "type": "text",
                   "settings": {
-                    "text": "<h4>En direct du producteur</h4>",
-                    "type_preset": "h4",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text": "<h3>En direct du producteur</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "1.5rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.background }}"
                   }
                 },
                 "p": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Des oliveraies andalouses à votre table, sans intermédiaire.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
                     "type_preset": "rte",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text_color": "{{ settings.color_palette.background }}"
                   }
                 }
               },
@@ -641,19 +650,28 @@
                 "t": {
                   "type": "text",
                   "settings": {
-                    "text": "<h4>Récoltée tôt, pressée à froid</h4>",
-                    "type_preset": "h4",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text": "<h3>Récoltée tôt, pressée à froid</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "1.5rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.background }}"
                   }
                 },
                 "p": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Plus de fraîcheur, plus de goût.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
                     "type_preset": "rte",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text_color": "{{ settings.color_palette.background }}"
                   }
                 }
               },
@@ -678,19 +696,28 @@
                 "t": {
                   "type": "text",
                   "settings": {
-                    "text": "<h4>Expédiée d'Andalousie</h4>",
-                    "type_preset": "h4",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text": "<h3>Expédiée d'Andalousie</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "1.5rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.background }}"
                   }
                 },
                 "p": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Chronopost, 7 à 10 jours ouvrés.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
                     "type_preset": "rte",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text_color": "{{ settings.color_palette.background }}"
                   }
                 }
               },
@@ -715,19 +742,28 @@
                 "t": {
                   "type": "text",
                   "settings": {
-                    "text": "<h4>-10 % avec BIENVENUE10</h4>",
-                    "type_preset": "h4",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text": "<h3>-10 % avec BIENVENUE10</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "1.5rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.background }}"
                   }
                 },
                 "p": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Sur toute la boutique.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
                     "type_preset": "rte",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text_color": "{{ settings.color_palette.background }}"
                   }
                 }
               },
@@ -766,9 +802,16 @@
           "type": "text",
           "settings": {
             "text": "<h2>Quelle huile pour vous ?</h2>",
-            "type_preset": "h2",
-            "text_color": "{{ settings.color_palette.foreground }}",
-            "alignment": "center"
+            "width": "100%",
+            "alignment": "center",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "3rem",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "balance",
+            "text_color": "{{ settings.color_palette.foreground }}"
           }
         },
         "row": {
@@ -777,10 +820,10 @@
             "content_direction": "row",
             "vertical_on_mobile": true,
             "horizontal_alignment": "space-between",
-            "vertical_alignment": "flex-start",
+            "vertical_alignment": "center",
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 32,
+            "gap": 20,
             "width": "fill"
           },
           "blocks": {
@@ -792,27 +835,61 @@
                 "horizontal_alignment": "center",
                 "vertical_alignment": "flex-start",
                 "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 8,
-                "width": "fill"
+                "vertical_alignment_flex_direction_column": "space-between",
+                "gap": 14,
+                "width": "fill",
+                "height": "fill",
+                "background_media": "none",
+                "background_color": "#EFE8DB",
+                "border": "none",
+                "border_radius": 20,
+                "padding-block-start": 40,
+                "padding-block-end": 36,
+                "padding-inline-start": 24,
+                "padding-inline-end": 24
               },
               "blocks": {
+                "l": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>01 · Au quotidien</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.75rem",
+                    "line_height": "normal",
+                    "letter_spacing": "loose",
+                    "case": "uppercase",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.color2 }}"
+                  }
+                },
                 "t": {
                   "type": "text",
                   "settings": {
-                    "text": "<h4>Pour tous les jours</h4>",
-                    "type_preset": "h4",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text": "<h3>Pour tous les jours</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "2rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.foreground }}"
                   }
                 },
                 "p": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Ronde et équilibrée, crue ou en cuisson douce.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
                     "type_preset": "rte",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text_color": "{{ settings.color_palette.foreground }}"
                   }
                 },
                 "b": {
@@ -825,6 +902,7 @@
                 }
               },
               "block_order": [
+                "l",
                 "t",
                 "p",
                 "b"
@@ -838,27 +916,61 @@
                 "horizontal_alignment": "center",
                 "vertical_alignment": "flex-start",
                 "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 8,
-                "width": "fill"
+                "vertical_alignment_flex_direction_column": "space-between",
+                "gap": 14,
+                "width": "fill",
+                "height": "fill",
+                "background_media": "none",
+                "background_color": "#EFE8DB",
+                "border": "none",
+                "border_radius": 20,
+                "padding-block-start": 40,
+                "padding-block-end": 36,
+                "padding-inline-start": 24,
+                "padding-inline-end": 24
               },
               "blocks": {
+                "l": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>02 · À déguster</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.75rem",
+                    "line_height": "normal",
+                    "letter_spacing": "loose",
+                    "case": "uppercase",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.color2 }}"
+                  }
+                },
                 "t": {
                   "type": "text",
                   "settings": {
-                    "text": "<h4>Pour se régaler, crue</h4>",
-                    "type_preset": "h4",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text": "<h3>Pour se régaler, crue</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "2rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.foreground }}"
                   }
                 },
                 "p": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Pomme verte, amande et un petit piquant en fin de bouche.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
                     "type_preset": "rte",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text_color": "{{ settings.color_palette.foreground }}"
                   }
                 },
                 "b": {
@@ -871,6 +983,7 @@
                 }
               },
               "block_order": [
+                "l",
                 "t",
                 "p",
                 "b"
@@ -884,27 +997,61 @@
                 "horizontal_alignment": "center",
                 "vertical_alignment": "flex-start",
                 "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 8,
-                "width": "fill"
+                "vertical_alignment_flex_direction_column": "space-between",
+                "gap": 14,
+                "width": "fill",
+                "height": "fill",
+                "background_media": "none",
+                "background_color": "#EFE8DB",
+                "border": "none",
+                "border_radius": 20,
+                "padding-block-start": 40,
+                "padding-block-end": 36,
+                "padding-inline-start": 24,
+                "padding-inline-end": 24
               },
               "blocks": {
+                "l": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>03 · En cuisine</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.75rem",
+                    "line_height": "normal",
+                    "letter_spacing": "loose",
+                    "case": "uppercase",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.color2 }}"
+                  }
+                },
                 "t": {
                   "type": "text",
                   "settings": {
-                    "text": "<h4>Pour cuisiner sans compter</h4>",
-                    "type_preset": "h4",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text": "<h3>Pour cuisiner sans compter</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "2rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.foreground }}"
                   }
                 },
                 "p": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Arbequina écologique, en grand format 1 L.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
                     "type_preset": "rte",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text_color": "{{ settings.color_palette.foreground }}"
                   }
                 },
                 "b": {
@@ -917,6 +1064,7 @@
                 }
               },
               "block_order": [
+                "l",
                 "t",
                 "p",
                 "b"
@@ -930,27 +1078,61 @@
                 "horizontal_alignment": "center",
                 "vertical_alignment": "flex-start",
                 "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 8,
-                "width": "fill"
+                "vertical_alignment_flex_direction_column": "space-between",
+                "gap": 14,
+                "width": "fill",
+                "height": "fill",
+                "background_media": "none",
+                "background_color": "#EFE8DB",
+                "border": "none",
+                "border_radius": 20,
+                "padding-block-start": 40,
+                "padding-block-end": 36,
+                "padding-inline-start": 24,
+                "padding-inline-end": 24
               },
               "blocks": {
+                "l": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>04 · À offrir</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.75rem",
+                    "line_height": "normal",
+                    "letter_spacing": "loose",
+                    "case": "uppercase",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.color2 }}"
+                  }
+                },
                 "t": {
                   "type": "text",
                   "settings": {
-                    "text": "<h4>Pour offrir</h4>",
-                    "type_preset": "h4",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text": "<h3>Pour offrir</h3>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
+                    "font_size": "2rem",
+                    "line_height": "tight",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "balance",
+                    "text_color": "{{ settings.color_palette.foreground }}"
                   }
                 },
                 "p": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Trois variétés à goûter côte à côte.</p>",
+                    "width": "100%",
+                    "alignment": "center",
+                    "max_width": "narrow",
                     "type_preset": "rte",
-                    "text_color": "{{ settings.color_palette.foreground }}",
-                    "alignment": "center"
+                    "text_color": "{{ settings.color_palette.foreground }}"
                   }
                 },
                 "b": {
@@ -963,6 +1145,7 @@
                 }
               },
               "block_order": [
+                "l",
                 "t",
                 "p",
                 "b"
