@@ -696,7 +696,7 @@
                 "t": {
                   "type": "text",
                   "settings": {
-                    "text": "<h3>Expédiée d'Andalousie</h3>",
+                    "text": "<h3>Livraison offerte dès 80 €</h3>",
                     "width": "100%",
                     "alignment": "center",
                     "type_preset": "custom",
@@ -712,7 +712,7 @@
                 "p": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Chronopost, 7 à 10 jours ouvrés.</p>",
+                    "text": "<p>Expédiée d'Andalousie en Chronopost, 7 à 10 jours ouvrés.</p>",
                     "width": "100%",
                     "alignment": "center",
                     "max_width": "narrow",
