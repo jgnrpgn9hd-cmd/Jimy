@@ -1,0 +1,32 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="fonts/fonts.css">
+<style>
+*{margin:0;box-sizing:border-box}
+body{width:1800px;background:#EDE7DB;font-family:'Instrument Sans';color:#1F241C;padding:70px}
+h1{font-family:'Instrument Serif';font-weight:400;font-size:60px}
+.sub{font-size:20px;opacity:.6;margin:6px 0 46px}
+.row{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;margin-bottom:30px}
+.card{border-radius:26px;height:470px;padding:36px 24px;display:flex;flex-direction:column;align-items:center;background:#F7F3EA;position:relative}
+.card.g{background:#3F4F24}
+.tag{align-self:flex-start;font-size:13px;letter-spacing:.18em;text-transform:uppercase;opacity:.45;margin:0 0 10px 10px}
+.g .tag{color:#F7F3EA}
+.in{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center}
+svg text{font-family:'Instrument Serif'}
+.w{font-family:'Instrument Serif';font-size:44px;letter-spacing:.32em;padding-left:.32em;margin-top:22px;line-height:1}
+.b{font-size:10.5px;letter-spacing:.42em;padding-left:.42em;text-transform:uppercase;margin-top:12px;opacity:.75}
+.g .w,.g .b{color:#F7F3EA}
+.rule{width:34px;height:1px;background:#A88B57;margin-top:14px}
+</style></head><body>
+<h1>Jimenez — épicerie fine d’Andalousie</h1><div class="sub">Mêmes couleurs, même style chic. Un logo qui couvre tout : huile, olives, charcuterie.</div>
+<div class="row" id="r1"></div><div class="row" id="r2"></div>
+<script>
+const leaf=(x,y,rot,s,c)=>`<path transform="translate(${x} ${y}) rotate(${rot}) scale(${s})" d="M0 0 C 8 -9, 26 -9, 34 0 C 26 9, 8 9, 0 0Z" fill="${c}"/>`;
+const P={
+H:['H — L’arc andalou',(c1,g,bg)=>`<svg width="170" height="210" viewBox="0 0 170 210"><path d="M44 205 V112 A49 49 0 1 1 126 112 V205" fill="none" stroke="${g}" stroke-width="1.6"/><path d="M53 205 V112 A40 40 0 1 1 117 112 V205" fill="none" stroke="${g}" stroke-width=".8"/><text x="85" y="158" text-anchor="middle" font-size="86" fill="${c1}">J</text></svg>`,1],
+I:['I — Le sceau',(c1,g,bg)=>{let t=`<svg width="230" height="230" viewBox="0 0 230 230"><defs><path id="cp${c1.slice(1)}" d="M115 115 m-82 0 a82 82 0 1 1 164 0 a82 82 0 1 1 -164 0"/></defs><circle cx="115" cy="115" r="104" fill="none" stroke="${g}" stroke-width="1.6"/><circle cx="115" cy="115" r="64" fill="none" stroke="${g}" stroke-width=".8"/><text font-size="13.5" fill="${c1}"><textPath href="#cp${c1.slice(1)}" textLength="508" lengthAdjust="spacing">ÉPICERIE FINE · PRODUITS D’ANDALOUSIE · JIMENEZ ·</textPath></text><text x="115" y="140" text-anchor="middle" font-size="76" fill="${c1}">J</text>`;
+t+=leaf(124,80,-50,.62,g)+`</svg>`;return t},0],
+K:['K — La branche',(c1,g,bg)=>`<svg width="200" height="200" viewBox="0 0 200 200"><text x="100" y="150" text-anchor="middle" font-size="160" fill="${c1}">J</text><path d="M58 128 C 90 108, 128 70, 150 36" fill="none" stroke="${g}" stroke-width="1.6"/>${leaf(150,36,-130,1,g)}${leaf(118,78,-160,.85,g)}${leaf(119,77,-75,.85,g)}${leaf(88,106,-165,.7,g)}${leaf(89,105,-70,.7,g)}</svg>`,1],
+L:['L — Le nom seul',(c1,g,bg)=>`<svg width="380" height="120" viewBox="0 0 380 120"><text x="190" y="88" text-anchor="middle" font-size="66" letter-spacing="15" fill="${c1}">JIMENEZ</text>${leaf(108,22,-55,.62,g)}</svg>`,2]};
+[['#F7F3EA','#3F4F24','#A88B57',''],['#3F4F24','#F7F3EA','#C9A86A','g']].forEach(([bg,c1,g,cls],i)=>{for(const k in P){const [n,f,mode]=P[k];const d=document.createElement('div');d.className='card '+cls;
+d.innerHTML=`<div class="tag">${n}</div><div class="in">${f(c1,g,bg)}${mode==1?'<div class="w">JIMENEZ</div><div class="rule"></div><div class="b">Épicerie fine d’Andalousie</div>':mode==2?'<div class="rule"></div><div class="b">Épicerie fine d’Andalousie</div>':'<div class="w">JIMENEZ</div>'}</div>`;
+document.getElementById('r'+(i+1)).appendChild(d)}});
+</script></body></html>
