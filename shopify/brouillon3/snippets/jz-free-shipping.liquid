@@ -1,0 +1,48 @@
+{%- comment -%}
+  Barre « livraison offerte » du panier (France, dès 80 €).
+  Affichée seulement pour une livraison en France et un panier non vide.
+{%- endcomment -%}
+{%- liquid
+  assign jz_threshold = 8000
+  assign jz_country = localization.country.iso_code
+  assign jz_lang = request.locale.iso_code | slice: 0, 2
+-%}
+{%- if cart.item_count > 0 and jz_country == 'FR' -%}
+  {%- liquid
+    assign jz_total = cart.total_price
+    assign jz_left = jz_threshold | minus: jz_total
+    assign jz_pct = jz_total | times: 100 | divided_by: jz_threshold
+    if jz_pct > 100
+      assign jz_pct = 100
+    endif
+    assign jz_left_money = jz_left | money
+  -%}
+  <div class="jz-ship" role="status">
+    <p class="jz-ship__text">
+      {%- if jz_left > 0 -%}
+        {%- case jz_lang -%}
+          {%- when 'es' -%}Te faltan <strong>{{ jz_left_money }}</strong> para el envío gratis
+          {%- when 'pt' -%}Faltam <strong>{{ jz_left_money }}</strong> para a entrega grátis
+          {%- when 'it' -%}Ti mancano <strong>{{ jz_left_money }}</strong> per la spedizione gratuita
+          {%- when 'nl' -%}Nog <strong>{{ jz_left_money }}</strong> voor gratis levering
+          {%- else -%}Plus que <strong>{{ jz_left_money }}</strong> pour la livraison offerte
+        {%- endcase -%}
+      {%- else -%}
+        {%- case jz_lang -%}
+          {%- when 'es' -%}<strong>El envío es gratis</strong> 🎉
+          {%- when 'pt' -%}<strong>A entrega é grátis</strong> 🎉
+          {%- when 'it' -%}<strong>La spedizione è gratuita</strong> 🎉
+          {%- when 'nl' -%}<strong>Levering is gratis</strong> 🎉
+          {%- else -%}<strong>La livraison est offerte</strong> 🎉
+        {%- endcase -%}
+      {%- endif -%}
+    </p>
+    <div class="jz-ship__track" aria-hidden="true"><span style="width: {{ jz_pct }}%"></span></div>
+  </div>
+  <style>
+    .jz-ship { width: 100%; display: grid; gap: 10px; padding: 14px 16px; border-radius: 12px; background: rgb(var(--color-foreground-rgb) / 0.05); }
+    .jz-ship__text { margin: 0; font-size: var(--font-size--sm, 0.875rem); line-height: 1.4; }
+    .jz-ship__track { height: 6px; border-radius: 99px; background: rgb(var(--color-foreground-rgb) / 0.12); overflow: hidden; }
+    .jz-ship__track span { display: block; height: 100%; border-radius: inherit; background: #A88B57; transition: width 0.4s ease; }
+  </style>
+{%- endif -%}
