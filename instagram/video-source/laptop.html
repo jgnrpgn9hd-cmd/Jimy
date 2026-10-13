@@ -1,0 +1,99 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><link href="fonts/fonts.css" rel="stylesheet"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0d0d0e}
+#cam{position:absolute;inset:-60px;transform-origin:50% 55%}
+/* fond d'écran du haut (bureau) */
+#wall{position:absolute;left:0;right:0;top:0;height:560px;overflow:hidden;
+ background:radial-gradient(120% 90% at 30% 120%,#cfc6b0 0,#e9e3d3 38%,#f4f0e6 60%,#d9d2c0 100%)}
+#wall .sw{position:absolute;border-radius:50%;border:38px solid rgba(255,255,255,.55);filter:blur(6px)}
+#wall .sw.b{border-color:rgba(122,140,92,.45)}
+#wall .sw.c{border-color:rgba(168,139,87,.35)}
+/* écran */
+#bezel{position:absolute;left:0;right:0;top:540px;height:600px;background:#121212}
+#screen{position:absolute;left:0;right:0;top:600px;height:535px;overflow:hidden;background:#000}
+#glow{position:absolute;inset:0;background:radial-gradient(60% 75% at 50% 52%,#fde3b4 0,#f6e0bb 28%,#eee5d2 58%,#e3e0d8 100%)}
+#iri{position:absolute;inset:0;mix-blend-mode:soft-light;opacity:.55;
+ background:linear-gradient(115deg,rgba(255,180,200,.5),rgba(180,220,255,.4) 35%,rgba(255,240,180,.5) 60%,rgba(190,255,210,.35))}
+#bottle{position:absolute;left:50%;top:50%;height:455px;transform-origin:50% 50%;filter:drop-shadow(0 30px 40px rgba(60,45,20,.28))}
+#shadow{position:absolute;left:50%;top:478px;width:200px;height:26px;margin-left:-100px;border-radius:50%;background:radial-gradient(closest-side,rgba(70,55,30,.35),transparent)}
+#url{position:absolute;left:0;right:0;bottom:22px;text-align:center;font-family:"Instrument Sans";font-weight:500;font-size:22px;letter-spacing:6px;color:#6b5a3a;text-transform:uppercase}
+#scanl{position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.03) 0 2px,transparent 2px 4px);mix-blend-mode:multiply}
+/* bas du portable */
+#hinge{position:absolute;left:0;right:0;top:1135px;height:60px;background:linear-gradient(#2a2a2c,#3a3a3d)}
+#deck{position:absolute;left:-20px;right:-20px;top:1190px;height:820px;background:linear-gradient(#3b3b3e,#2f2f31 40%,#29292b)}
+#kb{position:absolute;left:10px;right:10px;top:1205px;height:300px;background:#151516;border-radius:10px;padding:10px 8px;display:grid;gap:8px}
+.row{display:flex;gap:8px;height:100%}
+.k{flex:1;background:#0b0b0c;border-radius:7px;box-shadow:inset 0 -2px 0 rgba(255,255,255,.04),0 1px 0 rgba(255,255,255,.05);color:#bdbdbd;font-family:"Instrument Sans";font-size:19px;display:flex;align-items:center;justify-content:center}
+.k.s{font-size:12px;align-items:flex-end;justify-content:flex-start;padding:0 0 8px 8px;color:#a0a0a0}
+#pad{position:absolute;left:190px;right:190px;top:1525px;height:330px;border-radius:22px;background:linear-gradient(#333336,#2c2c2f);box-shadow:inset 0 0 0 2px rgba(255,255,255,.05)}
+/* texte */
+#txt{position:absolute;left:0;right:0;top:1180px;text-align:center;font-family:"Instrument Sans";font-weight:700;font-size:118px;letter-spacing:-1px;color:#fff;
+ text-shadow:0 4px 18px rgba(0,0,0,.55),0 1px 3px rgba(0,0,0,.6)}
+/* film */
+#grain{position:absolute;inset:0;pointer-events:none;opacity:.10;mix-blend-mode:overlay}
+#vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(120% 90% at 50% 45%,transparent 55%,rgba(0,0,0,.35) 100%)}
+#fade{position:absolute;inset:0;background:#000;pointer-events:none}
+</style></head><body>
+<div id="cam">
+ <div id="wall"></div>
+ <div id="bezel"></div>
+ <div id="screen">
+  <div id="glow"></div><div id="iri"></div>
+  <div id="shadow"></div>
+  <img id="bottle" src="cut/bottle_arbequina.png">
+  <div id="url">jimenez-shop.com</div>
+  <div id="scanl"></div>
+ </div>
+ <div id="hinge"></div>
+ <div id="deck"></div>
+ <div id="kb"></div>
+ <div id="pad"></div>
+ <div id="txt">jimenez</div>
+</div>
+<canvas id="grain" width="540" height="960"></canvas>
+<div id="vig"></div>
+<div id="fade"></div>
+<script>
+const DURATION=9;
+// fond d'écran : anneaux façon macOS, teintes olive/or
+const W=document.getElementById('wall');
+[[-260,-380,900,'a'],[-120,-300,760,'b'],[40,-220,620,'c'],[180,-420,1000,'a'],[420,-260,700,'b']].forEach(([x,y,s,c])=>{
+ const d=document.createElement('div');d.className='sw '+c;Object.assign(d.style,{left:x+'px',top:y+'px',width:s+'px',height:s+'px'});W.appendChild(d)});
+// clavier
+const rows=[
+ ['esc','F1','F2','F3','F4','F5','F6','F7','F8','F9','F10','F11','F12','⏻'],
+ ['~','1','2','3','4','5','6','7','8','9','0','-','=','delete'],
+ ['tab','Q','W','E','R','T','Y','U','I','O','P','[',']','\\'],
+ ['caps','A','S','D','F','G','H','J','K','L',';','\'','return'],
+ ['shift','Z','X','C','V','B','N','M',',','.','/','shift'],
+ ['fn','control','option','command','','command','option','◀','▲▼','▶']];
+const KB=document.getElementById('kb');KB.style.gridTemplateRows='0.55fr 1fr 1fr 1fr 1fr 1fr';
+rows.forEach((r,ri)=>{const row=document.createElement('div');row.className='row';
+ r.forEach(k=>{const e=document.createElement('div');const small=k.length>2||ri===0;e.className='k'+(small?' s':'');e.textContent=k;
+  let g=1;if(['delete','tab','caps','return','shift'].includes(k))g=1.7;if(k==='command')g=1.35;if(k==='')g=5.2;e.style.flex=g;row.appendChild(e)});KB.appendChild(row)});
+// grain
+const gc=document.getElementById('grain'),gx=gc.getContext('2d'),gimg=gx.createImageData(540,960);
+function grain(seed){let s=seed*9301+49297;for(let i=0;i<gimg.data.length;i+=4){s=(s*9301+49297)%233280;const v=s/233280*255;gimg.data[i]=gimg.data[i+1]=gimg.data[i+2]=v;gimg.data[i+3]=255}gx.putImageData(gimg,0,0)}
+const ease=x=>x<0?0:x>1?1:x*x*(3-2*x);
+function render(t){
+ // caméra tenue à la main : petite dérive + léger zoom avant
+ const cx=Math.sin(t*0.9)*6+Math.sin(t*2.3)*2,cy=Math.cos(t*0.7)*5+Math.sin(t*1.9)*2,rot=Math.sin(t*0.6)*0.35,z=1.0+0.035*ease(t/DURATION);
+ document.getElementById('cam').style.transform=`translate(${cx}px,${cy}px) rotate(${rot}deg) scale(${z})`;
+ // écran qui s'allume
+ const on=ease(t/0.9);document.getElementById('glow').style.opacity=on;document.getElementById('iri').style.opacity=0.55*on;
+ document.getElementById('iri').style.backgroundPosition=`${t*20}px 0`;
+ // bouteille : apparition + flottement + lente rotation
+ const app=ease((t-0.4)/1.1);
+ const bob=Math.sin(t*1.6)*10,ry=Math.sin(t*0.8)*14,rz=Math.sin(t*1.1)*2.2;
+ const sc=0.86+0.14*app;
+ const B=document.getElementById('bottle');
+ B.style.opacity=app;B.style.transform=`translate(-50%,calc(-50% + ${bob-6+(1-app)*40}px)) perspective(900px) rotateY(${ry}deg) rotateZ(${rz}deg) scale(${sc})`;
+ const S=document.getElementById('shadow');S.style.opacity=app*(0.9-bob/40);S.style.transform=`scaleX(${1-bob/80})`;
+ // texte
+ const tx=ease((t-1.0)/0.5);const T=document.getElementById('txt');T.style.opacity=tx;T.style.transform=`translateY(${(1-tx)*14}px)`;
+ document.getElementById('url').style.opacity=ease((t-6.2)/0.8);
+ document.getElementById('fade').style.opacity=1-ease(t/0.45);
+ grain(Math.floor(t*30)+1);
+}
+render(0);
+</script></body></html>
