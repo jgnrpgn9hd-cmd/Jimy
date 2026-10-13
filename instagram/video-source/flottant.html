@@ -1,0 +1,48 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><link href="fonts/fonts.css" rel="stylesheet"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#e3e0da}
+#glow{position:absolute;inset:-80px;background:radial-gradient(62% 48% at 50% 46%,#fbd9a6 0,#f5ddb7 24%,#ede3d0 52%,#e2dfd9 80%,#d9d7d3 100%)}
+#iri{position:absolute;inset:-80px;mix-blend-mode:soft-light;opacity:.55;
+ background:linear-gradient(115deg,rgba(255,170,195,.55),rgba(170,215,255,.45) 33%,rgba(255,236,170,.55) 62%,rgba(185,250,215,.4));background-size:220% 100%}
+#halo{position:absolute;left:50%;top:46%;width:900px;height:900px;margin:-450px 0 0 -450px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,226,170,.55),transparent);filter:blur(20px)}
+#wrap{position:absolute;left:50%;top:44%;width:360px;height:1030px;margin:-515px 0 0 -180px}
+#bottle{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 50px 60px rgba(60,42,15,.30))}
+#spec{position:absolute;inset:0;-webkit-mask:url(cut/bottle_arbequina.png) center/contain no-repeat;mask:url(cut/bottle_arbequina.png) center/contain no-repeat;
+ background:linear-gradient(100deg,transparent 0,transparent 38%,rgba(255,255,255,.55) 46%,rgba(255,255,255,.08) 52%,transparent 60%);background-size:300% 100%;mix-blend-mode:screen}
+#shadow{position:absolute;left:50%;top:1400px;width:420px;height:46px;margin-left:-210px;border-radius:50%;background:radial-gradient(closest-side,rgba(70,52,25,.30),transparent)}
+#txt{position:absolute;left:0;right:0;top:1560px;text-align:center;font-family:"Instrument Sans";font-weight:700;font-size:150px;letter-spacing:-2px;color:#2a2418;
+ text-shadow:0 2px 14px rgba(255,240,215,.6)}
+#grain{position:absolute;inset:0;pointer-events:none;opacity:.08;mix-blend-mode:overlay}
+#vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(120% 90% at 50% 45%,transparent 60%,rgba(60,45,25,.22) 100%)}
+#fade{position:absolute;inset:0;background:#000;pointer-events:none}
+</style></head><body>
+<div id="glow"></div><div id="iri"></div><div id="halo"></div>
+<div id="shadow"></div>
+<div id="wrap"><img id="bottle" src="cut/bottle_arbequina.png"><div id="spec"></div></div>
+<div id="txt">jimenez</div>
+<canvas id="grain" width="540" height="960"></canvas>
+<div id="vig"></div><div id="fade"></div>
+<script>
+const DURATION=10;
+const gc=document.getElementById('grain'),gx=gc.getContext('2d'),gimg=gx.createImageData(540,960);
+function grain(seed){let s=seed*7919+104729;for(let i=0;i<gimg.data.length;i+=4){s=(s*9301+49297)%233280;const v=s/233280*255;gimg.data[i]=gimg.data[i+1]=gimg.data[i+2]=v;gimg.data[i+3]=255}gx.putImageData(gimg,0,0)}
+const ease=x=>x<=0?0:x>=1?1:x*x*(3-2*x);
+const easeIO=x=>x<=0?0:x>=1?1:(x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2);
+function render(t){
+ const p=t/DURATION;
+ document.getElementById('fade').style.opacity=1-ease(t/0.6);
+ const on=ease(t/1.2);document.getElementById('glow').style.opacity=on;
+ const I=document.getElementById('iri');I.style.opacity=.55*on;I.style.backgroundPosition=`${-p*120}% 0`;
+ document.getElementById('halo').style.opacity=on*(0.85+0.15*easeIO(p));
+ // un seul mouvement continu : la bouteille monte doucement, se rapproche et pivote à peine
+ const app=ease((t-0.4)/1.6), m=easeIO(Math.min(1,Math.max(0,(t-0.4)/9.4)));
+ const y=70-80*m, sc=0.84+0.14*m, rz=-3+4.5*m, ry=-10+14*m;
+ const W=document.getElementById('wrap');W.style.opacity=app;
+ W.style.transform=`translateY(${y}px) perspective(1600px) rotateY(${ry}deg) rotateZ(${rz}deg) scale(${sc})`;
+ document.getElementById('spec').style.backgroundPosition=`${100-130*easeIO(Math.min(1,Math.max(0,(t-1.5)/7)))}% 0`;
+ const S=document.getElementById('shadow');S.style.opacity=app*(1-0.45*m);S.style.transform=`scaleX(${0.9+0.15*m})`;
+ const tx=ease((t-1.6)/0.7),T=document.getElementById('txt');T.style.opacity=tx;T.style.transform=`translateY(${(1-tx)*16}px)`;
+ grain(Math.floor(t*30)+5);
+}
+render(0);
+</script></body></html>
