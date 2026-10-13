@@ -1,0 +1,104 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><link href="fonts/fonts.css" rel="stylesheet"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0c0c0d}
+#cam{position:absolute;inset:-70px;transform-origin:50% 50%}
+/* fond d'écran macOS, argenté avec liserés bleus */
+#wall{position:absolute;left:0;right:0;top:0;height:560px;overflow:hidden;background:linear-gradient(160deg,#e9ebef 0%,#cfd3da 45%,#f3f4f6 100%)}
+.band{position:absolute;border-radius:50%;filter:blur(4px)}
+/* écran */
+#bezel{position:absolute;left:0;right:0;top:545px;height:600px;background:#111112}
+#screen{position:absolute;left:0;right:0;top:605px;height:530px;overflow:hidden;background:#000}
+#glow{position:absolute;inset:-40px;background:radial-gradient(58% 72% at 50% 50%,#f9ddb0 0,#f4dfbd 26%,#ece4d4 55%,#e2e0db 100%)}
+#iri{position:absolute;inset:-40px;mix-blend-mode:soft-light;opacity:.5;
+ background:linear-gradient(110deg,rgba(255,170,195,.55),rgba(170,215,255,.45) 33%,rgba(255,236,170,.55) 62%,rgba(185,250,215,.4));background-size:200% 100%}
+#wrap{position:absolute;left:50%;top:50%;width:160px;height:460px;margin:-230px 0 0 -80px}
+#bottle{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 26px 34px rgba(60,42,15,.30))}
+#spec{position:absolute;inset:0;-webkit-mask:url(cut/bottle_arbequina.png) center/contain no-repeat;mask:url(cut/bottle_arbequina.png) center/contain no-repeat;
+ background:linear-gradient(100deg,transparent 0,transparent 38%,rgba(255,255,255,.55) 46%,rgba(255,255,255,.08) 52%,transparent 60%);background-size:300% 100%;mix-blend-mode:screen}
+#shadow{position:absolute;left:50%;top:486px;width:210px;height:24px;margin-left:-105px;border-radius:50%;background:radial-gradient(closest-side,rgba(70,52,25,.32),transparent)}
+#pix{position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(0,0,0,.035) 0 1px,transparent 1px 3px),repeating-linear-gradient(0deg,rgba(0,0,0,.03) 0 1px,transparent 1px 3px);mix-blend-mode:multiply}
+#glare{position:absolute;inset:-200px;background:linear-gradient(115deg,transparent 40%,rgba(255,255,255,.10) 48%,transparent 56%);pointer-events:none}
+/* bas du portable */
+#hinge{position:absolute;left:0;right:0;top:1135px;height:62px;background:linear-gradient(#262628,#38383b)}
+#deck{position:absolute;left:-30px;right:-30px;top:1192px;height:900px;background:linear-gradient(#3c3c3f,#313133 35%,#28282a)}
+#kb{position:absolute;left:8px;right:8px;top:1206px;height:300px;background:#141415;border-radius:10px;padding:10px 8px;display:grid;gap:8px}
+.row{display:flex;gap:8px;height:100%}
+.k{flex:1;background:linear-gradient(#111112,#09090a);border-radius:7px;box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 1px 0 rgba(255,255,255,.04);color:#c4c4c4;font-family:"Instrument Sans";font-size:19px;display:flex;align-items:center;justify-content:center}
+.k.s{font-size:12px;align-items:flex-end;justify-content:flex-start;padding:0 0 8px 8px;color:#9d9d9d}
+#kbsheen{position:absolute;left:0;right:0;top:1180px;height:360px;background:linear-gradient(180deg,rgba(255,235,200,.10),transparent 60%);mix-blend-mode:screen}
+#pad{position:absolute;left:190px;right:190px;top:1528px;height:330px;border-radius:22px;background:linear-gradient(#343437,#2b2b2e);box-shadow:inset 0 0 0 2px rgba(255,255,255,.05);filter:blur(1.2px)}
+#dof{position:absolute;left:-30px;right:-30px;top:1500px;height:600px;backdrop-filter:blur(2.5px);-webkit-mask:linear-gradient(transparent,#000 40%);mask:linear-gradient(transparent,#000 40%)}
+/* texte */
+#txt{position:absolute;left:0;right:0;top:1182px;text-align:center;font-family:"Instrument Sans";font-weight:700;font-size:116px;letter-spacing:-1px;color:#fff;
+ text-shadow:0 4px 18px rgba(0,0,0,.5),0 1px 3px rgba(0,0,0,.6)}
+#grain{position:absolute;inset:0;pointer-events:none;opacity:.09;mix-blend-mode:overlay}
+#vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(130% 95% at 50% 42%,transparent 55%,rgba(0,0,0,.38) 100%)}
+#exp{position:absolute;inset:0;background:#fff;mix-blend-mode:soft-light;pointer-events:none}
+#fade{position:absolute;inset:0;background:#000;pointer-events:none}
+</style></head><body>
+<div id="cam">
+ <div id="wall"></div>
+ <div id="bezel"></div>
+ <div id="screen">
+  <div id="glow"></div><div id="iri"></div>
+  <div id="shadow"></div>
+  <div id="wrap"><img id="bottle" src="cut/bottle_arbequina.png"><div id="spec"></div></div>
+  <div id="pix"></div><div id="glare"></div>
+ </div>
+ <div id="hinge"></div>
+ <div id="deck"></div>
+ <div id="kb"></div>
+ <div id="kbsheen"></div>
+ <div id="pad"></div>
+ <div id="dof"></div>
+ <div id="txt">jimenez</div>
+</div>
+<canvas id="grain" width="540" height="960"></canvas>
+<div id="vig"></div><div id="exp"></div><div id="fade"></div>
+<script>
+const DURATION=10;
+// fond d'écran : grandes vagues argentées, liserés bleu-violet (style macOS)
+const W=document.getElementById('wall');
+const bands=[[-500,-900,1700,1500,'#ffffff',60,'#7d8fe0',8,-18],[-300,-760,1500,1300,'#dfe2e8',70,'#5f73cf',6,-14],
+ [-80,-640,1350,1150,'#f7f8fa',55,'#9aa6e8',5,-10],[150,-520,1200,1000,'#c9ced7',65,'#6c7fd8',7,-6],
+ [380,-420,1050,900,'#ffffff',50,'#8593dd',5,-2],[-700,-300,1500,1200,'#e6e8ec',80,'#5d6fc8',6,8]];
+bands.forEach(([x,y,w,h,c,bw,edge,ew,rot])=>{const d=document.createElement('div');d.className='band';
+ Object.assign(d.style,{left:x+'px',top:y+'px',width:w+'px',height:h+'px',border:`${bw}px solid ${c}`,boxShadow:`0 0 0 ${ew}px ${edge}, inset 0 0 40px rgba(0,0,0,.08)`,transform:`rotate(${rot}deg)`});W.appendChild(d)});
+// clavier
+const rows=[['esc','F1','F2','F3','F4','F5','F6','F7','F8','F9','F10','F11','F12','⏻'],
+ ['~','1','2','3','4','5','6','7','8','9','0','-','=','delete'],['tab','Q','W','E','R','T','Y','U','I','O','P','[',']','\\'],
+ ['caps','A','S','D','F','G','H','J','K','L',';','\'','return'],['shift','Z','X','C','V','B','N','M',',','.','/','shift'],
+ ['fn','control','option','command','','command','option','◀','▲▼','▶']];
+const KB=document.getElementById('kb');KB.style.gridTemplateRows='0.55fr 1fr 1fr 1fr 1fr 1fr';
+rows.forEach((r,ri)=>{const row=document.createElement('div');row.className='row';
+ r.forEach(k=>{const e=document.createElement('div');e.className='k'+((k.length>2||ri===0)?' s':'');e.textContent=k;
+  let g=1;if(['delete','tab','caps','return','shift'].includes(k))g=1.7;if(k==='command')g=1.35;if(k==='')g=5.2;e.style.flex=g;row.appendChild(e)});KB.appendChild(row)});
+// grain
+const gc=document.getElementById('grain'),gx=gc.getContext('2d'),gimg=gx.createImageData(540,960);
+function grain(seed){let s=seed*7919+104729;for(let i=0;i<gimg.data.length;i+=4){s=(s*9301+49297)%233280;const v=s/233280*255;gimg.data[i]=gimg.data[i+1]=gimg.data[i+2]=v;gimg.data[i+3]=255}gx.putImageData(gimg,0,0)}
+// bruit lisse non périodique pour la caméra à main levée
+function nz(t,s){return Math.sin(t*0.37+s)*.5+Math.sin(t*0.91+s*2.1)*.3+Math.sin(t*1.73+s*3.7)*.15+Math.sin(t*2.89+s*5.3)*.05}
+const ease=x=>x<=0?0:x>=1?1:x*x*(3-2*x);
+const easeIO=x=>x<=0?0:x>=1?1:(x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2);
+function render(t){
+ const p=t/DURATION;
+ const z=1.0+0.06*easeIO(p);
+ document.getElementById('cam').style.transform=`translate(${nz(t,1)*9}px,${nz(t,4)*7}px) rotate(${nz(t,7)*0.5}deg) scale(${z})`;
+ const on=ease(t/1.0);
+ document.getElementById('glow').style.opacity=on;
+ const I=document.getElementById('iri');I.style.opacity=.5*on;I.style.backgroundPosition=`${-p*100}% 0`;
+ // bouteille : un seul mouvement continu (monte, se rapproche, s'incline à peine)
+ const app=ease((t-0.5)/1.4), m=easeIO(Math.min(1,Math.max(0,(t-0.5)/9.0)));
+ const y=45-45*m, sc=0.86+0.12*m, rz=-2.4+3.6*m, ry=-9+12*m;
+ const Wr=document.getElementById('wrap');Wr.style.opacity=app;
+ Wr.style.transform=`translateY(${y}px) perspective(1200px) rotateY(${ry}deg) rotateZ(${rz}deg) scale(${sc})`;
+ document.getElementById('spec').style.backgroundPosition=`${100-130*easeIO(Math.min(1,Math.max(0,(t-1.2)/6.5)))}% 0`;
+ const S=document.getElementById('shadow');S.style.opacity=app*(0.95-0.4*m);S.style.transform=`scaleX(${0.95+0.1*m})`;
+ document.getElementById('glare').style.transform=`translateX(${-120+240*p}px)`;
+ const tx=ease((t-1.3)/0.6),T=document.getElementById('txt');T.style.opacity=tx;T.style.transform=`translateY(${(1-tx)*12}px)`;
+ document.getElementById('exp').style.opacity=0.10+0.05*nz(t*2,9);
+ document.getElementById('fade').style.opacity=1-ease(t/0.5);
+ grain(Math.floor(t*30)+3);
+}
+render(0);
+</script></body></html>

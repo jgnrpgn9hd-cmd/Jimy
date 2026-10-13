@@ -1,6 +1,6 @@
 # Nappe d'ambiance douce et chaude (9 s) pour le reel « écran portable ».
 import numpy as np, scipy.io.wavfile as wf
-SR=44100; D=9.0; t=np.arange(int(SR*D))/SR
+SR=44100; D=10.0; t=np.arange(int(SR*D))/SR
 def note(f): return 440*2**((f-69)/12)
 def pad(midis,start,dur,amp=.12):
     out=np.zeros_like(t); m=(t>=start)&(t<start+dur); tt=t[m]-start
