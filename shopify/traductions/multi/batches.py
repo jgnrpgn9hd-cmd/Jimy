@@ -1,10 +1,13 @@
 # Contrôle + découpage en lots translationsRegister pour une langue.
-# Usage : python3 batches.py <locale>   → écrit lots_<locale>_N.json (variables {r0,t0,...})
+# Usage : python3 batches.py <locale> [ids,séparés,par,virgules] [préfixe]   → écrit lots_<locale>_N.json (variables {r0,t0,...})
 import json, re, sys
 loc = sys.argv[1]
 src = {str(x["id"]): x for x in json.load(open("source.json"))}
 tr = json.load(open(f"{loc}.json"))
 skip = {"77"} if loc in ("es", "pt-PT") else set()
+only = set(sys.argv[2].split(",")) if len(sys.argv) > 2 else None
+if only: skip |= set(src) - only
+tag = sys.argv[3] if len(sys.argv) > 3 else loc
 errs = []
 for i, x in src.items():
     if i in skip: continue
@@ -33,5 +36,5 @@ for n, lot in enumerate(lots):
     v = {}
     for k, (rid, t) in enumerate(lot.items()):
         v[f"r{k}"] = rid; v[f"t{k}"] = t
-    json.dump(v, open(f"lots_{loc}_{n}.json", "w"), ensure_ascii=False)
+    json.dump(v, open(f"lots_{tag}_{n}.json", "w"), ensure_ascii=False)
     print(n, len(lot), len(json.dumps(v, ensure_ascii=False)))
