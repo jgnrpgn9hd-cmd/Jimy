@@ -38,8 +38,10 @@ Le paiement est exigible à la commande. Il s'effectue en ligne par les moyens p
 Les commandes sont expédiées depuis Paris, en un seul colis, avec Chronopost.
 
 - **France métropolitaine** : livraison à domicile en 3 jours environ, frais calculés selon le poids à partir de 9,01 €, offerts dès 80 € d'achat.
-- **Belgique** : Chronopost Classic, 2 à 3 jours ouvrés, à partir de 21,60 €.
-- **Espagne (hors Canaries, Ceuta et Melilla), Italie, Portugal** : Chronopost Classic, 2 à 3 jours ouvrés, à partir de 25,20 €.
+- **Belgique, Allemagne, Luxembourg, Pays-Bas** : Chronopost Classic, 2 à 3 jours ouvrés, à partir de 21,60 €.
+- **Espagne (hors Canaries, Ceuta et Melilla), Portugal, Italie, Autriche, Danemark, Finlande, Grèce, Irlande, Suède** : Chronopost Classic, 2 à 3 jours ouvrés, à partir de 25,20 €.
+- **Pologne, Tchéquie, Slovaquie, Hongrie, Roumanie, Bulgarie, Croatie, Slovénie, Estonie, Lettonie, Lituanie, Malte, Chypre** : Chronopost Classic, 3 à 5 jours ouvrés, à partir de 31,20 €.
+- **Suisse** : Chronopost Express, 1 à 3 jours ouvrés, à partir de 56,40 € ; droits de douane et TVA suisse à la charge du destinataire.
 
 Les délais sont donnés à titre indicatif à compter de l'expédition. En cas de retard important, le client peut contacter le vendeur. Si la commande n'est pas livrée dans un délai de 30 jours après la commande, le client peut annuler sa commande dans les conditions de l'article L.216-6 du Code de la consommation. Le détail figure dans notre politique d'expédition.
 
@@ -120,16 +122,22 @@ Toutes les commandes sont préparées et expédiées depuis Paris, en un seul co
 | Destination | Jusqu'à 1 kg | 1 à 3 kg | 3 à 10 kg | Délai |
 |---|---|---|---|---|
 | France métropolitaine | 9,01 € | 10,28 € à 11,86 € | 11,86 € à 14,48 € | 3 jours, offerte dès 80 € |
-| Belgique | 21,60 € | 27,60 € | 45,60 € | 2 à 3 jours ouvrés |
-| Espagne, Italie, Portugal | 25,20 € | 31,20 € | 49,20 € | 2 à 3 jours ouvrés |
+| Belgique, Allemagne, Luxembourg, Pays-Bas | 21,60 € | 27,60 € | 45,60 € | 2 à 3 jours ouvrés |
+| Espagne (hors Canaries, Ceuta et Melilla), Portugal, Italie, Autriche, Danemark, Finlande, Grèce, Irlande, Suède | 25,20 € | 31,20 € | 49,20 € | 2 à 3 jours ouvrés |
+| Pologne, Tchéquie, Slovaquie, Hongrie, Roumanie, Bulgarie, Croatie, Slovénie, Estonie, Lettonie, Lituanie, Malte, Chypre | 31,20 € | 37,20 € | 60,00 € | 3 à 5 jours ouvrés |
+| Suisse (Chronopost Express) | 56,40 € | 80,40 € | 156,00 € | 1 à 3 jours ouvrés |
 
 À titre indicatif, une bouteille de 500 ml pèse environ 750 g et le coffret dégustation environ 2,25 kg. Les frais exacts s'affichent au moment du paiement.
 
-En France, les commandes de plus de 10 kg sont livrées à 20,48 € jusqu'à 20 kg et 26,86 € jusqu'à 30 kg. Vers la Belgique, l'Espagne, l'Italie et le Portugal, les commandes sont limitées à 10 kg : pour une commande plus importante, écrivez-nous.
+En France, les commandes de plus de 10 kg sont livrées à 20,48 € jusqu'à 20 kg et 26,86 € jusqu'à 30 kg. Hors de France, les commandes sont limitées à 10 kg : pour une commande plus importante, écrivez-nous. La livraison offerte dès 80 € concerne uniquement la France.
+
+## Suisse
+
+La Suisse est hors Union européenne : les droits de douane et la TVA suisse éventuels sont facturés au destinataire à la livraison, en plus des frais de port.
 
 ## Zones non desservies
 
-Nous ne livrons pas pour le moment les îles Canaries, Ceuta et Melilla, ni les départements et territoires d'outre-mer.
+Nous ne livrons pas pour le moment les îles Canaries, Ceuta et Melilla, les départements et territoires d'outre-mer, le Royaume-Uni, la Norvège ni les pays hors Europe.
 
 ## Suivi
 

@@ -1,0 +1,90 @@
+{
+ "taux_2026_10_16": {
+  "CHF": 0.92883419,
+  "SEK": 11.15631187,
+  "DKK": 7.47521518,
+  "PLN": 4.36995571,
+  "CZK": 24.34436493,
+  "HUF": 363.8922517,
+  "RON": 5.33455319
+ },
+ "prix": [
+  {
+   "produit": "Arbequina 500 ml",
+   "EUR": 14,
+   "CHF": 13.9,
+   "SEK": 159,
+   "DKK": 109,
+   "PLN": 62.99,
+   "CZK": 349,
+   "HUF": 5190,
+   "RON": 76.99
+  },
+  {
+   "produit": "Arbequina première récolte 500 ml",
+   "EUR": 23,
+   "CHF": 21.9,
+   "SEK": 259,
+   "DKK": 179,
+   "PLN": 102.99,
+   "CZK": 569,
+   "HUF": 8590,
+   "RON": 125.99
+  },
+  {
+   "produit": "Coupage 500 ml",
+   "EUR": 13,
+   "CHF": 12.9,
+   "SEK": 149,
+   "DKK": 99,
+   "PLN": 57.99,
+   "CZK": 329,
+   "HUF": 4890,
+   "RON": 70.99
+  },
+  {
+   "produit": "Coffret dégustation (3 huiles)",
+   "EUR": 42,
+   "CHF": 39.9,
+   "SEK": 479,
+   "DKK": 319,
+   "PLN": 187.99,
+   "CZK": 1049,
+   "HUF": 15690,
+   "RON": 229.99
+  },
+  {
+   "produit": "Arbequina écologique 1 L",
+   "EUR": 12,
+   "CHF": 11.9,
+   "SEK": 139,
+   "DKK": 89,
+   "PLN": 53.99,
+   "CZK": 299,
+   "HUF": 4490,
+   "RON": 65.99
+  }
+ ],
+ "livraison_eur": {
+  "Zone 1 (BE, DE, LU, NL)": [
+   21.6,
+   27.6,
+   45.6
+  ],
+  "Zone 2 (ES, PT, IT, AT, DK, FI, GR, IE, SE)": [
+   25.2,
+   31.2,
+   49.2
+  ],
+  "Zone 3 (PL, CZ, SK, HU, RO, BG, HR, SI, Baltes, MT, CY)": [
+   31.2,
+   37.2,
+   60.0
+  ],
+  "Suisse (Chrono Express)": [
+   56.4,
+   80.4,
+   156.0
+  ]
+ }
+}

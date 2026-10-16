@@ -28,6 +28,34 @@
       <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
+      <g:country>BE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>DE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LU</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>NL</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
       <g:country>ES</g:country>
       <g:service>Chrono Classic</g:service>
       <g:price>25.20 EUR</g:price>
@@ -42,18 +70,144 @@
       <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
-      <g:country>BE</g:country>
-      <g:service>Chrono Classic</g:service>
-      <g:price>21.60 EUR</g:price>
-      <g:min_transit_time>2</g:min_transit_time>
-      <g:max_transit_time>3</g:max_transit_time>
-    </g:shipping>
-    <g:shipping>
       <g:country>IT</g:country>
       <g:service>Chrono Classic</g:service>
       <g:price>25.20 EUR</g:price>
       <g:min_transit_time>2</g:min_transit_time>
       <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>AT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>DK</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>FI</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>GR</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>IE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>PL</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>CZ</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SK</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>HU</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>RO</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>BG</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>HR</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SI</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>EE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LV</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>MT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>CY</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
     </g:shipping>
   </item>
   <item>
@@ -81,6 +235,34 @@
       <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
+      <g:country>BE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>DE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LU</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>NL</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
       <g:country>ES</g:country>
       <g:service>Chrono Classic</g:service>
       <g:price>25.20 EUR</g:price>
@@ -95,18 +277,144 @@
       <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
-      <g:country>BE</g:country>
-      <g:service>Chrono Classic</g:service>
-      <g:price>21.60 EUR</g:price>
-      <g:min_transit_time>2</g:min_transit_time>
-      <g:max_transit_time>3</g:max_transit_time>
-    </g:shipping>
-    <g:shipping>
       <g:country>IT</g:country>
       <g:service>Chrono Classic</g:service>
       <g:price>25.20 EUR</g:price>
       <g:min_transit_time>2</g:min_transit_time>
       <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>AT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>DK</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>FI</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>GR</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>IE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>PL</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>CZ</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SK</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>HU</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>RO</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>BG</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>HR</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SI</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>EE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LV</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>MT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>CY</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
     </g:shipping>
   </item>
   <item>
@@ -133,6 +441,34 @@
       <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
+      <g:country>BE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>DE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LU</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>NL</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>21.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
       <g:country>ES</g:country>
       <g:service>Chrono Classic</g:service>
       <g:price>25.20 EUR</g:price>
@@ -147,18 +483,144 @@
       <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
-      <g:country>BE</g:country>
-      <g:service>Chrono Classic</g:service>
-      <g:price>21.60 EUR</g:price>
-      <g:min_transit_time>2</g:min_transit_time>
-      <g:max_transit_time>3</g:max_transit_time>
-    </g:shipping>
-    <g:shipping>
       <g:country>IT</g:country>
       <g:service>Chrono Classic</g:service>
       <g:price>25.20 EUR</g:price>
       <g:min_transit_time>2</g:min_transit_time>
       <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>AT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>DK</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>FI</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>GR</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>IE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>25.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>PL</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>CZ</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SK</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>HU</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>RO</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>BG</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>HR</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SI</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>EE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LV</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>MT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>CY</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
     </g:shipping>
   </item>
   <item>
@@ -185,6 +647,34 @@
       <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
+      <g:country>BE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>27.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>DE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>27.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LU</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>27.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>NL</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>27.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
       <g:country>ES</g:country>
       <g:service>Chrono Classic</g:service>
       <g:price>31.20 EUR</g:price>
@@ -199,18 +689,144 @@
       <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
-      <g:country>BE</g:country>
-      <g:service>Chrono Classic</g:service>
-      <g:price>27.60 EUR</g:price>
-      <g:min_transit_time>2</g:min_transit_time>
-      <g:max_transit_time>3</g:max_transit_time>
-    </g:shipping>
-    <g:shipping>
       <g:country>IT</g:country>
       <g:service>Chrono Classic</g:service>
       <g:price>31.20 EUR</g:price>
       <g:min_transit_time>2</g:min_transit_time>
       <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>AT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>DK</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>FI</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>GR</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>IE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>PL</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>CZ</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SK</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>HU</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>RO</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>BG</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>HR</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SI</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>EE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LV</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>MT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>CY</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
     </g:shipping>
   </item>
   <item>
@@ -237,6 +853,34 @@
       <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
+      <g:country>BE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>27.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>DE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>27.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LU</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>27.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>NL</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>27.60 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
       <g:country>ES</g:country>
       <g:service>Chrono Classic</g:service>
       <g:price>31.20 EUR</g:price>
@@ -251,18 +895,144 @@
       <g:max_transit_time>3</g:max_transit_time>
     </g:shipping>
     <g:shipping>
-      <g:country>BE</g:country>
-      <g:service>Chrono Classic</g:service>
-      <g:price>27.60 EUR</g:price>
-      <g:min_transit_time>2</g:min_transit_time>
-      <g:max_transit_time>3</g:max_transit_time>
-    </g:shipping>
-    <g:shipping>
       <g:country>IT</g:country>
       <g:service>Chrono Classic</g:service>
       <g:price>31.20 EUR</g:price>
       <g:min_transit_time>2</g:min_transit_time>
       <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>AT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>DK</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>FI</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>GR</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>IE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>31.20 EUR</g:price>
+      <g:min_transit_time>2</g:min_transit_time>
+      <g:max_transit_time>3</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>PL</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>CZ</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SK</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>HU</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>RO</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>BG</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>HR</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>SI</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>EE</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LV</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>LT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>MT</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
+    </g:shipping>
+    <g:shipping>
+      <g:country>CY</g:country>
+      <g:service>Chrono Classic</g:service>
+      <g:price>37.20 EUR</g:price>
+      <g:min_transit_time>3</g:min_transit_time>
+      <g:max_transit_time>5</g:max_transit_time>
     </g:shipping>
   </item>
 </channel>
