@@ -22,7 +22,7 @@ HT 26 / 31 / 50 → client 31,20 / 37,20 / 60,00 €.
 ## Suisse — Chronopost Express International, 1 à 3 jours ouvrés
 HT 47 / 67 / 130 → client 56,40 / 80,40 / 156,00 € (convertis en CHF par Shopify).
 Hors UE : droits de douane + TVA suisse (2,6 % alimentaire) payés par le destinataire à la livraison. Facture commerciale obligatoire dans le colis.
-Pas de Classic vers la Suisse (Chronopost Classic n'y va pas en mono-colis) : c'est cher, d'où un prix produit en CHF arrondi bas.
+Express choisi pour la Suisse : c'est cher, d'où un prix produit en CHF arrondi bas.
 
 ## Non desservis
 Royaume-Uni (TVA britannique à collecter dès la 1re vente ≤ 135 £), Norvège (enregistrement VOEC), Canaries, Ceuta, Melilla, DOM-TOM, hors Europe.
