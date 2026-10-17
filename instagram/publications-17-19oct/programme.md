@@ -7,7 +7,7 @@ Aucun prix produit dans les textes.
 | Heure | Type | Fichier |
 |---|---|---|
 | 19 h 30 | Story | 1_samedi_story.jpg (ajouter un sticker lien → jimenez-shop.com) |
-| 20 h | Reel | 1_samedi_reel.mp4 (sans musique : en choisir une dans Instagram si tu veux) |
+| 20 h | Reel | 1_samedi_reel.mp4 (sans musique) |
 | 21 h 30 | Photo | 1_samedi_photo.jpg |
 
 **Reel :**

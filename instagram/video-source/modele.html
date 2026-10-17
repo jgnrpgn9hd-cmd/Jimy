@@ -1,0 +1,47 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><link href="fonts/fonts.css" rel="stylesheet"><style>
+@font-face{font-family:"ISerif";font-style:italic;src:url(fonts/instrument-serif-italic.woff2) format("woff2");font-display:block}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#1F241C;overflow:hidden}
+#v{position:relative;overflow:hidden;background:#1F241C}
+#ph{position:absolute;left:0;top:0;right:0;overflow:hidden;background:#E6DDCE}
+#ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform-origin:50% 50%}
+#band{position:absolute;left:0;right:0;bottom:0;background:#1F241C}
+.t{position:absolute;left:64px;right:300px;font-family:"Instrument Sans";font-weight:500;text-transform:uppercase;color:#F6F1E7;letter-spacing:-2px;line-height:1}
+.t i{display:block;font-family:"ISerif";font-style:italic;font-weight:400;text-transform:none;color:#A88B57;letter-spacing:-1px;line-height:1.02}
+.t span{display:block}
+#logo{position:absolute;right:44px}
+#url{position:absolute;left:64px;font-family:"Instrument Sans";font-weight:600;font-size:24px;letter-spacing:3px;text-transform:uppercase;color:#cfc6b3}
+</style></head><body><div id="v"><div id="ph"></div><div id="band"></div><img id="logo" src="img/logo_cream.png"><div id="url"></div></div>
+<script>
+let C;
+const ease=x=>x<=0?0:x>=1?1:x*x*(3-2*x);
+const eo=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+// C = {w,h,band, size1,size2, url, shots:[{img,pos,l1,l2,dur,z0,z1}]}
+function setup(cfg){C=cfg;const v=document.getElementById('v');v.style.width=C.w+'px';v.style.height=C.h+'px';
+ document.getElementById('ph').style.height=(C.h-C.band)+'px';document.getElementById('band').style.height=C.band+'px';
+ const L=document.getElementById('logo');L.style.height=(C.logo||110)+'px';L.style.bottom=(C.logoBottom||44)+'px';
+ const U=document.getElementById('url');U.textContent=C.url||'';U.style.bottom=(C.urlBottom||60)+'px';
+ const ph=document.getElementById('ph');let t0=0;
+ C.shots.forEach((s,k)=>{s.t0=t0;t0+=s.dur||0;const im=document.createElement('img');im.src=s.img;im.style.objectPosition=s.pos||'50% 50%';ph.appendChild(im);s.im=im;
+  const tx=document.createElement('div');tx.className='t';tx.style.top=(C.h-C.band+(C.top||62))+'px';tx.style.right=(C.right||300)+'px';
+  tx.innerHTML=`<span style="font-size:${C.size1}px">${s.l1}</span><i style="font-size:${C.size2}px">${s.l2}</i>`;document.getElementById('v').appendChild(tx);s.tx=tx});
+ C.D=t0;return [C.w,C.h]}
+function render(t){
+ const n=C.shots.length;
+ C.shots.forEach((s,k)=>{
+  const u=t-s.t0, d=s.dur||1, last=k===n-1;
+  // photo : fondu enchaîné 0,5 s + lent zoom
+  const vis=k===0?1:ease(u/0.5);const out=last?1:1-0*(u>d);
+  s.im.style.opacity=(u<0&&k>0)?0:vis;s.im.style.zIndex=k;
+  const zp=Math.max(0,Math.min(1,(u+ (k>0?0.5:0))/(d+0.5)));
+  s.im.style.transform=`scale(${(s.z0||1.0)+((s.z1||1.07)-(s.z0||1.0))*zp})`;
+  // texte : entrée en glissant, sortie en fondu
+  const sp=s.tx.children;const a=eo((u-0.25)/0.6),b=eo((u-0.42)/0.6);
+  const fade=last?1:1-ease((u-(d-0.35))/0.3);
+  sp[0].style.opacity=a*fade;sp[0].style.transform=`translateY(${(1-a)*40}px)`;
+  sp[1].style.opacity=b*fade;sp[1].style.transform=`translateY(${(1-b)*40}px)`;
+  if(u<0){sp[0].style.opacity=0;sp[1].style.opacity=0}
+ });
+ const T=C.D||1;document.getElementById('url').style.opacity=C.urlAt==null?1:ease((t-C.urlAt)/0.6);
+}
+</script></body></html>
