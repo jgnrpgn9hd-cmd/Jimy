@@ -1,18 +1,19 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8"><link href="fonts/fonts.css" rel="stylesheet"><style>
-@font-face{font-family:"Archivo Black";src:url(fonts/archivo-black.woff2) format("woff2");font-display:block}
+@font-face{font-family:"ISerif";font-style:italic;src:url(fonts/instrument-serif-italic.woff2) format("woff2");font-display:block}
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:1080px;height:1920px;overflow:hidden;background:#0b0905}
-:root{--dk:#271f12;--dk2:#1d170c;--gold:#e3ad2f;--och:#d99c26;--ol:#6b7a1e;--ink:#2a1e0e}
+:root{--dk:#1F241C;--dk2:#1F241C;--gold:#F6F1E7;--och:#EFE8DB;--ol:#4B523C;--ink:#1F241C;--brass:#A88B57;--sand:#E6DDCE}
 #cam{position:absolute;left:-40px;top:-60px;width:1160px;height:2040px;overflow:hidden;transform-origin:50% 50%}
 #page{position:absolute;left:40px;top:60px;width:1080px}
 .sec{position:relative;width:1080px;overflow:hidden}
-.H{font-family:"Archivo Black";text-transform:uppercase;line-height:.92;letter-spacing:-1px}
+.H{font-family:"Instrument Sans";font-weight:500;text-transform:uppercase;line-height:.95;letter-spacing:-2px}
+.it{font-family:"ISerif";font-style:italic;font-weight:400;text-transform:none;letter-spacing:-1px;color:var(--brass)}
 .s{font-family:"Instrument Sans";font-weight:600;text-transform:uppercase;font-size:17px;line-height:1.45;letter-spacing:.5px}
 .pill{display:inline-block;font-family:"Instrument Sans";font-weight:700;font-size:20px;text-transform:uppercase;letter-spacing:1px;padding:16px 34px;border-radius:40px}
-.leaf{background-color:var(--ol);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cg fill='%2357651a'%3E%3Cpath d='M20 60c40-40 90-40 120-20-40 30-90 40-120 20z'/%3E%3Cpath d='M120 170c30-50 70-60 95-55-25 40-65 60-95 55z'/%3E%3Cpath d='M150 30c10 30 0 60-25 80-10-30 0-60 25-80z'/%3E%3Cpath d='M30 150c25 10 40 35 40 65-25-10-40-35-40-65z'/%3E%3C/g%3E%3C/svg%3E");background-size:260px 260px}
+.leaf{background-color:var(--ol);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cg fill='%23434a35'%3E%3Cpath d='M20 60c40-40 90-40 120-20-40 30-90 40-120 20z'/%3E%3Cpath d='M120 170c30-50 70-60 95-55-25 40-65 60-95 55z'/%3E%3Cpath d='M150 30c10 30 0 60-25 80-10-30 0-60 25-80z'/%3E%3Cpath d='M30 150c25 10 40 35 40 65-25-10-40-35-40-65z'/%3E%3C/g%3E%3C/svg%3E");background-size:260px 260px}
 .card{position:absolute;box-shadow:0 30px 60px rgba(0,0,0,.35);overflow:hidden}
 .card img{width:100%;height:100%;object-fit:cover;display:block}
-.num{display:inline-flex;width:42px;height:42px;border-radius:50%;background:var(--ink);color:var(--gold);align-items:center;justify-content:center;font-family:"Archivo Black";font-size:18px;margin-right:14px;vertical-align:middle}
+.num{display:inline-flex;width:42px;height:42px;border-radius:50%;background:var(--brass);color:#F6F1E7;align-items:center;justify-content:center;font-family:"Instrument Sans";font-weight:700;font-size:16px;margin-right:14px;vertical-align:middle}
 #grain{position:absolute;inset:0;pointer-events:none;opacity:.07;mix-blend-mode:overlay}
 #vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(115% 80% at 50% 48%,transparent 52%,rgba(0,0,0,.55) 100%)}
 #glare{position:absolute;inset:0;pointer-events:none;background:linear-gradient(120deg,transparent 30%,rgba(255,240,210,.06) 45%,transparent 60%)}
@@ -23,22 +24,22 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#0b0905}
 <!-- 1. ACCUEIL -->
 <section class="sec" style="height:1920px;background:var(--dk)">
  <div style="position:absolute;left:56px;top:54px;right:56px;display:flex;align-items:center;justify-content:space-between">
-  <div class="H" style="font-size:40px;color:var(--gold);letter-spacing:0">JIMÉNEZ</div>
-  <div class="s" style="color:#cdb98c;font-size:16px;display:flex;gap:34px"><span>Boutique</span><span>Notre huile</span><span>Contact</span></div>
+  <img src="img/logo_cream.png" style="height:90px;margin:-20px 0 -20px -10px">
+  <div class="s" style="color:#cfc6b3;font-size:16px;display:flex;gap:34px"><span>Boutique</span><span>Notre huile</span><span>Contact</span></div>
  </div>
- <div class="H rv" style="position:absolute;left:0;right:0;top:710px;text-align:center;font-size:116px;color:var(--gold)">L'or vert<br>d'Andalousie</div>
- <img id="heroB" src="cut/bottle_arbequina.png" style="position:absolute;left:50%;top:470px;height:820px;margin-left:-143px;filter:drop-shadow(0 50px 50px rgba(0,0,0,.55))">
- <div class="s" style="position:absolute;left:56px;bottom:120px;color:#cdb98c;width:420px">Huile d'olive vierge extra<br>récolte précoce · pressée à froid</div>
- <div class="pill" style="position:absolute;right:56px;bottom:120px;background:var(--gold);color:var(--ink)">Découvrir</div>
+ <div class="H rv" style="position:absolute;left:0;right:0;top:690px;text-align:center;font-size:150px;color:var(--gold)">L'or vert<br><span class="it">d'Andalousie</span></div>
+ <img id="heroB" src="cut/bottle_arbequina.png" style="position:absolute;left:50%;top:560px;height:720px;margin-left:60px;filter:drop-shadow(0 50px 50px rgba(0,0,0,.55))">
+ <div class="s" style="position:absolute;left:56px;bottom:120px;color:#cfc6b3;width:420px">Huile d'olive vierge extra<br>récolte précoce · pressée à froid</div>
+ <div class="pill" style="position:absolute;right:56px;bottom:120px;background:#F6F1E7;color:#1F241C">Découvrir</div>
 </section>
 
 <!-- 2. CE QU'IL Y A DEDANS -->
 <section class="sec" style="height:1320px;background:var(--dk2);display:flex">
  <div style="width:540px;position:relative">
-  <div class="H rv" style="position:absolute;left:56px;top:150px;font-size:96px;color:var(--gold)">Ce qu'il y a<br><span style="color:#8a6b22">dedans</span></div>
-  <div style="position:absolute;left:56px;right:40px;top:420px;border-top:3px dotted #6b5320"></div>
-  <div class="s rv" style="position:absolute;left:56px;top:470px;width:420px;color:#cdb98c">Une seule chose : le jus d'olives andalouses cueillies tôt, pressées à froid quelques heures après la récolte.</div>
-  <div class="s rv" style="position:absolute;left:56px;top:700px;width:420px;color:#cdb98c"><span class="num">01</span>Arbequina, Hojiblanca, Picual<br><br><span class="num">02</span>Vierge extra<br><br><span class="num">03</span>Rien d'autre</div>
+  <div class="H rv" style="position:absolute;left:56px;top:150px;font-size:96px;color:var(--gold)">Ce qu'il<br>y a <span class="it">dedans</span></div>
+  <div style="position:absolute;left:56px;right:40px;top:420px;border-top:2px dotted #A88B57"></div>
+  <div class="s rv" style="position:absolute;left:56px;top:470px;width:420px;color:#cfc6b3">Une seule chose : le jus d'olives andalouses cueillies tôt, pressées à froid quelques heures après la récolte.</div>
+  <div class="s rv" style="position:absolute;left:56px;top:700px;width:420px;color:#cfc6b3"><span class="num">01</span>Arbequina, Hojiblanca, Picual<br><br><span class="num">02</span>Vierge extra<br><br><span class="num">03</span>Rien d'autre</div>
  </div>
  <div class="leaf" style="width:540px;position:relative">
   <img class="par" data-k="-.18" src="cut/n_ceramic.png" style="position:absolute;left:30px;top:240px;width:480px;filter:drop-shadow(0 40px 40px rgba(0,0,0,.45))">
@@ -48,8 +49,8 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#0b0905}
 <!-- 3. ZÉRO ADDITIF -->
 <section class="sec" style="height:1300px;background:var(--dk2);display:flex">
  <div style="width:540px;position:relative">
-  <div class="H rv" style="position:absolute;left:56px;top:120px;font-size:62px;color:var(--gold)">Zéro additif.<br>Zéro raccourci.</div>
-  <div class="H rv" style="position:absolute;left:56px;bottom:110px;font-size:96px;color:var(--gold)">Fruitée<br><span style="color:#8a6b22">ronde</span><br>vive</div>
+  <div class="H rv" style="position:absolute;left:56px;top:120px;font-size:72px;color:var(--gold)">Zéro additif.<br><span class="it">Zéro raccourci.</span></div>
+  <div class="H rv" style="position:absolute;left:56px;bottom:110px;font-size:96px;color:var(--gold)">Fruitée<br><span class="it">ronde</span><br>vive</div>
  </div>
  <div class="leaf" style="width:540px;position:relative">
   <img class="par" data-k="-.22" src="cut/new_tins.png" style="position:absolute;right:-60px;top:160px;width:820px;filter:drop-shadow(0 40px 40px rgba(0,0,0,.45))">
@@ -58,7 +59,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#0b0905}
 
 <!-- 4. DE L'ARBRE À LA TABLE -->
 <section class="sec" style="height:2200px;background:var(--och)">
- <div class="H rv" style="position:absolute;left:56px;top:150px;font-size:90px;color:var(--ink)">De l'arbre<br>à votre<br>table</div>
+ <div class="H rv" style="position:absolute;left:56px;top:150px;font-size:108px;color:var(--ink)">De l'arbre<br>à votre<br><span class="it">table</span></div>
  <div class="card par" data-k="-.12" style="left:660px;top:130px;width:370px;height:300px;transform:rotate(4deg)"><img src="hq/aerial.jpg"></div>
  <div class="s rv" style="position:absolute;left:56px;top:700px;width:460px;color:var(--ink)"><span class="num">01</span>Cueillie tôt, au bon moment</div>
  <div class="card par" data-k="-.2" style="left:60px;top:830px;width:520px;height:600px;transform:rotate(-3deg)"><img src="hq/mist.jpg"></div>
@@ -70,7 +71,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#0b0905}
 <!-- 5. POURQUOI LA RÉCOLTE COMPTE -->
 <section class="sec" style="height:1450px;background:var(--och)">
  <div class="H rv" style="position:absolute;left:0;right:0;top:40px;text-align:center;font-size:100px;color:var(--ink)">Pourquoi la<br><span style="position:relative;display:inline-block">récolte
-  <svg id="scr" viewBox="0 0 600 60" style="position:absolute;left:-20px;bottom:-30px;width:110%;height:60px" preserveAspectRatio="none"><path id="scrp" d="M5 40 C120 10 250 50 360 25 S540 20 595 30" fill="none" stroke="#6b7a1e" stroke-width="16" stroke-linecap="round"/></svg></span><br>compte</div>
+  <svg id="scr" viewBox="0 0 600 60" style="position:absolute;left:-20px;bottom:-30px;width:110%;height:60px" preserveAspectRatio="none"><path id="scrp" d="M5 40 C120 10 250 50 360 25 S540 20 595 30" fill="none" stroke="#A88B57" stroke-width="16" stroke-linecap="round"/></svg></span><br>compte</div>
  <div class="s" style="position:absolute;left:0;right:0;top:420px;text-align:center;color:var(--ink)">Plus de goût, plus de fraîcheur, plus de caractère.</div>
  <div style="position:absolute;left:40px;right:40px;top:560px;display:flex;gap:24px">
   <div style="flex:1"><div class="s" style="color:var(--ink);height:120px">Récolte précoce<br>des olives encore vertes</div><div class="card rv" style="position:relative;height:520px"><img src="hq/bottle.jpg"></div></div>
@@ -83,18 +84,18 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#0b0905}
 <section class="sec leaf" style="height:1700px">
  <img class="par" data-k="-.25" src="cut/n_trio.png" style="position:absolute;left:-60px;top:80px;height:1100px;transform:rotate(-14deg);filter:drop-shadow(0 50px 50px rgba(0,0,0,.45))">
  <img class="par" data-k="-.1" src="cut/new_eco.png" style="position:absolute;right:10px;top:780px;width:620px;transform:rotate(-4deg);filter:drop-shadow(0 50px 50px rgba(0,0,0,.45))">
- <div class="H rv" style="position:absolute;left:40px;bottom:170px;font-size:128px;color:var(--gold);text-shadow:0 8px 30px rgba(0,0,0,.35)">Goûtez<br>l'Andalousie</div>
- <div class="pill" style="position:absolute;left:40px;bottom:70px;background:var(--gold);color:var(--ink)">Voir la boutique</div>
+ <div class="H rv" style="position:absolute;left:40px;bottom:170px;font-size:128px;color:var(--gold);text-shadow:0 8px 30px rgba(0,0,0,.35)">Goûtez<br><span class="it" style="color:#F6F1E7">l'Andalousie</span></div>
+ <div class="pill" style="position:absolute;left:40px;bottom:70px;background:#F6F1E7;color:#1F241C">Voir la boutique</div>
 </section>
 
 <!-- 7. À TABLE -->
 <section class="sec" style="height:1550px;background:var(--dk)">
- <div class="H rv" style="position:absolute;left:0;right:0;top:150px;text-align:center;font-size:150px;color:var(--gold)">Passez<br>à table</div>
- <div style="position:absolute;left:0;right:0;top:500px;text-align:center"><span class="pill" style="background:var(--gold);color:var(--ink);font-size:17px;padding:12px 28px">Toute la gamme</span></div>
+ <div class="H rv" style="position:absolute;left:0;right:0;top:150px;text-align:center;font-size:150px;color:var(--gold)">Passez<br><span class="it">à table</span></div>
+ <div style="position:absolute;left:0;right:0;top:500px;text-align:center"><span class="pill" style="background:#F6F1E7;color:#1F241C;font-size:17px;padding:12px 28px">Toute la gamme</span></div>
  <div style="position:absolute;left:30px;right:30px;top:640px;display:flex;gap:20px">
-  <div style="flex:1;background:#d99c26;padding:14px;border-radius:6px" class="rv"><div style="height:420px;overflow:hidden"><img src="hq/n_arbequina.jpg" style="width:100%;height:100%;object-fit:cover"></div><div class="s" style="margin-top:14px"><span style="background:var(--ink);color:var(--gold);padding:3px 10px;border-radius:12px;font-size:13px">Fruitée</span></div><div class="H" style="font-size:30px;margin-top:12px;color:var(--ink)">Arbequina</div></div>
-  <div style="flex:1;background:#d99c26;padding:14px;border-radius:6px" class="rv"><div style="height:420px;overflow:hidden"><img src="hq/n_coupage.jpg" style="width:100%;height:100%;object-fit:cover"></div><div class="s" style="margin-top:14px"><span style="background:var(--ink);color:var(--gold);padding:3px 10px;border-radius:12px;font-size:13px">Ronde</span></div><div class="H" style="font-size:30px;margin-top:12px;color:var(--ink)">Coupage</div></div>
-  <div style="flex:1;background:#d99c26;padding:14px;border-radius:6px" class="rv"><div style="height:420px;overflow:hidden"><img src="hq/new_box.jpg" style="width:100%;height:100%;object-fit:cover"></div><div class="s" style="margin-top:14px"><span style="background:var(--ink);color:var(--gold);padding:3px 10px;border-radius:12px;font-size:13px">À offrir</span></div><div class="H" style="font-size:30px;margin-top:12px;color:var(--ink)">Coffret</div></div>
+  <div style="flex:1;background:var(--sand);padding:14px;border-radius:6px" class="rv"><div style="height:420px;overflow:hidden"><img src="hq/n_arbequina.jpg" style="width:100%;height:100%;object-fit:cover"></div><div class="s" style="margin-top:14px"><span style="background:var(--ink);color:var(--gold);padding:3px 10px;border-radius:12px;font-size:13px">Fruitée</span></div><div class="H" style="font-size:30px;margin-top:12px;color:var(--ink)">Arbequina</div></div>
+  <div style="flex:1;background:var(--sand);padding:14px;border-radius:6px" class="rv"><div style="height:420px;overflow:hidden"><img src="hq/n_coupage.jpg" style="width:100%;height:100%;object-fit:cover"></div><div class="s" style="margin-top:14px"><span style="background:var(--ink);color:var(--gold);padding:3px 10px;border-radius:12px;font-size:13px">Ronde</span></div><div class="H" style="font-size:30px;margin-top:12px;color:var(--ink)">Coupage</div></div>
+  <div style="flex:1;background:var(--sand);padding:14px;border-radius:6px" class="rv"><div style="height:420px;overflow:hidden"><img src="hq/new_box.jpg" style="width:100%;height:100%;object-fit:cover"></div><div class="s" style="margin-top:14px"><span style="background:var(--ink);color:var(--gold);padding:3px 10px;border-radius:12px;font-size:13px">À offrir</span></div><div class="H" style="font-size:30px;margin-top:12px;color:var(--ink)">Coffret</div></div>
  </div>
 </section>
 
@@ -111,7 +112,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#0b0905}
 </section>
 <section class="sec" style="height:900px;background:var(--dk)">
  <div class="H" id="big" style="position:absolute;left:0;right:0;top:150px;text-align:center;font-size:232px;color:var(--gold);letter-spacing:-4px">JIMÉNEZ</div>
- <div class="s" style="position:absolute;left:0;right:0;top:470px;text-align:center;color:#cdb98c">Huiles d'olive d'Andalousie · @jimenez_shop_fr</div>
+ <div class="s" style="position:absolute;left:0;right:0;top:470px;text-align:center;color:#cfc6b3">Huiles d'olive d'Andalousie · @jimenez_shop_fr</div>
 </section>
 
 </div></div>
