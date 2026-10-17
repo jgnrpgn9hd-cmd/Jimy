@@ -36,7 +36,7 @@ function render(t){
   const zp=Math.max(0,Math.min(1,(u+ (k>0?0.5:0))/(d+0.5)));
   s.im.style.transform=`scale(${(s.z0||1.0)+((s.z1||1.07)-(s.z0||1.0))*zp})`;
   // texte : entrée en glissant, sortie en fondu
-  const sp=s.tx.children;const a=eo((u-0.25)/0.6),b=eo((u-0.42)/0.6);
+  const dl=C.delay||0.25;const sp=s.tx.children;const a=eo((u-dl)/0.7),b=eo((u-dl-0.25)/0.7);
   const fade=last?1:1-ease((u-(d-0.35))/0.3);
   sp[0].style.opacity=a*fade;sp[0].style.transform=`translateY(${(1-a)*40}px)`;
   sp[1].style.opacity=b*fade;sp[1].style.transform=`translateY(${(1-b)*40}px)`;

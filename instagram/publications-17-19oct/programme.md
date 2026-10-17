@@ -6,7 +6,7 @@ Aucun prix produit dans les textes.
 ## Samedi 17 (ce soir)
 | Heure | Type | Fichier |
 |---|---|---|
-| 19 h 30 | Story | 1_samedi_story.jpg (ajouter un sticker lien → jimenez-shop.com) |
+| 19 h 30 | Story | 1_samedi_story.mp4 (ajouter un sticker lien → jimenez-shop.com) |
 | 20 h | Reel | 1_samedi_reel.mp4 (sans musique) |
 | 21 h 30 | Photo | 1_samedi_photo.jpg |
 
@@ -29,7 +29,7 @@ Notre huile d'olive vierge extra écologique, dans sa bouteille de verre vert. F
 ## Dimanche 18
 | Heure | Type | Fichier |
 |---|---|---|
-| 10 h | Story | 2_dimanche_story.jpg (sticker lien) |
+| 10 h | Story | 2_dimanche_story.mp4 (sticker lien) |
 | 12 h | Reel | 2_dimanche_reel.mp4 |
 | 18 h | Photo | 2_dimanche_photo.jpg |
 
@@ -50,7 +50,7 @@ Lien en bio
 ## Lundi 19
 | Heure | Type | Fichier |
 |---|---|---|
-| 8 h | Story | 3_lundi_story.jpg (sticker lien) |
+| 8 h | Story | 3_lundi_story.mp4 (sticker lien) |
 | 12 h 30 | Photo | 3_lundi_photo.jpg |
 | 19 h | Reel | 3_lundi_reel.mp4 |
 
