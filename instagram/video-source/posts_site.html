@@ -1,0 +1,52 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><link href="fonts/fonts.css" rel="stylesheet"><style>
+@font-face{font-family:"ISerif";font-style:italic;src:url(fonts/instrument-serif-italic.woff2) format("woff2");font-display:block}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#1F241C;overflow:hidden}
+.H{font-family:"Instrument Sans";font-weight:500;text-transform:uppercase;line-height:.95;letter-spacing:-2px}
+.it{font-family:"ISerif";font-style:italic;font-weight:400;text-transform:none;letter-spacing:-1px;color:#A88B57}
+.s{font-family:"Instrument Sans";font-weight:600;text-transform:uppercase;letter-spacing:1.5px;font-size:22px;line-height:1.5}
+.pill{display:inline-block;font-family:"Instrument Sans";font-weight:700;font-size:26px;text-transform:uppercase;letter-spacing:1.5px;padding:22px 44px;border-radius:60px}
+.leaf{background-color:#4B523C;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cg fill='%23434a35'%3E%3Cpath d='M20 60c40-40 90-40 120-20-40 30-90 40-120 20z'/%3E%3Cpath d='M120 170c30-50 70-60 95-55-25 40-65 60-95 55z'/%3E%3Cpath d='M150 30c10 30 0 60-25 80-10-30 0-60 25-80z'/%3E%3Cpath d='M30 150c25 10 40 35 40 65-25-10-40-35-40-65z'/%3E%3C/g%3E%3C/svg%3E");background-size:300px 300px}
+#v{position:relative;overflow:hidden}
+.abs{position:absolute}
+</style></head><body><div id="v"></div>
+<script>
+const V={
+// ---------- PHOTOS 1080x1350 ----------
+p_eco:{w:1080,h:1350,html:`
+ <img class="abs" src="hq/new_eco.jpg" style="left:0;top:0;width:1080px;height:1000px;object-fit:cover;object-position:50% 58%">
+ <div class="abs" style="left:0;right:0;top:1000px;bottom:0;background:#1F241C"></div>
+ <div class="abs H" style="left:64px;top:1062px;font-size:88px;color:#F6F1E7">Écologique,<br><span class="it" style="font-size:96px">naturellement</span></div>
+ <img class="abs" src="img/logo_cream.png" style="right:44px;top:1210px;height:110px">`},
+p_box:{w:1080,h:1350,html:`
+ <div class="abs" style="inset:0;background:#EFE8DB"></div>
+ <img class="abs" src="hq/new_box.jpg" style="left:0;top:0;width:1080px;height:1050px;object-fit:cover;object-position:50% 52%">
+ <div class="abs H" style="left:64px;top:1080px;font-size:84px;color:#1F241C">Une idée<br><span class="it" style="font-size:96px">à offrir</span></div>
+ <div class="abs s" style="right:64px;top:1150px;color:#1F241C;text-align:right;font-size:20px">Coffret<br>dégustation</div>`},
+p_tins:{w:1080,h:1350,html:`
+ <img class="abs" src="hq/new_tins.jpg" style="left:0;top:0;width:1080px;height:1350px;object-fit:cover;object-position:100% 60%">
+ <div class="abs H" style="left:56px;top:110px;font-size:76px;color:#1F241C">Arbequina,<br><span class="it" style="font-size:92px">format<br>généreux</span></div>
+ <div class="abs s" style="left:64px;top:1170px;color:#1F241C">Pressée à froid · bidon 1 L</div>`},
+// ---------- STORIES 1080x1920 ----------
+s_site:{w:1080,h:1920,html:`
+ <div class="abs" style="inset:0;background:#1F241C"></div>
+ <img class="abs" src="img/logo_cream.png" style="left:50%;top:150px;height:150px;transform:translateX(-50%)">
+ <div class="abs H" style="left:0;right:0;top:420px;text-align:center;font-size:92px;color:#F6F1E7">Notre nouveau site<br><span class="it" style="font-size:124px">est en ligne</span></div>
+ <img class="abs" src="cut/bottle_arbequina.png" style="left:50%;top:760px;height:760px;transform:translateX(-50%) rotate(-12deg);filter:drop-shadow(0 50px 50px rgba(0,0,0,.5))">
+ <div class="abs s" style="left:0;right:0;top:1580px;text-align:center;color:#cfc6b3">-10 % sur votre 1re commande · code BIENVENUE10</div>
+ <div class="abs" style="left:0;right:0;top:1660px;text-align:center"><span class="pill" style="background:#F6F1E7;color:#1F241C">jimenez-shop.com</span></div>`},
+s_box:{w:1080,h:1920,html:`
+ <div class="abs" style="inset:0;background:#EFE8DB"></div>
+ <div class="abs H" style="left:0;right:0;top:260px;text-align:center;font-size:120px;color:#1F241C">Une idée<br><span class="it" style="font-size:140px">à offrir</span></div>
+ <img class="abs" src="cut/new_box.png" style="left:50%;top:700px;width:920px;transform:translateX(-50%);filter:drop-shadow(0 40px 40px rgba(31,36,28,.25))">
+ <div class="abs s" style="left:0;right:0;top:1560px;text-align:center;color:#1F241C">Le coffret dégustation Jiménez</div>
+ <div class="abs" style="left:0;right:0;top:1640px;text-align:center"><span class="pill" style="background:#1F241C;color:#F6F1E7">Lien en bio</span></div>`},
+s_europe:{w:1080,h:1920,html:`
+ <div class="abs leaf" style="inset:0"></div>
+ <div class="abs H" style="left:0;right:0;top:220px;text-align:center;font-size:118px;color:#F6F1E7">Livré partout<br><span class="it" style="font-size:136px;color:#E6DDCE">en Europe</span></div>
+ <img class="abs" src="cut/new_tins.png" style="right:60px;top:560px;width:500px;filter:drop-shadow(0 50px 50px rgba(0,0,0,.4))">
+ <div class="abs s" style="left:0;right:0;top:1560px;text-align:center;color:#F6F1E7">Expédié de Paris · Chronopost</div>
+ <div class="abs" style="left:0;right:0;top:1640px;text-align:center"><span class="pill" style="background:#F6F1E7;color:#1F241C">jimenez-shop.com</span></div>`},
+};
+function show(k){const d=V[k],v=document.getElementById('v');v.style.width=d.w+'px';v.style.height=d.h+'px';v.innerHTML=d.html;return [d.w,d.h]}
+</script></body></html>
