@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Abrilin — Rideaux thermiques et occultants aspect lin</title>
+<meta name="description" content="Rideaux thermiques et occultants aspect lin : moins de froid en hiver, moins de chaleur et de lumière en été. Livraison suivie offerte, retours 30 jours, paiement en 3 fois.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=DM+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="announce" id="announce"></div>
+
+<header class="site">
+  <div class="wrap hdr">
+    <button class="icon-btn only-m" data-menu aria-label="Ouvrir le menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+    <a class="logo" href="#/" aria-label="Abrilin, accueil">abrilin</a>
+    <nav class="main" id="nav" aria-label="Menu principal">
+      <a href="#/produit/rideau-thermique">Rideaux thermiques</a>
+      <a href="#/lots">Packs fenêtre</a>
+      <a href="#/tailles">Guide des tailles</a>
+      <a href="#/page/histoire">Notre histoire</a>
+      <a href="#/page/suivi">Suivre ma commande</a>
+      <a href="#/page/contact">Contact</a>
+    </nav>
+    <button class="icon-btn" data-cart aria-label="Ouvrir le panier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 11H6.2z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="count" id="count" hidden>0</span></button>
+  </div>
+</header>
+
+<div class="drawer-bg" id="menuBg" hidden></div>
+<aside class="menu-m" id="menuM" hidden aria-label="Menu">
+  <button class="icon-btn close" data-close aria-label="Fermer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <nav></nav>
+</aside>
+
+<main id="main"></main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-trust" id="footTrust"></div>
+    <div class="cols">
+      <div>
+        <p class="logo">abrilin</p>
+        <p class="muted">Des rideaux qui protègent la maison du froid, de la chaleur et de la lumière.</p>
+        <p class="muted">Une question ? <a href="#/page/contact">Écrivez-nous</a>, réponse sous 24 h ouvrées.</p>
+      </div>
+      <div>
+        <h4>Boutique</h4>
+        <a href="#/produit/rideau-thermique">Rideaux thermiques</a>
+        <a href="#/lots">Packs fenêtre</a>
+        <a href="#/tailles">Guide des tailles</a>
+        <a href="#/page/histoire">Notre histoire</a>
+      </div>
+      <div>
+        <h4>Aide</h4>
+        <a href="#/page/suivi">Suivre ma commande</a>
+        <a href="#/page/livraison">Livraison</a>
+        <a href="#/page/retours">Retours et remboursements</a>
+        <a href="#/page/faq">Questions fréquentes</a>
+        <a href="#/page/contact">Contact</a>
+      </div>
+      <div>
+        <h4>Légal</h4>
+        <a href="#/page/cgv">Conditions générales de vente</a>
+        <a href="#/page/mentions">Mentions légales</a>
+        <a href="#/page/confidentialite">Confidentialité</a>
+      </div>
+    </div>
+    <div class="pay" aria-label="Moyens de paiement acceptés">
+      <span>Visa</span><span>Mastercard</span><span>CB</span><span>PayPal</span><span>Apple Pay</span><span>Google Pay</span>
+    </div>
+    <p class="muted small">© <span id="year"></span> Abrilin · Site de démonstration, aucun paiement réel.</p>
+  </div>
+</footer>
+
+<div class="drawer-bg" id="cartBg" hidden></div>
+<aside class="cart" id="cart" hidden aria-label="Panier">
+  <div class="cart-hd">
+    <h3>Votre panier</h3>
+    <button class="icon-btn" data-close aria-label="Fermer le panier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div>
+  <div class="cart-body" id="cartBody"></div>
+</aside>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+# Abrilin — plan de lancement (méthode Scutify)
+
+**Abrilin** vend des rideaux thermiques et occultants aspect lin. La promesse : une maison protégée du froid en hiver, de la lumière au printemps, de la chaleur en été.
+
+Le nom est provisoire. abrilin.com était disponible le 24/10/2026 (environ 16 $ la première année) ; à réserver vite si tu le gardes, et à vérifier à l'INPI avant de faire un logo.
+
+## 1. Pourquoi cette niche
+
+On garde ce qui marche chez Neymo (l'autre élève) : **une seule niche, un produit héros, peu de variantes, une version qui fait monter le panier**. On évite ce qui casse la confiance chez lui : le compte à rebours vide, la promo permanente, les pourcentages sans source, l'absence de garanties visibles.
+
+| Critère Scutify | Rideau thermique occultant | Note |
+| --- | --- | --- |
+| Effet wow | La pièce passe du jour à la nuit en une seconde ; avant/après de la vitre froide | ✓ |
+| Problème-solution | Froid, facture de chauffage, réveil par le jour, chambre à 30 °C | ✓ |
+| Marge ≥ 20 € | Oui en paire (79,90 €) et en packs, si le coût CJ livré reste sous 25 € la paire | ~ à confirmer |
+| Volume | Tout le monde a des fenêtres ; la demande revient chaque saison | ✓ |
+
+**Ce qui donne confiance :** une boutique qui ne parle que de fenêtres, un produit neutre (lin, sable, gris, olive, bleu nuit), aucun gadget, un guide des tailles et une vraie personne qui répond.
+
+**Pas de trou l'été :** le même rideau change seulement d'angle selon la saison. Le site le fait tout seul, voir la section 4.
+
+## 2. Catalogue
+
+Petit catalogue, comme Neymo : un héros et quatre compléments qui augmentent le panier.
+
+| Produit | Rôle | Prix | Mot-clé CJ |
+| --- | --- | --- | --- |
+| Rideau thermique occultant aspect lin, 140 × 180 / 220 / 240 / 260 | **Héros** | 39,90 à 47,90 € l'unité ; paire 79,90 € (en 240) | `thermal blackout curtain linen look grommet` |
+| Boudin de porte aspect lin | Complément hiver | 24,90 € | `door draft stopper linen` |
+| Embrasses en lin, lot de 2 | Complément | 12,90 € | `curtain tieback linen` |
+| Tringle extensible noire mat | Complément | 29,90 € | `extendable curtain rod black` |
+| Moustiquaire de fenêtre aimantée | Complément été | 24,90 € | `magnetic window screen mesh` |
+
+**Sur CJ, choisis seulement un rideau qui a :**
+- Une **vraie doublure occultante** et un aspect lin. Pas de satin brillant ni de motif imprimé.
+- Des **œillets** et les tailles 140 × (180 à 260).
+- Si possible, un **entrepôt en Europe** (DE, FR, ES, PL) : livraison en 5 à 8 jours, ce qui permet d'annoncer une date pour Noël.
+- Des **avis et photos clients** sur la fiche CJ.
+- Un **poids** inférieur à 1,5 kg la paire, pour garder un port raisonnable.
+
+Commande **2 échantillons** (deux coloris) avant toute pub : tu en tires les photos, les vidéos et la vérification de la qualité.
+
+## 3. Prix et marge
+
+Remplis ce tableau dès que tu as le coût CJ réel.
+
+| Offre | Prix TTC | Prix HT (÷ 1,2) | Coût CJ livré | Frais Shopify et paiement (≈ 3 %) | Pub par vente (objectif) | **Marge nette** |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 rideau 140 × 240 | 44,90 € | 37,42 € | [ ] | 1,35 € | 12 € | [ ] |
+| **La paire** 140 × 240 | 79,90 € | 66,58 € | [ ] | 2,40 € | 15 € | [ ] |
+| Pack fenêtre complète | 109,90 € | 91,58 € | [ ] | 3,30 € | 18 € | [ ] |
+| Pack hiver (paire + 2 boudins) | 114,90 € | 95,75 € | [ ] | 3,45 € | 18 € | [ ] |
+
+La TVA ne s'applique que si tu y es assujetti. En micro-entreprise sous le seuil de franchise, prends le prix TTC comme HT : ta marge augmente.
+
+**Règle :** si la paire coûte plus de 28 € livrée, monte la paire à 89,90 € ou change de fournisseur. Ne descends jamais sous 20 € de marge nette sur le produit poussé en pub.
+
+La remise de la paire (−9,90 €) et des packs est une **vraie économie** calculée sur les prix à l'unité affichés. C'est autorisé, contrairement à un faux prix barré.
+
+## 4. Urgence : seulement de la vraie
+
+Le site (`site/app.js`) change de message tout seul selon la date.
+
+| Période | Titre de la page d'accueil | Pack mis en avant | Complément proposé dans le panier |
+| --- | --- | --- | --- |
+| Oct. → fév. | « Le froid passe par vos fenêtres. Plus chez vous. » | Pack hiver | Boudin de porte |
+| Mars → avril | « Le soleil se lève à 6 h. Vous, non. » | Pack chambre noire | Embrasses |
+| Mai → sept. | « Gardez la chambre au frais, sans clim. » | Pack été | Moustiquaire |
+
+Les messages datés (réglages dans `CONFIG`) :
+- **Noël** : « commandez avant le 12 décembre ». Le message s'affiche du 1er novembre à cette date. Cale la date sur le délai réel de l'entrepôt, avec 3 jours de marge.
+- **Black Friday** : −15 % sur les packs avec le code BLACKFRIDAY, du 23 au 30 novembre 2026. Le message n'apparaît qu'entre ces deux dates et disparaît après.
+- **Date de livraison estimée** sur chaque fiche, calculée à partir du délai réel.
+
+**Interdit (DGCCRF) :** un compte à rebours qui recommence, un faux « plus que 3 en stock », un prix barré jamais pratiqué et des faux avis.
+
+## 5. Publicités : partir du problème
+
+Format : vidéo verticale de 15 à 25 s, tournée chez toi avec l'échantillon, en lumière naturelle. Les 3 premières secondes montrent le problème.
+
+| Saison | Accroche (0 à 3 s) | Démonstration | Fin |
+| --- | --- | --- | --- |
+| Hiver | « Si votre canapé est glacé dès 18 h, regardez votre fenêtre. » | Main contre la vitre froide, on ferme le rideau, plaid, lumière chaude | « Rideau thermique, la paire à 79,90 €. Lien en bio. » |
+| Hiver | « J'ai baissé le chauffage d'un degré. Voilà ce que j'ai changé. » | Thermostat, fenêtre, rideau fermé | Pack hiver |
+| Hiver | « Changer mes fenêtres : 4 000 €. Ça : 79,90 €. » | Devis à l'écran, puis la pose en 2 minutes | La paire |
+| Printemps | « 5 h 58, le jour entre dans la chambre. » | Chambre claire, on ferme : nuit noire | Pack chambre noire |
+| Été | « 31 °C dans la chambre. Pas de clim. » | Soleil sur la vitre, rideau fermé l'après-midi | Pack été |
+
+**Ne promets jamais un chiffre d'économie** (« −30 % sur la facture ») sans test mesuré. Dis « on sent la différence près de la fenêtre ».
+
+**Test (méthode Scutify) :**
+- **Budget** : 3 vidéos × 10 €/jour pendant 3 à 4 jours, en France, 25-60 ans, intérêts maison et déco.
+- **On garde** une vidéo qui atteint : taux de clic (CTR) > 1,5 %, coût par clic (CPC) < 0,80 €, ajouts au panier > 8 % des visites, coût par achat < marge nette.
+- **On coupe** une vidéo sans ajout au panier après 30 €.
+- **On augmente** de 20 % tous les 2 jours la vidéo qui vend.
+
+## 6. Valider avant de payer la pub
+
+À noter dans `correspondance-cj.csv` :
+
+| Signal | Outil | Seuil |
+| --- | --- | --- |
+| Des concurrents font déjà de la pub dessus | Minea / Dropispy, Bibliothèque publicitaire Meta (« rideau thermique ») | Pubs actives depuis plus de 3 semaines |
+| La demande existe | Google Trends France : « rideau thermique », « rideau occultant » | Pic chaque hiver, et pour « occultant », chaque été |
+| Les clients sont satisfaits | Avis Amazon et CJ | Note ≥ 4,3 ; lire les avis 1 et 2 étoiles (odeur, transparence, taille) |
+| Le produit est bon | Ton échantillon | Vraiment occultant, pas d'odeur forte, œillets solides |
+
+## 7. Mise en place sur Shopify
+
+1. **Créer une nouvelle boutique**, séparée de Jiménez, avec le nom Abrilin. Acheter abrilin.com dans Shopify et cocher « rediriger vers ce domaine ».
+2. **Thème** : Dawn (gratuit) pour commencer. Reproduire l'ordre de la page d'accueil du site de démonstration : bannière, garanties, problème, 3 couches, avant/après, tableau comparatif, packs, avis, FAQ, newsletter.
+3. **Produit héros** avec deux options : Coloris (5) × Taille (4). La quantité (1 rideau, la paire, 2 paires) se fait avec une application de remise sur quantité (par exemple Kaching Bundles).
+4. **Applications** :
+   - CJdropshipping, pour les commandes automatiques.
+   - Judge.me, pour les avis vérifiés.
+   - ParcelPanel, pour le suivi.
+   - Un module de ventes additionnelles dans le panier.
+   - Shopify Email ou Klaviyo, pour la relance de panier abandonné et la bienvenue −10 %.
+   - Le pixel Meta.
+5. **Paiements** : Shopify Payments (carte, Apple Pay, Google Pay), PayPal, et le paiement en 3 fois (Alma ou PayPal 4X).
+6. **Pages légales** : compléter les crochets dans les pages du site (SIREN, adresse, médiateur), puis les coller dans Paramètres → Politiques.
+7. **Commande test**, puis lancement de la pub.
+
+## 8. À faire maintenant
+
+- [ ] Garder le nom Abrilin ou en choisir un autre, puis réserver le domaine.
+- [ ] Chercher sur CJ le rideau selon les critères de la section 2 ; m'envoyer le lien et une capture (prix et port France).
+- [ ] Commander 2 échantillons ; filmer les 3 pubs d'hiver dès réception.
+- [ ] Faire les vérifications de la section 6.
+- [ ] Créer la boutique Shopify (section 7). Je peux ensuite y créer les produits et les pages depuis ici.
