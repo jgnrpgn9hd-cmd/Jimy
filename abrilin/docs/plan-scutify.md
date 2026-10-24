@@ -87,19 +87,31 @@ Les messages datés (réglages dans `CONFIG`) :
 
 **Interdit (DGCCRF) :** un compte à rebours qui recommence, un faux « plus que 3 en stock », un prix barré jamais pratiqué et des faux avis.
 
-## 5. Publicités : partir du problème
+## 5. Publicités : l'angle « économies »
 
-Format : vidéo verticale de 15 à 25 s, tournée chez toi avec l'échantillon, en lumière naturelle. Les 3 premières secondes montrent le problème.
+**Message principal :** « Baissez le chauffage, pas le confort » l'hiver, et « Moins de clim, la chambre au frais » l'été. Le même rideau fait économiser dans les deux saisons.
+
+**Les chiffres qu'on a le droit d'utiliser :**
+- **1 °C de moins sur le thermostat, c'est environ 7 % d'énergie de chauffage en moins.** C'est le chiffre de l'ADEME, repris partout ; vérifie-le sur ademe.fr avant de le mettre dans une pub.
+- **L'été, fermer rideaux et volets le jour côté soleil** est le premier conseil contre la chaleur. On ne donne pas de chiffre : on montre le geste.
+
+**Ce qu'on dit, et ce qu'on ne dit pas :**
+- ✓ « Le rideau vous permet d'être bien avec le chauffage plus bas. »
+- ✓ « 1 °C de moins, c'est environ 7 % de chauffage en moins (ADEME). »
+- ✗ « −30 % sur votre facture. »
+- ✗ « Remboursé en un mois. »
+
+Un chiffre d'économie sans preuve, c'est une pratique commerciale trompeuse, et Meta peut refuser la pub.
+
+**Le calculateur du site** (page « Vos économies ») fait le calcul honnête : facture annuelle × 7 % × degrés, comparé au prix des rideaux pour le nombre de fenêtres. Exemple : 1 200 € de chauffage par an, 2 °C de moins et 3 fenêtres donnent environ 168 € par an, soit des rideaux remboursés en 2 hivers environ.
 
 | Saison | Accroche (0 à 3 s) | Démonstration | Fin |
 | --- | --- | --- | --- |
-| Hiver | « Si votre canapé est glacé dès 18 h, regardez votre fenêtre. » | Main contre la vitre froide, on ferme le rideau, plaid, lumière chaude | « Rideau thermique, la paire à 79,90 €. Lien en bio. » |
-| Hiver | « J'ai baissé le chauffage d'un degré. Voilà ce que j'ai changé. » | Thermostat, fenêtre, rideau fermé | Pack hiver |
-| Hiver | « Changer mes fenêtres : 4 000 €. Ça : 79,90 €. » | Devis à l'écran, puis la pose en 2 minutes | La paire |
-| Printemps | « 5 h 58, le jour entre dans la chambre. » | Chambre claire, on ferme : nuit noire | Pack chambre noire |
-| Été | « 31 °C dans la chambre. Pas de clim. » | Soleil sur la vitre, rideau fermé l'après-midi | Pack été |
-
-**Ne promets jamais un chiffre d'économie** (« −30 % sur la facture ») sans test mesuré. Dis « on sent la différence près de la fenêtre ».
+| Hiver | « J'ai baissé mon chauffage de 2 degrés. Et je n'ai pas plus froid. » | Thermostat de 21 à 19 °C, main sur la vitre froide, rideau fermé, plaid | « 1 °C = environ 7 % de chauffage en moins (ADEME). Le calcul est sur notre site. » |
+| Hiver | « Votre chauffage chauffe… vos fenêtres. » | Vitre froide le soir, on ferme le rideau | La paire, 79,90 € |
+| Hiver | « Changer mes fenêtres : 4 000 €. Ça : 79,90 €. » | Devis à l'écran, pose en 2 minutes | Pack hiver |
+| Été | « La clim tourne tout l'après-midi ? » | Soleil sur la vitre, rideau clair fermé à 11 h, chambre vivable le soir | Pack été |
+| Été | « 31 °C dans la chambre. Pas de clim. » | Même geste, ventilateur éteint | La paire |
 
 **Test (méthode Scutify) :**
 - **Budget** : 3 vidéos × 10 €/jour pendant 3 à 4 jours, en France, 25-60 ans, intérêts maison et déco.

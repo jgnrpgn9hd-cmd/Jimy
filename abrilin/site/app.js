@@ -23,8 +23,8 @@ function saison(d = new Date()) {
 }
 const SAISON = {
   hiver: {
-    titre: "Le froid passe par vos fenêtres. Plus chez vous.",
-    sous: "Un rideau thermique en trois couches, aspect lin, qui garde la chaleur dans la pièce et le froid dehors. Posé en deux minutes, sans travaux.",
+    titre: "Baissez le chauffage, pas le confort.",
+    sous: "Fermé le soir, notre rideau thermique limite la chaleur qui s'échappe par la vitre. La pièce reste agréable avec le thermostat plus bas, et chaque degré en moins, c'est environ 7 % de chauffage économisé.",
     bandeau: "L'hiver commence : réglez le froid avant le pic de janvier",
     pains: [
       ["Le froid près de la fenêtre", "Le canapé ou le lit près de la vitre est glacé dès 18 h, même chauffage allumé."],
@@ -45,12 +45,12 @@ const SAISON = {
     complement: "embrasses"
   },
   chaleur: {
-    titre: "Gardez la chambre au frais, sans clim.",
-    sous: "Fermé dans la journée, notre rideau thermique arrête une bonne partie de la chaleur du soleil sur la vitre. Le soir, la chambre reste vivable.",
+    titre: "Moins de clim. La chambre au frais.",
+    sous: "Fermé dans la journée, notre rideau thermique arrête la chaleur du soleil avant qu'elle entre dans la pièce. La clim et le ventilateur tournent moins, et la chambre reste vivable le soir.",
     bandeau: "Canicule : protégez vos pièces de la chaleur",
     pains: [
       ["La chambre à 30 °C", "Le soleil tape sur la vitre toute la journée ; le soir, impossible de dormir."],
-      ["Pas de clim", "Location, budget, bruit : la clim n'est pas une option pour tout le monde."],
+      ["La clim qui tourne tout l'après-midi", "Elle coûte cher, elle fait du bruit, et en location on n'en a souvent pas."],
       ["Fenêtre ouverte, moustiques", "On ouvre la nuit pour avoir de l'air, et les moustiques entrent."]
     ],
     complement: "moustiquaire"
@@ -345,6 +345,8 @@ function viewHome() {
     <div class="pains">${s.pains.map(([t, d], i) => `<div class="pain"><div class="n">0${i + 1}</div><h3>${t}</h3><p class="muted">${d}</p></div>`).join("")}</div>
   </div></section>
 
+  ${blocEconomie()}
+
   <section class="alt"><div class="wrap layers">
     <div>${ill("couches", COLORIS[0].hex)}</div>
     <div>
@@ -377,6 +379,7 @@ function viewHome() {
         <tr><td>Froid de la vitre</td><td class="us">Freiné par la couche isolante</td><td>Passe à travers le tissu</td><td>Très bien isolé</td></tr>
         <tr><td>Lumière du matin</td><td class="us">Bloquée (doublure occultante)</td><td>Passe en partie</td><td>Ne change rien</td></tr>
         <tr><td>Chaleur l'été</td><td class="us">Freinée, rideau fermé le jour</td><td>Peu d'effet</td><td>Selon le vitrage</td></tr>
+        <tr><td>Facture</td><td class="us">Moins de chauffage l'hiver, moins de clim l'été</td><td>Peu d'effet</td><td>Économie, mais des années pour l'amortir</td></tr>
         <tr><td>Prix</td><td class="us">À partir de ${eur(TAILLES[0].prix)}</td><td>20 à 40 €</td><td>Plusieurs milliers d'euros</td></tr>
         <tr><td>Pose</td><td class="us">2 minutes, sur votre tringle</td><td>2 minutes</td><td>Artisan, travaux</td></tr>
         <tr><td>En location</td><td class="us">Oui, on l'emporte en partant</td><td>Oui</td><td>Non</td></tr>
@@ -425,6 +428,42 @@ function cardLot(l) {
     <p class="price">${eur(l.prix)}<s>${eur(sep)}</s></p><span class="save">Vous économisez ${eur(eco)}</span></div></a>`;
 }
 
+
+function blocEconomie(dark = true) {
+  return `<section class="${dark ? "eco" : ""}"><div class="wrap eco-in">
+    <div>
+      <p class="eyebrow">Vos économies</p>
+      <h2>Il se rembourse avec votre facture.</h2>
+      <p class="lead">L'hiver, la vitre est la partie la plus froide de la pièce. Couverte le soir, la chaleur reste dedans et vous êtes bien avec un degré de moins. L'été, c'est l'inverse : rideau fermé le jour, le soleil ne chauffe plus la pièce.</p>
+      <ul class="eco-list">
+        <li><b>Hiver</b> : 1 °C de moins sur le thermostat, c'est environ <b>7 % d'énergie de chauffage</b> en moins (chiffre de l'ADEME).</li>
+        <li><b>Été</b> : fermer rideaux et volets dans la journée côté soleil est le premier geste conseillé contre la chaleur. Moins de clim, moins de ventilateur.</li>
+        <li><b>Astuce</b> : côté soleil, choisissez un coloris clair (lin naturel, sable, gris perle) : il renvoie mieux la chaleur.</li>
+      </ul>
+    </div>
+    <div class="calc eco-calc">
+      <h3>Calculez votre économie</h3>
+      <label for="eF">Votre facture de chauffage par an (€)</label>
+      <input id="eF" type="number" inputmode="numeric" min="100" max="10000" value="1200">
+      <label for="eD">Vous baissez le thermostat de</label>
+      <select id="eD"><option value="1">1 °C</option><option value="2">2 °C</option></select>
+      <label for="eN">Nombre de fenêtres à équiper</label>
+      <input id="eN" type="number" inputmode="numeric" min="1" max="20" value="3">
+      <div class="res" id="eRes"></div>
+      <p class="small muted" style="margin-top:10px">Estimation à partir du chiffre ADEME (environ 7 % par degré). L'économie réelle dépend de votre logement, de vos fenêtres et de votre chauffage.</p>
+    </div>
+  </div></section>`;
+}
+function calcEco() {
+  const f = +$("#eF").value, d = +$("#eD").value, n = Math.max(1, +$("#eN").value || 1), out = $("#eRes");
+  if (!out) return;
+  if (!f) { out.textContent = "Entrez votre facture annuelle."; return; }
+  const an = f * 0.07 * d, parMois = an / 6; // saison de chauffe ≈ 6 mois
+  const cout = prixPack(TAILLE_LOT, PACKS[1]) * n;
+  const hivers = cout / an;
+  out.innerHTML = `Environ <b>${Math.round(an)} € par an</b> économisés sur le chauffage.<br>${n} paire${n > 1 ? "s" : ""} de rideaux (${eur(cout)}) ${hivers <= 1 ? `sont remboursées <b>dès le premier hiver</b>` : `sont remboursées en <b>environ ${Math.ceil(hivers)} hivers</b>`}, et les rideaux servent aussi l'été contre la chaleur.`;
+}
+
 /* fiche produit */
 let sel = store("abrilin-sel") || { c: "lin", t: "140x240", p: "2" };
 function viewProduit() {
@@ -466,6 +505,7 @@ function viewProduit() {
         <div class="packs">${PACKS.map(x => `<button class="${x.id === pk.id ? "on" : ""}" data-p="${x.id}"><i></i><span><b>${x.nom}</b>${x.remise ? `<span class="badge">−${eur(x.remise)}</span>` : ""}<small>${x.note}</small></span><b>${eur(prixPack(t, x))}</b></button>`).join("")}</div></div>
 
       <button class="btn block" data-buy>Ajouter au panier · ${eur(prix)}</button>
+      <div class="deliv">💶 <b>Il se rembourse</b> : 1 °C de moins sur le thermostat, c'est environ 7 % de chauffage en moins (ADEME). <a class="link" href="#/economies">Calculer mon économie</a></div>
 
       <div class="deliv">📦 Commandé aujourd'hui, livré entre le <b>${fmtJour(d1)}</b> et le <b>${fmtJour(d2)}</b>, avec suivi.</div>
       ${noel ? `<div class="urgent">🎄 Pour être livré avant Noël, commandez avant le <b>${noel.toLocaleDateString("fr-FR", { day: "numeric", month: "long" })}</b>.</div>` : ""}
@@ -554,6 +594,7 @@ function calcTaille() {
 
 /* pages de contenu */
 const FAQ = [
+  ["Combien vais-je économiser ?", "Le rideau ne baisse pas la facture tout seul : il vous permet d'être bien avec le chauffage plus bas, parce que la vitre ne refroidit plus la pièce le soir. Selon l'ADEME, chaque degré en moins représente environ 7 % d'énergie de chauffage. L'été, fermé le jour côté soleil, il limite la chaleur qui entre et vous utilisez moins la clim ou le ventilateur. Le gain réel dépend de votre logement."],
   ["Est-ce que ça réchauffe vraiment la pièce ?", "Le rideau ne chauffe pas : il freine les pertes par la vitre, qui est la partie la plus froide d'une pièce. L'effet se sent surtout le soir et la nuit, rideau fermé, près de la fenêtre. Il ne remplace pas une isolation du logement."],
   ["Et l'été ?", "Fermé pendant les heures chaudes, il arrête une bonne partie du soleil qui frappe la vitre, et la pièce chauffe moins. C'est le même rideau toute l'année."],
   ["Il fait vraiment le noir ?", "Oui, la doublure occultante bloque la lumière directe. Un peu de lumière peut passer sur les côtés et en haut si le rideau ne dépasse pas assez de la fenêtre : voyez le guide des tailles."],
@@ -644,6 +685,7 @@ function route() {
   else if (a === "lots") html = viewLots();
   else if (a === "boutique") html = viewBoutique(b || "tout");
   else if (a === "tailles") html = viewTailles();
+  else if (a === "economies") html = blocEconomie(false);
   else if (a === "page") html = viewPage(b);
   else if (a === "commande") html = viewCommande();
   else html = viewHome();
@@ -651,6 +693,7 @@ function route() {
   document.querySelectorAll("nav.main a").forEach(x => x.classList.toggle("on", x.getAttribute("href") === "#/" + h));
   closeDrawers();
   window.scrollTo(0, 0);
+  if ($("#eF")) { ["#eF", "#eD", "#eN"].forEach(x => $(x).addEventListener("input", calcEco)); calcEco(); }
   if (a === "tailles") ["#lw", "#lh"].forEach(s => $(s).addEventListener("input", calcTaille));
   stickyWatch();
 }

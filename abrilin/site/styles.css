@@ -240,3 +240,12 @@ footer .cols p a{display:inline;padding:0;text-decoration:underline}
 .filters{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:28px}
 .filters a{border:1px solid var(--line);border-radius:999px;padding:8px 16px;text-decoration:none;font-size:.9rem;background:var(--card)}
 .filters a.on{background:var(--night);border-color:var(--night);color:#fff}
+
+section.eco{background:var(--night);color:#fff}
+section.eco .lead,section.eco .eco-list{color:#D9DEE6}
+.eco-in{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center}
+.eco-in .lead{margin-top:14px}
+.eco-list{margin:22px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:10px;color:var(--ink2)}
+.eco-calc{color:var(--ink);margin:0;max-width:none}
+.eco-calc h3{margin-bottom:4px}
+@media (max-width:860px){.eco-in{grid-template-columns:1fr;gap:28px}}
