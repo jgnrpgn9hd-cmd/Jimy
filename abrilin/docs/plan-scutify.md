@@ -70,6 +70,21 @@ La TVA ne s'applique que si tu y es assujetti. En micro-entreprise sous le seuil
 
 La remise de la paire (−9,90 €) et des packs est une **vraie économie** calculée sur les prix à l'unité affichés. C'est autorisé, contrairement à un faux prix barré.
 
+### Prix du marché (relevé du 24/10/2026, à revérifier)
+
+| Où | Produit | Prix |
+| --- | --- | --- |
+| Amazon (vendeurs tiers, ex. Deconovo) | Paire 140 × 260, thermique occultant | ≈ 31 à 40 € **la paire** |
+| Cdiscount | Paire 140 × 260 | ≈ 26 à 30 € la paire |
+| Conforama | 1 rideau thermique 140 × 260 | ≈ 31 € l'unité |
+| Bricomarché (Atmosphera, beige lin) | 1 rideau occultant isolant 140 × 260 | ≈ 45 € l'unité |
+| Leroy Merlin (Alaska) | 1 rideau thermique 140 × 260 | ≈ 50 € l'unité |
+| Vente-unique | 1 rideau thermique 140 × 260 | ≈ 60 € l'unité |
+
+**Lecture :** les magasins de bricolage vendent **à l'unité** autour de 45 à 50 €, soit 90 à 100 € la paire. Notre paire à 79,90 € est donc **moins chère que les grandes enseignes**, mais deux fois plus chère que l'entrée de gamme Amazon. On ne gagne pas sur le prix : on gagne sur la confiance (aspect lin, photos réelles, guide des tailles, calculateur d'économies, retours 30 jours) et sur les packs.
+
+**Conséquence pour CJ :** la paire doit coûter **20 € maximum, livrée en France**. Au-delà, la marge ne tient pas face à ces prix.
+
 ## 4. Urgence : seulement de la vraie
 
 Le site (`site/app.js`) change de message tout seul selon la date.
