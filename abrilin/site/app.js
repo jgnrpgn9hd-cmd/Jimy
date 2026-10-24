@@ -447,14 +447,20 @@ function blocEconomie(dark = true) {
       <div class="dial-wrap">${dialSVG()}</div>
       <label for="eF">Votre facture de chauffage par an (€)</label>
       <input id="eF" type="number" inputmode="numeric" min="100" max="10000" value="1200">
-      <label for="eN">Nombre de fenêtres à équiper</label>
-      <input id="eN" type="number" inputmode="numeric" min="1" max="20" value="3">
+      <label id="eNl">Fenêtres dans vos pièces chauffées</label>
+      <div class="win-step" role="group" aria-labelledby="eNl">
+        <button type="button" data-win="-1" aria-label="Une fenêtre de moins">−</button>
+        <div class="win-row" id="winRow" aria-live="polite"></div>
+        <button type="button" data-win="1" aria-label="Une fenêtre de plus">+</button>
+      </div>
       <div class="res" id="eRes"></div>
       <p class="small muted" style="margin-top:10px">Estimation à partir du chiffre ADEME (environ 7 % par degré). L'économie réelle dépend de votre logement, de vos fenêtres et de votre chauffage.</p>
     </div>
   </div></section>`;
 }
 /* molette de thermostat : 21 °C = réglage de départ ; chaque degré en moins ≈ 7 % (ADEME) */
+let ecoN = 3; // nombre de fenêtres
+const winIcon = `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M12 3v18M3 12h18"/></svg>`;
 const DIAL = { min: 16, max: 22, ref: 21, bas: 17, a0: -135, a1: 135 };
 let ecoT = DIAL.ref;
 const tempAngle = t => DIAL.a0 + (t - DIAL.min) / (DIAL.max - DIAL.min) * (DIAL.a1 - DIAL.a0);
@@ -497,7 +503,10 @@ function setTemp(t) {
 function initDial() {
   const dial = $("#dial"); if (!dial) return;
   let anim = null;
-  ["#eF", "#eN"].forEach(x => $(x).addEventListener("input", calcEco));
+  $("#eF").addEventListener("input", calcEco);
+  dial.closest(".eco-calc").querySelectorAll("[data-win]").forEach(b => b.addEventListener("click", () => {
+    ecoN = Math.min(10, Math.max(1, ecoN + +b.dataset.win)); calcEco();
+  }));
   const fromEvent = e => {
     const r = dial.getBoundingClientRect();
     let a = Math.atan2(e.clientX - (r.left + r.width / 2), -(e.clientY - (r.top + r.height / 2))) * 180 / Math.PI;
@@ -528,14 +537,20 @@ function initDial() {
   io.observe(dial);
 }
 function calcEco() {
-  const f = +$("#eF").value, d = DIAL.ref - ecoT, n = Math.max(1, +$("#eN").value || 1), out = $("#eRes");
+  const f = +$("#eF").value, d = DIAL.ref - ecoT, n = ecoN, out = $("#eRes");
+  if ($("#winRow")) $("#winRow").innerHTML = `${winIcon.repeat(n)}<span>${n} fenêtre${n > 1 ? "s" : ""}</span>`;
   if (!out) return;
   if (!f) { out.textContent = "Entrez votre facture annuelle."; return; }
   if (!d) { out.innerHTML = "Tournez la molette vers la gauche pour voir ce que vous économisez."; return; }
   const an = f * 0.07 * d, parMois = an / 6; // saison de chauffe ≈ 6 mois
-  const cout = prixPack(TAILLE_LOT, PACKS[1]) * n;
-  const hivers = cout / an;
-  out.innerHTML = `<span class="eco-big">${Math.round(an)} €</span> économisés par an, environ, sur le chauffage.<br>${n} paire${n > 1 ? "s" : ""} de rideaux (${eur(cout)}) ${hivers <= 1 ? `sont remboursées <b>dès le premier hiver</b>` : `sont remboursées en <b>environ ${Math.ceil(hivers)} hivers</b>`}, et les rideaux servent aussi l'été contre la chaleur.`;
+  const paire = prixPack(TAILLE_LOT, PACKS[1]), parFen = an / n, hivers = paire / parFen;
+  out.innerHTML = `<span class="eco-big">${Math.round(parFen)} €</span> économisés par fenêtre et par an, environ.
+    <div class="eco-rows">
+      <span>Une paire de rideaux par fenêtre</span><b>${eur(paire)}</b>
+      <span>Remboursée en</span><b>${hivers <= 1 ? "moins d'un hiver" : `environ ${Math.ceil(hivers)} hivers`}</b>
+      <span>Pour vos ${n} fenêtre${n > 1 ? "s" : ""}</span><b>${Math.round(an)} € par an</b>
+    </div>
+    <small class="muted">Puis les rideaux servent aussi l'été contre la chaleur.</small>`;
 }
 
 /* fiche produit */

@@ -256,3 +256,10 @@ section.eco .lead,section.eco .eco-list{color:#D9DEE6}
 .dial text{font-family:var(--sans)}
 .dial .dial-t{font-family:var(--serif)}
 .eco-big{display:block;font-family:var(--serif);font-size:2.4rem;line-height:1.1;color:var(--ok)}
+.win-step{display:flex;align-items:center;gap:10px}
+.win-step button{width:40px;height:40px;flex:none;border-radius:50%;border:1px solid var(--line);background:var(--bg);font-size:1.2rem}
+.win-row{flex:1;display:flex;flex-wrap:wrap;align-items:center;gap:4px;min-height:40px}
+.win-row svg{width:20px;height:20px;fill:#DCE6EE;stroke:var(--night);stroke-width:1.5}
+.win-row span{margin-left:6px;font-weight:600;font-size:.92rem}
+.eco-rows{display:grid;grid-template-columns:1fr auto;gap:6px 12px;margin:12px 0 8px;font-size:.93rem}
+.eco-rows b{text-align:right}
