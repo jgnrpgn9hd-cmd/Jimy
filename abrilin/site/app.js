@@ -82,24 +82,52 @@ const P = {
   "rideau-thermique": {
     nom: "Rideau thermique occultant aspect lin",
     court: "Rideau thermique",
-    tag: "Produit phare",
+    tag: "Produit phare", besoin: ["froid", "lumiere", "chaleur"],
     desc: "Trois couches : une face aspect lin, une couche isolante, une doublure occultante. Il garde la chaleur l'hiver, arrête le soleil l'été et fait le noir toute l'année."
   },
+  voilage: {
+    nom: "Voilage aspect lin", court: "Voilage aspect lin", prix: 29.9, besoin: ["lumiere"],
+    desc: "Laisse entrer la lumière du jour et cache l'intérieur aux voisins. Se pose devant le rideau thermique, sur une double tringle."
+  },
+  portiere: {
+    nom: "Rideau de porte d'entrée thermique", court: "Rideau de porte thermique", prix: 49.9, besoin: ["froid"],
+    desc: "L'air glacé qui entre par la porte d'entrée ou de la cave reste dehors. 100 × 220 cm, épais, à œillets.", saison: "hiver"
+  },
+  store: {
+    nom: "Store enrouleur occultant sans perçage", court: "Store occultant sans perçage", prix: 34.9, besoin: ["lumiere", "chaleur"],
+    desc: "Pour les fenêtres où un rideau gêne : cuisine, bureau, salle de bain. Se clipse sur le cadre de la fenêtre, sans perçage."
+  },
+  ventouse: {
+    nom: "Store occultant à ventouses", court: "Store à ventouses", prix: 24.9, besoin: ["lumiere", "chaleur"],
+    desc: "Le noir en 30 secondes sur n'importe quelle vitre : chambre de bébé, fenêtre de toit, location, vacances. Se découpe à la taille."
+  },
   boudin: {
-    nom: "Boudin de porte aspect lin", court: "Boudin de porte", prix: 24.9,
+    nom: "Boudin de porte aspect lin", court: "Boudin de porte", prix: 24.9, besoin: ["froid"],
     desc: "Arrête le courant d'air froid sous la porte. 90 cm, aspect lin : posez-le au pied de la porte, c'est fait.", saison: "hiver"
   },
-  embrasses: {
-    nom: "Embrasses en lin, lot de 2", court: "Embrasses, lot de 2", prix: 12.9,
-    desc: "Pour ouvrir le rideau proprement dans la journée et laisser entrer la lumière."
+  joint: {
+    nom: "Joint isolant de fenêtre adhésif, 10 m", court: "Joint de fenêtre", prix: 14.9, besoin: ["froid"],
+    desc: "Bouche l'air qui siffle autour des vieilles fenêtres. Se colle sur le cadre, se retire en partant.", saison: "hiver"
   },
-  tringle: {
-    nom: "Tringle extensible noire mat", court: "Tringle extensible", prix: 29.9,
-    desc: "De 160 à 300 cm, avec supports et vis. Pour une fenêtre sans tringle."
+  film: {
+    nom: "Film anti-chaleur pour vitre", court: "Film anti-chaleur", prix: 24.9, besoin: ["chaleur"],
+    desc: "Renvoie une partie du soleil avant qu'il chauffe la pièce, sans faire le noir. Se pose à l'eau, sans colle, et se retire.", saison: "chaleur"
   },
   moustiquaire: {
-    nom: "Moustiquaire de fenêtre aimantée", court: "Moustiquaire aimantée", prix: 24.9,
+    nom: "Moustiquaire de fenêtre aimantée", court: "Moustiquaire de fenêtre", prix: 24.9, besoin: ["chaleur"],
     desc: "Fenêtre ouverte la nuit sans moustiques. Se pose avec des bandes adhésives, sans perçage.", saison: "chaleur"
+  },
+  moustiquaireporte: {
+    nom: "Moustiquaire de porte aimantée", court: "Moustiquaire de porte", prix: 29.9, besoin: ["chaleur"],
+    desc: "Porte-fenêtre ouverte, sans moustiques : les deux pans se referment seuls derrière vous grâce aux aimants.", saison: "chaleur"
+  },
+  tringle: {
+    nom: "Tringle extensible noire mat", court: "Tringle extensible", prix: 29.9, besoin: ["pose"],
+    desc: "De 160 à 300 cm, avec supports et vis. Pour une fenêtre sans tringle."
+  },
+  embrasses: {
+    nom: "Embrasses en lin, lot de 2", court: "Embrasses, lot de 2", prix: 12.9, besoin: ["pose"],
+    desc: "Pour ouvrir le rideau proprement dans la journée et laisser entrer la lumière."
   }
 };
 
@@ -169,6 +197,13 @@ function ill(type, hex = "#D8CCB6", opts = {}) {
     boudin: `<rect x="60" y="170" width="280" height="60" rx="30" fill="${hex}"/>`,
     embrasses: `<path d="M120 120c60 40 100 40 160 0M120 280c60-40 100-40 160 0" stroke="${hex}" stroke-width="16" fill="none" stroke-linecap="round"/>`,
     tringle: `<rect x="40" y="190" width="320" height="10" rx="5" fill="#2A2724"/><circle cx="40" cy="195" r="12" fill="#2A2724"/><circle cx="360" cy="195" r="12" fill="#2A2724"/>`,
+    voilage: `<rect x="70" y="50" width="260" height="8" rx="4" fill="#2A2724"/><rect x="80" y="58" width="240" height="300" fill="#F3EFE8" opacity=".9"/>${[1,2,3,4,5,6,7].map(i=>`<path d="M${80+i*30} 58v300" stroke="rgba(0,0,0,.06)" stroke-width="3"/>`).join("")}`,
+    portiere: `<rect x="130" y="60" width="140" height="300" fill="#8A7E6A"/><rect x="120" y="50" width="160" height="8" rx="4" fill="#2A2724"/><circle cx="250" cy="220" r="5" fill="#E9E1D3"/>`,
+    store: `<rect x="100" y="60" width="200" height="18" rx="9" fill="#55504A"/><rect x="108" y="78" width="184" height="190" fill="#3B3F46"/><rect x="108" y="268" width="184" height="6" fill="#2A2724"/>`,
+    ventouse: `<rect x="100" y="80" width="200" height="240" fill="#3B3F46"/>${[[100,80],[300,80],[100,320],[300,320],[200,80],[200,320]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="10" fill="#E9E1D3" stroke="#9A958C"/>`).join("")}`,
+    joint: `<circle cx="200" cy="200" r="90" fill="none" stroke="#E9E1D3" stroke-width="34"/><circle cx="200" cy="200" r="90" fill="none" stroke="#55504A" stroke-width="2"/><circle cx="200" cy="200" r="56" fill="#EFE9DF" stroke="#C9BFAF"/>`,
+    film: `<rect x="100" y="70" width="200" height="260" fill="#CFDCE6"/><path d="M100 70l200 0 0 160z" fill="#B9C9B9" opacity=".55"/><circle cx="330" cy="70" r="28" fill="#F7C873"/>`,
+    moustiquaireporte: `<rect x="120" y="40" width="160" height="320" fill="none" stroke="#2A2724" stroke-width="6"/><path d="M200 40v320" stroke="#2A2724" stroke-width="3"/>${Array.from({length:15},(_,i)=>`<path d="M120 ${60+i*20}h160" stroke="#9A958C" stroke-width=".8"/>`).join("")}`,
     moustiquaire: `<rect x="110" y="70" width="180" height="260" fill="none" stroke="#2A2724" stroke-width="6"/><path d="M200 70v260" stroke="#2A2724" stroke-width="3"/>${Array.from({length:12},(_,i)=>`<path d="M110 ${90+i*20}h180" stroke="#9A958C" stroke-width=".8"/>`).join("")}`
   };
   return `<svg viewBox="0 0 400 400" role="img" aria-label="${P[type]?.court || ""}"><rect width="400" height="400" fill="${wall}"/>${shapes[type] || ""}</svg>`;
@@ -473,6 +508,22 @@ function viewLots() {
   </div></section>`;
 }
 
+const BESOINS = [["tout", "Tout"], ["froid", "Froid et courants d'air"], ["lumiere", "Lumière et intimité"], ["chaleur", "Chaleur et moustiques"], ["pose", "Pose"]];
+function viewBoutique(f = "tout") {
+  const ids = Object.keys(P).filter(id => f === "tout" || (P[id].besoin || []).includes(f));
+  return `<section><div class="wrap">
+    <p class="eyebrow center">Tous nos produits</p>
+    <h1 class="center">Une solution par problème.</h1>
+    <p class="lead center" style="margin-top:14px">Douze produits pour vos fenêtres et vos portes. Choisissez ce qui vous gêne, on vous montre ce qui le règle.</p>
+    <div class="filters">${BESOINS.map(([k, v]) => `<a class="${k === f ? "on" : ""}" href="#/boutique/${k}">${v}</a>`).join("")}</div>
+    <div class="cards">${ids.map(id => id === "rideau-thermique" ? `
+      <a class="card" href="#/produit/rideau-thermique"><div class="pic">${ill("fenetre", COLORIS[1].hex, { nuit: true })}<span class="tag">Produit phare</span></div>
+      <div class="in"><h3>${P[id].nom}</h3><p class="muted small">${P[id].desc}</p><p class="price">À partir de ${eur(TAILLES[0].prix)}</p></div></a>` : `
+      <div class="card"><div class="pic">${cplIll(id)}${P[id].saison === saison() ? `<span class="tag">De saison</span>` : ""}</div>
+      <div class="in"><h3>${P[id].nom}</h3><p class="muted small">${P[id].desc}</p><p class="price">${eur(P[id].prix)}</p><button class="btn ghost" data-add="${id}">Ajouter au panier</button></div></div>`).join("")}</div>
+  </div></section>`;
+}
+
 function viewTailles() {
   return `<section><div class="wrap">
     <p class="eyebrow center">Guide des tailles</p>
@@ -591,6 +642,7 @@ function route() {
   let html;
   if (a === "produit") html = viewProduit();
   else if (a === "lots") html = viewLots();
+  else if (a === "boutique") html = viewBoutique(b || "tout");
   else if (a === "tailles") html = viewTailles();
   else if (a === "page") html = viewPage(b);
   else if (a === "commande") html = viewCommande();

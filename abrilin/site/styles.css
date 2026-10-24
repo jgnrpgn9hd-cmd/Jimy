@@ -21,7 +21,7 @@ h3{font-size:1.25rem}
 section{padding:72px 0} section.alt{background:var(--alt)}
 .center{text-align:center}
 .lead{font-size:1.1rem;color:var(--ink2);max-width:40rem}
-.center .lead{margin:0 auto}
+.center .lead,.lead.center{margin-left:auto;margin-right:auto}
 
 /* boutons */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:15px 28px;border-radius:999px;background:var(--night);color:#fff;font-weight:600;text-decoration:none;transition:background .2s}
@@ -42,7 +42,7 @@ nav.main a{text-decoration:none;color:var(--ink2)} nav.main a:hover,nav.main a.o
 .icon-btn svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.4}
 .count{position:absolute;top:3px;right:1px;background:var(--brass);color:#fff;font-size:.7rem;min-width:18px;height:18px;border-radius:9px;display:grid;place-items:center}
 .only-m{display:none}
-@media (max-width:900px){
+@media (max-width:1180px){
   nav.main{display:none} .only-m{display:grid}
   .hdr{gap:8px} .logo{margin:0 auto}
 }
@@ -218,6 +218,7 @@ footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
 footer h4{font-size:.85rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:10px}
 footer .cols a{display:block;text-decoration:none;color:var(--ink2);padding:3px 0;font-size:.93rem}
 footer .cols p{margin-bottom:10px;font-size:.93rem}
+footer .cols p a{display:inline;padding:0;text-decoration:underline}
 .pay{display:flex;gap:8px;flex-wrap:wrap;margin:28px 0 14px}
 .pay span{border:1px solid var(--line);background:var(--card);border-radius:6px;padding:4px 10px;font-size:.78rem;font-weight:600;color:var(--ink2)}
 @media (max-width:800px){footer .cols,.foot-trust{grid-template-columns:1fr 1fr}}
@@ -235,3 +236,7 @@ footer .cols p{margin-bottom:10px;font-size:.93rem}
 .sum-line{display:flex;justify-content:space-between;padding:6px 0;font-size:.93rem}
 .sum-line.tot{border-top:1px solid var(--line);margin-top:8px;padding-top:12px;font-weight:600;font-size:1.05rem}
 @media (max-width:800px){.checkout{grid-template-columns:1fr}}
+
+.filters{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:28px}
+.filters a{border:1px solid var(--line);border-radius:999px;padding:8px 16px;text-decoration:none;font-size:.9rem;background:var(--card)}
+.filters a.on{background:var(--night);border-color:var(--night);color:#fff}

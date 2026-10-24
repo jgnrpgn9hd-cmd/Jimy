@@ -19,19 +19,32 @@ On garde ce qui marche chez Neymo (l'autre élève) : **une seule niche, un prod
 
 **Pas de trou l'été :** le même rideau change seulement d'angle selon la saison. Le site le fait tout seul, voir la section 4.
 
-## 2. Catalogue
+## 2. Catalogue : 12 produits, un problème chacun
 
-Petit catalogue, comme Neymo : un héros et quatre compléments qui augmentent le panier.
+Tous les produits restent dans la même niche : **la fenêtre et la porte**. Le client ne voit jamais un produit hors sujet, et la confiance tient. Sur le site, la page « Tous les produits » se filtre par problème : froid, lumière, chaleur, pose.
 
-| Produit | Rôle | Prix | Mot-clé CJ |
-| --- | --- | --- | --- |
-| Rideau thermique occultant aspect lin, 140 × 180 / 220 / 240 / 260 | **Héros** | 39,90 à 47,90 € l'unité ; paire 79,90 € (en 240) | `thermal blackout curtain linen look grommet` |
-| Boudin de porte aspect lin | Complément hiver | 24,90 € | `door draft stopper linen` |
-| Embrasses en lin, lot de 2 | Complément | 12,90 € | `curtain tieback linen` |
-| Tringle extensible noire mat | Complément | 29,90 € | `extendable curtain rod black` |
-| Moustiquaire de fenêtre aimantée | Complément été | 24,90 € | `magnetic window screen mesh` |
+| Produit | Problème réglé | Rôle | Saison | Prix | Mot-clé CJ |
+| --- | --- | --- | --- | --- | --- |
+| Rideau thermique occultant aspect lin | Froid, lumière, chaleur | **Héros** | Toute l'année | 39,90 à 47,90 € l'unité ; paire 79,90 € | `thermal blackout curtain linen look grommet` |
+| Rideau de porte d'entrée thermique | Air glacé par la porte d'entrée | **Second héros hiver** | Oct. → fév. | 49,90 € | `thermal door curtain insulated` |
+| Moustiquaire de porte aimantée | Moustiques, porte-fenêtre ouverte | **Second héros été** | Juin → sept. | 29,90 € | `magnetic screen door mesh` |
+| Voilage aspect lin | Vis-à-vis, lumière du jour | Complément | Toute l'année | 29,90 € | `linen look sheer curtain grommet` |
+| Store enrouleur occultant sans perçage | Fenêtre où un rideau gêne | Complément | Toute l'année | 34,90 € | `no drill blackout roller blind clip` |
+| Store occultant à ventouses | Chambre de bébé, fenêtre de toit, location | Complément | Printemps, été | 24,90 € | `portable blackout blind suction cup` |
+| Boudin de porte aspect lin | Courant d'air sous la porte | Complément | Hiver | 24,90 € | `door draft stopper linen` |
+| Joint isolant de fenêtre adhésif, 10 m | Air qui siffle autour des fenêtres | Petit prix | Hiver | 14,90 € | `window weather stripping self adhesive` |
+| Film anti-chaleur pour vitre | Soleil qui chauffe la pièce | Complément | Été | 24,90 € | `heat control window film static cling` |
+| Moustiquaire de fenêtre aimantée | Moustiques la nuit | Complément | Été | 24,90 € | `magnetic window screen mesh` |
+| Tringle extensible noire mat | Pas de tringle | Complément pose | Toute l'année | 29,90 € | `extendable curtain rod black` |
+| Embrasses en lin, lot de 2 | Ouvrir le rideau proprement | Complément pose | Toute l'année | 12,90 € | `curtain tieback linen` |
 
-**Sur CJ, choisis seulement un rideau qui a :**
+**Ordre de lancement :**
+- **Maintenant** : on lance la pub sur le rideau thermique, puis on teste le rideau de porte. Les 10 autres sont en ligne et servent à remplir le panier.
+- **En juin** : on bascule la pub sur la moustiquaire de porte et sur l'angle « chambre au frais » du rideau.
+
+**Écartés exprès :** les chauffages, déshumidificateurs et autres objets électriques (pannes, certification CE, retours), les gadgets lumineux (effet Temu) et les miroirs (casse au transport).
+
+**Pour le rideau héros, choisis sur CJ seulement un modèle qui a :**
 - Une **vraie doublure occultante** et un aspect lin. Pas de satin brillant ni de motif imprimé.
 - Des **œillets** et les tailles 140 × (180 à 260).
 - Si possible, un **entrepôt en Europe** (DE, FR, ES, PL) : livraison en 5 à 8 jours, ce qui permet d'annoncer une date pour Noël.
