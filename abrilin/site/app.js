@@ -442,11 +442,11 @@ function blocEconomie(dark = true) {
       </ul>
     </div>
     <div class="calc eco-calc">
-      <h3>Calculez votre économie</h3>
+      <h3>Tournez le thermostat</h3>
+      <p class="small muted">Rideau fermé le soir, de combien baisseriez-vous ?</p>
+      <div class="dial-wrap">${dialSVG()}</div>
       <label for="eF">Votre facture de chauffage par an (€)</label>
       <input id="eF" type="number" inputmode="numeric" min="100" max="10000" value="1200">
-      <label for="eD">Vous baissez le thermostat de</label>
-      <select id="eD"><option value="1">1 °C</option><option value="2">2 °C</option></select>
       <label for="eN">Nombre de fenêtres à équiper</label>
       <input id="eN" type="number" inputmode="numeric" min="1" max="20" value="3">
       <div class="res" id="eRes"></div>
@@ -454,14 +454,88 @@ function blocEconomie(dark = true) {
     </div>
   </div></section>`;
 }
+/* molette de thermostat : 21 °C = réglage de départ ; chaque degré en moins ≈ 7 % (ADEME) */
+const DIAL = { min: 16, max: 22, ref: 21, bas: 17, a0: -135, a1: 135 };
+let ecoT = DIAL.ref;
+const tempAngle = t => DIAL.a0 + (t - DIAL.min) / (DIAL.max - DIAL.min) * (DIAL.a1 - DIAL.a0);
+function polar(a, r) { const rad = (a - 90) * Math.PI / 180; return [120 + r * Math.cos(rad), 120 + r * Math.sin(rad)]; }
+function arc(a1, a2, r) {
+  const [x1, y1] = polar(a1, r), [x2, y2] = polar(a2, r);
+  return `M${x1.toFixed(1)} ${y1.toFixed(1)}A${r} ${r} 0 ${a2 - a1 > 180 ? 1 : 0} 1 ${x2.toFixed(1)} ${y2.toFixed(1)}`;
+}
+function dialSVG() {
+  let ticks = "";
+  for (let t = DIAL.min; t <= DIAL.max; t += 0.5) {
+    const a = tempAngle(t), big = t % 1 === 0;
+    const [x1, y1] = polar(a, big ? 92 : 96), [x2, y2] = polar(a, 104);
+    ticks += `<path d="M${x1.toFixed(1)} ${y1.toFixed(1)}L${x2.toFixed(1)} ${y2.toFixed(1)}" stroke="#B9B1A4" stroke-width="${big ? 2 : 1}"/>`;
+    if (big) { const [tx, ty] = polar(a, 116); ticks += `<text x="${tx.toFixed(1)}" y="${(ty + 4).toFixed(1)}" text-anchor="middle" font-size="11" fill="#8A8378">${t}</text>`; }
+  }
+  return `<svg class="dial" id="dial" viewBox="0 0 240 240" role="slider" tabindex="0" aria-label="Température du thermostat" aria-valuemin="${DIAL.bas}" aria-valuemax="${DIAL.ref}">
+    ${ticks}
+    <path d="${arc(DIAL.a0, DIAL.a1, 84)}" stroke="#E6DFD3" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path id="dialSave" stroke="#3F6A4F" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <circle cx="120" cy="120" r="68" fill="#2D3848"/>
+    <circle cx="120" cy="120" r="62" fill="none" stroke="rgba(255,255,255,.12)"/>
+    <g id="dialKnob"><circle cx="120" cy="36" r="9" fill="#fff" stroke="#2D3848" stroke-width="3"/></g>
+    <text id="dialT" class="dial-t" x="120" y="122" text-anchor="middle" font-size="34" fill="#fff"></text>
+    <text id="dialD" x="120" y="146" text-anchor="middle" font-size="12" fill="#C9D2DE"></text>
+  </svg>`;
+}
+function setTemp(t) {
+  ecoT = Math.min(DIAL.ref, Math.max(DIAL.bas, Math.round(t * 2) / 2));
+  const dial = $("#dial"); if (!dial) return;
+  const a = tempAngle(ecoT), d = DIAL.ref - ecoT;
+  $("#dialKnob").setAttribute("transform", `rotate(${a} 120 120)`);
+  $("#dialSave").setAttribute("d", d ? arc(a, tempAngle(DIAL.ref), 84) : "");
+  $("#dialT").textContent = ecoT.toLocaleString("fr-FR") + " °C";
+  $("#dialD").textContent = d ? `−${d.toLocaleString("fr-FR")} °C · environ −${Math.round(d * 7)} %` : "votre réglage actuel";
+  dial.setAttribute("aria-valuenow", ecoT);
+  dial.setAttribute("aria-valuetext", `${ecoT} degrés`);
+  calcEco();
+}
+function initDial() {
+  const dial = $("#dial"); if (!dial) return;
+  let anim = null;
+  ["#eF", "#eN"].forEach(x => $(x).addEventListener("input", calcEco));
+  const fromEvent = e => {
+    const r = dial.getBoundingClientRect();
+    let a = Math.atan2(e.clientX - (r.left + r.width / 2), -(e.clientY - (r.top + r.height / 2))) * 180 / Math.PI;
+    a = Math.max(DIAL.a0, Math.min(DIAL.a1, a));
+    setTemp(DIAL.min + (a - DIAL.a0) / (DIAL.a1 - DIAL.a0) * (DIAL.max - DIAL.min));
+  };
+  dial.addEventListener("pointerdown", e => { dial.setPointerCapture(e.pointerId); dial.dataset.drag = 1; anim && cancelAnimationFrame(anim); fromEvent(e); });
+  dial.addEventListener("pointermove", e => { if (dial.dataset.drag) fromEvent(e); });
+  dial.addEventListener("pointerup", () => delete dial.dataset.drag);
+  dial.addEventListener("keydown", e => {
+    const k = { ArrowLeft: -0.5, ArrowDown: -0.5, ArrowRight: 0.5, ArrowUp: 0.5 }[e.key];
+    if (k) { e.preventDefault(); setTemp(ecoT + k); }
+  });
+  setTemp(DIAL.ref);
+  // la molette tourne toute seule de 21 à 19 °C la première fois qu'on la voit
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) { setTemp(19); return; }
+  const io = new IntersectionObserver(([en]) => {
+    if (!en.isIntersecting) return;
+    io.disconnect();
+    const t0 = performance.now(), dur = 1800;
+    const step = now => {
+      const k = Math.min(1, (now - t0) / dur), ease = 1 - Math.pow(1 - k, 3);
+      setTemp(DIAL.ref - 2 * ease);
+      if (k < 1) anim = requestAnimationFrame(step);
+    };
+    setTimeout(() => anim = requestAnimationFrame(step), 300);
+  }, { threshold: 0.6 });
+  io.observe(dial);
+}
 function calcEco() {
-  const f = +$("#eF").value, d = +$("#eD").value, n = Math.max(1, +$("#eN").value || 1), out = $("#eRes");
+  const f = +$("#eF").value, d = DIAL.ref - ecoT, n = Math.max(1, +$("#eN").value || 1), out = $("#eRes");
   if (!out) return;
   if (!f) { out.textContent = "Entrez votre facture annuelle."; return; }
+  if (!d) { out.innerHTML = "Tournez la molette vers la gauche pour voir ce que vous économisez."; return; }
   const an = f * 0.07 * d, parMois = an / 6; // saison de chauffe ≈ 6 mois
   const cout = prixPack(TAILLE_LOT, PACKS[1]) * n;
   const hivers = cout / an;
-  out.innerHTML = `Environ <b>${Math.round(an)} € par an</b> économisés sur le chauffage.<br>${n} paire${n > 1 ? "s" : ""} de rideaux (${eur(cout)}) ${hivers <= 1 ? `sont remboursées <b>dès le premier hiver</b>` : `sont remboursées en <b>environ ${Math.ceil(hivers)} hivers</b>`}, et les rideaux servent aussi l'été contre la chaleur.`;
+  out.innerHTML = `<span class="eco-big">${Math.round(an)} €</span> économisés par an, environ, sur le chauffage.<br>${n} paire${n > 1 ? "s" : ""} de rideaux (${eur(cout)}) ${hivers <= 1 ? `sont remboursées <b>dès le premier hiver</b>` : `sont remboursées en <b>environ ${Math.ceil(hivers)} hivers</b>`}, et les rideaux servent aussi l'été contre la chaleur.`;
 }
 
 /* fiche produit */
@@ -693,7 +767,7 @@ function route() {
   document.querySelectorAll("nav.main a").forEach(x => x.classList.toggle("on", x.getAttribute("href") === "#/" + h));
   closeDrawers();
   window.scrollTo(0, 0);
-  if ($("#eF")) { ["#eF", "#eD", "#eN"].forEach(x => $(x).addEventListener("input", calcEco)); calcEco(); }
+  initDial();
   if (a === "tailles") ["#lw", "#lh"].forEach(s => $(s).addEventListener("input", calcTaille));
   stickyWatch();
 }

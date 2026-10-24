@@ -249,3 +249,10 @@ section.eco .lead,section.eco .eco-list{color:#D9DEE6}
 .eco-calc{color:var(--ink);margin:0;max-width:none}
 .eco-calc h3{margin-bottom:4px}
 @media (max-width:860px){.eco-in{grid-template-columns:1fr;gap:28px}}
+.dial-wrap{display:flex;justify-content:center;margin:8px 0 4px}
+.dial{width:min(260px,100%);height:auto;touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none}
+.dial:active{cursor:grabbing}
+.dial:focus-visible{outline:2px solid var(--brass);outline-offset:4px;border-radius:50%}
+.dial text{font-family:var(--sans)}
+.dial .dial-t{font-family:var(--serif)}
+.eco-big{display:block;font-family:var(--serif);font-size:2.4rem;line-height:1.1;color:var(--ok)}
