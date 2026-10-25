@@ -10,10 +10,12 @@ const OUT=process.argv[2];
   const css=`body{margin:0;background:transparent} .el{display:inline-block;padding:0}
    .logo{font-family:"Bodoni Moda",serif;font-weight:400;letter-spacing:.32em;padding-left:.32em;line-height:1}
    .f{font-size:64px;line-height:1.15}`;
-  document.body.innerHTML=`<style>${css}</style>
-   <div class="el logo" id="logo-noir" style="font-size:120px;color:#151412;padding:20px 10px 20px 50px">VAURE</div>
-   <div class="el logo" id="logo-ivoire" style="font-size:120px;color:#F8F5F0;padding:20px 10px 20px 50px">VAURE</div>
+  document.body.innerHTML=`<style>@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&display=swap');${css}</style>
+   <div class="el logo" id="logo-noir" style="font-size:120px;font-weight:500;color:#151412;padding:20px 10px 20px 50px">VAURE</div>
+   <div class="el logo" id="logo-ivoire" style="font-size:120px;font-weight:500;color:#F8F5F0;padding:20px 10px 20px 50px">VAURE</div>
    <div class="el logo" id="logo-or" style="font-size:120px;color:#C9A35E;padding:20px 10px 20px 50px">VAURE</div>
+   <div class="el logo" id="logo-noir-gras" style="font-size:120px;font-weight:600;color:#151412;padding:20px 10px 20px 50px">VAURE</div>
+   <div class="el logo" id="logo-or-gras" style="font-size:120px;font-weight:600;color:#C9A35E;padding:20px 10px 20px 50px">VAURE</div>
    <div class="el" id="font-bodoni" style="font-family:'Bodoni Moda',serif;color:#151412;padding:10px"><div style="font-size:110px;line-height:1">Aa</div><div style="font-size:44px;margin-top:10px">Un éclat qui dure</div></div>
    <div class="el" id="font-manrope" style="font-family:Manrope,sans-serif;color:#151412;padding:10px"><div style="font-size:110px;line-height:1;font-weight:500">Aa</div><div style="font-size:40px;margin-top:10px">Livraison offerte à partir de 35 €</div></div>
    <div id="bij"></div>`;
@@ -21,7 +23,7 @@ const OUT=process.argv[2];
   document.getElementById('bij').innerHTML=items.map(([id,t,c])=>`<div id="img-${id}" style="width:400px;height:400px;display:inline-block">${ill(t,c)}</div>`).join('');
  });
  await p.waitForTimeout(800);
- for(const id of ['logo-noir','logo-ivoire','logo-or','font-bodoni','font-manrope'])
+ for(const id of ['logo-noir','logo-ivoire','logo-or','logo-noir-gras','logo-or-gras','font-bodoni','font-manrope'])
    await (await p.$('#'+id)).screenshot({path:`${OUT}/${id}.png`,omitBackground:true});
  for(const id of ['collier','bracelet','puces','creoles','anneau','earcuff','foulard','sac','parure','coffret'])
    await (await p.$('#img-'+id)).screenshot({path:`${OUT}/bijou-${id}.png`});

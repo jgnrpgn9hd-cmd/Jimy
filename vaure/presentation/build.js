@@ -5,7 +5,7 @@ const { applyTheme } = require("/root/.claude/skills/synced/02482a84-12a4-4e3f-a
 
 const OUT = process.argv[2] || "VAURE-presentation.pptx";
 const A = f => path.join(__dirname, "assets", f);
-const LOGO_R = 5.773; // largeur / hauteur des images du logo
+const LOGO_R = 5.833, LOGO_G = 5.908; // largeur / hauteur des logos (fin, gras)
 
 const THEME = {
   name: "VAURE",
@@ -43,21 +43,34 @@ pres.defineSlideMaster({
   objects: [
     { placeholder: { options: { name: "kicker", type: "body", x: M, y: 0.35, w: 9, h: 0.4, fontSize: 12, color: C.accent1, bold: true, charSpacing: 3, margin: 0 }, text: "" } },
     { placeholder: { options: { name: "title", type: "title", x: M, y: 0.72, w: CW, h: 0.9, fontSize: 36, color: C.text1, fontFace: THEME.headFontFace, margin: 0, valign: "top", align: "left" }, text: "" } },
-    { image: { x: M, y: 7.02, w: 0.2 * LOGO_R, h: 0.2, path: A("logo-noir.png") } }
+    { image: { x: M, y: 6.98, w: 0.24 * LOGO_G, h: 0.24, path: A("logo-noir-gras.png") } }
   ],
   slideNumber: { x: 12.2, y: 6.98, w: 0.5, h: 0.3, fontSize: 10, color: C.text2, align: "right" }
 });
 
+/* ---------- typographie française ----------
+   apostrophe courbe, espace insécable avant : ; ! ? » € % et après « */
+const fr = t => typeof t === "string"
+  ? t.replace(/'/g, "\u2019").replace(/ ([:;!?»€%])/g, "\u00A0$1").replace(/« /g, "«\u00A0")
+  : Array.isArray(t) ? t.map(r => typeof r === "string" ? fr(r) : { ...r, text: fr(r.text) }) : t;
+const typo = s => {
+  const at = s.addText.bind(s), ab = s.addTable.bind(s), an = s.addNotes.bind(s);
+  s.addText = (t, o) => at(fr(t), o);
+  s.addTable = (rows, o) => ab(rows.map(r => r.map(c => typeof c === "string" ? fr(c) : { ...c, text: fr(c.text) })), o);
+  s.addNotes = t => an(fr(t));
+  return s;
+};
+
 /* ---------- aides ---------- */
 const dark = (sec, kicker, title, body) => {
-  const s = pres.addSlide({ masterName: "SOMBRE", sectionTitle: sec });
+  const s = typo(pres.addSlide({ masterName: "SOMBRE", sectionTitle: sec }));
   if (kicker) s.addText(kicker, { placeholder: "kicker" });
   if (title) s.addText(title, { placeholder: "title" });
   if (body) s.addText(body, { placeholder: "body" });
   return s;
 };
 const content = (sec, kicker, title) => {
-  const s = pres.addSlide({ masterName: "CONTENU", sectionTitle: sec });
+  const s = typo(pres.addSlide({ masterName: "CONTENU", sectionTitle: sec }));
   s.addText(kicker, { placeholder: "kicker" });
   s.addText(title, { placeholder: "title" });
   return s;
@@ -105,7 +118,7 @@ pres.addSection({ title: "La niche" });
 /* ===== 3. La cliente ===== */
 {
   const s = content("La niche", "LA CLIENTE", "À qui je vends");
-  carte(s, M, 1.9, 5.3, 4.8, "Carte persona");
+  carte(s, M, 1.9, 5.3, 4.8, "Carte persona", C.accent5);
   img(s, "bijou-collier.png", M, 1.9, 5.3, 2.2, "Illustration collier");
   txt(s, "Léa, 28 ans", { x: M + 0.35, y: 4.3, w: 4.6, h: 0.5, fontSize: 24, bold: true, fontFace: THEME.headFontFace, objectName: "Persona nom" });
   s.addText([
@@ -130,8 +143,8 @@ pres.addSection({ title: "La niche" });
 /* ===== 4. La promesse ===== */
 {
   const s = dark("La niche", "LA PROMESSE PRODUIT", "« Mon bijou aide ma cliente à briller tous les jours, sans qu'il noircisse ni l'irrite. »",
-    "Mon produit aide ma cliente à ___, sans ___.");
-  s.addNotes("La promesse en une phrase. Elle est en haut du site : « Des bijoux qui ne noircissent pas ».");
+    "En haut du site, elle devient : « Des bijoux qui ne noircissent pas. »");
+  s.addNotes("La promesse en une phrase, sur le modèle : mon produit aide ma cliente à…, sans…");
 }
 
 /* ===== 5. Les critères ===== */
@@ -200,7 +213,7 @@ pres.addSection({ title: "L'offre" });
 {
   const s = content("L'offre", "LE PRODUIT HÉROS", "Le collier Marguerite");
   img(s, "bijou-collier.png", M, 1.85, 4.9, 4.9, "Illustration du collier Marguerite");
-  [["6,64 €", "coût livré en France"], ["24,90 €", "prix de vente"], ["17,51 €", "reste avant la pub, sans TVA"]].forEach(([v, l], i) => {
+  [["6,64 €", "coût livré en France"], ["24,90 €", "prix de vente"], ["17,51 €", "reste avant la pub"]].forEach(([v, l], i) => {
     const x = 5.85 + i * 2.32, dk = i === 2;
     carte(s, x, 1.85, 2.18, 1.85, "Chiffre " + (i + 1), dk ? C.text1 : C.background2);
     s.addText(v, { x: x + 0.1, y: 2.0, w: 1.98, h: 0.85, fontSize: 30, bold: true, color: dk ? C.accent1 : C.text1, fontFace: THEME.headFontFace, align: "center", valign: "middle", margin: 0, isTextBox: true, objectName: "Chiffre valeur " + (i + 1) });
@@ -212,7 +225,7 @@ pres.addSection({ title: "L'offre" });
     { text: "Prix fixé à environ 3,7 fois le coût livré (minimum conseillé : 3 fois)", options: { bullet: true, breakLine: true } },
     { text: "À vérifier : 7 jours sous la douche avec l'échantillon avant d'écrire « résiste à l'eau »", options: { bullet: true } }
   ], { x: 5.85, y: 4.05, w: 6.85, h: 2.7, fontSize: 15, color: C.text1, paraSpaceAfter: 8, valign: "top", margin: 0, isTextBox: true, objectName: "Détails héros" });
-  s.addNotes("Calcul : 24,90 € moins 6,64 € de coût livré et environ 0,75 € de frais de paiement, soit 17,51 €. Avec la TVA, il reste 13,36 €. L'illustration sera remplacée par la photo de l'échantillon.");
+  s.addNotes("Calcul, sans TVA : 24,90 € moins 6,64 € de coût livré et environ 0,75 € de frais de paiement, soit 17,51 €. Avec la TVA, il reste 13,36 €. L'illustration sera remplacée par la photo de l'échantillon.");
 }
 
 /* ===== 9. La gamme ===== */
@@ -238,7 +251,7 @@ pres.addSection({ title: "L'offre" });
 /* ===== 10. Le panier moyen ===== */
 {
   const s = content("L'offre", "LE PANIER MOYEN", "La marge vient des ensembles");
-  s.addChart(pres.charts.BAR, [{ name: "Reste avant la pub (€)", labels: ["Collier seul (24,90 €)", "Collier + bracelet (38,80 €)", "Parure en écrin (44,90 €)"], values: [17.51, 25.6, 27.5] }], {
+  s.addChart(pres.charts.BAR, [{ name: "Reste avant la pub (€)", labels: ["Collier seul (24,90 €)", "Collier + bracelet (38,80 €)", "Parure en écrin (44,90 €)"].map(fr), values: [17.51, 25.6, 27.5] }], {
     x: M, y: 1.85, w: 7.2, h: 4.9, barDir: "bar",
     chartColors: [THEME.colors.accent1],
     showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: "0.00\" €\"", dataLabelColor: C.text1, dataLabelFontSize: 14, dataLabelFontFace: "+mn-lt",
@@ -263,14 +276,14 @@ pres.addSection({ title: "L'offre" });
 pres.addSection({ title: "Vendre" });
 {
   const s = content("Vendre", "CONFIANCE", "Une urgence vraie, un ton de maison de bijoux");
-  carte(s, M, 1.85, 5.95, 4.9, "Carte urgence");
+  carte(s, M, 1.85, 5.95, 4.2, "Carte urgence");
   txt(s, "L'urgence, toujours vraie", { x: M + 0.4, y: 2.15, w: 5.2, h: 0.5, fontSize: 20, bold: true, fontFace: THEME.headFontFace, objectName: "Urgence titre" });
   s.addText([
     { text: "Noël : « commandez avant le 8 décembre », calculé sur le vrai délai de livraison", options: { bullet: true, breakLine: true } },
     { text: "Date de livraison estimée sur chaque fiche", options: { bullet: true, breakLine: true } },
     { text: "Fête des mères, Saint-Valentin : de vraies dates", options: { bullet: true, breakLine: true } },
     { text: "Jamais de faux compte à rebours, faux stock ni faux avis", options: { bullet: true } }
-  ], { x: M + 0.4, y: 2.8, w: 5.2, h: 3.7, fontSize: 15, color: C.text1, paraSpaceAfter: 10, valign: "top", margin: 0, isTextBox: true, objectName: "Urgence liste" });
+  ], { x: M + 0.4, y: 2.8, w: 5.2, h: 3.1, fontSize: 15, color: C.text1, paraSpaceAfter: 10, valign: "top", margin: 0, isTextBox: true, objectName: "Urgence liste" });
   const H = o => ({ text: o, options: { bold: true, color: C.background1, fill: { color: C.text1 } } });
   s.addTable([
     [H("On n'écrit pas"), H("On écrit")],
@@ -295,14 +308,14 @@ pres.addSection({ title: "Vendre" });
     txt(s, t, { x: M + 1.0, y, w: 5.5, h: 0.45, fontSize: 17, bold: true, objectName: "Vidéo titre " + n });
     txt(s, d, { x: M + 1.0, y: y + 0.47, w: 5.5, h: 0.45, color: C.text2, objectName: "Vidéo texte " + n });
   });
-  carte(s, 7.3, 1.85, 5.43, 4.9, "Carte test", C.text1);
+  carte(s, 7.3, 1.85, 5.43, 4.0, "Carte test", C.text1);
   txt(s, "Le test", { x: 7.7, y: 2.15, w: 4.7, h: 0.5, fontSize: 20, bold: true, color: C.accent1, fontFace: THEME.headFontFace, objectName: "Test titre" });
   s.addText([
     { text: "3 vidéos × 10 € par jour, pendant 3 à 4 jours", options: { bullet: true, breakLine: true } },
     { text: "Femmes de 18 à 45 ans, en France", options: { bullet: true, breakLine: true } },
     { text: "On garde : clic > 1,5 %, coût par clic < 0,60 €, coût par achat < 15 €", options: { bullet: true, breakLine: true } },
-    { text: "On coupe une vidéo sans ajout au panier après 25 €", options: { bullet: true } }
-  ], { x: 7.7, y: 2.8, w: 4.7, h: 3.7, fontSize: 15, color: C.background1, paraSpaceAfter: 10, valign: "top", margin: 0, isTextBox: true, objectName: "Test liste" });
+    { text: "On coupe une vidéo qui n'a aucun ajout au panier après 25 €", options: { bullet: true } }
+  ], { x: 7.7, y: 2.8, w: 4.7, h: 2.8, fontSize: 15, color: C.background1, paraSpaceAfter: 10, valign: "top", margin: 0, isTextBox: true, objectName: "Test liste" });
   s.addNotes("Budget total du premier test : environ 150 €, plus environ 20 € d'échantillons.");
 }
 
@@ -321,8 +334,8 @@ pres.addSection({ title: "Vendre" });
     txt(s, t, { x, y: 3.15, w: 2.25, h: 0.45, fontSize: 17, bold: true, objectName: "Étape titre " + n });
     txt(s, d, { x, y: 3.65, w: 2.25, h: 1.4, fontSize: 14, color: C.text2, objectName: "Étape texte " + n });
   });
-  carte(s, M, 5.5, CW, 1.2, "Encadré site");
-  txt(s, "Le site de démonstration est prêt : accueil, collections, fiches produit, coffret, panier et pages d'aide, dans l'identité VAURE.", { x: M + 0.4, y: 5.5, w: CW - 0.8, h: 1.2, valign: "middle", objectName: "Site prêt" });
+  carte(s, M, 5.1, CW, 1.1, "Encadré site");
+  txt(s, "Le site de démonstration est prêt : accueil, collections, fiches produit, coffret, panier et pages d'aide, dans l'identité VAURE.", { x: M + 0.4, y: 5.1, w: CW - 0.8, h: 1.1, valign: "middle", objectName: "Site prêt" });
   s.addNotes("Le site de démonstration est dans le dossier vaure/site du dépôt GitHub.");
 }
 
@@ -331,7 +344,7 @@ pres.addSection({ title: "Clôture" });
 {
   const s = dark("Clôture", "EN RÉSUMÉ", "Un éclat qui dure",
     "Une niche précise, un problème réel, un produit léger et rentable.\nProchaine étape : les échantillons et le premier test.");
-  img(s, "logo-or.png", (13.333 - 2.6) / 2, 6.45, 2.6, 2.6 / LOGO_R, "Logo VAURE doré");
+  img(s, "logo-or-gras.png", (13.333 - 2.4) / 2, 6.45, 2.4, 2.4 / LOGO_G, "Logo VAURE doré");
   s.addNotes("Résumé : niche, problème, produit héros, prochaine étape.");
 }
 
