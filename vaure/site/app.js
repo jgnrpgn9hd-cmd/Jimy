@@ -1,76 +1,6 @@
 /* VAURE — site de démonstration (aucun paiement réel).
-   Tout ce qui dépend du fournisseur ou de la date est dans CONFIG. */
+   Réglages et catalogue : data.js. */
 
-const CONFIG = {
-  livraisonOfferteDes: 35,
-  fraisLivraison: 3.9,
-  delai: { prepa: [1, 3], transport: [7, 12] }, // jours ouvrés — « Jewel Shipping » CJ vers la France, à confirmer
-  noelLimite: "2026-12-08",
-  promo: null, // ex. { debut, fin, code, taux, texte } — une maison de bijoux fait peu de promotions ; à n'activer que pour une vraie vente privée
-  bienvenue: { code: "BIENVENUE10", taux: 0.10 },
-  duoRemise: 0.30, // prix « avec » pour la pièce assortie (jamais affiché en pourcentage)
-  box: { 3: 29.9, 5: 44.9, plafond: 19.9 }, // bijoux éligibles jusqu'à 19,90 €
-  email: "contact@vaurestudio.com"
-};
-
-/* ---------- catalogue ----------
-   cj : référence CJ connue ; les autres sont à trouver (voir docs/plan-vaure.md). */
-const CATS = {
-  bijoux: { nom: "Bijoux", sous: ["Colliers", "Bracelets", "Boucles d'oreilles"], intro: "Acier inoxydable 316L et titane, dorés. Ils se portent sous la douche, à la mer et au sport, sans noircir." },
-  piercings: { nom: "Piercings", sous: ["Titane", "Sans perçage"], intro: "Des piercings en titane pour les peaux sensibles, et des bijoux « effet piercing » qui se clipsent, sans trou." },
-  foulards: { nom: "Foulards et cheveux", sous: ["Foulards", "Cheveux"], intro: "Des foulards satinés fins et des accessoires cheveux dorés, pour finir une tenue en un geste." },
-  sacs: { nom: "Sacs", sous: ["Mini sacs", "Pochettes"], intro: "Des petits sacs sans logo, à porter le jour comme le soir." },
-  cadeaux: { nom: "Idées cadeaux", sous: ["Parures", "Petites attentions"], intro: "Des parures prêtes à offrir et de petites attentions à offrir." }
-};
-const METAUX = [{ id: "or", nom: "Doré", hex: "#C9A35E" }, { id: "argent", nom: "Argenté", hex: "#BFC1C2" }];
-
-const P = {
-  "collier-marguerite": { nom: "Collier Marguerite", cat: "bijoux", sub: "Colliers", prix: 24.9, ill: "collier-fleur", metaux: ["or"], tag: "Incontournable",
-    mat: "Acier titane plaqué or", cj: "CJLX171494501AZ", duo: "bracelet-marguerite",
-    desc: "Une chaîne fine semée de petites marguerites dorées. Discret le jour, il illumine un décolleté le soir." },
-  "bracelet-marguerite": { nom: "Bracelet Marguerite", cat: "bijoux", sub: "Bracelets", prix: 19.9, ill: "bracelet-fleur", metaux: ["or"],
-    mat: "Acier titane plaqué or", duo: "collier-marguerite", desc: "Le bracelet assorti au collier Marguerite, réglable de 16 à 21 cm." },
-  "puces-marguerite": { nom: "Puces Marguerite", cat: "bijoux", sub: "Boucles d'oreilles", prix: 16.9, ill: "puces-fleur", metaux: ["or"],
-    mat: "Acier inoxydable 316L plaqué or", duo: "collier-marguerite", desc: "De petites fleurs dorées qui suivent la parure Marguerite. Tige en acier 316L." },
-  "chaine-serpent": { nom: "Chaîne Serpent", cat: "bijoux", sub: "Colliers", prix: 19.9, ill: "collier-serpent", metaux: ["or", "argent"],
-    mat: "Acier inoxydable 316L", duo: "jonc-fin", desc: "Une chaîne plate et liquide qui attrape la lumière. Elle se porte seule ou avec d'autres colliers." },
-  "collier-initiale": { nom: "Collier Initiale", cat: "bijoux", sub: "Colliers", prix: 24.9, ill: "collier-initiale", metaux: ["or", "argent"], tag: "Idée cadeau",
-    mat: "Acier inoxydable 316L", duo: "bracelet-trombone", desc: "Une lettre dorée sur une chaîne fine. Le cadeau personnel qui ne se trompe pas." },
-  "jonc-fin": { nom: "Jonc Fin", cat: "bijoux", sub: "Bracelets", prix: 19.9, ill: "jonc", metaux: ["or", "argent"],
-    mat: "Acier inoxydable 316L", duo: "chaine-serpent", desc: "Un jonc ouvert, fin et lisse, qui s'empile avec vos autres bracelets." },
-  "bracelet-trombone": { nom: "Bracelet Trombone", cat: "bijoux", sub: "Bracelets", prix: 17.9, ill: "bracelet-maille", metaux: ["or", "argent"],
-    mat: "Acier inoxydable 316L", duo: "collier-initiale", desc: "Une maille trombone tendance, ni trop fine ni trop épaisse." },
-  "creoles-epaisses": { nom: "Créoles Épaisses", cat: "bijoux", sub: "Boucles d'oreilles", prix: 19.9, ill: "creoles", metaux: ["or", "argent"], tag: "Incontournable",
-    mat: "Acier inoxydable 316L", duo: "chaine-serpent", desc: "Des créoles bombées et légères : l'effet bijou en or, sans le poids." },
-  "creoles-fines": { nom: "Mini Créoles", cat: "bijoux", sub: "Boucles d'oreilles", prix: 14.9, ill: "creoles-fines", metaux: ["or", "argent"],
-    mat: "Acier inoxydable 316L", duo: "jonc-fin", desc: "De petites créoles qu'on ne quitte plus, même pour dormir." },
-  "anneau-nez-titane": { nom: "Anneau de nez Titane", cat: "piercings", sub: "Titane", prix: 14.9, ill: "anneau-nez", metaux: ["or", "argent"],
-    mat: "Titane ASTM F136", piercing: true, duo: "helix-titane", desc: "Un anneau fin à clic, en titane, le métal le mieux toléré par les peaux sensibles." },
-  "helix-titane": { nom: "Piercing Hélix Titane", cat: "piercings", sub: "Titane", prix: 14.9, ill: "helix", metaux: ["or", "argent"],
-    mat: "Titane ASTM F136", piercing: true, duo: "anneau-nez-titane", desc: "Une petite pierre claire sur une tige en titane, pour l'hélix ou le lobe." },
-  "faux-anneau-nez": { nom: "Anneau de nez sans perçage", cat: "piercings", sub: "Sans perçage", prix: 12.9, ill: "anneau-nez", metaux: ["or", "argent"], tag: "Sans perçage",
-    mat: "Acier inoxydable 316L", duo: "ear-cuff", desc: "L'allure d'un piercing, sans perçage : il se pose sur la narine et tient toute la journée." },
-  "ear-cuff": { nom: "Ear cuff sans perçage", cat: "piercings", sub: "Sans perçage", prix: 14.9, ill: "ear-cuff", metaux: ["or", "argent"], tag: "Sans perçage",
-    mat: "Acier inoxydable 316L", duo: "faux-anneau-nez", desc: "Une bague d'oreille qui se glisse sur le cartilage. L'allure d'un piercing, sans perçage." },
-  "foulard-satin": { nom: "Foulard Satiné 70 cm", cat: "foulards", sub: "Foulards", prix: 17.9, ill: "foulard", coloris: ["Crème", "Noir", "Caramel"],
-    mat: "Polyester satiné, toucher soyeux", duo: "pince-doree", desc: "Au cou, dans les cheveux ou noué sur un sac : un carré satiné qui habille tout." },
-  "foulard-fin": { nom: "Foulard Ruban", cat: "foulards", sub: "Foulards", prix: 12.9, ill: "ruban", coloris: ["Crème", "Noir", "Caramel"],
-    mat: "Polyester satiné", duo: "pince-doree", desc: "Un foulard long et étroit, à nouer en serre-tête, au poignet ou à l'anse d'un sac." },
-  "pince-doree": { nom: "Pince à cheveux Dorée", cat: "foulards", sub: "Cheveux", prix: 12.9, ill: "pince",
-    mat: "Métal doré", duo: "foulard-fin", desc: "Une pince géométrique qui tient un chignon flou toute la journée." },
-  "barrettes-perles": { nom: "Barrettes Perles, lot de 2", cat: "foulards", sub: "Cheveux", prix: 9.9, ill: "barrette",
-    mat: "Métal doré, perles d'imitation", duo: "pince-doree", desc: "Deux barrettes ornées de perles d'imitation, pour une coiffure soignée en un geste." },
-  "mini-sac": { nom: "Mini Sac Bandoulière", cat: "sacs", sub: "Mini sacs", prix: 34.9, ill: "mini-sac", coloris: ["Crème", "Noir", "Caramel"], tag: "Nouveauté",
-    mat: "Similicuir, chaîne dorée", duo: "foulard-fin", desc: "Juste la place pour le téléphone, les clés et un rouge à lèvres. Bandoulière chaîne amovible." },
-  "pochette": { nom: "Pochette Soir", cat: "sacs", sub: "Pochettes", prix: 29.9, ill: "pochette", coloris: ["Crème", "Noir"],
-    mat: "Similicuir, fermoir doré", duo: "creoles-epaisses", desc: "Une pochette souple qui se tient à la main ou à l'épaule, pour les dîners et les fêtes." },
-  "parure-marguerite": { nom: "Parure Marguerite", cat: "cadeaux", sub: "Parures", prix: 44.9, ill: "parure", metaux: ["or"], tag: "En écrin",
-    mat: "Acier titane et 316L plaqué or", parure: ["collier-marguerite", "bracelet-marguerite", "puces-marguerite"],
-    desc: "Le collier, le bracelet et les puces Marguerite, réunis dans un écrin." },
-  "parure-essentielle": { nom: "Parure Essentielle", cat: "cadeaux", sub: "Parures", prix: 44.9, ill: "parure2", metaux: ["or", "argent"],
-    mat: "Acier inoxydable 316L", parure: ["chaine-serpent", "jonc-fin", "creoles-epaisses"],
-    desc: "Chaîne Serpent, Jonc Fin et Créoles Épaisses : les trois basiques qui vont avec tout." }
-};
 const prixDuo = id => Math.floor(P[id].prix * (1 - CONFIG.duoRemise)) + 0.9; // arrondi en ,90
 const prixSepares = id => P[id].parure.reduce((s, x) => s + P[x].prix, 0);
 const eligibleBox = id => (P[id].cat === "bijoux" || P[id].cat === "piercings") && P[id].prix <= CONFIG.box.plafond;
@@ -170,6 +100,7 @@ function renderCart() {
     <p class="small muted">${reste > 0 ? `Livraison suivie : ${eur(CONFIG.fraisLivraison)}` : "Livraison suivie offerte"} · Paiement en 3 fois dès 50 €</p>
     <a class="btn block" href="#/commande" data-closecart>Commander</a>
     <p class="small muted center">Paiement sécurisé · Retours sous 30 jours</p>`;
+  typo($("#cart"));
 }
 function addProduit(id, opt, prix, silent) {
   const p = P[id];
@@ -269,7 +200,7 @@ function viewHome() {
   <section class="alt"><div class="wrap center">
     <p class="eyebrow">L'univers VAURE</p>
     <h2>Pour finir la tenue</h2>
-    <div class="cats">${[["bijoux", "creoles"], ["piercings", "ear-cuff"], ["foulards", "foulard"], ["sacs", "mini-sac"]].map(([c, i]) => `<a href="#/collection/${c}">${ill(i, i === "foulard" || i === "mini-sac" ? "#EDE3D2" : "#C9A35E", "#E6DDCF")}<span>${CATS[c].nom}</span></a>`).join("")}</div>
+    <div class="cats">${[["bijoux", "creoles"], ["piercings", "ear-cuff"], ["foulards", "foulard"], ["sacs", "mini-sac"]].map(([c, i]) => `<a href="#/collection/${c}">${ill(i, i === "foulard" ? "#EDE3D2" : i === "mini-sac" ? "#1D1B19" : "#C9A35E", "#E6DDCF")}<span>${CATS[c].nom}</span></a>`).join("")}</div>
   </div></section>
 
   <section><div class="wrap center">
@@ -277,6 +208,19 @@ function viewHome() {
     <h2>Vos avis, vérifiés.</h2>
     <div class="reviews-empty"><p>Nous publions uniquement les avis de vraies clientes, recueillis après livraison. Les premiers arrivent avec les premières commandes.</p>
     <p class="small muted" style="margin-top:10px">Pas de faux avis, pas de note inventée.</p></div>
+  </div></section>
+
+  <section class="alt"><div class="wrap center">
+    <p class="eyebrow">Journal</p><h2>Conseils et inspirations</h2>
+    <div class="grid j-grid">${ARTICLES.map(cartArt).join("")}</div>
+    <p style="margin-top:24px"><a class="link" href="#/journal">Tous les articles</a></p>
+  </div></section>
+
+  <section><div class="wrap center">
+    <p class="eyebrow">@vaure.studio</p><h2>Portés par vous</h2>
+    <p class="lead" style="margin:12px auto 0">Partagez vos bijoux VAURE avec #vaurestudio : nous republions nos préférées, avec votre accord.</p>
+    <div class="insta">${["collier-fleur", "creoles", "ear-cuff", "jonc", "puces-fleur", "foulard"].map(t => `<div>${ill(t, t === "foulard" ? "#EDE3D2" : "#C9A35E", "#E6DDCF")}</div>`).join("")}</div>
+    <p class="todo" style="margin-top:12px">Emplacements provisoires : vos photos Instagram et celles de vos clientes.</p>
   </div></section>
 
   <section style="padding-top:0"><div class="wrap">
@@ -288,8 +232,18 @@ function viewHome() {
   </div></section>`;
 }
 
+let tri = "pertinence";
+const TRIS = [["pertinence", "Sélection"], ["prix-asc", "Prix croissant"], ["prix-desc", "Prix décroissant"], ["nom", "Nom"]];
+function trier(ids) {
+  const a = [...ids];
+  if (tri === "prix-asc") a.sort((x, y) => P[x].prix - P[y].prix);
+  if (tri === "prix-desc") a.sort((x, y) => P[y].prix - P[x].prix);
+  if (tri === "nom") a.sort((x, y) => P[x].nom.localeCompare(P[y].nom, "fr"));
+  return a;
+}
 function viewCollection(cat, sub) {
-  const c = CATS[cat] || CATS.bijoux;
+  if (!CATS[cat]) return view404();
+  const c = CATS[cat];
   let ids = Object.keys(P).filter(id => cat === "cadeaux" ? (P[id].cat === "cadeaux" || P[id].prix < 20) : P[id].cat === cat);
   if (sub) ids = ids.filter(id => cat === "cadeaux" ? (sub === "Parures" ? P[id].parure : P[id].prix < 20 && !P[id].parure) : P[id].sub === sub);
   return `<section><div class="wrap">
@@ -298,14 +252,25 @@ function viewCollection(cat, sub) {
     <p class="lead center" style="margin-top:12px">${c.intro}</p>
     ${cat === "piercings" ? `<p class="mat-box center" style="max-width:720px;margin:20px auto 0">Piercings en titane ASTM F136, livrés sous emballage scellé. Pour des raisons d'hygiène, un piercing ouvert ne peut pas être retourné. Pour un premier perçage, passez par un perceur professionnel.</p>` : ""}
     <div class="filters">${["", ...c.sous].map(s => `<a class="${(sub || "") === s ? "on" : ""}" href="#/collection/${cat}${s ? "/" + encodeURIComponent(s) : ""}">${s || "Tout"}</a>`).join("")}</div>
-    <div class="grid">${ids.map(carte).join("")}</div>
+    <div class="coll-bar"><span class="muted small">${ids.length} pièce${ids.length > 1 ? "s" : ""}</span>
+      <label class="small">Trier par <select data-tri>${TRIS.map(([k, v]) => `<option value="${k}" ${k === tri ? "selected" : ""}>${v}</option>`).join("")}</select></label></div>
+    <div class="grid" style="margin-top:16px">${trier(ids).map(carte).join("")}</div>
   </div></section>`;
 }
 
 let sel = {};
+let vus = store("vaure-vus") || [];
+// vue 0 : le bijou ; vue 1 : sur fond nuit ; vue 2 : dans son écrin
+function vue(id, opt, v) {
+  const p = P[id];
+  if (v === 1) { const m = METAUX.find(x => x.id === opt) || METAUX[0]; return ill(p.ill, p.coloris ? FOND[opt] || FOND[p.coloris[0]] : m.hex, "#1E1C1A"); }
+  if (v === 2) return ill("box");
+  return illP(id, opt);
+}
 function viewProduit(id) {
-  const p = P[id]; if (!p) return viewHome();
-  const s = sel[id] ||= { opt: p.metaux ? p.metaux[0] : p.coloris?.[0] };
+  const p = P[id]; if (!p) return view404();
+  const s = sel[id] ||= { opt: p.metaux ? p.metaux[0] : p.coloris?.[0], v: 0 };
+  vus = [id, ...vus.filter(x => x !== id)].slice(0, 8); store("vaure-vus", vus);
   const [d1, d2] = fenetreLivraison(), noel = noelActif();
   const duo = p.duo && P[p.duo];
   const opts = p.metaux ? p.metaux.map(m => METAUX.find(x => x.id === m)) : (p.coloris || []).map(c => ({ id: c, nom: c, hex: FOND[c] }));
@@ -313,8 +278,9 @@ function viewProduit(id) {
   <div class="wrap"><p class="crumbs"><a href="#/">Accueil</a> / <a href="#/collection/${p.cat}">${CATS[p.cat].nom}</a> / ${p.nom}</p></div>
   <div class="wrap pdp">
     <div class="gallery">
-      <div class="main-pic">${illP(id, s.opt)}</div>
-      <p class="todo">Illustration provisoire : à remplacer par les photos CJ, puis par les photos des échantillons portés.</p>
+      <div class="main-pic">${vue(id, s.opt, s.v || 0)}</div>
+      <div class="thumbs">${[0, 1, 2].map(v => `<button class="${(s.v || 0) === v ? "on" : ""}" data-vue="${v}" aria-label="Vue ${v + 1}">${vue(id, s.opt, v)}</button>`).join("")}</div>
+      <p class="todo">Illustrations provisoires : à remplacer par les photos CJ, puis par les photos des échantillons portés.</p>
     </div>
     <div class="buy">
       ${p.tag ? `<p class="eyebrow">${p.tag}</p>` : ""}
@@ -338,8 +304,15 @@ function viewProduit(id) {
       </div>
     </div>
   </div>
+  <section><div class="wrap"><div class="avis">
+    <div><p class="eyebrow">Avis clientes</p><h2>Ce qu'elles en pensent</h2></div>
+    <div><p>Les avis de ce bijou s'afficheront ici, uniquement ceux de clientes ayant reçu leur commande. Ils sont recueillis par e-mail après la livraison, avec photo si elles le souhaitent.</p>
+    <p class="small muted" style="margin-top:8px">Pas de faux avis ni de note inventée.</p></div>
+  </div></div></section>
   <section class="alt"><div class="wrap center"><h2>Vous aimerez aussi</h2>
     <div class="grid">${Object.keys(P).filter(x => x !== id && P[x].cat === p.cat).slice(0, 4).map(carte).join("")}</div></div></section>
+  ${vus.filter(x => x !== id && P[x]).length ? `<section><div class="wrap center"><h2>Récemment consultés</h2>
+    <div class="grid">${vus.filter(x => x !== id && P[x]).slice(0, 4).map(carte).join("")}</div></div></section>` : ""}
   <div class="sticky-buy" id="stickyBuy"><div><b>${eur(p.prix)}</b><br><small class="muted">${p.nom}</small></div><button class="btn" data-buy="${id}">Ajouter</button></div>`;
 }
 
@@ -361,7 +334,7 @@ function viewBox() {
         <div class="box-size">${[3, 5].map(n => `<button class="${n === box.n ? "on" : ""}" data-boxn="${n}">${n} pièces · ${eur(CONFIG.box[n])}</button>`).join("")}</div>
         <div class="box-slots">${Array.from({ length: box.n }, (_, i) => `<i>${box.items[i] ? illP(box.items[i]) : i + 1}</i>`).join("")}</div>
         <p class="small muted">${box.items.length} sur ${box.n} pièces choisies</p>
-        <button class="btn block" style="margin-top:14px${box.items.length === box.n ? "" : ";opacity:.4"}" data-boxadd ${box.items.length === box.n ? "" : "disabled"}>Ajouter la box · ${eur(prix)}</button>
+        <button class="btn block" style="margin-top:14px${box.items.length === box.n ? "" : ";opacity:.4"}" data-boxadd ${box.items.length === box.n ? "" : "disabled"}>Ajouter le coffret · ${eur(prix)}</button>
       </aside>
     </div>
   </div></section>`;
@@ -400,49 +373,196 @@ const PAGES = {
     <form data-contact><input required placeholder="Votre nom" aria-label="Votre nom"><input required type="email" placeholder="Votre e-mail" aria-label="Votre e-mail"><input placeholder="Numéro de commande (si vous en avez un)" aria-label="Numéro de commande"><textarea required rows="5" placeholder="Votre message" aria-label="Message"></textarea><button class="btn">Envoyer</button></form>`],
   suivi: ["Suivre ma commande", `<p>Entrez le numéro reçu par e-mail. <span class="ph">[Sur Shopify : application de suivi, par exemple ParcelPanel.]</span></p>
     <form data-suivi><input required placeholder="Numéro de suivi ou de commande" aria-label="Numéro de suivi"><button class="btn">Suivre</button></form>`],
-  cgv: ["Conditions générales de vente", `<p class="ph">[À compléter et à faire relire : vendeur (nom, SIREN, adresse), prix TTC, commande, paiement, livraison, rétractation 14 jours (nous offrons 30), exception hygiène des piercings, garanties légales, médiateur de la consommation, données personnelles.]</p>`],
-  mentions: ["Mentions légales", `<p class="ph">[Éditeur : nom, statut, SIREN, adresse, e-mail. Hébergeur : Shopify Inc., 151 O'Connor Street, Ground floor, Ottawa, ON K2P 2L8, Canada.]</p>`],
-  confidentialite: ["Confidentialité", `<p class="ph">[Données collectées, finalités, durées, destinataires (Shopify, transporteur, outil d'e-mail), droits RGPD, cookies et bandeau de consentement.]</p>`]
+  cgv: ["Conditions générales de vente", `<p class="ph">Brouillon à faire relire. Les éléments entre crochets sont à compléter.</p>
+    <h2>1. Vendeur</h2><p>Les présentes conditions régissent les ventes du site vaurestudio.com, édité par [Prénom Nom], [statut : micro-entreprise], SIREN [numéro], [adresse], e-mail ${CONFIG.email}.</p>
+    <h2>2. Produits</h2><p>Les bijoux et accessoires sont décrits le plus fidèlement possible : matière, dimensions, finition. Les photos peuvent présenter de légères différences de couleur selon l'écran. Les bijoux dorés sont en acier inoxydable ou en titane plaqué or ; ce ne sont pas des bijoux en or massif.</p>
+    <h2>3. Prix</h2><p>Les prix sont indiqués en euros, toutes taxes comprises [ou : TVA non applicable, article 293 B du CGI]. Les frais de livraison sont indiqués avant la validation de la commande.</p>
+    <h2>4. Commande et paiement</h2><p>La commande est ferme après paiement. Le paiement est effectué par carte bancaire, PayPal, Apple Pay ou Google Pay via des prestataires sécurisés ; le vendeur n'a jamais accès aux numéros de carte.</p>
+    <h2>5. Livraison</h2><p>Les commandes sont préparées sous ${CONFIG.delai.prepa.join(" à ")} jours ouvrés et livrées sous ${CONFIG.delai.transport.join(" à ")} jours ouvrés environ, avec suivi, en France, en Belgique et en Suisse.</p>
+    <h2>6. Droit de rétractation</h2><p>Vous disposez de 14 jours à compter de la réception pour vous rétracter sans motif (article L221-18 du Code de la consommation) ; VAURE prolonge ce délai à 30 jours. Le bijou doit être retourné non porté, dans son emballage d'origine. Exception : les piercings dont l'emballage scellé a été ouvert ne peuvent pas être retournés pour des raisons d'hygiène (article L221-28, 5°).</p>
+    <h2>7. Garanties légales</h2><p>Les produits bénéficient de la garantie légale de conformité (articles L217-3 et suivants du Code de la consommation) et de la garantie des vices cachés (articles 1641 et suivants du Code civil).</p>
+    <h2>8. Médiation</h2><p>En cas de litige non résolu, vous pouvez recourir gratuitement au médiateur de la consommation : [nom du médiateur, site internet].</p>
+    <h2>9. Données personnelles</h2><p>Voir la <a class="link" href="#/page/confidentialite">politique de confidentialité</a>.</p>`],
+  mentions: ["Mentions légales", `<h2>Éditeur</h2><p>[Prénom Nom], [statut], SIREN [numéro], [adresse]. Contact : ${CONFIG.email}. Directeur de la publication : [Prénom Nom].</p>
+    <h2>Hébergeur</h2><p>Shopify Inc., 151 O'Connor Street, Ground floor, Ottawa, ON K2P 2L8, Canada.</p>
+    <h2>Propriété intellectuelle</h2><p>Le nom VAURE, le logo, les textes et les visuels du site sont protégés. Toute reproduction sans autorisation est interdite.</p>`],
+  confidentialite: ["Confidentialité", `<p>Nous collectons uniquement les données utiles à votre commande et, avec votre accord, à nos e-mails.</p>
+    <h2>Données collectées</h2><ul><li>Commande : nom, adresse, e-mail, téléphone éventuel, produits achetés.</li><li>Lettre VAURE : e-mail, si vous vous inscrivez.</li><li>Navigation : cookies, selon vos choix.</li></ul>
+    <h2>Destinataires</h2><p>Shopify (boutique et paiement), le transporteur, notre fournisseur pour l'expédition, notre outil d'e-mails. Aucune donnée n'est vendue.</p>
+    <h2>Durée</h2><p>Données de commande : durée légale de conservation comptable. Lettre VAURE : jusqu'à votre désinscription.</p>
+    <h2>Vos droits</h2><p>Accès, rectification, effacement, opposition et portabilité : écrivez à ${CONFIG.email}. Vous pouvez aussi saisir la CNIL.</p>`],
+  cookies: ["Cookies", `<p>Certains cookies sont nécessaires au fonctionnement du site (panier, sécurité). Les autres (mesure d'audience, publicité) ne sont déposés qu'avec votre accord.</p>
+    <p>Vous pouvez changer d'avis à tout moment : <a class="link" href="#" data-cookie="reset">modifier mes choix</a>.</p>`]
 };
 const viewPage = id => PAGES[id] ? `<div class="wrap"><div class="page"><h1>${PAGES[id][0]}</h1>${PAGES[id][1]}</div></div>` : viewHome();
 
-function viewCommande() {
-  if (!cart.length) return `<div class="wrap"><div class="page"><h1>Commande</h1><p>Votre panier est vide.</p><a class="btn" href="#/collection/bijoux">Voir les bijoux</a></div></div>`;
-  const st = sousTotal(), port = st >= CONFIG.livraisonOfferteDes ? 0 : CONFIG.fraisLivraison;
-  const code = store("vaure-code"), p = promoActive();
+let cmd = store("vaure-cmd") || { etape: 1, info: {}, livraison: "suivie", cadeau: "" };
+const saveCmd = () => store("vaure-cmd", cmd);
+const LIVRAISONS = { suivie: { nom: "Livraison suivie", prix: st => st >= CONFIG.livraisonOfferteDes ? 0 : CONFIG.fraisLivraison, delai: CONFIG.delai } };
+function totaux() {
+  const st = sousTotal(), code = store("vaure-code"), p = promoActive();
   let remise = 0;
   if (code === CONFIG.bienvenue.code) remise = st * CONFIG.bienvenue.taux;
   if (p && code === p.code) remise = cart.filter(l => l.lot).reduce((s, l) => s + l.prix * l.q, 0) * p.taux;
-  const [d1, d2] = fenetreLivraison();
-  return `<div class="wrap checkout">
-    <div class="box">
+  const port = LIVRAISONS[cmd.livraison].prix(st);
+  return { st, code, remise, port, total: st - remise + port };
+}
+function viewCommande() {
+  if (!cart.length) return `<div class="wrap"><div class="page"><h1>Commande</h1><p>Votre panier est vide.</p><a class="btn" href="#/collection/bijoux">Voir les bijoux</a></div></div>`;
+  const t = totaux(), [d1, d2] = fenetreLivraison(), i = cmd.info;
+  const etapes = ["Informations", "Livraison", "Paiement"];
+  const champ = (id, label, ac, type = "text", req = true) => `<div><label for="c-${id}">${label}</label><input id="c-${id}" name="${id}" type="${type}" autocomplete="${ac}" value="${esc(i[id] || "")}" ${req ? "required" : ""}></div>`;
+  let corps;
+  if (cmd.etape === 1) corps = `<form data-etape="1">
+      <h2>Vos informations</h2>
+      ${champ("email", "E-mail", "email", "email")}
+      <div class="row">${champ("prenom", "Prénom", "given-name")}${champ("nom", "Nom", "family-name")}</div>
+      ${champ("adresse", "Adresse", "street-address")}
+      ${champ("complement", "Complément (facultatif)", "address-line2", "text", false)}
+      <div class="row">${champ("cp", "Code postal", "postal-code")}${champ("ville", "Ville", "address-level2")}</div>
+      <div><label for="c-pays">Pays</label><select id="c-pays" name="pays">${["France", "Belgique", "Suisse"].map(x => `<option ${i.pays === x ? "selected" : ""}>${x}</option>`).join("")}</select></div>
+      <button class="btn block" style="margin-top:20px">Continuer vers la livraison</button></form>`;
+  else if (cmd.etape === 2) corps = `<form data-etape="2">
       <h2>Livraison</h2>
-      <label for="ce">E-mail</label><input id="ce" type="email" autocomplete="email">
-      <div class="row"><div><label for="cp">Prénom</label><input id="cp" autocomplete="given-name"></div><div><label for="cn">Nom</label><input id="cn" autocomplete="family-name"></div></div>
-      <label for="ca">Adresse</label><input id="ca" autocomplete="street-address">
-      <div class="row"><div><label for="cz">Code postal</label><input id="cz" autocomplete="postal-code" inputmode="numeric"></div><div><label for="cv">Ville</label><input id="cv" autocomplete="address-level2"></div></div>
-      <p class="small muted" style="margin-top:14px">Livraison estimée entre le ${fmtJour(d1)} et le ${fmtJour(d2)}.</p>
-      <button class="btn block" style="margin-top:18px" data-pay>Continuer vers le paiement</button>
-      <p class="small muted center" style="margin-top:10px">Paiement sécurisé · Démo : aucun paiement</p>
-    </div>
+      <p class="small muted">${esc(i.prenom)} ${esc(i.nom)}, ${esc(i.adresse)}, ${esc(i.cp)} ${esc(i.ville)}, ${esc(i.pays || "France")} · <a href="#" class="link" data-etapego="1">modifier</a></p>
+      <label class="ship-opt on"><input type="radio" name="livraison" value="suivie" checked><span><b>Livraison suivie</b><br><span class="muted small">Entre le ${fmtJour(d1)} et le ${fmtJour(d2)}</span></span><b>${t.port ? eur(t.port) : "Offerte"}</b></label>
+      <div class="gift"><label for="c-cadeau"><b>Un message pour accompagner le bijou ?</b> <span class="muted small">(facultatif, glissé dans l'écrin)</span></label>
+      <textarea id="c-cadeau" name="cadeau" rows="3" maxlength="200" placeholder="Joyeux anniversaire, avec tout mon amour…">${esc(cmd.cadeau)}</textarea></div>
+      <p class="small muted">Chaque commande est expédiée dans un écrin VAURE.</p>
+      <button class="btn block" style="margin-top:16px">Continuer vers le paiement</button></form>`;
+  else corps = `<form data-etape="3">
+      <h2>Paiement</h2>
+      <p class="small muted">Toutes les transactions sont chiffrées. Sur la boutique, cette étape est le paiement sécurisé de Shopify.</p>
+      <div class="pay-opts">${["Carte bancaire", "PayPal", "Apple Pay", "Google Pay"].map((x, k) => `<label class="ship-opt ${k ? "" : "on"}"><input type="radio" name="moyen" ${k ? "" : "checked"}><span><b>${x}</b></span></label>`).join("")}</div>
+      <div class="demo-card"><div class="row"><div><label>Numéro de carte</label><input disabled placeholder="Démo : aucun paiement"></div><div><label>Expiration</label><input disabled placeholder="MM / AA"></div></div></div>
+      <label class="check"><input type="checkbox" required> J'accepte les <a class="link" href="#/page/cgv">conditions générales de vente</a>.</label>
+      <button class="btn block" style="margin-top:16px">Valider la commande · ${eur(t.total)}</button>
+      <p class="small muted center" style="margin-top:10px">Démo : aucun paiement ne sera effectué.</p></form>`;
+  return `<div class="wrap">
+    <ol class="steps">${etapes.map((e, k) => `<li class="${k + 1 === cmd.etape ? "on" : k + 1 < cmd.etape ? "done" : ""}">${k + 1 < cmd.etape ? `<a href="#" data-etapego="${k + 1}">${e}</a>` : e}</li>`).join("")}</ol>
+    <div class="checkout" style="padding-top:20px">
+    <div class="box">${corps}</div>
     <div class="box">
       <h2>Récapitulatif</h2>
       ${cart.map(l => `<div class="sum-line"><span>${l.q} × ${esc(l.nom)}<br><small class="muted">${esc(l.opt || "")}</small></span><span>${eur(l.prix * l.q)}</span></div>`).join("")}
-      <form data-code style="display:flex;gap:8px;margin:14px 0"><input placeholder="Code promo" aria-label="Code promo" value="${esc(code || "")}" style="flex:1"><button class="btn ghost" style="padding:10px 16px">OK</button></form>
-      <div class="sum-line"><span>Sous-total</span><span>${eur(st)}</span></div>
-      ${remise ? `<div class="sum-line"><span>Code ${esc(code)}</span><span>−${eur(remise)}</span></div>` : ""}
-      <div class="sum-line"><span>Livraison suivie</span><span>${port ? eur(port) : "Offerte"}</span></div>
-      <div class="sum-line tot"><span>Total TTC</span><span>${eur(st - remise + port)}</span></div>
+      <form data-code style="display:flex;gap:8px;margin:14px 0"><input placeholder="Code de réduction" aria-label="Code de réduction" value="${esc(t.code || "")}" style="flex:1"><button class="btn ghost" style="padding:10px 16px">OK</button></form>
+      <div class="sum-line"><span>Sous-total</span><span>${eur(t.st)}</span></div>
+      ${t.remise ? `<div class="sum-line"><span>Code ${esc(t.code)}</span><span>−${eur(t.remise)}</span></div>` : ""}
+      <div class="sum-line"><span>Livraison suivie</span><span>${t.port ? eur(t.port) : "Offerte"}</span></div>
+      <div class="sum-line tot"><span>Total TTC</span><span>${eur(t.total)}</span></div>
     </div>
-  </div>`;
+  </div></div>`;
+}
+function viewMerci() {
+  const c = store("vaure-derniere");
+  if (!c) return view404();
+  const [d1, d2] = fenetreLivraison(new Date(c.date));
+  return `<div class="wrap"><div class="page center">
+    <p class="eyebrow">Commande confirmée</p><h1>Merci, ${esc(c.prenom)}.</h1>
+    <p>Votre commande <b>${c.num}</b> est enregistrée. Un e-mail de confirmation vient de partir à <b>${esc(c.email)}</b>.</p>
+    <p>Livraison estimée entre le <b>${fmtJour(d1)}</b> et le <b>${fmtJour(d2)}</b>. Vous recevrez le numéro de suivi dès l'expédition.</p>
+    ${c.cadeau ? `<p class="mat-box">Votre message sera glissé dans l'écrin : « ${esc(c.cadeau)} »</p>` : ""}
+    <p class="small muted">Démo : aucune commande réelle n'a été passée.</p>
+    <a class="btn" href="#/" style="margin-top:20px">Retour à l'accueil</a>
+  </div></div>`;
+}
+
+/* espace client (démo : sur Shopify, ce sont les comptes clients) */
+function viewCompte() {
+  return `<div class="wrap"><div class="compte">
+    <form data-login class="box"><h2>Se connecter</h2>
+      <label for="l-mail">E-mail</label><input id="l-mail" type="email" required autocomplete="email">
+      <label for="l-mdp">Mot de passe</label><input id="l-mdp" type="password" required autocomplete="current-password">
+      <button class="btn block" style="margin-top:18px">Se connecter</button>
+      <p class="small muted" style="margin-top:10px"><a class="link" href="#/page/contact">Mot de passe oublié ?</a></p></form>
+    <form data-signup class="box"><h2>Créer un compte</h2>
+      <p class="small muted">Suivez vos commandes et retrouvez vos adresses. Facultatif : vous pouvez aussi commander sans compte.</p>
+      <label for="s-prenom">Prénom</label><input id="s-prenom" required autocomplete="given-name">
+      <label for="s-mail">E-mail</label><input id="s-mail" type="email" required autocomplete="email">
+      <label for="s-mdp">Mot de passe</label><input id="s-mdp" type="password" required minlength="8" autocomplete="new-password">
+      <button class="btn block ghost" style="margin-top:18px">Créer mon compte</button></form>
+  </div></div>`;
+}
+
+/* journal : articles de conseils (référencement Google) */
+const ARTICLES = [
+  { id: "bijou-qui-noircit", titre: "Pourquoi certains bijoux noircissent, et comment l'éviter", ill: "collier-fleur", date: "2026-10-20",
+    chapo: "Le bijou qui noircit ou verdit n'est pas une fatalité : tout se joue dans le métal.",
+    corps: `<p>Un bijou fantaisie classique est le plus souvent en laiton ou en alliage de cuivre, recouvert d'une fine couche dorée. Au contact de la transpiration, de l'eau ou du parfum, le cuivre s'oxyde : le bijou fonce, et la peau peut garder une trace verte.</p>
+      <h2>Les métaux qui tiennent</h2><p>L'acier inoxydable 316L contient du chrome qui le protège de la rouille ; c'est l'acier de l'horlogerie. Le titane est encore plus léger et très bien toléré. Ce sont les deux seuls métaux que nous utilisons.</p>
+      <h2>Faire durer le doré</h2><ul><li>Mettez parfum et crème avant le bijou.</li><li>Évitez les produits ménagers et le chlore des piscines.</li><li>Rincez à l'eau claire, séchez avec un chiffon doux.</li><li>Rangez chaque bijou à part, à l'abri de l'air.</li></ul>` },
+  { id: "choisir-ses-creoles", titre: "Créoles : comment choisir la bonne taille", ill: "creoles", date: "2026-10-12",
+    chapo: "Mini, moyennes ou épaisses : la bonne créole dépend du visage, de la coiffure et du moment.",
+    corps: `<p>Les mini créoles se portent tous les jours, même pour dormir. Les créoles moyennes encadrent le visage sans le durcir. Les créoles épaisses font l'effet d'un bijou en or, à réserver aux tenues simples.</p>
+      <h2>Le visage</h2><p>Un visage rond s'allonge avec une créole plus grande que large ; un visage fin supporte des créoles épaisses.</p>
+      <h2>La coiffure</h2><p>Cheveux attachés : osez plus grand. Cheveux lâchés : une créole moyenne reste visible sans se perdre.</p>` },
+  { id: "idees-cadeaux", titre: "Idées de cadeaux bijoux, de 15 à 45 €", ill: "parure", date: "2026-10-05",
+    chapo: "Un bijou réussi se garde des années : voici nos idées selon la personne et le budget.",
+    corps: `<h2>Moins de 20 €</h2><p>Les mini créoles, le jonc fin ou l'anneau de nez sans perçage : de petites attentions qui font plaisir sans risque de taille.</p>
+      <h2>Autour de 25 €</h2><p>Le collier Initiale, pour un cadeau personnel, ou le collier Marguerite, notre incontournable.</p>
+      <h2>Pour marquer le coup</h2><p>La Parure Marguerite ou la Parure Essentielle, trois pièces réunies dans leur écrin, prêtes à offrir.</p>` }
+];
+const fmtDate = d => new Date(d + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
+function viewJournal(id) {
+  const a = ARTICLES.find(x => x.id === id);
+  if (id && !a) return view404();
+  if (a) return `<article class="wrap article">
+    <p class="crumbs"><a href="#/">Accueil</a> / <a href="#/journal">Journal</a></p>
+    <p class="eyebrow">${fmtDate(a.date)}</p><h1>${a.titre}</h1><p class="lead" style="margin:16px 0 28px">${a.chapo}</p>
+    <div class="art-pic">${ill(a.ill)}</div><div class="page" style="padding-top:24px">${a.corps}</div></article>`;
+  return `<section><div class="wrap"><p class="eyebrow center">Journal</p><h1 class="center">Conseils et inspirations</h1>
+    <div class="grid j-grid">${ARTICLES.map(cartArt).join("")}</div></div></section>`;
+}
+const cartArt = a => `<a class="prod" href="#/journal/${a.id}"><div class="pic" style="aspect-ratio:4/3">${ill(a.ill)}</div><span class="mat">${fmtDate(a.date)}</span><h3>${a.titre}</h3></a>`;
+
+function view404() {
+  return `<div class="wrap"><div class="page center"><p class="eyebrow">Page introuvable</p><h1>Cette page n'existe pas.</h1>
+    <p>Le lien est peut-être ancien, ou le bijou n'est plus disponible.</p><a class="btn" href="#/" style="margin-top:16px">Retour à l'accueil</a></div></div>`;
+}
+
+/* recherche instantanée */
+function openSearch() { $("#search").hidden = false; $("#q").value = ""; renderSearch(); setTimeout(() => $("#q").focus(), 30); }
+function renderSearch() {
+  const q = $("#q").value.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const norm = t => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const ids = q.length < 2 ? ["collier-marguerite", "creoles-epaisses", "faux-anneau-nez", "parure-marguerite"]
+    : Object.keys(P).filter(id => norm(`${P[id].nom} ${P[id].mat} ${P[id].sub} ${CATS[P[id].cat].nom}`).includes(q));
+  $("#qRes").innerHTML = (q.length < 2 ? `<p class="small muted">Suggestions</p>` : `<p class="small muted">${ids.length} résultat${ids.length > 1 ? "s" : ""}</p>`)
+    + (ids.length ? `<div class="grid">${ids.slice(0, 8).map(carte).join("")}</div>` : `<p>Aucun bijou ne correspond. Essayez « collier », « créoles » ou « titane ».</p>`);
+  typo($("#qRes"));
+}
+
+/* bandeau cookies (RGPD) : le choix est gardé, rien n'est chargé sans accord */
+function cookies() {
+  if (store("vaure-cookies")) return;
+  const el = document.createElement("div");
+  el.className = "cookies"; el.setAttribute("role", "dialog"); el.setAttribute("aria-label", "Cookies");
+  el.innerHTML = `<p>Nous utilisons des cookies pour faire fonctionner le panier et, avec votre accord, mesurer l'audience et la publicité. <a class="link" href="#/page/cookies">En savoir plus</a></p>
+    <div><button class="btn ghost" data-cookie="refus">Refuser</button><button class="btn" data-cookie="ok">Accepter</button></div>`;
+  document.body.appendChild(el);
+}
+
+const TITRES = { collection: c => CATS[c]?.nom, produit: id => P[id]?.nom, box: () => "Créez votre coffret", page: id => PAGES[id]?.[0], commande: () => "Commande", merci: () => "Merci", compte: () => "Mon compte", journal: id => ARTICLES.find(x => x.id === id)?.titre || "Journal" };
+
+/* typographie française sur le texte affiché : apostrophe courbe, espace insécable avant : ; ! ? € % et après « */
+function typo(root) {
+  const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: n => n.parentElement.closest("script,style,textarea,input,svg") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+  for (let n; (n = w.nextNode());) {
+    const t = n.nodeValue.replace(/(\p{L})'(\p{L})/gu, "$1\u2019$2").replace(/ ([:;!?»€%])/g, "\u00A0$1").replace(/« /g, "«\u00A0").replace(/(\d) (?=[\p{L}€%])/gu, "$1\u00A0");
+    if (t !== n.nodeValue) n.nodeValue = t;
+  }
 }
 
 /* ---------- routeur ---------- */
 function route() {
   const [a, b, c] = location.hash.replace(/^#\/?/, "").split("/").map(decodeURIComponent);
-  const html = a === "collection" ? viewCollection(b, c) : a === "produit" ? viewProduit(b) : a === "box" ? viewBox()
-    : a === "page" ? viewPage(b) : a === "commande" ? viewCommande() : viewHome();
+  const vues = { collection: () => viewCollection(b, c), produit: () => viewProduit(b), box: viewBox, page: () => PAGES[b] ? viewPage(b) : view404(),
+    commande: viewCommande, merci: viewMerci, compte: viewCompte, journal: () => viewJournal(b) };
+  const html = !a ? viewHome() : vues[a] ? vues[a]() : view404();
   $("#main").innerHTML = html;
+  typo($("#main"));
+  const titre = a && TITRES[a] ? TITRES[a](b) : null;
+  document.title = (titre ? `${titre} — VAURE` : "VAURE — Bijoux dorés qui ne noircissent pas").replace(/'/g, "\u2019");
   document.querySelectorAll("nav.main a").forEach(x => x.classList.toggle("on", location.hash.startsWith(x.getAttribute("href"))));
   closeDrawers(); scrollTo(0, 0); stickyWatch();
 }
@@ -483,26 +603,49 @@ document.addEventListener("click", e => {
     box.items = []; rerender(); openCart();
   }
   else if (d.q !== undefined) { const l = cart[+d.q]; l.q += +d.d; if (l.q <= 0) cart.splice(+d.q, 1); saveCart(); renderCart(); }
-  else if (d.pay !== undefined) toast("Démo : ici, Shopify ouvre son paiement sécurisé.");
+  else if (d.vue !== undefined) { sel[pid()].v = +d.vue; rerender(); }
+  else if (d.search !== undefined) { e.preventDefault(); openSearch(); }
+  else if (d.closesearch !== undefined) $("#search").hidden = true;
+  else if (d.etapego) { e.preventDefault(); cmd.etape = +d.etapego; saveCmd(); rerender(); }
+  else if (d.cookie) {
+    e.preventDefault();
+    if (d.cookie === "reset") { try { localStorage.removeItem("vaure-cookies"); } catch (err) {} cookies(); return; }
+    store("vaure-cookies", d.cookie); document.querySelector(".cookies")?.remove();
+  }
 });
+document.addEventListener("change", e => { if (e.target.matches("[data-tri]")) { tri = e.target.value; rerender(); } });
+document.addEventListener("input", e => { if (e.target.id === "q") renderSearch(); });
 $("#menuBg").addEventListener("click", closeDrawers);
 $("#cartBg").addEventListener("click", closeDrawers);
-document.addEventListener("keydown", e => { if (e.key === "Escape") closeDrawers(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") { closeDrawers(); $("#search").hidden = true; } });
 document.addEventListener("submit", e => {
   const f = e.target; e.preventDefault();
   if (f.dataset.news !== undefined) { toast("Merci, votre attention de bienvenue arrive par e-mail."); f.reset(); }
+  else if (f.dataset.etape) {
+    const fd = Object.fromEntries(new FormData(f));
+    if (f.dataset.etape === "1") { cmd.info = { ...cmd.info, ...fd }; cmd.etape = 2; }
+    else if (f.dataset.etape === "2") { cmd.cadeau = fd.cadeau || ""; cmd.etape = 3; }
+    else {
+      const num = "VA-" + String(Date.now()).slice(-6);
+      store("vaure-derniere", { num, prenom: cmd.info.prenom, email: cmd.info.email, cadeau: cmd.cadeau, date: new Date().toISOString() });
+      cart = []; saveCart(); cmd = { etape: 1, info: cmd.info, livraison: "suivie", cadeau: "" }; saveCmd();
+      location.hash = "#/merci"; return;
+    }
+    saveCmd(); route();
+  }
+  else if (f.dataset.login !== undefined || f.dataset.signup !== undefined) toast("Démo : sur la boutique, ce sont les comptes clients Shopify.");
   else if (f.dataset.contact !== undefined) { toast("Message envoyé (démo). Réponse sous 24 h ouvrées."); f.reset(); }
   else if (f.dataset.suivi !== undefined) toast("Démo : le suivi s'affichera ici sur la vraie boutique.");
   else if (f.dataset.code !== undefined) {
     const v = f.querySelector("input").value.trim().toUpperCase(), p = promoActive();
     const ok = v === CONFIG.bienvenue.code || (p && v === p.code);
     store("vaure-code", ok ? v : null); toast(ok ? "Code appliqué" : "Ce code n'est pas valable");
-    $("#main").innerHTML = viewCommande();
+    rerender();
   }
 });
 
 $("#footTrust").innerHTML = GARANTIES.map(([, t, s]) => `<div><b>${t}</b><span class="muted">${s}</span></div>`).join("");
 $("#year").textContent = new Date().getFullYear();
-announce(); renderCount();
+announce(); renderCount(); cookies(); typo(document.querySelector("footer.site")); typo($("#announce"));
 addEventListener("hashchange", route);
 route();

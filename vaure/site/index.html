@@ -25,7 +25,8 @@
     </nav>
     <a class="logo" href="#/" aria-label="VAURE, accueil">VAURE</a>
     <div class="hdr-r">
-      <a class="icon-btn" href="#/page/contact" aria-label="Contact"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg></a>
+      <button class="icon-btn" data-search aria-label="Rechercher"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></button>
+      <a class="icon-btn" href="#/compte" aria-label="Mon compte"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></a>
       <button class="icon-btn" data-cart aria-label="Ouvrir le panier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 11H6.2z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="count" id="count" hidden>0</span></button>
     </div>
   </div>
@@ -36,6 +37,14 @@
   <button class="icon-btn close" data-close aria-label="Fermer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
   <nav></nav>
 </aside>
+
+<div class="search" id="search" hidden role="dialog" aria-label="Recherche">
+  <div class="wrap">
+    <div class="search-hd"><label for="q" class="eyebrow" style="margin:0">Rechercher</label><button class="icon-btn" data-closesearch aria-label="Fermer la recherche"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <input id="q" type="search" placeholder="Collier, créoles, titane…" autocomplete="off">
+    <div id="qRes"></div>
+  </div>
+</div>
 
 <main id="main"></main>
 
@@ -69,11 +78,15 @@
       <div>
         <h4>Maison</h4>
         <a href="#/page/histoire">Notre histoire</a>
+        <a href="#/journal">Journal</a>
+        <a href="#/compte">Mon compte</a>
         <a href="#/page/cgv">Conditions générales de vente</a>
         <a href="#/page/mentions">Mentions légales</a>
         <a href="#/page/confidentialite">Confidentialité</a>
+        <a href="#/page/cookies">Cookies</a>
       </div>
     </div>
+    <div class="social"><a href="#" aria-label="Instagram">Instagram</a><a href="#" aria-label="TikTok">TikTok</a><a href="#" aria-label="Pinterest">Pinterest</a></div>
     <div class="pay" aria-label="Moyens de paiement acceptés">
       <span>Visa</span><span>Mastercard</span><span>CB</span><span>PayPal</span><span>Apple Pay</span><span>Google Pay</span>
     </div>
@@ -91,6 +104,7 @@
 </aside>
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="data.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
