@@ -10,4 +10,4 @@ Bijoux dorés qui ne noircissent pas (acier 316L et titane), foulards satinés, 
 cd site && python3 -m http.server 8000   # puis http://localhost:8000
 ```
 
-Règles : pas de faux avis, faux stock ni faux compte à rebours ; « plaqué or », jamais « or » seul ; « satiné », jamais « soie » sans preuve ; aucun logo ni motif de marque ; illustrations à remplacer par les photos CJ et des échantillons.
+Règles : ton de maison de bijoux, jamais de vocabulaire « Temu » (voir plan, section 4 bis) ; pas de faux avis, faux stock ni faux compte à rebours ; « plaqué or », jamais « or » seul ; « satiné », jamais « soie » sans preuve ; aucun logo ni motif de marque ; illustrations à remplacer par les photos CJ et des échantillons.

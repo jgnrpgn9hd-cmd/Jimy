@@ -11,7 +11,7 @@
 | Achat sans réfléchir | Prix de 12,90 à 24,90 €, aucune taille à choisir |
 | Problème réglé | « Mes bijoux noircissent, verdissent ou m'irritent » ; « Je n'ose pas me faire percer » |
 | Effet wow en vidéo | Gros plan doré, test sous la douche, avant/après « sans trou » |
-| Marge | Bonne avec les lots : parure, box, bijou assorti à −30 % |
+| Marge | Bonne avec les ensembles : parure en écrin, coffret, pièce assortie |
 | Logistique | Quelques grammes : environ 2 à 4 € de port vers la France |
 | Urgence vraie | Noël (date limite de commande), Black Friday (vraie date de fin), fête des mères, Saint-Valentin |
 
@@ -44,9 +44,9 @@ La référence CJ est connue pour un seul produit. Les autres sont à trouver av
 | Offre | Prix TTC | Coût livré | Frais de paiement (≈ 3 %) | Avant la pub, sans TVA | Avant la pub, avec TVA (÷ 1,2) |
 | --- | --- | --- | --- | --- | --- |
 | Collier seul | 24,90 € | 6,64 € | 0,75 € | **17,51 €** | 13,36 € |
-| Collier + bracelet assorti (−30 %) | 38,80 € | ≈ 12 € [à confirmer] | 1,16 € | ≈ 25,60 € | ≈ 19,20 € |
+| Collier + bracelet « à porter avec » (13,90 €) | 38,80 € | ≈ 12 € [à confirmer] | 1,16 € | ≈ 25,60 € | ≈ 19,20 € |
 | Parure Marguerite | 44,90 € | ≈ 16 € [à confirmer] | 1,35 € | ≈ 27,50 € | ≈ 20,10 € |
-| Box 3 bijoux | 29,90 € | ≈ 12 à 15 € | 0,90 € | ≈ 14 à 17 € | ≈ 9 à 12 € |
+| Coffret 3 pièces | 29,90 € | ≈ 12 à 15 € | 0,90 € | ≈ 14 à 17 € | ≈ 9 à 12 € |
 
 **Règles de prix :**
 - **Au moins 3,5 fois le coût livré** pour un bijou seul.
@@ -57,10 +57,25 @@ La référence CJ est connue pour un seul produit. Les autres sont à trouver av
 
 Tout se règle dans `CONFIG`, en haut de `site/app.js` :
 - **Noël** : « commandez avant le 8 décembre », du 1er octobre jusqu'à cette date. Cale la date sur le délai réel de « Jewel Shipping », avec 3 jours de marge.
-- **Black Friday** : −15 % sur les parures et les box, du 23 au 30 novembre 2026. Le message n'apparaît qu'entre ces dates.
+- **Promotions** : désactivées par défaut (`promo: null`). Une maison de bijoux fait peu de promotions ; si tu en fais une (vente privée), elle doit avoir une vraie date de fin.
 - **Date de livraison estimée** sur chaque fiche.
 
 **Interdit :** faux compte à rebours, faux stock, faux avis, prix barré jamais pratiqué, « or » sans préciser « plaqué ».
+
+## 4 bis. Le ton VAURE : jamais de vocabulaire « Temu »
+
+| On n'écrit pas | On écrit |
+| --- | --- |
+| Best-seller, top vente | Les incontournables |
+| −30 %, vous économisez X €, prix barré | « À porter avec » et le prix de l'ensemble, sans pourcentage |
+| Box, pack, lot | Coffret, écrin, ensemble, parure |
+| Plus que X € pour la livraison offerte ! | Livraison offerte à partir de 35 € |
+| Dépêchez-vous, dernière chance | Pour une livraison avant Noël, commandez avant le… |
+| −10 % sur votre 1re commande | Une attention de bienvenue |
+| Émojis 🔥🎁✅ | Aucun émoji |
+| Sans trou, sans douleur | Sans perçage |
+
+Phrases courtes, vouvoiement, ton calme. Même règle dans les pubs, les e-mails et les réponses aux clientes.
 
 ## 5. Pubs : partir du problème
 
@@ -68,9 +83,9 @@ Vidéos verticales de 10 à 20 s, filmées avec l'échantillon, en lumière du j
 
 | Accroche (0 à 3 s) | Démonstration | Fin |
 | --- | --- | --- |
-| « Ton collier à 5 € t'a laissé une trace verte ? » | Cou marqué vert (photo d'illustration), puis le collier Marguerite qui brille | « Acier 316L, il ne noircit pas. 24,90 €. » |
+| « Un bijou doré qui ne noircit pas. » | Le collier Marguerite porté, lumière du jour, puis sous l'eau | « Acier 316L. 24,90 €. » |
 | « J'ai gardé ce collier 7 jours sous la douche. » | Jour 1, jour 3, jour 7 : toujours doré | Uniquement si c'est vrai sur ton échantillon |
-| « Tu n'oses pas te faire percer le nez ? » | Clip de l'anneau sans perçage en 2 secondes | « Sans trou, sans douleur. 12,90 €. » |
+| « L'allure d'un piercing, sans perçage. » | L'anneau se pose en un geste, gros plan | « Anneau sans perçage, 12,90 €. » |
 | « Le cadeau qui fait toujours plaisir, sous 50 €. » | Ouverture de l'écrin de la Parure Marguerite | Date limite de Noël |
 
 **Test :**
@@ -95,7 +110,7 @@ Le nom VAURE, sans accent, et le .com servent partout.
    - best-sellers ;
    - promesse 316L ;
    - parure ;
-   - box ;
+   - coffret ;
    - sans perçage ;
    - univers ;
    - avis ;
@@ -103,8 +118,8 @@ Le nom VAURE, sans accent, et le .com servent partout.
 3. **Applications** :
    - CJdropshipping, pour les commandes automatiques.
    - Judge.me, pour les avis vérifiés avec photos.
-   - Une application de lots, par exemple **Kaching Bundles**, pour le bijou assorti à −30 % et les parures.
-   - Une application « Compose ta box » (bundle builder).
+   - Une application d'ensembles (par exemple **Kaching Bundles**), réglée sans badge de pourcentage, pour « À porter avec » et les parures.
+   - Une application de coffret à composer (bundle builder).
    - ParcelPanel, pour le suivi.
    - Klaviyo ou Shopify Email : bienvenue −10 %, relance de panier.
    - Le pixel Meta et TikTok.
