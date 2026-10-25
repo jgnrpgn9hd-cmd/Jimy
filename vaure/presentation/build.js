@@ -1,4 +1,4 @@
-// Présentation VAURE — devoir Scutify « Dire la niche »
+// Présentation VAURE — devoir « Dire la niche »
 const pptxgen = require("pptxgenjs");
 const { applyTheme } = require("/root/.claude/skills/synced/02482a84-12a4-4e3f-add0-42d448d2f581_aa6104c7-d457-47b7-b527-0f8849cb371a/pptx/scripts/apply_theme.js");
 
@@ -39,7 +39,7 @@ pres.defineSlideMaster({
   objects: [
     { placeholder: { options: { name: "kicker", type: "body", x: M, y: 0.35, w: 9, h: 0.4, fontSize: 12, color: C.accent1, bold: true, charSpacing: 3, margin: 0 }, text: "" } },
     { placeholder: { options: { name: "title", type: "title", x: M, y: 0.72, w: 12.1, h: 0.9, fontSize: 36, color: C.text1, fontFace: THEME.headFontFace, margin: 0, valign: "top", align: "left" }, text: "" } },
-    { text: { text: "V A U R E   ·   Projet de boutique, méthode Scutify", options: { x: M, y: 7.0, w: 8, h: 0.3, fontSize: 10, color: C.text2, margin: 0 } } }
+    { text: { text: "V A U R E   ·   Projet de boutique", options: { x: M, y: 7.0, w: 8, h: 0.3, fontSize: 10, color: C.text2, margin: 0 } } }
   ],
   slideNumber: { x: 12.2, y: 7.0, w: 0.5, h: 0.3, fontSize: 10, color: C.text2, align: "right" }
 });
@@ -69,7 +69,7 @@ const carte = (s, x, y, w, h, name, fill = C.background2) =>
 /* ===== 1. Ouverture ===== */
 pres.addSection({ title: "Ouverture" });
 {
-  const s = dark("Ouverture", "PROJET DE BOUTIQUE  ·  MÉTHODE SCUTIFY", [{ text: "V A U R E", options: { fontSize: 66 } }],
+  const s = dark("Ouverture", "PROJET DE BOUTIQUE EN LIGNE", [{ text: "V A U R E", options: { fontSize: 66 } }],
     "Des bijoux dorés qui ne noircissent pas.\nAcier inoxydable 316L et titane, pour les femmes qui veulent briller tous les jours.");
   s.addNotes("Présentation du projet VAURE. Le devoir demandé : dire la niche. La réponse est sur la diapositive suivante, puis j'explique pourquoi ce choix et comment on va vendre.");
 }
@@ -130,14 +130,14 @@ pres.addSection({ title: "La niche" });
 /* ===== 4. La promesse ===== */
 {
   const s = dark("La niche", "LA PROMESSE PRODUIT", "« Mon bijou aide ma cliente à briller tous les jours, sans qu'il noircisse ni l'irrite. »",
-    "Exercice Scutify : « Mon produit aide mon client à ___ sans ___ ».");
-  s.addNotes("La promesse en une phrase, selon l'exercice de la formation. Elle est en haut du site : « Des bijoux qui ne noircissent pas ».");
+    "Mon produit aide ma cliente à ___, sans ___.");
+  s.addNotes("La promesse en une phrase, sur le modèle « mon produit aide ma cliente à ___, sans ___ ». Elle est en haut du site : « Des bijoux qui ne noircissent pas ».");
 }
 
 /* ===== 5. Pourquoi cette niche ===== */
 pres.addSection({ title: "Pourquoi" });
 {
-  const s = content("Pourquoi", "POURQUOI CETTE NICHE", "Les critères Scutify sont remplis");
+  const s = content("Pourquoi", "POURQUOI CETTE NICHE", "Les 4 critères d'un bon produit");
   const crit = [
     ["Effet wow", "Gros plan doré en vidéo, test sous la douche, bijou sans perçage posé en un geste"],
     ["Problème-solution", "Le bijou qui noircit, verdit ou irrite est une gêne connue de presque toutes les femmes"],
@@ -151,8 +151,8 @@ pres.addSection({ title: "Pourquoi" });
     s.addText(t, { x: x + 1.1, y: y + 0.3, w: 4.6, h: 0.5, fontSize: 20, bold: true, color: C.text1, fontFace: THEME.headFontFace, margin: 0, isTextBox: true, objectName: "Critère titre " + (i + 1) });
     s.addText(d, { x: x + 1.1, y: y + 0.85, w: 4.6, h: 0.95, fontSize: 15, color: C.text2, valign: "top", margin: 0, isTextBox: true, objectName: "Critère texte " + (i + 1) });
   });
-  s.addText("4 critères sur 4. La formation en demande au moins 3.", { x: M, y: 6.3, w: 12.1, h: 0.4, fontSize: 15, italic: true, color: C.text2, margin: 0, isTextBox: true, objectName: "Verdict critères" });
-  s.addNotes("La formation retient un produit s'il remplit au moins 3 critères sur 4. Le collier Marguerite les remplit tous les quatre.");
+  s.addText("4 critères sur 4. Un bon produit en remplit au moins 3.", { x: M, y: 6.3, w: 12.1, h: 0.4, fontSize: 15, italic: true, color: C.text2, margin: 0, isTextBox: true, objectName: "Verdict critères" });
+  s.addNotes("Un produit est retenu s'il remplit au moins 3 critères sur 4. Le collier Marguerite les remplit tous les quatre.");
 }
 
 /* ===== 6. Les idées écartées ===== */
@@ -186,7 +186,7 @@ pres.addSection({ title: "L'offre" });
   s.addText([
     { text: "Acier titane plaqué or, chaîne fine semée de marguerites", options: { bullet: true, breakLine: true } },
     { text: "Référence CJ : CJLX171494501AZ, ligne « Jewel Shipping » avec suivi", options: { bullet: true, breakLine: true } },
-    { text: "Prix fixé à environ 3,7 fois le coût livré (minimum Scutify : 3 fois)", options: { bullet: true, breakLine: true } },
+    { text: "Prix fixé à environ 3,7 fois le coût livré (minimum conseillé : 3 fois)", options: { bullet: true, breakLine: true } },
     { text: "À vérifier : 7 jours sous la douche avec l'échantillon avant d'écrire « résiste à l'eau »", options: { bullet: true } }
   ], { x: M, y: 4.6, w: 12.1, h: 2.1, fontSize: 16, color: C.text1, paraSpaceAfter: 8, valign: "top", margin: 0, isTextBox: true, objectName: "Détails héros" });
   s.addNotes("Calcul : 24,90 € moins 6,64 € de coût livré et environ 0,75 € de frais de paiement, soit 17,51 €. Avec la TVA, il reste 13,36 €.");
