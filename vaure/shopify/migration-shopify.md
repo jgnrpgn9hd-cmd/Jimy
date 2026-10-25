@@ -116,3 +116,11 @@ Thème **Dawn** (gratuit), réglé avec l'identité VAURE :
 - [ ] Vérifier l'e-mail de confirmation et la livraison offerte dès 35 €.
 - [ ] Désactiver le mot de passe de la boutique.
 - [ ] Vérifier le site sur téléphone.
+
+## Annexe : création automatique par Claude
+
+Le connecteur Shopify est relié à la nouvelle boutique (« rebel », qui deviendra VAURE). Dans une **nouvelle session**, demander à Claude :
+
+> « Crée les produits et les collections de `vaure/shopify/import-produits.json` dans la boutique Shopify connectée, en brouillon. »
+
+Le fichier contient les 21 produits (statut brouillon, variantes, références, étiquettes) et les 11 collections automatiques (par étiquette). Claude doit d'abord vérifier, avec les informations de la boutique, qu'il s'agit bien de la nouvelle boutique et non de Jiménez. Pour regénérer le fichier : `node generer-import.js`.

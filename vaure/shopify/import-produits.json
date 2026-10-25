@@ -1,0 +1,914 @@
+{
+  "produits": [
+    {
+      "handle": "collier-marguerite",
+      "title": "Collier Marguerite",
+      "descriptionHtml": "<p>Une chaîne fine semée de petites marguerites dorées. Discret le jour, il illumine un décolleté le soir.</p><p><strong>Matière :</strong> Acier titane plaqué or.</p>",
+      "vendor": "VAURE",
+      "productType": "Bijoux",
+      "tags": [
+        "Bijoux",
+        "Colliers",
+        "Incontournable"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Title"
+      ],
+      "variants": [
+        {
+          "price": "24.90",
+          "sku": "VA-001",
+          "optionValues": [
+            {
+              "optionName": "Title",
+              "name": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "bracelet-marguerite",
+      "title": "Bracelet Marguerite",
+      "descriptionHtml": "<p>Le bracelet assorti au collier Marguerite, réglable de 16 à 21 cm.</p><p><strong>Matière :</strong> Acier titane plaqué or.</p>",
+      "vendor": "VAURE",
+      "productType": "Bijoux",
+      "tags": [
+        "Bijoux",
+        "Bracelets",
+        "Coffret"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Title"
+      ],
+      "variants": [
+        {
+          "price": "19.90",
+          "sku": "VA-002",
+          "optionValues": [
+            {
+              "optionName": "Title",
+              "name": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "puces-marguerite",
+      "title": "Puces Marguerite",
+      "descriptionHtml": "<p>De petites fleurs dorées qui suivent la parure Marguerite. Tige en acier 316L.</p><p><strong>Matière :</strong> Acier inoxydable 316L plaqué or.</p>",
+      "vendor": "VAURE",
+      "productType": "Bijoux",
+      "tags": [
+        "Bijoux",
+        "Boucles d'oreilles",
+        "Coffret"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Title"
+      ],
+      "variants": [
+        {
+          "price": "16.90",
+          "sku": "VA-003",
+          "optionValues": [
+            {
+              "optionName": "Title",
+              "name": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "chaine-serpent",
+      "title": "Chaîne Serpent",
+      "descriptionHtml": "<p>Une chaîne plate et liquide qui attrape la lumière. Elle se porte seule ou avec d'autres colliers.</p><p><strong>Matière :</strong> Acier inoxydable 316L.</p>",
+      "vendor": "VAURE",
+      "productType": "Bijoux",
+      "tags": [
+        "Bijoux",
+        "Colliers",
+        "Coffret"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Finition"
+      ],
+      "variants": [
+        {
+          "price": "19.90",
+          "sku": "VA-004-1",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Doré"
+            }
+          ]
+        },
+        {
+          "price": "19.90",
+          "sku": "VA-004-2",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Argenté"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "collier-initiale",
+      "title": "Collier Initiale",
+      "descriptionHtml": "<p>Une lettre dorée sur une chaîne fine. Le cadeau personnel qui ne se trompe pas.</p><p><strong>Matière :</strong> Acier inoxydable 316L.</p>",
+      "vendor": "VAURE",
+      "productType": "Bijoux",
+      "tags": [
+        "Bijoux",
+        "Colliers",
+        "Idée cadeau"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Finition"
+      ],
+      "variants": [
+        {
+          "price": "24.90",
+          "sku": "VA-005-1",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Doré"
+            }
+          ]
+        },
+        {
+          "price": "24.90",
+          "sku": "VA-005-2",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Argenté"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "jonc-fin",
+      "title": "Jonc Fin",
+      "descriptionHtml": "<p>Un jonc ouvert, fin et lisse, qui s'empile avec vos autres bracelets.</p><p><strong>Matière :</strong> Acier inoxydable 316L.</p>",
+      "vendor": "VAURE",
+      "productType": "Bijoux",
+      "tags": [
+        "Bijoux",
+        "Bracelets",
+        "Coffret"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Finition"
+      ],
+      "variants": [
+        {
+          "price": "19.90",
+          "sku": "VA-006-1",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Doré"
+            }
+          ]
+        },
+        {
+          "price": "19.90",
+          "sku": "VA-006-2",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Argenté"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "bracelet-trombone",
+      "title": "Bracelet Trombone",
+      "descriptionHtml": "<p>Une maille trombone tendance, ni trop fine ni trop épaisse.</p><p><strong>Matière :</strong> Acier inoxydable 316L.</p>",
+      "vendor": "VAURE",
+      "productType": "Bijoux",
+      "tags": [
+        "Bijoux",
+        "Bracelets",
+        "Coffret"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Finition"
+      ],
+      "variants": [
+        {
+          "price": "17.90",
+          "sku": "VA-007-1",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Doré"
+            }
+          ]
+        },
+        {
+          "price": "17.90",
+          "sku": "VA-007-2",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Argenté"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "creoles-epaisses",
+      "title": "Créoles Épaisses",
+      "descriptionHtml": "<p>Des créoles bombées et légères : l'effet bijou en or, sans le poids.</p><p><strong>Matière :</strong> Acier inoxydable 316L.</p>",
+      "vendor": "VAURE",
+      "productType": "Bijoux",
+      "tags": [
+        "Bijoux",
+        "Boucles d'oreilles",
+        "Incontournable",
+        "Coffret"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Finition"
+      ],
+      "variants": [
+        {
+          "price": "19.90",
+          "sku": "VA-008-1",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Doré"
+            }
+          ]
+        },
+        {
+          "price": "19.90",
+          "sku": "VA-008-2",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Argenté"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "creoles-fines",
+      "title": "Mini Créoles",
+      "descriptionHtml": "<p>De petites créoles qu'on ne quitte plus, même pour dormir.</p><p><strong>Matière :</strong> Acier inoxydable 316L.</p>",
+      "vendor": "VAURE",
+      "productType": "Bijoux",
+      "tags": [
+        "Bijoux",
+        "Boucles d'oreilles",
+        "Coffret"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Finition"
+      ],
+      "variants": [
+        {
+          "price": "14.90",
+          "sku": "VA-009-1",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Doré"
+            }
+          ]
+        },
+        {
+          "price": "14.90",
+          "sku": "VA-009-2",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Argenté"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "anneau-nez-titane",
+      "title": "Anneau de nez Titane",
+      "descriptionHtml": "<p>Un anneau fin à clic, en titane, le métal le mieux toléré par les peaux sensibles.</p><p><strong>Matière :</strong> Titane ASTM F136.</p><p>Livré sous emballage scellé. Pour des raisons d'hygiène, un piercing ouvert ne peut pas être retourné.</p>",
+      "vendor": "VAURE",
+      "productType": "Piercings",
+      "tags": [
+        "Piercings",
+        "Titane",
+        "Coffret"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Finition"
+      ],
+      "variants": [
+        {
+          "price": "14.90",
+          "sku": "VA-010-1",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Doré"
+            }
+          ]
+        },
+        {
+          "price": "14.90",
+          "sku": "VA-010-2",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Argenté"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "helix-titane",
+      "title": "Piercing Hélix Titane",
+      "descriptionHtml": "<p>Une petite pierre claire sur une tige en titane, pour l'hélix ou le lobe.</p><p><strong>Matière :</strong> Titane ASTM F136.</p><p>Livré sous emballage scellé. Pour des raisons d'hygiène, un piercing ouvert ne peut pas être retourné.</p>",
+      "vendor": "VAURE",
+      "productType": "Piercings",
+      "tags": [
+        "Piercings",
+        "Titane",
+        "Coffret"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Finition"
+      ],
+      "variants": [
+        {
+          "price": "14.90",
+          "sku": "VA-011-1",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Doré"
+            }
+          ]
+        },
+        {
+          "price": "14.90",
+          "sku": "VA-011-2",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Argenté"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "faux-anneau-nez",
+      "title": "Anneau de nez sans perçage",
+      "descriptionHtml": "<p>L'allure d'un piercing, sans perçage : il se pose sur la narine et tient toute la journée.</p><p><strong>Matière :</strong> Acier inoxydable 316L.</p>",
+      "vendor": "VAURE",
+      "productType": "Piercings",
+      "tags": [
+        "Piercings",
+        "Sans perçage",
+        "Sans perçage",
+        "Coffret"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Finition"
+      ],
+      "variants": [
+        {
+          "price": "12.90",
+          "sku": "VA-012-1",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Doré"
+            }
+          ]
+        },
+        {
+          "price": "12.90",
+          "sku": "VA-012-2",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Argenté"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ear-cuff",
+      "title": "Ear cuff sans perçage",
+      "descriptionHtml": "<p>Une bague d'oreille qui se glisse sur le cartilage. L'allure d'un piercing, sans perçage.</p><p><strong>Matière :</strong> Acier inoxydable 316L.</p>",
+      "vendor": "VAURE",
+      "productType": "Piercings",
+      "tags": [
+        "Piercings",
+        "Sans perçage",
+        "Sans perçage",
+        "Coffret"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Finition"
+      ],
+      "variants": [
+        {
+          "price": "14.90",
+          "sku": "VA-013-1",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Doré"
+            }
+          ]
+        },
+        {
+          "price": "14.90",
+          "sku": "VA-013-2",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Argenté"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "foulard-satin",
+      "title": "Foulard Satiné 70 cm",
+      "descriptionHtml": "<p>Au cou, dans les cheveux ou noué sur un sac : un carré satiné qui habille tout.</p><p><strong>Matière :</strong> Polyester satiné, toucher soyeux.</p>",
+      "vendor": "VAURE",
+      "productType": "Foulards et cheveux",
+      "tags": [
+        "Foulards et cheveux",
+        "Foulards"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Coloris"
+      ],
+      "variants": [
+        {
+          "price": "17.90",
+          "sku": "VA-014-1",
+          "optionValues": [
+            {
+              "optionName": "Coloris",
+              "name": "Crème"
+            }
+          ]
+        },
+        {
+          "price": "17.90",
+          "sku": "VA-014-2",
+          "optionValues": [
+            {
+              "optionName": "Coloris",
+              "name": "Noir"
+            }
+          ]
+        },
+        {
+          "price": "17.90",
+          "sku": "VA-014-3",
+          "optionValues": [
+            {
+              "optionName": "Coloris",
+              "name": "Caramel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "foulard-fin",
+      "title": "Foulard Ruban",
+      "descriptionHtml": "<p>Un foulard long et étroit, à nouer en serre-tête, au poignet ou à l'anse d'un sac.</p><p><strong>Matière :</strong> Polyester satiné.</p>",
+      "vendor": "VAURE",
+      "productType": "Foulards et cheveux",
+      "tags": [
+        "Foulards et cheveux",
+        "Foulards"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Coloris"
+      ],
+      "variants": [
+        {
+          "price": "12.90",
+          "sku": "VA-015-1",
+          "optionValues": [
+            {
+              "optionName": "Coloris",
+              "name": "Crème"
+            }
+          ]
+        },
+        {
+          "price": "12.90",
+          "sku": "VA-015-2",
+          "optionValues": [
+            {
+              "optionName": "Coloris",
+              "name": "Noir"
+            }
+          ]
+        },
+        {
+          "price": "12.90",
+          "sku": "VA-015-3",
+          "optionValues": [
+            {
+              "optionName": "Coloris",
+              "name": "Caramel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "pince-doree",
+      "title": "Pince à cheveux Dorée",
+      "descriptionHtml": "<p>Une pince géométrique qui tient un chignon flou toute la journée.</p><p><strong>Matière :</strong> Métal doré.</p>",
+      "vendor": "VAURE",
+      "productType": "Foulards et cheveux",
+      "tags": [
+        "Foulards et cheveux",
+        "Cheveux"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Title"
+      ],
+      "variants": [
+        {
+          "price": "12.90",
+          "sku": "VA-016",
+          "optionValues": [
+            {
+              "optionName": "Title",
+              "name": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "barrettes-perles",
+      "title": "Barrettes Perles, lot de 2",
+      "descriptionHtml": "<p>Deux barrettes ornées de perles d'imitation, pour une coiffure soignée en un geste.</p><p><strong>Matière :</strong> Métal doré, perles d'imitation.</p>",
+      "vendor": "VAURE",
+      "productType": "Foulards et cheveux",
+      "tags": [
+        "Foulards et cheveux",
+        "Cheveux"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Title"
+      ],
+      "variants": [
+        {
+          "price": "9.90",
+          "sku": "VA-017",
+          "optionValues": [
+            {
+              "optionName": "Title",
+              "name": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "mini-sac",
+      "title": "Mini Sac Bandoulière",
+      "descriptionHtml": "<p>Juste la place pour le téléphone, les clés et un rouge à lèvres. Bandoulière chaîne amovible.</p><p><strong>Matière :</strong> Similicuir, chaîne dorée.</p>",
+      "vendor": "VAURE",
+      "productType": "Sacs",
+      "tags": [
+        "Sacs",
+        "Mini sacs",
+        "Nouveauté"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Coloris"
+      ],
+      "variants": [
+        {
+          "price": "34.90",
+          "sku": "VA-018-1",
+          "optionValues": [
+            {
+              "optionName": "Coloris",
+              "name": "Crème"
+            }
+          ]
+        },
+        {
+          "price": "34.90",
+          "sku": "VA-018-2",
+          "optionValues": [
+            {
+              "optionName": "Coloris",
+              "name": "Noir"
+            }
+          ]
+        },
+        {
+          "price": "34.90",
+          "sku": "VA-018-3",
+          "optionValues": [
+            {
+              "optionName": "Coloris",
+              "name": "Caramel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "pochette",
+      "title": "Pochette Soir",
+      "descriptionHtml": "<p>Une pochette souple qui se tient à la main ou à l'épaule, pour les dîners et les fêtes.</p><p><strong>Matière :</strong> Similicuir, fermoir doré.</p>",
+      "vendor": "VAURE",
+      "productType": "Sacs",
+      "tags": [
+        "Sacs",
+        "Pochettes"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Coloris"
+      ],
+      "variants": [
+        {
+          "price": "29.90",
+          "sku": "VA-019-1",
+          "optionValues": [
+            {
+              "optionName": "Coloris",
+              "name": "Crème"
+            }
+          ]
+        },
+        {
+          "price": "29.90",
+          "sku": "VA-019-2",
+          "optionValues": [
+            {
+              "optionName": "Coloris",
+              "name": "Noir"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "parure-marguerite",
+      "title": "Parure Marguerite",
+      "descriptionHtml": "<p>Le collier, le bracelet et les puces Marguerite, réunis dans un écrin.</p><p><strong>Matière :</strong> Acier titane et 316L plaqué or.</p><p><strong>Dans l'écrin :</strong> Collier Marguerite, Bracelet Marguerite, Puces Marguerite.</p>",
+      "vendor": "VAURE",
+      "productType": "Parures",
+      "tags": [
+        "Idées cadeaux",
+        "Parures",
+        "En écrin"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Title"
+      ],
+      "variants": [
+        {
+          "price": "44.90",
+          "sku": "VA-020",
+          "optionValues": [
+            {
+              "optionName": "Title",
+              "name": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "parure-essentielle",
+      "title": "Parure Essentielle",
+      "descriptionHtml": "<p>Chaîne Serpent, Jonc Fin et Créoles Épaisses : les trois basiques qui vont avec tout.</p><p><strong>Matière :</strong> Acier inoxydable 316L.</p><p><strong>Dans l'écrin :</strong> Chaîne Serpent, Jonc Fin, Créoles Épaisses.</p>",
+      "vendor": "VAURE",
+      "productType": "Parures",
+      "tags": [
+        "Idées cadeaux",
+        "Parures"
+      ],
+      "status": "DRAFT",
+      "options": [
+        "Finition"
+      ],
+      "variants": [
+        {
+          "price": "44.90",
+          "sku": "VA-021-1",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Doré"
+            }
+          ]
+        },
+        {
+          "price": "44.90",
+          "sku": "VA-021-2",
+          "optionValues": [
+            {
+              "optionName": "Finition",
+              "name": "Argenté"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "title": "Bijoux",
+      "ruleSet": {
+        "appliedDisjunctively": false,
+        "rules": [
+          {
+            "column": "TAG",
+            "relation": "EQUALS",
+            "condition": "Bijoux"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Colliers",
+      "ruleSet": {
+        "appliedDisjunctively": false,
+        "rules": [
+          {
+            "column": "TAG",
+            "relation": "EQUALS",
+            "condition": "Colliers"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Bracelets",
+      "ruleSet": {
+        "appliedDisjunctively": false,
+        "rules": [
+          {
+            "column": "TAG",
+            "relation": "EQUALS",
+            "condition": "Bracelets"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Boucles d'oreilles",
+      "ruleSet": {
+        "appliedDisjunctively": false,
+        "rules": [
+          {
+            "column": "TAG",
+            "relation": "EQUALS",
+            "condition": "Boucles d'oreilles"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Piercings",
+      "ruleSet": {
+        "appliedDisjunctively": false,
+        "rules": [
+          {
+            "column": "TAG",
+            "relation": "EQUALS",
+            "condition": "Piercings"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Foulards et cheveux",
+      "ruleSet": {
+        "appliedDisjunctively": false,
+        "rules": [
+          {
+            "column": "TAG",
+            "relation": "EQUALS",
+            "condition": "Foulards et cheveux"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Sacs",
+      "ruleSet": {
+        "appliedDisjunctively": false,
+        "rules": [
+          {
+            "column": "TAG",
+            "relation": "EQUALS",
+            "condition": "Sacs"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Parures",
+      "ruleSet": {
+        "appliedDisjunctively": false,
+        "rules": [
+          {
+            "column": "TAG",
+            "relation": "EQUALS",
+            "condition": "Parures"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Les incontournables",
+      "ruleSet": {
+        "appliedDisjunctively": false,
+        "rules": [
+          {
+            "column": "TAG",
+            "relation": "EQUALS",
+            "condition": "Incontournable"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Sans perçage",
+      "ruleSet": {
+        "appliedDisjunctively": false,
+        "rules": [
+          {
+            "column": "TAG",
+            "relation": "EQUALS",
+            "condition": "Sans perçage"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Coffret",
+      "ruleSet": {
+        "appliedDisjunctively": false,
+        "rules": [
+          {
+            "column": "TAG",
+            "relation": "EQUALS",
+            "condition": "Coffret"
+          }
+        ]
+      }
+    }
+  ]
+}
