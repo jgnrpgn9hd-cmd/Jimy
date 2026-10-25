@@ -203,25 +203,25 @@ function viewHome() {
     <div class="cats">${[["bijoux", "creoles"], ["piercings", "ear-cuff"], ["foulards", "foulard"], ["sacs", "mini-sac"]].map(([c, i]) => `<a href="#/collection/${c}">${ill(i, i === "foulard" ? "#EDE3D2" : i === "mini-sac" ? "#1D1B19" : "#C9A35E", "#E6DDCF")}<span>${CATS[c].nom}</span></a>`).join("")}</div>
   </div></section>
 
-  <section><div class="wrap center">
+  ${CONFIG.afficher.avis ? `<section><div class="wrap center">
     <p class="eyebrow">Avis clientes</p>
     <h2>Vos avis, vérifiés.</h2>
     <div class="reviews-empty"><p>Nous publions uniquement les avis de vraies clientes, recueillis après livraison. Les premiers arrivent avec les premières commandes.</p>
     <p class="small muted" style="margin-top:10px">Pas de faux avis, pas de note inventée.</p></div>
-  </div></section>
+  </div></section>` : ""}
 
-  <section class="alt"><div class="wrap center">
+  <section class="${CONFIG.afficher.avis ? "alt" : ""}"><div class="wrap center">
     <p class="eyebrow">Journal</p><h2>Conseils et inspirations</h2>
     <div class="grid j-grid">${ARTICLES.map(cartArt).join("")}</div>
     <p style="margin-top:24px"><a class="link" href="#/journal">Tous les articles</a></p>
   </div></section>
 
-  <section><div class="wrap center">
+  ${CONFIG.afficher.instagram ? `<section><div class="wrap center">
     <p class="eyebrow">@vaure.studio</p><h2>Portés par vous</h2>
     <p class="lead" style="margin:12px auto 0">Partagez vos bijoux VAURE avec #vaurestudio : nous republions nos préférées, avec votre accord.</p>
     <div class="insta">${["collier-fleur", "creoles", "ear-cuff", "jonc", "puces-fleur", "foulard"].map(t => `<div>${ill(t, t === "foulard" ? "#EDE3D2" : "#C9A35E", "#E6DDCF")}</div>`).join("")}</div>
     <p class="todo" style="margin-top:12px">Emplacements provisoires : vos photos Instagram et celles de vos clientes.</p>
-  </div></section>
+  </div></section>` : ""}
 
   <section style="padding-top:0"><div class="wrap">
     <div class="news">
@@ -304,11 +304,11 @@ function viewProduit(id) {
       </div>
     </div>
   </div>
-  <section><div class="wrap"><div class="avis">
+  ${CONFIG.afficher.avis ? `<section><div class="wrap"><div class="avis">
     <div><p class="eyebrow">Avis clientes</p><h2>Ce qu'elles en pensent</h2></div>
     <div><p>Les avis de ce bijou s'afficheront ici, uniquement ceux de clientes ayant reçu leur commande. Ils sont recueillis par e-mail après la livraison, avec photo si elles le souhaitent.</p>
     <p class="small muted" style="margin-top:8px">Pas de faux avis ni de note inventée.</p></div>
-  </div></div></section>
+  </div></div></section>` : ""}
   <section class="alt"><div class="wrap center"><h2>Vous aimerez aussi</h2>
     <div class="grid">${Object.keys(P).filter(x => x !== id && P[x].cat === p.cat).slice(0, 4).map(carte).join("")}</div></div></section>
   ${vus.filter(x => x !== id && P[x]).length ? `<section><div class="wrap center"><h2>Récemment consultés</h2>
@@ -342,7 +342,7 @@ function viewBox() {
 
 const FAQ = [
   ["Est-ce que les bijoux noircissent ?", "Nos bijoux sont en acier inoxydable 316L ou en titane, des métaux qui ne rouillent pas et ne verdissent pas la peau. Le plaqué or reste un plaquage : il dure plus longtemps si on évite parfum, crème et produits ménagers."],
-  ["Je peux les garder sous la douche ?", "Oui, l'acier et le titane supportent l'eau. Rincez à l'eau claire après la mer ou la piscine. [À confirmer sur nos échantillons avant la mise en ligne.]"],
+  ["Je peux les garder sous la douche ?", "Oui, l'acier et le titane supportent l'eau. Rincez à l'eau claire après la mer ou la piscine. <span class=\"ph\">[À confirmer sur nos échantillons avant la mise en ligne.]</span>"],
   ["J'ai la peau sensible, ça va aller ?", "Le titane et l'acier 316L font partie des métaux les mieux tolérés, c'est pour ça que nous les avons choisis. Aucun métal ne convient à 100 % des peaux : en cas de réaction, retirez le bijou et écrivez-nous."],
   ["Comment se porte un bijou sans perçage ?", "L'anneau de nez se clipse sur la narine et l'ear cuff se glisse sur le cartilage de l'oreille. Sans perçage, et il se retire quand vous le souhaitez."],
   ["Quand vais-je recevoir ma commande ?", `Préparation en ${CONFIG.delai.prepa.join(" à ")} jours ouvrés, puis ${CONFIG.delai.transport.join(" à ")} jours ouvrés de transport, avec suivi. La date estimée s'affiche sur chaque fiche.`],
@@ -356,14 +356,14 @@ const PAGES = {
     <p>Nous avons cherché des bijoux qu'on peut garder sous la douche, à la mer et au quotidien, sans se ruiner. Notre règle : uniquement de l'acier inoxydable 316L et du titane, des formes simples, et des prix doux.</p>
     <h2>Ce que nous promettons</h2><ul><li>Des matières honnêtes, écrites sur chaque fiche.</li><li>Des produits testés sur nos échantillons avant d'être en ligne.</li><li>Pas de faux avis, pas de fausse promotion, pas de faux compte à rebours.</li><li>Une vraie personne qui répond sous 24 h ouvrées.</li></ul>
     <p class="ph">[Ajoutez votre prénom et une photo : c'est ce qui crée la confiance.]</p>`],
-  livraison: ["Livraison", `<p>Nous livrons en France, en Belgique et en Suisse <span class="ph">[à élargir à l'Europe ensuite]</span>.</p>
+  livraison: ["Livraison", `<p>Nous livrons en France, en Belgique et en Suisse.<span class="ph"> [À élargir à l'Europe ensuite.]</span></p>
     <h2>Délais</h2><p>Préparation : ${CONFIG.delai.prepa.join(" à ")} jours ouvrés. Transport : ${CONFIG.delai.transport.join(" à ")} jours ouvrés, avec suivi.</p>
     <h2>Frais</h2><p>Offerte dès ${CONFIG.livraisonOfferteDes} €, sinon ${eur(CONFIG.fraisLivraison)}.</p>
     <h2>Noël</h2><p>Pour être livrée avant Noël, commandez avant le ${fmtLong(new Date(CONFIG.noelLimite))}.</p>`],
   retours: ["Retours et remboursements", `<p>Vous avez <b>30 jours</b> après réception pour changer d'avis (la loi en impose 14).</p>
     <h2>Comment faire</h2><ol><li>Écrivez à ${CONFIG.email} avec votre numéro de commande.</li><li>Nous vous envoyons l'adresse de retour.</li><li>Renvoyez le bijou non porté, dans son emballage.</li></ol>
     <h2>Piercings</h2><p>Pour des raisons d'hygiène, un piercing dont l'emballage scellé a été ouvert ne peut pas être retourné (article L221-28 du Code de la consommation). Les bijoux sans perçage se retournent normalement.</p>
-    <h2>Remboursement</h2><p>Sous 14 jours après réception du retour. Frais de retour <span class="ph">[à votre charge / offerts — à décider]</span>.</p>`],
+    <h2>Remboursement</h2><p>Sous 14 jours après réception du retour.<span class="ph"> Frais de retour [à votre charge / offerts — à décider].</span></p>`],
   entretien: ["Matières et entretien", `<h2>Acier inoxydable 316L</h2><p>Il ne rouille pas et garde sa couleur à l'eau. C'est l'acier utilisé en horlogerie.</p>
     <h2>Titane ASTM F136</h2><p>Léger et très bien toléré, c'est le métal des piercings de qualité.</p>
     <h2>Plaqué or</h2><p>Une fine couche dorée sur l'acier. Pour qu'elle dure : mettez parfum et crème avant le bijou, évitez les produits ménagers, rangez-le à l'abri.</p>
@@ -646,6 +646,8 @@ document.addEventListener("submit", e => {
 
 $("#footTrust").innerHTML = GARANTIES.map(([, t, s]) => `<div><b>${t}</b><span class="muted">${s}</span></div>`).join("");
 $("#year").textContent = new Date().getFullYear();
+document.body.classList.toggle("sans-notes", !CONFIG.afficher.notes);
+if (!CONFIG.afficher.reseaux) document.querySelector("footer .social")?.remove();
 announce(); renderCount(); cookies(); typo(document.querySelector("footer.site")); typo($("#announce"));
 addEventListener("hashchange", route);
 route();

@@ -10,7 +10,14 @@ const CONFIG = {
   bienvenue: { code: "BIENVENUE10", taux: 0.10 },
   duoRemise: 0.30, // prix « avec » pour la pièce assortie (jamais affiché en pourcentage)
   box: { 3: 29.9, 5: 44.9, plafond: 19.9 }, // bijoux éligibles jusqu'à 19,90 €
-  email: "contact@vaurestudio.com"
+  email: "contact@vaurestudio.com",
+  // blocs masqués tant qu'ils seraient vides : passer à true quand on peut les remplir
+  afficher: {
+    avis: false,      // avis clientes (accueil et fiches) : après les premières commandes
+    instagram: false, // « Portés par vous » : quand le compte Instagram a des photos
+    reseaux: false,   // liens Instagram, TikTok, Pinterest du pied de page : quand les comptes existent
+    notes: false      // notes de travail entre crochets et mentions « illustration provisoire »
+  }
 };
 
 /* ---------- catalogue ----------
