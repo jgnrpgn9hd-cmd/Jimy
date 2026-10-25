@@ -129,6 +129,6 @@ Ce que la session doit faire :
 1. Vérifier, avec les informations de la boutique, qu'elle est connectée à Jiménez (jimenez-shop.com).
 2. Créer les 21 produits en **brouillon**, avec le fournisseur VAURE : ils restent invisibles en ligne.
 3. Créer les 11 collections. Attention, une collection créée par l'outil est publiée sur la boutique en ligne, même vide de produits actifs : les **masquer du canal Boutique en ligne** (ou les créer sans publication) tant que VAURE n'est pas lancée.
-4. Ne modifier ni les produits Jiménez, ni le thème publié. Le thème VAURE se prépare dans un **thème non publié** (copie de Dawn), à publier le jour de la bascule.
+4. Ne modifier ni les produits Jiménez, ni le thème publié (« Heritage – brouillon 2 »). Le thème VAURE est le **brouillon de thème « Rebel »** (non publié, déjà présent dans Jiménez) : c'est lui qu'on personnalise aux couleurs VAURE, et qu'on publiera le jour de la bascule.
 
 Pour regénérer le fichier : `node generer-import.js`.
