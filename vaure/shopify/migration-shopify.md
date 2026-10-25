@@ -119,8 +119,16 @@ Thème **Dawn** (gratuit), réglé avec l'identité VAURE :
 
 ## Annexe : création automatique par Claude
 
-Le connecteur Shopify est relié à la nouvelle boutique (« rebel », qui deviendra VAURE). Dans une **nouvelle session**, demander à Claude :
+**Décision :** VAURE est préparée **en brouillon dans la boutique Jiménez**, qui sera ensuite renommée et transformée en VAURE. Les produits Jiménez restent en ligne tant que VAURE n'est pas prête.
 
-> « Crée les produits et les collections de `vaure/shopify/import-produits.json` dans la boutique Shopify connectée, en brouillon. »
+Dans une **nouvelle session**, avec le connecteur Shopify relié à la boutique Jiménez, demander à Claude :
 
-Le fichier contient les 21 produits (statut brouillon, variantes, références, étiquettes) et les 11 collections automatiques (par étiquette). Claude doit d'abord vérifier, avec les informations de la boutique, qu'il s'agit bien de la nouvelle boutique et non de Jiménez. Pour regénérer le fichier : `node generer-import.js`.
+> « Crée VAURE en brouillon dans la boutique Jiménez : les produits et les collections de `vaure/shopify/import-produits.json`, sans toucher aux produits Jiménez ni au thème en ligne. »
+
+Ce que la session doit faire :
+1. Vérifier, avec les informations de la boutique, qu'elle est connectée à Jiménez (jimenez-shop.com).
+2. Créer les 21 produits en **brouillon**, avec le fournisseur VAURE : ils restent invisibles en ligne.
+3. Créer les 11 collections. Attention, une collection créée par l'outil est publiée sur la boutique en ligne, même vide de produits actifs : les **masquer du canal Boutique en ligne** (ou les créer sans publication) tant que VAURE n'est pas lancée.
+4. Ne modifier ni les produits Jiménez, ni le thème publié. Le thème VAURE se prépare dans un **thème non publié** (copie de Dawn), à publier le jour de la bascule.
+
+Pour regénérer le fichier : `node generer-import.js`.
