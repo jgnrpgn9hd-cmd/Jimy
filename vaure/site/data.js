@@ -5,7 +5,6 @@ const CONFIG = {
   livraisonOfferteDes: 35,
   fraisLivraison: 3.9,
   delai: { prepa: [1, 3], transport: [7, 12] }, // jours ouvrés — « Jewel Shipping » CJ vers la France, à confirmer
-  noelLimite: "2026-12-08",
   promo: null, // ex. { debut, fin, code, taux, texte } — une maison de bijoux fait peu de promotions ; à n'activer que pour une vraie vente privée
   bienvenue: { code: "BIENVENUE10", taux: 0.10 },
   duoRemise: 0.30, // prix « avec » pour la pièce assortie (jamais affiché en pourcentage)

@@ -59,8 +59,6 @@ function fenetreLivraison(now = new Date()) {
   return [ajoutJoursOuvres(now, prepa[0] + transport[0]), ajoutJoursOuvres(now, prepa[1] + transport[1])];
 }
 function promoActive(now = new Date()) { const p = CONFIG.promo; return p && now >= new Date(p.debut) && now <= new Date(p.fin) ? p : null; }
-function noelActif(now = new Date()) { const lim = new Date(CONFIG.noelLimite + "T23:59:59"); return now.getMonth() >= 9 && now <= lim ? lim : null; }
-const fmtLong = d => d.toLocaleDateString("fr-FR", { day: "numeric", month: "long" });
 
 /* ---------- panier ---------- */
 let cart = store("vaure-cart") || [];
@@ -123,10 +121,9 @@ const GARANTIES = [
 ];
 const trustbar = () => `<div class="trustbar"><div class="wrap">${GARANTIES.map(([i, t, s]) => `<div>${ICON[i]}<span><b>${t}</b>${s}</span></div>`).join("")}</div></div>`;
 function announce() {
-  const p = promoActive(), noel = noelActif();
+  const p = promoActive();
   $("#announce").innerHTML = p
     ? `<b>Black Friday</b> : ${p.texte} avec le code <b>${p.code}</b>, jusqu'au ${new Date(p.fin).toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" })} minuit`
-    : noel ? `Pour Noël, commandez avant le ${fmtLong(noel)} · Livraison offerte à partir de ${CONFIG.livraisonOfferteDes} €`
     : `Livraison offerte à partir de ${CONFIG.livraisonOfferteDes} € · Retours sous 30 jours`;
 }
 function carte(id) {
@@ -139,7 +136,6 @@ function carte(id) {
 
 /* ---------- pages ---------- */
 function viewHome() {
-  const noel = noelActif();
   const best = ["collier-marguerite", "creoles-epaisses", "faux-anneau-nez", "chaine-serpent"];
   return `
   <section class="hero-v" style="padding:0">
@@ -172,10 +168,9 @@ function viewHome() {
   <section><div class="wrap split">
     <div class="pic">${ill("parure", "#C9A35E")}</div>
     <div>
-      <p class="eyebrow">${noel ? "Pour Noël" : "En écrin"}</p>
+      <p class="eyebrow">En écrin</p>
       <h2>La Parure Marguerite</h2>
       <p class="lead" style="margin:14px 0 20px">Collier, bracelet et puces assortis, réunis dans un écrin. ${eur(P["parure-marguerite"].prix)}.</p>
-      ${noel ? `<p class="urgent">Pour une livraison avant Noël, nous vous invitons à commander avant le <b>${fmtLong(noel)}</b>.</p>` : ""}
       <a class="btn" href="#/produit/parure-marguerite">Voir la parure</a>
     </div>
   </div></section>
@@ -271,7 +266,7 @@ function viewProduit(id) {
   const p = P[id]; if (!p) return view404();
   const s = sel[id] ||= { opt: p.metaux ? p.metaux[0] : p.coloris?.[0], v: 0 };
   vus = [id, ...vus.filter(x => x !== id)].slice(0, 8); store("vaure-vus", vus);
-  const [d1, d2] = fenetreLivraison(), noel = noelActif();
+  const [d1, d2] = fenetreLivraison();
   const duo = p.duo && P[p.duo];
   const opts = p.metaux ? p.metaux.map(m => METAUX.find(x => x.id === m)) : (p.coloris || []).map(c => ({ id: c, nom: c, hex: FOND[c] }));
   return `
@@ -295,7 +290,6 @@ function viewProduit(id) {
       <button class="btn block" data-buy="${id}">Ajouter au panier · ${eur(p.prix)}</button>
       ${duo && !p.parure ? `<div class="duo"><div class="th">${illP(p.duo, s.opt)}</div><div><span class="small muted">À porter avec</span><br><b>${duo.nom}</b><br><span class="muted small">${eur(prixDuo(p.duo))} avec cette pièce</span></div><button data-duo="${id}">Ajouter l'ensemble</button></div>` : ""}
       <div class="deliv">Livraison estimée entre le <b>${fmtJour(d1)}</b> et le <b>${fmtJour(d2)}</b>, avec suivi.</div>
-      ${noel ? `<div class="urgent">Pour une livraison avant Noël, commandez avant le <b>${fmtLong(noel)}</b>.</div>` : ""}
       <div class="guar">${GARANTIES.map(([i, t, sub]) => `<div>${ICON[i]}<span><b>${t}</b><br><span class="muted">${sub}</span></span></div>`).join("")}</div>
       <div class="acc">
         <details open><summary>Matière</summary><div>${p.mat}. ${p.piercing ? "Titane implantable ASTM F136, sans nickel ajouté. Livré sous emballage scellé ; un piercing ouvert ne peut pas être retourné." : p.cat === "bijoux" || p.cat === "cadeaux" ? "L'acier inoxydable 316L ne rouille pas et garde sa couleur à l'eau. Le plaqué or reste un plaquage : évitez parfum et produits ménagers pour qu'il dure. <span class=\"ph\">[Tenue à l'eau à vérifier sur l'échantillon avant de l'affirmer]</span>" : "Fabriqué par notre fournisseur partenaire et contrôlé avant expédition."}</div></details>
@@ -358,8 +352,7 @@ const PAGES = {
     <p class="ph">[Ajoutez votre prénom et une photo : c'est ce qui crée la confiance.]</p>`],
   livraison: ["Livraison", `<p>Nous livrons en France, en Belgique et en Suisse.<span class="ph"> [À élargir à l'Europe ensuite.]</span></p>
     <h2>Délais</h2><p>Préparation : ${CONFIG.delai.prepa.join(" à ")} jours ouvrés. Transport : ${CONFIG.delai.transport.join(" à ")} jours ouvrés, avec suivi.</p>
-    <h2>Frais</h2><p>Offerte dès ${CONFIG.livraisonOfferteDes} €, sinon ${eur(CONFIG.fraisLivraison)}.</p>
-    <h2>Noël</h2><p>Pour être livrée avant Noël, commandez avant le ${fmtLong(new Date(CONFIG.noelLimite))}.</p>`],
+    <h2>Frais</h2><p>Offerte dès ${CONFIG.livraisonOfferteDes} €, sinon ${eur(CONFIG.fraisLivraison)}.</p>`],
   retours: ["Retours et remboursements", `<p>Vous avez <b>30 jours</b> après réception pour changer d'avis (la loi en impose 14).</p>
     <h2>Comment faire</h2><ol><li>Écrivez à ${CONFIG.email} avec votre numéro de commande.</li><li>Nous vous envoyons l'adresse de retour.</li><li>Renvoyez le bijou non porté, dans son emballage.</li></ol>
     <h2>Piercings</h2><p>Pour des raisons d'hygiène, un piercing dont l'emballage scellé a été ouvert ne peut pas être retourné (article L221-28 du Code de la consommation). Les bijoux sans perçage se retournent normalement.</p>
