@@ -4,6 +4,7 @@
 
 ## 1. Sécurité Jiménez
 - Passer le produit en **brouillon** dès son arrivée (CJ le publie partout, Jiménez et Amazon compris).
+- Ne jamais utiliser un produit Jiménez, même pour un test : les aperçus se font avec les produits et photos VAURE.
 
 ## 2. Matière (sinon refus)
 - Bijoux : acier inoxydable, 316L ou titane uniquement.
