@@ -1,0 +1,23 @@
+{%- doc -%}
+  VAURE : barre de progression vers la livraison offerte (35 €).
+  Appelé en haut de snippets/cart-summary.liquid : {% render 'vaure-livraison-offerte' %}
+{%- enddoc -%}
+{%- unless cart.empty? or cart.currency.iso_code != 'EUR' -%}
+  {%- assign vaure_seuil = 3500 -%}
+  {%- assign vaure_pct = cart.total_price | times: 100 | divided_by: vaure_seuil | at_most: 100 -%}
+  <div class="vaure-livraison" role="status">
+    {%- if cart.total_price >= vaure_seuil -%}
+      <p class="vaure-livraison__texte">✓ La livraison est <strong>offerte</strong></p>
+    {%- else -%}
+      {%- assign vaure_reste = vaure_seuil | minus: cart.total_price -%}
+      <p class="vaure-livraison__texte">Plus que <strong>{{ vaure_reste | money }}</strong> pour la livraison offerte</p>
+    {%- endif -%}
+    <div class="vaure-livraison__barre"><span style="width: {{ vaure_pct }}%"></span></div>
+  </div>
+  <style>
+    .vaure-livraison{display:flex;flex-direction:column;gap:8px;width:100%;margin-block-end:12px}
+    .vaure-livraison__texte{margin:0;font-size:.8125rem;letter-spacing:.02em}
+    .vaure-livraison__barre{height:3px;width:100%;background:rgb(var(--color-foreground-rgb,0 0 0) / .12);overflow:hidden}
+    .vaure-livraison__barre span{display:block;height:100%;background:#B08D57;transition:width .4s ease}
+  </style>
+{%- endunless -%}
