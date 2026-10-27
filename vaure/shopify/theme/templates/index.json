@@ -401,8 +401,8 @@
         "collection_list": [
           "bijoux",
           "bagues",
-          "piercings",
-          "sacs"
+          "sacs",
+          "ceintures"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
