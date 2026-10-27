@@ -1,0 +1,55 @@
+{%- doc -%}
+  VAURE : « Complétez votre look » dans le panier.
+  Montre jusqu'à 4 produits disponibles d'une collection, qui ne sont pas déjà dans le panier.
+
+  @param {string} [collection_handle] - Collection source (par défaut : les-incontournables)
+{%- enddoc -%}
+{%- liquid
+  assign vaure_col = collections[collection_handle] | default: collections['les-incontournables']
+  assign vaure_in_cart = cart.items | map: 'product_id'
+  assign vaure_count = 0
+-%}
+{%- unless cart.empty? or vaure_col == blank -%}
+  {%- capture vaure_cards -%}
+    {%- for p in vaure_col.products -%}
+      {%- if vaure_count >= 4 -%}{%- break -%}{%- endif -%}
+      {%- if vaure_in_cart contains p.id or p.available == false -%}{%- continue -%}{%- endif -%}
+      {%- assign v = p.selected_or_first_available_variant -%}
+      {%- assign vaure_count = vaure_count | plus: 1 -%}
+      <li class="vaure-sugg__item">
+        <a href="{{ p.url }}" class="vaure-sugg__img">
+          {%- if p.featured_image -%}{{ p.featured_image | image_url: width: 200 | image_tag: loading: 'lazy', alt: p.title }}{%- endif -%}
+        </a>
+        <div class="vaure-sugg__info">
+          <a href="{{ p.url }}" class="vaure-sugg__titre">{{ p.title }}</a>
+          <span class="vaure-sugg__prix">{{ v.price | money }}</span>
+          {%- if p.variants.size == 1 -%}
+            <button type="button" class="vaure-sugg__btn" data-vaure-add="{{ v.id }}" onclick="event.preventDefault();var b=this;b.disabled=true;var r=(window.Shopify&&Shopify.routes&&Shopify.routes.root)||'/';fetch(r+'cart/add.js',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({items:[{id:Number(b.dataset.vaureAdd),quantity:1}]})}).then(function(){return fetch(r+'cart.js')}).then(function(x){return x.json()}).then(function(c){var e=new Event('cart:update',{bubbles:true});e.detail={resource:c,sourceId:'vaure-suggestions',data:{source:'vaure-suggestions',itemCount:c.item_count,variantId:b.dataset.vaureAdd}};document.dispatchEvent(e);}).finally(function(){b.disabled=false;});">+ Ajouter</button>
+          {%- else -%}
+            <a href="{{ p.url }}" class="vaure-sugg__btn">Choisir</a>
+          {%- endif -%}
+        </div>
+      </li>
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- if vaure_count > 0 -%}
+    <div class="vaure-sugg">
+      <p class="vaure-sugg__titre-bloc">Complétez votre look</p>
+      <ul class="vaure-sugg__liste" role="list">{{ vaure_cards }}</ul>
+    </div>
+    <style>
+      .vaure-sugg{width:100%;margin-block:4px 16px}
+      .vaure-sugg__titre-bloc{margin:0 0 10px;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+      .vaure-sugg__liste{display:flex;gap:10px;overflow-x:auto;list-style:none;margin:0;padding:0 0 6px;scroll-snap-type:x mandatory}
+      .vaure-sugg__item{flex:0 0 78%;max-width:260px;scroll-snap-align:start;display:flex;gap:10px;align-items:center;background:rgb(255 255 255 / .55);padding:6px}
+      .vaure-sugg__img{flex:0 0 64px;height:80px;display:block;background:#fff;overflow:hidden}
+      .vaure-sugg__img img{width:100%;height:100%;object-fit:cover;display:block}
+      .vaure-sugg__info{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1}
+      .vaure-sugg__titre{font-size:.75rem;line-height:1.3;text-decoration:none;color:inherit;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+      .vaure-sugg__prix{font-size:.75rem;opacity:.75}
+      .vaure-sugg__btn{margin-top:4px;padding:7px 8px;border:1px solid currentColor;background:none;color:inherit;font:inherit;font-size:.6875rem;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;text-align:center;text-decoration:none}
+      .vaure-sugg__btn:hover{background:var(--color-foreground,#151412);color:var(--color-background,#fff)}
+      .vaure-sugg__btn[disabled]{opacity:.5;cursor:wait}
+    </style>
+  {%- endif -%}
+{%- endunless -%}
