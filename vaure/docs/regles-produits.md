@@ -31,3 +31,10 @@
 ## 6. Mise en avant
 - Une seule couleur par pièce dans « Incontournables » et « Idées cadeaux ».
 - Les produits tagués **À sourcer** n'ont pas de fournisseur : ils ne doivent jamais être mis en ligne.
+
+## 7. Écriture des fiches (ce que le cerveau aime)
+- **1 phrase sensorielle** d'abord : ce qu'on ressent ou ce qu'on voit (« Un fil de lumière au poignet »).
+- **3 bénéfices** en liste courte : usage, confort, durabilité. Des chiffres quand c'est possible (« 3,3 g », « 15, 18 et 20 mm »).
+- **Puis les faits** en gras : Couleur ou Finition, Matière, Taille ou Dimensions, Dans la boîte.
+- Vocabulaire concret et positif, « vous » et « on », jamais de promesse invérifiable.
+- **Photos** : portée sur la peau en premier, gros plan lumineux ensuite, fond neutre pour le détail.

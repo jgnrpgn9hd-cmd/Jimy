@@ -11,6 +11,16 @@
   assign vaure_m2 = vaure_d2 | date: '%m' | minus: 1
 -%}
 <div class="vaure-plus">
+  {%- if product.tags contains 'Bagues' -%}
+    {%- if product.options contains 'Taille' -%}
+      <details class="vaure-plus__guide">
+        <summary><span aria-hidden="true">◯</span> <strong>Guide des tailles</strong> : tour de doigt en mm = taille</summary>
+        <p>52 = 52 mm (Ø 16,5 mm) · 54 = 54 mm (Ø 17,2 mm) · 57 = 57 mm (Ø 18,1 mm). Entre deux tailles, prenez la plus grande. <a href="/blogs/journal/taille-de-bague">Mesurer son doigt →</a></p>
+      </details>
+    {%- else -%}
+      <p class="vaure-plus__ligne"><span aria-hidden="true">◯</span> <strong>Ajustable, taille unique</strong> : s’adapte à la plupart des doigts</p>
+    {%- endif -%}
+  {%- endif -%}
   <p class="vaure-plus__ligne">
     <span aria-hidden="true">◷</span> Commandé aujourd’hui, reçu entre le
     <strong>{{ vaure_d1 | date: '%-d' }} {{ vaure_mois[vaure_m1] }}</strong> et le
@@ -23,5 +33,10 @@
 <style>
   .vaure-plus{display:flex;flex-direction:column;gap:6px;padding:12px 14px;background:rgb(176 141 87 / .08);border-left:2px solid #B08D57}
   .vaure-plus__ligne{margin:0;font-size:.8125rem;line-height:1.45}
-  .vaure-plus__ligne span{color:#B08D57;margin-right:4px}
+  .vaure-plus__ligne span,.vaure-plus__guide span{color:#B08D57;margin-right:4px}
+  .vaure-plus__guide{font-size:.8125rem;line-height:1.45}
+  .vaure-plus__guide summary{cursor:pointer;list-style:none}
+  .vaure-plus__guide summary::-webkit-details-marker{display:none}
+  .vaure-plus__guide p{margin:6px 0 0;opacity:.85}
+  .vaure-plus__guide a{color:inherit}
 </style>
