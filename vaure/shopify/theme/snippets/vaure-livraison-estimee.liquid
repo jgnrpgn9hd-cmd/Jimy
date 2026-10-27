@@ -1,0 +1,27 @@
+{%- doc -%}
+  VAURE : date de livraison estimée (expédition 1 à 3 jours ouvrés + transport 8 à 15 jours ouvrés ≈ 11 à 21 jours calendaires),
+  plus le rappel de l'offre duo.
+{%- enddoc -%}
+{%- liquid
+  assign vaure_mois = 'janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre' | split: ','
+  assign vaure_now = 'now' | date: '%s' | plus: 0
+  assign vaure_d1 = vaure_now | plus: 950400
+  assign vaure_d2 = vaure_now | plus: 1814400
+  assign vaure_m1 = vaure_d1 | date: '%m' | minus: 1
+  assign vaure_m2 = vaure_d2 | date: '%m' | minus: 1
+-%}
+<div class="vaure-plus">
+  <p class="vaure-plus__ligne">
+    <span aria-hidden="true">◷</span> Commandé aujourd’hui, reçu entre le
+    <strong>{{ vaure_d1 | date: '%-d' }} {{ vaure_mois[vaure_m1] }}</strong> et le
+    <strong>{{ vaure_d2 | date: '%-d' }} {{ vaure_mois[vaure_m2] }}</strong>
+  </p>
+  <p class="vaure-plus__ligne vaure-plus__duo">
+    <span aria-hidden="true">✦</span> <strong>Offre duo :</strong> −10 % dès 2 articles VAURE, appliqué automatiquement
+  </p>
+</div>
+<style>
+  .vaure-plus{display:flex;flex-direction:column;gap:6px;padding:12px 14px;background:rgb(176 141 87 / .08);border-left:2px solid #B08D57}
+  .vaure-plus__ligne{margin:0;font-size:.8125rem;line-height:1.45}
+  .vaure-plus__ligne span{color:#B08D57;margin-right:4px}
+</style>
