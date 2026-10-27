@@ -1,0 +1,28 @@
+{%- assign vc = product.metafields.vaure.autres_couleurs.value -%}
+{%- if product.variants.size == 1 -%}<style>variant-picker{display:none!important}</style>{%- endif -%}
+{%- if vc and vc.size > 1 -%}
+<div class="vaure-couleurs">
+  <p class="vaure-couleurs__label">Couleur : <strong>{{ product.metafields.vaure.couleur }}</strong></p>
+  <div class="vaure-couleurs__list">
+    {%- for p in vc -%}
+      <a href="{{ p.url }}" class="vaure-couleurs__item{% if p.id == product.id %} is-active{% endif %}" title="{{ p.metafields.vaure.couleur }}" aria-label="{{ p.metafields.vaure.couleur }}"{% if p.id == product.id %} aria-current="true"{% endif %}>
+        {%- if p.featured_image -%}<img src="{{ p.featured_image | image_url: width: 160 }}" alt="{{ p.metafields.vaure.couleur }}" width="64" height="64" loading="lazy">{%- endif -%}
+        <span class="vaure-couleurs__dot" style="background:{{ p.metafields.vaure.couleur_hex }}"></span>
+      </a>
+    {%- endfor -%}
+  </div>
+  <p class="vaure-couleurs__hint">{{ vc.size }} couleurs disponibles</p>
+</div>
+<style>
+.vaure-couleurs{display:flex;flex-direction:column;gap:10px}
+.vaure-couleurs__label{margin:0;font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase}
+.vaure-couleurs__label strong{font-weight:600}
+.vaure-couleurs__list{display:flex;flex-wrap:wrap;gap:10px}
+.vaure-couleurs__item{position:relative;display:block;width:64px;height:64px;border:1px solid rgb(var(--color-foreground-rgb,0 0 0) / .15);padding:2px;transition:border-color .2s}
+.vaure-couleurs__item img{width:100%;height:100%;object-fit:cover;display:block}
+.vaure-couleurs__item:hover{border-color:currentColor}
+.vaure-couleurs__item.is-active{border:1.5px solid currentColor}
+.vaure-couleurs__dot{position:absolute;right:-5px;bottom:-5px;width:16px;height:16px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+.vaure-couleurs__hint{margin:0;font-size:.75rem;opacity:.65}
+</style>
+{%- endif -%}
