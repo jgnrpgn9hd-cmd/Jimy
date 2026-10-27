@@ -1,0 +1,82 @@
+{%- doc -%}
+  VAURE : fenêtre « Inscrivez-vous, −10 % » affichée 20 s après l'arrivée.
+  Le code VAURE10 n'apparaît qu'une fois l'inscription envoyée.
+  Ne s'affiche pas au panier ni aux clientes déjà connectées et abonnées.
+{%- enddoc -%}
+{%- unless template.name == 'cart' or customer.accepts_marketing -%}
+<div id="vaure-popup" class="vaure-popup" role="dialog" aria-modal="true" aria-labelledby="vaure-popup-titre" hidden>
+  <div class="vaure-popup__fond" data-vaure-fermer></div>
+  <div class="vaure-popup__boite">
+    <button type="button" class="vaure-popup__x" aria-label="Fermer" data-vaure-fermer>×</button>
+    <div class="vaure-popup__img" aria-hidden="true"></div>
+    <div class="vaure-popup__contenu">
+      {%- form 'customer', id: 'vaure-popup-form', class: 'vaure-popup__form' -%}
+        {%- if form.posted_successfully? -%}
+          {%- assign vaure_ok = true -%}
+          <p class="vaure-popup__sur">Bienvenue chez VAURE</p>
+          <h2 id="vaure-popup-titre" class="vaure-popup__titre">Votre code −10 %</h2>
+          <p class="vaure-popup__code" id="vaure-code">VAURE10</p>
+          <button type="button" class="vaure-popup__btn" data-vaure-copier>Copier le code</button>
+          <p class="vaure-popup__petit">À saisir au moment du paiement, sur votre 1re commande.</p>
+        {%- else -%}
+          <p class="vaure-popup__sur">La lettre VAURE</p>
+          <h2 id="vaure-popup-titre" class="vaure-popup__titre">−10 % sur votre 1re commande</h2>
+          <p class="vaure-popup__texte">Inscrivez-vous et recevez votre code tout de suite, avec nos nouveautés et conseils en avant-première.</p>
+          <input type="hidden" name="contact[tags]" value="newsletter, vaure, popup">
+          <input type="hidden" name="contact[accepts_marketing]" value="true">
+          <label for="vaure-popup-email" class="visually-hidden">Adresse e-mail</label>
+          <input id="vaure-popup-email" class="vaure-popup__input" type="email" name="contact[email]" placeholder="Votre adresse e-mail" autocomplete="email" required>
+          {%- if form.errors -%}<p class="vaure-popup__erreur">Vérifiez votre adresse e-mail.</p>{%- endif -%}
+          <button type="submit" class="vaure-popup__btn">Recevoir mon code</button>
+          <p class="vaure-popup__petit">Désinscription en un clic à tout moment. Vos données ne sont jamais revendues.</p>
+        {%- endif -%}
+      {%- endform -%}
+    </div>
+  </div>
+</div>
+<style>
+  .vaure-popup{position:fixed;inset:0;z-index:2147483000;display:flex;align-items:center;justify-content:center;padding:16px}
+  .vaure-popup[hidden]{display:none}
+  .vaure-popup__fond{position:absolute;inset:0;background:rgb(21 20 18 / .55)}
+  .vaure-popup__boite{position:relative;display:grid;grid-template-columns:1fr 1fr;max-width:720px;width:100%;background:#F8F5F0;color:#151412;animation:vaurePop .35s ease}
+  .vaure-popup__img{background:url('{{ 'vaure-hero-creoles.jpg' | file_img_url: '900x' }}') center/cover;min-height:380px}
+  .vaure-popup__contenu{padding:40px 32px;display:flex;align-items:center}
+  .vaure-popup__form{display:flex;flex-direction:column;gap:12px;width:100%}
+  .vaure-popup__sur{margin:0;font-size:.6875rem;letter-spacing:.2em;text-transform:uppercase;color:#B08D57}
+  .vaure-popup__titre{margin:0;font-family:var(--font-heading--family);font-weight:400;font-size:1.75rem;line-height:1.15}
+  .vaure-popup__texte{margin:0;font-size:.875rem;line-height:1.5}
+  .vaure-popup__input{width:100%;padding:13px 14px;border:1px solid #D9CFC0;background:#fff;font:inherit;font-size:.9375rem}
+  .vaure-popup__btn{padding:14px;border:0;background:#151412;color:#F8F5F0;font:inherit;font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;cursor:pointer}
+  .vaure-popup__btn:hover{background:#B08D57;color:#151412}
+  .vaure-popup__code{margin:4px 0;padding:14px;border:1px dashed #B08D57;text-align:center;font-size:1.5rem;letter-spacing:.25em;font-weight:600}
+  .vaure-popup__petit{margin:0;font-size:.6875rem;opacity:.65;line-height:1.4}
+  .vaure-popup__erreur{margin:0;font-size:.8125rem;color:#a33a2e}
+  .vaure-popup__x{position:absolute;top:8px;right:10px;z-index:1;border:0;background:none;font-size:28px;line-height:1;cursor:pointer;color:#151412}
+  @keyframes vaurePop{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  @media (max-width:640px){.vaure-popup__boite{grid-template-columns:1fr}.vaure-popup__img{min-height:150px}.vaure-popup__contenu{padding:28px 22px}.vaure-popup__titre{font-size:1.5rem}}
+</style>
+<script>
+  (function () {
+    var popup = document.getElementById('vaure-popup');
+    if (!popup) return;
+    var CLE = 'vaurePopup';
+    function lire() { try { return localStorage.getItem(CLE); } catch (e) { return null; } }
+    function ecrire(v) { try { localStorage.setItem(CLE, v); } catch (e) {} }
+    function ouvrir() { popup.hidden = false; }
+    function fermer() { popup.hidden = true; if (lire() !== 'inscrite') ecrire('ferme-' + Date.now()); }
+    var inscrite = {{ vaure_ok | default: false }};
+    if (inscrite) { ecrire('inscrite'); ouvrir(); }
+    else {
+      var etat = lire() || '';
+      var fermeeRecemment = etat.indexOf('ferme-') === 0 && Date.now() - Number(etat.slice(6)) < 7 * 864e5;
+      if (etat !== 'inscrite' && !fermeeRecemment) setTimeout(ouvrir, 20000);
+    }
+    popup.addEventListener('click', function (e) {
+      if (e.target.closest('[data-vaure-fermer]')) fermer();
+      var b = e.target.closest('[data-vaure-copier]');
+      if (b) { try { navigator.clipboard.writeText('VAURE10'); b.textContent = 'Code copié ✓'; } catch (err) {} }
+    });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !popup.hidden) fermer(); });
+  })();
+</script>
+{%- endunless -%}
