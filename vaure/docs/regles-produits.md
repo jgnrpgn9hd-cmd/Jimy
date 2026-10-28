@@ -14,7 +14,7 @@
 ## 3. Fiche
 - Titre et description en français, vendeur VAURE, tags et collections VAURE.
 - Jamais « or » seul : écrire « doré », « plaqué or » ou « argenté ».
-- Calculer sur le **total CJ livraison comprise** (« Total Dropshipping Price »). Bijoux : 24,90 € minimum. Prix ≈ 4 à 5 × ce total, terminaison ,90 ; pas de prix barré.
+- Calculer sur le **total CJ livraison comprise** (« Total Dropshipping Price »). Modèles simples (chaîne ou anneau uni, sans pierre, perle ni pendentif) : 23,90 € maximum. Bijoux avec pierres, perles ou pendentif : 27,90 à 34,90 €. Prix ≈ 4 à 5 × ce total, terminaison ,90 ; pas de prix barré.
 - Profil de livraison **VAURE**.
 - Sacs, ceintures, foulards : modèle de page `accessoire`.
 
