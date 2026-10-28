@@ -13,7 +13,7 @@ Hypothèses : −10 % (offre duo ou VAURE10, non cumulables), TVA 20 %, frais de
 | Collier Serpent Plat | 23,90 € | 5,29 € | 4,05 € | **8,01 €** | 9,97 € |
 | Collier Double Serpent | 23,90 € | 5,73 € | 4,05 € | **7,57 €** | 9,53 € |
 | Collier Perles Bleues | 24,90 € | 4,62 € | 4,05 € | **9,42 €** | 11,46 € |
-| Collier Superposé Perles | 27,90 € | 5,29 € | 4,05 € | **10,96 €** | 13,24 € |
+| Collier Superposé Éclat | 27,90 € | 5,29 € | 4,05 € | **10,96 €** | 13,24 € |
 | Collier Double Rang Perles | 27,90 € | 5,55 € | 4,05 € | **10,70 €** | 12,98 € |
 | Trio de Créoles | 29,90 € | 6,23 € | 4,05 € | **11,49 €** | 13,94 € |
 | Bracelet Rivière | 29,90 € | 6,25 € | 4,05 € | **11,47 €** | 13,92 € |
