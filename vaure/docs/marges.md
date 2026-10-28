@@ -23,5 +23,6 @@ Hypothèses : −10 % (offre duo ou VAURE10, non cumulables), TVA 20 %, frais de
 | Pochette Demi-Lune | 49,90 € | 11,19 € | 6,50 € | **18,81 €** | 22,89 € |
 | Sac Demi-Lune Anse Sculptée | 54,90 € | 12,99 € | 6,50 € | **20,69 €** | 25,19 € |
 | Sac Besace | 54,90 € | 13,11 € | 6,50 € | **20,57 €** | 25,07 € |
+| Collier Lariat Double Rang | 27,90 € | 5,62 € | 4,05 € | **10,63 €** | 12,91 € |
 
 Règle : jamais moins de 7 € de marge dans le pire cas. Sous ce seuil, on remonte le prix.
