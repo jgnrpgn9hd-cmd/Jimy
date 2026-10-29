@@ -38,3 +38,7 @@
 - **Puis les faits** en gras : Couleur ou Finition, Matière, Taille ou Dimensions, Dans la boîte.
 - Vocabulaire concret et positif, « vous » et « on », jamais de promesse invérifiable.
 - **Photos** : portée sur la peau en premier, gros plan lumineux ensuite, fond neutre pour le détail.
+
+## 8. Une fiche = un produit
+- Chaque modèle a sa propre fiche. On ne regroupe jamais plusieurs modèles différents (collier et bracelet, formes de pierres, styles de bague, duo et parure) dans une même fiche.
+- Seules exceptions : les couleurs doré/argenté (fiches séparées reliées par les pastilles) et les tailles d'un même modèle (ex. Bague Maillons 52/54/57).

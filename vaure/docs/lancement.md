@@ -29,3 +29,6 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
 - « Fleur de Nacre » séparée en Collier, Bracelet, Puces et Parure (Duo ou 3 pièces). L'ancienne adresse redirige vers la Parure.
 - À faire dans CJ : relier les 8 nouvelles bagues et les 3 nouvelles fiches Fleur de Nacre à leur produit CJ.
 - Photos : cotes et textes du fournisseur retirés (bagues, colliers Superposé, Trio de Créoles argenté).
+- Séparés aussi : Bracelets à Empiler (Jonc Strié, Perles Dorées, Chaîne à Zircons), Collier Superposé (Vague Zircons, Lariat Zircons, Pendentif Navette), Torsade Plate (collier, bracelet), Bracelet Tennis (Ovales, Navette), Duo et Parure Fleur de Nacre.
+- 50 fiches en ligne. Une seule a plusieurs choix : Bague Maillons (tailles).
+- À relier dans CJ : 18 nouvelles fiches au total (8 bagues, 3 Fleur de Nacre, Duo Fleur de Nacre, Bracelet Perles Dorées, Bracelet Chaîne à Zircons, Collier Lariat Zircons, Collier Pendentif Navette, Bracelet Torsade Plate, Bracelet Tennis Navette).
