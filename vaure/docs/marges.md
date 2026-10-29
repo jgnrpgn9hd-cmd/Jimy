@@ -1,29 +1,31 @@
 # VAURE – Marge par produit (pire cas)
 
-Hypothèses : −10 % (offre duo ou VAURE10, non cumulables), TVA 20 %, frais de paiement 1,5 % + 0,25 €.
-Le coût CJ est le **total dropshipping** (bijou + livraison) : le bijou seul coûte environ 0,80 à 2 €, livré entre 4 et 8 €. On n'ajoute donc pas la livraison une deuxième fois.
+Statut : micro-entrepreneur, franchise en base de TVA (pas de TVA facturée : mention « TVA non applicable, art. 293 B du CGI »).
+
+Hypothèses : −10 % (offre duo ou VAURE10, non cumulables), cotisations URSSAF vente de marchandises 12,3 % + CFP 0,1 % = 12,4 % du chiffre d'affaires encaissé, frais de paiement 1,5 % + 0,25 €. Impôt sur le revenu non compté (ou +1 % si versement libératoire).
+Le coût CJ est le **total dropshipping** (bijou ≈ 0,80 à 2 € + livraison), soit 4 à 8 € livré pour un bijou.
 
 | Produit | Prix | Coût CJ total (livré) | Il reste (pire cas) | Il reste (sans réduction) |
 |---|---|---|---|---|
-| Chaîne Torsadée | 23,90 € | 5,43 € | **11,92 €** | 13,88 € |
-| Bague Ajustable | 23,90 € | 4,40 € | **12,95 €** | 14,91 € |
-| Bague Ovales | 23,90 € | 4,18 € | **13,17 €** | 15,13 € |
-| Bague Maillons | 23,90 € | 5,61 € | **11,74 €** | 13,70 € |
-| Bracelet Fin Étincelant | 23,90 € | 4,25 € | **13,10 €** | 15,06 € |
-| Torsade Plate | 23,90 € | 4,43 € | **12,92 €** | 14,88 € |
-| Collier Serpent Plat | 23,90 € | 5,29 € | **12,06 €** | 14,02 € |
-| Collier Double Serpent | 23,90 € | 5,73 € | **11,62 €** | 13,58 € |
-| Collier Perles Bleues | 24,90 € | 4,62 € | **13,47 €** | 15,51 € |
-| Collier Superposé Éclat | 27,90 € | 5,29 € | **15,01 €** | 17,29 € |
-| Collier Double Rang Perles | 27,90 € | 5,55 € | **14,75 €** | 17,03 € |
-| Collier Lariat Double Rang | 27,90 € | 5,62 € | **14,68 €** | 16,96 € |
-| Trio de Créoles | 29,90 € | 6,23 € | **15,54 €** | 17,99 € |
-| Bracelet Rivière | 29,90 € | 6,25 € | **15,52 €** | 17,97 € |
-| Bracelet Tennis | 29,90 € | 6,70 € | **15,07 €** | 17,52 € |
-| Collier Coquelicot | 34,90 € | 7,54 € | **17,91 €** | 20,77 € |
-| Ceinture Torsade | 27,90 € | 6,17 € | **14,13 €** | 16,41 € |
-| Pochette Demi-Lune | 49,90 € | 11,19 € | **25,31 €** | 29,39 € |
-| Sac Demi-Lune Anse Sculptée | 54,90 € | 12,99 € | **27,19 €** | 31,69 € |
-| Sac Besace | 54,90 € | 13,11 € | **27,07 €** | 31,57 € |
+| Chaîne Torsadée | 23,90 € | 5,43 € | **12,84 €** | 14,90 € |
+| Bague Ajustable | 23,90 € | 4,40 € | **13,87 €** | 15,93 € |
+| Bague Ovales | 23,90 € | 4,18 € | **14,09 €** | 16,15 € |
+| Bague Maillons | 23,90 € | 5,61 € | **12,66 €** | 14,72 € |
+| Bracelet Fin Étincelant | 23,90 € | 4,25 € | **14,02 €** | 16,08 € |
+| Torsade Plate | 23,90 € | 4,43 € | **13,84 €** | 15,90 € |
+| Collier Serpent Plat | 23,90 € | 5,29 € | **12,98 €** | 15,04 € |
+| Collier Double Serpent | 23,90 € | 5,73 € | **12,54 €** | 14,60 € |
+| Collier Perles Bleues | 24,90 € | 4,62 € | **14,43 €** | 16,57 € |
+| Collier Superposé Éclat | 27,90 € | 5,29 € | **16,08 €** | 18,48 € |
+| Collier Double Rang Perles | 27,90 € | 5,55 € | **15,82 €** | 18,22 € |
+| Collier Lariat Double Rang | 27,90 € | 5,62 € | **15,75 €** | 18,15 € |
+| Trio de Créoles | 29,90 € | 6,23 € | **16,69 €** | 19,26 € |
+| Bracelet Rivière | 29,90 € | 6,25 € | **16,67 €** | 19,24 € |
+| Bracelet Tennis | 29,90 € | 6,70 € | **16,22 €** | 18,79 € |
+| Collier Coquelicot | 34,90 € | 7,54 € | **19,25 €** | 22,26 € |
+| Ceinture Torsade | 27,90 € | 6,17 € | **15,20 €** | 17,60 € |
+| Pochette Demi-Lune | 49,90 € | 11,19 € | **27,23 €** | 31,52 € |
+| Sac Demi-Lune Anse Sculptée | 54,90 € | 12,99 € | **29,30 €** | 34,03 € |
+| Sac Besace | 54,90 € | 13,11 € | **29,18 €** | 33,91 € |
 
 Règle : jamais moins de 7 € de marge dans le pire cas. Sous ce seuil, on remonte le prix.
