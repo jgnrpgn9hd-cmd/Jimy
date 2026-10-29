@@ -27,5 +27,16 @@ Le coût CJ est le **total dropshipping** (bijou ≈ 0,80 à 2 € + livraison),
 | Pochette Demi-Lune | 49,90 € | 11,19 € | **27,23 €** | 31,52 € |
 | Sac Demi-Lune Anse Sculptée | 54,90 € | 12,99 € | **29,30 €** | 34,03 € |
 | Sac Besace | 54,90 € | 13,11 € | **29,18 €** | 33,91 € |
+| Bracelets à Empiler – Jonc strié | 27,90 € | 5,94 € | **15,43 €** | 17,83 € |
+| Bracelets à Empiler – Perles dorées | 23,90 € | 5,66 € | **12,61 €** | 14,67 € |
+| Bracelets à Empiler – Chaîne à zircons | 23,90 € | 5,48 € | **12,79 €** | 14,85 € |
+| Bracelet Fleur Réversible | 27,90 € | 4,58 € | **16,79 €** | 19,19 € |
+| Bracelet Fleurs Ajourées – Blanche | 27,90 € | 5,17 € | **16,20 €** | 18,60 € |
+| Bracelet Fleurs Ajourées – Dorée | 24,90 € | 5,17 € | **13,88 €** | 16,02 € |
+| Fleur de Nacre – Collier | 27,90 € | 4,80 € | **16,57 €** | 18,97 € |
+| Fleur de Nacre – Bracelet | 27,90 € | 4,72 € | **16,65 €** | 19,05 € |
+| Fleur de Nacre – Boucles d’oreilles | 23,90 € | 4,28 € | **13,99 €** | 16,05 € |
+| Fleur de Nacre – Duo collier + bracelet | 44,90 € | 5,73 € | **28,81 €** | 32,68 € |
+| Fleur de Nacre – Parure 3 pièces | 59,90 € | 6,67 € | **39,50 €** | 44,65 € |
 
 Règle : jamais moins de 7 € de marge dans le pire cas. Sous ce seuil, on remonte le prix.
