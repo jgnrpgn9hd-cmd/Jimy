@@ -42,3 +42,9 @@
 ## 8. Une fiche = un produit
 - Chaque modèle a sa propre fiche. On ne regroupe jamais plusieurs modèles différents (collier et bracelet, formes de pierres, styles de bague, duo et parure) dans une même fiche.
 - Seules exceptions : les couleurs doré/argenté (fiches séparées reliées par les pastilles) et les tailles d'un même modèle (ex. Bague Maillons 52/54/57).
+
+## 9. Noms des produits
+- Chaque modèle porte un prénom, le même pour toutes ses couleurs : « Bague Lina – Dorée », « Bague Lina – Argentée ».
+- Les pièces assorties partagent le même prénom (Collier, Bracelet, Puces, Duo et Parure Flore ; Collier et Bracelet Siena).
+- Exceptions gardées : Bracelet Rivière (bannière de l'accueil) et Collier Coquelicot.
+- Les adresses des pages (handles) ne changent pas, pour ne casser aucun lien.
