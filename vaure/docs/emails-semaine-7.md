@@ -1,6 +1,6 @@
 # VAURE – Semaine 7 : emails automatiques
 
-Outil : **Shopify Email** (gratuit jusqu'à 10 000 emails par mois, déjà dans la boutique).
+Outil : **Shopify Email** (déjà inclus dans Shopify ; vérifie le quota gratuit de ton forfait dans Marketing).
 Où : Shopify → Marketing → Automatisations → « Créer une automatisation ». Choisir le modèle indiqué, puis coller les textes ci-dessous.
 Expéditeur : VAURE. Ton : tutoiement, comme sur Instagram. Pas de faux compte à rebours, pas de fausse rareté.
 
