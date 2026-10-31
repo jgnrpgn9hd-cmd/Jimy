@@ -43,3 +43,4 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
 - Coût par article dans Shopify converti de USD en EUR (× 0,8985 × 1,02, comme l'Excel) pour 56 variantes.
 - Emails automatiques semaine 7 rédigés : `emails-semaine-7.md`.
 - Plan Meta Ads semaine 8 rédigé : `meta-ads-semaine-8.md` (aucun compte VAURE connecté à PlugKit pour l'instant, seulement Instagram Jiménez).
+- Audit complet v2 (ordinateur + mobile) : bandeau « Retours sous 30 jours » (plus de « gratuits »), offre duo dans le bandeau, garantie « Livraison offerte dès 35 € », délai 11–21 jours sur les fiches, lettre VAURE avec la promesse −10 %, « propulsé par Shopify » retiré, comparatif du panier sans « 316L », sous-titres dans les suggestions du panier, image Sacs = Sac Sola (plus la Besace en brouillon), Idées cadeaux en tri manuel sans doublon avec l'accueil.
