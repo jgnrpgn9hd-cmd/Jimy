@@ -111,7 +111,7 @@
   {%- if request.page_type == 'index' -%}VAURE – Bijoux en acier qui ne noircissent pas{%- else -%}{{ page_title | replace: shop.name, 'VAURE' }}{%- endif -%}
   {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
   {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-  {%- unless request.page_type == 'index' %} &ndash; VAURE{% endunless -%}
+  {%- unless request.page_type == 'index' or page_title contains 'VAURE' %} &ndash; VAURE{% endunless -%}
 </title>
 
 <link
