@@ -42,3 +42,4 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
 - CGV et mentions légales (non publiées) : délai 11–21 jours, plus de nom de domaine ni d'e-mail inventés, TVA non applicable (art. 293 B). Reste à remplir : nom, SIREN, adresse, e-mail, médiateur.
 - Coût par article dans Shopify converti de USD en EUR (× 0,8985 × 1,02, comme l'Excel) pour 56 variantes.
 - Emails automatiques semaine 7 rédigés : `emails-semaine-7.md`.
+- Plan Meta Ads semaine 8 rédigé : `meta-ads-semaine-8.md` (aucun compte VAURE connecté à PlugKit pour l'instant, seulement Instagram Jiménez).
