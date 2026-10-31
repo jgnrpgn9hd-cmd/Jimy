@@ -32,3 +32,11 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
 - Séparés aussi : Bracelets à Empiler (Jonc Strié, Perles Dorées, Chaîne à Zircons), Collier Superposé (Vague Zircons, Lariat Zircons, Pendentif Navette), Torsade Plate (collier, bracelet), Bracelet Tennis (Ovales, Navette), Duo et Parure Fleur de Nacre.
 - 50 fiches en ligne. Une seule a plusieurs choix : Bague Maillons (tailles).
 - À relier dans CJ : 18 nouvelles fiches au total (8 bagues, 3 Fleur de Nacre, Duo Fleur de Nacre, Bracelet Perles Dorées, Bracelet Chaîne à Zircons, Collier Lariat Zircons, Collier Pendentif Navette, Bracelet Torsade Plate, Bracelet Tennis Navette).
+
+## Mise à jour du 31/10 – pages et site
+
+- 113 photos : texte alternatif lisible (Google Images, accessibilité) au lieu des codes fournisseur.
+- « Plaqué or » remplacé par « doré » dans 10 fiches et leurs textes Google.
+- Collections Colliers, Boucles d'oreilles, Parures, Nouveautés, Idées cadeaux : textes et SEO corrigés.
+- Première photo différente pour Céleste, Ondine, Perla et Léa (plus de doublons dans les grilles).
+- CGV et mentions légales (non publiées) : délai 11–21 jours, plus de nom de domaine ni d'e-mail inventés, TVA non applicable (art. 293 B). Reste à remplir : nom, SIREN, adresse, e-mail, médiateur.
