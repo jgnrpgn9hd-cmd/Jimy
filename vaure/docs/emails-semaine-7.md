@@ -81,7 +81,7 @@ Modèle Shopify : « Remercier les clients après l'achat ». Envoi : 1 jour apr
 >
 > **Ce qui se passe maintenant :**
 > 1. Ta commande est préparée sous 1 à 3 jours ouvrés.
-> 2. Tu reçois ton numéro de suivi par email dès l'expédition.
+> 2. Tu reçois ton numéro de suivi par email dès l'expédition. Tu peux aussi suivre ton colis ici : [Suivre ma commande → /apps/parcelpanel]
 > 3. Compte 11 à 21 jours en tout pour la recevoir.
 >
 > **Pour que ton bijou dure :** mets parfum et crème avant de l'enfiler, retire-le pour le ménage, range-le à part.
