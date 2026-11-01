@@ -3,10 +3,10 @@
 | Visuel | Lien du bouton |
 |---|---|
 | vaure-pub-bagues.jpg – « Fini le doigt vert. » | /collections/bagues |
-| vaure-pub-superposes.jpg – « Superposés. Jamais noircis. » | /products/collier-pendentif-navette (Inès) |
+| vaure-pub-superposes.jpg – « Superposés. Faits pour durer. » | /products/collier-pendentif-navette (Inès) |
 | vaure-pub-eau.jpg – « Même dans l'eau, ils restent dorés. » | /collections/bracelets |
 | vaure-pub-cadeau.jpg – « Le cadeau qu'elle portera tous les jours. » | /products/duo-fleur-de-nacre |
-| vaure-pub-nouveautes.jpg – « Nouveaux colliers, toujours sans noircir. » | /collections/nouveautes |
+| vaure-pub-nouveautes.jpg – « Nouveaux colliers, faits pour durer. » | /collections/nouveautes |
 | vaure-pub-riviere.jpg (déjà faite) | /products/bracelet-riviere |
 
 ## Méthode Shopify (recommandée)
