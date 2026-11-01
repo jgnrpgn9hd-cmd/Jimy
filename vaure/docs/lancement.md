@@ -58,3 +58,4 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
 - 01/11 – Pubs Instagram : 5 visuels dans `vaure/pubs/` (Rivière, Bagues, Colliers, Nouveautés, Cadeau) + guide `lancer-les-pubs-instagram.md`.
 - 01/11 – ANNULÉ à la demande de la propriétaire : fonds crème détourés (bijoux coupés, rendu pas beau). Les 70 produits ont retrouvé exactement leurs photos et leur ordre d'avant (vérifié). Pubs bagues/cadeau/nouveautés supprimées (elles utilisaient ces détourages). Règle : ne plus détourer les photos produits.
 - 01/11 – Domaine **vaure.fr** acheté. À faire : le définir comme domaine principal (jimenez-shop.com redirigera vers lui).
+- 01/11 – Code promo **CRUSH20** : −20 % sur tout le site, du 01/11 au 08/11 23h59 (Paris), non cumulable avec le −10 % dès 2 articles, cumulable avec la livraison offerte. Marge pire cas ≈ 8 € (bague à 23,90).
