@@ -102,13 +102,13 @@
 
   /* Version imprimable */
   @media print{
-    #header-group,footer,.vaure-flottants,.vaure-lecture,.vaure-toast,.vaure-copier,#shopify-pc__banner,.shopify-section-group-header-group,.shopify-section-group-footer-group,product-recommendations,.product-recommendations,[id*='product_list'],[class*='quick-add'],add-to-cart-component,button{display:none!important}
+    #header-group,footer,.skip-to-content-link,[class*='skip-to'],[href^='#'],.vaure-flottants,.vaure-lecture,.vaure-toast,.vaure-copier,#shopify-pc__banner,.shopify-section-group-header-group,.shopify-section-group-footer-group,product-recommendations,.product-recommendations,[id*='product_list'],[class*='quick-add'],add-to-cart-component,button{display:none!important}
     html,body,[class*='color-scheme-']{background:#fff!important;color:#000!important}
     img{filter:none!important;max-width:100%!important;break-inside:avoid}
     a[href^='http']::after{content:' (' attr(href) ')';font-size:.8em}
     .vaure-faq details{display:block}
     .vaure-faq details > *{display:block!important}
-    body::before{content:'VAURE – bijoux en acier qui ne noircissent pas';display:block;margin-bottom:16px;font:400 18pt/1.2 serif;letter-spacing:.2em}
+    body::before{content:'VAURE – bijoux en acier qui ne noircissent pas';display:block;margin-bottom:16px;font:400 16pt/1.3 serif;letter-spacing:.08em}
   }
 </style>
 
