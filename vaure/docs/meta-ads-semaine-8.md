@@ -91,3 +91,31 @@ Ta marge nette moyenne est d'environ 19 € par bijou : **au-dessus de 19 € pa
 - Pas de prix barré qui n'a jamais été pratiqué.
 - Jamais « or » tout seul : « doré » ou « argenté ».
 - Ne jamais citer une autre marque.
+
+## Les 3 températures de trafic, appliquées à VAURE
+
+| | ❄️ Froid | 🌤 Tiède | 🔥 Chaud |
+|---|---|---|---|
+| **Qui** | Ne connaît pas VAURE (femmes 20–45 ans, FR/BE/CH) | A vu 50 % d'une vidéo, liké, visité le site (30 derniers jours) | A ajouté au panier ou commencé le paiement sans acheter (14 derniers jours) |
+| **Objectif** | Créer le déclic | Rassurer, prouver | Lever le dernier frein |
+| **Message** | La douleur : bijou qui noircit, doigt vert, bijou retiré pour la douche | Preuve : test sous l'eau, matière écrite, gros plans, guide bague ajustable, comparatif | Offre réelle : −10 % dès 2 articles, VAURE10 sur la 1re commande, livraison offerte dès 35 €, retours 30 jours |
+| **Pubs VAURE** | Scripts 1, 2, 5 + idées A, B (procès, vaisselle) | Script 3 (empilement), carrousel des fiches vues, vidéo « 30 jours sous la douche » | Carrousel dynamique des bijoux du panier + texte « Votre panier vous attend. −10 % dès 2 bijoux. » |
+| **Budget** | ~70 % | ~20 % | ~10 % |
+
+### Textes prêts
+
+**Froid**
+> Ton bracelet a noirci au bout de 2 semaines ? C'est le laiton. Les nôtres sont en acier inoxydable : ils ne noircissent pas, même sous la douche.
+
+**Tiède**
+> 30 jours sous la douche, à la mer, au sport. Il brille toujours. Matière écrite sur chaque fiche : acier inoxydable ou acier au titane.
+> (Avis clients : seulement quand de vrais avis existent, jamais inventés.)
+
+**Chaud**
+> Vous hésitez encore ? −10 % dès 2 bijoux, appliqué automatiquement. Livraison offerte dès 35 €, retours sous 30 jours.
+> Pour les fêtes : commandez avant le 1er décembre pour recevoir à temps (vraie date, liée au délai de 11 à 21 jours).
+
+### Règles
+- « Offre limitée » seulement si elle l'est vraiment (date réelle, écrite).
+- Les audiences tièdes et chaudes demandent le **pixel Meta installé** et un peu de trafic : on les lance après 1 à 2 semaines de pub froide.
+- On exclut les acheteurs des 30 derniers jours des pubs chaudes.
