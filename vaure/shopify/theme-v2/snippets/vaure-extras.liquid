@@ -1,0 +1,329 @@
+{%- comment -%}
+  VAURE : petits plus du site.
+  Mode sombre (bouton), retour en haut, contact flottant, barre de lecture,
+  apparition douce des sections, effets au survol, copier le lien,
+  version imprimable, afficher le mot de passe, suivi UTM, messages de
+  formulaire, confirmation avant de retirer un article, date de mise à jour.
+{%- endcomment -%}
+
+{%- if template.name == 'page' and page.updated_at -%}
+  <template id="vaure-maj"><p class="vaure-maj">Dernière mise à jour : {{ page.updated_at | date: '%d/%m/%Y' }}</p></template>
+{%- endif -%}
+
+<div class="vaure-flottants" aria-label="Raccourcis">
+  <button type="button" class="vaure-rond vaure-haut" data-vaure-haut aria-label="Revenir en haut de la page" hidden>
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <button type="button" class="vaure-rond" data-vaure-sombre aria-pressed="false" aria-label="Activer le mode sombre">
+    <svg class="vaure-ico-lune" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+    <svg class="vaure-ico-soleil" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+  </button>
+  {%- unless page.handle == 'nous-contacter' -%}
+    <a class="vaure-rond vaure-contact" href="/pages/nous-contacter" aria-label="Nous contacter">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 5h16v11H8l-4 4z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      <span class="vaure-contact__txt">Une question ?</span>
+    </a>
+  {%- endunless -%}
+</div>
+
+{%- if template.name == 'article' or template.name == 'page' -%}
+  <div class="vaure-lecture" aria-hidden="true"><span data-vaure-lecture></span></div>
+{%- endif -%}
+
+<div class="vaure-toast" role="status" aria-live="polite" hidden></div>
+
+<dialog class="vaure-dialog" data-vaure-dialog aria-labelledby="vaure-dialog-titre">
+  <p id="vaure-dialog-titre" class="vaure-dialog__titre">Retirer ce bijou du panier ?</p>
+  <div class="vaure-dialog__btns">
+    <button type="button" class="vaure-dialog__non" value="non">Le garder</button>
+    <button type="button" class="vaure-dialog__oui" value="oui">Retirer</button>
+  </div>
+</dialog>
+
+<style>
+  .vaure-flottants{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:40;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+  .vaure-rond{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:44px;height:44px;padding:0 12px;border-radius:999px;border:1px solid rgb(var(--color-foreground-rgb,21 20 18)/.15);background:var(--color-background,#F8F5F0);color:var(--color-foreground,#151412);box-shadow:0 4px 16px rgb(0 0 0/.12);cursor:pointer;text-decoration:none;font:500 .8125rem/1 var(--font-body--family,inherit);transition:transform .2s ease,box-shadow .2s ease,background-color .2s ease}
+  .vaure-rond:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgb(0 0 0/.16)}
+  .vaure-rond:focus-visible{outline:2px solid #B08D57;outline-offset:2px}
+  .vaure-contact{background:#151412;color:#F8F5F0;border-color:#151412}
+  html[data-vaure-theme='dark'] .vaure-contact{background:#EDE6DA;color:#151412;border-color:#EDE6DA}
+  .vaure-contact__txt{display:none}
+  @media (min-width:750px){.vaure-contact__txt{display:inline}}
+  .vaure-ico-soleil{display:none}
+  html[data-vaure-theme='dark'] .vaure-ico-soleil{display:block}
+  html[data-vaure-theme='dark'] .vaure-ico-lune{display:none}
+
+  .vaure-lecture{position:fixed;top:0;left:0;right:0;height:3px;z-index:60;pointer-events:none}
+  .vaure-lecture span{display:block;height:100%;width:100%;background:#B08D57;transform-origin:0 50%;transform:scaleX(0)}
+
+  .vaure-toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:70;max-width:min(92vw,460px);padding:14px 18px;background:#151412;color:#F8F5F0;font:400 .9375rem/1.45 var(--font-body--family,inherit);box-shadow:0 8px 28px rgb(0 0 0/.25)}
+  .vaure-toast--erreur{background:#7A2E22}
+  html[data-vaure-theme='dark'] .vaure-toast:not(.vaure-toast--erreur){background:#EDE6DA;color:#151412}
+
+  .vaure-dialog{border:0;padding:24px;max-width:min(92vw,380px);background:var(--color-background,#F8F5F0);color:var(--color-foreground,#151412);box-shadow:0 12px 40px rgb(0 0 0/.25)}
+  .vaure-dialog::backdrop{background:rgb(0 0 0/.4)}
+  .vaure-dialog__titre{margin:0 0 18px;font:400 1.25rem/1.3 var(--font-heading--family,serif)}
+  .vaure-dialog__btns{display:flex;gap:10px;justify-content:flex-end}
+  .vaure-dialog__btns button{padding:12px 18px;cursor:pointer;font:500 .8125rem/1 var(--font-body--family,inherit);text-transform:uppercase;letter-spacing:.05em;border:1px solid currentColor;background:transparent;color:inherit}
+  .vaure-dialog__oui{background:var(--color-foreground,#151412)!important;color:var(--color-background,#F8F5F0)!important}
+
+  .vaure-maj{margin-top:32px;font-size:.8125rem;opacity:.65}
+
+  .vaure-copier{display:inline-flex;align-items:center;gap:8px;margin-top:12px;padding:10px 14px;border:1px solid rgb(var(--color-foreground-rgb,21 20 18)/.25);background:transparent;color:inherit;cursor:pointer;font:500 .8125rem/1 var(--font-body--family,inherit)}
+  .vaure-copier:hover{border-color:currentColor}
+
+  .vaure-mdp{position:relative;display:block}
+  .vaure-mdp__btn{position:absolute;right:10px;top:50%;transform:translateY(-50%);border:0;background:none;color:inherit;cursor:pointer;font-size:.8125rem;text-decoration:underline;padding:6px}
+
+  /* Effets au survol */
+  a,button{transition:color .2s ease,background-color .2s ease,border-color .2s ease,opacity .2s ease}
+  .button,.button-secondary,button[type='submit']{transition:transform .2s ease,background-color .2s ease,color .2s ease,border-color .2s ease}
+  @media (hover:hover){
+    .button:hover,.button-secondary:hover,button[type='submit']:hover{transform:translateY(-1px)}
+    .footer a:hover,footer a:hover{opacity:.7}
+  }
+
+  /* Apparition douce au chargement (uniquement si le JS tourne) */
+  .vaure-js .vaure-apparait{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s ease}
+  .vaure-js .vaure-apparait.vaure-vu{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){
+    .vaure-js .vaure-apparait{opacity:1;transform:none;transition:none}
+    .vaure-rond,.vaure-rond:hover{transition:none;transform:none}
+  }
+
+  /* FAQ dépliable */
+  .vaure-faq{border-top:1px solid rgb(var(--color-foreground-rgb,21 20 18)/.15)}
+  .vaure-faq details{border-bottom:1px solid rgb(var(--color-foreground-rgb,21 20 18)/.15)}
+  .vaure-faq summary{list-style:none;cursor:pointer;padding:16px 32px 16px 0;position:relative;font-weight:500}
+  .vaure-faq summary::-webkit-details-marker{display:none}
+  .vaure-faq summary::after{content:'+';position:absolute;right:4px;top:50%;transform:translateY(-50%);font-size:1.25rem;font-weight:300;transition:transform .2s ease}
+  .vaure-faq details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+  .vaure-faq details > :not(summary){margin:0 0 16px}
+
+  /* Version imprimable */
+  @media print{
+    #header-group,footer,.vaure-flottants,.vaure-lecture,.vaure-toast,.vaure-copier,#shopify-pc__banner,.shopify-section-group-header-group,.shopify-section-group-footer-group,product-recommendations,.product-recommendations,[id*='product_list'],[class*='quick-add'],add-to-cart-component,button{display:none!important}
+    html,body,[class*='color-scheme-']{background:#fff!important;color:#000!important}
+    img{filter:none!important;max-width:100%!important;break-inside:avoid}
+    a[href^='http']::after{content:' (' attr(href) ')';font-size:.8em}
+    .vaure-faq details{display:block}
+    .vaure-faq details > *{display:block!important}
+    body::before{content:'VAURE – bijoux en acier qui ne noircissent pas';display:block;margin-bottom:16px;font:400 18pt/1.2 serif;letter-spacing:.2em}
+  }
+</style>
+
+<script>
+  (function () {
+    var doc = document.documentElement;
+    doc.classList.add('vaure-js');
+    var reduit = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function toast(texte, erreur) {
+      var t = document.querySelector('.vaure-toast');
+      if (!t) return;
+      t.textContent = texte;
+      t.classList.toggle('vaure-toast--erreur', !!erreur);
+      t.hidden = false;
+      clearTimeout(t._minuteur);
+      t._minuteur = setTimeout(function () { t.hidden = true; }, erreur ? 7000 : 5000);
+    }
+    window.vaureToast = toast;
+
+    /* Mode sombre */
+    var btnSombre = document.querySelector('[data-vaure-sombre]');
+    function majBouton() {
+      var sombre = doc.getAttribute('data-vaure-theme') === 'dark';
+      if (!btnSombre) return;
+      btnSombre.setAttribute('aria-pressed', sombre ? 'true' : 'false');
+      btnSombre.setAttribute('aria-label', sombre ? 'Revenir au mode clair' : 'Activer le mode sombre');
+    }
+    majBouton();
+    if (btnSombre) btnSombre.addEventListener('click', function () {
+      var sombre = doc.getAttribute('data-vaure-theme') !== 'dark';
+      if (sombre) doc.setAttribute('data-vaure-theme', 'dark'); else doc.removeAttribute('data-vaure-theme');
+      try { localStorage.setItem('vaureTheme', sombre ? 'dark' : 'light'); } catch (e) {}
+      majBouton();
+    });
+
+    /* Retour en haut + barre de lecture */
+    var btnHaut = document.querySelector('[data-vaure-haut]');
+    var barre = document.querySelector('[data-vaure-lecture]');
+    var enAttente = false;
+    function auDefilement() {
+      enAttente = false;
+      var y = window.scrollY || doc.scrollTop;
+      if (btnHaut) btnHaut.hidden = y < 700;
+      if (barre) {
+        var max = doc.scrollHeight - window.innerHeight;
+        barre.style.transform = 'scaleX(' + (max > 0 ? Math.min(1, y / max) : 0) + ')';
+      }
+    }
+    window.addEventListener('scroll', function () {
+      if (!enAttente) { enAttente = true; requestAnimationFrame(auDefilement); }
+    }, { passive: true });
+    auDefilement();
+    if (btnHaut) btnHaut.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: reduit ? 'auto' : 'smooth' });
+      var cible = document.getElementById('MainContent');
+      if (cible) { cible.setAttribute('tabindex', '-1'); cible.focus({ preventScroll: true }); }
+    });
+
+    /* Apparition douce des sections */
+    if (!reduit && 'IntersectionObserver' in window) {
+      var sections = document.querySelectorAll('#MainContent > .shopify-section');
+      var obs = new IntersectionObserver(function (entrees) {
+        entrees.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('vaure-vu'); obs.unobserve(e.target); }
+        });
+      }, { rootMargin: '0px 0px -8% 0px' });
+      sections.forEach(function (s, i) {
+        if (i === 0) return;
+        var r = s.getBoundingClientRect();
+        if (r.top < window.innerHeight) return;
+        s.classList.add('vaure-apparait');
+        obs.observe(s);
+      });
+    }
+
+    /* Date de mise à jour sur les pages */
+    var maj = document.getElementById('vaure-maj');
+    if (maj) {
+      var zone = document.querySelector('#MainContent .rte, #MainContent .shopify-section:first-child');
+      if (zone) zone.appendChild(maj.content.cloneNode(true));
+    }
+
+    /* FAQ dépliable : chaque h3 + sa réponse devient un bloc qui s'ouvre */
+    {%- if page.handle == 'questions-frequentes' -%}
+    (function () {
+      var rte = document.querySelector('#MainContent .rte');
+      if (!rte) return;
+      var titres = rte.querySelectorAll('h3');
+      titres.forEach(function (h) {
+        var d = document.createElement('details');
+        var s = document.createElement('summary');
+        s.textContent = h.textContent;
+        d.appendChild(s);
+        var n = h.nextElementSibling;
+        while (n && !/^H[23]$/.test(n.tagName)) { var suiv = n.nextElementSibling; d.appendChild(n); n = suiv; }
+        var bloc = h.previousElementSibling && h.previousElementSibling.classList.contains('vaure-faq') ? h.previousElementSibling : null;
+        if (!bloc) { bloc = document.createElement('div'); bloc.className = 'vaure-faq'; h.parentNode.insertBefore(bloc, h); }
+        bloc.appendChild(d);
+        h.remove();
+      });
+    })();
+    {%- endif -%}
+
+    /* Copier le lien (fiches produit et articles) */
+    {%- if template.name == 'product' or template.name == 'article' -%}
+    (function () {
+      var ancre = document.querySelector('#MainContent form[action*="/cart/add"]');
+      ancre = ancre ? (ancre.closest('product-form-component') || ancre) : document.querySelector('#MainContent .rte, #MainContent article');
+      if (!ancre || !navigator.clipboard) return;
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'vaure-copier';
+      b.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M9 15l6-6M10 6l1-1a4 4 0 0 1 6 6l-1 1M14 18l-1 1a4 4 0 0 1-6-6l1-1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span>Copier le lien</span>';
+      b.addEventListener('click', function () {
+        navigator.clipboard.writeText(location.origin + location.pathname).then(function () {
+          b.querySelector('span').textContent = 'Lien copié ✓';
+          setTimeout(function () { b.querySelector('span').textContent = 'Copier le lien'; }, 2500);
+        }, function () { toast('Impossible de copier le lien. Copiez l’adresse de la page.', true); });
+      });
+      ancre.parentNode.insertBefore(b, ancre.nextSibling);
+    })();
+    {%- endif -%}
+
+    /* Afficher le mot de passe */
+    document.querySelectorAll('input[type="password"]').forEach(function (champ) {
+      var enveloppe = document.createElement('span');
+      enveloppe.className = 'vaure-mdp';
+      champ.parentNode.insertBefore(enveloppe, champ);
+      enveloppe.appendChild(champ);
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'vaure-mdp__btn';
+      b.textContent = 'Afficher';
+      b.setAttribute('aria-label', 'Afficher le mot de passe');
+      b.addEventListener('click', function () {
+        var visible = champ.type === 'text';
+        champ.type = visible ? 'password' : 'text';
+        b.textContent = visible ? 'Afficher' : 'Masquer';
+        b.setAttribute('aria-label', visible ? 'Afficher le mot de passe' : 'Masquer le mot de passe');
+      });
+      enveloppe.appendChild(b);
+    });
+
+    /* Messages d'erreur en français sur les champs */
+    document.addEventListener('invalid', function (e) {
+      var c = e.target;
+      if (!c || !c.validity) return;
+      if (c.validity.valueMissing) c.setCustomValidity('Merci de remplir ce champ.');
+      else if (c.type === 'email') c.setCustomValidity('Merci d’indiquer une adresse e-mail valide, par exemple prenom@exemple.fr.');
+      else c.setCustomValidity('');
+    }, true);
+    document.addEventListener('input', function (e) { if (e.target && e.target.setCustomValidity) e.target.setCustomValidity(''); }, true);
+
+    /* Formulaire envoyé / erreur */
+    var p = new URLSearchParams(location.search);
+    if (p.get('contact_posted') === 'true') toast('Merci, votre message est bien envoyé. Nous répondons sous 24 h ouvrées.');
+    if (p.get('customer_posted') === 'true') toast('Merci pour votre inscription ! Votre code −10 % : VAURE10');
+    if (document.querySelector('#MainContent .errors, #MainContent [class*="form__message--error"], #MainContent .form-status--error, footer .errors')) {
+      toast('Un champ n’est pas bien rempli. Vérifiez le formulaire et réessayez.', true);
+    }
+
+    /* Suivi UTM : on garde la source de la visite et on l'attache au panier */
+    try {
+      var cles = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
+      var nouv = {};
+      cles.forEach(function (k) { if (p.get(k)) nouv[k] = p.get(k).slice(0, 100); });
+      if (Object.keys(nouv).length) {
+        nouv.utm_date = new Date().toISOString().slice(0, 10);
+        nouv.utm_page = location.pathname;
+        localStorage.setItem('vaureUtm', JSON.stringify(nouv));
+        localStorage.removeItem('vaureUtmSync');
+      }
+      var stock = localStorage.getItem('vaureUtm');
+      if (stock && !localStorage.getItem('vaureUtmSync')) {
+        fetch('/cart.js', { credentials: 'same-origin' }).then(function (r) { return r.json(); }).then(function (panier) {
+          if (!panier || !panier.item_count) return;
+          var attributs = {};
+          var u = JSON.parse(stock);
+          Object.keys(u).forEach(function (k) { attributs[k] = u[k]; });
+          return fetch('/cart/update.js', {
+            method: 'POST', credentials: 'same-origin',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ attributes: attributs })
+          }).then(function () { localStorage.setItem('vaureUtmSync', panier.token || '1'); });
+        }).catch(function () {});
+      }
+      document.addEventListener('cart:update', function () { localStorage.removeItem('vaureUtmSync'); });
+    } catch (e) {}
+
+    /* Confirmation avant de retirer un article du panier */
+    var dialog = document.querySelector('[data-vaure-dialog]');
+    if (dialog && typeof dialog.showModal === 'function') {
+      var enCours = null;
+      document.addEventListener('click', function (e) {
+        var b = e.target.closest && e.target.closest('cart-items-component button[class*="remove"], .cart-items button[class*="remove"], button.cart-item__remove, [data-cart-remove], button[aria-label*="Supprimer"], button[aria-label*="Retirer"], button[aria-label*="Remove"]');
+        if (!b || b.dataset.vaureOk === '1') return;
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        enCours = b;
+        dialog.showModal();
+      }, true);
+      dialog.addEventListener('click', function (e) {
+        var bouton = e.target.closest('button');
+        if (e.target === dialog) { dialog.close(); return; }
+        if (!bouton) return;
+        dialog.close();
+        if (bouton.value === 'oui' && enCours) {
+          enCours.dataset.vaureOk = '1';
+          enCours.click();
+          var b = enCours;
+          setTimeout(function () { delete b.dataset.vaureOk; }, 500);
+        }
+        enCours = null;
+      });
+    }
+  })();
+</script>

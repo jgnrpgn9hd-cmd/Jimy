@@ -1,0 +1,78 @@
+{%- comment -%}
+  VAURE : applique le mode sombre avant l'affichage (pas de flash blanc).
+  Choix enregistré > réglage du téléphone / ordinateur.
+{%- endcomment -%}
+<script>
+  (function () {
+    try {
+      var choix = localStorage.getItem('vaureTheme');
+      var sombre = choix ? choix === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (sombre) document.documentElement.setAttribute('data-vaure-theme', 'dark');
+    } catch (e) {}
+  })();
+</script>
+<style>
+  html[data-vaure-theme='dark'],
+  html[data-vaure-theme='dark'] [class*='color-scheme-'] {
+    color-scheme: dark;
+    --color-background: rgb(21 20 18);
+    --color-background-rgb: 21 20 18;
+    --color-foreground: rgb(237 230 218);
+    --color-foreground-rgb: 237 230 218;
+    --color-foreground-heading: rgb(245 239 229);
+    --color-foreground-heading-rgb: 245 239 229;
+    --color-primary: rgb(201 168 118);
+    --color-primary-rgb: 201 168 118;
+    --color-primary-hover: rgb(224 196 150);
+    --color-primary-hover-rgb: 224 196 150;
+    --color-border: rgb(237 230 218 / 0.18);
+    --color-border-rgb: 237 230 218;
+    --color-shadow: rgb(0 0 0);
+    --color-shadow-rgb: 0 0 0;
+    --color-primary-button-text: rgb(21 20 18);
+    --color-primary-button-background: rgb(237 230 218);
+    --color-primary-button-border: rgb(237 230 218);
+    --color-primary-button-hover-text: rgb(21 20 18);
+    --color-primary-button-hover-background: rgb(201 168 118);
+    --color-primary-button-hover-border: rgb(201 168 118);
+    --color-secondary-button-text: rgb(237 230 218);
+    --color-secondary-button-background: rgb(21 20 18);
+    --color-secondary-button-border: rgb(237 230 218);
+    --color-secondary-button-hover-text: rgb(21 20 18);
+    --color-secondary-button-hover-background: rgb(237 230 218);
+    --color-secondary-button-hover-border: rgb(237 230 218);
+    --color-input-background: rgb(31 29 26);
+    --color-input-text: rgb(237 230 218);
+    --color-input-text-rgb: 237 230 218;
+    --color-input-border: rgb(237 230 218 / 0.3);
+    --color-input-hover-background: rgb(38 36 32);
+    --color-variant-background: rgb(31 29 26);
+    --color-variant-border: rgb(237 230 218 / 0.3);
+    --color-variant-text: rgb(237 230 218);
+    --color-variant-text-rgb: 237 230 218;
+    --color-variant-hover-background: rgb(38 36 32);
+    --color-variant-hover-text: rgb(237 230 218);
+    --color-variant-hover-border: rgb(237 230 218);
+    --color-selected-variant-background: rgb(237 230 218);
+    --color-selected-variant-border: rgb(237 230 218);
+    --color-selected-variant-text: rgb(21 20 18);
+    --color-selected-variant-hover-background: rgb(201 168 118);
+    --color-selected-variant-hover-text: rgb(21 20 18);
+    --color-selected-variant-hover-border: rgb(201 168 118);
+    --opacity-5-15: 0.15;
+    --opacity-10-25: 0.25;
+    --opacity-35-55: 0.55;
+    --opacity-40-60: 0.6;
+    --opacity-30-60: 0.6;
+  }
+  html[data-vaure-theme='dark'] .color-scheme-3,
+  html[data-vaure-theme='dark'] .color-scheme-4 {
+    --color-background: rgb(30 28 25);
+    --color-background-rgb: 30 28 25;
+  }
+  html[data-vaure-theme='dark'] body { background-color: rgb(21 20 18); color: rgb(237 230 218); }
+  html[data-vaure-theme='dark'] img { filter: brightness(0.94); }
+  html[data-vaure-theme='dark'] .header-logo img,
+  html[data-vaure-theme='dark'] .header__logo img,
+  html[data-vaure-theme='dark'] [class*='logo'] img { filter: invert(1) brightness(1.1); }
+</style>
