@@ -44,10 +44,25 @@
                 "custom_width_mobile": 100
               },
               "blocks": {}
+            },
+            "sous": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Doré ou argenté, en acier : il se garde même sous la douche.</p>",
+                "width": "100%",
+                "max_width": "narrow",
+                "alignment": "center",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1.125rem",
+                "color": ""
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "titre",
+            "sous",
             "cta"
           ]
         }
@@ -664,7 +679,7 @@
             "sous_titre": {
               "type": "text",
               "settings": {
-                "text": "<p>Deux rangs de zircons sur acier inoxydable doré, pour les grandes occasions.</p>",
+                "text": "<p>Deux rangs de zircons qui brillent encore après la douche.</p>",
                 "width": "100%",
                 "max_width": "narrow",
                 "alignment": "left",
