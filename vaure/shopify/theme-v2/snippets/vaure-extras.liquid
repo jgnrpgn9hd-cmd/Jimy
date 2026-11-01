@@ -6,8 +6,8 @@
   formulaire, confirmation avant de retirer un article, date de mise à jour.
 {%- endcomment -%}
 
-{%- if template.name == 'page' and page.updated_at -%}
-  <template id="vaure-maj"><p class="vaure-maj">Dernière mise à jour : {{ page.updated_at | date: '%d/%m/%Y' }}</p></template>
+{%- if template.name == 'page' and page.metafields.vaure.mise_a_jour != blank -%}
+  <template id="vaure-maj"><p class="vaure-maj">Dernière mise à jour : {{ page.metafields.vaure.mise_a_jour.value | date: '%d/%m/%Y' }}</p></template>
 {%- endif -%}
 
 <div class="vaure-flottants" aria-label="Raccourcis">
@@ -188,7 +188,7 @@
     /* Date de mise à jour sur les pages */
     var maj = document.getElementById('vaure-maj');
     if (maj) {
-      var zone = document.querySelector('#MainContent .rte, #MainContent .shopify-section:first-child');
+      var zone = document.querySelector('#MainContent .rte') || document.querySelector('#MainContent .shopify-section');
       if (zone) zone.appendChild(maj.content.cloneNode(true));
     }
 
