@@ -48,3 +48,4 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
 - 01/11 – Suivi de commande : application CWILL (ex-Parcel Panel) installée, page `/apps/parcelpanel` reliée au menu Aide, aux pages Suivre ma commande et Livraison, à la FAQ et à l'email Merci.
 - 01/11 – Section « Collage VAURE » (sections/vaure-collage.liquid) ajoutée à l'accueil après Nouveautés : grande image colliers superposés + Romy/Perla/Elsa + Collier Ondine + Bracelet Stella + Idées cadeaux. Réglable dans l'éditeur de thème.
 - 01/11 – Visuels fiches : « Guide bague ajustable » ajouté en fin de galerie sur 11 bagues, « VAURE ou bijou fantaisie » sur 42 bijoux (fichiers dans `vaure/visuels/`).
+- 01/11 – Identité de marque : charte (`charte-de-marque.md`), monogramme V (favicon v2), cartes merci + notice entretien A6 (`vaure/marque/vaure-cartes-colis.pdf`). vaure.fr et vaurebijoux.com disponibles.
