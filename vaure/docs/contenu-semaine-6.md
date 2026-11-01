@@ -103,3 +103,30 @@ Rotation des produits à mettre en avant :
 - Commander 1 exemplaire de : Rivière, Clara, Romy, Perla, Elsa, Lina, Mila, Ondine, Duo Flore (environ 50 à 70 € d'achat chez CJ).
 - Lumière du jour près d'une fenêtre, fond crème ou drap blanc.
 - Les vidéos à moi sont plus fortes que les photos fournisseur : c'est elles qui serviront aux pubs en semaine 8.
+
+## Pubs « faites au téléphone » (zéro compétence technique)
+
+Règle : un message clair dans les 2 premières secondes, ça bouge toutes les 2 secondes, et le bénéfice se voit (le bijou brille encore).
+
+### Idée A – « Le procès du bijou fantaisie » (décalé)
+1. (0–2 s) Texte : « Accusé : ton vieux bracelet. » Bracelet fantaisie noirci posé sur la table.
+2. (2–6 s) Gros plan sur la trace verte au poignet. Texte : « Pièce à conviction n° 1. »
+3. (6–12 s) On pose le Bracelet Rivière à côté. Texte : « Verdict : acier inoxydable. Il ne noircit pas. »
+4. (12–15 s) Poignet qui tourne au soleil. « VAURE. Lien en bio. »
+
+### Idée B – « Elle refuse d'enlever sa bague » (humour, une seule actrice)
+1. (0–2 s) Texte : « POV : ta mère te dit d'enlever ta bague pour faire la vaisselle. »
+2. (2–8 s) Tu fais la vaisselle avec la Bague Lina, regard caméra, aucune émotion.
+3. (8–13 s) Tu l'essuies : elle brille. Texte : « Acier inoxydable. Je l'enlève plus. »
+
+### Idée C – « Ce que 27,90 € t'achètent » (liste rapide)
+1. (0–2 s) Texte : « Ce que 27,90 € t'achètent chez VAURE : »
+2. (2–12 s) 4 plans de 2 s : Collier Ondine porté / sous la douche / à la mer / au bureau.
+3. (12–15 s) « Un seul collier. Il ne noircit pas. »
+
+### Tourner en 10 minutes
+- Téléphone en vertical, lumière de fenêtre, objectif nettoyé.
+- Plans de 2 à 3 secondes, filmés plusieurs fois.
+- Montage CapCut : texte gros et lisible, sous-titres auto, une musique tendance.
+- On publie 3 versions de la même idée avec 3 accroches différentes : c'est l'accroche qui fait la différence, pas la qualité de l'image.
+- Règles VAURE : pas de faux avis, pas de « stock limité », jamais « or » seul, ne jamais montrer ni nommer une autre marque.
