@@ -130,3 +130,19 @@ Règle : un message clair dans les 2 premières secondes, ça bouge toutes les 2
 - Montage CapCut : texte gros et lisible, sous-titres auto, une musique tendance.
 - On publie 3 versions de la même idée avec 3 accroches différentes : c'est l'accroche qui fait la différence, pas la qualité de l'image.
 - Règles VAURE : pas de faux avis, pas de « stock limité », jamais « or » seul, ne jamais montrer ni nommer une autre marque.
+
+## Phrases de bannière (10 à 12 mots max)
+
+| Formule | Version émotion | Version résultat |
+|---|---|---|
+| Promesse claire | Le bijou que tu n'enlèveras plus jamais | Des bijoux qui ne noircissent pas, même sous la douche |
+| Transformation | Du doigt vert au bijou que tu gardes tous les jours | Passe du laiton qui noircit à l'acier qui brille |
+| Curiosité / tension | Ton bracelet noircit ? Ce n'est pas de ta faute | 9 bijoux fantaisie sur 10 cachent cette matière |
+| Valeur instantanée | 3 bijoux à superposer pour moins de 70 € | 3 secondes pour ajuster ta bague, sans connaître ta taille |
+
+⚠️ « 9 sur 10 » : à n'utiliser que si on a une vraie source ; sinon « La plupart des bijoux fantaisie cachent cette matière ».
+
+Sur le site (version 2) :
+- Hero : « Des bijoux qui ne noircissent pas » + « Doré ou argenté, en acier : il se garde même sous la douche. »
+- Bandeau Rivière : « Deux rangs de zircons qui brillent encore après la douche. »
+- Collage : « Trois colliers, une allure ».
