@@ -260,7 +260,7 @@
                 "l1": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>✕ Peut noircir avec le temps</p>",
+                    "text": "<p>✕ S'abîme vite</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -363,7 +363,7 @@
                 "r1": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>✓ Ne noircit pas</p>",
+                    "text": "<p>✓ Fait pour durer</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",

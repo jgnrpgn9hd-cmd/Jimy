@@ -21,7 +21,7 @@
             "titre": {
               "type": "text",
               "settings": {
-                "text": "<h1>Des bijoux qui ne noircissent pas</h1>",
+                "text": "<h1>Des bijoux faits pour durer</h1>",
                 "width": "100%",
                 "max_width": "narrow",
                 "alignment": "center",
