@@ -56,3 +56,4 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
 - 01/11 – Fonds uniformes : 65 produits ont maintenant une photo détourée sur fond crème #F8F5F0 en 1re position (`vaure/visuels/fond-creme/`), anciens packshots détachés, photos portées gardées en 2e (effet survol). Exception : Créoles Tess Doré (photo portée en 1re). Les 16 nouvelles fiches sont passées ACTIVES.
 - 01/11 – Publication du thème v2 impossible par l'API (bloquée) : à faire à la main (Boutique en ligne → Thèmes → Publier).
 - 01/11 – Pubs Instagram : 5 visuels dans `vaure/pubs/` (Rivière, Bagues, Colliers, Nouveautés, Cadeau) + guide `lancer-les-pubs-instagram.md`.
+- 01/11 – ANNULÉ à la demande de la propriétaire : fonds crème détourés (bijoux coupés, rendu pas beau). Les 70 produits ont retrouvé exactement leurs photos et leur ordre d'avant (vérifié). Pubs bagues/cadeau/nouveautés supprimées (elles utilisaient ces détourages). Règle : ne plus détourer les photos produits.
