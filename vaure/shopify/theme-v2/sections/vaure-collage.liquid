@@ -1,0 +1,161 @@
+{%- comment -%}
+  VAURE – Section collage : une grande image + 4 tuiles (produit, collection, 2 images).
+  Tout se règle dans l'éditeur de thème. Les images viennent des fiches produit
+  choisies (numéro de photo réglable) ou d'une image importée.
+{%- endcomment -%}
+{%- liquid
+  assign s = section.settings
+  assign main_p = s.main_product
+  if s.main_image != blank
+    assign main_img = s.main_image
+  elsif main_p != blank
+    assign idx = s.main_media_index | minus: 1
+    assign main_img = main_p.media[idx].preview_image | default: main_p.featured_image
+  endif
+  assign card_p = s.card_product
+  assign card_c = s.card_collection
+-%}
+
+<div class="vaure-collage color-{{ s.color_scheme }}" style="--vc-pad-top: {{ s.padding_top }}px; --vc-pad-bottom: {{ s.padding_bottom }}px;">
+  <div class="vaure-collage__inner page-width">
+    {%- if s.heading != blank -%}
+      <h2 class="vaure-collage__titre">{{ s.heading }}</h2>
+    {%- endif -%}
+
+    <div class="vaure-collage__grille{% if s.main_position == 'right' %} vaure-collage__grille--droite{% endif %}">
+      <a class="vaure-collage__grand" href="{{ s.main_link | default: main_p.url | default: '#' }}">
+        {%- if main_img != blank -%}
+          {{ main_img | image_url: width: 1400 | image_tag: loading: 'lazy', sizes: '(min-width: 990px) 50vw, 100vw', widths: '600, 900, 1200, 1400', alt: s.main_alt | default: main_img.alt }}
+        {%- endif -%}
+        <span class="vaure-collage__voile"></span>
+        <span class="vaure-collage__texte">
+          {%- if s.main_title != blank -%}<span class="vaure-collage__h">{{ s.main_title }}</span>{%- endif -%}
+          {%- if s.main_text != blank -%}<span class="vaure-collage__p">{{ s.main_text }}</span>{%- endif -%}
+          {%- if s.main_button != blank -%}<span class="vaure-collage__btn">{{ s.main_button }}</span>{%- endif -%}
+        </span>
+      </a>
+
+      <div class="vaure-collage__tuiles">
+        {%- for i in (1..2) -%}
+          {%- liquid
+            assign key_p = 'tile' | append: i | append: '_product'
+            assign key_i = 'tile' | append: i | append: '_index'
+            assign key_l = 'tile' | append: i | append: '_link'
+            assign key_t = 'tile' | append: i | append: '_label'
+            assign tp = s[key_p]
+            assign tidx = s[key_i] | minus: 1
+            assign timg = tp.media[tidx].preview_image | default: tp.featured_image
+          -%}
+          {%- if tp != blank -%}
+            <a class="vaure-collage__tuile vaure-collage__tuile--img" href="{{ s[key_l] | default: tp.url }}">
+              {{ timg | image_url: width: 700 | image_tag: loading: 'lazy', sizes: '(min-width: 990px) 25vw, 50vw', widths: '350, 500, 700', alt: timg.alt }}
+              {%- if s[key_t] != blank -%}<span class="vaure-collage__etiquette">{{ s[key_t] }}</span>{%- endif -%}
+            </a>
+          {%- endif -%}
+          {%- if i == 1 and card_p != blank -%}
+            <a class="vaure-collage__tuile vaure-collage__carte" href="{{ card_p.url }}">
+              {%- assign cidx = s.card_media_index | minus: 1 -%}
+              {%- assign cimg = card_p.media[cidx].preview_image | default: card_p.featured_image -%}
+              <span class="vaure-collage__carte-img">{{ cimg | image_url: width: 600 | image_tag: loading: 'lazy', sizes: '(min-width: 990px) 25vw, 50vw', widths: '300, 450, 600', alt: cimg.alt }}</span>
+              <span class="vaure-collage__carte-info">
+                <span class="vaure-collage__nom">{{ card_p.title }}</span>
+                {%- if card_p.metafields.vaure.sous_titre != blank -%}<span class="vaure-collage__sous">{{ card_p.metafields.vaure.sous_titre.value }}</span>{%- endif -%}
+                <span class="vaure-collage__prix">{{ card_p.price | money }}</span>
+              </span>
+            </a>
+          {%- endif -%}
+          {%- if i == 2 and card_c != blank -%}
+            <a class="vaure-collage__tuile vaure-collage__tuile--img vaure-collage__coll" href="{{ card_c.url }}">
+              {%- if card_c.image -%}
+                {{ card_c.image | image_url: width: 700 | image_tag: loading: 'lazy', sizes: '(min-width: 990px) 25vw, 50vw', widths: '350, 500, 700', alt: card_c.title }}
+              {%- elsif card_c.products.first -%}
+                {{ card_c.products.first.featured_image | image_url: width: 700 | image_tag: loading: 'lazy', alt: card_c.title }}
+              {%- endif -%}
+              <span class="vaure-collage__etiquette vaure-collage__etiquette--coll">{{ s.card_collection_label | default: card_c.title }} →</span>
+            </a>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% stylesheet %}
+  .vaure-collage { background: var(--color-background); color: var(--color-foreground); padding-block: var(--vc-pad-top) var(--vc-pad-bottom); }
+  .vaure-collage__inner { padding-inline: var(--page-margin, 16px); }
+  .vaure-collage__titre { text-align: center; margin: 0 0 32px; font-family: var(--font-heading--family); font-weight: 400; }
+  .vaure-collage__grille { display: grid; gap: 12px; grid-template-columns: 1fr; }
+  .vaure-collage__tuiles { display: grid; gap: 12px; grid-template-columns: 1fr 1fr; }
+  @media (min-width: 990px) {
+    .vaure-collage__grille { grid-template-columns: 1fr 1fr; gap: 20px; }
+    .vaure-collage__grille--droite .vaure-collage__grand { order: 2; }
+    .vaure-collage__tuiles { gap: 20px; }
+  }
+  .vaure-collage a { color: inherit; text-decoration: none; }
+  .vaure-collage__grand, .vaure-collage__tuile { position: relative; display: block; overflow: hidden; background: rgb(var(--color-foreground-rgb) / 0.05); }
+  .vaure-collage__grand { aspect-ratio: 4 / 5; }
+  @media (min-width: 990px) { .vaure-collage__grand { aspect-ratio: auto; min-height: 100%; } }
+  .vaure-collage__tuile--img { aspect-ratio: 4 / 5; }
+  .vaure-collage__grand img, .vaure-collage__tuile--img img, .vaure-collage__carte-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 0.8s ease; }
+  @media (hover: hover) {
+    .vaure-collage__grand:hover img, .vaure-collage__tuile:hover img { transform: scale(1.04); }
+  }
+  .vaure-collage__voile { position: absolute; inset: 0; background: linear-gradient(to top, rgb(0 0 0 / 0.55), rgb(0 0 0 / 0) 55%); }
+  .vaure-collage__texte { position: absolute; left: 0; right: 0; bottom: 0; padding: 28px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; color: #F8F5F0; }
+  .vaure-collage__h { font-family: var(--font-heading--family); font-size: clamp(1.75rem, 3.2vw, 2.75rem); line-height: 1.1; }
+  .vaure-collage__p { font-size: 0.9375rem; line-height: 1.5; max-width: 34ch; }
+  .vaure-collage__btn { margin-top: 6px; padding: 13px 22px; background: #F8F5F0; color: #151412; font-size: 0.8125rem; letter-spacing: 0.06em; text-transform: uppercase; transition: background-color 0.2s ease, color 0.2s ease; }
+  .vaure-collage__grand:hover .vaure-collage__btn { background: #151412; color: #F8F5F0; }
+  .vaure-collage__etiquette { position: absolute; left: 10px; bottom: 10px; padding: 8px 12px; background: #F8F5F0; color: #151412; font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase; }
+  .vaure-collage__etiquette--coll { background: #151412; color: #F8F5F0; }
+  .vaure-collage__carte { display: flex; flex-direction: column; aspect-ratio: 4 / 5; }
+  .vaure-collage__carte-img { position: relative; flex: 1; overflow: hidden; display: block; }
+  .vaure-collage__carte-info { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 10px 8px 12px; text-align: center; background: var(--color-background); }
+  .vaure-collage__nom { font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase; }
+  .vaure-collage__sous { font-size: 0.875rem; }
+  .vaure-collage__prix { font-size: 0.875rem; }
+  .vaure-collage__grand:focus-visible, .vaure-collage__tuile:focus-visible { outline: 2px solid #B08D57; outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { .vaure-collage img { transition: none !important; transform: none !important; } }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Collage VAURE",
+  "tag": "section",
+  "class": "section-wrapper",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Titre de la section", "default": "L'art de superposer" },
+    { "type": "select", "id": "main_position", "label": "Grande image", "options": [ { "value": "left", "label": "À gauche" }, { "value": "right", "label": "À droite" } ], "default": "left" },
+    { "type": "header", "content": "Grande image" },
+    { "type": "image_picker", "id": "main_image", "label": "Image (sinon, photo du produit ci-dessous)" },
+    { "type": "product", "id": "main_product", "label": "Produit dont on prend la photo" },
+    { "type": "range", "id": "main_media_index", "label": "Numéro de la photo", "min": 1, "max": 8, "step": 1, "default": 1 },
+    { "type": "text", "id": "main_alt", "label": "Description de l'image (Google, accessibilité)" },
+    { "type": "text", "id": "main_title", "label": "Titre sur l'image", "default": "L'art de superposer" },
+    { "type": "text", "id": "main_text", "label": "Texte sur l'image" },
+    { "type": "text", "id": "main_button", "label": "Texte du bouton", "default": "Découvrir" },
+    { "type": "url", "id": "main_link", "label": "Lien du bouton" },
+    { "type": "header", "content": "Tuile image 1" },
+    { "type": "product", "id": "tile1_product", "label": "Produit dont on prend la photo" },
+    { "type": "range", "id": "tile1_index", "label": "Numéro de la photo", "min": 1, "max": 8, "step": 1, "default": 1 },
+    { "type": "text", "id": "tile1_label", "label": "Étiquette" },
+    { "type": "url", "id": "tile1_link", "label": "Lien (sinon, la fiche produit)" },
+    { "type": "header", "content": "Bijou mis en avant" },
+    { "type": "product", "id": "card_product", "label": "Produit" },
+    { "type": "range", "id": "card_media_index", "label": "Numéro de la photo", "min": 1, "max": 8, "step": 1, "default": 1 },
+    { "type": "header", "content": "Tuile image 2" },
+    { "type": "product", "id": "tile2_product", "label": "Produit dont on prend la photo" },
+    { "type": "range", "id": "tile2_index", "label": "Numéro de la photo", "min": 1, "max": 8, "step": 1, "default": 1 },
+    { "type": "text", "id": "tile2_label", "label": "Étiquette" },
+    { "type": "url", "id": "tile2_link", "label": "Lien (sinon, la fiche produit)" },
+    { "type": "header", "content": "Collection mise en avant" },
+    { "type": "collection", "id": "card_collection", "label": "Collection" },
+    { "type": "text", "id": "card_collection_label", "label": "Texte de l'étiquette" },
+    { "type": "header", "content": "Mise en page" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Couleurs", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "label": "Espace en haut", "min": 0, "max": 120, "step": 4, "unit": "px", "default": 72 },
+    { "type": "range", "id": "padding_bottom", "label": "Espace en bas", "min": 0, "max": 120, "step": 4, "unit": "px", "default": 72 }
+  ],
+  "presets": [ { "name": "Collage VAURE" } ]
+}
+{% endschema %}

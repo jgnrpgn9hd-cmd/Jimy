@@ -1627,6 +1627,35 @@
         "padding-block-start": 88,
         "padding-block-end": 88
       }
+    },
+    "collage": {
+      "type": "vaure-collage",
+      "settings": {
+        "heading": "L'art de superposer",
+        "main_position": "left",
+        "main_product": "collier-pendentif-navette",
+        "main_media_index": 1,
+        "main_alt": "Colliers Ondine, Inès et Céleste portés ensemble",
+        "main_title": "Trois colliers, une allure",
+        "main_text": "Ondine au ras du cou, Inès et sa pierre navette, Céleste qui descend en Y. À porter seuls ou ensemble, vendus séparément.",
+        "main_button": "Voir les colliers",
+        "main_link": "shopify://collections/colliers",
+        "tile1_product": "bracelet-jonc-strie",
+        "tile1_index": 1,
+        "tile1_label": "Romy, Perla, Elsa",
+        "tile1_link": "shopify://collections/bracelets",
+        "card_product": "collier-vague-zircons",
+        "card_media_index": 1,
+        "tile2_product": "bracelet-tennis-ovales",
+        "tile2_index": 1,
+        "tile2_label": "Clara et Léa",
+        "tile2_link": "",
+        "card_collection": "idees-cadeaux",
+        "card_collection_label": "Idées cadeaux",
+        "color_scheme": "scheme-1",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
@@ -1635,6 +1664,7 @@
     "univers",
     "product_list_themegen",
     "nouveautes",
+    "collage",
     "hero_pjNAy4",
     "sacs",
     "cadeaux",
