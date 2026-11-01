@@ -8,7 +8,7 @@
 ## Le nom
 **VAURE** : court (5 lettres), facile à dire, sonne « maison de bijoux ».
 - Domaines vérifiés le 01/11/2026 : **vaure.fr disponible** (environ 20 $ la 1re année), **vaurebijoux.com disponible** (environ 16 $). vaure.com n'est pas proposé.
-- Conseil : acheter **vaure.fr** dans Shopify → Paramètres → Domaines, et l'utiliser comme adresse principale (à la place de jimenez-shop.com).
+- **vaure.fr acheté le 01/11/2026.** À mettre en domaine principal (Paramètres → Domaines) à la place de jimenez-shop.com.
 
 ## Les couleurs (règle 40 / 30 / 20 / 10)
 
