@@ -20,9 +20,9 @@
 Publier le visuel → Booster → « Plus de visites sur le site web » → lien → bouton Acheter → audience ci-dessus → 5 €/jour, 5 jours.
 
 ## Légendes
-- Bagues : Fini le doigt vert 💛 Bagues ajustables en acier inoxydable : elles ne noircissent pas. Dès 23,90 €. −10 % dès 2 bijoux.
-- Superposés : Superposés, jamais noircis ✨ Douche, sport, plage : nos colliers en acier doré restent dorés. Livraison offerte dès 35 €.
+- Bagues : Fini le doigt vert 💛 Bagues ajustables en acier inoxydable : elles sont faites pour durer. Dès 23,90 €. −10 % dès 2 bijoux.
+- Superposés : Superposés, faits pour durer ✨ Douche, sport, plage : nos colliers en acier doré restent dorés. Livraison offerte dès 35 €.
 - Eau : Même dans l'eau, ils restent dorés 🌊 Bracelets en acier inoxydable, ni noir ni vert sur la peau. Dès 23,90 €.
 - Cadeau : Le cadeau qu'elle portera vraiment tous les jours 🎁 Duo collier + bracelet fleur de nacre, 44,90 €. Commande avant le 1er décembre pour recevoir avant les fêtes.
-- Nouveautés : Nouveaux colliers ✨ Zircons et chaînes fines en acier doré, toujours sans noircir. Dès 29,90 €.
+- Nouveautés : Nouveaux colliers ✨ Zircons et chaînes fines en acier doré, faits pour durer. Dès 29,90 €.
 Hashtags : #bijouxacier #bijouxdores #bijouxfemme #ideecadeaufemme #accumulationbracelets
