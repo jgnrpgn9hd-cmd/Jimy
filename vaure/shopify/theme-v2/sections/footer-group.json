@@ -95,10 +95,56 @@
             "m2",
             "m3"
           ]
+        },
+        "confiance": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "garanties": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Paiement 100 % sécurisé · Livraison suivie · Retours sous 30 jours · Réponse sous 24 h ouvrées</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "0.8125rem",
+                "color": ""
+              },
+              "blocks": {}
+            },
+            "paiements": {
+              "type": "payment-icons",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "garanties",
+            "paiements"
+          ]
         }
       },
       "block_order": [
-        "cols"
+        "cols",
+        "confiance"
       ],
       "name": "Section",
       "settings": {
