@@ -76,3 +76,9 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
 - Thème « VAURE – Black Friday » (`OnlineStoreTheme/199041941886`), dupliqué de v2, avec le snippet `vaure-black-friday.liquid` (affichage daté côté navigateur). Il reste à le faire publier par la propriétaire.
 - Visuels et plan : `vaure/pubs/black-friday/`.
 - 05/11 : code « Lancement Jimenez » désactivé (expiré), à la demande de la propriétaire.
+- 05/11 : nettoyage « Jimenez » :
+  - titre de partage (og:title) traduit « Jimenez » → « VAURE » dans les 19 langues ;
+  - code renommé « Lancement VAURE (terminé) » ;
+  - pages brouillon « À propos » et « À offrir » réécrites pour VAURE ;
+  - anciens menus main-menu et footer pointés vers les pages VAURE.
+  Contrôle : 25 pages FR et 45 pages es/it/nl/pt/en, plus aucune mention.
