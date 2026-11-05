@@ -94,3 +94,51 @@ Le bijou n'est pas identique à la photo de référence. Corrige UNIQUEMENT le b
 3. **Image 5** : pour la Black Week.
 4. **Image 8** : pour la section « La Flore » de la page d'accueil.
 5. Images 3, 4, 6, 7 : posts et stories.
+
+---
+
+# ✨ EFFET WAOUH : 6 images qui arrêtent le scroll
+Même méthode : nouvelle conversation, photo 1-duo-flore.jpg jointe, BLOC RÈGLES d'abord, puis le prompt.
+Le bijou reste à sa vraie taille et identique ; c'est le décor qui crée le « waouh ».
+
+## W1. Frangipanier (la fleur rencontre la fleur) ⭐ mon préféré
+```
+Le collier de la référence posé au milieu de vraies fleurs de frangipanier blanches à cœur jaune pâle (elles ont aussi 5 pétales arrondis, comme la fleur en nacre du bijou). Les vraies fleurs encadrent la fleur en nacre, qui semble être l'une d'elles devenue bijou. Gouttes de rosée, lumière dorée du matin, macro très net sur le bijou, fond crème flou. Image poétique, luxueuse, surprenante. Format 4:5.
+```
+
+## W2. La statue porte VAURE
+```
+Buste en marbre blanc antique de femme grecque, gros plan sur le cou et la clavicule : elle porte le collier de la référence, la fleur en nacre au creux du cou. Lumière de musée dramatique venant de côté, fond beige chaud dégradé vers l'ombre. Le contraste entre le marbre ancien et l'or brillant doit être saisissant. Format 4:5.
+```
+
+## W3. Suspendu dans l'eau
+```
+Le collier et le bracelet de la référence flottent sous l'eau dans une piscine turquoise très claire, en suspension, comme en apesanteur. Rayons du soleil qui dansent (caustiques) sur le bijou, petites bulles d'air argentées autour. L'or reste bien doré et brillant. Photo sous-marine nette, luxe estival, très lumineuse. Format 4:5 et 9:16.
+```
+Message de la pub : « Même sous l'eau, il reste doré. »
+
+## W4. Dans la glace
+```
+Le bracelet de la référence pris dans un bloc de glace parfaitement transparent, quelques bulles figées et de fines fissures, posé sur du velours noir (#151412). Une lumière chaude passe à travers la glace et fait briller l'or et la nacre. Gouttes de glace qui fond sur le côté. Photo macro, très nette, spectaculaire. Format 4:5.
+```
+Message : « Froid, eau, chaleur : fait pour durer. »
+
+## W5. Couronne de lait
+```
+Photo haute vitesse : le collier de la référence tombe dans un bol de lait crème, en créant une couronne d'éclaboussures parfaite figée en l'air ; la fleur en nacre est au centre, nette, juste au-dessus de la surface. Fond beige uni (#EFE7DC), lumière studio douce. Image de pub de luxe, mouvement figé, ultra net. Format 4:5.
+```
+
+## W6. Le moment cadeau, en plein vol
+```
+Le collier et le bracelet de la référence suspendus en l'air, en apesanteur, au milieu de longs rubans de satin bordeaux (#5B1219) et crème qui ondulent autour, sur un fond crème uni. Lumière douce et chaude, impression de mouvement élégant, comme une affiche de parfum de luxe. Le bijou est net et identique à la référence. Format 4:5 et 9:16.
+```
+
+## En vidéo (ChatGPT / Sora), à partir de l'image W1 ou W3
+```
+Anime cette image en vidéo de 5 secondes : mouvement de caméra très lent vers le bijou, la lumière qui fait scintiller la nacre, [pétales qui bougent légèrement / eau qui ondule]. Le bijou ne doit pas changer de forme. Format 9:16.
+```
+
+**Pour la pub, mon trio :**
+- **W1** (frangipanier) pour attirer l'œil ;
+- **W3** (sous l'eau) pour prouver que c'est fait pour durer ;
+- **image 2** (porté) pour montrer le bijou sur une femme.
