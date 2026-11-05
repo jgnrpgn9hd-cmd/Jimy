@@ -1,0 +1,54 @@
+{%- comment -%}
+  VAURE – Black Week 2026 (s'affiche et disparaît tout seul, heure de Paris)
+  - Teaser : du lun. 16/11 au dim. 22/11
+  - Black Week : du lun. 23/11 au lun. 30/11 23:59
+  Remises réelles (automatiques dans Shopify) : −20 % sur tout, −25 % dès 2 articles.
+  Pas de faux prix barré, pas de faux compte à rebours : seules les vraies dates sont affichées.
+{%- endcomment -%}
+<style>
+  .vbf-bar{background:#151412;color:#F8F5F0;font-family:Manrope,system-ui,sans-serif;font-size:13px;letter-spacing:.04em;text-align:center;padding:10px 16px;line-height:1.45}
+  .vbf-bar b{color:#D9B77A;font-weight:700;letter-spacing:.14em}
+  .vbf-bar a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+  .vbf-band{background:#151412;color:#F8F5F0;text-align:center;padding:56px 20px}
+  .vbf-band .k{font-family:Manrope,system-ui,sans-serif;font-size:12px;letter-spacing:.32em;color:#D9B77A;margin:0 0 14px}
+  .vbf-band h2{font-family:'Bodoni Moda',Georgia,serif;font-weight:400;font-size:clamp(34px,7vw,64px);margin:0 0 14px;line-height:1.05;color:#F8F5F0}
+  .vbf-band p{font-family:Manrope,system-ui,sans-serif;font-size:16px;margin:0 auto 26px;max-width:560px;opacity:.9}
+  .vbf-band a{display:inline-block;background:#D9B77A;color:#151412;font-family:Manrope,system-ui,sans-serif;font-weight:700;font-size:13px;letter-spacing:.16em;padding:15px 30px;text-decoration:none}
+  .vbf-note{font-family:Manrope,system-ui,sans-serif;font-size:13px;color:#5B1219;background:#EFE7DC;padding:9px 12px;margin:10px 0 4px;border-left:3px solid #B08D57}
+</style>
+<script>
+(function(){
+  var now=Date.now();
+  var TEASER=Date.UTC(2026,10,15,23,0,0);   /* lun. 16/11 00:00 Paris */
+  var START =Date.UTC(2026,10,22,23,0,0);   /* lun. 23/11 00:00 Paris */
+  var LAST  =Date.UTC(2026,10,29,23,0,0);   /* lun. 30/11 00:00 Paris */
+  var END   =Date.UTC(2026,10,30,22,59,59); /* lun. 30/11 23:59 Paris */
+  var q=location.search;
+  if(q.indexOf('vbf=teaser')>-1)now=TEASER+1;
+  if(q.indexOf('vbf=live')>-1)now=START+1;
+  if(q.indexOf('vbf=last')>-1)now=LAST+1;
+  if(now<TEASER||now>END)return;
+  var live=now>=START;
+  function el(h){var d=document.createElement('div');d.innerHTML=h;return d.firstChild;}
+
+  var barTxt=!live
+    ? '<b>BLACK WEEK</b> &nbsp;·&nbsp; dès le lundi 23 novembre : −20 % sur tout, −25 % dès 2 articles'
+    : (now>=LAST
+        ? '<b>DERNIER JOUR</b> &nbsp;·&nbsp; Black Week : −20 % sur tout, −25 % dès 2 articles · jusqu\'à ce soir minuit'
+        : '<b>BLACK WEEK</b> &nbsp;·&nbsp; −20 % sur tout · −25 % dès 2 articles · appliqué au panier · jusqu\'au lundi 30/11 minuit');
+  document.body.insertBefore(el('<div class="vbf-bar">'+barTxt+'</div>'),document.body.firstChild);
+
+  var hero=document.querySelector('[id*="__hero"]');
+  if(hero){
+    var band=!live
+      ? '<section class="vbf-band"><p class="k">BLACK WEEK · 23 → 30 NOVEMBRE</p><h2>Bientôt la Black Week</h2><p>−20 % sur tout le site, −25 % dès 2 articles. Bijoux en acier inoxydable doré ou argenté, faits pour durer.</p><a href="/collections/bijoux">REPÉRER MES BIJOUX</a></section>'
+      : '<section class="vbf-band"><p class="k">BLACK WEEK · JUSQU\'AU 30 NOVEMBRE</p><h2>−20 % sur tout.<br>−25 % dès 2 articles.</h2><p>Remise appliquée automatiquement au panier. Bijoux en acier inoxydable doré ou argenté, faits pour durer.</p><a href="/collections/bijoux">J\'EN PROFITE</a></section>';
+    hero.parentNode.insertBefore(el(band),hero.nextSibling);
+  }
+
+  if(live){
+    var price=document.querySelector('[id$="__main"] product-price');
+    if(price)price.parentNode.insertBefore(el('<p class="vbf-note">Black Week : −20 % appliqué au panier, −25 % dès 2 articles.</p>'),price.nextSibling);
+  }
+})();
+</script>
