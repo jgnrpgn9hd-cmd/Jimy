@@ -67,3 +67,11 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
 - 01/11 – Marché « Francophonie » créé (Monaco, Canada, DOM-TOM, Maroc, Tunisie, Sénégal, Côte d'Ivoire, Cameroun) ; marchés Belgique et Suisse déjà actifs. Profil de livraison VAURE : Luxembourg/Monaco 3,90 € (offerte ≥35), Outre-mer 5,90 € (≥50), Canada 6,90 € (≥50), Afrique francophone 7,90 € (≥60). Pages Livraison et CGV mises à jour. À vérifier : vrais frais CJ vers ces pays.
 - 02/11 – Jeu concours « Gagne la Parure Flore » : règlement en stories à la une (page du site dépubliée à la demande de la propriétaire), visuels post + story dans vaure/pubs/jeu-concours/. Du 03/11 18 h au 09/11 23 h 59, tirage le 10/11.
 - 03/11 – Tri des photos produits (« que des belles images ») : 16 photos retirées des fiches (doublons Éva/Maya/Zoé/Alix/Siena, photos boîte noire du Collier Lou, photo de groupe jaunie des 5 nouvelles bagues, bague Rosa trop petite, 2 doublons Inès). Lina argentée et Ceinture Vera beige : meilleure photo remise en premier. Photos détachées seulement (toujours dans Fichiers). À traiter : Créoles Tess argenté (une seule photo, 388 px).
+
+## Black Week 2026 (programmée le 05/11)
+- Remises automatiques créées :
+  - −20 % sur tout : `DiscountAutomaticNode/2449710580094` ;
+  - −25 % dès 2 articles : `DiscountAutomaticNode/2449710612862`.
+- Dates : 23/11 00:00 → 30/11 23:59 Paris. Non cumulables (sauf livraison).
+- Thème « VAURE – Black Friday » (`OnlineStoreTheme/199041941886`), dupliqué de v2, avec le snippet `vaure-black-friday.liquid` (affichage daté côté navigateur). Il reste à le faire publier par la propriétaire.
+- Visuels et plan : `vaure/pubs/black-friday/`.
