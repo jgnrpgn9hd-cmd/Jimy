@@ -82,3 +82,11 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
   - pages brouillon « À propos » et « À offrir » réécrites pour VAURE ;
   - anciens menus main-menu et footer pointés vers les pages VAURE.
   Contrôle : 25 pages FR et 45 pages es/it/nl/pt/en, plus aucune mention.
+- 05/11 : ouverture à toute l'Europe.
+  - Profil VAURE, nouvelles zones :
+    - « Europe (UE) » : 24 pays UE + AD SM VA LI, 4,90 €, offerte dès 45 € ;
+    - « Europe (hors UE) » : NO IS RS BA ME MK AL XK MD GI, 6,90 €, offerte dès 60 €.
+  - Marché « Europe (hors UE) » créé (`Market/113630478718`).
+  - Page Livraison et CGV §5 mises à jour.
+  - Paniers testés : DE/ES/IT 4,90 €, NO 6,90 €, FR 3,90 €.
+  - Royaume-Uni non ouvert : TVA britannique dès la 1re vente.
