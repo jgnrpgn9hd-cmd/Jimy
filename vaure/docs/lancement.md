@@ -102,3 +102,14 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
   - Animations coupées si « réduire les animations » est activé.
   - Images IA uniquement sur la page d'accueil ; les fiches produit gardent les vraies photos.
   - Fichiers Shopify : vaure-flore-soie.jpg, vaure-flore-porte.jpg, vaure-flore-cadeau.jpg.
+- 05/11 : Black Friday annulé à la demande de la propriétaire.
+  - 2 remises Black Week désactivées.
+  - Snippet vaure-black-friday retiré.
+  - Thème renommé « VAURE – version 3 ».
+- 05/11 : photos.
+  - Belles vraies photos remises en 1re position : Ondine, Céleste, Perla, Léa, Bracelet Flore, Duo Flore.
+  - Photo fournisseur avec texte (« STAINLESS STEEL… ») retirée de Bague Alba dorée.
+  - Image de l'article « Quelle taille de bague » remplacée par une photo nette (Alba sur soie).
+  - Collection Bracelets passée en tri manuel : Romy, Perla, Elsa, Stella en tête.
+- 05/11 : section « L'accumulation » (`sections/vaure-selection.liquid`) sur l'accueil v3 : photo piscine + Romy, Perla, Elsa, Stella.
+- 05/11 : prompts ChatGPT pour les 23 produits sur fond blanc (`vaure/visuels/fond-blanc/`).
