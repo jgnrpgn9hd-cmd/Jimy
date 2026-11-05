@@ -5,7 +5,7 @@
 - Remise auto **−25 % dès 2 articles** : mêmes dates. Shopify applique la meilleure des deux.
 - Elles ne se cumulent pas avec l'offre duo −10 % ni avec les codes (BIENVENUE…). Livraison offerte dès 35 € : oui.
 - Vrais prix, pas de prix barrés : la remise s'applique au panier.
-- Marge dans le pire cas (Collier Ana à −20 %) ≈ 9 €, donc au-dessus de 7 €.
+- Marge dans le pire cas (Collier Ana à −20 %) ≈ 8 €, donc au-dessus de 7 €.
 - Thème **« VAURE – Black Friday »** (copie du site actuel) avec :
   - un bandeau noir et doré en haut ;
   - une bannière sous la photo d'accueil ;
