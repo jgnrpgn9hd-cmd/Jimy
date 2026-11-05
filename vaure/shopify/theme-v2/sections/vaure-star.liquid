@@ -25,7 +25,7 @@
     </div>
   </div>
 
-  <div class="vstar__duo page-width">
+  <div class="vstar__duo">
     {%- if s.image2 != blank -%}
       <a class="vstar__porte" href="{{ star.url | default: '#' }}">
         {{ s.image2 | image_url: width: 1100 | image_tag: loading: 'lazy', sizes: '(min-width: 990px) 40vw, 100vw', widths: '500, 800, 1100', alt: s.image2.alt }}
@@ -72,7 +72,7 @@
   .vstar.is-vu .vstar__anim:nth-child(2){transition-delay:.12s}
   .vstar.is-vu .vstar__anim:nth-child(3){transition-delay:.24s}
   .vstar.is-vu .vstar__anim:nth-child(4){transition-delay:.36s}
-  .vstar__duo{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(28px,5vw,80px);align-items:center;padding-top:clamp(40px,6vw,90px)}
+  .vstar__duo{max-width:1240px;margin:0 auto;padding-inline:clamp(20px,4vw,48px);display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(28px,5vw,80px);align-items:center;padding-top:clamp(40px,6vw,90px)}
   .vstar__porte{display:block;overflow:hidden;aspect-ratio:4/5}
   .vstar__porte img{width:100%;height:100%;object-fit:cover;object-position:50% 80%;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
   .vstar__porte:hover img{transform:scale(1.04)}
