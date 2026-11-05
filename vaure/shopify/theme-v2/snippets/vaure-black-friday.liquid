@@ -49,6 +49,10 @@
   if(live){
     var price=document.querySelector('[id$="__main"] product-price');
     if(price)price.parentNode.insertBefore(el('<p class="vbf-note">Black Week : −20 % appliqué au panier, −25 % dès 2 articles.</p>'),price.nextSibling);
+    /* L'offre duo −10 % ne se cumule pas avec la Black Week : on masque sa mention */
+    var w=document.createTreeWalker(document.querySelector('main')||document.body,NodeFilter.SHOW_TEXT),t,hide=[];
+    while(t=w.nextNode()){if(t.nodeValue.indexOf('Offre duo')>-1)hide.push(t.parentElement);}
+    hide.forEach(function(e){if(/^(STRONG|B|SPAN|EM)$/.test(e.tagName))e=e.parentElement;e.style.display='none';});
   }
 })();
 </script>
