@@ -115,3 +115,4 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
 - 05/11 : prompts ChatGPT pour les 23 produits sur fond blanc (`vaure/visuels/fond-blanc/`).
 - 05/11 : section La Flore (images IA) retirée de l'accueil v3 à la demande ; 6 collections Jiménez supprimées (huiles x2, jambons, épaules, charcuterie, exemples) + redirections vers /collections/bijoux.
 - 05/11 : pixel Tanganica (GTM-TRS5RSN) déjà actif en pixel personnalisé Shopify (Événements clients, web-pixel-33249) ; ajout dans le thème annulé pour éviter le double comptage.
+- 05/11 : fondu sur tout le site (v3). Chaque carte produit, collection ou article apparaît en fondu l'une après l'autre au défilement, y compris les cartes ajoutées par les filtres. Testé sur l'accueil (31 cartes), Bijoux (20), Journal (6) : toutes visibles après défilement, aucune erreur. Le zoom au survol en double est retiré : le thème garde le sien (subtle-zoom).
