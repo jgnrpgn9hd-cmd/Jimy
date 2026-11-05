@@ -1,0 +1,21 @@
+{%- comment -%}
+  VAURE – Un site plus vivant, sans l'alourdir (CSS seulement, chargé dans le <head>).
+  - Photo d'accueil : zoom très lent à l'arrivée, texte qui apparaît en douceur.
+  - Survol des cartes produit : léger zoom de la photo.
+  Tout est coupé si la personne a demandé de réduire les animations.
+{%- endcomment -%}
+<style>
+  @media (prefers-reduced-motion:no-preference){
+    {%- if template.name == 'index' %}
+    #MainContent > .hero-wrapper:first-child .hero__media img{animation:vviv-zoom 7s cubic-bezier(.2,.6,.2,1) both}
+    #MainContent > .hero-wrapper:first-child .group-block-content > *{animation:vviv-monte 1s cubic-bezier(.2,.7,.2,1) both}
+    #MainContent > .hero-wrapper:first-child .group-block-content > *:nth-child(2){animation-delay:.18s}
+    #MainContent > .hero-wrapper:first-child .group-block-content > *:nth-child(3){animation-delay:.36s}
+    #MainContent > .hero-wrapper:first-child .group-block-content > *:nth-child(4){animation-delay:.54s}
+    {%- endif %}
+    .product-card .card-gallery img,.product-card__image img{transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+    .product-card:hover .card-gallery img,.product-card:hover .product-card__image img{transform:scale(1.04)}
+  }
+  @keyframes vviv-zoom{from{transform:scale(1.09)}to{transform:scale(1)}}
+  @keyframes vviv-monte{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+</style>

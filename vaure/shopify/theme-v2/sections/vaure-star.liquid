@@ -1,0 +1,139 @@
+{%- comment -%}
+  VAURE – Section « produit star » (La Flore).
+  Grande image éditoriale avec texte, puis photo portée + la gamme avec les vrais prix (lus sur les fiches).
+  Légère : 2 images en lazy-load, animations CSS (désactivées si « réduire les animations »).
+{%- endcomment -%}
+{%- liquid
+  assign s = section.settings
+  assign star = s.product
+-%}
+<div class="vstar" style="--vs-pt: {{ s.padding_top }}px; --vs-pb: {{ s.padding_bottom }}px;">
+  <div class="vstar__banniere">
+    {%- if s.image != blank -%}
+      {{ s.image | image_url: width: 2000 | image_tag: loading: 'lazy', class: 'vstar__img', sizes: '100vw', widths: '600, 900, 1300, 1700, 2000', alt: s.image.alt }}
+    {%- endif -%}
+    <div class="vstar__texte">
+      {%- if s.kicker != blank -%}<p class="vstar__k vstar__anim">{{ s.kicker }}</p>{%- endif -%}
+      <h2 class="vstar__h vstar__anim">{{ s.heading }}</h2>
+      {%- if s.text != blank -%}<p class="vstar__p vstar__anim">{{ s.text }}</p>{%- endif -%}
+      {%- if star != blank -%}
+        <div class="vstar__btns vstar__anim">
+          <a class="vstar__btn" href="{{ star.url }}">{{ s.button | default: 'Découvrir' }} · {{ star.price | money }}</a>
+          {%- if s.link2_label != blank -%}<a class="vstar__lien" href="{{ s.link2_url | default: '#' }}">{{ s.link2_label }} →</a>{%- endif -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+
+  <div class="vstar__duo page-width">
+    {%- if s.image2 != blank -%}
+      <a class="vstar__porte" href="{{ star.url | default: '#' }}">
+        {{ s.image2 | image_url: width: 1100 | image_tag: loading: 'lazy', sizes: '(min-width: 990px) 40vw, 100vw', widths: '500, 800, 1100', alt: s.image2.alt }}
+      </a>
+    {%- endif -%}
+    <div class="vstar__gamme">
+      {%- if s.heading2 != blank -%}<h3 class="vstar__h3">{{ s.heading2 }}</h3>{%- endif -%}
+      {%- if s.text2 != blank -%}<p class="vstar__p2">{{ s.text2 }}</p>{%- endif -%}
+      <ul class="vstar__liste">
+        {%- for i in (1..5) -%}
+          {%- assign key = 'p' | append: i -%}
+          {%- assign p = s[key] -%}
+          {%- if p != blank -%}
+            <li>
+              <a href="{{ p.url }}" class="{% if p.id == star.id %}vstar__item--star{% endif %}">
+                {%- if p.featured_image -%}{{ p.featured_image | image_url: width: 120 | image_tag: loading: 'lazy', width: 60, height: 60, alt: '' }}{%- endif -%}
+                <span class="vstar__nom">{{ p.title }}{% if p.id == star.id %} <em>notre préféré</em>{% endif %}</span>
+                <span class="vstar__prix">{{ p.price | money }}</span>
+              </a>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+      {%- if s.note != blank -%}<p class="vstar__note">{{ s.note }}</p>{%- endif -%}
+    </div>
+  </div>
+</div>
+
+<style>
+  .vstar{padding:var(--vs-pt) 0 var(--vs-pb);background:#F8F5F0;color:#151412}
+  .vstar__banniere{position:relative;overflow:hidden;min-height:clamp(420px,52vw,680px);display:flex;align-items:center}
+  .vstar__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:70% 50%;transform:scale(1.08);transition:transform 2.4s cubic-bezier(.2,.7,.2,1)}
+  .vstar.is-vu .vstar__img{transform:scale(1)}
+  .vstar__texte{position:relative;max-width:520px;margin-left:clamp(20px,7vw,120px);padding:24px 0}
+  .vstar__k{font-family:Manrope,system-ui,sans-serif;font-size:12px;letter-spacing:.32em;color:#8A6A3A;font-weight:700;margin:0 0 16px;text-transform:uppercase}
+  .vstar__h{font-family:'Bodoni Moda',Georgia,serif;font-weight:400;font-size:clamp(44px,6vw,84px);line-height:1;margin:0 0 18px;color:#151412}
+  .vstar__p{font-family:Manrope,system-ui,sans-serif;font-size:17px;line-height:1.55;color:#3a352f;margin:0 0 28px;max-width:420px}
+  .vstar__btns{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center}
+  .vstar__btn{display:inline-block;background:#151412;color:#F8F5F0;font-family:Manrope,system-ui,sans-serif;font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;padding:17px 30px;text-decoration:none;transition:background .3s,transform .3s}
+  .vstar__btn:hover{background:#8A6A3A;transform:translateY(-2px)}
+  .vstar__lien{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:#151412;text-decoration:underline;text-underline-offset:4px}
+  .vstar__anim{opacity:0;transform:translateY(18px);transition:opacity .9s ease,transform .9s ease}
+  .vstar.is-vu .vstar__anim{opacity:1;transform:none}
+  .vstar.is-vu .vstar__anim:nth-child(2){transition-delay:.12s}
+  .vstar.is-vu .vstar__anim:nth-child(3){transition-delay:.24s}
+  .vstar.is-vu .vstar__anim:nth-child(4){transition-delay:.36s}
+  .vstar__duo{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(28px,5vw,80px);align-items:center;padding-top:clamp(40px,6vw,90px)}
+  .vstar__porte{display:block;overflow:hidden;aspect-ratio:4/5}
+  .vstar__porte img{width:100%;height:100%;object-fit:cover;object-position:50% 80%;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+  .vstar__porte:hover img{transform:scale(1.04)}
+  .vstar__h3{font-family:'Bodoni Moda',Georgia,serif;font-weight:400;font-size:clamp(30px,3.4vw,46px);line-height:1.05;margin:0 0 12px}
+  .vstar__p2{font-family:Manrope,system-ui,sans-serif;font-size:16px;line-height:1.55;color:#3a352f;margin:0 0 22px}
+  .vstar__liste{list-style:none;margin:0;padding:0;border-top:1px solid #E3D8C8}
+  .vstar__liste a{display:grid;grid-template-columns:60px 1fr auto;gap:16px;align-items:center;padding:12px 4px;border-bottom:1px solid #E3D8C8;text-decoration:none;color:#151412;font-family:Manrope,system-ui,sans-serif;font-size:15px;transition:background .25s,padding .25s}
+  .vstar__liste a:hover{background:#EFE7DC;padding-left:12px}
+  .vstar__liste img{width:60px;height:60px;object-fit:cover;display:block}
+  .vstar__nom em{font-style:normal;font-size:11px;letter-spacing:.14em;text-transform:uppercase;background:#151412;color:#D9B77A;padding:4px 8px;margin-left:8px;white-space:nowrap}
+  .vstar__item--star{font-weight:700}
+  .vstar__prix{font-weight:700;white-space:nowrap}
+  .vstar__note{font-family:Manrope,system-ui,sans-serif;font-size:13px;color:#6b6258;margin:16px 0 0}
+  @media (max-width:749px){
+    .vstar__banniere{display:block;min-height:0}
+    .vstar__img{position:relative;aspect-ratio:4/5;object-position:84% 50%}
+    .vstar__texte{margin:0;padding:28px 20px 0;max-width:none}
+    .vstar__duo{grid-template-columns:1fr}
+    .vstar__liste a{grid-template-columns:52px 1fr auto;gap:12px;font-size:14px}
+    .vstar__liste img{width:52px;height:52px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .vstar__img,.vstar__anim{transition:none;transform:none;opacity:1}
+  }
+</style>
+<script>
+  (function(){
+    document.querySelectorAll('.vstar:not(.is-vu)').forEach(function(el){
+      if(!('IntersectionObserver' in window)){el.classList.add('is-vu');return;}
+      var o=new IntersectionObserver(function(e){if(e[0].isIntersecting){el.classList.add('is-vu');o.disconnect();}},{threshold:.15});
+      o.observe(el);
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "VAURE – Produit star",
+  "tag": "section",
+  "class": "section-vaure-star",
+  "settings": [
+    { "type": "image_picker", "id": "image", "label": "Grande image (bijou à droite, place vide à gauche)" },
+    { "type": "text", "id": "kicker", "label": "Surtitre", "default": "Notre pièce préférée" },
+    { "type": "text", "id": "heading", "label": "Titre", "default": "La Flore" },
+    { "type": "textarea", "id": "text", "label": "Texte" },
+    { "type": "product", "id": "product", "label": "Produit star" },
+    { "type": "text", "id": "button", "label": "Bouton", "default": "Découvrir le duo" },
+    { "type": "text", "id": "link2_label", "label": "Lien secondaire", "default": "Toute la gamme" },
+    { "type": "url", "id": "link2_url", "label": "Lien secondaire (adresse)" },
+    { "type": "image_picker", "id": "image2", "label": "Photo portée" },
+    { "type": "text", "id": "heading2", "label": "Titre de la gamme", "default": "Toute la gamme Flore" },
+    { "type": "textarea", "id": "text2", "label": "Texte de la gamme" },
+    { "type": "product", "id": "p1", "label": "Produit 1" },
+    { "type": "product", "id": "p2", "label": "Produit 2" },
+    { "type": "product", "id": "p3", "label": "Produit 3" },
+    { "type": "product", "id": "p4", "label": "Produit 4" },
+    { "type": "product", "id": "p5", "label": "Produit 5" },
+    { "type": "text", "id": "note", "label": "Petite note" },
+    { "type": "range", "id": "padding_top", "label": "Marge haut", "min": 0, "max": 100, "step": 4, "unit": "px", "default": 0 },
+    { "type": "range", "id": "padding_bottom", "label": "Marge bas", "min": 0, "max": 100, "step": 4, "unit": "px", "default": 64 }
+  ],
+  "presets": [{ "name": "VAURE – Produit star" }]
+}
+{% endschema %}

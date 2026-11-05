@@ -1671,10 +1671,42 @@
         "padding_top": 72,
         "padding_bottom": 72
       }
+    },
+    "defilant": {
+      "type": "vaure-defilant",
+      "settings": {
+        "items": "Acier inoxydable | Fait pour durer | Doré ou argenté | Livraison offerte dès 35 € | Retours 30 jours",
+        "speed": 45
+      }
+    },
+    "star": {
+      "type": "vaure-star",
+      "settings": {
+        "image": "shopify://shop_images/vaure-flore-soie.jpg",
+        "kicker": "Notre pièce préférée",
+        "heading": "La Flore",
+        "text": "Une fleur de nacre, une chaîne fine, de l'acier doré fait pour durer. Le duo collier + bracelet qu'on ne quitte plus, même sous la douche.",
+        "product": "duo-fleur-de-nacre",
+        "button": "Découvrir le duo",
+        "link2_label": "",
+        "image2": "shopify://shop_images/vaure-flore-porte.jpg",
+        "heading2": "Toute la gamme Flore",
+        "text2": "Des puces à la parure complète : à porter seule ou à accumuler.",
+        "p1": "puces-fleur-de-nacre",
+        "p2": "collier-fleur-de-nacre",
+        "p3": "bracelet-fleur-de-nacre",
+        "p4": "duo-fleur-de-nacre",
+        "p5": "parure-fleur-de-nacre",
+        "note": "Acier inoxydable doré · livraison offerte dès 35 € · retours 30 jours",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "hero_p9CmMG",
+    "defilant",
+    "star",
     "garanties",
     "univers",
     "product_list_themegen",

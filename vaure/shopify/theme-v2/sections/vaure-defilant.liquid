@@ -1,0 +1,34 @@
+{%- comment -%}
+  VAURE – Bandeau qui défile (CSS uniquement, très léger). S'arrête au survol
+  et reste fixe si la personne a demandé de réduire les animations.
+{%- endcomment -%}
+{%- liquid
+  assign items = section.settings.items | split: '|'
+-%}
+<div class="vdef" style="--vdef-vitesse: {{ section.settings.speed }}s">
+  <div class="vdef__piste" aria-hidden="true">
+    {%- for n in (1..4) -%}
+      {%- for it in items -%}<span>{{ it | strip }}</span><i>✦</i>{%- endfor -%}
+    {%- endfor -%}
+  </div>
+  <p class="visually-hidden">{{ section.settings.items | replace: '|', ' · ' }}</p>
+</div>
+<style>
+  .vdef{background:#151412;color:#F8F5F0;overflow:hidden;padding:15px 0;border-block:1px solid #2a2622}
+  .vdef__piste{display:flex;width:max-content;gap:28px;align-items:center;animation:vdef var(--vdef-vitesse) linear infinite;font-family:Manrope,system-ui,sans-serif;font-size:13px;letter-spacing:.24em;text-transform:uppercase;white-space:nowrap}
+  .vdef__piste i{color:#D9B77A;font-style:normal;font-size:11px}
+  .vdef:hover .vdef__piste{animation-play-state:paused}
+  @keyframes vdef{to{transform:translateX(-50%)}}
+  @media (prefers-reduced-motion:reduce){.vdef__piste{animation:none}}
+</style>
+{% schema %}
+{
+  "name": "VAURE – Bandeau défilant",
+  "tag": "section",
+  "settings": [
+    { "type": "textarea", "id": "items", "label": "Messages (séparés par |)", "default": "Acier inoxydable | Fait pour durer | Doré ou argenté | Livraison offerte dès 35 € | Retours 30 jours" },
+    { "type": "range", "id": "speed", "label": "Durée d'un tour", "min": 20, "max": 90, "step": 5, "unit": "s", "default": 45 }
+  ],
+  "presets": [{ "name": "VAURE – Bandeau défilant" }]
+}
+{% endschema %}
