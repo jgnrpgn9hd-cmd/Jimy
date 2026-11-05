@@ -1718,7 +1718,9 @@
         "button_url": "shopify://collections/bracelets",
         "note": "−10 % dès 2 articles, appliqué au panier",
         "padding_top": 72,
-        "padding_bottom": 72
+        "padding_bottom": 72,
+        "focus3": "56% 84%",
+        "zoom3": 220
       }
     }
   },
