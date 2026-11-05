@@ -90,3 +90,15 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
   - Page Livraison et CGV §5 mises à jour.
   - Paniers testés : DE/ES/IT 4,90 €, NO 6,90 €, FR 3,90 €.
   - Royaume-Uni non ouvert : TVA britannique dès la 1re vente.
+- 05/11 : site plus vivant, sur le thème « VAURE – Black Friday » (non publié).
+  - Bandeau noir défilant sous l'accueil (`sections/vaure-defilant.liquid`).
+  - Section produit star « La Flore » (`sections/vaure-star.liquid`) :
+    - bannière soie avec zoom lent et texte qui apparaît ;
+    - photo portée ;
+    - gamme Flore avec les vrais prix lus sur les fiches.
+  - Animations légères en CSS (`snippets/vaure-vivant.liquid`, dans le head) :
+    - photo d'accueil : zoom lent et texte en fondu ;
+    - cartes produit : léger zoom au survol.
+  - Animations coupées si « réduire les animations » est activé.
+  - Images IA uniquement sur la page d'accueil ; les fiches produit gardent les vraies photos.
+  - Fichiers Shopify : vaure-flore-soie.jpg, vaure-flore-porte.jpg, vaure-flore-cadeau.jpg.
