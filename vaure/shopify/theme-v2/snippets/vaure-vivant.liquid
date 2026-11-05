@@ -1,7 +1,10 @@
 {%- comment -%}
-  VAURE – Un site plus vivant, sans l'alourdir (CSS seulement, chargé dans le <head>).
-  - Photo d'accueil : zoom très lent à l'arrivée, texte qui apparaît en douceur.
-  - Survol des cartes produit : léger zoom de la photo.
+  VAURE – Un site plus vivant, sans l'alourdir (chargé dans le <head>).
+  - Accueil : zoom très lent de la photo du haut, texte qui apparaît en douceur.
+  - Partout : chaque carte (produit, collection, article) apparaît en fondu, l'une après l'autre,
+    quand on fait défiler. Les cartes ajoutées plus tard (filtres, « voir plus ») aussi.
+  - Ne cache jamais ce qui est déjà à l'écran au chargement (pas de flash).
+  Le fondu entre les pages et l'apparition des sections viennent du thème et de vaure-extras.
   Tout est coupé si la personne a demandé de réduire les animations.
 {%- endcomment -%}
 <style>
@@ -13,9 +16,44 @@
     #MainContent > .hero-wrapper:first-child .group-block-content > *:nth-child(3){animation-delay:.36s}
     #MainContent > .hero-wrapper:first-child .group-block-content > *:nth-child(4){animation-delay:.54s}
     {%- endif %}
-    .product-card .card-gallery img,.product-card__image img{transition:transform .9s cubic-bezier(.2,.7,.2,1)}
-    .product-card:hover .card-gallery img,.product-card:hover .product-card__image img{transform:scale(1.04)}
+    .vfd{opacity:0;transform:translateY(16px)}
+    .vfd.vfd-on{opacity:1;transform:none;transition:opacity .8s ease var(--vfd-d,0s),transform .8s cubic-bezier(.2,.7,.2,1) var(--vfd-d,0s)}
   }
   @keyframes vviv-zoom{from{transform:scale(1.09)}to{transform:scale(1)}}
   @keyframes vviv-monte{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
 </style>
+<script>
+  (function () {
+    if (!('IntersectionObserver' in window)) return;
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var SEL = 'product-card, .product-card, .collection-card__inner, .featured-blog-posts-card__inner, .blog-post-card, .resource-card, .vsel__carte';
+    var obs = new IntersectionObserver(function (entrees) {
+      var n = 0;
+      entrees.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        e.target.style.setProperty('--vfd-d', (Math.min(n++, 5) * 0.08) + 's');
+        e.target.classList.add('vfd-on');
+        obs.unobserve(e.target);
+      });
+    }, { rootMargin: '0px 0px -6% 0px' });
+    function scanner(racine) {
+      (racine || document).querySelectorAll(SEL).forEach(function (el) {
+        if (el.dataset.vfd) return;
+        el.dataset.vfd = '1';
+        if (el.parentElement && el.parentElement.closest('[data-vfd]')) return;
+        if (el.getBoundingClientRect().top < window.innerHeight) return;
+        el.classList.add('vfd');
+        obs.observe(el);
+      });
+    }
+    function demarrer() {
+      scanner();
+      var main = document.getElementById('MainContent');
+      if (!main || !('MutationObserver' in window)) return;
+      var t;
+      new MutationObserver(function () { clearTimeout(t); t = setTimeout(function () { scanner(main); }, 120); })
+        .observe(main, { childList: true, subtree: true });
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', demarrer); else demarrer();
+  })();
+</script>
