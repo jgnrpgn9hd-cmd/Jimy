@@ -114,3 +114,4 @@ Le thème Rebel (VAURE) est le thème publié sur jimenez-shop.com.
 - 05/11 : section « L'accumulation » (`sections/vaure-selection.liquid`) sur l'accueil v3 : photo piscine + Romy, Perla, Elsa, Stella.
 - 05/11 : prompts ChatGPT pour les 23 produits sur fond blanc (`vaure/visuels/fond-blanc/`).
 - 05/11 : section La Flore (images IA) retirée de l'accueil v3 à la demande ; 6 collections Jiménez supprimées (huiles x2, jambons, épaules, charcuterie, exemples) + redirections vers /collections/bijoux.
+- 05/11 : pixel Tanganica (GTM-TRS5RSN) déjà actif en pixel personnalisé Shopify (Événements clients, web-pixel-33249) ; ajout dans le thème annulé pour éviter le double comptage.
