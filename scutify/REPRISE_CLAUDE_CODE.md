@@ -48,4 +48,10 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Marge < 20 € à prix honnête : chaussettes antidérapantes, gourde motivation, rouleau de massage, fontaine à chat, bouchons d'oreille.
 
 ## En attente
+- Nouvelle demande de Jairo : s'inspirer des boutiques dropshipping qui marchent, et PAS de produits qu'on trouve partout (Lidl, Action, Darty). Produits « partout » dans le tableau : pistolet (2), coussin lombaire (3), blender (7), balance (8), brosse ménage (10), aspirateur voiture (9).
+- Remplaçants validés en prix (manque la fiche Alibaba, à trouver sur le téléphone de Jairo car captcha) :
+  - Masseur cervical EMS en U (nuque) : France 25-40 €, revente 29,90 €, fournisseur Shenzhen Yaxinlong « 4 Pads Electric U-Shaped Neck Massager » 3,04-4,97 $, MOQ 1.
+  - Aspirateur à points noirs (visage) : France 29,98-46,28 € (Amazon), revente 29,90 €, fournisseur Shenzhen Aiviqin 3,98-5,78 $, MOQ 1, 2 080 vendus.
+  - Aspirateur anti-acariens UV (allergies) : France 47,60-100 €, revente 39,90 €, fournisseur Shenzhen Yaxinlong « Mattress Cleaner Dust Mite Vacuum 8000PA » 4,63-7,71 $, MOQ 2.
+- Écartés (marge < 20 € au prix français) : purificateur fruits ultrasons (coût 8,57 €, France 22-26 €), sacs sous vide + pompe (France 10-20 €), traceurs (lot de 4 à 24-40 €).
 - Ligne 9 (aspirateur voiture) : trouver un produit pour tout le monde qui passe toutes les règles.
