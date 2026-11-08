@@ -66,3 +66,20 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Boutiques aimées par Jairo : Warmly Decor (préférée), Sage & Sill, Articture, Triangl. Univers déco / maison. Pot auto-arrosant (France 34,90 €) : pas de fiche fournisseur trouvée. Lampe de croissance : France 10-30 €, marge trop faible.
 - Jairo vérifie sur son téléphone les fiches des lignes 2, 3, 5, 6, 7, 8, 9, 10 (prix, stock, minimum). Ligne 7 : prix petite quantité inconnu, coût compté à 10 $.
 - Lignes 8, 9, 10 (blender, brosse électrique, balance) : produits gagnants en dropshipping mais aussi vendus en magasin. À remplacer si Jairo trouve mieux ; pistes testées qui ne passent pas : posture, anti-ronflement, séchoir chaussures, nettoyeur ultrasons, planche titane, défroisseur, coussin gel (pas de fiche), sacs sous vide, purificateur fruits, thermomètre cuisson sans fil (pas de prix fournisseur fiable), nettoyeur vapeur à main (coût > 15 €). Piste possible : station de charge 3-en-1 pliable (France 25-40 €, fournisseur ~7,50 $) mais surtout pour Apple et fiche exacte non trouvée.
+
+
+## Mise à jour : niche « Lumière d'ambiance sans fil » (choix de Jairo)
+Chaque produit = un vrai problème + un effet waouw. Ancienne liste sport : produits_sport.py, upsells_sport.py.
+| N° | Produit | Problème | Waouw | Coût | Revente | Marge |
+|---|---|---|---|---|---|---|
+| 1 | Lampe de chevet induction | câbles, téléphone à plat | on pose le tél : il charge + lumière | 10,68 | 44,90 | 34,22 |
+| 2 | Applique aimantée 360° | noir, interdit de percer | applique d'hôtel en 10 s | 6,36 | 29,90 | 23,54 |
+| 3 | Lampe champignon | plafonnier agressif le soir | ambiance restaurant partout | 5,68 | 29,90 | 24,22 |
+| 4 | Lampe dorée de table | dîner sous plafonnier, bougies | lampe des restos chics | 5,14 | 39,90 | 34,76 |
+| 5 | Lampe livre bois | lire sans réveiller l'autre | livre qui s'illumine à 360° | 8,90 | 35,90 | 27,00 |
+| 6 | Lampe coucher de soleil | hiver sombre, photos ternes | golden hour sur le mur | 2,92 | 24,90 | 21,98 |
+| 7 | Projecteur vagues | stress du soir | plafond océan | 4,39 | 29,90 | 25,51 |
+| 8 | Projecteur ciel étoilé | peur du noir, insomnie | chambre galaxie | 7,73 | 34,90 | 27,17 |
+| 9 | Lanterne solaire rotin | balcon sans prise | s'allume seule, ombres | 6,02 | 39,90 | 33,88 |
+| 10 | Lampe photo personnalisée | quoi offrir ? | la photo apparaît allumée | 2,56 | 34,90 | 32,34 |
+En attente : vérifier les liens Alibaba sur téléphone (captcha ici), surtout n°4 ; trouver des 2e produits > 50 €.

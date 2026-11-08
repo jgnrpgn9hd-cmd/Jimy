@@ -292,3 +292,103 @@ POT = {
 }
 for k, v in POT.items():
     if k in A: A[k]["potentiel"] = v
+
+# ---------- Niche « Lumière d'ambiance sans fil » : problème réel + effet waouw ----------
+def _L(cible, probleme, idee, economique, waw, unique, preuve, potentiel, invest="Oui : léger, peu cher à envoyer, très visuel en vidéo."):
+    return dict(cible=cible, probleme=probleme, idee=idee, economique=economique, waw=waw, unique=unique,
+                benefice_evident="Oui : on comprend le problème et la solution en 3 secondes de vidéo.",
+                visualise="Oui : vidéo « avant (plafonnier, câbles, noir) / après (ambiance) », photos déco Instagram.",
+                invest_30k=invest, preuve=preuve, potentiel=potentiel)
+
+A.update({
+"Lampe de chevet induction sans fil": _L(
+ "Couples et jeunes actifs qui veulent une chambre « hôtel de luxe ».",
+ "Table de nuit pleine de câbles, téléphone déchargé au réveil, lampe de chevet banale.",
+ "Je veux permettre à ceux qui veulent une chambre d'hôtel chic de supprimer les câbles du chevet tout en rechargeant leur téléphone la nuit.",
+ "2 produits en 1 (lampe + chargeur induction à 20-30 €) ; 44,90 € contre 47,99-69,98 € en France.",
+ "On pose le téléphone : il charge et la lampe s'allume, sans aucun fil.",
+ "Finition métal à la marque, coloris exclusifs (noir mat, laiton).",
+ "Amazon.fr : lampes sans fil avec chargeur induction 47,99-69,98 €.",
+ "⭐⭐⭐ Double usage, gros panier, marge 34 €."),
+"Applique murale sans fil aimantée": _L(
+ "Locataires, étudiants, jeunes couples dans leur premier appartement.",
+ "Couloir ou tête de lit dans le noir, pas de point lumineux et interdiction de percer.",
+ "Je veux permettre aux locataires d'avoir des appliques d'hôtel sans percer ni appeler d'électricien.",
+ "Évite un électricien (100-200 € pour créer un point lumineux) ; 29,90 €.",
+ "Plaque collée, lampe aimantée qui tourne à 360° et s'allume au toucher.",
+ "Coloris (blanc, noir, bois) et boîte à la marque, vendue par 2.",
+ "Amazon.fr : appliques sans fil rechargeables 19,90-34,90 €.",
+ "⭐⭐⭐ Problème très concret (locataires), vendable par lot de 2."),
+"Lampe champignon sans fil": _L(
+ "Amateurs de déco cosy, 20-40 ans, qui reçoivent chez eux.",
+ "Plafonnier blanc agressif le soir, qui empêche de se détendre ; pas de prise là où on veut une lampe.",
+ "Je veux permettre à ceux qui aiment leur intérieur de créer une ambiance restaurant le soir, sans fil, partout.",
+ "29,90 € contre 48-83 € pour les lampes sans fil de marque (Bonsoirs, Fatboy…).",
+ "On éteint le plafonnier, on pose la lampe : la pièce change d'ambiance.",
+ "Coloris pastel ou chrome exclusifs, boîte cadeau.",
+ "Tendance Instagram (lampes « mushroom ») ; France 26,95-83 €.",
+ "⭐⭐⭐ Très Instagram, prix d'appel."),
+"Lampe dorée de table sans fil": _L(
+ "Couples et familles qui reçoivent, amateurs d'art de la table.",
+ "Dîner sous un plafonnier froid ; bougies qui coulent et dangereuses avec les enfants.",
+ "Je veux permettre à ceux qui reçoivent de dîner chez eux comme au restaurant, sans bougies ni câbles.",
+ "Remplace des bougies achetées chaque semaine ; 39,90 € contre environ 48 € en France.",
+ "La lampe dorée des restaurants chics au centre de la table.",
+ "Finition dorée ou laiton, vendue par 2 pour la table.",
+ "Lampes de restaurant sans fil vendues environ 47,94 € (NegoLuz).",
+ "⭐⭐ Très chic, marge 34 € ; lien à confirmer."),
+"Lampe livre en bois pliante": _L(
+ "Lecteurs, étudiants, amateurs de déco en bois.",
+ "Lire au lit sans réveiller l'autre ; lampes de bureau moches sur une étagère.",
+ "Je veux permettre aux lecteurs d'avoir une lumière douce et belle qui se range comme un livre.",
+ "35,90 € contre 23,99-48 € en France ; une lampe + un objet déco.",
+ "Fermée c'est un livre ; ouverte elle s'illumine en accordéon à 360°.",
+ "Couverture gravée au logo, cadeau personnalisable (prénom).",
+ "Amazon.fr : Yuanj 23,99 €, VORRINC 27,95 €, ZBOLE 36,99 €.",
+ "⭐⭐ Effet waouw fort, idée cadeau."),
+"Lampe coucher de soleil": _L(
+ "Ados et 18-30 ans qui font des photos, personnes qui ont le moral bas l'hiver.",
+ "Nuit à 17 h en hiver, moral en baisse ; photos ternes à la maison.",
+ "Je veux permettre à ceux qui manquent de lumière l'hiver d'avoir un coucher de soleil dans leur chambre à toute heure.",
+ "24,90 €, prix aligné sur Amazon (22,99-25,97 €).",
+ "Un coucher de soleil projeté sur le mur, idéal pour les selfies.",
+ "Boîte à la marque, filtres de couleurs exclusifs.",
+ "Amazon.fr : 22,99-25,97 €, virale sur TikTok.",
+ "⭐⭐ Viral et très bas coût ; branchée en USB."),
+"Projecteur effet vagues d'eau": _L(
+ "Personnes stressées, télétravailleurs, amateurs de relaxation.",
+ "Stress, cerveau qui tourne le soir, impossible de décrocher des écrans.",
+ "Je veux permettre aux personnes stressées de se détendre le soir en transformant leur chambre en bord de mer.",
+ "Moins cher qu'une séance de relaxation ou une appli payante ; 29,90 €.",
+ "Le plafond devient le fond d'une piscine, avec des reflets qui bougent.",
+ "Boîte à la marque, finition cristal.",
+ "Amazon.fr : 27,99-33,29 €.",
+ "⭐⭐ Vidéo hypnotisante, gros potentiel en Reels."),
+"Projecteur ciel étoilé": _L(
+ "Parents de jeunes enfants, adultes qui s'endorment mal.",
+ "Enfant qui a peur du noir, adulte qui n'arrive pas à s'endormir.",
+ "Je veux permettre aux parents de coucher leurs enfants sans pleurs grâce à un ciel étoilé apaisant.",
+ "Remplace veilleuse + machine à bruit blanc ; 34,90 €.",
+ "La chambre entière devient une galaxie.",
+ "Coloris et logo à la marque, minuterie.",
+ "Très vendu sur Amazon.fr (projecteurs galaxie 29,99-39,99 €).",
+ "⭐⭐⭐ Énorme demande (cadeau enfants et ados)."),
+"Lanterne solaire en rotin": _L(
+ "Propriétaires de balcon, terrasse ou jardin.",
+ "Extérieur dans le noir le soir, aucune prise dehors, électricien nécessaire.",
+ "Je veux permettre à ceux qui ont un balcon d'en profiter le soir sans aucune installation électrique.",
+ "Zéro électricité, zéro électricien ; 39,90 € contre 34,99-115 €.",
+ "S'allume seule à la tombée de la nuit et projette des motifs de rotin.",
+ "Rotin naturel, vendue par 2 ou 3 tailles.",
+ "France : 34,99-115 € (lanternes solaires en rotin).",
+ "⭐⭐ Saisonnier (avril-septembre).", "À confirmer : plus volumineuse, et surtout vendue au printemps et en été."),
+"Lampe photo personnalisée": _L(
+ "Toute personne qui cherche un cadeau (fête des mères, Saint-Valentin, Noël).",
+ "Ne jamais savoir quoi offrir, cadeaux sans émotion.",
+ "Je veux permettre à ceux qui manquent d'idées d'offrir un cadeau qui fait pleurer de joie.",
+ "34,90 € contre 34,90-44,90 € en France ; coût 2,56 €.",
+ "Éteinte, plaque transparente ; allumée, la photo apparaît en lumière.",
+ "Unique par nature : chaque lampe porte la photo du client.",
+ "France : Holograbme 34,90 €, Celekado 44,90 €.",
+ "⭐⭐⭐ Produit unique, marge 32 €, pics à chaque fête."),
+})
