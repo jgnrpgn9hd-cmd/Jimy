@@ -26,14 +26,15 @@ for k, row in enumerate(rows):
     ws[f"M{r}"].value = round(revente - cout, 2)
     ws[f"B{r}"].alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
     c = ws[f"C{r}"]
-    c.value = "Fiche Alibaba\nn° " + re.search(r"[_-](\d+)\.html", lien).group(1)
+    c.value = lien  # adresse complète : cliquable ou copiable sur téléphone
     c.hyperlink = lien
-    f = copy(c.font); c.font = Font(name=f.name, size=9, color="0563C1", underline="single")
+    f = copy(c.font); c.font = Font(name=f.name, size=7, color="0563C1", underline="single")
     c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
     ws.row_dimensions[r].height = 60
     if ws[f"B{r}"].fill.fgColor.rgb not in (None, "00000000"):
         ws[f"B{r}"].fill = PatternFill(fill_type=None)  # surlignage vert d'exemple du modèle
 
+ws.column_dimensions["C"].width = 40
 a = wb.create_sheet("Arguments coach")
 from openpyxl.styles import PatternFill, Border, Side
 VIOLET = PatternFill("solid", fgColor="7030A0"); GRIS = PatternFill("solid", fgColor="F2F2F2")
@@ -48,15 +49,15 @@ for j, t in enumerate(["N°", "Produit", "Niche", "Coût", "Revente", "Marge", "
 for k, row in enumerate(rows):
     r = 5 + k
     niche = row[0].split(" — Niche : ")[1] if " — Niche : " in row[0] else ""
-    vals = [k + 1, row[12], niche[:1].upper() + niche[1:], row[8], row[10], round(row[10] - row[8], 2), row[11], "Ouvrir la fiche"]
+    vals = [k + 1, row[12], niche[:1].upper() + niche[1:], row[8], row[10], round(row[10] - row[8], 2), row[11], row[1]]
     for j, v in enumerate(vals, 1):
         c = a.cell(r, j, v); c.font = Font(name="Arial", size=10, bold=(j in (2, 6))); c.border = BORD
         c.alignment = Alignment(horizontal="center" if j in (1, 4, 5, 6, 8) else "left", vertical="center", wrap_text=True)
         if k % 2: c.fill = GRIS
         if j in (4, 5, 6): c.number_format = '#,##0.00 "€"'
-    a.cell(r, 8).hyperlink = row[1]; a.cell(r, 8).font = Font(name="Arial", size=10, color="0563C1", underline="single")
+    a.cell(r, 8).hyperlink = row[1]; a.cell(r, 8).font = Font(name="Arial", size=8, color="0563C1", underline="single")
     a.row_dimensions[r].height = 105
-for col, w in zip("ABCDEFGH", [5, 26, 20, 10, 10, 10, 85, 14]):
+for col, w in zip("ABCDEFGH", [5, 26, 20, 10, 10, 10, 85, 45]):
     a.column_dimensions[col].width = w
 a.row_dimensions[4].height = 30; a.freeze_panes = "C5"
 
