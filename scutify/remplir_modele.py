@@ -26,7 +26,7 @@ for k, row in enumerate(rows):
     ws[f"M{r}"].value = round(revente - cout, 2)
     ws[f"B{r}"].alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
     c = ws[f"C{r}"]
-    c.value = "Fiche Alibaba\nn° " + re.search(r"_(\d+)\.html", lien).group(1)
+    c.value = "Fiche Alibaba\nn° " + re.search(r"[_-](\d+)\.html", lien).group(1)
     c.hyperlink = lien
     f = copy(c.font); c.font = Font(name=f.name, size=9, color="0563C1", underline="single")
     c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)

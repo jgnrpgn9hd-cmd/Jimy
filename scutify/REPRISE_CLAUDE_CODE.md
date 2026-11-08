@@ -8,7 +8,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Script qui le génère : `build19.py` (s'appuie sur `build16.py`, lignes dans `rows19.py`). Lancer : `python3 build19.py`.
 
 ## Règles à respecter (toutes données par Jairo)
-- Exactement 10 produits, pas plus, dans 10 niches différentes.
+- Exactement 10 produits, pas plus, dans 10 niches différentes, utiles à tout le monde (pas réservés aux propriétaires d'animaux, de voiture, etc.).
 - Ne pas changer la structure du tableau, seulement le remplir. Note N = 10 partout.
 - Marge (colonne M) écrite en valeur, pas en formule : sinon elle affiche 0 sur téléphone.
 - Prix de revente < 50 € et **honnête** : aligné sur ce que les gens paient vraiment en France. Toujours vérifier sur des sites français (Decathlon, Kaufland, ManoMano, touslesprix…).
@@ -18,17 +18,17 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Pas de couteaux. « Pas de vêtements » au départ, mais il a ensuite donné l'ensemble de sport pastel comme exemple → gardé, à confirmer avec lui.
 - S'inspirer de la boutique de sa coach (NOXYA — confirmé par Jairo : instagram.com/noxya.france ; site noxya.com : récupération, oreiller ergonomique, rituel oreiller + parfum + masque) **sans la copier** : pas d'oreiller, masque, parfum ni bouchons d'oreille.
 
-## Les 10 produits actuels — 10 niches différentes (demande de Jairo : pas de doublons)
+## Les 10 produits actuels — 10 niches différentes, produits pour tout le monde
 | # | Niche | Produit | ID Alibaba | Coût € | Revente € | Marge € |
 |---|---|---|---|---|---|---|
 | 1 | sport à la maison | Kit barre Pilates 13 pièces + élastiques + programme | 1601484459815 | 6,49 | 34,90 | 28,41 |
 | 2 | récupération musculaire | Mini pistolet de massage 4 têtes, écran tactile | 1601094578732 | 5,71 | 32,90 | 27,19 |
 | 3 | bureau / télétravail | Coussin lombaire à mémoire de forme, housse lavable | 1601051263301 | 3,29 | 24,90 | 21,61 |
 | 4 | salle de bain | Pommeau de douche anticalcaire filtre vitamine C | 1600072015451 | 1,20 | 24,90 | 23,70 |
-| 5 | sommeil | Projecteur ciel étoilé, bruit blanc + minuterie + télécommande | 1601028814564 | 7,73 | 34,90 | 27,17 |
-| 6 | beauté / cheveux | Masseur électrique cuir chevelu étanche IPX7, 4 têtes | 1600058258273 | 4,42 | 27,90 | 23,48 |
+| 5 | sommeil | Machine à bruit blanc portable, veilleuse + minuterie (adultes et enfants) | 1600851553560 | 3,44 | 24,90 | 21,46 |
+| 6 | hygiène dentaire | Hydropulseur sans fil rechargeable, étanche IPX7 | 1601060619298 | 8,16 | 32,90 | 24,74 |
 | 7 | cuisine | Blender portable rechargeable USB (smoothies, jus) | 1601242714165 | 5,42 | 26,90 | 21,48 |
-| 8 | animaux | Ponceuse à griffes électrique chien et chat, LED, silencieuse | 1601868041727 | 3,61 | 23,90 | 20,29 |
+| 8 | santé / suivi du poids | Balance connectée impédancemètre Bluetooth (appli Fitdays) | 1600509123908 | 5,15 | 25,90 | 20,75 |
 | 9 | voiture | Aspirateur de voiture sans fil 120 W, rechargeable | 1601012187051 | 2,54 | 24,90 | 22,36 |
 | 10 | ménage | Brosse de nettoyage électrique sans fil, manche long + 3 têtes | 1601806545743 | 6,19 | 27,90 | 21,71 |
 
@@ -39,6 +39,8 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Fournisseurs des lignes 2, 5, 6, 7, 8, 9, 10 trouvés via moteur de recherche (Alibaba renvoie un captcha depuis l'environnement) : prix, stock et minimum de commande à confirmer sur la fiche.
 
 ## Écartés (et pourquoi)
+- Pas assez « pour tout le monde » (remplacés) : projecteur ciel étoilé, masseur cuir chevelu, ponceuse à griffes. Aspirateur voiture encore en ligne 9 faute de remplaçant.
+- Testés pour tout le monde, marge < 20 € au prix français : veilleuses détecteur, rasoir anti-bouloches, mini humidificateur, lampe de bureau, tire-bouchon électrique, caméra WiFi. Lunch box chauffante : coût 10,66 € (règle ×4 ratée). Batterie magnétique : iPhone seulement + lithium. Montre connectée : pas de fiche fiable (modèles copiés de l'Apple Watch).
 - Doublons de niche retirés : ensemble de sport, tapis TPE (sport), masseur nuque, tapis d'acupression (massage/récupération). Bébé tenté : mouche-bébé (dispositif médical, MOQ 20), chauffe-biberon (coût > 15 €).
 - Ancien pistolet (1600835742970), réveil lumière (60603683987), ancien projecteur (1601082100275) : coût trop haut pour la règle « marge > 3 × coût » du modèle (note 7,5). Réveil aussi saisonnier (hiver). Tapis EMS pieds : marge < 20 € au prix français (15-25 €).
 - Hors niche : nettoyeur de vitres, aspirateur voiture, brosse électrique, rouleau anti-poils, tire-bouchon, détecteurs de fuite, lampe lune.
@@ -46,4 +48,4 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Marge < 20 € à prix honnête : chaussettes antidérapantes, gourde motivation, rouleau de massage, fontaine à chat, bouchons d'oreille.
 
 ## En attente
-- Rien : ensemble de sport retiré (doublon de niche).
+- Ligne 9 (aspirateur voiture) : trouver un produit pour tout le monde qui passe toutes les règles.
