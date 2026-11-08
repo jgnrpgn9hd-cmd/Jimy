@@ -18,19 +18,19 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Pas de couteaux. « Pas de vêtements » au départ, mais il a ensuite donné l'ensemble de sport pastel comme exemple → gardé, à confirmer avec lui.
 - S'inspirer de la boutique de sa coach (NOXYA — confirmé par Jairo : instagram.com/noxya.france ; site noxya.com : récupération, oreiller ergonomique, rituel oreiller + parfum + masque) **sans la copier** : pas d'oreiller, masque, parfum ni bouchons d'oreille.
 
-## Les 10 produits actuels — 10 niches différentes, produits pour tout le monde
+## Les 10 produits actuels — 10 niches, produits de boutiques dropshipping, problème clair
 | # | Niche | Produit | ID Alibaba | Coût € | Revente € | Marge € |
 |---|---|---|---|---|---|---|
 | 1 | sport à la maison | Kit barre Pilates 13 pièces + élastiques + programme | 1601484459815 | 6,49 | 34,90 | 28,41 |
-| 2 | récupération musculaire | Mini pistolet de massage 4 têtes, écran tactile | 1601094578732 | 5,71 | 32,90 | 27,19 |
-| 3 | bureau / télétravail | Coussin lombaire à mémoire de forme, housse lavable | 1601051263301 | 3,29 | 24,90 | 21,61 |
+| 2 | douleurs de nuque | Masseur cervical électrique sans fil, impulsions + chaleur, 10 modes | 1600806316694 | 8,17 | 34,90 | 26,73 |
+| 3 | soin du visage | Aspirateur à points noirs rechargeable, plusieurs embouts | 1600456305985 | 7,65 | 32,90 | 25,25 |
 | 4 | salle de bain | Pommeau de douche anticalcaire filtre vitamine C | 1600072015451 | 1,20 | 24,90 | 23,70 |
 | 5 | sommeil | Machine à bruit blanc portable, veilleuse + minuterie (adultes et enfants) | 1600851553560 | 3,44 | 24,90 | 21,46 |
 | 6 | hygiène dentaire | Hydropulseur sans fil rechargeable, étanche IPX7 | 1601060619298 | 8,16 | 32,90 | 24,74 |
-| 7 | cuisine | Blender portable rechargeable USB (smoothies, jus) | 1601242714165 | 5,42 | 26,90 | 21,48 |
-| 8 | santé / suivi du poids | Balance connectée impédancemètre Bluetooth (appli Fitdays) | 1600509123908 | 5,15 | 25,90 | 20,75 |
-| 9 | voiture | Aspirateur de voiture sans fil 120 W, rechargeable | 1601012187051 | 2,54 | 24,90 | 22,36 |
-| 10 | ménage | Brosse de nettoyage électrique sans fil, manche long + 3 têtes | 1601806545743 | 6,19 | 27,90 | 21,71 |
+| 7 | allergies | Aspirateur anti-acariens UV sans fil pour lit et canapé | 1601450111395 | 8,60 | 39,90 | 31,30 |
+| 8 | cuisine | Blender portable rechargeable USB (smoothies, jus) | 1601242714165 | 5,42 | 26,90 | 21,48 |
+| 9 | ménage | Brosse de nettoyage électrique sans fil, manche long + 3 têtes | 1601806545743 | 6,19 | 27,90 | 21,71 |
+| 10 | santé / suivi du poids | Balance connectée impédancemètre Bluetooth (appli Fitdays) | 1600509123908 | 5,15 | 25,90 | 20,75 |
 
 ## Modèle officiel Scutify
 - Modèle vierge : `modele_scutify_vierge.xlsx`. Rempli par `remplir_modele.py` → `Support Scutify S01_Tableau recherche 10 idées de business.xlsx` (formules gardées, recalculées par LibreOffice pour l'affichage téléphone). Produits dans `produits.py`.
@@ -48,10 +48,5 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Marge < 20 € à prix honnête : chaussettes antidérapantes, gourde motivation, rouleau de massage, fontaine à chat, bouchons d'oreille.
 
 ## En attente
-- Nouvelle demande de Jairo : s'inspirer des boutiques dropshipping qui marchent, et PAS de produits qu'on trouve partout (Lidl, Action, Darty). Produits « partout » dans le tableau : pistolet (2), coussin lombaire (3), blender (7), balance (8), brosse ménage (10), aspirateur voiture (9).
-- Remplaçants validés en prix (manque la fiche Alibaba, à trouver sur le téléphone de Jairo car captcha) :
-  - Masseur cervical EMS en U (nuque) : France 25-40 €, revente 29,90 €, fournisseur Shenzhen Yaxinlong « 4 Pads Electric U-Shaped Neck Massager » 3,04-4,97 $, MOQ 1.
-  - Aspirateur à points noirs (visage) : France 29,98-46,28 € (Amazon), revente 29,90 €, fournisseur Shenzhen Aiviqin 3,98-5,78 $, MOQ 1, 2 080 vendus.
-  - Aspirateur anti-acariens UV (allergies) : France 47,60-100 €, revente 39,90 €, fournisseur Shenzhen Yaxinlong « Mattress Cleaner Dust Mite Vacuum 8000PA » 4,63-7,71 $, MOQ 2.
-- Écartés (marge < 20 € au prix français) : purificateur fruits ultrasons (coût 8,57 €, France 22-26 €), sacs sous vide + pompe (France 10-20 €), traceurs (lot de 4 à 24-40 €).
-- Ligne 9 (aspirateur voiture) : trouver un produit pour tout le monde qui passe toutes les règles.
+- Jairo vérifie sur son téléphone les fiches des lignes 2, 3, 5, 6, 7, 8, 9, 10 (prix, stock, minimum). Ligne 7 : prix petite quantité inconnu, coût compté à 10 $.
+- Lignes 8, 9, 10 (blender, brosse électrique, balance) : produits gagnants en dropshipping mais aussi vendus en magasin. À remplacer si Jairo trouve mieux ; pistes testées qui ne passent pas : posture, anti-ronflement, séchoir chaussures, nettoyeur ultrasons, planche titane, défroisseur, coussin gel (pas de fiche), sacs sous vide, purificateur fruits.
