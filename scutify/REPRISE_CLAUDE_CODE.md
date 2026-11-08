@@ -18,18 +18,18 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Pas de couteaux. « Pas de vêtements » au départ, mais il a ensuite donné l'ensemble de sport pastel comme exemple → gardé, à confirmer avec lui.
 - S'inspirer de la boutique de sa coach (NOXYA — confirmé par Jairo : instagram.com/noxya.france ; site noxya.com : récupération, oreiller ergonomique, rituel oreiller + parfum + masque) **sans la copier** : pas d'oreiller, masque, parfum ni bouchons d'oreille.
 
-## Les 10 produits actuels — bureau / maison, produits à image de marque
+## Les 10 produits actuels — maison & bureau à image de marque (inspiré Warmly Decor, Oakywood, Bonsoirs)
 | # | Niche | Produit | ID Alibaba | Coût € | Revente € | Marge € |
 |---|---|---|---|---|---|---|
 | 1 | salon et câbles | Boîte cache-multiprise en bois | 1600399341648 | 4,30 | 26,90 | 22,60 |
 | 2 | déco et ambiance | Lampe de table sans fil | 1601698699353 | 5,68 | 29,90 | 24,22 |
 | 3 | éclairage sans travaux | Applique murale sans fil | 11000013900976 | 6,36 | 29,90 | 23,54 |
 | 4 | bureau, confort et protection | Sous-main en feutre | 1601004411759 | 1,54 | 24,90 | 23,36 |
-| 5 | café et bureau | Chauffe-tasse effet bois | 1600179675580 | 3,09 | 24,90 | 21,81 |
+| 5 | art de la table (linge de maison) | Serviettes de table en lin lavé (×4) | 1601235297580 | 8,60 | 34,90 | 26,30 |
 | 6 | clés et poche | Organisateur de clés en métal | 1601587838571 | 3,95 | 24,90 | 20,95 |
 | 7 | entrée et table de nuit | Station d'accueil en bois | 1601015112609 | 4,77 | 27,90 | 23,13 |
 | 8 | télétravail, fatigue des yeux | Barre lumineuse d'écran | 1600751202201 | 8,25 | 34,90 | 26,65 |
-| 9 | télétravail, jambes et dos | Repose-pieds ergonomique | 1600335423239 | 4,21 | 27,90 | 23,69 |
+| 9 | salon et chambre (linge de maison) | Plaid en gaze de coton | 1601074754482 | 4,55 | 39,90 | 35,35 |
 | 10 | télétravail, posture et bureau rangé | Rehausseur d'écran en bambou | 62509087328 | 4,73 | 29,90 | 25,17 |
 
 ## Modèle officiel Scutify
@@ -48,6 +48,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Marge < 20 € à prix honnête : chaussettes antidérapantes, gourde motivation, rouleau de massage, fontaine à chat, bouchons d'oreille.
 
 ## En attente
+- Inspiration Bonsoirs (bonsoirs.com, linge de maison français) : plaid gaze de coton et serviettes de table lin lavé à la place du chauffe-tasse et du repose-pieds. Serviettes de bain gaufrées écartées (France 14-31 €). Oreiller/taies exclus (coach).
 - Jairo veut des produits « image de marque » (type Oakywood, Orbitkey, Woodcessories). Kit Pilates et pommeau remplacés par sous-main feutre et organisateur de clés métal. Écartés : support casque bois (fournisseur 13-18 $), housse PC feutre (pas de prix fournisseur). Cache-multiprise mis en ligne 1 pour ne pas profiter de l'erreur de formule de la ligne 1.
 - Jairo a demandé des produits télétravail en remplaçant seulement quelques lignes : organisateur de tiroir, pont de baignoire et boîte à pain remplacés par barre lumineuse d'écran, repose-pieds, rehausseur d'écran bambou. Écartés : support PC alu (fournisseur 14,50 $, France 16-25 €), tapis de bureau (pas de fiche avec prix).
 - Jairo trouve que les produits « font Temu / chinois ». Il a choisi l'univers « maison design » (bois, céramique, verre, couleurs neutres). Lignes 7-10 remplacées (station d'accueil, organisateur tiroir, pont de baignoire, boîte à pain) ; minimums de commande élevés (200-500) car produits design. Testés sans succès : horloge bois (pas de fiche), panier à linge (France 14-25 €), plateau de lit (pas de fiche). Idées design validées en prix France mais sans fiche Alibaba trouvée : pot auto-arrosant céramique (34,90 €), porte-clés mural bois aimanté (20-37 €), applique murale en bois (30-75 €), moulins électriques effet bois (30-57 €), tapis de bain en pierre (15-25 €, lourd). Pont de baignoire bambou : MOQ 500.
