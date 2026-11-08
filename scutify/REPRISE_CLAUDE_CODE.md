@@ -18,7 +18,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Pas de couteaux. « Pas de vêtements » au départ, mais il a ensuite donné l'ensemble de sport pastel comme exemple → gardé, à confirmer avec lui.
 - S'inspirer de la boutique de sa coach (NOXYA — confirmé par Jairo : instagram.com/noxya.france ; site noxya.com : récupération, oreiller ergonomique, rituel oreiller + parfum + masque) **sans la copier** : pas d'oreiller, masque, parfum ni bouchons d'oreille.
 
-## Les 10 produits actuels — sport à la maison (6) + soulagement (4), meilleures ventes Amazon.fr / Decathlon / Tibo InShape
+## Les 10 produits actuels — sport à la maison + soulagement, produits vendeurs (meilleures ventes Amazon.fr / Decathlon / Tibo InShape)
 | # | Niche | Produit | ID Alibaba | Coût € | Revente € | Marge € |
 |---|---|---|---|---|---|---|
 | 1 | sport à la maison, confort au sol | Tapis de sport épais 8 mm | 1601223812663 | 6,86 | 29,90 | 23,04 |
@@ -26,11 +26,11 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 | 3 | sport à la maison, tonification | Poids silicone chevilles et poignets | 11000024198018 | 5,03 | 27,90 | 22,87 |
 | 4 | sport à la maison, musculation et tractions | Pack d'élastiques de musculation | 1601381417434 | 1,63 | 24,90 | 23,27 |
 | 5 | sport à la maison, haut du corps | Barre de traction de porte | 1600576737770 | 4,26 | 34,90 | 30,64 |
-| 6 | sport à la maison, gainage et équilibre | Coussin d'équilibre gonflable | 60554651169 | 2,80 | 24,90 | 22,10 |
-| 7 | récupération, courbatures | Mini pistolet de massage | 1601094578732 | 5,71 | 32,90 | 27,19 |
-| 8 | soulagement, nœuds musculaires | Ventouse électrique intelligente | 1601007245215 | 3,52 | 29,90 | 26,38 |
-| 9 | soulagement, colonne et posture | Étireur de dos réglable | 62547110690 | 0,90 | 24,90 | 24,00 |
-| 10 | soulagement, dos et lombaires | Coussin de massage shiatsu chauffant | 60707079707 | 8,60 | 34,90 | 26,30 |
+| 6 | récupération, courbatures | Mini pistolet de massage | 1601094578732 | 5,71 | 32,90 | 27,19 |
+| 7 | soulagement, nœuds musculaires | Ventouse électrique intelligente | 1601007245215 | 3,52 | 29,90 | 26,38 |
+| 8 | soulagement, colonne et posture | Étireur de dos réglable | 62547110690 | 0,90 | 24,90 | 24,00 |
+| 9 | soulagement, dos et lombaires | Coussin de massage shiatsu chauffant | 60707079707 | 8,60 | 34,90 | 26,30 |
+| 10 | soulagement, genoux | Genouillère chauffante à vibration | 1600625080875 | 9,46 | 39,90 | 30,44 |
 
 ## Modèle officiel Scutify
 - Modèle vierge : `modele_scutify_vierge.xlsx`. Rempli par `remplir_modele.py` → `Support Scutify S01_Tableau recherche 10 idées de business.xlsx` (formules gardées, recalculées par LibreOffice pour l'affichage téléphone). Produits dans `produits.py`.
@@ -48,6 +48,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Marge < 20 € à prix honnête : chaussettes antidérapantes, gourde motivation, rouleau de massage, fontaine à chat, bouchons d'oreille.
 
 ## En attente
+- « Les produits doivent être vendeurs » : classement potentiel de vente ajouté (colonne Validation Scutify). Coussin d'équilibre (le plus faible, concurrents 13,73-19,88 €) remplacé par la genouillère chauffante.
 - Règle ajoutée par Jairo : des produits à plus de 50 € sont acceptés en « 2e produit » (upsell). Onglet « 2e produits » (upsells.py) : mini reformer pliable (69,90 €, coût 17,10 €), sangles de suspension (54,90 €, coût 34,40 €). Les 10 idées principales restent sous 50 €.
 - Inspiration Tibo InShape (tiboinshape.com, marque TeamShape : élastiques, élastiques à poignées, sangles de suspension, pack tapis/corde/élastique, rouleau). Ajoutés : pack d'élastiques, barre de traction (note 7,5, volumineuse). Retirés : bouillotte, masseur nuque-épaules. Écartées : sangles de suspension (Decathlon 59,99 €, pas de fiche < 15 €).
 - Lignes 5, 6, 10 remplacées (demande de Jairo) : ventouse électrique, étireur de dos, coussin d'équilibre. Écartés : rouleau vibrant (France ≥ 89 €), hula hoop intelligent (France 41-46 € mais pas de fiche Alibaba avec prix).

@@ -277,3 +277,18 @@ A.update({
  invest_30k="À confirmer : très demandée, mais longue et lourde (livraison chère), ce que le support Scutify conseille d'éviter.",
  preuve="Decathlon : 29,99 € (70 cm), 34,99 € (100 cm), 39,99 € (multifonction) ; recommandée par Tibo InShape."),
 })
+
+POT = {
+ "Coussin de massage shiatsu chauffant": "⭐⭐⭐ N°1 des ventes Amazon.fr (coussins de massage) ; notre prix est sous Brelley.",
+ "Mini pistolet de massage": "⭐⭐⭐ N°1 des ventes Amazon.fr (masseurs portables).",
+ "Kit Pilates barre + élastiques": "⭐⭐⭐ Meilleures ventes Pilates Amazon.fr ; tendance Pilates très forte.",
+ "Pack d'élastiques de musculation": "⭐⭐⭐ Meilleure vente de Tibo InShape et de Decathlon.",
+ "Ventouse électrique intelligente": "⭐⭐⭐ Virale sur TikTok, effet wow très fort, marge élevée.",
+ "Genouillère chauffante à vibration": "⭐⭐⭐ Très vendue sur Amazon.fr (32,57-49,99 €), clientèle large, plus grosse marge.",
+ "Étireur de dos réglable": "⭐⭐ Vendu chez Decathlon et Amazon ; vidéo « le dos qui craque ».",
+ "Tapis de sport épais 8 mm": "⭐⭐ Très demandé mais très concurrencé : à vendre en pack.",
+ "Poids silicone chevilles et poignets": "⭐⭐ Tendance Pilates, mais concurrents dès 15 € : miser sur les coloris.",
+ "Barre de traction de porte": "⭐⭐ Très demandée, mais lourde à expédier.",
+}
+for k, v in POT.items():
+    if k in A: A[k]["potentiel"] = v
