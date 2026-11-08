@@ -18,7 +18,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Pas de couteaux. « Pas de vêtements » au départ, mais il a ensuite donné l'ensemble de sport pastel comme exemple → gardé, à confirmer avec lui.
 - S'inspirer de la boutique de sa coach (NOXYA — confirmé par Jairo : instagram.com/noxya.france ; site noxya.com : récupération, oreiller ergonomique, rituel oreiller + parfum + masque) **sans la copier** : pas d'oreiller, masque, parfum ni bouchons d'oreille.
 
-## Les 10 produits actuels — marque « sport à la maison + soulagement » (choix de Jairo)
+## Les 10 produits actuels — sport à la maison + soulagement, basés sur les meilleures ventes Amazon.fr / Decathlon
 | # | Niche | Produit | ID Alibaba | Coût € | Revente € | Marge € |
 |---|---|---|---|---|---|---|
 | 1 | sport à la maison, confort au sol | Tapis de sport épais 8 mm | 1601223812663 | 6,86 | 29,90 | 23,04 |
@@ -27,9 +27,9 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 | 4 | récupération, courbatures | Mini pistolet de massage | 1601094578732 | 5,71 | 32,90 | 27,19 |
 | 5 | soulagement, nuque | Masseur cervical sans fil chauffant | 1600806316694 | 8,17 | 34,90 | 26,73 |
 | 6 | soulagement, dos et stress | Tapis d'acupression + coussin | 62341454488 | 5,16 | 27,90 | 22,74 |
-| 7 | soulagement, bas du dos assis | Coussin lombaire mémoire de forme | 1601051263301 | 3,29 | 24,90 | 21,61 |
+| 7 | soulagement, dos et lombaires | Coussin de massage shiatsu chauffant | 60707079707 | 8,60 | 34,90 | 26,30 |
 | 8 | soulagement, ventre et règles | Bouillotte aux noyaux de cerise | 62496559860 | 3,44 | 24,90 | 21,46 |
-| 9 | soulagement, tête et stress | Masseur cuir chevelu électrique | 1600058258273 | 4,42 | 27,90 | 23,48 |
+| 9 | soulagement, épaules et haut du dos | Masseur nuque et épaules chauffant | 1601165534367 | 6,73 | 32,90 | 26,17 |
 | 10 | récupération, sommeil | Machine à bruit blanc | 1600851553560 | 3,44 | 24,90 | 21,46 |
 
 ## Modèle officiel Scutify
@@ -48,6 +48,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Marge < 20 € à prix honnête : chaussettes antidérapantes, gourde motivation, rouleau de massage, fontaine à chat, bouchons d'oreille.
 
 ## En attente
+- Méthode demandée : reproduire les meilleures ventes Amazon.fr / Decathlon de la niche. Pages bloquées (captcha) → classements lus via moteur de recherche. Ajouts : coussin shiatsu (n°1 Amazon coussins de massage, Phenitech 10 $), masseur nuque-épaules chauffant. Écartés : mini reformer (75-90 € > 50 €), kit accessoires Pilates (pas de fiche avec prix). Colonne « Preuve que ça se vend » ajoutée dans Validation Scutify.
 - Jairo choisit : « kit Pilates et sport à la maison, puis soulagement ». Nouvelle gamme de 10 (3 sport + 7 récupération/soulagement). Ajout poids silicone (Xiamen Quadra 5,85 $ la paire). Écartés : anneau Pilates (Amazon dès 11 €), élastiques tissu (Decathlon 9,99 €).
 - Support Scutify 01 reçu (critères, 4 questions, idée de business = cible + problème, éviter lourd/volumineux). Ajout de l'onglet « Validation Scutify » (analyse.py). Rehausseur (volumineux) remplacé par le kit Pilates (même type que l'exemple du support). Top 3 recommandé : kit Pilates, pommeau filtrant, anti-acariens.
 - DERNIÈRE DEMANDE (validée) : « vraie problématique importante + effet waw ». Liste de 10 reconstruite avec uniquement des fiches déjà vérifiées. Pistes luxe testées sans succès : sous-verres travertin (pas de fiche), carafe de chevet (marge), plateau travertin (fournisseur 17,40 $).

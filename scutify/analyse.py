@@ -167,3 +167,40 @@ A.update({
  invest_30k="À confirmer : produit plaisir, très bon en complément de la gamme soulagement."),
 })
 A["Machine à bruit blanc"]["idee"]="Je veux permettre à ceux qui s'entraînent et travaillent beaucoup de mieux récupérer en dormant d'une traite, même dans un appartement bruyant."
+
+A.update({
+"Coussin de massage shiatsu chauffant": dict(
+ cible="Personnes qui ont mal au dos et à la nuque : télétravailleurs, sportifs, conducteurs, personnes âgées.",
+ probleme="Dos et nuque douloureux en fin de journée ; massages trop chers pour en faire souvent.",
+ idee="Je veux permettre à ceux qui ont mal au dos de se faire masser chez eux, tous les soirs, pour le prix d'une seule séance.",
+ economique="Une séance de massage coûte environ 60 € : le coussin est remboursé dès la première séance évitée.",
+ waw="Les têtes rotatives lumineuses et chauffantes visibles en vidéo.",
+ unique="Coloris et housse à la marque, logo.",
+ benefice_evident="Oui : « un masseur shiatsu à la maison ».",
+ visualise="Oui : c'est le n°1 des ventes Amazon.fr dans sa catégorie, les pubs existent déjà.",
+ invest_30k="Oui : demande prouvée (n°1 Amazon), fournisseur avec 3 273 ventes."),
+"Masseur nuque et épaules chauffant": dict(
+ cible="Télétravailleurs, étudiants, sportifs, personnes stressées.",
+ probleme="Épaules et haut du dos noués, nuque raide.",
+ idee="Je veux permettre à ceux qui ont les épaules nouées de se faire masser mains libres, en travaillant ou en regardant une série.",
+ economique="Une séance de massage ou de kiné coûte environ 50-70 €.",
+ waw="Le masseur posé sur les épaules qui « pétrit » tout seul, avec la chaleur.",
+ unique="Coloris et logo à la marque.",
+ benefice_evident="Oui : « massage des épaules mains libres ».",
+ visualise="Oui : les coussins chauffants pour épaules sont dans les meilleures ventes Amazon.fr.",
+ invest_30k="Oui : besoin prouvé, prix France 27-42 €."),
+})
+P = {  # preuve que le type de produit se vend déjà (meilleures ventes / grandes enseignes)
+ "Tapis de sport épais 8 mm": "Decathlon : tapis Pilates épais HOP-SPORT 1,5-2 cm à 29 € ; tapis parmi les n°1 des ventes Amazon.fr (Pilates).",
+ "Kit Pilates barre + élastiques": "Amazon.fr : kits barre Pilates (XTTANK…) dans les meilleures ventes Pilates ; Decathlon : kit accessoires Pilates à 29,99 €.",
+ "Poids silicone chevilles et poignets": "Amazon.fr : nombreux lots 2 × 0,5 kg (14,99-39,99 €) ; GladiatorFit 32,90 € ; Decathlon : haltères parmi les plus notés (1 819 avis).",
+ "Mini pistolet de massage": "Amazon.fr : un pistolet de massage est n°1 des ventes « masseurs électriques portables ».",
+ "Masseur cervical sans fil chauffant": "Amazon.fr et Cdiscount : nombreux masseurs cervicaux en U (24,89-40,31 €).",
+ "Tapis d'acupression + coussin": "Vendu depuis des années (Tunturi 34,99 €) ; fournisseur 17 ans, 5/5 (149 avis).",
+ "Coussin de massage shiatsu chauffant": "Amazon.fr : n°1 des ventes « coussins de massage électriques » (Brelley, 35,99 €).",
+ "Bouillotte aux noyaux de cerise": "209 modèles analysés en France, prix médian 23,99 € ; Nature & Découvertes 32,95 €.",
+ "Masseur nuque et épaules chauffant": "Amazon.fr : coussins chauffants sans fil pour épaules dans les meilleures ventes massage ; Kaufland 34,95 €, ManoMano 34 €.",
+ "Machine à bruit blanc": "Amazon.fr : Momcozy (341 avis), Dreamegg, eSynic ; marché sommeil très porteur.",
+}
+for k, v in P.items():
+    if k in A: A[k]["preuve"] = v

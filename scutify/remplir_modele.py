@@ -68,19 +68,19 @@ v["A1"] = "Validation Scutify — idée de business et 4 questions"
 v["A1"].font = Font(name="Arial", bold=True, size=16, color="2B2B2B")
 v["A2"] = "Méthode du support « Recherche de produits à fort potentiel » : cible → problème → idée de business, critère économique chiffré, effet wow, unique, puis les 4 questions de validation."
 v["A2"].font = Font(name="Arial", size=9, color="8C8279")
-heads = ["N°", "Produit", "Cible", "Problème (douleur)", "Idée de business", "Économique (chiffré)", "Effet wow", "Unique", "Bénéfice évident au 1er regard ?", "Je visualise le site, les pubs, les arguments ?", "Prêt à investir 30 000 € sur ce seul produit ?"]
+heads = ["N°", "Produit", "Preuve que ça se vend déjà", "Cible", "Problème (douleur)", "Idée de business", "Économique (chiffré)", "Effet wow", "Unique", "Bénéfice évident au 1er regard ?", "Je visualise le site, les pubs, les arguments ?", "Prêt à investir 30 000 € sur ce seul produit ?"]
 for j, t in enumerate(heads, 1):
     c = v.cell(4, j, t); c.font = Font(name="Arial", bold=True, size=9, color="FFFFFF"); c.fill = VIOLET
     c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True); c.border = BORD
 for k, row in enumerate(rows):
     r = 5 + k; d = A[row[12]]
-    vals = [k + 1, row[12], d["cible"], d["probleme"], d["idee"], d["economique"], d["waw"], d["unique"], d["benefice_evident"], d["visualise"], d["invest_30k"]]
+    vals = [k + 1, row[12], d.get("preuve", ""), d["cible"], d["probleme"], d["idee"], d["economique"], d["waw"], d["unique"], d["benefice_evident"], d["visualise"], d["invest_30k"]]
     for j, val in enumerate(vals, 1):
         c = v.cell(r, j, val); c.font = Font(name="Arial", size=9, bold=(j == 2), color="2B2B2B"); c.border = BORD
         c.alignment = Alignment(horizontal="center" if j == 1 else "left", vertical="top", wrap_text=True)
         if k % 2: c.fill = GRIS
     v.row_dimensions[r].height = 120
-for col, w in zip("ABCDEFGHIJK", [5, 22, 26, 30, 38, 34, 26, 22, 26, 28, 30]):
+for col, w in zip("ABCDEFGHIJKL", [5, 22, 32, 26, 30, 38, 34, 26, 22, 26, 28, 30]):
     v.column_dimensions[col].width = w
 v.row_dimensions[4].height = 42; v.freeze_panes = "C5"
 
