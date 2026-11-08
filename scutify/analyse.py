@@ -204,3 +204,15 @@ P = {  # preuve que le type de produit se vend déjà (meilleures ventes / grand
 }
 for k, v in P.items():
     if k in A: A[k]["preuve"] = v
+
+A["Genouillère chauffante à vibration"] = dict(
+ cible="Sportifs (course, Pilates, foot), personnes de plus de 45 ans qui ont de l'arthrose au genou.",
+ probleme="Genou douloureux et raide, qui empêche de s'entraîner, de monter les escaliers ou de marcher longtemps.",
+ idee="Je veux permettre aux personnes qui ont mal au genou de soulager leur douleur chez elles en 15 minutes, pour continuer à bouger.",
+ economique="Une séance de kiné coûte environ 50 € : la genouillère est remboursée dès la première séance évitée.",
+ waw="Elle chauffe et vibre en vidéo, sans fil, en regardant la télé.",
+ unique="Coloris et logo à la marque, pochette de rangement.",
+ benefice_evident="Oui : « chaleur + massage = genou soulagé ».",
+ visualise="Oui : pubs sportifs et seniors, avant/après de la marche.",
+ invest_30k="Oui : douleur forte, clientèle large (sport + seniors), produit dans les meilleures ventes Amazon.",
+ preuve="Amazon.fr : nombreuses genouillères chauffantes vendues 32,57 à 49,99 € (Comfier, AFDEAL, JinsenTGG).")

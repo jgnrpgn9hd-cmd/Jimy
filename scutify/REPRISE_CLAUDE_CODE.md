@@ -30,7 +30,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 | 7 | soulagement, dos et lombaires | Coussin de massage shiatsu chauffant | 60707079707 | 8,60 | 34,90 | 26,30 |
 | 8 | soulagement, ventre et règles | Bouillotte aux noyaux de cerise | 62496559860 | 3,44 | 24,90 | 21,46 |
 | 9 | soulagement, épaules et haut du dos | Masseur nuque et épaules chauffant | 1601165534367 | 6,73 | 32,90 | 26,17 |
-| 10 | récupération, sommeil | Machine à bruit blanc | 1600851553560 | 3,44 | 24,90 | 21,46 |
+| 10 | soulagement, genoux | Genouillère chauffante à vibration | 1600625080875 | 9,46 | 39,90 | 30,44 |
 
 ## Modèle officiel Scutify
 - Modèle vierge : `modele_scutify_vierge.xlsx`. Rempli par `remplir_modele.py` → `Support Scutify S01_Tableau recherche 10 idées de business.xlsx` (formules gardées, recalculées par LibreOffice pour l'affichage téléphone). Produits dans `produits.py`.
@@ -48,6 +48,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Marge < 20 € à prix honnête : chaussettes antidérapantes, gourde motivation, rouleau de massage, fontaine à chat, bouchons d'oreille.
 
 ## En attente
+- Bruit blanc remplacé par genouillère chauffante (Wenzhou Huifan 11 $ dès 100). Écartés : masseur de pieds 3-en-1 (Amazon dès 19,99 €), ceinture lombaire chauffante (fournisseur 18-22 $).
 - Méthode demandée : reproduire les meilleures ventes Amazon.fr / Decathlon de la niche. Pages bloquées (captcha) → classements lus via moteur de recherche. Ajouts : coussin shiatsu (n°1 Amazon coussins de massage, Phenitech 10 $), masseur nuque-épaules chauffant. Écartés : mini reformer (75-90 € > 50 €), kit accessoires Pilates (pas de fiche avec prix). Colonne « Preuve que ça se vend » ajoutée dans Validation Scutify.
 - Jairo choisit : « kit Pilates et sport à la maison, puis soulagement ». Nouvelle gamme de 10 (3 sport + 7 récupération/soulagement). Ajout poids silicone (Xiamen Quadra 5,85 $ la paire). Écartés : anneau Pilates (Amazon dès 11 €), élastiques tissu (Decathlon 9,99 €).
 - Support Scutify 01 reçu (critères, 4 questions, idée de business = cible + problème, éviter lourd/volumineux). Ajout de l'onglet « Validation Scutify » (analyse.py). Rehausseur (volumineux) remplacé par le kit Pilates (même type que l'exemple du support). Top 3 recommandé : kit Pilates, pommeau filtrant, anti-acariens.
