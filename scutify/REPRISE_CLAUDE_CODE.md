@@ -83,3 +83,9 @@ Chaque produit = un vrai problème + un effet waouw. Ancienne liste sport : prod
 | 9 | Lanterne solaire rotin | balcon sans prise | s'allume seule, ombres | 6,02 | 39,90 | 33,88 |
 | 10 | Lampe photo personnalisée | quoi offrir ? | la photo apparaît allumée | 2,56 | 34,90 | 32,34 |
 En attente : vérifier les liens Alibaba sur téléphone (captcha ici), surtout n°4 ; trouver des 2e produits > 50 €.
+
+## Mise à jour : nouvelle liste (Jairo : « recommence », avec kit Pilates et pommeau filtrant)
+10 niches différentes, chaque produit = problème + effet waouw. Listes précédentes gardées : produits_sport.py, produits_lumiere.py.
+1 Aspirateur anti-acariens UV (allergies) · 2 Kit Pilates (Pilates maison) · 3 Pommeau filtrant (eau calcaire) · 4 Hydropulseur (gencives) ·
+5 Ventouse électrique (récupération) · 6 Masseur cervical (télétravail) · 7 Projecteur ciel étoilé (sommeil) · 8 Lampe photo personnalisée (cadeau) ·
+9 Applique aimantée (locataires) · 10 Lampe de chevet induction (chambre sans câbles). 2e produit : mini reformer pliable (avec le kit Pilates).

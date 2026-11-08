@@ -1,4 +1,3 @@
-# 2e produits (upsell) pour la niche lumière : à trouver (aucun fournisseur > 50 € vérifié pour l'instant).
-# Les anciens 2e produits sport sont dans upsells_sport.py.
+# 2e produits (upsell, > 50 € autorisé), proposés après le produit principal.
 # (nom, se vend avec, problème, preuve prix France, lien Alibaba, prix fournisseur $, coût €, revente €, note)
-U = []
+U = [('Mini reformer de Pilates pliable (planche + élastiques)', 'Kit Pilates barre + élastiques', "Le kit Pilates ne suffit plus : on veut l'effet « reformer » des studios (cours à 30-40 € la séance) sans acheter une machine à 1 000 €.", 'Amazon.fr : Pilatella mini reformer pliable 74,99-89,99 € (meilleures ventes Pilates).', 'https://www.alibaba.com/product-detail/Commercial-Home-Foldable-Pilates-Board-6_1601458167106.html', 19.89, 17.1, 69.9, '19,89 $ le set (minimum 100 sets). Pliable, se range sous un lit.')]
