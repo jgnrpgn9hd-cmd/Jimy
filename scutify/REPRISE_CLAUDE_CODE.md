@@ -18,19 +18,19 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Pas de couteaux. « Pas de vêtements » au départ, mais il a ensuite donné l'ensemble de sport pastel comme exemple → gardé, à confirmer avec lui.
 - S'inspirer de la boutique de sa coach (NOXYA — confirmé par Jairo : instagram.com/noxya.france ; site noxya.com : récupération, oreiller ergonomique, rituel oreiller + parfum + masque) **sans la copier** : pas d'oreiller, masque, parfum ni bouchons d'oreille.
 
-## Les 10 produits actuels — problème important + effet waw, validés avec la méthode du support Scutify 01
+## Les 10 produits actuels — marque « sport à la maison + soulagement » (choix de Jairo)
 | # | Niche | Produit | ID Alibaba | Coût € | Revente € | Marge € |
 |---|---|---|---|---|---|---|
-| 1 | allergies | Aspirateur anti-acariens UV | 1601450111395 | 8,60 | 39,90 | 31,30 |
-| 2 | salle de bain | Pommeau de douche filtrant vitamine C | 1600072015451 | 1,20 | 24,90 | 23,70 |
-| 3 | hygiène dentaire | Hydropulseur sans fil | 1601060619298 | 8,16 | 32,90 | 24,74 |
-| 4 | douleurs de nuque | Masseur cervical sans fil chauffant | 1600806316694 | 8,17 | 34,90 | 26,73 |
-| 5 | douleurs de ventre et de règles | Bouillotte aux noyaux de cerise | 62496559860 | 3,44 | 24,90 | 21,46 |
-| 6 | sommeil | Machine à bruit blanc | 1600851553560 | 3,44 | 24,90 | 21,46 |
-| 7 | télétravail, fatigue des yeux | Barre lumineuse d'écran | 1600751202201 | 8,25 | 34,90 | 26,65 |
-| 8 | éclairage sans travaux | Applique murale sans fil | 11000013900976 | 6,36 | 29,90 | 23,54 |
-| 9 | déco et ambiance | Lampe de table sans fil | 1601698699353 | 5,68 | 29,90 | 24,22 |
-| 10 | sport à la maison | Kit Pilates barre + élastiques | 1601484459815 | 6,49 | 34,90 | 28,41 |
+| 1 | sport à la maison, confort au sol | Tapis de sport épais 8 mm | 1601223812663 | 6,86 | 29,90 | 23,04 |
+| 2 | sport à la maison, renforcement | Kit Pilates barre + élastiques | 1601484459815 | 6,49 | 34,90 | 28,41 |
+| 3 | sport à la maison, tonification | Poids silicone chevilles et poignets | 11000024198018 | 5,03 | 27,90 | 22,87 |
+| 4 | récupération, courbatures | Mini pistolet de massage | 1601094578732 | 5,71 | 32,90 | 27,19 |
+| 5 | soulagement, nuque | Masseur cervical sans fil chauffant | 1600806316694 | 8,17 | 34,90 | 26,73 |
+| 6 | soulagement, dos et stress | Tapis d'acupression + coussin | 62341454488 | 5,16 | 27,90 | 22,74 |
+| 7 | soulagement, bas du dos assis | Coussin lombaire mémoire de forme | 1601051263301 | 3,29 | 24,90 | 21,61 |
+| 8 | soulagement, ventre et règles | Bouillotte aux noyaux de cerise | 62496559860 | 3,44 | 24,90 | 21,46 |
+| 9 | soulagement, tête et stress | Masseur cuir chevelu électrique | 1600058258273 | 4,42 | 27,90 | 23,48 |
+| 10 | récupération, sommeil | Machine à bruit blanc | 1600851553560 | 3,44 | 24,90 | 21,46 |
 
 ## Modèle officiel Scutify
 - Modèle vierge : `modele_scutify_vierge.xlsx`. Rempli par `remplir_modele.py` → `Support Scutify S01_Tableau recherche 10 idées de business.xlsx` (formules gardées, recalculées par LibreOffice pour l'affichage téléphone). Produits dans `produits.py`.
@@ -48,6 +48,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Marge < 20 € à prix honnête : chaussettes antidérapantes, gourde motivation, rouleau de massage, fontaine à chat, bouchons d'oreille.
 
 ## En attente
+- Jairo choisit : « kit Pilates et sport à la maison, puis soulagement ». Nouvelle gamme de 10 (3 sport + 7 récupération/soulagement). Ajout poids silicone (Xiamen Quadra 5,85 $ la paire). Écartés : anneau Pilates (Amazon dès 11 €), élastiques tissu (Decathlon 9,99 €).
 - Support Scutify 01 reçu (critères, 4 questions, idée de business = cible + problème, éviter lourd/volumineux). Ajout de l'onglet « Validation Scutify » (analyse.py). Rehausseur (volumineux) remplacé par le kit Pilates (même type que l'exemple du support). Top 3 recommandé : kit Pilates, pommeau filtrant, anti-acariens.
 - DERNIÈRE DEMANDE (validée) : « vraie problématique importante + effet waw ». Liste de 10 reconstruite avec uniquement des fiches déjà vérifiées. Pistes luxe testées sans succès : sous-verres travertin (pas de fiche), carafe de chevet (marge), plateau travertin (fournisseur 17,40 $).
 - Demande : « petits objets qui répondent à une problématique, thème cosy et moderne » (capture Bonsoirs). Barre lumineuse et organisateur de clés remplacés par chauffe-tasse et bouillotte noyaux de cerise. Pistes cosy sans fiche exploitable : lampe chauffe-bougie (France 25-60 €, fournisseurs 7-12 $ mais fiche avec prix = 11,96 $ MOQ 600 ; attention proche du parfum), plateau d'accoudoir bois (France 28-40 €). Bougies LED : France ~20 € le lot, marge trop faible. « 12h home » introuvable.
