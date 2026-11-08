@@ -48,6 +48,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Marge < 20 € à prix honnête : chaussettes antidérapantes, gourde motivation, rouleau de massage, fontaine à chat, bouchons d'oreille.
 
 ## En attente
+- FICHIER À RENDRE (demande « tableau complet sans rien modifier ») : `Support Scutify S01_Tableau recherche 10 idées de business.xlsx`, généré par `remplir_modele_strict.py` : seules les cases B-L des lignes 6-15 sont remplies, formules (dont la marge M), mise en forme et onglet unique du modèle intacts, recalculé par LibreOffice. La version enrichie (Arguments coach, Validation Scutify, 2e produits) est dans `Support Scutify S01 - version avec analyses.xlsx` (remplir_modele.py).
 - « Les produits doivent être vendeurs » : classement potentiel de vente ajouté (colonne Validation Scutify). Coussin d'équilibre (le plus faible, concurrents 13,73-19,88 €) remplacé par la genouillère chauffante.
 - Règle ajoutée par Jairo : des produits à plus de 50 € sont acceptés en « 2e produit » (upsell). Onglet « 2e produits » (upsells.py) : mini reformer pliable (69,90 €, coût 17,10 €), sangles de suspension (54,90 €, coût 34,40 €). Les 10 idées principales restent sous 50 €.
 - Inspiration Tibo InShape (tiboinshape.com, marque TeamShape : élastiques, élastiques à poignées, sangles de suspension, pack tapis/corde/élastique, rouleau). Ajoutés : pack d'élastiques, barre de traction (note 7,5, volumineuse). Retirés : bouillotte, masseur nuque-épaules. Écartées : sangles de suspension (Decathlon 59,99 €, pas de fiche < 15 €).

@@ -14,7 +14,7 @@ from produits import rows
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 MODELE = os.path.join(ICI, "modele_scutify_vierge.xlsx")
-SORTIE = os.path.join(ICI, "Support Scutify S01_Tableau recherche 10 idées de business.xlsx")
+SORTIE = os.path.join(ICI, "Support Scutify S01 - version avec analyses.xlsx")
 
 wb = load_workbook(MODELE)
 ws = wb["S1 BUSINESS IDEAS"]
