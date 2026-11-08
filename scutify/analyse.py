@@ -216,3 +216,39 @@ A["Genouillère chauffante à vibration"] = dict(
  visualise="Oui : pubs sportifs et seniors, avant/après de la marche.",
  invest_30k="Oui : douleur forte, clientèle large (sport + seniors), produit dans les meilleures ventes Amazon.",
  preuve="Amazon.fr : nombreuses genouillères chauffantes vendues 32,57 à 49,99 € (Comfier, AFDEAL, JinsenTGG).")
+
+A.update({
+"Ventouse électrique intelligente": dict(
+ cible="Sportifs, télétravailleurs, personnes qui ont des nœuds dans le dos, les épaules ou les cuisses.",
+ probleme="Nœuds musculaires et tensions qui font mal et limitent les mouvements.",
+ idee="Je veux permettre à ceux qui ont des nœuds musculaires de faire du cupping chez eux, sans risque et sans rendez-vous.",
+ economique="Une séance de cupping ou de massage coûte environ 50-60 € : remboursé dès la première séance évitée.",
+ waw="La ventouse qui aspire la peau et s'allume en rouge, très partagée sur TikTok.",
+ unique="Coloris et logo à la marque.",
+ benefice_evident="Oui : « elle décolle et détend le muscle ».",
+ visualise="Oui : vidéos TikTok déjà virales, pubs sportifs.",
+ invest_30k="Oui : produit tendance, très léger, marge élevée.",
+ preuve="Amazon.fr : nombreux modèles chauffants 27,99-32,99 € (Alaoo, infrarouge), FITEM 69,95 €."),
+"Étireur de dos réglable": dict(
+ cible="Personnes assises toute la journée, sportifs, personnes au dos voûté.",
+ probleme="Bas du dos bloqué, mauvaise posture, douleurs qui reviennent.",
+ idee="Je veux permettre à ceux qui ont le dos bloqué de l'étirer en 5 minutes chez eux, tous les jours.",
+ economique="Une séance d'ostéopathe coûte environ 50-70 € ; le produit coûte moins de 1 € à fabriquer.",
+ waw="La vidéo « le dos qui craque » et l'avant/après de la posture.",
+ unique="Coloris et logo à la marque, guide d'exercices.",
+ benefice_evident="Oui : « on s'allonge, le dos s'étire ».",
+ visualise="Oui : pubs avant/après posture, TikTok.",
+ invest_30k="Oui : marge très élevée, vendu chez Decathlon et Amazon.",
+ preuve="Decathlon : Endurance 20,50 €, InnovaGoods 23,90 €, Gorilla Sports 29,99 € ; Amazon.fr : SSTANGLU 34,38 €."),
+"Coussin d'équilibre gonflable": dict(
+ cible="Personnes qui font du Pilates ou du renforcement à la maison, sportifs en rééducation (chevilles, genoux).",
+ probleme="Chevilles fragiles, mauvais équilibre, gainage qui stagne.",
+ idee="Je veux permettre à ceux qui s'entraînent chez eux de renforcer leur équilibre et leurs chevilles avec un seul accessoire.",
+ economique="Remplace des séances de rééducation ; sert aussi de coussin d'assise actif au bureau.",
+ waw="Les exercices instables en vidéo, coloris pastel.",
+ unique="Coloris et logo à la marque, pompe incluse.",
+ benefice_evident="Oui : « instable = plus efficace ».",
+ visualise="Oui : se vend en pack avec le tapis, le kit Pilates et les poids.",
+ invest_30k="Plutôt oui : excellent en complément de la gamme sport.",
+ preuve="Decathlon : Gorilla Sports 26,99 €, Neolymp 31,99 €, Rovera 17,50 € ; Amazon Basics 19,88 €."),
+})
