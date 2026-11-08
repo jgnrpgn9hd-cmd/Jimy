@@ -26,37 +26,36 @@ for k, row in enumerate(rows):
     ws[f"M{r}"].value = round(revente - cout, 2)
     ws[f"B{r}"].alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
     c = ws[f"C{r}"]
-    c.value = lien  # adresse complète : cliquable ou copiable sur téléphone
+    c.value = "Voir le produit"  # adresse complète dans l'onglet Arguments coach
     c.hyperlink = lien
-    f = copy(c.font); c.font = Font(name=f.name, size=7, color="0563C1", underline="single")
+    f = copy(c.font); c.font = Font(name=f.name, size=9, color="2F5597")
     c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
     ws.row_dimensions[r].height = 60
     if ws[f"B{r}"].fill.fgColor.rgb not in (None, "00000000"):
         ws[f"B{r}"].fill = PatternFill(fill_type=None)  # surlignage vert d'exemple du modèle
 
-ws.column_dimensions["C"].width = 40
 a = wb.create_sheet("Arguments coach")
 from openpyxl.styles import PatternFill, Border, Side
-VIOLET = PatternFill("solid", fgColor="7030A0"); GRIS = PatternFill("solid", fgColor="F2F2F2")
-fin = Side(style="thin", color="BFBFBF"); BORD = Border(left=fin, right=fin, top=fin, bottom=fin)
+VIOLET = PatternFill("solid", fgColor="2B2B2B"); GRIS = PatternFill("solid", fgColor="F7F5F2")
+fin = Side(style="thin", color="E3DED7"); BORD = Border(bottom=fin)
 a["A1"] = "Mes 10 idées de business — pourquoi chaque produit"
-a["A1"].font = Font(name="Arial", bold=True, size=14, color="7030A0")
+a["A1"].font = Font(name="Arial", bold=True, size=16, color="2B2B2B")
 a["A2"] = "Coût = prix Alibaba × 0,86. Prix de revente vérifiés sur les sites français. Marge sans livraison ni pub."
-a["A2"].font = Font(name="Arial", italic=True, size=9, color="595959")
-for j, t in enumerate(["N°", "Produit", "Niche", "Coût", "Revente", "Marge", "Problème, solution, prix en France, fournisseur", "Fiche Alibaba"], 1):
-    c = a.cell(4, j, t); c.font = Font(name="Arial", bold=True, color="FFFFFF"); c.fill = VIOLET
+a["A2"].font = Font(name="Arial", size=9, color="8C8279")
+for j, t in enumerate(["N°", "Produit", "Niche", "Coût", "Revente", "Marge", "Problème, solution, prix en France, fournisseur", "Lien Alibaba (à copier)"], 1):
+    c = a.cell(4, j, t); c.font = Font(name="Arial", bold=True, size=9, color="FFFFFF"); c.fill = VIOLET
     c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True); c.border = BORD
 for k, row in enumerate(rows):
     r = 5 + k
     niche = row[0].split(" — Niche : ")[1] if " — Niche : " in row[0] else ""
     vals = [k + 1, row[12], niche[:1].upper() + niche[1:], row[8], row[10], round(row[10] - row[8], 2), row[11], row[1]]
     for j, v in enumerate(vals, 1):
-        c = a.cell(r, j, v); c.font = Font(name="Arial", size=10, bold=(j in (2, 6))); c.border = BORD
+        c = a.cell(r, j, v); c.font = Font(name="Arial", size=9, bold=(j in (2, 6)), color="2B2B2B"); c.border = BORD
         c.alignment = Alignment(horizontal="center" if j in (1, 4, 5, 6, 8) else "left", vertical="center", wrap_text=True)
         if k % 2: c.fill = GRIS
         if j in (4, 5, 6): c.number_format = '#,##0.00 "€"'
-    a.cell(r, 8).hyperlink = row[1]; a.cell(r, 8).font = Font(name="Arial", size=8, color="0563C1", underline="single")
-    a.row_dimensions[r].height = 105
+    a.cell(r, 8).hyperlink = row[1]; a.cell(r, 8).font = Font(name="Arial", size=8, color="2F5597")
+    a.row_dimensions[r].height = 95
 for col, w in zip("ABCDEFGH", [5, 26, 20, 10, 10, 10, 85, 45]):
     a.column_dimensions[col].width = w
 a.row_dimensions[4].height = 30; a.freeze_panes = "C5"
