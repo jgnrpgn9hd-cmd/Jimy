@@ -18,7 +18,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Pas de couteaux. « Pas de vêtements » au départ, mais il a ensuite donné l'ensemble de sport pastel comme exemple → gardé, à confirmer avec lui.
 - S'inspirer de la boutique de sa coach (NOXYA — confirmé par Jairo : instagram.com/noxya.france ; site noxya.com : récupération, oreiller ergonomique, rituel oreiller + parfum + masque) **sans la copier** : pas d'oreiller, masque, parfum ni bouchons d'oreille.
 
-## Les 10 produits actuels — 10 niches, produits de boutiques dropshipping, problème clair
+## Les 10 produits actuels — 10 niches, inspirés des boutiques dropshipping (Warmly Decor…), problème clair
 | # | Niche | Produit | ID Alibaba | Coût € | Revente € | Marge € |
 |---|---|---|---|---|---|---|
 | 1 | sport à la maison | Kit barre Pilates 13 pièces + élastiques + programme | 1601484459815 | 6,49 | 34,90 | 28,41 |
@@ -29,8 +29,8 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 | 6 | hygiène dentaire | Hydropulseur sans fil rechargeable, étanche IPX7 | 1601060619298 | 8,16 | 32,90 | 24,74 |
 | 7 | allergies | Aspirateur anti-acariens UV sans fil pour lit et canapé | 1601450111395 | 8,60 | 39,90 | 31,30 |
 | 8 | cuisine | Blender portable rechargeable USB (smoothies, jus) | 1601242714165 | 5,42 | 26,90 | 21,48 |
-| 9 | ménage | Brosse de nettoyage électrique sans fil, manche long + 3 têtes | 1601806545743 | 6,19 | 27,90 | 21,71 |
-| 10 | santé / suivi du poids | Balance connectée impédancemètre Bluetooth (appli Fitdays) | 1600509123908 | 5,15 | 25,90 | 20,75 |
+| 9 | éclairage sans travaux | Applique murale LED sans fil rechargeable, aimantée, rotation 360° + télécommande | 11000013900976 | 6,36 | 29,90 | 23,54 |
+| 10 | déco et ambiance | Lampe de table sans fil rechargeable, style champignon, tactile | 1601698699353 | 5,68 | 29,90 | 24,22 |
 
 ## Modèle officiel Scutify
 - Modèle vierge : `modele_scutify_vierge.xlsx`. Rempli par `remplir_modele.py` → `Support Scutify S01_Tableau recherche 10 idées de business.xlsx` (formules gardées, recalculées par LibreOffice pour l'affichage téléphone). Produits dans `produits.py`.
@@ -48,5 +48,6 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Marge < 20 € à prix honnête : chaussettes antidérapantes, gourde motivation, rouleau de massage, fontaine à chat, bouchons d'oreille.
 
 ## En attente
+- Boutiques aimées par Jairo : Warmly Decor (préférée), Sage & Sill, Articture, Triangl. Univers déco / maison. Pot auto-arrosant (France 34,90 €) : pas de fiche fournisseur trouvée. Lampe de croissance : France 10-30 €, marge trop faible.
 - Jairo vérifie sur son téléphone les fiches des lignes 2, 3, 5, 6, 7, 8, 9, 10 (prix, stock, minimum). Ligne 7 : prix petite quantité inconnu, coût compté à 10 $.
 - Lignes 8, 9, 10 (blender, brosse électrique, balance) : produits gagnants en dropshipping mais aussi vendus en magasin. À remplacer si Jairo trouve mieux ; pistes testées qui ne passent pas : posture, anti-ronflement, séchoir chaussures, nettoyeur ultrasons, planche titane, défroisseur, coussin gel (pas de fiche), sacs sous vide, purificateur fruits, thermomètre cuisson sans fil (pas de prix fournisseur fiable), nettoyeur vapeur à main (coût > 15 €). Piste possible : station de charge 3-en-1 pliable (France 25-40 €, fournisseur ~7,50 $) mais surtout pour Apple et fiche exacte non trouvée.
