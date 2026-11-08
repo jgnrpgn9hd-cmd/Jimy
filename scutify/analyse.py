@@ -252,3 +252,28 @@ A.update({
  invest_30k="Plutôt oui : excellent en complément de la gamme sport.",
  preuve="Decathlon : Gorilla Sports 26,99 €, Neolymp 31,99 €, Rovera 17,50 € ; Amazon Basics 19,88 €."),
 })
+
+A.update({
+"Pack d'élastiques de musculation": dict(
+ cible="Débutants et sportifs qui veulent se muscler chez eux, fans de Tibo InShape, personnes qui veulent réussir leurs premières tractions.",
+ probleme="Pas de place ni de budget pour des haltères ou une salle ; tractions impossibles au début.",
+ idee="Je veux permettre à ceux qui s'entraînent chez eux de travailler tout le corps avec un pack d'élastiques qui tient dans un tiroir.",
+ economique="Remplace des haltères (50-150 €) et un abonnement en salle (environ 500 €/an).",
+ waw="Les tractions assistées et les exercices complets filmés dans un salon.",
+ unique="Logo imprimé, coloris de la marque, programme offert.",
+ benefice_evident="Oui : « une salle de sport dans un tiroir ».",
+ visualise="Oui : c'est la meilleure vente de la boutique de Tibo InShape.",
+ invest_30k="Oui : demande prouvée, coût très bas, léger à envoyer.",
+ preuve="Tibo InShape (TeamShape) : élastique 13 €, pack 29,90 € ; Decathlon : lot de 3 à 19,99-25,99 €."),
+"Barre de traction de porte": dict(
+ cible="Hommes et femmes qui veulent se muscler le haut du corps à la maison.",
+ probleme="Impossible de travailler le dos et les bras sans matériel ; on ne veut pas percer les murs.",
+ idee="Je veux permettre à ceux qui s'entraînent chez eux de faire des tractions dans n'importe quelle porte, sans vis ni travaux.",
+ economique="Remplace un abonnement en salle (environ 500 €/an).",
+ waw="La barre posée en 10 secondes dans une porte, puis des tractions.",
+ unique="Poignées et logo à la marque.",
+ benefice_evident="Oui : « des tractions à la maison sans percer ».",
+ visualise="Oui : recommandée par Tibo InShape, pubs avant/après.",
+ invest_30k="À confirmer : très demandée, mais longue et lourde (livraison chère), ce que le support Scutify conseille d'éviter.",
+ preuve="Decathlon : 29,99 € (70 cm), 34,99 € (100 cm), 39,99 € (multifonction) ; recommandée par Tibo InShape."),
+})
