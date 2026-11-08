@@ -48,6 +48,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Marge < 20 € à prix honnête : chaussettes antidérapantes, gourde motivation, rouleau de massage, fontaine à chat, bouchons d'oreille.
 
 ## En attente
+- Règle ajoutée par Jairo : des produits à plus de 50 € sont acceptés en « 2e produit » (upsell). Onglet « 2e produits » (upsells.py) : mini reformer pliable (69,90 €, coût 17,10 €), sangles de suspension (54,90 €, coût 34,40 €). Les 10 idées principales restent sous 50 €.
 - Inspiration Tibo InShape (tiboinshape.com, marque TeamShape : élastiques, élastiques à poignées, sangles de suspension, pack tapis/corde/élastique, rouleau). Ajoutés : pack d'élastiques, barre de traction (note 7,5, volumineuse). Retirés : bouillotte, masseur nuque-épaules. Écartées : sangles de suspension (Decathlon 59,99 €, pas de fiche < 15 €).
 - Lignes 5, 6, 10 remplacées (demande de Jairo) : ventouse électrique, étireur de dos, coussin d'équilibre. Écartés : rouleau vibrant (France ≥ 89 €), hula hoop intelligent (France 41-46 € mais pas de fiche Alibaba avec prix).
 - Bruit blanc remplacé par genouillère chauffante (Wenzhou Huifan 11 $ dès 100). Écartés : masseur de pieds 3-en-1 (Amazon dès 19,99 €), ceinture lombaire chauffante (fournisseur 18-22 $).

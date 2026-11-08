@@ -84,6 +84,32 @@ for col, w in zip("ABCDEFGHIJKL", [5, 22, 32, 26, 30, 38, 34, 26, 22, 26, 28, 30
     v.column_dimensions[col].width = w
 v.row_dimensions[4].height = 42; v.freeze_panes = "C5"
 
+
+# Onglet « 2e produits » : produits complémentaires à plus de 50 € (upsell), hors des 10 idées principales
+from upsells import U
+u = wb.create_sheet("2e produits")
+u["A1"] = "2e produits (upsell) — proposés après le produit principal"
+u["A1"].font = Font(name="Arial", bold=True, size=16, color="2B2B2B")
+u["A2"] = "Prix de vente au-dessus de 50 € autorisé pour ces produits complémentaires : ils augmentent le panier moyen. Coût = prix Alibaba × 0,86."
+u["A2"].font = Font(name="Arial", size=9, color="8C8279")
+hu = ["Produit", "Se vend avec", "Problème", "Preuve prix France", "Prix fournisseur", "Coût", "Revente", "Marge", "Infos fournisseur", "Lien Alibaba (à copier)"]
+for j, t in enumerate(hu, 1):
+    c = u.cell(4, j, t); c.font = Font(name="Arial", bold=True, size=9, color="FFFFFF"); c.fill = VIOLET
+    c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True); c.border = BORD
+for k, (nom, avec, pb, preuve, lien, usd, cout, rev, info) in enumerate(U):
+    r = 5 + k
+    vals = [nom, avec, pb, preuve, f"{usd:.2f} $".replace(".", ","), cout, rev, round(rev - cout, 2), info, lien]
+    for j, val in enumerate(vals, 1):
+        c = u.cell(r, j, val); c.font = Font(name="Arial", size=9, bold=(j in (1, 8)), color="2B2B2B"); c.border = BORD
+        c.alignment = Alignment(horizontal="center" if j in (5, 6, 7, 8) else "left", vertical="top", wrap_text=True)
+        if j in (6, 7, 8): c.number_format = '#,##0.00 "€"'
+        if k % 2: c.fill = GRIS
+    u.cell(r, 10).hyperlink = lien; u.cell(r, 10).font = Font(name="Arial", size=8, color="2F5597")
+    u.row_dimensions[r].height = 90
+for col, w in zip("ABCDEFGHIJ", [28, 26, 40, 34, 12, 10, 10, 10, 30, 45]):
+    u.column_dimensions[col].width = w
+u.row_dimensions[4].height = 30
+
 with tempfile.TemporaryDirectory() as t:
     brut = os.path.join(t, "brut.xlsx"); wb.save(brut)
     # Recalcul par LibreOffice : enregistre les résultats des formules dans le fichier.
