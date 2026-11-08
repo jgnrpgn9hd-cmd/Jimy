@@ -18,19 +18,19 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Pas de couteaux. « Pas de vêtements » au départ, mais il a ensuite donné l'ensemble de sport pastel comme exemple → gardé, à confirmer avec lui.
 - S'inspirer de la boutique de sa coach (NOXYA — confirmé par Jairo : instagram.com/noxya.france ; site noxya.com : récupération, oreiller ergonomique, rituel oreiller + parfum + masque) **sans la copier** : pas d'oreiller, masque, parfum ni bouchons d'oreille.
 
-## Les 10 produits actuels — 10 niches, inspirés des boutiques dropshipping (Warmly Decor…), problème clair
+## Les 10 produits actuels — univers maison design (choix de Jairo), inspiré de Warmly Decor
 | # | Niche | Produit | ID Alibaba | Coût € | Revente € | Marge € |
 |---|---|---|---|---|---|---|
-| 1 | sport à la maison | Kit barre Pilates 13 pièces + élastiques + programme | 1601484459815 | 6,49 | 34,90 | 28,41 |
-| 2 | douleurs de nuque | Masseur cervical électrique sans fil, impulsions + chaleur, 10 modes | 1600806316694 | 8,17 | 34,90 | 26,73 |
-| 3 | soin du visage | Aspirateur à points noirs rechargeable, plusieurs embouts | 1600456305985 | 7,65 | 32,90 | 25,25 |
-| 4 | salle de bain | Pommeau de douche anticalcaire filtre vitamine C | 1600072015451 | 1,20 | 24,90 | 23,70 |
-| 5 | sommeil | Machine à bruit blanc portable, veilleuse + minuterie (adultes et enfants) | 1600851553560 | 3,44 | 24,90 | 21,46 |
-| 6 | hygiène dentaire | Hydropulseur sans fil rechargeable, étanche IPX7 | 1601060619298 | 8,16 | 32,90 | 24,74 |
-| 7 | allergies | Aspirateur anti-acariens UV sans fil pour lit et canapé | 1601450111395 | 8,60 | 39,90 | 31,30 |
-| 8 | cuisine | Blender portable rechargeable USB (smoothies, jus) | 1601242714165 | 5,42 | 26,90 | 21,48 |
-| 9 | éclairage sans travaux | Applique murale LED sans fil rechargeable, aimantée, rotation 360° + télécommande | 11000013900976 | 6,36 | 29,90 | 23,54 |
-| 10 | déco et ambiance | Lampe de table sans fil rechargeable, style champignon, tactile | 1601698699353 | 5,68 | 29,90 | 24,22 |
+| 1 | sport à la maison | Kit Pilates barre + élastiques | 1601484459815 | 6,49 | 34,90 | 28,41 |
+| 2 | déco et ambiance | Lampe de table sans fil | 1601698699353 | 5,68 | 29,90 | 24,22 |
+| 3 | éclairage sans travaux | Applique murale sans fil | 11000013900976 | 6,36 | 29,90 | 23,54 |
+| 4 | salon et câbles | Boîte cache-multiprise en bois | 1600399341648 | 4,30 | 26,90 | 22,60 |
+| 5 | café et bureau | Chauffe-tasse effet bois | 1600179675580 | 3,09 | 24,90 | 21,81 |
+| 6 | salle de bain | Pommeau de douche filtrant vitamine C | 1600072015451 | 1,20 | 24,90 | 23,70 |
+| 7 | hygiène dentaire | Hydropulseur sans fil | 1601060619298 | 8,16 | 32,90 | 24,74 |
+| 8 | sommeil | Machine à bruit blanc | 1600851553560 | 3,44 | 24,90 | 21,46 |
+| 9 | allergies | Aspirateur anti-acariens UV | 1601450111395 | 8,60 | 39,90 | 31,30 |
+| 10 | cuisine | Blender portable rechargeable | 1601242714165 | 5,42 | 26,90 | 21,48 |
 
 ## Modèle officiel Scutify
 - Modèle vierge : `modele_scutify_vierge.xlsx`. Rempli par `remplir_modele.py` → `Support Scutify S01_Tableau recherche 10 idées de business.xlsx` (formules gardées, recalculées par LibreOffice pour l'affichage téléphone). Produits dans `produits.py`.
@@ -48,6 +48,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Marge < 20 € à prix honnête : chaussettes antidérapantes, gourde motivation, rouleau de massage, fontaine à chat, bouchons d'oreille.
 
 ## En attente
+- Jairo trouve que les produits « font Temu / chinois ». Il a choisi l'univers « maison design » (bois, céramique, verre, couleurs neutres). Produits encore trop « gadget » à remplacer : bruit blanc, hydropulseur, anti-acariens, blender. Idées design validées en prix France mais sans fiche Alibaba trouvée : pot auto-arrosant céramique (34,90 €), porte-clés mural bois aimanté (20-37 €), applique murale en bois (30-75 €), moulins électriques effet bois (30-57 €), tapis de bain en pierre (15-25 €, lourd). Pont de baignoire bambou : MOQ 500.
 - Boutiques aimées par Jairo : Warmly Decor (préférée), Sage & Sill, Articture, Triangl. Univers déco / maison. Pot auto-arrosant (France 34,90 €) : pas de fiche fournisseur trouvée. Lampe de croissance : France 10-30 €, marge trop faible.
 - Jairo vérifie sur son téléphone les fiches des lignes 2, 3, 5, 6, 7, 8, 9, 10 (prix, stock, minimum). Ligne 7 : prix petite quantité inconnu, coût compté à 10 $.
 - Lignes 8, 9, 10 (blender, brosse électrique, balance) : produits gagnants en dropshipping mais aussi vendus en magasin. À remplacer si Jairo trouve mieux ; pistes testées qui ne passent pas : posture, anti-ronflement, séchoir chaussures, nettoyeur ultrasons, planche titane, défroisseur, coussin gel (pas de fiche), sacs sous vide, purificateur fruits, thermomètre cuisson sans fil (pas de prix fournisseur fiable), nettoyeur vapeur à main (coût > 15 €). Piste possible : station de charge 3-en-1 pliable (France 25-40 €, fournisseur ~7,50 $) mais surtout pour Apple et fiche exacte non trouvée.
