@@ -18,18 +18,18 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Pas de couteaux. « Pas de vêtements » au départ, mais il a ensuite donné l'ensemble de sport pastel comme exemple → gardé, à confirmer avec lui.
 - S'inspirer de la boutique de sa coach (NOXYA — confirmé par Jairo : instagram.com/noxya.france ; site noxya.com : récupération, oreiller ergonomique, rituel oreiller + parfum + masque) **sans la copier** : pas d'oreiller, masque, parfum ni bouchons d'oreille.
 
-## Les 10 produits actuels — petits objets cosy et modernes qui règlent un problème (inspiré Bonsoirs, Warmly Decor)
+## Les 10 produits actuels — problème important + effet waw (liste validée par Jairo)
 | # | Niche | Produit | ID Alibaba | Coût € | Revente € | Marge € |
 |---|---|---|---|---|---|---|
-| 1 | salon et câbles | Boîte cache-multiprise en bois | 1600399341648 | 4,30 | 26,90 | 22,60 |
-| 2 | déco et ambiance | Lampe de table sans fil | 1601698699353 | 5,68 | 29,90 | 24,22 |
-| 3 | éclairage sans travaux | Applique murale sans fil | 11000013900976 | 6,36 | 29,90 | 23,54 |
-| 4 | bureau, confort et protection | Sous-main en feutre | 1601004411759 | 1,54 | 24,90 | 23,36 |
-| 5 | art de la table (linge de maison) | Serviettes de table en lin lavé (×4) | 1601235297580 | 8,60 | 34,90 | 26,30 |
-| 6 | douleurs et confort (cosy) | Bouillotte aux noyaux de cerise | 62496559860 | 3,44 | 24,90 | 21,46 |
-| 7 | entrée et table de nuit | Station d'accueil en bois | 1601015112609 | 4,77 | 27,90 | 23,13 |
-| 8 | café et thé (cosy) | Chauffe-tasse effet bois | 1600179675580 | 3,09 | 24,90 | 21,81 |
-| 9 | salon et chambre (linge de maison) | Plaid en gaze de coton | 1601074754482 | 4,55 | 39,90 | 35,35 |
+| 1 | allergies | Aspirateur anti-acariens UV | 1601450111395 | 8,60 | 39,90 | 31,30 |
+| 2 | salle de bain | Pommeau de douche filtrant vitamine C | 1600072015451 | 1,20 | 24,90 | 23,70 |
+| 3 | hygiène dentaire | Hydropulseur sans fil | 1601060619298 | 8,16 | 32,90 | 24,74 |
+| 4 | douleurs de nuque | Masseur cervical sans fil chauffant | 1600806316694 | 8,17 | 34,90 | 26,73 |
+| 5 | douleurs de ventre et de règles | Bouillotte aux noyaux de cerise | 62496559860 | 3,44 | 24,90 | 21,46 |
+| 6 | sommeil | Machine à bruit blanc | 1600851553560 | 3,44 | 24,90 | 21,46 |
+| 7 | télétravail, fatigue des yeux | Barre lumineuse d'écran | 1600751202201 | 8,25 | 34,90 | 26,65 |
+| 8 | éclairage sans travaux | Applique murale sans fil | 11000013900976 | 6,36 | 29,90 | 23,54 |
+| 9 | déco et ambiance | Lampe de table sans fil | 1601698699353 | 5,68 | 29,90 | 24,22 |
 | 10 | télétravail, posture et bureau rangé | Rehausseur d'écran en bambou | 62509087328 | 4,73 | 29,90 | 25,17 |
 
 ## Modèle officiel Scutify
@@ -48,6 +48,7 @@ Colle ce fichier dans Claude Code (ou dépose-le dans le dossier du projet) pour
 - Marge < 20 € à prix honnête : chaussettes antidérapantes, gourde motivation, rouleau de massage, fontaine à chat, bouchons d'oreille.
 
 ## En attente
+- DERNIÈRE DEMANDE (validée) : « vraie problématique importante + effet waw ». Liste de 10 reconstruite avec uniquement des fiches déjà vérifiées. Pistes luxe testées sans succès : sous-verres travertin (pas de fiche), carafe de chevet (marge), plateau travertin (fournisseur 17,40 $).
 - Demande : « petits objets qui répondent à une problématique, thème cosy et moderne » (capture Bonsoirs). Barre lumineuse et organisateur de clés remplacés par chauffe-tasse et bouillotte noyaux de cerise. Pistes cosy sans fiche exploitable : lampe chauffe-bougie (France 25-60 €, fournisseurs 7-12 $ mais fiche avec prix = 11,96 $ MOQ 600 ; attention proche du parfum), plateau d'accoudoir bois (France 28-40 €). Bougies LED : France ~20 € le lot, marge trop faible. « 12h home » introuvable.
 - Inspiration Bonsoirs (bonsoirs.com, linge de maison français) : plaid gaze de coton et serviettes de table lin lavé à la place du chauffe-tasse et du repose-pieds. Serviettes de bain gaufrées écartées (France 14-31 €). Oreiller/taies exclus (coach).
 - Jairo veut des produits « image de marque » (type Oakywood, Orbitkey, Woodcessories). Kit Pilates et pommeau remplacés par sous-main feutre et organisateur de clés métal. Écartés : support casque bois (fournisseur 13-18 $), housse PC feutre (pas de prix fournisseur). Cache-multiprise mis en ligne 1 pour ne pas profiter de l'erreur de formule de la ligne 1.
