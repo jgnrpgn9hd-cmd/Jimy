@@ -110,3 +110,6 @@ Tous les produits sont au maximum possible. IPL passé en 2e produit (59,90 €)
 ## Mise à jour : produits simples « dont tout le monde a besoin + quelque chose en plus » (logique de la coach, sans copier oreillers ni bouchons)
 1 Brosse vapeur animaux · 2 Kit Pilates · 3 Pommeau filtrant · 4 Coussin d'assise coccyx · 5 Parapluie inversé · 6 Brosse à dents sonique ·
 7 Bouillotte noyaux de cerise · 8 Chauffe-tasse · 9 Applique aimantée · 10 Aspirateur anti-acariens. Liste précédente : produits_v7.py.
+
+## Mise à jour : 1 et 4-10 refaits, univers bien-être à la maison (comme Pilates et pommeau). Liste précédente : produits_v8.py
+1 Hydropulseur · 2 Kit Pilates · 3 Pommeau · 4 Tapis d'acupression · 5 Diffuseur flamme · 6 Gourde motivante 2 L · 7 Lampe de luminothérapie · 8 Blender portable · 9 Masseur cervical · 10 Plaid gaze de coton.
