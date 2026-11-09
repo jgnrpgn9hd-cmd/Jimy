@@ -549,3 +549,11 @@ A["T-shirt sport mixte anti-odeur"] = _B("Hommes et femmes qui font du sport : r
  "Coupe mixte, coloris et logo à la marque.", "France : Odlo F-Dry 21,99-44 €, Champion 30 €, Montura 38,50-55 €, Brooks 50 €.",
  "⭐⭐⭐ Vêtement mixte = deux fois plus de clients ; vend la marque.",
  "Plutôt oui : marché énorme, mais stock par taille ; faire confirmer le traitement argent.")
+
+A["Lunettes de sport polarisées"] = _B("Coureurs, cyclistes, joueurs de padel et de beach-volley, hommes et femmes.",
+ "Soleil et reflets qui éblouissent ; lunettes classiques qui glissent avec la sueur et laissent passer vent et poussière.",
+ "Je veux permettre aux sportifs de voir clair en plein soleil avec des lunettes légères qui tiennent et donnent un look d'athlète.",
+ "34,90 € contre 60-180 € pour Cébé, Rudy Project ou 100%.", "Le look « athlète » des verres miroir colorés en photo.",
+ "Coloris de verres et logo sur la branche à ta marque.", "France : Decathlon dès 22 €, Cébé Terra Polar 59,76 €, Surf Monkey 64,95 €.",
+ "⭐⭐⭐ Très Instagram, mixte, léger ; se vend en plusieurs coloris.",
+ "Plutôt oui : léger et très visuel, mais minimum 300 paires.")

@@ -133,18 +133,19 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   "Problème : courbatures après le sport. Waw : le muscle qui ondule à l'écran. Prix en France : sans marque 30-50 €, marques 65-190 € → 32,90 € honnête. Fournisseur moins cher que l'ancien (BISD "
   'LC001) : 6,64 $ dès 2 pièces, indiqué en stock. Marge 27,19 €, plus de 3 fois le coût.',
   'Mini pistolet de massage'),
- ('Gourde motivante 2 L avec repères horaires et paille — Niche : hydratation du sportif',
-  'https://www.alibaba.com/product-detail/Wholesale-64oz-2-Liter-Large-Capacity_1600426455609.html',
+ ('Lunettes de sport polarisées enveloppantes, verres miroir, plusieurs coloris — Niche : running, vélo et sport en extérieur',
+  'https://www.alibaba.com/product-detail/Yijia-Optical-Cycle-glasses-men-tr90_1600619553166.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  1.29,
+  4.12,
   8,
-  22.9,
-  "Produit simple dont tout le monde a besoin (une gourde) avec quelque chose en plus : les repères d'heure qui disent combien boire (« 10 h : continue ! »). Problème : on oublie de boire, fatigue, "
-  'maux de tête, peau terne ; on achète des bouteilles en plastique. Waouw : la gourde pastel dégradée, star des vidéos « what I drink in a day ». Économique : fini les bouteilles (environ 150 '
-  '€/an). Prix en France : Kaufland 16,50-21,50 € (+ livraison), Extralink 17,89 € → 22,90 €. Fournisseur : 1,50 $ dès 2 pièces, logo et couleurs personnalisables.',
-  'Gourde motivante 2 L')]
+  34.9,
+  'Accessoire de sport mixte avec un vrai plus : verres polarisés miroir qui enveloppent le visage, monture TR90 ultra-légère qui ne glisse pas avec la sueur, plusieurs coloris de verres. Problème : '
+  'soleil et reflets qui éblouissent pendant la course ou le vélo, lunettes classiques qui tombent et laissent passer le vent, la poussière et les insectes. Waouw : le look « athlète » des photos de '
+  'running et de plage (verres miroir bleus, argent, rouges). Prix en France : entrée de gamme Decathlon dès 22 €, Cébé Terra Polar 59,76 €, Surf Monkey 64,95 € → 34,90 €. Fournisseur Yijia Optical '
+  ': 4,79 $ (300-2 999 pièces). Attention : minimum 300 paires ; style inspiré des grandes marques, mais sans reprendre leur logo ni leur nom.',
+  'Lunettes de sport polarisées')]
