@@ -99,3 +99,7 @@ Gardés : 1 Aspirateur anti-acariens, 2 Kit Pilates, 3 Pommeau filtrant. Nouveau
 8 Détartreur dentaire ultrasons · 9 Brosse vapeur animaux · 10 Pistolet haute pression sans fil. Liste précédente : produits_v4.py.
 
 ## Contrôle avec le support PDF Scutify : pistolet haute pression retiré (trop lourd, le support dit d'éviter), remplacé par la lampe photo personnalisée (critère « Unique » + « Besoin / Passion »).
+
+## Mise à jour : autres niches (sommeil, alimentation…) — liste précédente : produits_v5.py
+1 Aspirateur anti-acariens · 2 Kit Pilates · 3 Pommeau filtrant · 4 Épilateur IPL · 5 Réveil lumière (sommeil) · 6 Boîte repas chauffante (repas au travail) ·
+7 Blender portable (alimentation saine) · 8 Masseur cervical (télétravail) · 9 Brosse vapeur (animaux) · 10 Lampe photo personnalisée (cadeau).

@@ -437,3 +437,23 @@ A.update({
  "Coffret et canon à mousse à la marque.", "N°3 TikTok Shop US (3e trimestre 2026) ; France 29,99-68,28 €.", "⭐⭐⭐ Best-seller prouvé ; plus lourd.",
  "À confirmer : très demandé, mais plus lourd à expédier."),
 })
+
+# ---------- Sommeil et alimentation ----------
+A.update({
+"Réveil lumière simulateur d'aube": _B("Tous ceux qui ont du mal à se lever, surtout l'hiver ; étudiants, travailleurs en horaires tôt.",
+ "Réveil dans le noir et en sursaut, fatigue toute la journée, déprime de l'hiver ; mauvais endormissement devant les écrans.",
+ "Je veux permettre à ceux qui détestent le réveil de se lever en douceur, avec la lumière d'un lever de soleil, même en plein hiver.",
+ "34,90 € contre 37,59-149 € pour Beurer et Philips.", "La chambre qui s'éclaire comme au lever du soleil.",
+ "Coloris et boîte à la marque.", "France : Beurer 37,59 €, Dreamegg 59,99 €, Philips 99-149 €.", "⭐⭐⭐ Problème quotidien, saison forte en hiver."),
+"Boîte repas chauffante": _B("Salariés, artisans, chauffeurs, étudiants qui mangent sur leur lieu de travail.",
+ "Pas de micro-ondes ou la queue devant ; manger dehors coûte 10-15 € par jour.",
+ "Je veux permettre aux travailleurs de manger chaud et fait maison partout, et d'économiser plus de 2 000 € par an.",
+ "Remboursée en 3 repas pris à l'extérieur.", "Le plat fumant ouvert au bureau ou dans la voiture.",
+ "Coloris et logo à la marque, sac isotherme assorti.", "France : 21,99-33,99 € (Amazon, Cdiscount).", "⭐⭐⭐ Critère économique très fort.",
+ "Plutôt oui : demande toute l'année, mais un peu volumineuse."),
+"Blender portable sans fil": _B("Sportifs, personnes au régime, actifs pressés, étudiants.",
+ "Pas le temps de manger sain, petit-déjeuner sauté, smoothies achetés à 5-7 €.",
+ "Je veux permettre aux personnes pressées de manger sain en 30 secondes, partout, sans prise.",
+ "Remboursé en moins de 6 smoothies achetés.", "Smoothie prêt en 30 secondes dans la gourde.",
+ "Coloris pastel à la marque, livret de recettes offert.", "France : H.Koenig 34,99 €, Ninja Blast 55,57 €, sans marque 28,95-59 €.", "⭐⭐⭐ Best-seller TikTok, très visuel."),
+})
