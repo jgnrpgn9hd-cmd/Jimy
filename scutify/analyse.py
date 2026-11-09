@@ -557,3 +557,18 @@ A["Lunettes de sport polarisées"] = _B("Coureurs, cyclistes, joueurs de padel e
  "Coloris de verres et logo sur la branche à ta marque.", "France : Decathlon dès 22 €, Cébé Terra Polar 59,76 €, Surf Monkey 64,95 €.",
  "⭐⭐⭐ Très Instagram, mixte, léger ; se vend en plusieurs coloris.",
  "Plutôt oui : léger et très visuel, mais minimum 300 paires.")
+
+A.update({
+"Brassière de sport dos nu": _B("Femmes de 18 à 40 ans qui font du Pilates, du yoga ou du fitness.",
+ "Brassières qui serrent, bougent, et qu'on n'ose pas porter seules.",
+ "Je veux permettre aux femmes de se sentir belles et soutenues pendant leur séance, avec un ensemble assorti.",
+ "29,90 € contre 40-50 € chez Gymshark.", "L'ensemble brassière + legging assorti en photo.",
+ "Coloris exclusifs et logo à la marque.", "France : Decathlon environ 15-30 €, Gymshark environ 40-50 €.", "⭐⭐⭐ Se vend avec le legging (ensemble).",
+ "Plutôt oui : très demandé, mais stock par taille."),
+"Tapis Pilates PU premium": _B("Pratiquantes de Pilates et de yoga qui veulent du matériel de studio.",
+ "Tapis en mousse qui glissent, s'abîment et font bas de gamme.",
+ "Je veux permettre aux passionnées de Pilates d'avoir chez elles le tapis des studios, à moitié prix.",
+ "49,90 € contre 85-140 € pour les tapis PU et caoutchouc de marque.", "Le tapis gravé au logo, l'adhérence des mains en vidéo.",
+ "Logo gravé, lignes d'alignement (à confirmer).", "France : 85-140 € (Decathlon marketplace, Achamana).", "⭐⭐⭐ Produit premium qui fait la marque.",
+ "Plutôt oui : fort panier, mais lourd (environ 2,5 kg)."),
+})

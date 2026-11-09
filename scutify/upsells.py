@@ -1,6 +1,15 @@
 # 2e produits (upsell, > 50 € autorisé), proposés après le produit principal.
 # (nom, se vend avec, problème, preuve prix France, lien Alibaba, prix fournisseur $, coût €, revente €, note)
-U = [('Mini reformer de Pilates pliable (planche + élastiques)',
+U = [('Pack Pilates complet : kit barre + élastiques, 3 bandes en tissu, poids en silicone',
+  'Kit Pilates (produit phare)',
+  "On veut tout le matériel du studio de Pilates d'un coup, assorti et aux couleurs de la marque.",
+  'Prix séparés dans la boutique : 34,90 + 24,90 + 27,90 = 87,70 € ; Pilatella et packs Pilates Amazon.fr 44-90 €.',
+  'https://www.alibaba.com/product-detail/13-Pcs-Home-Exercise-Starter-Kit_1601484459815.html',
+  15.88,
+  13.66,
+  59.9,
+  'Pack de 3 produits déjà dans la liste (coûts 6,49 + 2,14 + 5,03 €). Marge 46,24 €, plus de 3 fois le coût. Fait monter le panier moyen.'),
+ ('Mini reformer de Pilates pliable (planche + élastiques)',
   'Kit Pilates barre + élastiques',
   "Le kit Pilates ne suffit plus : on veut l'effet « reformer » des studios (cours à 30-40 € la séance) sans acheter une machine à 1 000 €.",
   'Amazon.fr : Pilatella mini reformer pliable 74,99-89,99 € (meilleures ventes Pilates).',

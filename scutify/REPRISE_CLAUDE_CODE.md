@@ -120,3 +120,5 @@ Tous les produits sont au maximum possible. IPL passé en 2e produit (59,90 €)
 ## Ligne 1 : écouteurs remplacés par un t-shirt de sport mixte anti-odeur (ions d'argent) — lien = t-shirt mixte séchage rapide, version argent à faire confirmer par le sourcing Scutify.
 
 ## Ligne 10 : gourde remplacée par des lunettes de sport polarisées enveloppantes (demande de Jairo, photo d'inspiration).
+
+## Améliorations : corde à sauter → brassière dos nu (short 2 en 1 écarté : pas de fiche fournisseur), tapis 8 mm → tapis Pilates PU premium, Pack Pilates complet (59,90 €) ajouté en 2e produit.

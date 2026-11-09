@@ -45,21 +45,21 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   "Gardé par toi, lien remplacé (l'ancien n'était plus en stock). Problème : eau calcaire, peau qui tire après la douche. Prix vérifié : 20-30 € en France. En stock, 1,39 $, 4,5/5. Récurrent : "
   'recharges.',
   'Pommeau de douche filtrant vitamine C'),
- ('Corde à sauter sans corde avec compteur digital et calories — Niche : cardio à la maison',
-  'https://www.alibaba.com/product-detail/Digital-Counter-Fitness-Equipment-Smart-Jump_1600833068147.html',
+ ('Brassière de sport dos nu, bretelles réglables, logo à la marque — Niche : vêtement de sport femme (Pilates, fitness)',
+  'https://www.alibaba.com/product-detail/Custom-Logo-Comfortable-Halter-Minimal-Deportes_1601437171151.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  2.3,
-  8,
-  24.9,
-  'Accessoire simple avec un plus : mode sans corde (boules lestées) et compteur de sauts et de calories. Problème : impossible de sauter à la corde dans un appartement (plafond bas, meubles, '
-  "voisins) et on ne sait pas ce qu'on a brûlé. Waouw : on saute dans le salon sans rien casser, l'écran compte tout. Prix en France : Decathlon 17-18,33 €, RENPHO 29,99 €, Onamaste 26,22 € → 24,90 "
-  '€. Fournisseur : 2,68 $ (2-19 pièces).',
-  'Corde à sauter sans corde'),
+  6.39,
+  9,
+  29.9,
+  "Vêtement avec un vrai plus : coupe dos nu élégante, bretelles réglables, maintien sans armatures ; s'assortit au legging pour un ensemble. Problème : brassières qui serrent, qui bougent, et qu'on "
+  "n'ose pas porter seules. Waouw : l'ensemble brassière + legging aux couleurs de la marque, très Instagram (photos de Pilates). Prix en France : Decathlon environ 15-30 €, Gymshark environ 40-50 € "
+  '→ 29,90 €. Fournisseur (Shantou) : 7,43 $ (2-49 pièces). Maintien moyen : idéal Pilates, yoga, fitness, pas la course. Stock par taille.',
+  'Brassière de sport dos nu'),
  ('Lot de 3 bandes élastiques en tissu pour fessiers (booty bands) — Niche : fitness et Pilates au féminin',
   'https://www.alibaba.com/product-detail/2020-New-Design-Custom-Logo-Set_62149771787.html',
   'OUI',
@@ -105,20 +105,22 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   "lestés en silicone, beaux, qui se portent pendant le Pilates, la marche ou le ménage. Économique : remplace un jeu d'haltères et l'abonnement en salle. Waw : coloris pastel très « Instagram ». "
   'Prix en France : Cdiscount 18,49 €, Amazon 26,09 €, GladiatorFit 32,90 € → 27,90 €. Fournisseur Xiamen Quadra : 5,85 $ la paire (minimum 50 paires), logo personnalisable.',
   'Poids silicone chevilles et poignets'),
- ('Tapis de sport TPE 8 mm double couche antidérapant — Niche : sport au sol (Pilates, yoga, abdos)',
-  'https://www.alibaba.com/product-detail/Tpe-Yoga-Mat-Custom-Logo-Exercise_1601223812663.html',
+ ('Tapis de Pilates et yoga premium en PU et caoutchouc naturel, logo gravé — Niche : Pilates et yoga au sol',
+  'https://www.alibaba.com/product-detail/Semi-Circular-Eco-Friendly-PU-Rubber_1601381638569.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  6.86,
+  11.17,
   5,
-  29.9,
-  "Problème : tapis qui glisse, genoux qui font mal. Solution : 8 mm d'amorti, double couche. Prix vérifié : 24,99-35,99 € en France. Lien vérifié en stock, 4,71-7,98 $. Encombrant : livraison plus "
-  'chère.',
-  'Tapis de sport épais 8 mm'),
+  49.9,
+  "Version haut de gamme du tapis : surface PU qui accroche même les mains moites, base en caoutchouc naturel qui ne glisse pas, logo gravé (option à partir de 0,20 $ par pièce). Lignes d'alignement "
+  "à faire graver avec le logo, à confirmer avec le fournisseur. Problème : tapis en mousse qui glissent, s'abîment et font « bas de gamme ». Waouw : le tapis des studios de Pilates, avec ta marque "
+  'gravée. Prix en France : tapis PU et caoutchouc 85-140 € (Decathlon marketplace, Achamana) → 49,90 €. Fournisseur : 12,99 $ (6-59 pièces). Attention : environ 2,5 kg, livraison plus chère. '
+  'Contient du latex (caoutchouc naturel) : le préciser.',
+  'Tapis Pilates PU premium'),
  ('Mini pistolet de massage 4 têtes, écran tactile — Niche : récupération après le sport',
   'https://www.alibaba.com/product-detail/Light-Mini-Massage-Gun-Lcd-Touch_1601094578732.html',
   'OUI',
