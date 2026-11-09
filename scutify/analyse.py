@@ -457,3 +457,30 @@ A.update({
  "Remboursé en moins de 6 smoothies achetés.", "Smoothie prêt en 30 secondes dans la gourde.",
  "Coloris pastel à la marque, livret de recettes offert.", "France : H.Koenig 34,99 €, Ninja Blast 55,57 €, sans marque 28,95-59 €.", "⭐⭐⭐ Best-seller TikTok, très visuel."),
 })
+
+# ---------- Produits simples « dont tout le monde a besoin, avec quelque chose en plus » ----------
+A.update({
+"Coussin d'assise ergonomique": _B("Télétravailleurs, salariés de bureau, chauffeurs, étudiants, jeunes mamans.",
+ "Mal au bas du dos, aux fesses et au coccyx après des heures assis.",
+ "Je veux permettre à ceux qui passent leurs journées assis de rester assis sans douleur, sur n'importe quelle chaise.",
+ "Moins de séances d'ostéo ou de kiné (50-70 € la séance) ; évite d'acheter une chaise ergonomique à 300 €.",
+ "La mousse qui reprend sa forme lentement ; « enfin assis sans douleur ».", "Housse et coloris à la marque.",
+ "France : Kaufland 25,99 €, ManoMano 32,34 €, Pearl 27,95-49,95 €.", "⭐⭐⭐ Tout le monde est assis, besoin quotidien.",
+ "Oui : léger (mousse compressée), besoin quotidien pour tous."),
+"Parapluie inversé anti-vent": _B("Tout le monde, surtout les citadins et les conducteurs.",
+ "Parapluie qui se retourne au vent ; voiture, sol et vêtements trempés quand on le referme.",
+ "Je veux permettre à ceux qui détestent la pluie de rester secs et de ne plus tremper leur voiture.",
+ "Un seul parapluie qui dure au lieu d'en racheter un à chaque coup de vent.", "On le referme à l'envers : la partie mouillée reste à l'intérieur.",
+ "Toile intérieure imprimée à la marque.", "Amazon.fr : 18,99-28,99 €.", "⭐⭐ Simple et malin, pic en automne-hiver."),
+"Brosse à dents sonique": _B("Tout le monde, des ados aux adultes.",
+ "Brossage trop rapide, plaque, taches, gencives qui saignent ; les brosses de marque coûtent 50-60 €.",
+ "Je veux permettre à chacun d'avoir des dents « comme après le dentiste » tous les jours, pour le prix d'une brosse classique.",
+ "24,90 € contre 47,99-59,99 € pour une Sonicare ; moins de soins dentaires.", "La sensation de propreté dès le 1er brossage.",
+ "Coloris (blanc, noir mat, rose) et étui à la marque ; abonnement têtes de rechange.",
+ "France : génériques 19,95 €, Philips Sonicare 47,99-59,99 €.", "⭐⭐⭐ Besoin universel, ventes récurrentes."),
+"Chauffe-tasse effet bois": _B("Télétravailleurs, parents, amateurs de café et de thé.",
+ "Café ou thé froid au bout de 10 minutes, gâché ou réchauffé plusieurs fois.",
+ "Je veux permettre aux amateurs de café de profiter de leur boisson chaude jusqu'à la dernière gorgée.",
+ "Moins de boisson gâchée ; 24,90 € contre 29,99 € (Sunne) et 70-107 € en bois massif.", "La tasse encore fumante une heure après.",
+ "Effet bois, logo gravé.", "France : 12-30 € (Sunne 29,99 €), bois massif 70-107 €.", "⭐⭐ Simple, joli en photo ; minimum 100 pièces."),
+})

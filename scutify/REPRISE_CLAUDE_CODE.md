@@ -106,3 +106,7 @@ Gardés : 1 Aspirateur anti-acariens, 2 Kit Pilates, 3 Pommeau filtrant. Nouveau
 
 ## Mise à jour : « que des 10/10 » — 10/10 impossible avec les formules du modèle (max 8,5 en lignes 2-10, 9,5 en ligne 1 ; colonne O ne donne 1 point que si le coût > 25 €).
 Tous les produits sont au maximum possible. IPL passé en 2e produit (59,90 €), boîte repas remplacée par l'applique aimantée, hydropulseur à la place de l'IPL, blender à 44,90 €. Liste précédente : produits_v6.py.
+
+## Mise à jour : produits simples « dont tout le monde a besoin + quelque chose en plus » (logique de la coach, sans copier oreillers ni bouchons)
+1 Brosse vapeur animaux · 2 Kit Pilates · 3 Pommeau filtrant · 4 Coussin d'assise coccyx · 5 Parapluie inversé · 6 Brosse à dents sonique ·
+7 Bouillotte noyaux de cerise · 8 Chauffe-tasse · 9 Applique aimantée · 10 Aspirateur anti-acariens. Liste précédente : produits_v7.py.
