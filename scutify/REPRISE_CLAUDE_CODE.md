@@ -116,3 +116,5 @@ Tous les produits sont au maximum possible. IPL passé en 2e produit (59,90 €)
 
 ## Mise à jour : marque sport et bien-être (accessoires running/Pilates/fitness + 1 legging). Liste précédente : produits_v9.py
 1 Écouteurs oreilles libres · 2 Kit Pilates · 3 Pommeau · 4 Corde sans corde · 5 Bandes en tissu · 6 Legging push-up · 7 Poids silicone · 8 Tapis 8 mm · 9 Mini pistolet · 10 Gourde 2 L.
+
+## Ligne 1 : écouteurs remplacés par un t-shirt de sport mixte anti-odeur (ions d'argent) — lien = t-shirt mixte séchage rapide, version argent à faire confirmer par le sourcing Scutify.

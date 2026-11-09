@@ -1,21 +1,22 @@
 # Marque sport et bien-être : accessoires (running, Pilates, fitness) + 1 vêtement, chacun avec un vrai plus.
 # Ligne 1 : livraison > 6 (formule différente du modèle en ligne 6).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
-rows=[('Écouteurs de sport oreilles libres (conduction osseuse), Bluetooth — Niche : running en sécurité',
-  'https://www.alibaba.com/product-detail/Open-Ear-Bone-Conduction-Headphones-Bluetooth_1600877154675.html',
+rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo à la marque — Niche : vêtement de sport mixte",
+  'https://www.alibaba.com/product-detail/Custom-logo-Unisex-100-Polyester-T_1601591533867.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  8.91,
+  6.24,
   9,
-  39.9,
-  "Accessoire running avec un vrai plus : les oreilles restent libres. Problème : avec des écouteurs classiques, on n'entend ni les voitures ni les vélos, et ils tombent en courant. Waouw : musique "
-  "ET bruits de la rue en même temps, rien dans l'oreille. Prix en France : génériques 39,99 € (Decathlon marketplace), Shokz OpenRun 137-199 € → 39,90 €. Fournisseur Guangzhou Langston : 10,36 $ "
-  '(10-99 pièces), 533 ventes, note 5/5.',
-  'Écouteurs sport oreilles libres'),
+  34.9,
+  "Vêtement mixte avec une vraie particularité : traité aux ions d'argent, il ne garde pas l'odeur de transpiration, même après plusieurs séances, et sèche en quelques minutes. Problème : t-shirts "
+  "de sport qui sentent mauvais même lavés, qui collent et restent mouillés. Waouw : le test « sentir le t-shirt après la séance » en vidéo, et le t-shirt qui sèche à vue d'œil. Prix en France : "
+  'Odlo F-Dry 21,99-44 €, Champion Athletic 30 €, Montura Slide 38,50-55 €, Brooks Luxe 50 € → 34,90 €. Fournisseur : t-shirt mixte séchage rapide, 4,80 $ (6-4 999 pièces), logo personnalisable ; '
+  "version ions d'argent chez Fuzhou Yinqu Clothing à 5,69-7,25 $ (minimum 50, coût calculé sur 7,25 $). À faire confirmer par l'équipe sourcing Scutify (traitement argent + certificat).",
+  'T-shirt sport mixte anti-odeur'),
  ('Kit barre Pilates 13 pièces + élastiques + programme — Niche : sport à la maison',
   'https://www.alibaba.com/product-detail/13-Pcs-Home-Exercise-Starter-Kit_1601484459815.html',
   'OUI',

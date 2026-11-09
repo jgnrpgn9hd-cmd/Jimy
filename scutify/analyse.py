@@ -540,3 +540,12 @@ A.update({
  "Coloris exclusifs et logo à la marque.", "France : Decathlon 38,99-45,99 €, Gymshark Lift Seamless 60 €.", "⭐⭐⭐ Énorme marché, image de marque forte.",
  "Plutôt oui : marché énorme, mais stock par taille et retours possibles."),
 })
+
+A["T-shirt sport mixte anti-odeur"] = _B("Hommes et femmes qui font du sport : running, salle, Pilates, padel.",
+ "T-shirts de sport qui sentent mauvais même lavés, qui collent et restent mouillés.",
+ "Je veux permettre aux sportifs de rester frais et sans odeur, de la séance au reste de la journée, avec un seul t-shirt.",
+ "34,90 € contre 38,50-55 € pour Montura ou Brooks ; on le lave moins souvent, il dure plus longtemps.",
+ "Le test « sentir le t-shirt après la séance » ; le t-shirt qui sèche à vue d'œil.",
+ "Coupe mixte, coloris et logo à la marque.", "France : Odlo F-Dry 21,99-44 €, Champion 30 €, Montura 38,50-55 €, Brooks 50 €.",
+ "⭐⭐⭐ Vêtement mixte = deux fois plus de clients ; vend la marque.",
+ "Plutôt oui : marché énorme, mais stock par taille ; faire confirmer le traitement argent.")
