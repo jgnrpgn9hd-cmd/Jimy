@@ -97,3 +97,5 @@ Gardés : 1 Aspirateur anti-acariens, 2 Kit Pilates, 3 Pommeau filtrant. Nouveau
 ## Mise à jour : « des vrais trucs » → lignes 4 à 10 = vrais best-sellers 2026 (TikTok Shop, Amazon)
 4 Épilateur IPL (49,90 €, note 7,5 car marge < 3× coût) · 5 Brosse soufflante une étape · 6 Masseur cuir chevelu étanche · 7 Appareil lifting microcourant ·
 8 Détartreur dentaire ultrasons · 9 Brosse vapeur animaux · 10 Pistolet haute pression sans fil. Liste précédente : produits_v4.py.
+
+## Contrôle avec le support PDF Scutify : pistolet haute pression retiré (trop lourd, le support dit d'éviter), remplacé par la lampe photo personnalisée (critère « Unique » + « Besoin / Passion »).

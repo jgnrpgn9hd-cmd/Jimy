@@ -127,18 +127,18 @@ rows=[('Aspirateur anti-acariens UV sans fil pour lit et canapé — Niche : all
   "Virale sur TikTok. Problème : poils partout sur le canapé et les vêtements, chat qui déteste la brosse. Waouw : la brume qui capte les poils, la boule de poils retirée d'un clic, l'animal qui "
   'adore. Prix en France : MCBOSON 21,99 €, FurryFusion 24,99 €, kooa 30,49 € (Zooplus) → 27,90 €. Fournisseur : 8 $ (1-999 pièces).',
   'Brosse vapeur pour animaux'),
- ('Pistolet nettoyeur haute pression sans fil, batterie + canon à mousse — Niche : voiture et extérieur',
-  'https://www.alibaba.com/product-detail/Portable-Cordless-Lithium-Battery-Long-Battery_1601622710810.html',
+ ('Lampe photo personnalisée gravée, socle en bois — Niche : cadeau personnalisé (amour, famille)',
+  'https://www.alibaba.com/product-detail/Personalized-custom-creative-made-engraved-luminous_1600684887832.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  6.45,
-  5,
-  39.9,
-  "N°3 des ventes TikTok Shop aux États-Unis (3e trimestre 2026). Problème : laver sa voiture coûte 10-20 € à la station à chaque fois, et un Kärcher est encombrant et a besoin d'une prise. Waouw : "
-  'la voiture couverte de mousse puis rincée, vidéo très satisfaisante. Prix en France : 29,99-68,28 € (Kaufland, ManoMano) → 39,90 €. Fournisseur : 7,50 $ (10-199). Attention : plus lourd, '
-  'livraison plus chère.',
-  'Pistolet haute pression sans fil')]
+  2.56,
+  9,
+  34.9,
+  'Problème : ne jamais savoir quoi offrir (fête des mères, Saint-Valentin, anniversaire) et finir avec un cadeau sans émotion. Waouw : éteinte, une plaque transparente ; allumée, la photo du client '
+  "apparaît gravée en lumière. Les gens pleurent en vidéo en l'ouvrant. Prix en France : Holograbme 34,90 €, Celekado 44,90 € → 34,90 €. Fournisseur : 2,98 $ (10-199 pièces). Coche le critère « "
+  "Unique » du support Scutify : chaque lampe est faite sur mesure avec la photo du client, et le critère « Besoin / Passion » (aimer quelqu'un). Très légère : livraison pas chère.",
+  'Lampe photo personnalisée')]
