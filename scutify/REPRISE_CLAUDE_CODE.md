@@ -124,3 +124,5 @@ Tous les produits sont au maximum possible. IPL passé en 2e produit (59,90 €)
 ## Améliorations : corde à sauter → brassière dos nu (short 2 en 1 écarté : pas de fiche fournisseur), tapis 8 mm → tapis Pilates PU premium, Pack Pilates complet (59,90 €) ajouté en 2e produit.
 
 ## Prix de revente baissés (demande de Jairo) en gardant marge ≥ 20 € et > 3 × coût ; Pack Pilates à 49,90 €.
+
+## Ligne 3 : pommeau remplacé par un lot de 3 chaussettes de Pilates antidérapantes à logo brodé.

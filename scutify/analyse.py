@@ -572,3 +572,10 @@ A.update({
  "Logo gravé, lignes d'alignement (à confirmer).", "France : 85-140 € (Decathlon marketplace, Achamana).", "⭐⭐⭐ Produit premium qui fait la marque.",
  "Plutôt oui : fort panier, mais lourd (environ 2,5 kg)."),
 })
+
+A["Chaussettes de Pilates (lot de 3)"] = _B("Femmes qui font du Pilates, du yoga ou du barre, en studio ou à la maison.",
+ "On glisse sur le tapis ou le reformer ; pieds nus pas hygiéniques en studio ; beaucoup de studios exigent des chaussettes.",
+ "Je veux permettre aux passionnées de Pilates de tenir chaque posture sans glisser, avec des chaussettes aussi belles que leur tenue.",
+ "8,30 € la paire contre 12-19 € pour Sveltus, Sissel ou Moonchild.", "Les chaussettes assorties à la tenue en photo de Pilates.",
+ "Logo brodé et coloris à la marque.", "France : Sveltus 11,99 €, Sissel 13,99 €, Moonchild 15,20-19 € la paire.",
+ "⭐⭐⭐ Besoin récurrent, très léger, renforce la marque.")

@@ -32,20 +32,22 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   'Problème : un cours de Pilates coûte 20-35 € la séance. Solution : le « reformer » chez soi. Prix vérifié : 18 € (sans marque) à 44-63 € (Amazon) → 29,90 € (prix baissé pour être sous la '
   'concurrence) milieu de marché. Lien vérifié en stock : 7,55 $, MOQ 2.',
   'Kit Pilates barre + élastiques'),
- ('Pommeau de douche anticalcaire filtre vitamine C — Niche : salle de bain',
-  'https://www.alibaba.com/product-detail/water-saver-pommau-de-douche-anti_1600072015451.html',
+ ('Lot de 3 paires de chaussettes de Pilates antidérapantes, logo brodé — Niche : Pilates et yoga',
+  'https://www.alibaba.com/product-detail/Cotton-Pilates-Club-Socks-with-Customizable_1601566201940.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  1.2,
-  8,
-  22.9,
-  "Gardé par toi, lien remplacé (l'ancien n'était plus en stock). Problème : eau calcaire, peau qui tire après la douche. Prix vérifié : 20-30 € en France. En stock, 1,39 $, 4,5/5. Récurrent : "
-  'recharges.',
-  'Pommeau de douche filtrant vitamine C'),
+  4.59,
+  9,
+  24.9,
+  'Accessoire indispensable du Pilates (beaucoup de studios les exigent) avec un plus : coton, picots antidérapants et logo brodé de ta marque, style « Pilates Club » très tendance sur Instagram. '
+  'Problème : on glisse sur le tapis ou le reformer, pieds nus pas hygiéniques en studio, chaussettes classiques qui dérapent. Waouw : les chaussettes assorties à la tenue en photo de Pilates. Prix '
+  'en France : Sveltus 11,99 € la paire, Sissel 13,99 €, Moonchild 15,20-19 € la paire → 24,90 € le lot de 3 (8,30 € la paire). Fournisseur : 1,78 $ la paire (50-199 paires), logo brodé accepté ; '
+  'coût du lot de 3 = 4,59 €. Ventes répétées : on en rachète régulièrement.',
+  'Chaussettes de Pilates (lot de 3)'),
  ('Brassière de sport dos nu, bretelles réglables, logo à la marque — Niche : vêtement de sport femme (Pilates, fitness)',
   'https://www.alibaba.com/product-detail/Custom-Logo-Comfortable-Halter-Minimal-Deportes_1601437171151.html',
   'OUI',
