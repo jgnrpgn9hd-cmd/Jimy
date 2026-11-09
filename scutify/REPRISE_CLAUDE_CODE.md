@@ -139,7 +139,9 @@ Marque sport et Pilates. Fichier à rendre : « Support Scutify S01_Tableau rech
 | 6 | Legging sans couture push-up | 8,08 | 34,90 | 26,82 | 8,5 |
 | 7 | Poids en silicone chevilles et poignets | 5,03 | 25,90 | 20,87 | 8,5 |
 | 8 | Tapis de Pilates PU premium | 11,17 | 49,90 | 38,73 | 8,5 |
-| 9 | Mini pistolet de massage | 5,71 | 29,90 | 24,19 | 8,5 |
+| 9 | Mini pistolet de massage | 6,87 | 29,90 | 23,03 | 8,5 |
 | 10 | Lunettes de sport polarisées | 4,12 | 29,90 | 25,78 | 8,5 |
 2e produits : Pack Pilates complet 49,90 € · Mini reformer pliable 69,90 € · Ensemble brassière + legging 54,90 €.
 À faire par Jairo : vérifier les 10 liens sur téléphone ; demander au sourcing Scutify la version ions d'argent du t-shirt (+ certificat), le MOQ des lunettes (300) et des chaussettes (50), la gravure des lignes sur le tapis ; échantillons legging, brassière et t-shirt.
+
+## Vérification des liens (recherche web) : seul le mini pistolet (1601094578732) est indexé — 5,99-7,99 $, MOQ 20, coût mis à jour à 6,87 €. Les 9 autres fiches n'apparaissent pas dans les moteurs de recherche : à vérifier sur téléphone.

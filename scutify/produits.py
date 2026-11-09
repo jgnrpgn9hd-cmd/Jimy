@@ -133,11 +133,11 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   'OUI',
   'OUI',
   'NON',
-  5.71,
+  6.87,
   8,
   29.9,
   "Problème : courbatures après le sport. Waw : le muscle qui ondule à l'écran. Prix en France : sans marque 30-50 €, marques 65-190 € → 29,90 € (prix baissé pour être sous la concurrence) honnête. "
-  "Fournisseur moins cher que l'ancien (BISD LC001) : 6,64 $ dès 2 pièces, indiqué en stock. Marge 24,19 €, plus de 3 fois le coût.",
+  'Fournisseur (fiche revérifiée) : 5,99-7,99 $ la pièce, minimum 20 pièces ; coût calculé sur 7,99 $. Marge 23,03 €, plus de 3 fois le coût.',
   'Mini pistolet de massage'),
  ('Lunettes de sport polarisées enveloppantes, verres miroir, plusieurs coloris — Niche : running, vélo et sport en extérieur',
   'https://www.alibaba.com/product-detail/Yijia-Optical-Cycle-glasses-men-tr90_1600619553166.html',
