@@ -89,3 +89,7 @@ En attente : vérifier les liens Alibaba sur téléphone (captcha ici), surtout 
 1 Aspirateur anti-acariens UV (allergies) · 2 Kit Pilates (Pilates maison) · 3 Pommeau filtrant (eau calcaire) · 4 Hydropulseur (gencives) ·
 5 Ventouse électrique (récupération) · 6 Masseur cervical (télétravail) · 7 Projecteur ciel étoilé (sommeil) · 8 Lampe photo personnalisée (cadeau) ·
 9 Applique aimantée (locataires) · 10 Lampe de chevet induction (chambre sans câbles). 2e produit : mini reformer pliable (avec le kit Pilates).
+
+## Mise à jour : lignes 4 à 10 remplacées (demande de Jairo)
+Gardés : 1 Aspirateur anti-acariens, 2 Kit Pilates, 3 Pommeau filtrant. Nouveaux : 4 Mini pistolet de massage, 5 Genouillère chauffante,
+6 Coussin shiatsu chauffant, 7 Lampe livre en bois, 8 Projecteur vagues, 9 Lampe coucher de soleil, 10 Lampe champignon. Ancienne liste : produits_v3.py.
