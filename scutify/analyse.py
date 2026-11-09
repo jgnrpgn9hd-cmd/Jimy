@@ -515,3 +515,28 @@ A.update({
  "Étiquette et emballage à la marque dès 500 pièces.", "France : ESSIX 45 €, Caresse 54,20-69 €.", "⭐⭐ Image Bonsoirs, gros panier.",
  "Plutôt oui : léger mais un peu volumineux."),
 })
+
+# ---------- Accessoires et vêtements de sport ----------
+A.update({
+"Écouteurs sport oreilles libres": _B("Coureurs, cyclistes, marcheurs, tous ceux qui font du sport dehors.",
+ "On n'entend ni voitures ni vélos avec des écouteurs classiques ; ils tombent en courant.",
+ "Je veux permettre aux coureurs d'écouter leur musique en restant en sécurité, les oreilles libres.",
+ "39,90 € contre 137-199 € pour Shokz.", "Musique et bruits de la rue en même temps, rien dans l'oreille.",
+ "Coloris et boîte à la marque.", "France : génériques 39,99 €, Shokz OpenRun 137-199 €.", "⭐⭐⭐ Le running explose, problème de sécurité concret."),
+"Corde à sauter sans corde": _B("Personnes qui font du cardio chez elles, en appartement.",
+ "Impossible de sauter à la corde dans un appartement ; on ne sait pas ce qu'on a brûlé.",
+ "Je veux permettre à ceux qui vivent en appartement de faire du cardio dans leur salon, sans rien casser.",
+ "Remplace un abonnement en salle pour le cardio (environ 500 €/an).", "On saute sans corde, l'écran compte sauts et calories.",
+ "Coloris et logo à la marque.", "France : Decathlon 17-18,33 €, RENPHO 29,99 €.", "⭐⭐ Simple, très visuel, coût très bas."),
+"Bandes élastiques en tissu": _B("Femmes de 18 à 40 ans qui font du fitness, du Pilates ou de la musculation.",
+ "Élastiques en latex qui roulent, pincent et cassent.",
+ "Je veux permettre aux femmes de sculpter leurs fessiers chez elles avec des bandes confortables et belles.",
+ "Remplace une machine à fessiers en salle ; 24,90 € le lot de 3.", "Tissu qui ne roule pas, coloris pastel en vidéo.",
+ "Logo et coloris à la marque, pochette assortie.", "France : Decathlon 20 €, Renoj 33,54 €, Gymshark.", "⭐⭐⭐ Star d'Instagram, logo personnalisable, très léger."),
+"Legging sans couture push-up": _B("Femmes de 18 à 45 ans qui font du sport ou portent le legging au quotidien.",
+ "Leggings qui glissent, marquent et deviennent transparents.",
+ "Je veux permettre aux femmes de se sentir belles et à l'aise pendant le sport, avec un legging qui galbe et ne glisse pas.",
+ "39,90 € contre 60 € pour Gymshark.", "Avant/après de profil.",
+ "Coloris exclusifs et logo à la marque.", "France : Decathlon 38,99-45,99 €, Gymshark Lift Seamless 60 €.", "⭐⭐⭐ Énorme marché, image de marque forte.",
+ "Plutôt oui : marché énorme, mais stock par taille et retours possibles."),
+})

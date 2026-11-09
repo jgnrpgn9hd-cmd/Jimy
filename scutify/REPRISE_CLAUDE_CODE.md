@@ -113,3 +113,6 @@ Tous les produits sont au maximum possible. IPL passé en 2e produit (59,90 €)
 
 ## Mise à jour : 1 et 4-10 refaits, univers bien-être à la maison (comme Pilates et pommeau). Liste précédente : produits_v8.py
 1 Hydropulseur · 2 Kit Pilates · 3 Pommeau · 4 Tapis d'acupression · 5 Diffuseur flamme · 6 Gourde motivante 2 L · 7 Lampe de luminothérapie · 8 Blender portable · 9 Masseur cervical · 10 Plaid gaze de coton.
+
+## Mise à jour : marque sport et bien-être (accessoires running/Pilates/fitness + 1 legging). Liste précédente : produits_v9.py
+1 Écouteurs oreilles libres · 2 Kit Pilates · 3 Pommeau · 4 Corde sans corde · 5 Bandes en tissu · 6 Legging push-up · 7 Poids silicone · 8 Tapis 8 mm · 9 Mini pistolet · 10 Gourde 2 L.
