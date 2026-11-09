@@ -93,3 +93,7 @@ En attente : vérifier les liens Alibaba sur téléphone (captcha ici), surtout 
 ## Mise à jour : lignes 4 à 10 remplacées (demande de Jairo)
 Gardés : 1 Aspirateur anti-acariens, 2 Kit Pilates, 3 Pommeau filtrant. Nouveaux : 4 Mini pistolet de massage, 5 Genouillère chauffante,
 6 Coussin shiatsu chauffant, 7 Lampe livre en bois, 8 Projecteur vagues, 9 Lampe coucher de soleil, 10 Lampe champignon. Ancienne liste : produits_v3.py.
+
+## Mise à jour : « des vrais trucs » → lignes 4 à 10 = vrais best-sellers 2026 (TikTok Shop, Amazon)
+4 Épilateur IPL (49,90 €, note 7,5 car marge < 3× coût) · 5 Brosse soufflante une étape · 6 Masseur cuir chevelu étanche · 7 Appareil lifting microcourant ·
+8 Détartreur dentaire ultrasons · 9 Brosse vapeur animaux · 10 Pistolet haute pression sans fil. Liste précédente : produits_v4.py.
