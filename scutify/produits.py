@@ -11,11 +11,12 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   'NON',
   6.24,
   9,
-  34.9,
+  29.9,
   "Vêtement mixte avec une vraie particularité : traité aux ions d'argent, il ne garde pas l'odeur de transpiration, même après plusieurs séances, et sèche en quelques minutes. Problème : t-shirts "
   "de sport qui sentent mauvais même lavés, qui collent et restent mouillés. Waouw : le test « sentir le t-shirt après la séance » en vidéo, et le t-shirt qui sèche à vue d'œil. Prix en France : "
-  'Odlo F-Dry 21,99-44 €, Champion Athletic 30 €, Montura Slide 38,50-55 €, Brooks Luxe 50 € → 34,90 €. Fournisseur : t-shirt mixte séchage rapide, 4,80 $ (6-4 999 pièces), logo personnalisable ; '
-  "version ions d'argent chez Fuzhou Yinqu Clothing à 5,69-7,25 $ (minimum 50, coût calculé sur 7,25 $). À faire confirmer par l'équipe sourcing Scutify (traitement argent + certificat).",
+  'Odlo F-Dry 21,99-44 €, Champion Athletic 30 €, Montura Slide 38,50-55 €, Brooks Luxe 50 € → 29,90 € (prix baissé pour être sous la concurrence). Fournisseur : t-shirt mixte séchage rapide, 4,80 $ '
+  "(6-4 999 pièces), logo personnalisable ; version ions d'argent chez Fuzhou Yinqu Clothing à 5,69-7,25 $ (minimum 50, coût calculé sur 7,25 $). À faire confirmer par l'équipe sourcing Scutify "
+  '(traitement argent + certificat).',
   'T-shirt sport mixte anti-odeur'),
  ('Kit barre Pilates 13 pièces + élastiques + programme — Niche : sport à la maison',
   'https://www.alibaba.com/product-detail/13-Pcs-Home-Exercise-Starter-Kit_1601484459815.html',
@@ -27,9 +28,9 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   'NON',
   6.49,
   6,
-  34.9,
-  'Problème : un cours de Pilates coûte 20-35 € la séance. Solution : le « reformer » chez soi. Prix vérifié : 18 € (sans marque) à 44-63 € (Amazon) → 34,90 € milieu de marché. Lien vérifié en stock '
-  ': 7,55 $, MOQ 2.',
+  29.9,
+  'Problème : un cours de Pilates coûte 20-35 € la séance. Solution : le « reformer » chez soi. Prix vérifié : 18 € (sans marque) à 44-63 € (Amazon) → 29,90 € (prix baissé pour être sous la '
+  'concurrence) milieu de marché. Lien vérifié en stock : 7,55 $, MOQ 2.',
   'Kit Pilates barre + élastiques'),
  ('Pommeau de douche anticalcaire filtre vitamine C — Niche : salle de bain',
   'https://www.alibaba.com/product-detail/water-saver-pommau-de-douche-anti_1600072015451.html',
@@ -41,7 +42,7 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   'NON',
   1.2,
   8,
-  24.9,
+  22.9,
   "Gardé par toi, lien remplacé (l'ancien n'était plus en stock). Problème : eau calcaire, peau qui tire après la douche. Prix vérifié : 20-30 € en France. En stock, 1,39 $, 4,5/5. Récurrent : "
   'recharges.',
   'Pommeau de douche filtrant vitamine C'),
@@ -55,10 +56,10 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   'NON',
   6.39,
   9,
-  29.9,
+  26.9,
   "Vêtement avec un vrai plus : coupe dos nu élégante, bretelles réglables, maintien sans armatures ; s'assortit au legging pour un ensemble. Problème : brassières qui serrent, qui bougent, et qu'on "
   "n'ose pas porter seules. Waouw : l'ensemble brassière + legging aux couleurs de la marque, très Instagram (photos de Pilates). Prix en France : Decathlon environ 15-30 €, Gymshark environ 40-50 € "
-  '→ 29,90 €. Fournisseur (Shantou) : 7,43 $ (2-49 pièces). Maintien moyen : idéal Pilates, yoga, fitness, pas la course. Stock par taille.',
+  '→ 26,90 € (prix baissé pour être sous la concurrence). Fournisseur (Shantou) : 7,43 $ (2-49 pièces). Maintien moyen : idéal Pilates, yoga, fitness, pas la course. Stock par taille.',
   'Brassière de sport dos nu'),
  ('Lot de 3 bandes élastiques en tissu pour fessiers (booty bands) — Niche : fitness et Pilates au féminin',
   'https://www.alibaba.com/product-detail/2020-New-Design-Custom-Logo-Set_62149771787.html',
@@ -70,10 +71,10 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   'NON',
   2.14,
   9,
-  24.9,
+  22.9,
   "L'accessoire star des filles fitness sur Instagram. Problème : les élastiques en latex roulent, pincent la peau et cassent. Waouw : tissu antidérapant qui ne roule pas, 3 résistances, coloris "
-  'pastel et logo à la marque. Prix en France : Decathlon 20 €, Renoj 33,54 €, Gymshark (lot de 3) → 24,90 €. Fournisseur Shanghai Garrein : 2,49 $ (1-104 pièces), environ 1 500 ventes, logo '
-  'personnalisable.',
+  'pastel et logo à la marque. Prix en France : Decathlon 20 €, Renoj 33,54 €, Gymshark (lot de 3) → 22,90 € (prix baissé pour être sous la concurrence). Fournisseur Shanghai Garrein : 2,49 $ (1-104 '
+  'pièces), environ 1 500 ventes, logo personnalisable.',
   'Bandes élastiques en tissu'),
  ('Legging sans couture taille haute effet push-up — Niche : vêtement de sport femme',
   'https://www.alibaba.com/product-detail/Women_Yoga_Washed_Denim_Scrunch_Butt_Lift_Gym_High_Waist_Leggings_For_Women_1600238274997.html',
@@ -85,10 +86,10 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   'NON',
   8.08,
   9,
-  39.9,
+  34.9,
   "Vêtement avec un vrai plus : sans couture, gainant, effet push-up qui galbe les fessiers. Problème : leggings qui glissent, qui marquent et deviennent transparents quand on s'accroupit. Waouw : "
-  "l'avant/après de profil en vidéo. Prix en France : Decathlon effet push-up 38,99-45,99 €, Gymshark Lift Seamless 60 € → 39,90 €. Fournisseur Yiwu Nessaj : 9,39 $ (1-19 pièces). Attention : stock "
-  "par taille et par couleur, commander des échantillons pour vérifier l'opacité.",
+  "l'avant/après de profil en vidéo. Prix en France : Decathlon effet push-up 38,99-45,99 €, Gymshark Lift Seamless 60 € → 34,90 € (prix baissé pour être sous la concurrence). Fournisseur Yiwu "
+  "Nessaj : 9,39 $ (1-19 pièces). Attention : stock par taille et par couleur, commander des échantillons pour vérifier l'opacité.",
   'Legging sans couture push-up'),
  ('Poids de chevilles et poignets en silicone, réglables, la paire — Niche : Pilates et tonification',
   'https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html',
@@ -100,10 +101,11 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   'NON',
   5.03,
   6,
-  27.9,
+  25.9,
   'Le produit tendance des vidéos Pilates sur Instagram. Problème : les haltères sont encombrants, moches et font peur ; on veut tonifier bras et jambes sans aller en salle. Solution : des bracelets '
   "lestés en silicone, beaux, qui se portent pendant le Pilates, la marche ou le ménage. Économique : remplace un jeu d'haltères et l'abonnement en salle. Waw : coloris pastel très « Instagram ». "
-  'Prix en France : Cdiscount 18,49 €, Amazon 26,09 €, GladiatorFit 32,90 € → 27,90 €. Fournisseur Xiamen Quadra : 5,85 $ la paire (minimum 50 paires), logo personnalisable.',
+  'Prix en France : Cdiscount 18,49 €, Amazon 26,09 €, GladiatorFit 32,90 € → 25,90 € (prix baissé pour être sous la concurrence). Fournisseur Xiamen Quadra : 5,85 $ la paire (minimum 50 paires), '
+  'logo personnalisable.',
   'Poids silicone chevilles et poignets'),
  ('Tapis de Pilates et yoga premium en PU et caoutchouc naturel, logo gravé — Niche : Pilates et yoga au sol',
   'https://www.alibaba.com/product-detail/Semi-Circular-Eco-Friendly-PU-Rubber_1601381638569.html',
@@ -131,9 +133,9 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   'NON',
   5.71,
   8,
-  32.9,
-  "Problème : courbatures après le sport. Waw : le muscle qui ondule à l'écran. Prix en France : sans marque 30-50 €, marques 65-190 € → 32,90 € honnête. Fournisseur moins cher que l'ancien (BISD "
-  'LC001) : 6,64 $ dès 2 pièces, indiqué en stock. Marge 27,19 €, plus de 3 fois le coût.',
+  29.9,
+  "Problème : courbatures après le sport. Waw : le muscle qui ondule à l'écran. Prix en France : sans marque 30-50 €, marques 65-190 € → 29,90 € (prix baissé pour être sous la concurrence) honnête. "
+  "Fournisseur moins cher que l'ancien (BISD LC001) : 6,64 $ dès 2 pièces, indiqué en stock. Marge 27,19 €, plus de 3 fois le coût.",
   'Mini pistolet de massage'),
  ('Lunettes de sport polarisées enveloppantes, verres miroir, plusieurs coloris — Niche : running, vélo et sport en extérieur',
   'https://www.alibaba.com/product-detail/Yijia-Optical-Cycle-glasses-men-tr90_1600619553166.html',
@@ -145,9 +147,9 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   'NON',
   4.12,
   8,
-  34.9,
+  29.9,
   'Accessoire de sport mixte avec un vrai plus : verres polarisés miroir qui enveloppent le visage, monture TR90 ultra-légère qui ne glisse pas avec la sueur, plusieurs coloris de verres. Problème : '
   'soleil et reflets qui éblouissent pendant la course ou le vélo, lunettes classiques qui tombent et laissent passer le vent, la poussière et les insectes. Waouw : le look « athlète » des photos de '
-  'running et de plage (verres miroir bleus, argent, rouges). Prix en France : entrée de gamme Decathlon dès 22 €, Cébé Terra Polar 59,76 €, Surf Monkey 64,95 € → 34,90 €. Fournisseur Yijia Optical '
-  ': 4,79 $ (300-2 999 pièces). Attention : minimum 300 paires ; style inspiré des grandes marques, mais sans reprendre leur logo ni leur nom.',
+  'running et de plage (verres miroir bleus, argent, rouges). Prix en France : entrée de gamme Decathlon dès 22 €, Cébé Terra Polar 59,76 €, Surf Monkey 64,95 € → 29,90 € (prix baissé pour être sous '
+  'la concurrence). Fournisseur Yijia Optical : 4,79 $ (300-2 999 pièces). Attention : minimum 300 paires ; style inspiré des grandes marques, mais sans reprendre leur logo ni leur nom.',
   'Lunettes de sport polarisées')]
