@@ -1,7 +1,21 @@
-# 10 produits, 10 niches différentes (allergies, sport, eau calcaire, épilation, sommeil, repas au travail, alimentation saine, télétravail, animaux, cadeau).
-# Un vrai problème + un effet waouw. Ligne 1 : livraison ≤ 6 (erreur du modèle en ligne 6).
+# 10 produits, 10 niches, tous à la note maximale permise par le modèle (marge > 3 × coût, livraison ≥ 5, critères OUI).
+# Ligne 1 : produit avec livraison > 6 (formule différente du modèle en ligne 6).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
-rows=[('Aspirateur anti-acariens UV sans fil pour lit et canapé — Niche : allergies aux acariens',
+rows=[('Brosse vapeur pour chat et chien, autonettoyante, rechargeable — Niche : animaux, poils partout',
+  'https://www.alibaba.com/product-detail/Pet-Products-2024-New-White-Pink_1601205365476.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  6.88,
+  9,
+  27.9,
+  "Virale sur TikTok. Problème : poils partout sur le canapé et les vêtements, chat qui déteste la brosse. Waouw : la brume qui capte les poils, la boule de poils retirée d'un clic, l'animal qui "
+  'adore. Prix en France : MCBOSON 21,99 €, FurryFusion 24,99 €, kooa 30,49 € (Zooplus) → 27,90 €. Fournisseur : 8 $ (1-999 pièces).',
+  'Brosse vapeur pour animaux'),
+ ('Aspirateur anti-acariens UV sans fil pour lit et canapé — Niche : allergies',
   'https://www.alibaba.com/product-detail/Wholesale-Wireless-Handheld-Portable-Mite-Removal_1601450111395.html',
   'OUI',
   'OUI',
@@ -16,7 +30,7 @@ rows=[('Aspirateur anti-acariens UV sans fil pour lit et canapé — Niche : all
   "aspire en profondeur + lumière UV. Waw : la vidéo de la poussière sortie du matelas. Prix en France : 47,60-47,99 € (génériques, ManoMano) jusqu'à 89-100 € (Amazon) → 39,90 €, moins cher que le "
   'marché. Fournisseur Shenzhen Simple Fun (8 ans sur Alibaba), 68 W, USB : prix affiché 6,80 $ en gros volume ; coût compté prudemment à 10 $ pour une petite commande, à confirmer sur la fiche.',
   'Aspirateur anti-acariens UV'),
- ('Kit barre Pilates 13 pièces + élastiques + programme — Niche : sport à la maison, renforcement',
+ ('Kit barre Pilates 13 pièces + élastiques + programme — Niche : sport à la maison',
   'https://www.alibaba.com/product-detail/13-Pcs-Home-Exercise-Starter-Kit_1601484459815.html',
   'OUI',
   'OUI',
@@ -30,7 +44,7 @@ rows=[('Aspirateur anti-acariens UV sans fil pour lit et canapé — Niche : all
   'Problème : un cours de Pilates coûte 20-35 € la séance. Solution : le « reformer » chez soi. Prix vérifié : 18 € (sans marque) à 44-63 € (Amazon) → 34,90 € milieu de marché. Lien vérifié en stock '
   ': 7,55 $, MOQ 2.',
   'Kit Pilates barre + élastiques'),
- ('Pommeau de douche anticalcaire filtre vitamine C — Niche : eau calcaire, peau et cheveux',
+ ('Pommeau de douche anticalcaire filtre vitamine C — Niche : salle de bain',
   'https://www.alibaba.com/product-detail/water-saver-pommau-de-douche-anti_1600072015451.html',
   'OUI',
   'OUI',
@@ -44,20 +58,20 @@ rows=[('Aspirateur anti-acariens UV sans fil pour lit et canapé — Niche : all
   "Gardé par toi, lien remplacé (l'ancien n'était plus en stock). Problème : eau calcaire, peau qui tire après la douche. Prix vérifié : 20-30 € en France. En stock, 1,39 $, 4,5/5. Récurrent : "
   'recharges.',
   'Pommeau de douche filtrant vitamine C'),
- ('Épilateur lumière pulsée IPL 999 999 flashs, écran LED — Niche : épilation durable',
-  'https://www.alibaba.com/product-detail/Handheld-999999-Flashes-Led-Display-Female_1601174043085.html',
+ ('Hydropulseur sans fil rechargeable, étanche IPX7 — Niche : gencives et hygiène dentaire',
+  'https://www.alibaba.com/product-detail/Wholesale-Cheap-Oral-Irrigator-IPX7-Waterproof_1601060619298.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  14.42,
-  7,
-  49.9,
-  "Best-seller beauté mondial. Problème : se raser tous les 2 jours, poils incarnés, et le laser en institut coûte 1 000 € et plus. Waouw : l'avant/après de la jambe lisse après quelques semaines. "
-  'Prix en France : sans marque 35-80 €, Haarlosy 63,62-79,99 €, Philips Lumea 280-365 € → 49,90 €. Fournisseur : 16,77 $ (10-99 pièces).',
-  'Épilateur lumière pulsée IPL'),
+  8.16,
+  8,
+  32.9,
+  "Pour tout le monde : gencives qui saignent, restes coincés entre les dents, appareil dentaire ; le fil dentaire est pénible donc personne ne l'utilise. Économique : moins de soins chez le "
+  "dentiste. Waw : la vidéo de ce qui sort d'entre les dents. Prix en France : 25,99-40,86 € (Cdiscount, LUSKYKA 34,33 €) → 32,90 €. Fournisseur : 9,49 $ dès 1 pièce, 19 113 vendus, 4,8/5.",
+  'Hydropulseur sans fil'),
  ("Réveil lumière simulateur d'aube, lever et coucher de soleil — Niche : sommeil et réveil",
   'https://www.alibaba.com/product-detail/2020_CE_ROHS_Wake_Up_Light_Sunrise_Alarm_clock_Creative_Round_Digital_LED_Table_Clock_60495089497.html',
   'OUI',
@@ -73,21 +87,20 @@ rows=[('Aspirateur anti-acariens UV sans fil pour lit et canapé — Niche : all
   "un vrai lever de soleil 30 minutes avant l'alarme, et un coucher de soleil aide à s'endormir. Prix en France : Beurer 37,59 €, Dreamegg 59,99 €, Philips 99-149 € → 34,90 €. Fournisseur Fuzhou "
   'Swell : 6,35 $ (50-999 pièces), certifié CE et RoHS.',
   "Réveil lumière simulateur d'aube"),
- ('Boîte repas chauffante électrique, inox, bureau et voiture — Niche : alimentation, repas au travail',
-  'https://www.alibaba.com/product-detail/Portable-Food-Heater-Electric-Lunch-Warmer_1600699764057.html',
+ ('Applique murale sans fil, aimantée, rotative 360°, tactile — Niche : locataires, éclairage sans percer',
+  'https://www.alibaba.com/product-detail/Rechargeable-Touch-Magnetic-LED-Light-360_11000013900976.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  10.66,
-  5,
-  32.9,
-  'Problème : pas de micro-ondes au travail (ou la queue devant), et manger dehors coûte 10-15 € par jour, soit plus de 2 000 € par an. Waouw : on branche la boîte, 30 minutes plus tard le plat fait '
-  'maison est chaud et fumant, au bureau, sur un chantier ou en voiture. Économique : remboursée en 3 repas. Prix en France : 21,99-33,99 € (Amazon, Cdiscount) → 32,90 €. Fournisseur Henan Zlovy : '
-  '12,40 $ (1-199 pièces), minimum 2. Un peu volumineuse : livraison plus chère.',
-  'Boîte repas chauffante'),
+  6.36,
+  8,
+  29.9,
+  'Problème : couloir, coin lecture ou tête de lit dans le noir, pas de prise, et interdit de percer quand on est locataire. Waouw : on colle la plaque, on clipse la lampe aimantée, elle tourne à '
+  "360° et s'allume au toucher : une applique d'hôtel en 10 secondes, sans électricien. Prix en France : 19,90-34,90 € → 29,90 €. Fournisseur : 7-7,40 $, MOQ 2, 235 ventes.",
+  'Applique murale sans fil aimantée'),
  ('Blender portable sans fil 6 lames, batterie 6000 mAh — Niche : alimentation saine et smoothies',
   'https://www.alibaba.com/product-detail/Ligkevan-6000mah-6-blades-Usb-Rechargeable_1601261106167.html',
   'OUI',
@@ -98,12 +111,12 @@ rows=[('Aspirateur anti-acariens UV sans fil pour lit et canapé — Niche : all
   'NON',
   10.23,
   7,
-  34.9,
+  44.9,
   "Problème : on veut manger sain mais on n'a pas le temps ; on saute le petit-déjeuner, on grignote, et un smoothie ou un shake acheté coûte 5-7 €. Waouw : fruits + lait dans la gourde, 30 "
   'secondes, smoothie prêt au bureau, à la salle ou en voyage, sans prise. Économique : remboursé en moins de 6 smoothies achetés. Prix en France : H.Koenig 34,99 €, sans marque 28,95-59 €, Ninja '
-  'Blast 55,57 € → 34,90 €. Fournisseur : 11,89 $ (1-899 pièces), 6000 mAh.',
+  'Blast 55,57 € → 44,90 € (positionnement premium : 6000 mAh, 6 lames, sous le Ninja Blast à 55,57 €). Fournisseur : 11,89 $ (1-899 pièces), 6000 mAh.',
   'Blender portable sans fil'),
- ('Masseur cervical électrique sans fil, impulsions + chaleur, 10 modes — Niche : télétravail, douleurs de nuque',
+ ('Masseur cervical électrique sans fil, impulsions + chaleur, 10 modes — Niche : douleurs de nuque',
   'https://www.alibaba.com/product-detail/10-Mode-15-Level-Cordless-wireless_1600806316694.html',
   'OUI',
   'OUI',
@@ -118,21 +131,7 @@ rows=[('Aspirateur anti-acariens UV sans fil pour lit et canapé — Niche : all
   ': posé autour du cou, impulsions + chaleur, sans fil. Waw : on le porte en regardant la télé. Prix en France : 24,89 € (Amazon) à 37,49-40,31 € (Cdiscount, modèles à impulsions) → 34,90 €. '
   'Fournisseur Shenzhen Jane Eyre Kang : 6,80-9,50 $, minimum 2 pièces (coût calculé sur 9,50 $). On ne le trouve pas en supermarché.',
   'Masseur cervical sans fil chauffant'),
- ('Brosse vapeur pour chat et chien, autonettoyante, rechargeable — Niche : animaux, poils partout',
-  'https://www.alibaba.com/product-detail/Pet-Products-2024-New-White-Pink_1601205365476.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  6.88,
-  9,
-  27.9,
-  "Virale sur TikTok. Problème : poils partout sur le canapé et les vêtements, chat qui déteste la brosse. Waouw : la brume qui capte les poils, la boule de poils retirée d'un clic, l'animal qui "
-  'adore. Prix en France : MCBOSON 21,99 €, FurryFusion 24,99 €, kooa 30,49 € (Zooplus) → 27,90 €. Fournisseur : 8 $ (1-999 pièces).',
-  'Brosse vapeur pour animaux'),
- ('Lampe photo personnalisée gravée, socle en bois — Niche : cadeau personnalisé (amour, famille)',
+ ("Lampe photo personnalisée gravée, socle en bois — Niche : lumière d'ambiance, cadeau personnalisé",
   'https://www.alibaba.com/product-detail/Personalized-custom-creative-made-engraved-luminous_1600684887832.html',
   'OUI',
   'OUI',
@@ -144,6 +143,5 @@ rows=[('Aspirateur anti-acariens UV sans fil pour lit et canapé — Niche : all
   9,
   34.9,
   'Problème : ne jamais savoir quoi offrir (fête des mères, Saint-Valentin, anniversaire) et finir avec un cadeau sans émotion. Waouw : éteinte, une plaque transparente ; allumée, la photo du client '
-  "apparaît gravée en lumière. Les gens pleurent en vidéo en l'ouvrant. Prix en France : Holograbme 34,90 €, Celekado 44,90 € → 34,90 €. Fournisseur : 2,98 $ (10-199 pièces). Coche le critère « "
-  "Unique » du support Scutify : chaque lampe est faite sur mesure avec la photo du client, et le critère « Besoin / Passion » (aimer quelqu'un). Très légère : livraison pas chère.",
+  "apparaît gravée en lumière. Les gens pleurent en vidéo en l'ouvrant. Prix en France : Holograbme 34,90 €, Celekado 44,90 € → 34,90 €. Fournisseur : 2,98 $ (10-199 pièces).",
   'Lampe photo personnalisée')]

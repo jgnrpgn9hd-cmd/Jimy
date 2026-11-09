@@ -103,3 +103,6 @@ Gardés : 1 Aspirateur anti-acariens, 2 Kit Pilates, 3 Pommeau filtrant. Nouveau
 ## Mise à jour : autres niches (sommeil, alimentation…) — liste précédente : produits_v5.py
 1 Aspirateur anti-acariens · 2 Kit Pilates · 3 Pommeau filtrant · 4 Épilateur IPL · 5 Réveil lumière (sommeil) · 6 Boîte repas chauffante (repas au travail) ·
 7 Blender portable (alimentation saine) · 8 Masseur cervical (télétravail) · 9 Brosse vapeur (animaux) · 10 Lampe photo personnalisée (cadeau).
+
+## Mise à jour : « que des 10/10 » — 10/10 impossible avec les formules du modèle (max 8,5 en lignes 2-10, 9,5 en ligne 1 ; colonne O ne donne 1 point que si le coût > 25 €).
+Tous les produits sont au maximum possible. IPL passé en 2e produit (59,90 €), boîte repas remplacée par l'applique aimantée, hydropulseur à la place de l'IPL, blender à 44,90 €. Liste précédente : produits_v6.py.

@@ -1,3 +1,20 @@
 # 2e produits (upsell, > 50 € autorisé), proposés après le produit principal.
 # (nom, se vend avec, problème, preuve prix France, lien Alibaba, prix fournisseur $, coût €, revente €, note)
-U = [('Mini reformer de Pilates pliable (planche + élastiques)', 'Kit Pilates barre + élastiques', "Le kit Pilates ne suffit plus : on veut l'effet « reformer » des studios (cours à 30-40 € la séance) sans acheter une machine à 1 000 €.", 'Amazon.fr : Pilatella mini reformer pliable 74,99-89,99 € (meilleures ventes Pilates).', 'https://www.alibaba.com/product-detail/Commercial-Home-Foldable-Pilates-Board-6_1601458167106.html', 19.89, 17.1, 69.9, '19,89 $ le set (minimum 100 sets). Pliable, se range sous un lit.')]
+U = [('Mini reformer de Pilates pliable (planche + élastiques)',
+  'Kit Pilates barre + élastiques',
+  "Le kit Pilates ne suffit plus : on veut l'effet « reformer » des studios (cours à 30-40 € la séance) sans acheter une machine à 1 000 €.",
+  'Amazon.fr : Pilatella mini reformer pliable 74,99-89,99 € (meilleures ventes Pilates).',
+  'https://www.alibaba.com/product-detail/Commercial-Home-Foldable-Pilates-Board-6_1601458167106.html',
+  19.89,
+  17.1,
+  69.9,
+  '19,89 $ le set (minimum 100 sets). Pliable, se range sous un lit.'),
+ ('Épilateur lumière pulsée IPL 999 999 flashs',
+  'Pommeau filtrant, rituel beauté',
+  'Se raser tous les 2 jours, poils incarnés ; le laser en institut coûte plus de 1 000 €.',
+  'Amazon.fr : Haarlosy 63,62-79,99 €, Philips Lumea 280-365 €.',
+  'https://www.alibaba.com/product-detail/Handheld-999999-Flashes-Led-Display-Female_1601174043085.html',
+  16.77,
+  14.42,
+  59.9,
+  '16,77 $ (10-99 pièces). Marge 45,48 €, plus de 3 fois le coût.')]
