@@ -18,12 +18,13 @@ U = [('Pack Pilates complet : kit barre + élastiques, 3 bandes en tissu, poids 
   17.1,
   69.9,
   '19,89 $ le set (minimum 100 sets). Pliable, se range sous un lit.'),
- ('Épilateur lumière pulsée IPL 999 999 flashs',
-  'Pommeau filtrant, rituel beauté',
-  'Se raser tous les 2 jours, poils incarnés ; le laser en institut coûte plus de 1 000 €.',
-  'Amazon.fr : Haarlosy 63,62-79,99 €, Philips Lumea 280-365 €.',
-  'https://www.alibaba.com/product-detail/Handheld-999999-Flashes-Led-Display-Female_1601174043085.html',
-  16.77,
-  14.42,
-  59.9,
-  '16,77 $ (10-99 pièces). Marge 45,48 €, plus de 3 fois le coût.')]
+ ('Ensemble brassière dos nu + legging sans couture, coloris assortis',
+  'Brassière, legging',
+  'On veut une tenue complète et assortie pour le Pilates ou la salle, belle en photo.',
+  'Prix séparés dans la boutique : 26,90 + 34,90 = 61,80 € ; ensembles Gymshark ou Alo environ 90-150 €.',
+  'https://www.alibaba.com/product-detail/Custom-Logo-Comfortable-Halter-Minimal-Deportes_1601437171151.html',
+  16.82,
+  14.47,
+  54.9,
+  'Brassière (6,39 €) + legging (8,08 €) déjà dans la liste. Marge 40,43 €. Lien du legging : '
+  'https://www.alibaba.com/product-detail/Women_Yoga_Washed_Denim_Scrunch_Butt_Lift_Gym_High_Waist_Leggings_For_Women_1600238274997.html')]

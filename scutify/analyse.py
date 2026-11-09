@@ -579,3 +579,13 @@ A["Chaussettes de Pilates (lot de 3)"] = _B("Femmes qui font du Pilates, du yoga
  "8,30 € la paire contre 12-19 € pour Sveltus, Sissel ou Moonchild.", "Les chaussettes assorties à la tenue en photo de Pilates.",
  "Logo brodé et coloris à la marque.", "France : Sveltus 11,99 €, Sissel 13,99 €, Moonchild 15,20-19 € la paire.",
  "⭐⭐⭐ Besoin récurrent, très léger, renforce la marque.")
+
+# ---------- Prix de revente finaux (après baisse) ----------
+for _k, _v in {
+ "T-shirt sport mixte anti-odeur": "29,90 € contre 30-55 € pour Champion, Montura ou Brooks ; on le lave moins souvent, il dure plus longtemps.",
+ "Brassière de sport dos nu": "26,90 € contre environ 40-50 € chez Gymshark ; en ensemble avec le legging : 54,90 €.",
+ "Bandes élastiques en tissu": "Remplace une machine à fessiers en salle ; 22,90 € le lot de 3 contre 33,54 € (Renoj).",
+ "Legging sans couture push-up": "34,90 € contre 38,99 € (Decathlon) et 60 € (Gymshark).",
+ "Lunettes de sport polarisées": "29,90 € contre 60-180 € pour Cébé, Rudy Project ou 100%.",
+}.items():
+    A[_k]["economique"] = _v

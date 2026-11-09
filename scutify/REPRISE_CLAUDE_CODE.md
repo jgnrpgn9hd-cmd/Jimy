@@ -126,3 +126,20 @@ Tous les produits sont au maximum possible. IPL passé en 2e produit (59,90 €)
 ## Prix de revente baissés (demande de Jairo) en gardant marge ≥ 20 € et > 3 × coût ; Pack Pilates à 49,90 €.
 
 ## Ligne 3 : pommeau remplacé par un lot de 3 chaussettes de Pilates antidérapantes à logo brodé.
+
+## ✅ VERSION FINALE (validée par Jairo : « c'est top »)
+Marque sport et Pilates. Fichier à rendre : « Support Scutify S01_Tableau recherche 10 idées de business.xlsx » (modèle non modifié, colonnes B à L).
+| N° | Produit | Coût | Revente | Marge | Note |
+|---|---|---|---|---|---|
+| 1 | T-shirt de sport mixte anti-odeur (ions d'argent) | 6,24 | 29,90 | 23,66 | 9,5 |
+| 2 | Kit Pilates barre + élastiques | 6,49 | 29,90 | 23,41 | 8,5 |
+| 3 | Chaussettes de Pilates antidérapantes (lot de 3, logo brodé) | 4,59 | 24,90 | 20,31 | 8,5 |
+| 4 | Brassière de sport dos nu | 6,39 | 26,90 | 20,51 | 8,5 |
+| 5 | Bandes élastiques en tissu (lot de 3) | 2,14 | 22,90 | 20,76 | 8,5 |
+| 6 | Legging sans couture push-up | 8,08 | 34,90 | 26,82 | 8,5 |
+| 7 | Poids en silicone chevilles et poignets | 5,03 | 25,90 | 20,87 | 8,5 |
+| 8 | Tapis de Pilates PU premium | 11,17 | 49,90 | 38,73 | 8,5 |
+| 9 | Mini pistolet de massage | 5,71 | 29,90 | 24,19 | 8,5 |
+| 10 | Lunettes de sport polarisées | 4,12 | 29,90 | 25,78 | 8,5 |
+2e produits : Pack Pilates complet 49,90 € · Mini reformer pliable 69,90 € · Ensemble brassière + legging 54,90 €.
+À faire par Jairo : vérifier les 10 liens sur téléphone ; demander au sourcing Scutify la version ions d'argent du t-shirt (+ certificat), le MOQ des lunettes (300) et des chaussettes (50), la gravure des lignes sur le tapis ; échantillons legging, brassière et t-shirt.

@@ -29,8 +29,8 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   6.49,
   6,
   29.9,
-  'Problème : un cours de Pilates coûte 20-35 € la séance. Solution : le « reformer » chez soi. Prix vérifié : 18 € (sans marque) à 44-63 € (Amazon) → 29,90 € (prix baissé pour être sous la '
-  'concurrence) milieu de marché. Lien vérifié en stock : 7,55 $, MOQ 2.',
+  'Problème : un cours de Pilates coûte 20-35 € la séance. Solution : le « reformer » chez soi. Prix vérifié : 18 € (sans marque) à 44-63 € (Amazon) → 29,90 € (prix baissé, sous le milieu de '
+  'marché). Lien vérifié en stock : 7,55 $, MOQ 2.',
   'Kit Pilates barre + élastiques'),
  ('Lot de 3 paires de chaussettes de Pilates antidérapantes, logo brodé — Niche : Pilates et yoga',
   'https://www.alibaba.com/product-detail/Cotton-Pilates-Club-Socks-with-Customizable_1601566201940.html',
@@ -137,7 +137,7 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   8,
   29.9,
   "Problème : courbatures après le sport. Waw : le muscle qui ondule à l'écran. Prix en France : sans marque 30-50 €, marques 65-190 € → 29,90 € (prix baissé pour être sous la concurrence) honnête. "
-  "Fournisseur moins cher que l'ancien (BISD LC001) : 6,64 $ dès 2 pièces, indiqué en stock. Marge 27,19 €, plus de 3 fois le coût.",
+  "Fournisseur moins cher que l'ancien (BISD LC001) : 6,64 $ dès 2 pièces, indiqué en stock. Marge 24,19 €, plus de 3 fois le coût.",
   'Mini pistolet de massage'),
  ('Lunettes de sport polarisées enveloppantes, verres miroir, plusieurs coloris — Niche : running, vélo et sport en extérieur',
   'https://www.alibaba.com/product-detail/Yijia-Optical-Cycle-glasses-men-tr90_1600619553166.html',
