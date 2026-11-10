@@ -147,3 +147,5 @@ Marque sport et Pilates. Fichier à rendre : « Support Scutify S01_Tableau rech
 ## Vérification des liens (recherche web) : seul le mini pistolet (1601094578732) est indexé — 5,99-7,99 $, MOQ 20, coût mis à jour à 6,87 €. Les 9 autres fiches n'apparaissent pas dans les moteurs de recherche : à vérifier sur téléphone.
 
 ## Fichier à rendre refait à partir du modèle envoyé par Jairo (identique au modèle vierge) avec remplir_modele_exact.py : seul le XML des cellules B-L (lignes 6-15) et les valeurs calculées M-U changent ; tout le reste est identique à l'octet près. Valeurs vérifiées avec LibreOffice.
+
+## Liens Alibaba visibles en entier : colonne C élargie (50), retour à la ligne, lignes 6-15 à 54 de haut (seules modifications de mise en forme).

@@ -65,7 +65,28 @@ for k, row in enumerate(rows):
                        lambda mm: mm.group(1) + f"<v>{v}</v>", ligne, count=1, flags=re.S)
     xml = xml[:m.start()] + ligne + xml[m.end():]
 
+# Lien Alibaba visible en entier : colonne C plus large, retour à la ligne automatique, lignes 6-15 plus hautes.
+LARGEUR_C, HAUTEUR = "50.0", "54.0"
+STYLES = "xl/styles.xml"
+styles = dict((i.filename, d) for i, d in items)[STYLES].decode("utf-8")
+bloc = re.search(r'<cellXfs count="(\d+)">(.*?)</cellXfs>', styles, re.S)
+xfs = re.findall(r'<xf [^>]*?(?:/>|>.*?</xf>)', bloc.group(2), re.S)
+nouveaux, remap = [], {}
+for s in sorted(set(re.findall(r'<c r="C(?:[6-9]|1[0-5])" s="(\d+)"', xml))):
+    xf = xfs[int(s)].replace('<alignment ', '<alignment wrapText="1" ', 1)
+    remap[s] = str(len(xfs) + len(nouveaux))
+    nouveaux.append(xf)
+styles = (styles[:bloc.start()] + f'<cellXfs count="{len(xfs) + len(nouveaux)}">'
+          + bloc.group(2) + "".join(nouveaux) + "</cellXfs>" + styles[bloc.end():])
+xml = re.sub(r'<c r="(C(?:[6-9]|1[0-5]))" s="(\d+)"', lambda m: f'<c r="{m.group(1)}" s="{remap[m.group(2)]}"', xml)
+xml = re.sub(r'(<col [^>]*min="3" max="3" width=")[^"]*"', rf'\g<1>{LARGEUR_C}"', xml)
+xml = re.sub(r'<row r="([6-9]|1[0-5])" ht="[^"]*"', lambda m: f'<row r="{m.group(1)}" ht="{HAUTEUR}"', xml)
+
 with zipfile.ZipFile(SORTIE, "w") as out:
     for info, data in items:
-        out.writestr(info, xml.encode("utf-8") if info.filename == SHEET else data)
+        if info.filename == SHEET:
+            data = xml.encode("utf-8")
+        elif info.filename == STYLES:
+            data = styles.encode("utf-8")
+        out.writestr(info, data)
 print("OK ->", SORTIE)
