@@ -2,7 +2,7 @@
 # Ligne 1 : livraison > 6 (formule différente du modèle en ligne 6).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
 rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo à la marque — Niche : vêtement de sport mixte",
-  'https://www.alibaba.com/product-detail/Custom-logo-Unisex-100-Polyester-T_1601591533867.html',
+  'https://www.alibaba.com/product-detail/High-Quality-Breathable-Quick-Dry-Custom_1600464054100.html',
   'OUI',
   'OUI',
   'OUI',
@@ -14,23 +14,23 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   29.9,
   "Vêtement mixte avec une vraie particularité : traité aux ions d'argent, il ne garde pas l'odeur de transpiration, même après plusieurs séances, et sèche en quelques minutes. Problème : t-shirts "
   "de sport qui sentent mauvais même lavés, qui collent et restent mouillés. Waouw : le test « sentir le t-shirt après la séance » en vidéo, et le t-shirt qui sèche à vue d'œil. Prix en France : "
-  'Odlo F-Dry 21,99-44 €, Champion Athletic 30 €, Montura Slide 38,50-55 €, Brooks Luxe 50 € → 29,90 € (prix baissé pour être sous la concurrence). Fournisseur : t-shirt mixte séchage rapide, 4,80 $ '
-  "(6-4 999 pièces), logo personnalisable ; version ions d'argent chez Fuzhou Yinqu Clothing à 5,69-7,25 $ (minimum 50, coût calculé sur 7,25 $). À faire confirmer par l'équipe sourcing Scutify "
-  '(traitement argent + certificat).',
+  'Odlo F-Dry 21,99-44 €, Champion Athletic 30 €, Montura Slide 38,50-55 €, Brooks Luxe 50 € → 29,90 € (prix baissé pour être sous la concurrence). Fournisseur : t-shirt mixte séchage rapide, logo '
+  "personnalisable (fiche revérifiée le 10/11/2026) ; version ions d'argent chez Fuzhou Yinqu Clothing à 5,69-7,25 $ (minimum 50, coût calculé sur 7,25 $). À faire confirmer par l'équipe sourcing "
+  'Scutify (traitement argent + certificat).',
   'T-shirt sport mixte anti-odeur'),
  ('Kit barre Pilates 13 pièces + élastiques + programme — Niche : sport à la maison',
-  'https://www.alibaba.com/product-detail/13-Pcs-Home-Exercise-Starter-Kit_1601484459815.html',
+  'https://www.alibaba.com/product-detail/Total-Body-Workout-Resistance-Training-Exercise_1600138273887.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  6.49,
+  6.79,
   6,
   29.9,
   'Problème : un cours de Pilates coûte 20-35 € la séance. Solution : le « reformer » chez soi. Prix vérifié : 18 € (sans marque) à 44-63 € (Amazon) → 29,90 € (prix baissé, sous le milieu de '
-  'marché). Lien vérifié en stock : 7,55 $, MOQ 2.',
+  'marché). Fournisseur Shanghai Divtop (fiche revérifiée le 10/11/2026) : 7,90 $ (100 pièces), 4,90 $ dès 1 000 ; coût calculé sur 7,90 $.',
   'Kit Pilates barre + élastiques'),
  ('Lot de 3 paires de chaussettes de Pilates antidérapantes, logo brodé — Niche : Pilates et yoga',
   'https://www.alibaba.com/product-detail/Cotton-Pilates-Club-Socks-with-Customizable_1601566201940.html',
@@ -110,20 +110,20 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   'logo personnalisable.',
   'Poids silicone chevilles et poignets'),
  ('Tapis de Pilates et yoga premium en PU et caoutchouc naturel, logo gravé — Niche : Pilates et yoga au sol',
-  'https://www.alibaba.com/product-detail/Semi-Circular-Eco-Friendly-PU-Rubber_1601381638569.html',
+  'https://www.alibaba.com/product-detail/Eco-Custom-Logo-Natural-Rubber-Pu_1601380668532.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  11.17,
+  9.98,
   5,
   49.9,
   "Version haut de gamme du tapis : surface PU qui accroche même les mains moites, base en caoutchouc naturel qui ne glisse pas, logo gravé (option à partir de 0,20 $ par pièce). Lignes d'alignement "
   "à faire graver avec le logo, à confirmer avec le fournisseur. Problème : tapis en mousse qui glissent, s'abîment et font « bas de gamme ». Waouw : le tapis des studios de Pilates, avec ta marque "
-  'gravée. Prix en France : tapis PU et caoutchouc 85-140 € (Decathlon marketplace, Achamana) → 49,90 €. Fournisseur : 12,99 $ (6-59 pièces). Attention : environ 2,5 kg, livraison plus chère. '
-  'Contient du latex (caoutchouc naturel) : le préciser.',
+  'gravée. Prix en France : tapis PU et caoutchouc 85-140 € (Decathlon marketplace, Achamana) → 49,90 €. Fournisseur Greenleader (fiche revérifiée le 10/11/2026) : 11,60 $ (1-200 pièces), 9,99 $ dès '
+  '1 001, certifié REACH, logo personnalisable. Attention : environ 2,5 kg, livraison plus chère. Contient du latex (caoutchouc naturel) : le préciser.',
   'Tapis Pilates PU premium'),
  ('Mini pistolet de massage 4 têtes, écran tactile — Niche : récupération après le sport',
   'https://www.alibaba.com/product-detail/Light-Mini-Massage-Gun-Lcd-Touch_1601094578732.html',
@@ -140,18 +140,19 @@ rows=[("T-shirt de sport mixte anti-odeur (ions d'argent), séchage rapide, logo
   'Fournisseur (fiche revérifiée) : 5,99-7,99 $ la pièce, minimum 20 pièces ; coût calculé sur 7,99 $. Marge 23,03 €, plus de 3 fois le coût.',
   'Mini pistolet de massage'),
  ('Lunettes de sport polarisées enveloppantes, verres miroir, plusieurs coloris — Niche : running, vélo et sport en extérieur',
-  'https://www.alibaba.com/product-detail/Yijia-Optical-Cycle-glasses-men-tr90_1600619553166.html',
+  'https://www.alibaba.com/product-detail/Mountain-Bike-Glasses-New-High-Quality_1600996492614.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  4.12,
+  2.53,
   8,
   29.9,
   'Accessoire de sport mixte avec un vrai plus : verres polarisés miroir qui enveloppent le visage, monture TR90 ultra-légère qui ne glisse pas avec la sueur, plusieurs coloris de verres. Problème : '
   'soleil et reflets qui éblouissent pendant la course ou le vélo, lunettes classiques qui tombent et laissent passer le vent, la poussière et les insectes. Waouw : le look « athlète » des photos de '
   'running et de plage (verres miroir bleus, argent, rouges). Prix en France : entrée de gamme Decathlon dès 22 €, Cébé Terra Polar 59,76 €, Surf Monkey 64,95 € → 29,90 € (prix baissé pour être sous '
-  'la concurrence). Fournisseur Yijia Optical : 4,79 $ (300-2 999 pièces). Attention : minimum 300 paires ; style inspiré des grandes marques, mais sans reprendre leur logo ni leur nom.',
+  'la concurrence). Fournisseur Xiamen Necos Optical (fiche revérifiée le 10/11/2026) : environ 2,94 $, verre écran une pièce, protections latérales anti-vent, monture TR90 ; style inspiré des '
+  'grandes marques, mais sans reprendre leur logo ni leur nom.',
   'Lunettes de sport polarisées')]

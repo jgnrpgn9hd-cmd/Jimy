@@ -149,3 +149,5 @@ Marque sport et Pilates. Fichier à rendre : « Support Scutify S01_Tableau rech
 ## Fichier à rendre refait à partir du modèle envoyé par Jairo (identique au modèle vierge) avec remplir_modele_exact.py : seul le XML des cellules B-L (lignes 6-15) et les valeurs calculées M-U changent ; tout le reste est identique à l'octet près. Valeurs vérifiées avec LibreOffice.
 
 ## Liens Alibaba visibles en entier : colonne C élargie (50), retour à la ligne, lignes 6-15 à 54 de haut (seules modifications de mise en forme).
+
+## 10/11/2026 — liens revérifiés par recherche web : 6 fiches retrouvées (chaussettes, brassière, bandes, legging, poids, pistolet). 4 remplacées par des fiches retrouvées : t-shirt 1600464054100, kit Pilates 1600138273887 (6,79 €), tapis 1601380668532 (9,98 €), lunettes 1600996492614 (2,53 €).

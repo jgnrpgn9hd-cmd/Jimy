@@ -556,7 +556,7 @@ A["Lunettes de sport polarisées"] = _B("Coureurs, cyclistes, joueurs de padel e
  "34,90 € contre 60-180 € pour Cébé, Rudy Project ou 100%.", "Le look « athlète » des verres miroir colorés en photo.",
  "Coloris de verres et logo sur la branche à ta marque.", "France : Decathlon dès 22 €, Cébé Terra Polar 59,76 €, Surf Monkey 64,95 €.",
  "⭐⭐⭐ Très Instagram, mixte, léger ; se vend en plusieurs coloris.",
- "Plutôt oui : léger et très visuel, mais minimum 300 paires.")
+ "Oui : léger et très visuel.")
 
 A.update({
 "Brassière de sport dos nu": _B("Femmes de 18 à 40 ans qui font du Pilates, du yoga ou du fitness.",
