@@ -145,3 +145,5 @@ Marque sport et Pilates. Fichier à rendre : « Support Scutify S01_Tableau rech
 À faire par Jairo : vérifier les 10 liens sur téléphone ; demander au sourcing Scutify la version ions d'argent du t-shirt (+ certificat), le MOQ des lunettes (300) et des chaussettes (50), la gravure des lignes sur le tapis ; échantillons legging, brassière et t-shirt.
 
 ## Vérification des liens (recherche web) : seul le mini pistolet (1601094578732) est indexé — 5,99-7,99 $, MOQ 20, coût mis à jour à 6,87 €. Les 9 autres fiches n'apparaissent pas dans les moteurs de recherche : à vérifier sur téléphone.
+
+## Fichier à rendre refait à partir du modèle envoyé par Jairo (identique au modèle vierge) avec remplir_modele_exact.py : seul le XML des cellules B-L (lignes 6-15) et les valeurs calculées M-U changent ; tout le reste est identique à l'octet près. Valeurs vérifiées avec LibreOffice.
