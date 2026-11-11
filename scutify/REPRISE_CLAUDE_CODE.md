@@ -151,3 +151,7 @@ Marque sport et Pilates. Fichier à rendre : « Support Scutify S01_Tableau rech
 ## Liens Alibaba visibles en entier : colonne C élargie (50), retour à la ligne, lignes 6-15 à 54 de haut (seules modifications de mise en forme).
 
 ## 10/11/2026 — liens revérifiés par recherche web : 6 fiches retrouvées (chaussettes, brassière, bandes, legging, poids, pistolet). 4 remplacées par des fiches retrouvées : t-shirt 1600464054100, kit Pilates 1600138273887 (6,79 €), tapis 1601380668532 (9,98 €), lunettes 1600996492614 (2,53 €).
+
+## 11/11/2026 — Nouvelle méthode de vérification (verifier_liens.py) : page publique alibaba.com/product-introduction/... (sans captcha). Page complète = fiche active ; 404 = supprimée ; page courte = douteuse (cas du t-shirt signalé indisponible par Jairo).
+9 fiches sur 10 ont une page complète. Seuls les poids en silicone (11000024198018) ont une page courte : à vérifier sur téléphone.
+Fournisseurs changés : t-shirt 62425576986 (séchage rapide, anti-odeur en option), kit Pilates 1600918081475, chaussettes 1601283200184, brassière SHINBENE 1601296353804, bandes LADYGLOW 60826233712, legging Aogu 1600792608872, tapis 1600710516169, lunettes Twinshield 1600520112418.

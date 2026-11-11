@@ -589,3 +589,7 @@ for _k, _v in {
  "Lunettes de sport polarisées": "29,90 € contre 60-180 € pour Cébé, Rudy Project ou 100%.",
 }.items():
     A[_k]["economique"] = _v
+
+# T-shirt : fiche fournisseur vérifiée = séchage rapide ; l'anti-odeur reste une option à demander au sourcing.
+A["T-shirt sport séchage rapide"] = dict(A["T-shirt sport mixte anti-odeur"])
+A["T-shirt sport séchage rapide"]["unique"] = "Logo imprimé à la marque ; option anti-odeur (ions d'argent) à demander au sourcing Scutify."
