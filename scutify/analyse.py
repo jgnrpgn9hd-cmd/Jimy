@@ -683,3 +683,24 @@ A["Ensemble training demi-zip"] = _B("Hommes de 20 à 40 ans qui s'entraînent e
  "49,90 € l'ensemble contre environ 80-150 € (Nike Tech, Gymshark).", "L'ensemble assorti à ton logo en photo.",
  "Ensemble à ta marque, coloris exclusifs.", "France : ensembles de training de marque environ 80-150 €.",
  "⭐⭐⭐ Gros panier, très « marque ».", "Oui : panier élevé, image premium ; stock par taille.")
+
+# ---------- Niche accessoires de bureau ----------
+def _D(cible, probleme, idee, waw, unique, preuve, potentiel):
+    return _B(cible, probleme, idee, "Évite d'acheter des marques 2 à 3 fois plus chères ; bureau plus confortable = moins de douleurs.", waw, unique, preuve, potentiel)
+A.update({
+"Station de recharge 3 en 1": _D("Télétravailleurs, étudiants, gamers équipés Apple ou Android.","3 chargeurs et des câbles partout, appareils jamais chargés.",
+ "Je veux permettre à chacun d'avoir un bureau sans câbles où tout se recharge au même endroit.","Tout charge en même temps, sans un fil.","Coloris et logo à la marque.","Stations de marque environ 40-100 €.","⭐⭐⭐ Très demandé, coût bas."),
+"Sous-main XXL cuir": _D("Télétravailleurs, étudiants, amateurs de beaux bureaux.","Bureau rayé, taché, qui fait désordre.",
+ "Je veux permettre à chacun d'avoir un bureau propre et élégant en 10 secondes.","L'avant/après du bureau en photo.","Logo gravé, 2 couleurs.","France : 34,98-37,39 €.","⭐⭐⭐ Produit d'appel très visuel."),
+"Barre lumineuse d'écran RGB": dict(A.get("Barre lumineuse d'écran", {})) or _D("Télétravailleurs et gamers.","Yeux qui piquent, maux de tête.","Je veux permettre de travailler le soir sans fatiguer ses yeux.","Lumière sans reflet + ambiance RGB.","Logo à la marque.","France : 21,59-54,99 €.","⭐⭐⭐"),
+"Support PC portable aluminium": _D("Télétravailleurs et étudiants sur portable.","Nuque et dos douloureux, écran trop bas.",
+ "Je veux permettre aux télétravailleurs de garder une bonne posture partout.","L'écran à hauteur des yeux en 2 secondes.","Logo gravé.","France : 20-35 €.","⭐⭐⭐ Simple et utile."),
+"Repose-poignets mémoire de forme": _D("Personnes qui tapent toute la journée, gamers.","Poignets douloureux, tendinites.",
+ "Je veux permettre à ceux qui tapent toute la journée de garder des poignets sans douleur.","Le poignet qui s'enfonce en douceur.","Coloris assortis au sous-main.","France : Razer 24,95 €, Fellowes 19,95 €, Logitech 18,99 €.","⭐⭐ Complète le sous-main."),
+"Tapis de souris XXL personnalisé": _D("Gamers, ados et parents qui offrent.","Tapis trop petit, bureau banal.",
+ "Je veux permettre à chaque gamer d'avoir un tapis unique, à son image.","Sa propre photo sur tout le bureau.","100 % personnalisé (critère « Unique »).","Neymo Gaming : 29,90 € et 49,90 € (personnalisé).","⭐⭐⭐ Modèle prouvé par Neymo."),
+"Organiseur bambou chargeur": _D("Télétravailleurs, amateurs de déco naturelle.","Objets éparpillés, téléphone déchargé.",
+ "Je veux permettre à chacun de ranger son bureau et recharger son téléphone au même endroit.","Tout rangé et le téléphone qui charge.","Logo gravé dans le bambou.","Organiseurs en bois avec chargeur environ 30-45 €.","⭐⭐ Joli, cadeau idéal."),
+"Plateau range-câbles": _D("Tous ceux qui ont un bureau avec ordinateur.","Câbles qui pendent, multiprise par terre.",
+ "Je veux permettre à chacun d'avoir un bureau « zéro câble » sans percer.","L'avant/après zéro câble.","Coloris noir ou blanc à la marque.","Environ 20-30 €.","⭐⭐⭐ Viral (#desksetup)."),
+})

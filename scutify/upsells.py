@@ -1,11 +1,20 @@
 # 2e produits (upsell, > 50 € autorisé), proposés après le produit principal.
 # (nom, se vend avec, problème, preuve prix France, lien Alibaba, prix fournisseur $, coût €, revente €, note)
-U = [("Pack running : t-shirt d'entraînement + short 2 en 1 + casquette",
-  'T-shirt, short, casquette',
-  'On veut une tenue de running complète et assortie, à ses couleurs, en une seule fois.',
-  'Prix séparés dans la boutique : 29,90 + 34,90 + 24,90 = 89,70 € ; tenues Nike ou On bien plus chères.',
-  'https://www.alibaba.com/product-detail/2-in-1-Men-Running-Shorts_1600202475864.html',
-  21.25,
-  18.27,
+U = [('Pack « setup parfait » : sous-main XXL + repose-poignets + barre lumineuse',
+  'Sous-main, repose-poignets, barre lumineuse',
+  "On veut transformer son bureau d'un coup, avec des accessoires assortis.",
+  'Prix séparés dans la boutique : 29,90 + 24,90 + 34,90 = 89,70 €.',
+  'https://www.alibaba.com/product-detail/In-Stock-PU-Leather-Dual-Sided_1600426601021.html',
+  17.26,
+  14.84,
   69.9,
-  'T-shirt (7,37 €) + short (8,34 €) + casquette (2,56 €), déjà dans la liste. Marge 51,63 €.')]
+  'Sous-main (2,73 €) + repose-poignets (3,86 €) + barre lumineuse (8,25 €). Marge 55,06 €.'),
+ ('Pack bureau sans câbles : station 3 en 1 + plateau range-câbles + organiseur bambou',
+  'Station 3 en 1, range-câbles, organiseur',
+  'On veut un bureau « zéro câble » comme sur TikTok.',
+  'Prix séparés : 34,90 + 24,90 + 34,90 = 94,70 €.',
+  'https://www.alibaba.com/product-detail/Wood-Storage-box-office-desk-organizer_1600796464373.html',
+  12.68,
+  10.9,
+  74.9,
+  'Station (3,97 €) + range-câbles (2,37 €) + organiseur (4,56 €). Marge 64,00 €.')]

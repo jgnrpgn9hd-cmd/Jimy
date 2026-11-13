@@ -175,3 +175,6 @@ Fournisseurs changés : t-shirt 62425576986 (séchage rapide, anti-odeur en opti
 ## 13/11/2026 — Cible validée par Jairo : HOMME TRAINING / RUNNING. Liste : t-shirt sans couture, short 2 en 1, mini pistolet (récupération, lien qui marchait), veste coupe-vent, gobelet, haut demi-zip, sac, gilet d'hydratation (1601644236868, min. 500), casquette, lunettes iRun. Tapis et chaussettes Pilates retirés ; mini reformer retiré des 2e produits (reste : Pack running 69,90 €).
 
 ## Veste (1601972754417, 7,31 €) et ensemble demi-zip haut + pantalon (1600669525223, 12,90 €, revente 49,90 €, note 7,5) choisis par Jairo.
+
+## 13/11/2026 — NOUVELLE NICHE choisie par Jairo : ACCESSOIRES DE BUREAU (inspiration Neymo Gaming). Liste précédente (homme running) gardée dans produits_running.py / upsells_running.py.
+1 Station 3 en 1 · 2 Sous-main XXL cuir · 3 Barre lumineuse RGB · 4 Support PC alu · 5 Repose-poignets · 6 Tapis de souris XXL personnalisé · 7 Organiseur bambou chargeur · 8 Plateau range-câbles · 9 Chauffe-tasse · 10 Masseur cervical. 2e produits : Pack setup parfait 69,90 €, Pack bureau sans câbles 74,90 €.
