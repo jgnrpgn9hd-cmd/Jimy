@@ -139,18 +139,18 @@ rows=[('T-shirt oversize « pump cover » délavé (acid wash), coton épais, co
   "Problème : courbatures après le sport. Waw : le muscle qui ondule à l'écran. Prix en France : sans marque 30-50 €, marques 65-190 € → 29,90 € (prix baissé pour être sous la concurrence) honnête. "
   'Fournisseur BISD (fiche vérifiée le 11/11/2026) : 6,64 $ (1-499 pièces), certifié CE.',
   'Mini pistolet de massage'),
- ('Lunettes de sport polarisées enveloppantes, verres miroir, plusieurs coloris — Niche : running, vélo et sport en extérieur',
-  'https://www.alibaba.com/product-detail/YUEDIO-Custom-Polarized-sports-cycling-sunglasses_1601036363271.html',
+ ('Lunettes de sport iRun polarisées, écran enveloppant, logo à la marque — Niche : running, vélo et sport en extérieur',
+  'https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  4.3,
+  6.43,
   8,
   29.9,
-  'Accessoire de sport mixte : verres polarisés interchangeables, monture TR90 légère qui ne glisse pas avec la sueur, normes CE et ANSI Z87.1, logo personnalisé. Problème : soleil et reflets qui '
-  'éblouissent en courant ou à vélo, lunettes qui tombent. Waouw : le look « athlète » avec verres miroir colorés. Prix en France : Decathlon dès 22 €, Cébé 59,76 €, Surf Monkey 64,95 € → 29,90 €. '
-  'Fournisseur YUEDIO (Shenzhen Ledong, fiche vérifiée le 13/11/2026) : 5 $ (100-2 999 pièces).',
+  'Modèle choisi par Jairo. Lunettes de sport enveloppantes, verres polarisés UV400, pour le running, le vélo, le padel et le pickleball ; logo, motif et emballage personnalisés dès 100 pièces. '
+  'Problème : soleil et reflets qui éblouissent pendant le sport, lunettes qui glissent avec la sueur. Waouw : le look « athlète » des photos de running et de plage. Prix en France : Decathlon dès '
+  '22 €, Cébé 59,76 €, Surf Monkey 64,95 € → 29,90 €. Fournisseur iRun : 7,48 $ (500-999 pièces), 6,70 $ dès 10 000. Attention : minimum 500 pièces, à négocier avec le sourcing Scutify.',
   'Lunettes de sport polarisées')]

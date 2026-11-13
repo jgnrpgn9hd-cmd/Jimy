@@ -159,3 +159,5 @@ Fournisseurs changés : t-shirt 62425576986 (séchage rapide, anti-odeur en opti
 ## 13/11/2026 — Montée en gamme : t-shirt 100 % à ton design (dinsungo 1600179459632, 6,87 €) ; legging SHINBENE Classic 3.0 (1600198277985, 5,15 €), même fabricant que la brassière ; ensemble brassière + legging mis à jour (marge 43,74 €).
 
 ## 13/11/2026 — Jairo : tout marche sauf les lunettes (Twinshield) ; t-shirt jugé démodé. T-shirt → oversize acid wash « pump cover » (EASTBAY SPORTS 10000024543437, 8,17 €, revente 32,90 €). Lunettes → YUEDIO YD01 (1601036363271, 4,30 €). NB : la vérif « page complète » n'est pas fiable à 100 % (Twinshield complète mais indisponible ; poids page courte mais OK).
+
+## Lunettes : modèle iRun choisi par Jairo (1601430271723), 7,48 $ dès 500 pièces → 6,43 €.
