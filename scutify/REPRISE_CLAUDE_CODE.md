@@ -161,3 +161,5 @@ Fournisseurs changés : t-shirt 62425576986 (séchage rapide, anti-odeur en opti
 ## 13/11/2026 — Jairo : tout marche sauf les lunettes (Twinshield) ; t-shirt jugé démodé. T-shirt → oversize acid wash « pump cover » (EASTBAY SPORTS 10000024543437, 8,17 €, revente 32,90 €). Lunettes → YUEDIO YD01 (1601036363271, 4,30 €). NB : la vérif « page complète » n'est pas fiable à 100 % (Twinshield complète mais indisponible ; poids page courte mais OK).
 
 ## Lunettes : modèle iRun choisi par Jairo (1601430271723), 7,48 $ dès 500 pièces → 6,43 €.
+
+## T-shirt : style « technique ajusté » choisi par Jairo → t-shirt running à bandes réfléchissantes (1601429490635), 5,05 €, revente 29,90 €.

@@ -611,3 +611,10 @@ A["T-shirt oversize délavé (pump cover)"] = _B("Hommes et femmes de 18 à 35 a
  "Ton logo imprimé, coloris délavés exclusifs, emballage à ta marque dès 1 pièce.",
  "France : Bulk 34,99 €, Champion 30,95-42,95 €, Represent 247 58 €, Gymshark Heavyweight Washed.",
  "⭐⭐⭐ Tendance forte, mixte, image de marque.", "Plutôt oui : très tendance, mais stock par taille.")
+
+A["T-shirt running technique réfléchissant"] = _B("Coureurs et sportifs, hommes et femmes, qui s'entraînent tôt le matin ou le soir.",
+ "Courir dans le noir sans être vu ; t-shirts en coton lourds, trempés et qui collent.",
+ "Je veux permettre aux coureurs de s'entraîner en sécurité et au sec, avec un t-shirt technique aussi beau que celui des grandes marques.",
+ "29,90 € contre 30-38 € (Nike Dri-FIT) et 39,90 € (Kiprun Run 900).", "Le t-shirt qui s'illumine dans les phares, filmé de nuit.",
+ "Couleurs, matière et logo à la marque dès 20 pièces.", "France : Nike Dri-FIT 30-38 €, Kiprun Run 900 39,90 €.",
+ "⭐⭐⭐ Mixte, utile et visuel ; va avec les lunettes de running.")

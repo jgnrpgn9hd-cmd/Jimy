@@ -1,23 +1,22 @@
 # Marque sport et bien-être : accessoires (running, Pilates, fitness) + 1 vêtement, chacun avec un vrai plus.
 # Ligne 1 : livraison > 6 (formule différente du modèle en ligne 6).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
-rows=[('T-shirt oversize « pump cover » délavé (acid wash), coton épais, coupe mixte, ton logo — Niche : vêtement de sport et streetwear mixte',
-  'https://www.alibaba.com/product-detail/Custom-Made-Oversized-Vintage-Acid-Wash_10000024543437.html',
+rows=[('T-shirt de running technique ajusté, mixte, bandes réfléchissantes, maille respirante, ton logo — Niche : running et sport',
+  'https://www.alibaba.com/product-detail/High-Quality-Running-T-Shirts-With_1601429490635.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  8.17,
+  5.05,
   9,
-  32.9,
-  'Le t-shirt tendance des salles de sport et des réseaux (style Represent, Gymshark Heavyweight Washed) : coupe oversize épaules tombantes, coton 100 % épais, effet délavé vintage, mixte. '
-  "Particularité sport : le « pump cover », large et épais, qu'on porte pendant et après la séance, beau même en sortant de la salle. Problème : les t-shirts de sport classiques sont moulants, fins "
-  'et « démodés » ; on veut un t-shirt qui fait style dehors aussi. Waouw : le look streetwear-gym des photos Instagram, avec ton logo. Prix en France : Bulk 34,99 €, Champion 30,95-42,95 €, '
-  'Represent 247 58 €, GCDS délavé 77 € → 32,90 €. Fournisseur EASTBAY SPORTS (prêt à expédier) : 9,50 $ (25-99 pièces), 6,50 $ dès 100, logo et emballage personnalisés dès 1 pièce, tailles XXS à '
-  '5XL.',
-  'T-shirt oversize délavé (pump cover)'),
+  29.9,
+  'T-shirt technique ajusté style Nike Dri-FIT, avec une vraie particularité sport : des bandes réfléchissantes pour être vu des voitures quand on court tôt le matin ou le soir, et une maille '
+  "élastique qui respire et sèche vite. Problème : courir dans le noir sans être vu, t-shirts en coton lourds et trempés de sueur. Waouw : le t-shirt qui s'illumine dans les phares en vidéo de nuit, "
+  'avec ton logo et tes couleurs. Prix en France : Nike Dri-FIT 30-38 €, Kiprun Run 900 39,90 € → 29,90 €. Fournisseur (Ready to Ship, fiche vérifiée le 13/11/2026) : 5,87 $ (2-99 pièces), 5,32 $ '
+  'dès 100 ; couleurs, matière et impression personnalisées dès 20 pièces.',
+  'T-shirt running technique réfléchissant'),
  ('Kit barre Pilates 13 pièces + élastiques + programme — Niche : sport à la maison',
   'https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html',
   'OUI',
