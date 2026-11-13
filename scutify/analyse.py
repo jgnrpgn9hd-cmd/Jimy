@@ -618,3 +618,10 @@ A["T-shirt running technique réfléchissant"] = _B("Coureurs et sportifs, homme
  "29,90 € contre 30-38 € (Nike Dri-FIT) et 39,90 € (Kiprun Run 900).", "Le t-shirt qui s'illumine dans les phares, filmé de nuit.",
  "Couleurs, matière et logo à la marque dès 20 pièces.", "France : Nike Dri-FIT 30-38 €, Kiprun Run 900 39,90 €.",
  "⭐⭐⭐ Mixte, utile et visuel ; va avec les lunettes de running.")
+
+A["T-shirt d'entraînement ajusté"] = _B("Hommes et femmes qui vont à la salle, au running ou au crossfit.",
+ "T-shirts de sport trop larges, ou en coton qui colle et reste trempé.",
+ "Je veux permettre aux sportifs d'avoir un t-shirt d'entraînement ajusté, sobre et haut de gamme, au prix d'un basique.",
+ "24,90 € contre environ 20-30 € (Myprotein hors promo) et 30 € (Gymshark).", "La silhouette « athlète », look minimaliste avec petit logo.",
+ "Petit logo brodé, coloris neutres à la marque (sable, noir, kaki).", "France : Myprotein 12,50 € en promo, Gymshark environ 30 €.",
+ "⭐⭐⭐ Basique indispensable, rachat fréquent (plusieurs couleurs).")

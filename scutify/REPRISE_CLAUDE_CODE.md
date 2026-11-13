@@ -163,3 +163,5 @@ Fournisseurs changés : t-shirt 62425576986 (séchage rapide, anti-odeur en opti
 ## Lunettes : modèle iRun choisi par Jairo (1601430271723), 7,48 $ dès 500 pièces → 6,43 €.
 
 ## T-shirt : style « technique ajusté » choisi par Jairo → t-shirt running à bandes réfléchissantes (1601429490635), 5,05 €, revente 29,90 €.
+
+## T-shirt : modèle d'inspiration Myprotein (photo de Jairo) → t-shirt d'entraînement ajusté stretch (1600996990256), 3,44 €, revente 24,90 €.
