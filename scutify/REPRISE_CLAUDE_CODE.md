@@ -178,3 +178,5 @@ Fournisseurs changés : t-shirt 62425576986 (séchage rapide, anti-odeur en opti
 
 ## 13/11/2026 — NOUVELLE NICHE choisie par Jairo : ACCESSOIRES DE BUREAU (inspiration Neymo Gaming). Liste précédente (homme running) gardée dans produits_running.py / upsells_running.py.
 1 Station 3 en 1 · 2 Sous-main XXL cuir · 3 Barre lumineuse RGB · 4 Support PC alu · 5 Repose-poignets · 6 Tapis de souris XXL personnalisé · 7 Organiseur bambou chargeur · 8 Plateau range-câbles · 9 Chauffe-tasse · 10 Masseur cervical. 2e produits : Pack setup parfait 69,90 €, Pack bureau sans câbles 74,90 €.
+
+## 13/11/2026 — « Il faut que ça réponde à une problématique » : niche resserrée sur BUREAU SANS DOULEUR. 1 Souris verticale · 2 Support PC · 3 Repose-poignets · 4 Coussin lombaire · 5 Coussin coccyx · 6 Repose-pieds · 7 Barre lumineuse · 8 Lunettes anti-lumière bleue · 9 Masseur cervical · 10 Luminothérapie. 2e produits : Pack dos et nuque 64,90 €, Pack poignets et yeux 69,90 €. Version précédente : produits_bureau_v1.py.

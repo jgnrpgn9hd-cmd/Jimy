@@ -704,3 +704,24 @@ A.update({
 "Plateau range-câbles": _D("Tous ceux qui ont un bureau avec ordinateur.","Câbles qui pendent, multiprise par terre.",
  "Je veux permettre à chacun d'avoir un bureau « zéro câble » sans percer.","L'avant/après zéro câble.","Coloris noir ou blanc à la marque.","Environ 20-30 €.","⭐⭐⭐ Viral (#desksetup)."),
 })
+
+A.update({
+"Souris verticale ergonomique": _B("Télétravailleurs, étudiants, gamers qui passent des heures à la souris.",
+ "Douleur au poignet, tendinite, canal carpien.",
+ "Je veux permettre à ceux qui travaillent sur ordinateur de finir leurs journées sans douleur au poignet.",
+ "Moins de kiné ; 29,90 € contre 60-90 € pour une Logitech MX Vertical.", "Avant/après de la position du poignet.",
+ "Logo à la marque.", "France : Perixx 22,99-39,99 €, Logitech MX Vertical 59,99-89,95 €.", "⭐⭐⭐ Douleur fréquente, bénéfice évident."),
+"Coussin lombaire mémoire de forme": _B("Télétravailleurs, chauffeurs, étudiants.",
+ "Bas du dos douloureux après des heures assis.",
+ "Je veux permettre à ceux qui restent assis toute la journée de garder un dos sans douleur.",
+ "Moins d'ostéo (50-70 € la séance) ; évite une chaise ergonomique à 300 €.", "Avant/après de la posture de profil.",
+ "Housse et logo à la marque.", "Coussins ergonomiques environ 25-35 €.", "⭐⭐⭐ Mal de dos = douleur n°1 du bureau."),
+"Repose-pieds ergonomique": _B("Personnes petites ou avec bureau haut, télétravailleurs.",
+ "Jambes lourdes, pieds qui ne touchent pas le sol, dos qui compense.",
+ "Je veux permettre à chacun d'être bien assis, pieds posés, sans jambes lourdes.",
+ "Évite un fauteuil ergonomique ; 29,90 €.", "Le confort immédiat en vidéo.", "Housse à la marque.", "Repose-pieds environ 25-40 €.", "⭐⭐ Complète le coussin lombaire."),
+"Lunettes anti-lumière bleue": _B("Tous ceux qui passent plus de 6 h par jour sur écran.",
+ "Yeux secs, maux de tête, mauvais sommeil.",
+ "Je veux permettre aux gens sur écran de reposer leurs yeux et de mieux dormir.",
+ "24,90 € contre 40-100 € chez l'opticien.", "Le test du filtre à la lampe bleue.", "Étui et logo à la marque.", "Environ 20-40 €.", "⭐⭐ Léger, coût très bas."),
+})
