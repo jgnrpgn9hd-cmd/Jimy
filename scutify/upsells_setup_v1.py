@@ -1,0 +1,20 @@
+# 2e produits (upsell, > 50 € autorisé), proposés après le produit principal.
+# (nom, se vend avec, problème, preuve prix France, lien Alibaba, prix fournisseur $, coût €, revente €, note)
+U = [('Pack « setup clean » : station 3 en 1 + plateau range-câbles + support casque + tiroir caché',
+  'Station, range-câbles, support casque, tiroir',
+  'On veut un setup « zéro câble, zéro bazar » comme sur TikTok.',
+  'Prix séparés : 34,90 + 24,90 + 22,90 + 22,90 = 105,60 €.',
+  'https://www.alibaba.com/product-detail/No-Drill-Wire-Mesh-Trays-Under_1601281002565.html',
+  11.21,
+  9.56,
+  69.9,
+  'Station (3,97 €) + range-câbles (2,37 €) + support casque (1,50 €) + tiroir (1,72 €). Marge 60,34 €.'),
+ ('Pack « ambiance et yeux » : barre lumineuse + bande LED rétroéclairage',
+  'Barre lumineuse, bande LED',
+  'On veut un setup qui ne fatigue pas les yeux et qui en jette le soir.',
+  'Prix séparés : 34,90 + 34,90 = 69,80 €.',
+  'https://www.alibaba.com/product-detail/PC-sync-backlight-for-monitor-ambient_1601252593551.html',
+  18.59,
+  15.99,
+  54.9,
+  'Barre (8,25 €) + bande LED (7,74 €). Marge 38,91 €.')]
