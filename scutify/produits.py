@@ -45,21 +45,21 @@ rows=[("T-shirt d'entraînement sans couture, coupe athlétique, dry fit, ton lo
   "Problème : courbatures après le sport. Waw : le muscle qui ondule à l'écran. Prix en France : sans marque 30-50 €, marques 65-190 € → 29,90 € (prix baissé pour être sous la concurrence) honnête. "
   'Fournisseur BISD (fiche vérifiée le 11/11/2026) : 6,64 $ (1-499 pièces), certifié CE.',
   'Mini pistolet de massage'),
- ("Veste coupe-vent de running ultra-légère, respirante et déperlante, ton logo — Niche : running toute l'année",
-  'https://www.alibaba.com/product-detail/Mens-Jackets-Custom-Logo-Athletic-Fitness_1600626499514.html',
+ ("Veste coupe-vent col montant, déperlante, ultra-légère, ta marque (private label) — Niche : running et training toute l'année",
+  'https://www.alibaba.com/product-detail/Custom-Jacket-Windbreaker-Stand-Collar-Water_1601972754417.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  10.23,
+  7.31,
   8,
   44.9,
-  "Inspiré d'ACT Running (Paris) : la veste fine qu'on garde toute l'année. Problème : avoir froid au départ puis trop chaud, vent et petite pluie qui gâchent la sortie. Waouw : la veste qui se plie "
-  'dans la poche et ne pèse presque rien. Prix en France : Kiprun 19,99-29,99 €, Nike 86,99-110 €, ACT Running environ 150 € → 44,90 €. Fournisseur Guangzhou Jinfeng : 11,90 $ (5-49 pièces), 100 % '
-  'polyester, séchage rapide, logo personnalisé.',
-  'Veste coupe-vent running'),
+  'Modèle choisi par Jairo. Veste coupe-vent à col montant, déperlante (résiste à la petite pluie), antistatique, très légère, vendue en marque privée (ton logo et ton étiquette). Problème : vent et '
+  "petite pluie qui gâchent la sortie, froid au départ. Waouw : la veste fine et nette au look « premium » d'ACT Running. Prix en France : Kiprun 19,99-29,99 €, Nike 86,99-110 €, ACT Running environ "
+  '150 € → 44,90 €. Fournisseur : 8,50 $ (10-49 pièces), 7,90 $ dès 50.',
+  'Veste coupe-vent col montant'),
  ('Gobelet isotherme 1,2 L avec poignée et paille, acier inoxydable, ton logo — Niche : hydratation tendance',
   'https://www.alibaba.com/product-detail/40oz-Tumbler-with-Handle-and-Straw_1601725774684.html',
   'OUI',
@@ -75,21 +75,22 @@ rows=[("T-shirt d'entraînement sans couture, coupe athlétique, dry fit, ton lo
   'plastique. Waouw : la glace encore là après des heures, le gobelet assorti à la tenue en photo. Prix en France : Orion 27,99 €, Stanley Quencher 40,78-53,56 € → 29,90 €. Fournisseur (Ready to '
   'Ship, fiche vérifiée le 13/11/2026) : 2,41 $ (2-999 pièces), logo personnalisé. Inspiré du style, sans reprendre le nom ni le logo Stanley. Plus volumineux : livraison un peu plus chère.',
   'Gobelet isotherme 1,2 L'),
- ('Haut de running manches longues demi-zip, ajusté, séchage rapide, ton logo — Niche : running et training',
-  'https://www.alibaba.com/product-detail/Quick-Dry-Running-Shirt-Men-mens_1600132015048.html',
+ ('Ensemble training demi-zip (haut + pantalon), tissu séchage rapide, look haut de gamme, ta marque — Niche : training et running',
+  'https://www.alibaba.com/product-detail/Luxury-Custom-Sport-Zip-Collar-Golf_1600669525223.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  8.47,
-  9,
-  39.9,
-  'La pièce phare des marques de running haut de gamme (ACT, Circle, Myprotein Velocity) : manches longues, col demi-zip pour réguler la chaleur, coupe ajustée, tissu qui sèche vite. Problème : '
-  'avoir froid au début de la sortie puis trop chaud, t-shirts trop légers en hiver. Waouw : la silhouette « athlète » en photo, avec la casquette et les lunettes. Prix en France : Myprotein '
-  'demi-zip environ 40-50 €, Nike environ 65 € → 39,90 €. Fournisseur Guangzhou Jinfeng : 9,85 $ (5-49 pièces), logo personnalisé.',
-  'Haut running demi-zip'),
+  12.9,
+  7,
+  49.9,
+  'Modèle choisi par Jairo. Ensemble deux pièces : haut col zippé + pantalon, tissu technique qui sèche vite, style « luxe » des marques de training (look Vuori / Represent). Problème : tenues de '
+  "sport dépareillées ; on veut une tenue complète qui fait propre à l'entraînement et dans la rue. Waouw : l'ensemble assorti à ton logo en photo. Prix en France : ensembles de training de marque "
+  'environ 80-150 € (Nike Tech, Gymshark) → 49,90 €. Fournisseur : 15 $ (50-999 pièces), 10 $ dès 1 000 ; personnalisation dès 50 pièces. Note du tableau 7,5 : la marge (37 €) est un peu sous 3 fois '
+  'le coût.',
+  'Ensemble training demi-zip'),
  ('Sac de sport avec compartiment chaussures séparé, ton logo — Niche : salle de sport et Pilates',
   'https://www.alibaba.com/product-detail/custom-portable-duffle-gym-sports-sneaker_60496480489.html',
   'OUI',

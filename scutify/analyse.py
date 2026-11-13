@@ -674,3 +674,12 @@ A["Gilet d'hydratation running"] = _B("Coureurs de 10 km, semi-marathon et trail
  "39,90 € contre 49,99-79,99 € (Kiprun) et 159,99 € (Salomon).", "Boire en courant sans s'arrêter.",
  "Logo et coloris à la marque.", "France : Kiprun 900 Race 49,99-60 €, Proteam 79,99 €, Salomon ADV Skin 159,99 €.",
  "⭐⭐ Équipement de passionné ; minimum 500 pièces.", "Plutôt oui : vraie demande, mais minimum 500 pièces.")
+
+A["Veste coupe-vent col montant"] = dict(A["Veste coupe-vent running"])
+A["Veste coupe-vent col montant"].update(economique="44,90 € contre 86,99-110 € (Nike) et environ 150 € (ACT Running).", unique="Marque privée : ton logo et ton étiquette.")
+A["Ensemble training demi-zip"] = _B("Hommes de 20 à 40 ans qui s'entraînent et aiment être bien habillés.",
+ "Tenues de sport dépareillées ; on veut une tenue complète qui fait propre à la salle et dehors.",
+ "Je veux permettre aux sportifs d'avoir un ensemble de training haut de gamme assorti, à moitié prix des grandes marques.",
+ "49,90 € l'ensemble contre environ 80-150 € (Nike Tech, Gymshark).", "L'ensemble assorti à ton logo en photo.",
+ "Ensemble à ta marque, coloris exclusifs.", "France : ensembles de training de marque environ 80-150 €.",
+ "⭐⭐⭐ Gros panier, très « marque ».", "Oui : panier élevé, image premium ; stock par taille.")
