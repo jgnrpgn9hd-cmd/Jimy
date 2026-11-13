@@ -1,4 +1,4 @@
-# Marque sport et bien-être : accessoires (running, Pilates, fitness) + 1 vêtement, chacun avec un vrai plus.
+# Marque homme training / running : vêtements et accessoires, chacun avec un vrai plus.
 # Ligne 1 : livraison > 6 (formule différente du modèle en ligne 6).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
 rows=[("T-shirt d'entraînement sans couture, coupe athlétique, dry fit, ton logo — Niche : vêtement de sport (style Myprotein / Gymshark)",
@@ -31,22 +31,20 @@ rows=[("T-shirt d'entraînement sans couture, coupe athlétique, dry fit, ton lo
   'qui rebondit dans la poche, short qui remonte en courant ou à la salle. Waouw : le téléphone qui ne bouge pas pendant le sprint, en vidéo. Prix en France : Decathlon environ 25 €, Gymshark '
   'environ 40 €, On 70 € → 34,90 €. Fournisseur (Ready to Ship, fiche vérifiée le 13/11/2026) : 9,70 $ (1-49 pièces), logo dès 1 pièce.',
   'Short 2 en 1 poche téléphone'),
- ('Lot de 3 paires de chaussettes de Pilates antidérapantes, logo brodé mixtes — Niche : Pilates et yoga',
-  'https://www.alibaba.com/product-detail/Factory-high-quality-wholesale-grip-socks_1601283200184.html',
+ ('Mini pistolet de massage 4 têtes, écran tactile — Niche : récupération après le sport',
+  'https://www.alibaba.com/product-detail/Light-Mini-Massage-Gun-Lcd-Touch_1601094578732.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  4.0,
-  9,
-  24.9,
-  'Accessoire indispensable du Pilates (beaucoup de studios les exigent) avec un plus : coton, picots antidérapants et logo brodé de ta marque, style « Pilates Club » très tendance sur Instagram. '
-  'Problème : on glisse sur le tapis ou le reformer, pieds nus pas hygiéniques en studio, chaussettes classiques qui dérapent. Waouw : les chaussettes assorties à la tenue en photo de Pilates. Prix '
-  'en France : Sveltus 11,99 € la paire, Sissel 13,99 €, Moonchild 15,20-19 € la paire → 24,90 € le lot de 3 (8,30 € la paire). Fournisseur (fiche vérifiée le 11/11/2026) : chaussettes '
-  'antidérapantes à logo brodé, 1,55 $ la paire (200-499 paires), soit 4,00 € le lot de 3.',
-  'Chaussettes de Pilates (lot de 3)'),
+  5.71,
+  8,
+  29.9,
+  "Problème : courbatures après le sport. Waw : le muscle qui ondule à l'écran. Prix en France : sans marque 30-50 €, marques 65-190 € → 29,90 € (prix baissé pour être sous la concurrence) honnête. "
+  'Fournisseur BISD (fiche vérifiée le 11/11/2026) : 6,64 $ (1-499 pièces), certifié CE.',
+  'Mini pistolet de massage'),
  ("Veste coupe-vent de running ultra-légère, respirante et déperlante, ton logo — Niche : running toute l'année",
   'https://www.alibaba.com/product-detail/Mens-Jackets-Custom-Logo-Athletic-Fitness_1600626499514.html',
   'OUI',
@@ -107,8 +105,8 @@ rows=[("T-shirt d'entraînement sans couture, coupe athlétique, dry fit, ton lo
   'vêtements trempés mélangés aux affaires propres, mauvaises odeurs. Waouw : tout rangé à sa place en vidéo, sac sobre à ton logo. Prix en France : 21,95-49,99 € (Amazon), Decathlon 27,99-74,99 € → '
   '34,90 €. Fournisseur Shenzhen Allwin (fiche vérifiée le 13/11/2026) : 7,54 $ (300-999 pièces). Attention : minimum 300 sacs.',
   'Sac de sport compartiment chaussures'),
- ('Tapis de Pilates et yoga premium en PU et caoutchouc naturel, logo gravé — Niche : Pilates et yoga au sol',
-  'https://www.alibaba.com/product-detail/Eco-Friendly-Non-Slip-Custom-Print_1600710516169.html',
+ ("Gilet d'hydratation de running avec flasque souple 500 ml et poche téléphone — Niche : running longue distance",
+  'https://www.alibaba.com/product-detail/Trail-Running-Vest-Hydration-Vest-Adjustable_1601644236868.html',
   'OUI',
   'OUI',
   'OUI',
@@ -116,13 +114,12 @@ rows=[("T-shirt d'entraînement sans couture, coupe athlétique, dry fit, ton lo
   'OUI',
   'NON',
   8.59,
-  5,
-  49.9,
-  "Version haut de gamme du tapis : surface PU qui accroche même les mains moites, base en caoutchouc naturel qui ne glisse pas, logo gravé (option à partir de 0,20 $ par pièce). Lignes d'alignement "
-  "à faire graver avec le logo, à confirmer avec le fournisseur. Problème : tapis en mousse qui glissent, s'abîment et font « bas de gamme ». Waouw : le tapis des studios de Pilates, avec ta marque "
-  'gravée. Prix en France : tapis PU et caoutchouc 85-140 € (Decathlon marketplace, Achamana) → 49,90 €. Fournisseur (fiche vérifiée le 11/11/2026) : tapis PU et caoutchouc antidérapant, impression '
-  'personnalisée, 9,99 $ (100-499 pièces), logo dès 200 pièces.',
-  'Tapis Pilates PU premium'),
+  8,
+  39.9,
+  "L'équipement des coureurs qui font plus de 10 km : gilet léger ajusté avec flasque souple à l'avant et poche pour le téléphone, sans rebond. Problème : soif et coup de fatigue sur les longues "
+  "sorties, mains prises par la bouteille, téléphone qui saute. Waouw : boire en courant sans s'arrêter, tout est à portée de main. Prix en France : Kiprun 900 Race 49,99-60 €, Kiprun Proteam 79,99 "
+  '€, Salomon ADV Skin 159,99 € → 39,90 €. Fournisseur : 5,49-9,99 $ (coût calculé sur 9,99 $), logo dès 500 pièces. Attention : minimum 500 pièces, à négocier avec le sourcing Scutify.',
+  "Gilet d'hydratation running"),
  ('Casquette de running ultra-légère, perforations laser, séchage rapide, ton logo — Niche : running et sport en extérieur',
   'https://www.alibaba.com/product-detail/Custom-Logo-Quick-Dry-Running-Cap_1600612754499.html',
   'OUI',

@@ -171,3 +171,5 @@ Fournisseurs changés : t-shirt 62425576986 (séchage rapide, anti-odeur en opti
 ## 13/11/2026 — Remplacés (demande de Jairo) : kit Pilates → short 2 en 1 (1600202475864), bandes → gobelet isotherme 1,2 L (1601725774684), poids → sac de sport compartiment chaussures (60496480489, min. 300), pistolet → casquette running (1600612754499). Pack Pilates remplacé par Pack running 69,90 € en 2e produit.
 
 ## 13/11/2026 — Cap homme / mixte, inspiré d'ACT Running et de Fitt Insider (Pilates mixte). Brassière → veste coupe-vent (1600626499514), legging → haut running demi-zip (1600132015048). Ensemble brassière + legging retiré des 2e produits.
+
+## 13/11/2026 — Cible validée par Jairo : HOMME TRAINING / RUNNING. Liste : t-shirt sans couture, short 2 en 1, mini pistolet (récupération, lien qui marchait), veste coupe-vent, gobelet, haut demi-zip, sac, gilet d'hydratation (1601644236868, min. 500), casquette, lunettes iRun. Tapis et chaussettes Pilates retirés ; mini reformer retiré des 2e produits (reste : Pack running 69,90 €).

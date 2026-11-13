@@ -667,3 +667,10 @@ A.update({
  "39,90 € contre environ 65 € (Nike) et 40-50 € (Myprotein).", "La silhouette « athlète » avec casquette et lunettes.",
  "Logo et coloris à la marque.", "France : Myprotein demi-zip environ 40-50 €, Nike environ 65 €.", "⭐⭐⭐ Pièce tendance des marques running."),
 })
+
+A["Gilet d'hydratation running"] = _B("Coureurs de 10 km, semi-marathon et trail.",
+ "Soif sur les longues sorties, mains prises par la bouteille, téléphone qui saute.",
+ "Je veux permettre aux coureurs de boire et garder leur téléphone sans s'arrêter ni être gênés.",
+ "39,90 € contre 49,99-79,99 € (Kiprun) et 159,99 € (Salomon).", "Boire en courant sans s'arrêter.",
+ "Logo et coloris à la marque.", "France : Kiprun 900 Race 49,99-60 €, Proteam 79,99 €, Salomon ADV Skin 159,99 €.",
+ "⭐⭐ Équipement de passionné ; minimum 500 pièces.", "Plutôt oui : vraie demande, mais minimum 500 pièces.")
