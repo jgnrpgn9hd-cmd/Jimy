@@ -603,3 +603,11 @@ A["Legging SHINBENE taille haute"].update(
  preuve="France : Decathlon 38,99 €, Gymshark 60 €, Lululemon Align plus de 100 €.")
 A["T-shirt sport séchage rapide"]["unique"] = "T-shirt fait à ton design (logo, motif, couleurs, emballage) dès 10 pièces ; option anti-odeur à demander au sourcing."
 A["T-shirt de sport mixte à ton design"] = dict(A["T-shirt sport séchage rapide"])
+
+A["T-shirt oversize délavé (pump cover)"] = _B("Hommes et femmes de 18 à 35 ans qui vont à la salle et suivent la mode streetwear.",
+ "T-shirts de sport moulants, fins et démodés ; on veut un t-shirt qui fait style à la salle et dehors.",
+ "Je veux permettre aux sportifs d'avoir le look des marques de gym tendance, en coton épais et délavé, à un prix accessible.",
+ "32,90 € contre 34,99 € (Bulk), 58 € (Represent) et 77 € (GCDS).", "Le look oversize délavé des photos de salle sur Instagram.",
+ "Ton logo imprimé, coloris délavés exclusifs, emballage à ta marque dès 1 pièce.",
+ "France : Bulk 34,99 €, Champion 30,95-42,95 €, Represent 247 58 €, Gymshark Heavyweight Washed.",
+ "⭐⭐⭐ Tendance forte, mixte, image de marque.", "Plutôt oui : très tendance, mais stock par taille.")

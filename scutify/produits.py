@@ -1,23 +1,23 @@
 # Marque sport et bien-être : accessoires (running, Pilates, fitness) + 1 vêtement, chacun avec un vrai plus.
 # Ligne 1 : livraison > 6 (formule différente du modèle en ligne 6).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
-rows=[('T-shirt de sport mixte à ton design (coupe, couleurs, logo), tissu respirant séchage rapide — Niche : vêtement de sport mixte',
-  'https://www.alibaba.com/product-detail/Fast-drying-breathable-personalized-customized-sublimation_1600179459632.html',
+rows=[('T-shirt oversize « pump cover » délavé (acid wash), coton épais, coupe mixte, ton logo — Niche : vêtement de sport et streetwear mixte',
+  'https://www.alibaba.com/product-detail/Custom-Made-Oversized-Vintage-Acid-Wash_10000024543437.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  6.87,
+  8.17,
   9,
-  29.9,
-  "Vêtement mixte avec une vraie particularité : traité aux ions d'argent, il ne garde pas l'odeur de transpiration, même après plusieurs séances, et sèche en quelques minutes. Problème : t-shirts "
-  "de sport qui sentent mauvais même lavés, qui collent et restent mouillés. Waouw : le test « sentir le t-shirt après la séance » en vidéo, et le t-shirt qui sèche à vue d'œil. Prix en France : "
-  'Odlo F-Dry 21,99-44 €, Champion Athletic 30 €, Montura Slide 38,50-55 €, Brooks Luxe 50 € → 29,90 € (prix baissé pour être sous la concurrence). Fournisseur dinsungo (fiche vérifiée le '
-  "13/11/2026) : t-shirt 100 % personnalisable (logo, motif, emballage), polyester respirant sans colorants AZO avec panneaux en maille, 7,99 $ (100-999 pièces), logo dès 10 pièces. C'est un vrai "
-  "produit de marque, fait à ton design, et non un t-shirt blanc de catalogue. Option anti-odeur (ions d'argent) à demander au sourcing Scutify.",
-  'T-shirt de sport mixte à ton design'),
+  32.9,
+  'Le t-shirt tendance des salles de sport et des réseaux (style Represent, Gymshark Heavyweight Washed) : coupe oversize épaules tombantes, coton 100 % épais, effet délavé vintage, mixte. '
+  "Particularité sport : le « pump cover », large et épais, qu'on porte pendant et après la séance, beau même en sortant de la salle. Problème : les t-shirts de sport classiques sont moulants, fins "
+  'et « démodés » ; on veut un t-shirt qui fait style dehors aussi. Waouw : le look streetwear-gym des photos Instagram, avec ton logo. Prix en France : Bulk 34,99 €, Champion 30,95-42,95 €, '
+  'Represent 247 58 €, GCDS délavé 77 € → 32,90 €. Fournisseur EASTBAY SPORTS (prêt à expédier) : 9,50 $ (25-99 pièces), 6,50 $ dès 100, logo et emballage personnalisés dès 1 pièce, tailles XXS à '
+  '5XL.',
+  'T-shirt oversize délavé (pump cover)'),
  ('Kit barre Pilates 13 pièces + élastiques + programme — Niche : sport à la maison',
   'https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html',
   'OUI',
@@ -140,18 +140,17 @@ rows=[('T-shirt de sport mixte à ton design (coupe, couleurs, logo), tissu resp
   'Fournisseur BISD (fiche vérifiée le 11/11/2026) : 6,64 $ (1-499 pièces), certifié CE.',
   'Mini pistolet de massage'),
  ('Lunettes de sport polarisées enveloppantes, verres miroir, plusieurs coloris — Niche : running, vélo et sport en extérieur',
-  'https://www.alibaba.com/product-detail/Twinshield-TR90-Premium-running-cycling-glasses_1600520112418.html',
+  'https://www.alibaba.com/product-detail/YUEDIO-Custom-Polarized-sports-cycling-sunglasses_1601036363271.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  5.46,
+  4.3,
   8,
   29.9,
-  'Accessoire de sport mixte avec un vrai plus : verres polarisés miroir qui enveloppent le visage, monture TR90 ultra-légère qui ne glisse pas avec la sueur, plusieurs coloris de verres. Problème : '
-  'soleil et reflets qui éblouissent pendant la course ou le vélo, lunettes classiques qui tombent et laissent passer le vent, la poussière et les insectes. Waouw : le look « athlète » des photos de '
-  'running et de plage (verres miroir bleus, argent, rouges). Prix en France : entrée de gamme Decathlon dès 22 €, Cébé Terra Polar 59,76 €, Surf Monkey 64,95 € → 29,90 € (prix baissé pour être sous '
-  'la concurrence). Fournisseur Enlargecharm (fiche vérifiée le 11/11/2026, prête à expédier) : lunettes Twinshield TR90 running et vélo, 6,35 $ (10-99 pièces), logo dès 600 pièces.',
+  'Accessoire de sport mixte : verres polarisés interchangeables, monture TR90 légère qui ne glisse pas avec la sueur, normes CE et ANSI Z87.1, logo personnalisé. Problème : soleil et reflets qui '
+  'éblouissent en courant ou à vélo, lunettes qui tombent. Waouw : le look « athlète » avec verres miroir colorés. Prix en France : Decathlon dès 22 €, Cébé 59,76 €, Surf Monkey 64,95 € → 29,90 €. '
+  'Fournisseur YUEDIO (Shenzhen Ledong, fiche vérifiée le 13/11/2026) : 5 $ (100-2 999 pièces).',
   'Lunettes de sport polarisées')]
