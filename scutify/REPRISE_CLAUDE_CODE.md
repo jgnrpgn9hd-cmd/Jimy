@@ -167,3 +167,5 @@ Fournisseurs changés : t-shirt 62425576986 (séchage rapide, anti-odeur en opti
 ## T-shirt : modèle d'inspiration Myprotein (photo de Jairo) → t-shirt d'entraînement ajusté stretch (1600996990256), 3,44 €, revente 24,90 €.
 
 ## T-shirt : modèle choisi par Jairo (1601857690130, sans couture dry fit), 8,57 $ → 7,37 €, revente 29,90 €.
+
+## 13/11/2026 — Remplacés (demande de Jairo) : kit Pilates → short 2 en 1 (1600202475864), bandes → gobelet isotherme 1,2 L (1601725774684), poids → sac de sport compartiment chaussures (60496480489, min. 300), pistolet → casquette running (1600612754499). Pack Pilates remplacé par Pack running 69,90 € en 2e produit.

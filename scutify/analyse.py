@@ -629,3 +629,28 @@ A["T-shirt d'entraînement ajusté"] = _B("Hommes et femmes qui vont à la salle
 A["T-shirt d'entraînement sans couture"] = dict(A["T-shirt d'entraînement ajusté"])
 A["T-shirt d'entraînement sans couture"].update(economique="29,90 € contre environ 20-30 € (Myprotein hors promo) et 30-40 € (Gymshark sans couture).",
  unique="Sans couture, petit logo à la marque, coloris neutres.")
+
+A.update({
+"Short 2 en 1 poche téléphone": _B("Coureurs et sportifs de salle, hommes et femmes.",
+ "Cuisses qui frottent, téléphone qui rebondit, short qui remonte.",
+ "Je veux permettre aux sportifs de courir et s'entraîner sans frottements, téléphone bien calé.",
+ "34,90 € contre environ 40 € (Gymshark) et 70 € (On).", "Le téléphone qui ne bouge pas pendant le sprint.",
+ "Logo dès 1 pièce, coloris à la marque.", "France : Decathlon environ 25 €, Gymshark environ 40 €, On 70 €.", "⭐⭐⭐ Complète la tenue running, se vend avec le t-shirt."),
+"Gobelet isotherme 1,2 L": _B("Femmes et hommes de 18 à 40 ans, à la salle, au bureau, en Pilates.",
+ "On oublie de boire, eau tiède, bouteilles en plastique.",
+ "Je veux permettre à chacun de boire assez toute la journée avec un gobelet qui garde la glace des heures, à ses couleurs.",
+ "29,90 € contre 40,78-53,56 € (Stanley Quencher) ; fini les bouteilles en plastique.", "La glace encore là après des heures ; gobelet assorti à la tenue.",
+ "Coloris exclusifs et logo à la marque.", "France : Orion 27,99 €, Stanley Quencher 40,78-53,56 €.", "⭐⭐⭐ Énorme tendance TikTok, coût très bas.",
+ "Oui : très demandé ; un peu volumineux."),
+"Sac de sport compartiment chaussures": _B("Sportifs de salle et de Pilates, hommes et femmes.",
+ "Chaussures sales et affaires mouillées mélangées aux vêtements propres, odeurs.",
+ "Je veux permettre aux sportifs de garder leurs affaires propres et rangées, avec un sac sobre à leur marque.",
+ "34,90 € contre 27,99-74,99 € chez Decathlon et jusqu'à 49,99 € sur Amazon.", "Tout rangé à sa place, compartiment chaussures en vidéo.",
+ "Logo et coloris à la marque.", "France : Amazon 21,95-49,99 €, Decathlon 27,99-74,99 €.", "⭐⭐ Utile, fait la marque ; minimum 300 sacs.",
+ "Plutôt oui : utile toute l'année, mais minimum 300 pièces."),
+"Casquette running légère": _B("Coureurs et sportifs en extérieur, hommes et femmes.",
+ "Casquettes en coton lourdes et trempées, tête qui chauffe au soleil.",
+ "Je veux permettre aux coureurs d'avoir la tête au frais avec une casquette ultra-légère à leur marque.",
+ "24,90 € contre 44,90 € (On Lightweight).", "La casquette légère du look running, avec lunettes et t-shirt.",
+ "Logo et coloris à la marque.", "France : Kiprun Ultralight 15,99 €, On Lightweight 44,90 €.", "⭐⭐ Accessoire de marque, très léger."),
+})
