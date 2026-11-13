@@ -31,7 +31,7 @@ rows=[("T-shirt d'entraînement sans couture, coupe athlétique, dry fit, ton lo
   'qui rebondit dans la poche, short qui remonte en courant ou à la salle. Waouw : le téléphone qui ne bouge pas pendant le sprint, en vidéo. Prix en France : Decathlon environ 25 €, Gymshark '
   'environ 40 €, On 70 € → 34,90 €. Fournisseur (Ready to Ship, fiche vérifiée le 13/11/2026) : 9,70 $ (1-49 pièces), logo dès 1 pièce.',
   'Short 2 en 1 poche téléphone'),
- ('Lot de 3 paires de chaussettes de Pilates antidérapantes, logo brodé — Niche : Pilates et yoga',
+ ('Lot de 3 paires de chaussettes de Pilates antidérapantes, logo brodé mixtes — Niche : Pilates et yoga',
   'https://www.alibaba.com/product-detail/Factory-high-quality-wholesale-grip-socks_1601283200184.html',
   'OUI',
   'OUI',
@@ -47,21 +47,21 @@ rows=[("T-shirt d'entraînement sans couture, coupe athlétique, dry fit, ton lo
   'en France : Sveltus 11,99 € la paire, Sissel 13,99 €, Moonchild 15,20-19 € la paire → 24,90 € le lot de 3 (8,30 € la paire). Fournisseur (fiche vérifiée le 11/11/2026) : chaussettes '
   'antidérapantes à logo brodé, 1,55 $ la paire (200-499 paires), soit 4,00 € le lot de 3.',
   'Chaussettes de Pilates (lot de 3)'),
- ('Brassière de sport dos nu, bretelles réglables, logo à la marque — Niche : vêtement de sport femme (Pilates, fitness)',
-  'https://www.alibaba.com/product-detail/SHINBENE-Halter-Neck-Backless-Workout-Front_1601296353804.html',
+ ("Veste coupe-vent de running ultra-légère, respirante et déperlante, ton logo — Niche : running toute l'année",
+  'https://www.alibaba.com/product-detail/Mens-Jackets-Custom-Logo-Athletic-Fitness_1600626499514.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  6.01,
-  9,
-  26.9,
-  "Vêtement avec un vrai plus : coupe dos nu élégante, bretelles réglables, maintien sans armatures ; s'assortit au legging pour un ensemble. Problème : brassières qui serrent, qui bougent, et qu'on "
-  "n'ose pas porter seules. Waouw : l'ensemble brassière + legging aux couleurs de la marque, très Instagram (photos de Pilates). Prix en France : Decathlon environ 15-30 €, Gymshark environ 40-50 € "
-  '→ 26,90 € (prix baissé pour être sous la concurrence). Fournisseur SHINBENE (fiche vérifiée le 11/11/2026, prête à expédier) : brassière dos nu sans couture, 6,99 $ (2-199 pièces).',
-  'Brassière de sport dos nu'),
+  10.23,
+  8,
+  44.9,
+  "Inspiré d'ACT Running (Paris) : la veste fine qu'on garde toute l'année. Problème : avoir froid au départ puis trop chaud, vent et petite pluie qui gâchent la sortie. Waouw : la veste qui se plie "
+  'dans la poche et ne pèse presque rien. Prix en France : Kiprun 19,99-29,99 €, Nike 86,99-110 €, ACT Running environ 150 € → 44,90 €. Fournisseur Guangzhou Jinfeng : 11,90 $ (5-49 pièces), 100 % '
+  'polyester, séchage rapide, logo personnalisé.',
+  'Veste coupe-vent running'),
  ('Gobelet isotherme 1,2 L avec poignée et paille, acier inoxydable, ton logo — Niche : hydratation tendance',
   'https://www.alibaba.com/product-detail/40oz-Tumbler-with-Handle-and-Straw_1601725774684.html',
   'OUI',
@@ -77,21 +77,21 @@ rows=[("T-shirt d'entraînement sans couture, coupe athlétique, dry fit, ton lo
   'plastique. Waouw : la glace encore là après des heures, le gobelet assorti à la tenue en photo. Prix en France : Orion 27,99 €, Stanley Quencher 40,78-53,56 € → 29,90 €. Fournisseur (Ready to '
   'Ship, fiche vérifiée le 13/11/2026) : 2,41 $ (2-999 pièces), logo personnalisé. Inspiré du style, sans reprendre le nom ni le logo Stanley. Plus volumineux : livraison un peu plus chère.',
   'Gobelet isotherme 1,2 L'),
- ('Legging taille haute SHINBENE Classic 3.0, toucher « seconde peau », sans transparence — Niche : vêtement de sport femme (ensemble avec la brassière)',
-  'https://www.alibaba.com/product-detail/SHINBENE-CLASSIC-3-0-25-High_1600198277985.html',
+ ('Haut de running manches longues demi-zip, ajusté, séchage rapide, ton logo — Niche : running et training',
+  'https://www.alibaba.com/product-detail/Quick-Dry-Running-Shirt-Men-mens_1600132015048.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  5.15,
+  8.47,
   9,
-  34.9,
-  'Vêtement haut de gamme : tissu 220 g/m² nylon-élasthanne, extensible dans les 4 sens, toucher très doux, taille haute qui ne glisse pas, coupe sans effet « camel toe ». Même fabricant que la '
-  "brassière (SHINBENE) : un vrai ensemble assorti. Problème : leggings qui glissent, marquent et deviennent transparents. Waouw : l'ensemble brassière + legging assorti en photo de Pilates. Prix en "
-  'France : Decathlon 38,99 €, Gymshark 60 €, Lululemon Align plus de 100 € → 34,90 €. Fournisseur SHINBENE (fiche vérifiée le 13/11/2026, prête à expédier) : 5,99 $ (50-499 pièces).',
-  'Legging SHINBENE taille haute'),
+  39.9,
+  'La pièce phare des marques de running haut de gamme (ACT, Circle, Myprotein Velocity) : manches longues, col demi-zip pour réguler la chaleur, coupe ajustée, tissu qui sèche vite. Problème : '
+  'avoir froid au début de la sortie puis trop chaud, t-shirts trop légers en hiver. Waouw : la silhouette « athlète » en photo, avec la casquette et les lunettes. Prix en France : Myprotein '
+  'demi-zip environ 40-50 €, Nike environ 65 € → 39,90 €. Fournisseur Guangzhou Jinfeng : 9,85 $ (5-49 pièces), logo personnalisé.',
+  'Haut running demi-zip'),
  ('Sac de sport avec compartiment chaussures séparé, ton logo — Niche : salle de sport et Pilates',
   'https://www.alibaba.com/product-detail/custom-portable-duffle-gym-sports-sneaker_60496480489.html',
   'OUI',

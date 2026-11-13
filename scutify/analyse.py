@@ -654,3 +654,16 @@ A.update({
  "24,90 € contre 44,90 € (On Lightweight).", "La casquette légère du look running, avec lunettes et t-shirt.",
  "Logo et coloris à la marque.", "France : Kiprun Ultralight 15,99 €, On Lightweight 44,90 €.", "⭐⭐ Accessoire de marque, très léger."),
 })
+
+A.update({
+"Veste coupe-vent running": _B("Coureurs hommes et femmes qui courent toute l'année.",
+ "Froid au départ puis trop chaud, vent et petite pluie.",
+ "Je veux permettre aux coureurs de sortir par tous les temps avec une veste qui ne pèse rien.",
+ "44,90 € contre 86,99-110 € (Nike) et environ 150 € (ACT Running).", "La veste qui se plie dans sa poche.",
+ "Logo et coloris à la marque.", "France : Kiprun 19,99-29,99 €, Nike 86,99-110 €, ACT Running environ 150 €.", "⭐⭐ Pièce de marque, saison automne-printemps."),
+"Haut running demi-zip": _B("Coureurs et sportifs, surtout hommes de 20 à 40 ans.",
+ "Froid au début de la sortie puis trop chaud ; t-shirts trop légers l'hiver.",
+ "Je veux permettre aux coureurs d'avoir la pièce phare des marques premium, au juste prix.",
+ "39,90 € contre environ 65 € (Nike) et 40-50 € (Myprotein).", "La silhouette « athlète » avec casquette et lunettes.",
+ "Logo et coloris à la marque.", "France : Myprotein demi-zip environ 40-50 €, Nike environ 65 €.", "⭐⭐⭐ Pièce tendance des marques running."),
+})
