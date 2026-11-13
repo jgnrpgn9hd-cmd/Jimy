@@ -1,22 +1,21 @@
 # Marque sport et bien-être : accessoires (running, Pilates, fitness) + 1 vêtement, chacun avec un vrai plus.
 # Ligne 1 : livraison > 6 (formule différente du modèle en ligne 6).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
-rows=[("T-shirt d'entraînement ajusté, tissu stretch respirant, coloris sable, petit logo brodé — Niche : vêtement de sport (style Myprotein / Gymshark)",
-  'https://www.alibaba.com/product-detail/Outdoor-Shirt-Men-Slimming-Stretch-Gym_1600996990256.html',
+rows=[("T-shirt d'entraînement sans couture, coupe athlétique, dry fit, ton logo — Niche : vêtement de sport (style Myprotein / Gymshark)",
+  'https://www.alibaba.com/product-detail/Men-Dry-Fit-Workout-Shirts-Athletic_1601857690130.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  3.44,
+  7.37,
   9,
-  24.9,
-  "Modèle sur le style choisi par Jairo (t-shirt d'entraînement Myprotein) : coupe ajustée qui met en valeur les épaules et les bras, tissu stretch léger qui sèche vite, couleur neutre (sable, noir, "
-  'kaki) et seulement un petit logo sur la poitrine, sobre et haut de gamme. Problème : t-shirts de sport trop larges ou en coton qui colle à la sueur. Waouw : la silhouette « athlète » en photo, '
-  'look propre et minimaliste. Prix en France : Myprotein 12,50 € en promo (environ 20-30 € hors promo), Gymshark environ 30 € → 24,90 €. Fournisseur (Ready to Ship, fiche vérifiée le 13/11/2026) : '
-  '4 $ (5-49 pièces), 3,80 $ dès 50 ; logo personnalisé dès 1 pièce, emballage dès 100.',
-  "T-shirt d'entraînement ajusté"),
+  29.9,
+  "Modèle choisi par Jairo. T-shirt d'entraînement sans couture (seamless), coupe athlétique ajustée, tissu dry fit qui évacue la transpiration et sèche vite, pour la salle et le running. Problème : "
+  't-shirts de sport trop larges, coutures qui frottent, coton qui colle à la sueur. Waouw : la silhouette « athlète », look propre et minimaliste avec petit logo. Prix en France : Myprotein 12,50 € '
+  'en promo (environ 20-30 € hors promo), Gymshark environ 30-40 € pour le sans couture → 29,90 €. Fournisseur (Ready to Ship) : 8,57 $ (5-49 pièces), 7,71 $ dès 50, 6,86 $ dès 500.',
+  "T-shirt d'entraînement sans couture"),
  ('Kit barre Pilates 13 pièces + élastiques + programme — Niche : sport à la maison',
   'https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html',
   'OUI',

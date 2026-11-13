@@ -625,3 +625,7 @@ A["T-shirt d'entraînement ajusté"] = _B("Hommes et femmes qui vont à la salle
  "24,90 € contre environ 20-30 € (Myprotein hors promo) et 30 € (Gymshark).", "La silhouette « athlète », look minimaliste avec petit logo.",
  "Petit logo brodé, coloris neutres à la marque (sable, noir, kaki).", "France : Myprotein 12,50 € en promo, Gymshark environ 30 €.",
  "⭐⭐⭐ Basique indispensable, rachat fréquent (plusieurs couleurs).")
+
+A["T-shirt d'entraînement sans couture"] = dict(A["T-shirt d'entraînement ajusté"])
+A["T-shirt d'entraînement sans couture"].update(economique="29,90 € contre environ 20-30 € (Myprotein hors promo) et 30-40 € (Gymshark sans couture).",
+ unique="Sans couture, petit logo à la marque, coloris neutres.")

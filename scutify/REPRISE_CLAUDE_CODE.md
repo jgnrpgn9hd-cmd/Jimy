@@ -165,3 +165,5 @@ Fournisseurs changés : t-shirt 62425576986 (séchage rapide, anti-odeur en opti
 ## T-shirt : style « technique ajusté » choisi par Jairo → t-shirt running à bandes réfléchissantes (1601429490635), 5,05 €, revente 29,90 €.
 
 ## T-shirt : modèle d'inspiration Myprotein (photo de Jairo) → t-shirt d'entraînement ajusté stretch (1600996990256), 3,44 €, revente 24,90 €.
+
+## T-shirt : modèle choisi par Jairo (1601857690130, sans couture dry fit), 8,57 $ → 7,37 €, revente 29,90 €.
