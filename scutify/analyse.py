@@ -593,3 +593,13 @@ for _k, _v in {
 # T-shirt : fiche fournisseur vérifiée = séchage rapide ; l'anti-odeur reste une option à demander au sourcing.
 A["T-shirt sport séchage rapide"] = dict(A["T-shirt sport mixte anti-odeur"])
 A["T-shirt sport séchage rapide"]["unique"] = "Logo imprimé à la marque ; option anti-odeur (ions d'argent) à demander au sourcing Scutify."
+
+# Montée en gamme (13/11/2026)
+A["Legging SHINBENE taille haute"] = dict(A["Legging sans couture push-up"])
+A["Legging SHINBENE taille haute"].update(
+ economique="34,90 € contre 38,99 € (Decathlon), 60 € (Gymshark) et plus de 100 € (Lululemon Align).",
+ waw="L'ensemble brassière + legging assorti, toucher « seconde peau ».",
+ unique="Même fabricant que la brassière (SHINBENE) : ensemble assorti aux couleurs de la marque.",
+ preuve="France : Decathlon 38,99 €, Gymshark 60 €, Lululemon Align plus de 100 €.")
+A["T-shirt sport séchage rapide"]["unique"] = "T-shirt fait à ton design (logo, motif, couleurs, emballage) dès 10 pièces ; option anti-odeur à demander au sourcing."
+A["T-shirt de sport mixte à ton design"] = dict(A["T-shirt sport séchage rapide"])

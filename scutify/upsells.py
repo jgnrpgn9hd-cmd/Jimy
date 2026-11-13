@@ -4,7 +4,7 @@ U = [('Pack Pilates complet : kit barre + élastiques, 3 bandes en tissu, poids 
   'Kit Pilates (produit phare)',
   "On veut tout le matériel du studio de Pilates d'un coup, assorti et aux couleurs de la marque.",
   'Prix séparés dans la boutique : 29,90 + 22,90 + 25,90 = 78,70 € ; packs Pilates Amazon.fr 44-90 €.',
-  'https://www.alibaba.com/product-detail/13-Pcs-Home-Exercise-Starter-Kit_1601484459815.html',
+  'https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html',
   15.88,
   13.66,
   49.9,
@@ -22,9 +22,8 @@ U = [('Pack Pilates complet : kit barre + élastiques, 3 bandes en tissu, poids 
   'Brassière, legging',
   'On veut une tenue complète et assortie pour le Pilates ou la salle, belle en photo.',
   'Prix séparés dans la boutique : 26,90 + 34,90 = 61,80 € ; ensembles Gymshark ou Alo environ 90-150 €.',
-  'https://www.alibaba.com/product-detail/Custom-Logo-Comfortable-Halter-Minimal-Deportes_1601437171151.html',
-  16.82,
-  14.47,
+  'https://www.alibaba.com/product-detail/SHINBENE-Halter-Neck-Backless-Workout-Front_1601296353804.html',
+  12.98,
+  11.16,
   54.9,
-  'Brassière (6,39 €) + legging (8,08 €) déjà dans la liste. Marge 40,43 €. Lien du legging : '
-  'https://www.alibaba.com/product-detail/Women_Yoga_Washed_Denim_Scrunch_Butt_Lift_Gym_High_Waist_Leggings_For_Women_1600238274997.html')]
+  'Brassière (6,01 €) + legging SHINBENE (5,15 €), même fabricant. Marge 43,74 €. Lien du legging : https://www.alibaba.com/product-detail/SHINBENE-CLASSIC-3-0-25-High_1600198277985.html')]

@@ -155,3 +155,5 @@ Marque sport et Pilates. Fichier à rendre : « Support Scutify S01_Tableau rech
 ## 11/11/2026 — Nouvelle méthode de vérification (verifier_liens.py) : page publique alibaba.com/product-introduction/... (sans captcha). Page complète = fiche active ; 404 = supprimée ; page courte = douteuse (cas du t-shirt signalé indisponible par Jairo).
 9 fiches sur 10 ont une page complète. Seuls les poids en silicone (11000024198018) ont une page courte : à vérifier sur téléphone.
 Fournisseurs changés : t-shirt 62425576986 (séchage rapide, anti-odeur en option), kit Pilates 1600918081475, chaussettes 1601283200184, brassière SHINBENE 1601296353804, bandes LADYGLOW 60826233712, legging Aogu 1600792608872, tapis 1600710516169, lunettes Twinshield 1600520112418.
+
+## 13/11/2026 — Montée en gamme : t-shirt 100 % à ton design (dinsungo 1600179459632, 6,87 €) ; legging SHINBENE Classic 3.0 (1600198277985, 5,15 €), même fabricant que la brassière ; ensemble brassière + legging mis à jour (marge 43,74 €).

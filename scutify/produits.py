@@ -1,22 +1,23 @@
 # Marque sport et bien-être : accessoires (running, Pilates, fitness) + 1 vêtement, chacun avec un vrai plus.
 # Ligne 1 : livraison > 6 (formule différente du modèle en ligne 6).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
-rows=[('T-shirt de sport mixte séchage rapide, logo à la marque (option anti-odeur) — Niche : vêtement de sport mixte',
-  'https://www.alibaba.com/product-detail/Wholesale-Custom-Print-Plain-Blank-Sublimation_62425576986.html',
+rows=[('T-shirt de sport mixte à ton design (coupe, couleurs, logo), tissu respirant séchage rapide — Niche : vêtement de sport mixte',
+  'https://www.alibaba.com/product-detail/Fast-drying-breathable-personalized-customized-sublimation_1600179459632.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  1.03,
+  6.87,
   9,
   29.9,
   "Vêtement mixte avec une vraie particularité : traité aux ions d'argent, il ne garde pas l'odeur de transpiration, même après plusieurs séances, et sèche en quelques minutes. Problème : t-shirts "
   "de sport qui sentent mauvais même lavés, qui collent et restent mouillés. Waouw : le test « sentir le t-shirt après la séance » en vidéo, et le t-shirt qui sèche à vue d'œil. Prix en France : "
-  'Odlo F-Dry 21,99-44 €, Champion Athletic 30 €, Montura Slide 38,50-55 €, Brooks Luxe 50 € → 29,90 € (prix baissé pour être sous la concurrence). Fournisseur (fiche vérifiée le 11/11/2026, prête à '
-  "expédier) : t-shirt 100 % polyester séchage rapide, impression à ton logo, 1,20 $ (5-199 pièces). Le traitement anti-odeur (ions d'argent) est à demander au sourcing Scutify.",
-  'T-shirt sport séchage rapide'),
+  'Odlo F-Dry 21,99-44 €, Champion Athletic 30 €, Montura Slide 38,50-55 €, Brooks Luxe 50 € → 29,90 € (prix baissé pour être sous la concurrence). Fournisseur dinsungo (fiche vérifiée le '
+  "13/11/2026) : t-shirt 100 % personnalisable (logo, motif, emballage), polyester respirant sans colorants AZO avec panneaux en maille, 7,99 $ (100-999 pièces), logo dès 10 pièces. C'est un vrai "
+  "produit de marque, fait à ton design, et non un t-shirt blanc de catalogue. Option anti-odeur (ions d'argent) à demander au sourcing Scutify.",
+  'T-shirt de sport mixte à ton design'),
  ('Kit barre Pilates 13 pièces + élastiques + programme — Niche : sport à la maison',
   'https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html',
   'OUI',
@@ -77,21 +78,21 @@ rows=[('T-shirt de sport mixte séchage rapide, logo à la marque (option anti-o
   'pastel et logo à la marque. Prix en France : Decathlon 20 €, Renoj 33,54 €, Gymshark (lot de 3) → 22,90 € (prix baissé pour être sous la concurrence). Fournisseur LADYGLOW (fiche vérifiée le '
   '11/11/2026) : lot de 3 bandes en coton, logo imprimé, 0,72-1,05 $ le lot (minimum 100).',
   'Bandes élastiques en tissu'),
- ('Legging sans couture taille haute effet push-up — Niche : vêtement de sport femme',
-  'https://www.alibaba.com/product-detail/Compressive-Push-up-No-Camel-Toe_1600792608872.html',
+ ('Legging taille haute SHINBENE Classic 3.0, toucher « seconde peau », sans transparence — Niche : vêtement de sport femme (ensemble avec la brassière)',
+  'https://www.alibaba.com/product-detail/SHINBENE-CLASSIC-3-0-25-High_1600198277985.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  8.51,
+  5.15,
   9,
   34.9,
-  "Vêtement avec un vrai plus : sans couture, gainant, effet push-up qui galbe les fessiers. Problème : leggings qui glissent, qui marquent et deviennent transparents quand on s'accroupit. Waouw : "
-  "l'avant/après de profil en vidéo. Prix en France : Decathlon effet push-up 38,99-45,99 €, Gymshark Lift Seamless 60 € → 34,90 € (prix baissé pour être sous la concurrence). Fournisseur Aogu "
-  'Sportswear (fiche vérifiée le 11/11/2026) : legging push-up taille haute, effet froncé, 9,89 $ (50-499 pièces), logo dès 100 pièces.',
-  'Legging sans couture push-up'),
+  'Vêtement haut de gamme : tissu 220 g/m² nylon-élasthanne, extensible dans les 4 sens, toucher très doux, taille haute qui ne glisse pas, coupe sans effet « camel toe ». Même fabricant que la '
+  "brassière (SHINBENE) : un vrai ensemble assorti. Problème : leggings qui glissent, marquent et deviennent transparents. Waouw : l'ensemble brassière + legging assorti en photo de Pilates. Prix en "
+  'France : Decathlon 38,99 €, Gymshark 60 €, Lululemon Align plus de 100 € → 34,90 €. Fournisseur SHINBENE (fiche vérifiée le 13/11/2026, prête à expédier) : 5,99 $ (50-499 pièces).',
+  'Legging SHINBENE taille haute'),
  ('Poids de chevilles et poignets en silicone, réglables, la paire — Niche : Pilates et tonification',
   'https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html',
   'OUI',
