@@ -725,3 +725,21 @@ A.update({
  "Je veux permettre aux gens sur écran de reposer leurs yeux et de mieux dormir.",
  "24,90 € contre 40-100 € chez l'opticien.", "Le test du filtre à la lampe bleue.", "Étui et logo à la marque.", "Environ 20-40 €.", "⭐⭐ Léger, coût très bas."),
 })
+
+A.update({
+"Bande LED rétroéclairage écran": _B("Gamers et télétravailleurs qui travaillent le soir.",
+ "Écran très lumineux dans le noir : yeux qui piquent, maux de tête.",
+ "Je veux permettre aux gamers et télétravailleurs de reposer leurs yeux le soir avec un setup qui a de l'allure.",
+ "34,90 € contre environ 30-70 € pour les marques.", "Le mur qui change de couleur avec l'écran.",
+ "Logo et packaging à la marque.", "Bandes de marque type Govee environ 30-70 €.", "⭐⭐⭐ Très viral (#desksetup)."),
+"Support casque aluminium": _B("Gamers, musiciens, télétravailleurs avec casque.",
+ "Casque qui traîne, prend la place, tombe et se casse.",
+ "Je veux permettre à chacun de ranger son casque proprement et de dégager son bureau.",
+ "22,90 € contre 36,90 € (Oehlbach).", "Le bureau dégagé, le casque mis en valeur.", "Logo gravé.",
+ "France : CC HPS-8 22,90 €, Innox 15-24 €, Oehlbach 36,90 €.", "⭐⭐ Petit prix, ajout facile au panier."),
+"Tiroir caché sous le bureau": _B("Étudiants, gamers, télétravailleurs avec petit bureau.",
+ "Pas de tiroir, petits objets qui encombrent.",
+ "Je veux permettre à chacun de gagner du rangement sans percer ni acheter de meuble.",
+ "Évite un caisson à 40-80 €.", "Le tiroir « secret » qui sort de sous le bureau.", "Coloris à la marque.",
+ "Environ 15-25 €.", "⭐⭐ Effet waouw simple, coût très bas."),
+})
