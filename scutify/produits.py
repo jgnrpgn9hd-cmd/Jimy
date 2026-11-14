@@ -36,24 +36,24 @@ rows=[('Kit barre de Pilates + élastiques + programme 30 jours — Niche : Pila
   'dentiste 500 à 1 200 €. FOURNISSEUR : Glory Smile (Jiangxi Dentalbright), gel « non peroxyde PAP+ », OEM / private label : 6,60 $ le coffret (50 à 99). À VÉRIFIER : Exiger la version PAP sans '
   "peroxyde : en France, un produit à plus de 0,1 % de peroxyde d'hydrogène est réservé aux dentistes. Demander les certificats (CE, ISO 22716). Aucune promesse médicale.",
   'Kit blanchiment dentaire LED'),
- ('T-shirt technique Run Club à message (« Pendant que tu dors, je cours ») — Niche : Running homme (marque à message)',
-  'https://www.alibaba.com/product-detail/Men-Dry-Fit-Workout-Shirts-Athletic_1601857690130.html',
+ ('Lunch box chauffante électrique en inox 1,5 L (prise secteur et voiture) — Niche : Repas au travail',
+  'https://www.alibaba.com/product-detail/12V-24V-110V-220V-Lonchera-Electrica_1601609058033.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
   'NON',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  7.37,
-  9,
-  29.9,
-  "MODÈLE : Hustle Wear (Baptiste) : t-shirts à message pour une communauté, vendus en packs ; 46 093 € de ventes en 30 jours sur sa capture d'écran. DEMANDE : 13,2 millions de coureurs en France "
-  '(Observatoire du Running 2026) ; les run clubs sont à la mode chez les 20-35 ans. PROBLÈME : Le t-shirt en coton colle à la transpiration, et les tenues de marque sont chères et sans '
-  "personnalité. ÉCONOMIQUE : NON : on ne l'achète pas pour économiser mais pour le message, comme chez Hustle Wear. Prix 29,90 €, sous les 34,90 € de Hustle Wear. EFFET WAOUW : Message dans le dos, "
-  'photos de course à 5 h du matin dans une ville vide. PRIX EN FRANCE : Hustle Wear : t-shirts à message 34,90 €, 3 pour 79,99 €. FOURNISSEUR : T-shirt dry-fit sans couture : 8,57 $ (5 à 49), 7,71 '
-  "$ (50 à 199), 7,29 $ (200 à 499). Message à imprimer (fournisseur ou imprimeur en France, coût à ajouter). À VÉRIFIER : Vérifier sur le site de l'INPI que le nom et les messages ne sont pas "
-  "déposés ; ajouter le coût d'impression.",
-  'T-shirt Run Club à message'),
+  8.17,
+  6,
+  34.9,
+  "MODÈLE : Hearble pour l'argument prix : « ton déjeuner chaud pour 3 € au lieu de 11 à 15 € dehors ». DEMANDE : Environ la moitié des salariés dépensent 11 à 15 € par déjeuner (enquête Deskeo) ; "
+  '63 % des actifs mangent déjà un repas préparé à la maison (Edenred). PROBLÈME : Manger froid ou faire la queue au micro-ondes, ou payer 11 à 15 € chaque midi pour manger dehors. ÉCONOMIQUE : OUI, '
+  "très fort : un repas maison coûte quelques euros, contre 11 à 15 € dehors. La lunch box est remboursée en moins d'une semaine. EFFET WAOUW : Vidéo : on la branche à 11 h 30, à midi le plat fume "
+  'au bureau ou dans le camion. PRIX EN FRANCE : Lunch box chauffantes : 23,99 € (Adler, Boulanger, en promotion), 26,99 € (Camry), 39,95 € (Livoo, Pearl). FOURNISSEUR : Inox, 12 V / 24 V / 220 V, '
+  "1,5 L : 9,50 $ (24 à 1 999), type de prise personnalisable dès 24 pièces. À VÉRIFIER : Exiger la prise européenne et le marquage CE (appareil électrique) ; demander l'inox 304 pour l'intérieur et "
+  'le certificat de contact alimentaire.',
+  'Lunch box chauffante'),
  ('Créoles épaisses en acier inoxydable doré (PVD), qui ne noircissent pas et se gardent sous la douche — Niche : Bijoux anti-oxydation (waterproof)',
   'https://www.alibaba.com/product-detail/Hypoallergenic-Tarnish-Free-Waterproof-Jewelry-18k_1601031342027.html',
   'OUI',
@@ -111,23 +111,23 @@ rows=[('Kit barre de Pilates + élastiques + programme 30 jours — Niche : Pila
   '(100 à 199), 7,50 $ (200 et plus). À VÉRIFIER : Demander les rapports de test : le filtre retient les bactéries (99,9999 % selon le fournisseur) mais pas forcément les virus. Ne rien promettre '
   'sans ces tests.',
   'Gourde filtrante inox'),
- ('Coussin lombaire à mémoire de forme, housse velours (télétravail) — Niche : Télétravail (maison et confort)',
-  'https://www.alibaba.com/product-detail/Orthopedic-lumbar-support-memory-foam-cushion_60747546667.html',
+ ("Barre lumineuse d'écran anti-reflet en aluminium, USB, intensité réglable — Niche : Télétravail et bureau",
+  'https://www.alibaba.com/product-detail/Full-Desk-Coverage-Monitor-Light-Bar_1601885292435.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  5.16,
-  5,
-  29.9,
-  'MODÈLE : Comme SmartWorkout : une solution à la maison qui évite de payer un professionnel à chaque fois. DEMANDE : 22 % des salariés du privé télétravaillent au moins une fois par mois, contre 4 '
-  "% en 2019 (DARES, 2024). PROBLÈME : Mal au bas du dos après des heures sur une chaise qui ne soutient pas. Une séance d'ostéopathe coûte 45 à 80 € et n'est pas remboursée par la Sécurité sociale "
-  "(Selectra). ÉCONOMIQUE : OUI : 29,90 € au lieu de 45 à 80 € la séance d'ostéo. EFFET WAOUW : Avant/après de la posture de profil, la mousse qui reprend sa forme. PRIX EN FRANCE : Coussins "
-  'lombaires : 21 € (Kaufland), 36,69 € (ManoMano), 36,95 € (Pearl). FOURNISSEUR : Modèle WM-08211, housse velours amovible : 6 $ (300 à 999), logo dès 500. Fiche complète vérifiée. À VÉRIFIER : Pas '
-  'de promesse médicale ; demander la couleur sable ou beige ; colis volumineux à chiffrer.',
-  'Coussin lombaire télétravail'),
+  8.92,
+  7,
+  39.9,
+  "MODÈLE : Hearble : la même fonction qu'une marque chère pour une fraction du prix (BenQ ScreenBar Pro environ 139 €). DEMANDE : 22 % des salariés du privé télétravaillent, contre 4 % en 2019 "
+  "(DARES, 2024). PROBLÈME : Yeux qui piquent et maux de tête en fin de journée, reflets sur l'écran, bureau mal éclairé et lampe qui prend de la place. ÉCONOMIQUE : OUI : 39,90 € au lieu d'environ "
+  "139 € pour la BenQ ScreenBar Pro. EFFET WAOUW : Avant / après du bureau dans le noir, la lumière qui tombe sur le clavier sans toucher l'écran. PRIX EN FRANCE : BenQ ScreenBar Pro environ 139-140 "
+  '€ (Korben, Cowcotland) ; ScreenBar Halo 2 de 158 à 208 € (Kaufland). FOURNISSEUR : Wisteria, aluminium, USB, anti-reflet, intensité réglable : 8,92 à 10,37 $ (dès 1 pièce), logo dès 500. À '
+  'VÉRIFIER : Pas de promesse médicale sur les yeux ; vérifier le marquage CE et la compatibilité avec les écrans fins et incurvés.',
+  "Barre lumineuse d'écran"),
  ('Baguette lumière rouge 4 en 1 (LED 630 nm, microcourant, chaleur, vibration) — Niche : Lumière rouge (soin du visage)',
   'https://www.alibaba.com/product-detail/4-in-1-Red-Light-Therapy_1601570406236.html',
   'OUI',

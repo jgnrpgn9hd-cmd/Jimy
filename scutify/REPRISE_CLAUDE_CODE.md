@@ -237,3 +237,9 @@ Ligne 4 du tableau : « Créoles dorées waterproof » (acier inoxydable doré P
 + jonc 1601828784456 + écrin 1601632875678). Concept complet : CONCEPT_MARQUE_BIJOUX.md (gamme femme + ligne homme, règles DGCCRF/REACH,
 « plaqué or » interdit sous 3 microns, pas de « sans nickel » pour le 316L, lancement visé : Saint-Valentin).
 Le t-shirt Run Club reste en ligne 3 (idée la plus faible, 7/10).
+
+## Corrections (14/11/2026)
+Ligne 3 : t-shirt Run Club → lunch box chauffante (1601609058033, 9,50 $, 34,90 €). Ligne 7 : coussin lombaire → barre lumineuse d'écran
+(1601885292435, 10,37 $, 39,90 €, face à BenQ ~139 €). 2e produits : pack running et pack Run Club retirés, pack télétravail → pack bureau du soir
+(barre + support portable 1600556043196). Pages de vente 03 et 07 refaites (maquettes_sites).
+Écartés après vérification : spray à huile (4 à 15 € en France, pas de marge), brosse électrique (prix > 15 € ou minimum 500), tapis diatomite (5 à 18 € en France).

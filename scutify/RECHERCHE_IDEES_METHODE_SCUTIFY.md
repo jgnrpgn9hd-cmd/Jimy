@@ -14,11 +14,11 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 |---|---|---|---|---|---|---|
 | 1 | Pilates à la maison | [Kit Pilates barre + élastiques](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) | 2,15 € | 29,90 € | 27,75 € | 9,5 |
 | 2 | Sourire et soins de soi | [Kit blanchiment dentaire LED](https://www.alibaba.com/product-detail/Glory-Smile-Teeth-Whitening-Light-Home_1600296524573.html) | 5,68 € | 39,90 € | 34,22 € | 8,5 |
-| 3 | Running homme (marque à message) | [T-shirt Run Club à message](https://www.alibaba.com/product-detail/Men-Dry-Fit-Workout-Shirts-Athletic_1601857690130.html) | 7,37 € | 29,90 € | 22,53 € | 7,0 |
+| 3 | Repas au travail | [Lunch box chauffante](https://www.alibaba.com/product-detail/12V-24V-110V-220V-Lonchera-Electrica_1601609058033.html) | 8,17 € | 34,90 € | 26,73 € | 8,5 |
 | 4 | Bijoux anti-oxydation (waterproof) | [Créoles dorées waterproof](https://www.alibaba.com/product-detail/Hypoallergenic-Tarnish-Free-Waterproof-Jewelry-18k_1601031342027.html) | 2,88 € | 29,90 € | 27,02 € | 8,5 |
 | 5 | Eau calcaire (cheveux et peau) | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/Vitamin-C-Filter-Shower-Head-Shower_1600150519353.html) | 5,16 € | 34,90 € | 29,74 € | 8,5 |
 | 6 | Randonnée et outdoor (éco-responsable) | [Gourde filtrante inox](https://www.alibaba.com/product-detail/microfiltration-stainless-steel-water-filter-bottle_60154285879.html) | 7,74 € | 34,90 € | 27,16 € | 8,5 |
-| 7 | Télétravail (maison et confort) | [Coussin lombaire télétravail](https://www.alibaba.com/product-detail/Orthopedic-lumbar-support-memory-foam-cushion_60747546667.html) | 5,16 € | 29,90 € | 24,74 € | 8,5 |
+| 7 | Télétravail et bureau | [Barre lumineuse d'écran](https://www.alibaba.com/product-detail/Full-Desk-Coverage-Monitor-Light-Bar_1601885292435.html) | 8,92 € | 39,90 € | 30,98 € | 8,5 |
 | 8 | Lumière rouge (soin du visage) | [Baguette lumière rouge visage](https://www.alibaba.com/product-detail/4-in-1-Red-Light-Therapy_1601570406236.html) | 11,61 € | 49,90 € | 38,29 € | 8,5 |
 | 9 | Gourde du quotidien personnalisée | [Gourde isotherme (gravée ou non)](https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html) | 3,35 € | 24,90 € | 21,55 € | 8,5 |
 | 10 | Récupération sportive | [Mini pistolet de massage](https://www.alibaba.com/product-detail/Light-Mini-Massage-Gun-Lcd-Touch_1601094578732.html) | 5,71 € | 29,90 € | 24,19 € | 8,5 |
@@ -83,34 +83,34 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | Glory Smile (Jiangxi Dentalbright), gel « non peroxyde PAP+ », OEM / private label : 6,60 $ le coffret (50 à 99). |
 | À vérifier | Exiger la version PAP sans peroxyde : en France, un produit à plus de 0,1 % de peroxyde d'hydrogène est réservé aux dentistes. Demander les certificats (CE, ISO 22716). Aucune promesse médicale. |
 
-## 3. Running homme (marque à message) — T-shirt Run Club à message
+## 3. Repas au travail — Lunch box chauffante
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Men-Dry-Fit-Workout-Shirts-Athletic_1601857690130.html) · coût 7,37 € (8,57 $ × 0,86) · revente 29,90 € · marge 22,53 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/12V-24V-110V-220V-Lonchera-Electrica_1601609058033.html) · coût 8,17 € (9,5 $ × 0,86) · revente 34,90 € · marge 26,73 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Hustle Wear (Baptiste) : t-shirts à message pour une communauté, vendus en packs ; 46 093 € de ventes en 30 jours sur sa capture d'écran. |
-| Demande en France | 13,2 millions de coureurs en France (Observatoire du Running 2026) ; les run clubs sont à la mode chez les 20-35 ans. |
-| Observation | Les coureurs portent tous les mêmes grandes marques ; les run clubs créent leurs propres t-shirts pour montrer leur identité. |
-| Cible et désir | Hommes de 18 à 35 ans qui courent ou s'entraînent avant ou après le travail et veulent afficher leur discipline. |
-| Problème | Le t-shirt en coton colle à la transpiration, et les tenues de marque sont chères et sans personnalité. |
-| Question à résoudre | Comment permettre à un coureur de porter une tenue technique qui montre qui il est ? |
-| Pistes produit | T-shirt technique à message (choisi) · casquette brodée « RUN CLUB » · pack t-shirt + short + casquette (2e produit). |
-| **Idée de business** | Je veux permettre aux hommes qui courent avant le travail d'afficher leur discipline avec un t-shirt technique à message, respirant et ajusté. |
-| Solution à un problème | OUI, moyen : transpiration et t-shirt qui colle ; surtout un besoin d'identité et d'appartenance. |
-| Économique | NON : on ne l'achète pas pour économiser mais pour le message, comme chez Hustle Wear. Prix 29,90 €, sous les 34,90 € de Hustle Wear. |
-| Besoin / passion | OUI, très fort : la course est une passion qu'on veut montrer. |
-| Effet wow | Message dans le dos, photos de course à 5 h du matin dans une ville vide. |
-| Unique | Messages exclusifs à la marque, impossibles à trouver ailleurs. |
-| Poids / volume | Très léger, sachet souple. |
-| 1. Répond aux critères principaux ? | Bien : très fort sur la passion, moyen sur le problème, faible sur l'économie. |
-| 2. Bénéfice évident au premier regard ? | Oui : on lit le message et on se reconnaît. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : site noir et blanc façon Hustle Wear, packs de 3, vidéos de course au lever du soleil. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui si la marque est forte : Hustle Wear prouve que le message fait vendre. Le risque, c'est la concurrence textile. |
-| Prix en France | Hustle Wear : t-shirts à message 34,90 €, 3 pour 79,99 €. |
-| Angle pub / Instagram | POV course à 5 h, ville vide, message dans le dos ; offre « 3 t-shirts ». |
-| Fournisseur | T-shirt dry-fit sans couture : 8,57 $ (5 à 49), 7,71 $ (50 à 199), 7,29 $ (200 à 499). Message à imprimer (fournisseur ou imprimeur en France, coût à ajouter). |
-| À vérifier | Vérifier sur le site de l'INPI que le nom et les messages ne sont pas déposés ; ajouter le coût d'impression. |
+| Boutique modèle | Hearble pour l'argument prix : « ton déjeuner chaud pour 3 € au lieu de 11 à 15 € dehors ». |
+| Demande en France | Environ la moitié des salariés dépensent 11 à 15 € par déjeuner (enquête Deskeo) ; 63 % des actifs mangent déjà un repas préparé à la maison (Edenred). |
+| Observation | Beaucoup apportent leur repas, mais au bureau, sur un chantier ou en voiture, il n'y a pas toujours de micro-ondes, ou il y a la queue. |
+| Cible et désir | Salariés, étudiants, artisans, chauffeurs : tous ceux qui mangent sur leur lieu de travail. |
+| Problème | Manger froid ou faire la queue au micro-ondes, ou payer 11 à 15 € chaque midi pour manger dehors. |
+| Question à résoudre | Comment manger chaud partout, sans micro-ondes et sans payer le restaurant ? |
+| Pistes produit | Lunch box chauffante (choisie) · sac isotherme · couverts de voyage (pack). |
+| **Idée de business** | Je veux permettre à ceux qui travaillent loin d'un micro-ondes de manger un vrai repas chaud fait maison, partout, et d'économiser des centaines d'euros par an sur leurs déjeuners. |
+| Solution à un problème | OUI : repas froid, queue au micro-ondes, pas de cuisine sur les chantiers ou en voiture. |
+| Économique | OUI, très fort : un repas maison coûte quelques euros, contre 11 à 15 € dehors. La lunch box est remboursée en moins d'une semaine. |
+| Besoin / passion | OUI (besoin) : on mange tous les midis. |
+| Effet wow | Vidéo : on la branche à 11 h 30, à midi le plat fume au bureau ou dans le camion. |
+| Unique | Logo et couleurs à ta marque (dès 500), prise européenne demandée au fournisseur, pack avec sac isotherme. |
+| Poids / volume | Environ 1 kg et un peu volumineuse : livraison plus chère que les autres produits. |
+| 1. Répond aux critères principaux ? | Très bien : problème quotidien, économie chiffrée. |
+| 2. Bénéfice évident au premier regard ? | Oui : « mange chaud partout, sans micro-ondes ». |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : pubs « 300 € économisés par an », vidéos sur chantier, au bureau, en voiture. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui : tout le monde déjeune, demande toute l'année. La concurrence existe en magasin (24 à 40 €) : il faut une marque soignée. |
+| Prix en France | Lunch box chauffantes : 23,99 € (Adler, Boulanger, en promotion), 26,99 € (Camry), 39,95 € (Livoo, Pearl). |
+| Angle pub / Instagram | « J'ai arrêté de payer 12 € mon déjeuner » ; démonstration sur un chantier et au bureau. |
+| Fournisseur | Inox, 12 V / 24 V / 220 V, 1,5 L : 9,50 $ (24 à 1 999), type de prise personnalisable dès 24 pièces. |
+| À vérifier | Exiger la prise européenne et le marquage CE (appareil électrique) ; demander l'inox 304 pour l'intérieur et le certificat de contact alimentaire. |
 
 ## 4. Bijoux anti-oxydation (waterproof) — Créoles dorées waterproof
 
@@ -199,34 +199,34 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | Gourde inox 304 avec filtre céramique (microfiltration) : 9 $ (10 à 99), 8,50 $ (100 à 199), 7,50 $ (200 et plus). |
 | À vérifier | Demander les rapports de test : le filtre retient les bactéries (99,9999 % selon le fournisseur) mais pas forcément les virus. Ne rien promettre sans ces tests. |
 
-## 7. Télétravail (maison et confort) — Coussin lombaire télétravail
+## 7. Télétravail et bureau — Barre lumineuse d'écran
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Orthopedic-lumbar-support-memory-foam-cushion_60747546667.html) · coût 5,16 € (6,0 $ × 0,86) · revente 29,90 € · marge 24,74 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Full-Desk-Coverage-Monitor-Light-Bar_1601885292435.html) · coût 8,92 € (10,37 $ × 0,86) · revente 39,90 € · marge 30,98 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Comme SmartWorkout : une solution à la maison qui évite de payer un professionnel à chaque fois. |
-| Demande en France | 22 % des salariés du privé télétravaillent au moins une fois par mois, contre 4 % en 2019 (DARES, 2024). |
-| Observation | Beaucoup télétravaillent sur une chaise de cuisine ou un canapé ; les accessoires « ergonomiques » se multiplient. |
-| Cible et désir | Télétravailleurs de 25 à 50 ans qui finissent la journée avec mal au bas du dos. |
-| Problème | Mal au bas du dos après des heures sur une chaise qui ne soutient pas. Une séance d'ostéopathe coûte 45 à 80 € et n'est pas remboursée par la Sécurité sociale (Selectra). |
-| Question à résoudre | Comment soulager le dos d'un télétravailleur sans changer de chaise ? |
-| Pistes produit | Coussin lombaire (choisi) · repose-pieds (pack télétravail) · support d'écran. |
-| **Idée de business** | Je veux permettre aux télétravailleurs de finir leur journée sans mal de dos, en transformant n'importe quelle chaise en chaise ergonomique, pour moins cher qu'une séance d'ostéo. |
-| Solution à un problème | OUI : douleur physique tous les jours. |
-| Économique | OUI : 29,90 € au lieu de 45 à 80 € la séance d'ostéo. |
-| Besoin / passion | OUI (besoin) : on travaille assis tous les jours. |
-| Effet wow | Avant/après de la posture de profil, la mousse qui reprend sa forme. |
-| Unique | Housse velours couleur sable, logo brodé (dès 500 pièces). |
-| Poids / volume | Léger mais volumineux (mousse) : livraison un peu plus chère. |
-| 1. Répond aux critères principaux ? | Très bien : douleur réelle et économie chiffrée. |
-| 2. Bénéfice évident au premier regard ? | Oui : « mal au dos → coussin », pas besoin d'expliquer. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : site cosy, pubs avant/après de la posture, pack télétravail avec repose-pieds. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Plutôt oui : 22 % des salariés concernés, besoin toute l'année ; il faut se démarquer d'Amazon par la marque. |
-| Prix en France | Coussins lombaires : 21 € (Kaufland), 36,69 € (ManoMano), 36,95 € (Pearl). |
-| Angle pub / Instagram | Avant/après de la posture au bureau ; « ton dos après 8 h de télétravail ». |
-| Fournisseur | Modèle WM-08211, housse velours amovible : 6 $ (300 à 999), logo dès 500. Fiche complète vérifiée. |
-| À vérifier | Pas de promesse médicale ; demander la couleur sable ou beige ; colis volumineux à chiffrer. |
+| Boutique modèle | Hearble : la même fonction qu'une marque chère pour une fraction du prix (BenQ ScreenBar Pro environ 139 €). |
+| Demande en France | 22 % des salariés du privé télétravaillent, contre 4 % en 2019 (DARES, 2024). |
+| Observation | On travaille le soir avec une lampe qui se reflète dans l'écran, ou dans le noir : les yeux fatiguent. |
+| Cible et désir | Télétravailleurs, étudiants, gamers et créateurs qui passent leurs soirées devant un écran. |
+| Problème | Yeux qui piquent et maux de tête en fin de journée, reflets sur l'écran, bureau mal éclairé et lampe qui prend de la place. |
+| Question à résoudre | Comment bien éclairer son bureau le soir, sans reflet et sans place perdue ? |
+| Pistes produit | Barre lumineuse d'écran (choisie) · support d'écran · lampe d'ambiance. |
+| **Idée de business** | Je veux permettre à ceux qui travaillent le soir sur écran d'avoir un bureau bien éclairé sans reflet et de finir la journée les yeux moins fatigués, pour 3 fois moins cher qu'une barre de marque. |
+| Solution à un problème | OUI : yeux fatigués, reflets, bureau encombré. |
+| Économique | OUI : 39,90 € au lieu d'environ 139 € pour la BenQ ScreenBar Pro. |
+| Besoin / passion | OUI : les « setups » de bureau sont une vraie passion sur TikTok et Instagram. |
+| Effet wow | Avant / après du bureau dans le noir, la lumière qui tombe sur le clavier sans toucher l'écran. |
+| Unique | Logo dès 500 pièces, couleurs du boîtier à ta marque. |
+| Poids / volume | Légère, colis long mais fin. |
+| 1. Répond aux critères principaux ? | Très bien : problème quotidien, économie chiffrée face à BenQ, passion « setup ». |
+| 2. Bénéfice évident au premier regard ? | Oui : la photo du bureau éclairé suffit. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : site noir, photos de setups, comparatif avec BenQ. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui : énorme public (télétravail, gaming), produit léger. La concurrence existe : le prix face à BenQ est l'argument. |
+| Prix en France | BenQ ScreenBar Pro environ 139-140 € (Korben, Cowcotland) ; ScreenBar Halo 2 de 158 à 208 € (Kaufland). |
+| Angle pub / Instagram | « 39,90 € au lieu de 139 € » ; avant / après d'un setup de bureau le soir. |
+| Fournisseur | Wisteria, aluminium, USB, anti-reflet, intensité réglable : 8,92 à 10,37 $ (dès 1 pièce), logo dès 500. |
+| À vérifier | Pas de promesse médicale sur les yeux ; vérifier le marquage CE et la compatibilité avec les écrans fins et incurvés. |
 
 ## 8. Lumière rouge (soin du visage) — Baguette lumière rouge visage
 
@@ -319,9 +319,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 
 | Pack | Coût | Revente | Lien |
 |---|---|---|---|
-| Pack running : t-shirt d'entraînement + short 2 en 1 + casquette | 18,27 € | 69,90 € | [Alibaba](https://www.alibaba.com/product-detail/2-in-1-Men-Running-Shorts_1600202475864.html) |
-| Pack « Run Club » : veste coupe-vent + t-shirt + casquette + gobelet | 19,31 € | 89,90 € | [Alibaba](https://www.alibaba.com/product-detail/Custom-Jacket-Windbreaker-Stand-Collar-Water_1601972754417.html) |
-| Pack télétravail : coussin lombaire + repose-pieds ergonomique | 9,37 € | 54,90 € | [Alibaba](https://www.alibaba.com/product-detail/shenzhen-lianda-comfortable-memory-foam-office_1600335423239.html) |
+| Pack bureau du soir : barre lumineuse + support d'ordinateur portable | 11,50 € | 54,90 € | [Alibaba](https://www.alibaba.com/product-detail/Wholesale-New-Arrival-Adjustable-Aluminum-Alloy_1600556043196.html) |
 | Coffret trio waterproof : créoles épaisses + collier cœur + jonc fleur, dans un écrin velours à ton logo | 9,36 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/18K-Gold-Plated-Stainless-Steel-Non_1600374590245.html) |
 
 ## Sources
@@ -359,6 +357,11 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 - [LifeStraw Go inox (Vetsecurite)](https://vetsecurite.com/en/water-bottles/51755-gourde-filtrante-en-acier-inoxydable-530ml-go-series-bleu-lifestraw-7640144288099.html)
 - [LifeStraw Go inox (Nature & Découvertes)](https://www.natureetdecouvertes.com/outdoor/camping-bivouac/gourdes-termos/gourde-filtre-a-eau-lifestraw-go-series-stainless-steel-700-ml-noire-98465540)
 - [LifeStraw sur Decathlon.fr](https://www.decathlon.fr/brands/lifestraw)
+- [Enquête Deskeo et Edenred, budget du déjeuner (via PayFit / Edenred)](https://www.edenred.fr/magazine/donner-du-sens/pause-dejeuner-et-inflation-quelles-sont-les-nouvelles-tendances-alimentaires-en-2024)
+- [Boulanger, lunch box Adler 23,99 €](https://www.boulanger.com/ref/9000975182)
+- [Pearl, lunch box chauffantes 14,95 à 39,95 €](https://www.pearl.fr/designation/lunchbox-chauffante-electrique-1)
+- [Korben, BenQ ScreenBar Pro environ 140 €](https://korben.info/benq-screenbar-pro-la-lampe-de-bureau-que-je-prenais-pour-un-gadget-et-que-je-ne-peux-plus-quitter.html)
+- [Kaufland, BenQ ScreenBar Halo 2](https://www.kaufland.fr/product/534991437/)
 - [DARES via Europe 1 (22 % de télétravailleurs)](https://www.europe1.fr/economie/de-07-a-1-le-teletravail-apporte-un-gain-reel-mais-modeste-de-la-productivite-en-entreprise-selon-linsee-936356)
 - [Selectra, prix d'une séance d'ostéopathe](https://selectra.info/assurance/mutuelle-sante/remboursement/osteopathe)
 - [Coussin lombaire (Kaufland)](https://www.kaufland.fr/product/475932741/)
