@@ -1,173 +1,180 @@
 # 10 idées de business, 10 niches : généré par construire_tableau.py à partir de dossier.py (ne pas modifier à la main).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
-rows=[('Barre de Pilates démontable avec élastiques + 2 disques de glisse + programme vidéo 30 jours + boîte pastel — Niche : Pilates à la maison · faire du Pilates Reformer',
-  'https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html',
+rows=[('Porte-clés mural en bois : crochets pour les clés, étagère vide-poche, range-courrier — Niche : Organisation élégante · ne plus chercher ses clés',
+  'https://www.alibaba.com/product-detail/Wooden-wood-Wall-Mounted-Key-and_1600214960552.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  3.68,
+  2.58,
   7,
-  39.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
-  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Une séance de Pilates sur machine (Reformer) coûte '
-  "cher en studio et une machine coûte des milliers d'euros. ÉCONOMIQUE : OUI : 39,90 € une fois, au lieu de séances à 30-40 €. EFFET WAOUW : Les mouvements du Reformer dans un salon, avec une "
-  'simple barre. PRIX EN FRANCE : Kits de 26 à 59 € ; SmartWorkout 99,90 €. FOURNISSEUR : Barre 2,50 $ (lien) + disques de glisse 1,78 $ la paire '
-  '(https://www.alibaba.com/product-detail/High-Quality-Core-Sliders-for-Gym_1601519504789.html). À VÉRIFIER : Tester la solidité des élastiques ; programme filmé avec une coach diplômée. '
-  "Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
-  'Kit Pilates Plus « Reformer à la maison »'),
- ('Paire de bracelets lestés en silicone (poignets ou chevilles), couleurs pastel — Niche : Pilates à la maison · se renforcer en douceur',
-  'https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html',
+  34.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : L'organisation "
+  "de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. "
+  "PROBLÈME : On cherche ses clés tous les matins et le courrier s'entasse dans l'entrée. ÉCONOMIQUE : OUI : fin des clés perdues et des doubles à refaire. EFFET WAOUW : Avant / après de l'entrée en "
+  '15 secondes. PRIX EN FRANCE : Modèles de 20,50 à 36,66 € (comparatif LeBonTri), Kaufland 22,78 €. FOURNISSEUR : 3 $ (10 à 49), bois et métal. À VÉRIFIER : Fournir les vis et chevilles ; vérifier '
+  'la solidité des crochets. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les '
+  'étiquettes en français.',
+  'Porte-clés mural avec étagère'),
+ ('Plateau vide-poche en cuir à boutons-pression pour clés, montre, bijoux, portefeuille — Niche : Organisation élégante · ranger ses petits objets',
+  'https://www.alibaba.com/product-detail/Handmade-Premium-Leather-Valet-Tray-Dice_1601215748409.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  5.03,
-  7,
-  39.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
-  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Les haltères sont encombrants et peu agréables ; '
-  'on veut se renforcer en marchant ou pendant le Pilates. ÉCONOMIQUE : OUI : remplace des haltères. EFFET WAOUW : Un bijou qui muscle. PRIX EN FRANCE : Decathlon 42,99 € le lot ; Bala 49 à 85 $ aux '
-  'États-Unis. FOURNISSEUR : 5,85 $ la paire (1 à 499), logo dès 50. À VÉRIFIER : Bien indiquer le poids de chaque bracelet. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la '
-  "marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
-  'Bracelets lestés pastel'),
- ('Lot de 3 paires de chaussettes antidérapantes pastel pour Pilates, yoga et parquet — Niche : Pilates à la maison · ne plus glisser',
-  'https://www.alibaba.com/product-detail/Custom-Rubber-Grip-Yoga-Dance-Socks_1600795685359.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  4.51,
+  0.86,
   9,
-  32.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
-  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : On glisse sur le tapis ou le parquet, et les '
-  'studios imposent des chaussettes antidérapantes. ÉCONOMIQUE : OUI : 3 paires au prix de 2 en magasin. EFFET WAOUW : Le look « Pilates girl » complet. PRIX EN FRANCE : 1 paire 11,99 à 19 € ; 2 '
-  'paires 26,99 à 32,90 €. FOURNISSEUR : 1,75 $ la paire, logo dès 300. À VÉRIFIER : Vérifier les tailles et le tenue des picots au lavage. Concurrence : Decathlon et Amazon vendent des accessoires '
-  "de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
-  'Chaussettes antidérapantes (lot de 3)'),
- ('Cercle de Pilates + 1 paire de chaussettes antidérapantes + programme vidéo « cours collectif » — Niche : Pilates à la maison · suivre un cours de Pilates',
-  'https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  4.43,
-  8,
-  34.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
-  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Un cours collectif de Pilates coûte 15 à 30 € la '
-  'séance et les horaires ne conviennent pas toujours. ÉCONOMIQUE : OUI : le prix de deux séances en studio. EFFET WAOUW : Le cercle qui sculpte bras et cuisses en vidéo. PRIX EN FRANCE : Kits '
-  'Pilates complets chez Decathlon ; séances de 15 à 30 €. FOURNISSEUR : Cercle 3,40 $ (lien) + chaussettes 1,75 $. À VÉRIFIER : Programme filmé par une coach diplômée. Concurrence : Decathlon et '
-  "Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
-  'Kit Pilates Studio'),
- ('3 bandes en tissu pastel + 2 sangles de chevilles + programme 30 jours — Niche : Pilates à la maison · tonifier fessiers et jambes',
-  'https://www.alibaba.com/product-detail/Zakerda-Non-Slip-latex-fabric-polyester_1601045479697.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  5.6,
-  8,
-  34.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
-  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Les élastiques en latex roulent sur les cuisses et '
-  'on ne sait pas quels exercices faire. ÉCONOMIQUE : OUI : un kit au lieu de deux achats séparés. EFFET WAOUW : Avant / après sur 30 jours. PRIX EN FRANCE : Bandes 19,49 € + sangles 12,99 à 26,98 € '
-  'achetées séparément. FOURNISSEUR : Bandes 3,15 $ (lien) + sangles 3,36 $ (https://www.alibaba.com/product-detail/Professional-Kickback-Ankle-Strap-Glute-Workouts_1601112137291.html). À VÉRIFIER : '
-  "Aucune promesse de résultat chiffrée. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
-  'Kit Fessiers'),
- ('Pochette avec 2 disques de glisse, 1 bande en tissu, 1 paire de chaussettes + programme 15 minutes « partout » — Niche : Pilates à la maison · garder sa routine en voyage',
-  'https://www.alibaba.com/product-detail/High-Quality-Core-Sliders-for-Gym_1601519504789.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  5.74,
-  9,
-  34.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
-  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : En vacances ou en déplacement, on perd sa routine '
-  'et le matériel ne rentre pas dans la valise. ÉCONOMIQUE : OUI : pas de salle à payer en voyage. EFFET WAOUW : Toute une séance dans une petite pochette. PRIX EN FRANCE : Peu de kits voyage avec '
-  'programme en France ; disques seuls à petit prix. FOURNISSEUR : Disques 1,78 $ (lien) + bande 3,15 $ + chaussettes 1,75 $. À VÉRIFIER : Pochette à faire imprimer au logo. Concurrence : Decathlon '
-  "et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
-  'Kit Pilates Voyage'),
- ('Balle de massage double + bande en tissu + programme « dos libéré » de 10 minutes — Niche : Pilates à la maison · soulager son dos',
-  'https://www.alibaba.com/product-detail/nature-rubber-peanut-ball-massage-for_62410531730.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  6.15,
-  8,
-  34.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
-  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Dos et nuque tendus après des heures assise ; une '
-  "séance d'ostéopathe coûte 45 à 80 € et n'est pas remboursée. ÉCONOMIQUE : OUI : 34,90 € une fois au lieu de séances à 45-80 €. EFFET WAOUW : La balle qui roule le long du dos, soulagement "
-  'visible. PRIX EN FRANCE : Balles doubles seules 7 à 20 € ; peu de kits avec programme. FOURNISSEUR : Balle 4 $ (lien) + bande 3,15 $. À VÉRIFIER : Aucune promesse médicale (« détend », jamais « '
-  "soigne »). Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
-  'Kit Dos & Posture'),
- ('Cercle de Pilates + bande en tissu + programme doux de reprise (après feu vert médical) — Niche : Pilates à la maison · reprendre le sport après bébé',
-  'https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  5.63,
-  8,
-  36.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
-  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Après une grossesse, on veut reprendre en douceur, '
-  'mais on ne sait pas par où commencer et on a peu de temps. ÉCONOMIQUE : OUI : pas de cours à payer ni de garde à trouver. EFFET WAOUW : Séance de 15 minutes pendant la sieste de bébé. PRIX EN '
-  'FRANCE : Programmes post-natal en ligne payants ; peu de kits physiques. FOURNISSEUR : Cercle 3,40 $ (lien) + bande 3,15 $. À VÉRIFIER : Programme validé par une sage-femme ou un kiné ; toujours '
-  "après feu vert médical. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
-  'Kit Reprise après bébé'),
- ("Gourde 2 L avec repères d'heures et paille, couleurs pastel — Niche : Pilates à la maison · penser à boire",
-  'https://www.alibaba.com/product-detail/motivational-water-bottle-2l-2-liter_1600264326049.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  1.95,
-  8,
   29.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
-  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : On oublie de boire assez dans la journée, surtout '
-  "quand on fait du sport. ÉCONOMIQUE : OUI : une gourde au lieu de bouteilles en plastique. EFFET WAOUW : Les repères d'heures qui motivent. PRIX EN FRANCE : Gourde 2 L inox 32,99 € (Breaking "
-  "Limits). FOURNISSEUR : 2,27 $, logo dès 100. À VÉRIFIER : Vérifier le plastique sans BPA. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers "
-  'pastel, le programme vidéo en français et les packs.',
-  'Gourde 2 L pastel'),
- ('Belle boîte : bracelets lestés pastel + 1 paire de chaussettes antidérapantes + carte du programme — Niche : Pilates à la maison · offrir un cadeau Pilates',
-  'https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html',
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : L'organisation "
+  "de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. "
+  "PROBLÈME : Montre, bijoux, clés et monnaie traînent sur la table de chevet ou le meuble de l'entrée. ÉCONOMIQUE : OUI : plus d'objets perdus le matin. EFFET WAOUW : Le plateau qui se monte en un "
+  'clic avec les boutons-pression. PRIX EN FRANCE : Bruneau 41,95 € HT ; Montblanc 340 € ; artisans 30 à 60 €. FOURNISSEUR : 1 $ (1 à 499), logo dès 300. À VÉRIFIER : Vérifier la matière (cuir ou '
+  "simili) et l'annoncer honnêtement. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les "
+  'étiquettes en français.',
+  'Vide-poche en cuir'),
+ ('Trieur 13 compartiments ignifugé à fermeture zip, avec étiquettes en français (santé, impôts, banque, maison…) — Niche : Organisation élégante · retrouver ses papiers importants',
+  'https://www.alibaba.com/product-detail/Fireproof-Multi-Layer-Accordion-File-Folder_1601781954486.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  6.54,
+  8.17,
+  7,
+  39.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : L'organisation "
+  "de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. "
+  'PROBLÈME : Les papiers importants sont éparpillés et on ne retrouve rien le jour où on en a besoin. ÉCONOMIQUE : OUI : du temps gagné et du stress en moins à chaque démarche. EFFET WAOUW : Tout '
+  'un tiroir de papiers rangé dans un seul trieur. PRIX EN FRANCE : Trieurs simples 11 à 20 € ; Fellowes 48,96 € ; valisettes 40 à 50 €. FOURNISSEUR : 9,50 $ (200 à 499), 7 $ dès 5 000. À VÉRIFIER : '
+  'Ne pas promettre une protection totale contre le feu sans test ; parler de « résistant à la chaleur ». Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la '
+  'marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français.',
+  'Trieur papiers importants'),
+ ('Classeur A6 avec enveloppes zippées, feuilles de budget en français et étiquettes — Niche : Organisation élégante · tenir son budget',
+  'https://www.alibaba.com/product-detail/Marble-A6-Budget-Binder-with-Zip_1600733904045.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  2.57,
+  8,
+  34.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : L'organisation "
+  "de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. "
+  "PROBLÈME : L'argent file sans qu'on sache où ; on n'arrive pas à mettre de côté. ÉCONOMIQUE : OUI : aide à économiser bien plus que son prix. EFFET WAOUW : Le remplissage des enveloppes en vidéo, "
+  'très partagé. PRIX EN FRANCE : Kaufland 16,88 à 44,99 € ; Fruugo 18,16 € (prix conseillé 30,85 €). FOURNISSEUR : 2,99 $ (10 à 199), logo possible. À VÉRIFIER : Feuilles de budget à traduire et à '
+  'imprimer en français. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes '
+  'en français.',
+  'Classeur budget à enveloppes'),
+ ('Trousse en cuir à enrouler pour chargeurs, câbles et écouteurs — Niche : Organisation élégante · ranger ses câbles',
+  'https://www.alibaba.com/product-detail/Genuine-Leather-Charger-Roll-up-case_60816756885.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  4.73,
+  9,
+  34.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : L'organisation "
+  "de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. "
+  "PROBLÈME : Câbles et chargeurs s'emmêlent au fond du sac et on les oublie en voyage. ÉCONOMIQUE : OUI : plus de chargeurs perdus ou rachetés. EFFET WAOUW : Le sac en désordre, puis la trousse qui "
+  'se déroule. PRIX EN FRANCE : Bellroy Tech Kit 69,99 à 72,49 €. FOURNISSEUR : Cuir véritable, 5,50 $ (500 minimum), logo embossé. À VÉRIFIER : Minimum de 500 pièces : commencer par un échantillon. '
+  'Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français.',
+  'Trousse à câbles en cuir'),
+ ('Carnet en cuir style vintage avec recharges kraft, logo doré — Niche : Organisation élégante · noter et organiser ses idées',
+  'https://www.alibaba.com/product-detail/High-Quality-Handmade-Custom-Vintage-Genuine_1600923403516.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  1.98,
+  8,
+  34.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : L'organisation "
+  "de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. "
+  'PROBLÈME : Les idées et les listes sont éparpillées sur des papiers volants et dans le téléphone. ÉCONOMIQUE : OUI : on change seulement la recharge. EFFET WAOUW : Le cuir qui se patine, très « '
+  "Pinterest ». PRIX EN FRANCE : PaperWrld 36,49 à 39,49 € ; Traveler's Company 52 à 66 $. FOURNISSEUR : Cuir véritable, 2,30 $ (100 minimum). À VÉRIFIER : Vérifier la qualité du cuir sur "
+  'échantillon. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en '
+  'français.',
+  'Carnet en cuir rechargeable'),
+ ('Grand sous-main en cuir synthétique, imperméable et antidérapant — Niche : Organisation élégante · avoir un bureau net',
+  'https://www.alibaba.com/product-detail/Multifunctional-Desk-Pad-Waterproof-PU-Leather_1600108081618.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  2.75,
+  7,
+  34.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : L'organisation "
+  "de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. "
+  'PROBLÈME : Le bureau en télétravail est encombré, rayé et taché. ÉCONOMIQUE : OUI : protège le bureau et remplace le tapis de souris. EFFET WAOUW : Le bureau transformé en 10 secondes. PRIX EN '
+  "FRANCE : Sous-mains synthétiques de 15 à 47 € (JGD jusqu'à 47 €). FOURNISSEUR : 3,20 $ (2 à 2 999), logo dès 0,15 $. À VÉRIFIER : Annoncer « cuir synthétique », jamais « cuir ». Concurrence : des "
+  'versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français.',
+  'Sous-main de bureau'),
+ ('Pochette zippée pour 4 passeports, billets et cartes, protection RFID — Niche : Organisation élégante · garder les papiers de voyage ensemble',
+  'https://www.alibaba.com/product-detail/Pu-Leather-Passport-Bag-Rfid-Multi_1600903701183.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  2.14,
+  9,
+  29.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : L'organisation "
+  "de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. "
+  "PROBLÈME : À l'aéroport, on cherche les passeports et les billets de toute la famille dans tous les sacs. ÉCONOMIQUE : OUI : moins de stress et de risque de perte en voyage. EFFET WAOUW : Toute "
+  'la famille prête au contrôle en une seconde. PRIX EN FRANCE : Modèles simples 5 à 25 € (Voopies 24,90 €) ; Fossil en cuir 89 €. FOURNISSEUR : 2,49 $ (5 à 49), 1,99 $ dès 1 000. À VÉRIFIER : '
+  "Tester la protection RFID avant de l'annoncer. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle "
+  'boîte et les étiquettes en français.',
+  'Pochette passeports famille'),
+ ("Coffret avec tampon en laiton à l'initiale, perles de cire, cuillère — Niche : Organisation élégante · personnaliser ses lettres et cadeaux",
+  'https://www.alibaba.com/product-detail/Pink-Wax-Seal-Stamp-Kit-with_1601147778139.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  2.49,
+  9,
+  29.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : L'organisation "
+  "de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. "
+  'PROBLÈME : Les cartes et les paquets cadeaux faits maison manquent de finition. ÉCONOMIQUE : OUI : remplace des cartes et emballages de luxe. EFFET WAOUW : Le cachet qui se décolle de la cire, '
+  "très partagé en vidéo. PRIX EN FRANCE : Kit cachet de cire 40,94 € (Greenweez) ; kits d'entrée de gamme dès 3,59 € (Action). FOURNISSEUR : 2,90 $ (10 à 49), lettre au choix. À VÉRIFIER : Proposer "
+  "chaque lettre de l'alphabet en stock. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et "
+  'les étiquettes en français.',
+  'Coffret cachet de cire'),
+ ('Coffret cadeau : porte-clés mural + vide-poche en cuir, belle boîte — Niche : Organisation élégante · offrir une entrée organisée',
+  'https://www.alibaba.com/product-detail/Wooden-wood-Wall-Mounted-Key-and_1600214960552.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  3.44,
   6,
   49.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
-  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : On ne sait jamais quoi offrir à une amie qui aime '
-  'le sport et le bien-être. ÉCONOMIQUE : OUI : un cadeau complet en une commande. EFFET WAOUW : Le déballage du coffret pastel. PRIX EN FRANCE : Coffrets bien-être de 30 à 60 € en France. '
-  "FOURNISSEUR : Bracelets 5,85 $ (lien) + chaussettes 1,75 $. À VÉRIFIER : Prévoir une belle boîte : c'est elle qui fait le prix. Concurrence : Decathlon et Amazon vendent des accessoires de base ; "
-  "la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
-  'Coffret cadeau Pilates')]
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : L'organisation "
+  "de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. "
+  "PROBLÈME : On ne sait pas quoi offrir pour une crémaillère ou un premier appartement. ÉCONOMIQUE : OUI : un cadeau utile au lieu d'un objet qui prend la poussière. EFFET WAOUW : Le déballage puis "
+  "l'entrée transformée. PRIX EN FRANCE : Coffrets déco de 30 à 60 € ; achat séparé 64,80 € dans la boutique. FOURNISSEUR : Porte-clés 3 $ (lien) + vide-poche 1 $. À VÉRIFIER : Boîte cadeau soignée "
+  ": c'est elle qui fait le prix. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les "
+  'étiquettes en français.',
+  'Coffret organisation entrée')]

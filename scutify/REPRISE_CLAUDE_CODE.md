@@ -299,3 +299,5 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 14/11/2026 — Produit principal changé : Kit Pilates Plus 39,90 € (gain 26,13 €) au lieu des bracelets.
 
 ## 14/11/2026 — Tableau Scutify refait : 10 produits Pilates à la maison cohérents (dossier.py). Ancien VAURE : dossier_v5_vaure_kits.py, produits_v10_vaure.py, upsells_v5_vaure.py.
+
+## 14/11/2026 — Tableau Scutify refait : niche Organisation élégante (10 objets, hors sport). Pilates gardé : dossier_v6_pilates.py, upsells_v6_pilates.py, construire_tableau_v6_pilates.py.
