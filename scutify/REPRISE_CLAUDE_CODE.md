@@ -293,3 +293,5 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 14/11/2026 — ANALYSE_COCOONING.md : 10 verts toute l annee (bracelets lestés reco). v1 gardée.
 
 ## 14/11/2026 — ANALYSE_PINTEREST.md : 10 verts inspirés des tendances Pinterest (cachet de cire, carnet cuir, kits créatifs, Pilates).
+
+## 14/11/2026 — NICHES_PINTEREST.md : 3 niches viables, reco Pilates maison.
