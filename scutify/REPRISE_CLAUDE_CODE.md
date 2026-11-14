@@ -229,3 +229,11 @@ Les 10 : Pilates, blanchiment dentaire PAP, t-shirt Run Club, bracelet acier gra
 coussin lombaire, baguette lumière rouge, micro sans fil, mini pistolet de massage. 2e produits : pack running, pack Run Club, pack télétravail
 (le mini reformer est retiré : fiche Alibaba supprimée).
 Ordre de travail : python3 construire_tableau.py && python3 remplir_modele_exact.py "$F" && python3 remplir_modele.py
+
+## Marque de bijoux anti-oxydation (14/11/2026)
+Demande de Jairo : une marque de vêtements « à problème » est compliquée, faire plutôt une marque de bijoux qui répond à l'oxydation.
+Ligne 4 du tableau : « Créoles dorées waterproof » (acier inoxydable doré PVD, 1601031342027, 3,35 $ → 2,88 €, revente 29,90 €, note 8,5)
+à la place du bracelet gravé à message. 2e produit ajouté : coffret trio waterproof 59,90 € (créoles + collier cœur 1600374590245
++ jonc 1601828784456 + écrin 1601632875678). Concept complet : CONCEPT_MARQUE_BIJOUX.md (gamme femme + ligne homme, règles DGCCRF/REACH,
+« plaqué or » interdit sous 3 microns, pas de « sans nickel » pour le 316L, lancement visé : Saint-Valentin).
+Le t-shirt Run Club reste en ligne 3 (idée la plus faible, 7/10).

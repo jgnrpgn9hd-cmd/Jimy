@@ -15,7 +15,7 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 | 1 | Pilates à la maison | [Kit Pilates barre + élastiques](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) | 2,15 € | 29,90 € | 27,75 € | 9,5 |
 | 2 | Sourire et soins de soi | [Kit blanchiment dentaire LED](https://www.alibaba.com/product-detail/Glory-Smile-Teeth-Whitening-Light-Home_1600296524573.html) | 5,68 € | 39,90 € | 34,22 € | 8,5 |
 | 3 | Running homme (marque à message) | [T-shirt Run Club à message](https://www.alibaba.com/product-detail/Men-Dry-Fit-Workout-Shirts-Athletic_1601857690130.html) | 7,37 € | 29,90 € | 22,53 € | 7,0 |
-| 4 | Bijoux homme | [Bracelet acier gravé à message](https://www.alibaba.com/product-detail/316L-stainless-steel-customized-quotes-engraved_60496479758.html) | 2,91 € | 29,90 € | 26,99 € | 7,0 |
+| 4 | Bijoux anti-oxydation (waterproof) | [Créoles dorées waterproof](https://www.alibaba.com/product-detail/Hypoallergenic-Tarnish-Free-Waterproof-Jewelry-18k_1601031342027.html) | 2,88 € | 29,90 € | 27,02 € | 8,5 |
 | 5 | Eau calcaire (cheveux et peau) | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/Vitamin-C-Filter-Shower-Head-Shower_1600150519353.html) | 5,16 € | 34,90 € | 29,74 € | 8,5 |
 | 6 | Randonnée et outdoor (éco-responsable) | [Gourde filtrante inox](https://www.alibaba.com/product-detail/microfiltration-stainless-steel-water-filter-bottle_60154285879.html) | 7,74 € | 34,90 € | 27,16 € | 8,5 |
 | 7 | Télétravail (maison et confort) | [Coussin lombaire télétravail](https://www.alibaba.com/product-detail/Orthopedic-lumbar-support-memory-foam-cushion_60747546667.html) | 5,16 € | 29,90 € | 24,74 € | 8,5 |
@@ -112,34 +112,34 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | T-shirt dry-fit sans couture : 8,57 $ (5 à 49), 7,71 $ (50 à 199), 7,29 $ (200 à 499). Message à imprimer (fournisseur ou imprimeur en France, coût à ajouter). |
 | À vérifier | Vérifier sur le site de l'INPI que le nom et les messages ne sont pas déposés ; ajouter le coût d'impression. |
 
-## 4. Bijoux homme — Bracelet acier gravé à message
+## 4. Bijoux anti-oxydation (waterproof) — Créoles dorées waterproof
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/316L-stainless-steel-customized-quotes-engraved_60496479758.html) · coût 2,91 € (3,38 $ × 0,86) · revente 29,90 € · marge 26,99 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Hypoallergenic-Tarnish-Free-Waterproof-Jewelry-18k_1601031342027.html) · coût 2,88 € (3,35 $ × 0,86) · revente 29,90 € · marge 27,02 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Hustle Wear appliqué aux bijoux : un message qui donne une identité, plus l'idée cadeau. |
-| Demande en France | Près de 6 milliards d'euros de montres et bijoux vendus en France en 2024 (Francéclat). |
-| Observation | Les bijoux pas chers en plaqué noircissent vite ; les marques d'acier vendent 45 à 99 €. |
-| Cible et désir | Hommes de 18 à 35 ans qui veulent du style, et tous ceux qui cherchent un cadeau pour un homme (copain, père, frère, ami). |
-| Problème | Le bijou plaqué noircit ou verdit la peau, il faut l'enlever pour la douche et le sport ; et trouver un cadeau pour un homme est un casse-tête. |
-| Question à résoudre | Comment offrir (ou s'offrir) un bijou qui a du sens et qui ne noircit pas, pour moins de 30 € ? |
-| Pistes produit | Bracelet gravé à message (choisi) · gourmette gravée au prénom · chaîne maille cubaine. |
-| **Idée de business** | Je veux permettre aux hommes de porter un bijou qui leur ressemble, gravé d'un message qui les motive, en acier qui se garde sous la douche et au sport. |
-| Solution à un problème | OUI, moyen : bijoux qui noircissent ou donnent des allergies, cadeau pour homme difficile à trouver. |
-| Économique | NON : ce n'est pas un achat pour économiser (même s'il coûte moins qu'un bracelet acier de marque à 45 €). |
-| Besoin / passion | OUI, fort : style et identité, cadeau pour quelqu'un qu'on aime (le « besoin / passion » du support). |
-| Effet wow | Gravure en gros plan, bracelet porté sur fond noir. |
-| Unique | Messages exclusifs + gravure personnalisée (prénom, date). |
-| Poids / volume | Minuscule et léger : la livraison coûte très peu. |
-| 1. Répond aux critères principaux ? | Bien : très fort sur la passion et le cadeau, moyen sur le problème. |
-| 2. Bénéfice évident au premier regard ? | Oui : un beau bracelet avec un message, ça se comprend tout de suite. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : site noir et or, pubs « le cadeau qu'il gardera toute sa vie », gravure filmée. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Plutôt oui grâce aux fêtes (Noël, Saint-Valentin, fête des pères), mais la concurrence est forte : il faut une vraie marque. |
-| Prix en France | Bracelets homme gravés : 17,50 à 22 € (Monzémaré, Rakuten, YourSurprise) ; bracelet acier Phebus 45 € ; chaîne Lacoste 99 €. |
-| Angle pub / Instagram | « Le cadeau qu'il gardera toute sa vie » + gravure en direct ; messages de motivation. |
-| Fournisseur | Dongguan Lucky Forever, 15 ans sur Alibaba : 3,38 $ (100 à 499), messages gravés au choix. |
-| À vérifier | Commander des échantillons et les tester une semaine sous la douche ; faire confirmer l'acier 316L par écrit. |
+| Boutique modèle | Hearble pour la phrase-choc (« le look de l'or sans le prix de l'or »), Hustle Wear pour les packs, et Zag Bijoux, marque française d'acier 316L vendue aux Galeries Lafayette, qui prouve que ça se vend (créoles de 24 à 45 €). |
+| Demande en France | Près de 6 milliards d'euros de montres et bijoux vendus en France en 2024 (Francéclat) ; en Europe, environ 10 % des femmes sont allergiques au nickel, une allergie liée au perçage des oreilles et aux bijoux (Que Choisir). |
+| Observation | Les bijoux fantaisie pas chers sont souvent en laiton recouvert d'une fine dorure : l'eau, la sueur et le parfum l'usent, le bijou noircit et laisse des traces vertes sur la peau. En 2016, la DGCCRF a jugé dangereux 30 % des bijoux fantaisie contrôlés (plomb, cadmium, nickel). |
+| Cible et désir | Femmes de 18 à 35 ans qui portent des bijoux tous les jours, et tous ceux qui cherchent un cadeau. Une ligne homme (chaîne, bracelet) peut suivre. |
+| Problème | Bijoux qui noircissent ou verdissent la peau après quelques semaines, oreilles qui grattent à cause du nickel, et il faut tout enlever pour la douche, la mer ou le sport. |
+| Question à résoudre | Comment porter de beaux bijoux dorés tous les jours, même sous la douche et à la mer, sans qu'ils noircissent ni qu'ils grattent ? |
+| Pistes produit | Créoles en acier doré PVD (choisies) · collier cœur · jonc · bague ajustable · ligne homme (chaîne, bracelet) · coffret cadeau. |
+| **Idée de business** | Je veux permettre aux femmes qui en ont marre des bijoux qui noircissent et qui grattent de porter des bijoux dorés qu'elles n'enlèvent jamais, même sous la douche ou à la mer, pour le prix d'un bijou fantaisie. |
+| Solution à un problème | OUI : bijoux qui noircissent et verdissent la peau (argent jeté, déception) et allergie au nickel (démangeaisons : une douleur physique). |
+| Économique | OUI : on arrête de racheter des bijoux fantaisie qui noircissent ; le look de l'or pour 29,90 €, moins cher que les créoles Zag (30 à 45 €). |
+| Besoin / passion | OUI : la mode, le style, et le cadeau pour quelqu'un qu'on aime (le « besoin / passion » du support). |
+| Effet wow | Vidéo « 6 mois sous la douche, à la mer et au sport : toujours dorées », et la comparaison avec un bijou fantaisie qui a noirci. |
+| Unique | Ta marque sur l'écrin (écrin velours avec logo dès 200 pièces), une garantie « ne noircit pas » d'un an et une collection pensée pour se porter ensemble. |
+| Poids / volume | Minuscule et très léger : la livraison coûte très peu. |
+| 1. Répond aux critères principaux ? | Très bien : problème réel et visible, économie, passion et cadeau. |
+| 2. Bénéfice évident au premier regard ? | Oui : « des bijoux dorés que tu n'enlèves jamais, même sous la douche ». |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : site blanc et doré, pubs « 6 mois sous la douche », comparaison avec un bijou qui a noirci, packs à porter ensemble. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui : demande toute l'année avec des pics (Noël, Saint-Valentin, fête des mères), colis minuscules, très grosses marges, clientes qui reviennent compléter leur collection. Le point dur, c'est la concurrence : il faut une vraie marque. |
+| Prix en France | Créoles en acier doré : Zag Bijoux 24 € (Baho), 30 € (Colombus, Papaya), 45 € (Wendy) ; Nature & Découvertes 19,95 € (Marty) et 39,90 € (Line). |
+| Angle pub / Instagram | « Je me douche, je nage, je fais du sport avec : toujours dorées » ; comparaison face à un bijou fantaisie qui a noirci ; créoles + collier + jonc portés ensemble. |
+| Fournisseur | Créoles épaisses en C, acier inoxydable doré PVD, présentées « hypoallergéniques, waterproof » : 3,35 $ (10 à 99), 3,15 $ (100 à 499), 2,90 $ (500 à 999). Écrin velours avec logo : 0,65 $ (200 à 1 999). |
+| À vérifier | Faire confirmer par écrit : acier 316L, revêtement PVD et prix par paire. Demander les tests nickel (au plus 0,2 µg/cm²/semaine pour la tige qui traverse l'oreille), plomb et cadmium (règlement européen REACH). Écrire « acier inoxydable doré », jamais « plaqué or » (réservé à 3 microns d'or minimum). Ne pas écrire « sans nickel » : l'acier 316L en contient. Tester les échantillons 1 mois (douche, mer, sport) avant de promettre « ne noircit pas ». |
 
 ## 5. Eau calcaire (cheveux et peau) — Pommeau de douche filtrant
 
@@ -322,6 +322,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Pack running : t-shirt d'entraînement + short 2 en 1 + casquette | 18,27 € | 69,90 € | [Alibaba](https://www.alibaba.com/product-detail/2-in-1-Men-Running-Shorts_1600202475864.html) |
 | Pack « Run Club » : veste coupe-vent + t-shirt + casquette + gobelet | 19,31 € | 89,90 € | [Alibaba](https://www.alibaba.com/product-detail/Custom-Jacket-Windbreaker-Stand-Collar-Water_1601972754417.html) |
 | Pack télétravail : coussin lombaire + repose-pieds ergonomique | 9,37 € | 54,90 € | [Alibaba](https://www.alibaba.com/product-detail/shenzhen-lianda-comfortable-memory-foam-office_1600335423239.html) |
+| Coffret trio waterproof : créoles épaisses + collier cœur + jonc fleur, dans un écrin velours à ton logo | 9,36 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/18K-Gold-Plated-Stainless-Steel-Non_1600374590245.html) |
 
 ## Sources
 
@@ -337,10 +338,19 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 - [Directive 2011/84/UE, peroxyde d'hydrogène dans les produits de blanchiment](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011L0084)
 - [Observatoire du Running 2026 (13,2 millions de coureurs)](https://www.marathons.com/tips-recos/observatoire-du-running-2026-132-millions-de-pratiquants-et-un-marche-toujours-en-croissance/)
 - [Francéclat via FashionUnited (près de 6 milliards d'euros)](https://fashionunited.fr/actualite/business/pres-de-6-milliards-deuros-de-montres-et-bijoux-vendus-en-france-en-2024-en-legere-croissance/2025032037567)
-- [Bracelets homme gravés (Touslesprix)](https://www.touslesprix.com/achat,bracelet-homme-gravure.html)
-- [Monzémaré, bracelet gravé](https://www.marques-de-france.fr/produit/marin-dore/)
-- [Phebus, bijoux acier homme (Nature & Découvertes)](https://www.natureetdecouvertes.com/bijoux/hommes/bijoux-homme/coll.-chaine-theo-en-acier-316l-92988310)
-- [Lacoste, chaîne acier (MATY)](https://www.maty.com/Bijoux/1331604/chaine-lacoste-arthor-acier-inoxydable-bicolore.html)
+- [Que Choisir, allergie au nickel (environ 10 % des femmes en Europe)](https://www.quechoisir.org/enquete-sante-le-nickel-c-est-pas-nickel-n6023/)
+- [BLV (Suisse), bijoux et allergie au nickel (10 à 20 % des femmes)](https://www.blv.admin.ch/fr/bijoux-et-accessoires)
+- [DGCCRF, enquête sur les bijoux fantaisie (30 % dangereux en 2016)](https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/les-enquetes/loyaute-et-securite-des-bijoux-fantaisie)
+- [DGCCRF, étiquetage des bijoux (« plaqué or » : 3 microns minimum)](https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/etiquetage-des-bijoux)
+- [Perles & Co, guide de l'acier inoxydable doré (PVD)](https://www.perlesandco.co.uk/ressources/ft40276-guide-2026-tout-savoir-sur-l-acier-inoxydable-dore.html)
+- [Zag Bijoux aux Galeries Lafayette (joncs dorés 45 €)](https://www.galerieslafayette.com/b/zag-bijoux)
+- [Zag Bijoux, créoles Wendy 45 €](https://zagbijoux.fr/en/products/boucles-doreilles-wendy-acier)
+- [Zag Bijoux, créoles Baho 24 €](https://zagbijoux.fr/en/products/boucles-doreilles-baho-acier-dore)
+- [Zag Bijoux, créoles Colombus 30 €](https://zagbijoux.fr/en/products/boucles-doreilles-colombus-acier-dore)
+- [Zag Bijoux, créoles Papaya 30 € (Azuline)](https://azuline.com/en/products/papaya-hoop-earrings-golden-steel-zag)
+- [Zag Bijoux, bracelet Jill 30 €](https://zagbijoux.fr/en/products/bracelet-jill-acier-dore)
+- [Nature & Découvertes, créoles Marty 19,95 €](https://www.natureetdecouvertes.com/bijoux/boucles-oreille/creoles/creoles-marty-dore-98436620)
+- [Nature & Découvertes, créoles Line 39,90 €](https://www.natureetdecouvertes.com/bijoux/boucles-oreille/creoles/boucles-d-oreilles-creoles-dorees-en-acier-inoxydable-line-91048171)
 - [Veolia, dureté de l'eau en France](https://www.veolia.fr/sites/g/files/dvc2401/files/document/2019/11/934_VEOLIA_article_5-EAU-adoucissement_BAT1119.pdf)
 - [MineralStream, pommeaux filtrants](https://fr.mineralstream.co/products/pomme-de-douche-fixe-a-filtration-en-15-etapes-skinpro)
 - [Stone Stream, pommeau Ecopower](https://fr.stone-stream.com/products/pomme-de-douche-ecopower-noire-avec-kit-de-filtration-deau-dure)

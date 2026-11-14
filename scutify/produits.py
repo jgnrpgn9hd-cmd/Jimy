@@ -54,23 +54,28 @@ rows=[('Kit barre de Pilates + élastiques + programme 30 jours — Niche : Pila
   "$ (50 à 199), 7,29 $ (200 à 499). Message à imprimer (fournisseur ou imprimeur en France, coût à ajouter). À VÉRIFIER : Vérifier sur le site de l'INPI que le nom et les messages ne sont pas "
   "déposés ; ajouter le coût d'impression.",
   'T-shirt Run Club à message'),
- ('Bracelet en acier 316L gravé à message (style et cadeau) — Niche : Bijoux homme',
-  'https://www.alibaba.com/product-detail/316L-stainless-steel-customized-quotes-engraved_60496479758.html',
+ ('Créoles épaisses en acier inoxydable doré (PVD), qui ne noircissent pas et se gardent sous la douche — Niche : Bijoux anti-oxydation (waterproof)',
+  'https://www.alibaba.com/product-detail/Hypoallergenic-Tarnish-Free-Waterproof-Jewelry-18k_1601031342027.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
   'NON',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  2.91,
+  2.88,
   9,
   29.9,
-  "MODÈLE : Hustle Wear appliqué aux bijoux : un message qui donne une identité, plus l'idée cadeau. DEMANDE : Près de 6 milliards d'euros de montres et bijoux vendus en France en 2024 (Francéclat). "
-  "PROBLÈME : Le bijou plaqué noircit ou verdit la peau, il faut l'enlever pour la douche et le sport ; et trouver un cadeau pour un homme est un casse-tête. ÉCONOMIQUE : NON : ce n'est pas un achat "
-  "pour économiser (même s'il coûte moins qu'un bracelet acier de marque à 45 €). EFFET WAOUW : Gravure en gros plan, bracelet porté sur fond noir. PRIX EN FRANCE : Bracelets homme gravés : 17,50 à "
-  '22 € (Monzémaré, Rakuten, YourSurprise) ; bracelet acier Phebus 45 € ; chaîne Lacoste 99 €. FOURNISSEUR : Dongguan Lucky Forever, 15 ans sur Alibaba : 3,38 $ (100 à 499), messages gravés au '
-  "choix. À VÉRIFIER : Commander des échantillons et les tester une semaine sous la douche ; faire confirmer l'acier 316L par écrit.",
-  'Bracelet acier gravé à message'),
+  "MODÈLE : Hearble pour la phrase-choc (« le look de l'or sans le prix de l'or »), Hustle Wear pour les packs, et Zag Bijoux, marque française d'acier 316L vendue aux Galeries Lafayette, qui prouve "
+  "que ça se vend (créoles de 24 à 45 €). DEMANDE : Près de 6 milliards d'euros de montres et bijoux vendus en France en 2024 (Francéclat) ; en Europe, environ 10 % des femmes sont allergiques au "
+  'nickel, une allergie liée au perçage des oreilles et aux bijoux (Que Choisir). PROBLÈME : Bijoux qui noircissent ou verdissent la peau après quelques semaines, oreilles qui grattent à cause du '
+  "nickel, et il faut tout enlever pour la douche, la mer ou le sport. ÉCONOMIQUE : OUI : on arrête de racheter des bijoux fantaisie qui noircissent ; le look de l'or pour 29,90 €, moins cher que "
+  'les créoles Zag (30 à 45 €). EFFET WAOUW : Vidéo « 6 mois sous la douche, à la mer et au sport : toujours dorées », et la comparaison avec un bijou fantaisie qui a noirci. PRIX EN FRANCE : '
+  'Créoles en acier doré : Zag Bijoux 24 € (Baho), 30 € (Colombus, Papaya), 45 € (Wendy) ; Nature & Découvertes 19,95 € (Marty) et 39,90 € (Line). FOURNISSEUR : Créoles épaisses en C, acier '
+  'inoxydable doré PVD, présentées « hypoallergéniques, waterproof » : 3,35 $ (10 à 99), 3,15 $ (100 à 499), 2,90 $ (500 à 999). Écrin velours avec logo : 0,65 $ (200 à 1 999). À VÉRIFIER : Faire '
+  "confirmer par écrit : acier 316L, revêtement PVD et prix par paire. Demander les tests nickel (au plus 0,2 µg/cm²/semaine pour la tige qui traverse l'oreille), plomb et cadmium (règlement "
+  "européen REACH). Écrire « acier inoxydable doré », jamais « plaqué or » (réservé à 3 microns d'or minimum). Ne pas écrire « sans nickel » : l'acier 316L en contient. Tester les échantillons 1 "
+  'mois (douche, mer, sport) avant de promettre « ne noircit pas ».',
+  'Créoles dorées waterproof'),
  ('Pommeau de douche filtrant vitamine C + cartouches de rechange — Niche : Eau calcaire (cheveux et peau)',
   'https://www.alibaba.com/product-detail/Vitamin-C-Filter-Shower-Head-Shower_1600150519353.html',
   'OUI',

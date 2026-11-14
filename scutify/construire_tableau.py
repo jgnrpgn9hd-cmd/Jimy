@@ -58,6 +58,11 @@ U = [
   "Coussins lombaires 21 à 36,95 € en France (Kaufland, ManoMano, Pearl) ; le pack évite d'acheter deux produits séparés.",
   "https://www.alibaba.com/product-detail/shenzhen-lianda-comfortable-memory-foam-office_1600335423239.html", 10.90, 9.37, 54.90,
   "Coussin (5,16 €) + repose-pieds Shenzhen Lianda 4,90 $ (100 à 299 pièces), soit 4,21 €. Marge 45,53 €."),
+ ("Coffret trio waterproof : créoles épaisses + collier cœur + jonc fleur, dans un écrin velours à ton logo", "Créoles dorées waterproof",
+  "On veut des bijoux assortis qui se portent ensemble, ou un cadeau prêt à offrir (Saint-Valentin, fête des mères, Noël).",
+  "Prix séparés dans la boutique : 29,90 + 29,90 + 24,90 = 84,70 €. Chez Zag Bijoux, une paire de créoles coûte jusqu'à 45 € et un jonc doré 45 €.",
+  "https://www.alibaba.com/product-detail/18K-Gold-Plated-Stainless-Steel-Non_1600374590245.html", 10.88, 9.36, 59.90,
+  "Créoles 3,35 $ (2,88 €) + collier cœur 316L 3,90 $ (3,35 €, lien ci-contre) + jonc fleur 316L PVD 2,98 $ (2,56 €) + écrin velours avec logo 0,65 $ (0,56 €). Marge 50,54 €."),
 ]
 with open(os.path.join(ICI, "upsells.py"), "w") as out:
     out.write("# 2e produits (packs à plus de 50 €) : généré par construire_tableau.py.\n"
