@@ -45,16 +45,16 @@ with open(os.path.join(ICI, "produits.py"), "w") as out:
 
 # 2. upsells.py : packs à plus de 50 € (liens vérifiés le 14/11/2026)
 U = [
- ("Pack voyage : sac à dos cabine 40 × 30 × 20 + lot de 4 cubes de compression", "Sac à dos cabine 40×30×20",
-  "Partir en week-end avec un seul sac gratuit, tout bien rangé et compressé.",
-  "Prix séparés dans la boutique : 39,90 + 29,90 = 69,80 €. Cabin Max seul : 34,95 € ; Eagle Creek 41,70 € les 2 cubes.",
-  "https://www.alibaba.com/product-detail/Compression-Travel-Organizer-Bag-Set-Travel_1601154546291.html", 17.18, 14.77, 59.90,
-  "Sac Lovevook 14,98 $ (12,88 €) + cubes 2,20 $ (1,89 €, lien ci-contre). Marge 45,13 €."),
- ("Pack famille : 3 gourdes isothermes gravées au prénom", "Gourde isotherme (gravée ou non)",
-  "Une gourde par enfant (ou par membre de la famille), qu'on ne mélange plus.",
-  "3 gourdes gravées vendues séparément : 3 × 29,90 = 89,70 €. Decathlon : 12,99 € la gourde simple, sans gravure.",
-  "https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html", 11.70, 10.06, 69.90,
-  "3 gourdes à 3,90 $ (3,35 € chacune), gravure non comptée (à chiffrer). Marge avant gravure 59,84 €."),
+ ("Pack Home Gym VAURE : kit barre + bandes de traction + roue abdominale + planche à pompes", "Kit barre + élastiques VAURE",
+  "S'équiper pour une vraie salle à la maison, en une seule commande.",
+  "Prix séparés dans la boutique : 29,90 + 39,90 + 29,90 + 24,90 = 124,50 €.",
+  "https://www.alibaba.com/product-detail/Custom-Logo-100-Latex-Loop-Set_1601034567228.html", 19.35, 16.64, 89.90,
+  "Kit 2,50 $ + bandes de traction 9,90 $ (lien) + roue 5 $ + planche 1,95 $. Marge 73,26 €."),
+ ("Pack Salle VAURE : sac de sport + gourde + serviette + bandes de poignets", "Sac de sport VAURE",
+  "Tout ce qu'il faut dans le sac pour aller à la salle, aux couleurs VAURE.",
+  "Prix séparés dans la boutique : 39,90 + 24,90 + 24,90 + 24,90 = 114,60 €.",
+  "https://www.alibaba.com/product-detail/custom-portable-duffle-gym-sports-sneaker_60496480489.html", 14.89, 12.81, 79.90,
+  "Sac 7,54 $ (lien) + gourde 3,90 $ + serviette 1,25 $ + bandes de poignets 2,20 $. Marge 67,09 €."),
 ]
 with open(os.path.join(ICI, "upsells.py"), "w") as out:
     out.write("# 2e produits (packs à plus de 50 €) : généré par construire_tableau.py.\n"

@@ -250,3 +250,8 @@ sac cabine 40×30×20, cubes de compression, gourde isotherme, gourde filtrante,
 Retirés (électronique ou cosmétique) : blanchiment, lunch box chauffante, barre lumineuse, baguette LED, pistolet de massage.
 2e produits : pack voyage 59,90 €, pack famille 3 gourdes gravées 69,90 €. Pages de vente refaites (maquettes_sites, 2 en thème sombre).
 Notes : sac cabine 7,25 (pas d'effet waouw, marge < 3 × coût), lunettes 6 (pas de problème réel, saisonnier).
+
+## Gamme cohérente VAURE (14/11/2026)
+Demande : cohérence entre tous les produits. dossier.py = 10 produits sport VAURE (kit, bandes tissu, bandes traction, corde, roue abdo,
+planche à pompes, bandes de poignets, gourde, sac, serviette). Version 10 niches gardée dans dossier_v3_criteres_stricts.py.
+Packs : Home Gym 89,90 €, Salle 79,90 €. Page d'accueil VAURE mise à jour (plus de chaîne).

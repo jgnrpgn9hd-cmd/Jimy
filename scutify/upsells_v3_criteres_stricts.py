@@ -1,0 +1,20 @@
+# 2e produits (packs à plus de 50 €) : généré par construire_tableau.py.
+# (nom, se vend avec, problème, preuve prix France, lien, prix $, coût €, revente €, infos fournisseur)
+U=[('Pack voyage : sac à dos cabine 40 × 30 × 20 + lot de 4 cubes de compression',
+  'Sac à dos cabine 40×30×20',
+  'Partir en week-end avec un seul sac gratuit, tout bien rangé et compressé.',
+  'Prix séparés dans la boutique : 39,90 + 29,90 = 69,80 €. Cabin Max seul : 34,95 € ; Eagle Creek 41,70 € les 2 cubes.',
+  'https://www.alibaba.com/product-detail/Compression-Travel-Organizer-Bag-Set-Travel_1601154546291.html',
+  17.18,
+  14.77,
+  59.9,
+  'Sac Lovevook 14,98 $ (12,88 €) + cubes 2,20 $ (1,89 €, lien ci-contre). Marge 45,13 €.'),
+ ('Pack famille : 3 gourdes isothermes gravées au prénom',
+  'Gourde isotherme (gravée ou non)',
+  "Une gourde par enfant (ou par membre de la famille), qu'on ne mélange plus.",
+  '3 gourdes gravées vendues séparément : 3 × 29,90 = 89,70 €. Decathlon : 12,99 € la gourde simple, sans gravure.',
+  'https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html',
+  11.7,
+  10.06,
+  69.9,
+  '3 gourdes à 3,90 $ (3,35 € chacune), gravure non comptée (à chiffrer). Marge avant gravure 59,84 €.')]
