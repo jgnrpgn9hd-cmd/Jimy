@@ -770,3 +770,19 @@ A.update({
  "22,90 € ; protège les câbles des animaux.", "L'avant/après « un seul câble ».", "Logo sur la gaine.",
  "France : cache-câbles 19,39-24,27 €, gaines pro jusqu'à 39,90 €.", "⭐⭐ Simple ; minimum 500 pièces."),
 })
+
+# ---------- Angle Instagram de chaque produit (rangement du setup) ----------
+_INSTA = {
+ "Tiroir caché sous le bureau": "Vidéo POV : la main tire le tiroir « secret » de sous un bureau tout propre (format Reel 7 s).",
+ "Pegboard de bureau à pince": "Photo du setup de face : pegboard noir mat avec casque, plante, pots en bois — le visuel star de #desksetup.",
+ "Plateau range-câbles": "Avant/après en vue de dessous : nid de câbles → plateau propre, zéro câble visible depuis la chaise.",
+ "Boîte cache-multiprise": "Avant/après au sol : multiprise poussiéreuse → boîte effet bois, ambiance cosy.",
+ "Réhausseur d'écran avec tiroir": "Photo symétrique du bureau : écran surélevé sur bambou, clavier rangé dessous, lumière chaude.",
+ "Support casque aluminium": "Gros plan produit : casque posé sur l'arche alu noir mat, fond flou du setup.",
+ "Support vertical PC portable": "Timelapse : le portable passe de « à plat » à « debout », le bureau se libère.",
+ "Gaine range-câbles": "Avant/après derrière le bureau : 6 câbles emmêlés → un seul câble gainé.",
+ "Organiseur bambou chargeur": "Flat lay vu du dessus : bambou, téléphone qui charge, stylos, montre — esthétique minimaliste.",
+ "Station de recharge 3 en 1": "Photo de nuit : téléphone, montre et écouteurs alignés sur la station, lumière d'ambiance.",
+}
+for _k, _v in _INSTA.items():
+    if _k in A: A[_k]["waw"] = _v
