@@ -273,3 +273,5 @@ ANALYSE_10_PRODUITS_USA_GENERAL.md : 1 GO (plaid photo animal 39,90 €, gain 22
 
 ## 14/11/2026 — Carte NFC (inspiration ZYKO) passée n° 1
 Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. Correcteur de posture retiré du tableau.
+
+## 14/11/2026 — Suite recherche : plaque NFC avis Google (GO, 1601208042548), médaille NFC animal (à tester, 1600053434071), plaque Spotify (NON)
