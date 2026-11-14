@@ -186,3 +186,6 @@ Fournisseurs changés : t-shirt 62425576986 (séchage rapide, anti-odeur en opti
 ## 13/11/2026 — Focus RANGEMENT DU SETUP « zéro câble, zéro bazar ». 1 Tiroir caché · 2 Pegboard à pince (1600980196791) · 3 Range-câbles · 4 Cache-multiprise (1600399341648) · 5 Réhausseur bambou tiroir (62506404476) · 6 Support casque · 7 Support vertical PC (1601366620287) · 8 Gaine (1601004477467) · 9 Organiseur bambou chargeur · 10 Station 3 en 1. Packs : zéro câble 54,90 €, bureau rangé 74,90 €. Version précédente : produits_setup_v1.py.
 
 ## 14/11/2026 — Angle Instagram ajouté pour chaque produit (onglet Validation) + style de marque noir mat + bois clair.
+
+## 14/11/2026 — RENDU FINAL (Jairo : « Ok go ») : le meilleur produit de chacune des 10 niches étudiées, pour comparer avec les notes puis choisir avec la coach.
+1 Kit Pilates · 2 Pommeau filtrant · 3 Lunettes iRun · 4 T-shirt sans couture · 5 Tapis XXL personnalisé · 6 Pegboard · 7 Souris verticale · 8 Gobelet isotherme · 9 Lampe photo personnalisée · 10 Brosse vapeur. 2e produits : mini reformer, Pack running, Pack bureau rangé. Listes complètes par niche gardées dans produits_*.py.
