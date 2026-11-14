@@ -842,3 +842,21 @@ A.update({
  "Moins chère que LifeStraw inox (environ 40 €), remplace les bouteilles en plastique.", "On remplit la gourde inox dans une rivière et on boit.",
  "Inox brossé vert sauge ou sable, logo gravé.", "France : LifeStraw Go inox environ 40 €.", "⭐⭐⭐ 30 millions de randonneurs (FFRandonnée 2025)."),
 })
+
+A.update({
+"Brosse vapeur pour chat": _B("Propriétaires de chats de 20 à 50 ans.",
+ "Poils partout sur le canapé et les vêtements, brossage qui stresse le chat.",
+ "Je veux permettre aux propriétaires de chats de ne plus avoir de poils partout, en 2 minutes de brossage par jour.",
+ "Moins de rouleaux adhésifs et de passages d'aspirateur.", "Avant/après de la brosse pleine de poils, chat détendu.",
+ "Coloris pastel, logo, guide de brossage.", "France : environ 15-30 € (non revérifié).", "⭐⭐⭐ Énorme marché des animaux, produit viral."),
+"Sachets silicone réutilisables": _B("Familles et jeunes actifs de 25 à 45 ans qui cuisinent et veulent moins de plastique.",
+ "Sacs congélation et films plastique jetés tous les jours.",
+ "Je veux permettre aux familles de conserver leurs aliments sans plastique jetable, avec des sachets qui durent des années.",
+ "Remplace des centaines de sacs jetables par an.", "Frigo rangé aux couleurs pastel.",
+ "Couleurs à la marque, logo, lots de 4 et 8.", "France : Stasher environ 15-20 € le sachet (non revérifié).", "⭐⭐ Tendance zéro déchet, rachat en lots."),
+"Masseur cuir chevelu": _B("Femmes et hommes de 20 à 45 ans stressés ou sujets aux maux de tête.",
+ "Tensions, stress, maux de tête ; un head spa coûte 50-90 €.",
+ "Je veux permettre à chacun de se détendre en 5 minutes par jour avec un massage du cuir chevelu chez soi.",
+ "29,90 € contre 50-90 € le head spa en institut.", "Vidéo ASMR sous la douche.",
+ "Coffret blanc ou noir mat, logo.", "France : environ 25-40 € (non revérifié).", "⭐⭐⭐ Tendance head spa, léger, cadeau idéal."),
+})
