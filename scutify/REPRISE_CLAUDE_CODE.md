@@ -191,3 +191,8 @@ Fournisseurs changés : t-shirt 62425576986 (séchage rapide, anti-odeur en opti
 1 Kit Pilates · 2 Pommeau filtrant · 3 Lunettes iRun · 4 T-shirt sans couture · 5 Tapis XXL personnalisé · 6 Pegboard · 7 Souris verticale · 8 Gobelet isotherme · 9 Lampe photo personnalisée · 10 Brosse vapeur. 2e produits : mini reformer, Pack running, Pack bureau rangé. Listes complètes par niche gardées dans produits_*.py.
 
 ## 14/11/2026 — Lignes 6 à 10 remplacées : brosse soufflante (cheveux), hydropulseur (gencives), diffuseur flamme (air sec), tapis d'acupression (stress), blender portable (alimentation).
+
+## Lignes 6-10 remplacées : un produit par niche donnée par Jairo
+6 Rasoir de sûreté zéro déchet (éco-responsable) · 7 Bouillotte rechargeable velours (maison/confort) ·
+8 Baguette lumière rouge visage (lumière rouge) · 9 Paille filtrante randonnée (outdoor) · 10 Kit gua sha quartz rose (bien-être).
+Lignes 1-5 inchangées. À faire confirmer : minimum 500 pièces pour la baguette, 100 pour le rasoir.

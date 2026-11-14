@@ -786,3 +786,32 @@ _INSTA = {
 }
 for _k, _v in _INSTA.items():
     if _k in A: A[_k]["waw"] = _v
+
+# ---------- Lignes 6 à 10 : un produit par niche choisie par Jairo ----------
+A.update({
+"Rasoir de sûreté zéro déchet": _B("Hommes et femmes de 20 à 40 ans sensibles à l'écologie et au style.",
+ "Rasoirs jetables qui polluent, recharges hors de prix (3-4 € la lame), irritations.",
+ "Je veux permettre à chacun de se raser sans plastique et pour 10 fois moins cher, avec un bel objet qui dure toute la vie.",
+ "Lame à 0,20 € contre 3-4 € la recharge : rentabilisé en 3 mois.", "Le rasoir rose gold posé dans une salle de bain minimaliste.",
+ "Logo gravé, coffret kraft, abonnement lames.", "France : rasoirs de sûreté 19-35 €.", "⭐⭐⭐ Rachat de lames = clients récurrents."),
+"Bouillotte rechargeable velours": _B("Femmes de 16 à 40 ans, frileuses ou avec des règles douloureuses.",
+ "Froid l'hiver, douleurs de règles, bouillotte à eau qui fuit ou brûle.",
+ "Je veux permettre à chacun d'avoir chaud et d'apaiser ses douleurs en 10 minutes, sans eau bouillante.",
+ "Moins cher que monter le chauffage ; remplace les antidouleurs pour certaines.", "Ambiance cosy : plaid, bougie, bouillotte velours.",
+ "Couleurs pastel, housse brodée au logo.", "France : bouillottes électriques 20-30 €.", "⭐⭐ Saisonnier (octobre-mars), coût très bas."),
+"Baguette lumière rouge visage": _B("Femmes de 25 à 50 ans qui veulent une peau plus ferme et éclatante.",
+ "Rides, teint terne, poches ; la LED en institut coûte 50-90 € la séance.",
+ "Je veux permettre aux femmes d'avoir le soin LED d'institut chez elles, en 5 minutes par jour, pour le prix d'une seule séance.",
+ "49,90 € contre 50-90 € la séance en institut.", "Le visage éclairé en rouge : visuel viral de TikTok skincare.",
+ "Coffret premium, programme de soin 30 jours.", "France : baguettes LED 49-150 €, Solawave plus de 100 €.", "⭐⭐⭐ Tendance forte, gros panier. Pas de promesse médicale."),
+"Paille filtrante randonnée": _B("Randonneurs, campeurs, voyageurs de 20 à 45 ans.",
+ "Porter 2-3 L d'eau est lourd ; l'eau des ruisseaux peut rendre malade.",
+ "Je veux permettre aux randonneurs de boire l'eau de la nature sans risque et de marcher plus léger.",
+ "Remplace des dizaines de bouteilles d'eau ; moins cher que LifeStraw.", "Vidéo : on boit directement dans la rivière.",
+ "Couleurs nature, étui à la marque, packs famille.", "France : LifeStraw 19,90-39,95 €.", "⭐⭐⭐ Exemple même du support Scutify, léger."),
+"Kit gua sha quartz rose": _B("Femmes de 18 à 40 ans fans de skincare et de self-care.",
+ "Visage gonflé au réveil, mâchoire tendue, besoin d'un moment pour soi.",
+ "Je veux permettre aux femmes de dégonfler leur visage et de se détendre en 5 minutes par jour, avec un rituel beau et simple.",
+ "29,90 € contre 60-80 € un massage visage en institut.", "Pierres roses dans un coffret, rituel du matin en vidéo.",
+ "Coffret luxe au logo, guide du rituel.", "France : Sephora 14,99-17,99 €, coffrets 25-50 €.", "⭐⭐ Idée cadeau, très instagrammable."),
+})
