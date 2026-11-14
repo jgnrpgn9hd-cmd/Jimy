@@ -212,3 +212,6 @@ remplir_modele_exact.py accepte maintenant PRODUITS=module et SORTIE=nom de fich
 
 ## Tableau principal = marque Run Club
 produits.py = Run Club (copie de produits_marque_run). Ancienne version 5 niches premium sauvegardée dans produits_5niches_premium.py / upsells_5niches_premium.py.
+
+## 10 idées = 10 niches différentes
+1 Run Club t-shirt à message, 2 Pilates, 3 douche filtrante, 4 tapis souris, 5 rasoir laiton, 6 coussin lombaire, 7 baguette lumière rouge, 8 gourde filtrante inox, 9 gua sha, 10 mini pistolet de massage (récupération). 2e produits : mini reformer, pack running, pack Run Club.
