@@ -295,3 +295,5 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 14/11/2026 — ANALYSE_PINTEREST.md : 10 verts inspirés des tendances Pinterest (cachet de cire, carnet cuir, kits créatifs, Pilates).
 
 ## 14/11/2026 — NICHES_PINTEREST.md : 3 niches viables, reco Pilates maison.
+
+## 14/11/2026 — Produit principal changé : Kit Pilates Plus 39,90 € (gain 26,13 €) au lieu des bracelets.
