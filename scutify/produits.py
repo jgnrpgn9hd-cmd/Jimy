@@ -84,23 +84,26 @@ rows=[('Kit barre Pilates 13 pièces + élastiques + programme — Niche : Pilat
   3.18,
   7,
   24.9,
-  'Problème : 2 milliards de rasoirs jetables jetés par an et des recharges Gillette à 3-4 € la lame. Solution : un rasoir métal à vie, lames à 0,20 €. Effet waouw : bel objet rose gold dans la '
-  'salle de bain. Prix France : rasoirs de sûreté 19-35 €. Fournisseur : 2,90-3,70 $, minimum 100 pièces, plus de 36 000 vendus.',
+  'DEMANDE : des millions de Français se rasent chaque semaine et la loi anti-gaspillage (AGEC) pousse à sortir du plastique jetable. Problème : 2 milliards de rasoirs '
+  'jetables jetés par an et des recharges Gillette à 3-4 € la lame. Solution : un rasoir métal à vie, lames à 0,20 €. Effet waouw : bel objet rose gold dans la salle de bain. Prix France : rasoirs '
+  'de sûreté 19-35 €. Fournisseur : 2,90-3,70 $, minimum 100 pièces, plus de 36 000 vendus.',
   'Rasoir de sûreté zéro déchet'),
- ('Bouillotte électrique rechargeable velours côtelé — Niche : Maison et confort',
-  'https://www.alibaba.com/product-detail/Rechargeable-hot-water-bag-hand-warmer_1600215101256.html',
+ ('Coussin lombaire mémoire de forme pour le télétravail — Niche : Maison et confort (télétravail)',
+  'https://www.alibaba.com/product-detail/High-Quality-Memory-Foam-Lumbar-Cushion_1601388102740.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  1.02,
-  7,
-  24.9,
-  "Problème : froid l'hiver, douleurs de règles, chauffage cher. Solution : chaude en 10 min, garde la chaleur 4-6 h, sans eau bouillante. Effet waouw : housse velours douce et cosy, parfaite en "
-  'photo sur un plaid. Prix France : 20-30 €. Fournisseur Percham : 1,19 $ (3-119 pièces), fiche vérifiée.',
-  'Bouillotte rechargeable velours'),
+  5.76,
+  6,
+  29.9,
+  'DEMANDE : environ 22 % des salariés du privé télétravaillent (DARES 2024, contre 4 % en 2019), souvent sur une chaise de cuisine qui ne soutient pas le dos. Problème : bas du dos douloureux après '
+  "des heures assis, dos voûté sur une chaise qui ne soutient pas. Solution : le coussin épouse le creux du dos et redresse la posture. Économique : moins de séances d'ostéo (50-70 €), évite une "
+  "chaise ergonomique à 300 €. Waouw : la mousse qui reprend sa forme, l'avant/après de la posture de profil. Prix en France : coussins ergonomiques environ 25-35 € (non revérifié) → 29,90 €. "
+  'Fournisseur Nantong Art : 6,70 $ (100-499 pièces).',
+  'Coussin lombaire télétravail'),
  ('Baguette lumière rouge 4 en 1 (LED 630 nm, microcourant, chaleur, vibration) — Niche : Produit à base de lumière rouge',
   'https://www.alibaba.com/product-detail/4-in-1-Red-Light-Therapy_1601570406236.html',
   'OUI',
@@ -112,8 +115,9 @@ rows=[('Kit barre Pilates 13 pièces + élastiques + programme — Niche : Pilat
   11.61,
   6,
   49.9,
-  'Problème : rides, teint terne, poches ; une séance de LED en institut coûte 50-90 €. Solution : soin LED 5 min par jour chez soi. Effet waouw : le visage éclairé en rouge, le visuel star de '
-  'TikTok skincare. Prix France : baguettes LED 49-150 € (Solawave plus de 100 €). Fournisseur : 13,50 $ dès 500 pièces (à négocier).',
+  'DEMANDE : les Français achètent de plus en plus de soins visage « comme en institut » à la maison ; la LED est la tendance skincare n°1 sur TikTok. Problème : rides, teint terne, poches ; une '
+  'séance de LED en institut coûte 50-90 €. Solution : soin LED 5 min par jour chez soi. Effet waouw : le visage éclairé en rouge, le visuel star de TikTok skincare. Prix France : baguettes LED '
+  '49-150 € (Solawave plus de 100 €). Fournisseur : 13,50 $ dès 500 pièces (à négocier).',
   'Baguette lumière rouge visage'),
  ('Paille filtrante randonnée (99,999 % des bactéries) — Niche : Nature, randonnée et outdoor',
   'https://www.alibaba.com/product-detail/Mini-Camping-Straw-Water-Filter-for_62134252936.html',
@@ -126,8 +130,9 @@ rows=[('Kit barre Pilates 13 pièces + élastiques + programme — Niche : Pilat
   6.88,
   8,
   29.9,
-  "Problème : en rando, porter 2-3 L d'eau est lourd et l'eau des ruisseaux est risquée. Solution : boire directement à la source, 1 500 L filtrés. Effet waouw : vidéo où l'on boit dans une rivière. "
-  'Exemple cité dans le support Scutify. Prix France : LifeStraw 19,90-39,95 €. Fournisseur Youber : 8 $ (2-9 999 pièces), fiche vérifiée.',
+  'DEMANDE : environ 30 millions de Français ont randonné en 2025 (62 % de la population, +3 millions depuis 2021), dont 8 millions en itinérance (FFRandonnée). Problème : en rando, porter 2-3 L '
+  "d'eau est lourd et l'eau des ruisseaux est risquée. Solution : boire directement à la source, 1 500 L filtrés. Effet waouw : vidéo où l'on boit dans une rivière. Exemple cité dans le support "
+  'Scutify. Prix France : LifeStraw 19,90-39,95 €. Fournisseur Youber : 8 $ (2-9 999 pièces), fiche vérifiée.',
   'Paille filtrante randonnée'),
  ('Kit rouleau + gua sha quartz rose en coffret — Niche : Bien-être et soins de soi',
   'https://www.alibaba.com/product-detail/Dropshipping-High-quality-Natural-Private-label_62431944790.html',
@@ -140,6 +145,7 @@ rows=[('Kit barre Pilates 13 pièces + élastiques + programme — Niche : Pilat
   6.01,
   7,
   29.9,
-  "Problème : visage gonflé le matin, tensions de la mâchoire, envie d'un rituel self-care. Solution : massage drainant 5 min. Effet waouw : pierres roses, coffret cadeau, très « clean girl » sur "
-  'Instagram. Prix France : Sephora 14,99-17,99 € (simple), coffrets 25-50 €. Fournisseur : 6,99 $ dès 2 pièces, coffret luxe en option, fiche vérifiée.',
+  'DEMANDE : le self-care et les rituels beauté du matin explosent chez les 18-35 ans ; le gua sha est une recherche phare sur TikTok et Sephora le vend en magasin. Problème : visage gonflé le '
+  "matin, tensions de la mâchoire, envie d'un rituel self-care. Solution : massage drainant 5 min. Effet waouw : pierres roses, coffret cadeau, très « clean girl » sur Instagram. Prix France : "
+  'Sephora 14,99-17,99 € (simple), coffrets 25-50 €. Fournisseur : 6,99 $ dès 2 pièces, coffret luxe en option, fiche vérifiée.',
   'Kit gua sha quartz rose')]

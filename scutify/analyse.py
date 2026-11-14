@@ -815,3 +815,12 @@ A.update({
  "29,90 € contre 60-80 € un massage visage en institut.", "Pierres roses dans un coffret, rituel du matin en vidéo.",
  "Coffret luxe au logo, guide du rituel.", "France : Sephora 14,99-17,99 €, coffrets 25-50 €.", "⭐⭐ Idée cadeau, très instagrammable."),
 })
+
+A.update({
+"Coussin lombaire télétravail": _B("Télétravailleurs de 25 à 50 ans qui travaillent depuis chez eux sur une chaise normale.",
+ "Mal au bas du dos après une journée de télétravail sur une chaise de cuisine ; une chaise ergonomique coûte 300 €.",
+ "Je veux permettre aux télétravailleurs de finir leur journée sans mal de dos, sans acheter une chaise ergonomique à 300 €.",
+ "29,90 € contre 300 € la chaise ergonomique ou 50-70 € la séance d'ostéo.", "Avant/après de la posture de profil, la mousse qui reprend sa forme.",
+ "Housse aux couleurs de la marque, pack télétravail avec repose-pieds.", "France : coussins lombaires environ 25-35 €.",
+ "⭐⭐⭐ Demande réelle : 22 % des salariés télétravaillent (DARES 2024)."),
+})

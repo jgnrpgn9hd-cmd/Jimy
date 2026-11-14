@@ -196,3 +196,8 @@ Fournisseurs changés : t-shirt 62425576986 (séchage rapide, anti-odeur en opti
 6 Rasoir de sûreté zéro déchet (éco-responsable) · 7 Bouillotte rechargeable velours (maison/confort) ·
 8 Baguette lumière rouge visage (lumière rouge) · 9 Paille filtrante randonnée (outdoor) · 10 Kit gua sha quartz rose (bien-être).
 Lignes 1-5 inchangées. À faire confirmer : minimum 500 pièces pour la baguette, 100 pour le rasoir.
+
+## « S'adapter à la demande »
+Chaque produit des lignes 6-10 part maintenant d'une pratique réelle des Français (ligne « DEMANDE » dans l'argument).
+Ligne 7 : bouillotte remplacée par le coussin lombaire pour le télétravail (22 % des salariés, DARES 2024).
+Rando : 30 millions de randonneurs en 2025 (FFRandonnée).
