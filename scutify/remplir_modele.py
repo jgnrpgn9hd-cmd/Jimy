@@ -55,34 +55,53 @@ for k, row in enumerate(rows):
         if k % 2: c.fill = GRIS
         if j in (4, 5, 6): c.number_format = '#,##0.00 "€"'
     a.cell(r, 8).hyperlink = row[1]; a.cell(r, 8).font = Font(name="Arial", size=8, color="2F5597")
-    a.row_dimensions[r].height = 95
+    a.row_dimensions[r].height = max(95, 13 * (len(row[11]) // 80 + 1))
 for col, w in zip("ABCDEFGH", [5, 26, 20, 10, 10, 10, 85, 45]):
     a.column_dimensions[col].width = w
 a.row_dimensions[4].height = 30; a.freeze_panes = "C5"
 
 
-# Onglet « Validation Scutify » : méthode du support 01 (idée de business, critères, 4 questions)
-from analyse import A
-v = wb.create_sheet("Validation Scutify")
-v["A1"] = "Validation Scutify — idée de business et 4 questions"
+# Onglet « Fiches méthode Scutify » : chaque idée passée dans le support 01, une fiche par idée (lecture facile sur téléphone)
+from dossier import FICHES
+v = wb.create_sheet("Fiches méthode Scutify")
+v["A1"] = "Les 10 idées passées dans la méthode Scutify"
 v["A1"].font = Font(name="Arial", bold=True, size=16, color="2B2B2B")
-v["A2"] = "Méthode du support « Recherche de produits à fort potentiel » : cible → problème → idée de business, critère économique chiffré, effet wow, unique, puis les 4 questions de validation."
-v["A2"].font = Font(name="Arial", size=9, color="8C8279")
-heads = ["N°", "Produit", "Potentiel de vente", "Preuve que ça se vend déjà", "Cible", "Problème (douleur)", "Idée de business", "Économique (chiffré)", "Effet wow", "Unique", "Bénéfice évident au 1er regard ?", "Je visualise le site, les pubs, les arguments ?", "Prêt à investir 30 000 € sur ce seul produit ?"]
-for j, t in enumerate(heads, 1):
-    c = v.cell(4, j, t); c.font = Font(name="Arial", bold=True, size=9, color="FFFFFF"); c.fill = VIOLET
-    c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True); c.border = BORD
-for k, row in enumerate(rows):
-    r = 5 + k; d = A[row[12]]
-    vals = [k + 1, row[12], d.get("potentiel", ""), d.get("preuve", ""), d["cible"], d["probleme"], d["idee"], d["economique"], d["waw"], d["unique"], d["benefice_evident"], d["visualise"], d["invest_30k"]]
-    for j, val in enumerate(vals, 1):
-        c = v.cell(r, j, val); c.font = Font(name="Arial", size=9, bold=(j == 2), color="2B2B2B"); c.border = BORD
-        c.alignment = Alignment(horizontal="center" if j == 1 else "left", vertical="top", wrap_text=True)
-        if k % 2: c.fill = GRIS
-    v.row_dimensions[r].height = 120
-for col, w in zip("ABCDEFGHIJKLM", [5, 22, 26, 32, 26, 30, 38, 34, 26, 22, 26, 28, 30]):
-    v.column_dimensions[col].width = w
-v.row_dimensions[4].height = 42; v.freeze_panes = "C5"
+v["A2"] = ("Support « Recherche de produits à fort potentiel » : niche → observation → cible et désir → problème → pistes produit, "
+           "idée de business, critères et 4 questions. Inspirations : SmartWorkout (exemple du support), Hearble et Hustle Wear (boutiques de Baptiste).")
+v["A2"].font = Font(name="Arial", size=9, color="8C8279"); v["A2"].alignment = Alignment(wrap_text=True, vertical="top")
+v.merge_cells("A2:B2"); v.row_dimensions[2].height = 30
+ETAPES = [("modele", "Boutique modèle"), ("demande", "Demande en France (chiffre et source)"), ("observation", "Observation"),
+          ("cible", "Cible et désir"), ("probleme", "Problème (douleur)"), ("question", "Question à résoudre"), ("pistes", "Pistes produit"),
+          ("idee", "IDÉE DE BUSINESS"), ("c_probleme", "Critère principal : solution à un problème"), ("c_economique", "Critère principal : économique"),
+          ("c_passion", "Critère principal : besoin / passion"), ("c_wow", "Critère secondaire : effet wow"), ("c_unique", "Critère secondaire : unique"),
+          ("c_poids", "Poids / volume"), ("q1", "1. Répond aux critères principaux ?"), ("q2", "2. Bénéfice évident au premier regard ?"),
+          ("q3", "3. Je visualise le site, les pubs, les arguments ?"), ("q4", "4. Prêt à investir 30 000 € sur ce seul produit ?"),
+          ("prix_france", "Prix en France"), ("angle_pub", "Angle pub / Instagram"), ("fournisseur", "Fournisseur Alibaba"), ("vigilance", "À vérifier avant de lancer")]
+CLAIR = PatternFill("solid", fgColor="EFEAF4")
+r = 4
+for k, f in enumerate(FICHES, 1):
+    e = lambda x: f"{x:.2f}".replace(".", ",")
+    t = f"{k}. {f['court']} — {f['niche']}   |   coût {e(f['cout'])} € → revente {e(f['revente'])} € (marge {e(f['marge'])} €)"
+    c = v.cell(r, 1, t); c.font = Font(name="Arial", bold=True, size=11, color="FFFFFF"); c.fill = VIOLET
+    c.alignment = Alignment(vertical="center", wrap_text=True); v.cell(r, 2).fill = VIOLET
+    v.merge_cells(start_row=r, start_column=1, end_row=r, end_column=2); v.row_dimensions[r].height = 30
+    r += 1
+    for key, lab in ETAPES:
+        a1 = v.cell(r, 1, lab); a1.font = Font(name="Arial", bold=True, size=9, color="2B2B2B")
+        a1.alignment = Alignment(vertical="top", wrap_text=True); a1.border = BORD
+        b1 = v.cell(r, 2, f[key]); b1.font = Font(name="Arial", size=9, bold=(key == "idee"), color="2B2B2B")
+        b1.alignment = Alignment(vertical="top", wrap_text=True); b1.border = BORD
+        if key == "idee":
+            a1.fill = CLAIR; b1.fill = CLAIR
+        v.row_dimensions[r].height = max(15, 13 * (len(str(f[key])) // 95 + 1))
+        r += 1
+    a1 = v.cell(r, 1, "Lien Alibaba"); a1.font = Font(name="Arial", bold=True, size=9, color="2B2B2B")
+    b1 = v.cell(r, 2, f["lien"]); b1.hyperlink = f["lien"]; b1.font = Font(name="Arial", size=9, color="2F5597")
+    r += 2
+v.column_dimensions["A"].width = 34; v.column_dimensions["B"].width = 105
+for feuille in (a, v):  # impression / PDF : toute la largeur sur une page
+    feuille.sheet_properties.pageSetUpPr.fitToPage = True
+    feuille.page_setup.fitToWidth = 1; feuille.page_setup.fitToHeight = 0; feuille.page_setup.orientation = "landscape"
 
 
 # Onglet « 2e produits » : produits complémentaires à plus de 50 € (upsell), hors des 10 idées principales
@@ -109,6 +128,8 @@ for k, (nom, avec, pb, preuve, lien, usd, cout, rev, info) in enumerate(U):
 for col, w in zip("ABCDEFGHIJ", [28, 26, 40, 34, 12, 10, 10, 10, 30, 45]):
     u.column_dimensions[col].width = w
 u.row_dimensions[4].height = 30
+u.sheet_properties.pageSetUpPr.fitToPage = True
+u.page_setup.fitToWidth = 1; u.page_setup.fitToHeight = 0; u.page_setup.orientation = "landscape"
 
 with tempfile.TemporaryDirectory() as t:
     brut = os.path.join(t, "brut.xlsx"); wb.save(brut)

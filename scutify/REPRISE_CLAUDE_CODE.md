@@ -218,3 +218,14 @@ produits.py = Run Club (copie de produits_marque_run). Ancienne version 5 niches
 
 ## Lignes 4, 5, 9 remplacées
 4 brosse vapeur chat (1601205365476), 5 sachets silicone (1600486657839), 9 masseur cuir chevelu GX-608 (1600955718968).
+
+## Version « parfaite » : 10 idées passées dans la méthode Scutify (14/11/2026)
+Source unique des données : dossier.py (fiches complètes : niche, observation, cible, problème, pistes, idée de business,
+critères, 4 questions, demande chiffrée avec source, boutique modèle, prix France, fournisseur, points à vérifier).
+construire_tableau.py génère produits.py, upsells.py et RECHERCHE_IDEES_METHODE_SCUTIFY.md, et vérifie les règles.
+remplir_modele.py : l'onglet « Validation Scutify » est remplacé par « Fiches méthode Scutify » (une fiche par idée) ; mise en page PDF sur 1 page de large.
+Inspirations : SmartWorkout (exemple du support), Hearble (2e boutique de Baptiste : appareils auditifs 249 $ au lieu de 3 000-5 000 $), Hustle Wear.
+Les 10 : Pilates, blanchiment dentaire PAP, t-shirt Run Club, bracelet acier gravé, pommeau filtrant, gourde filtrante inox (filtre céramique),
+coussin lombaire, baguette lumière rouge, micro sans fil, mini pistolet de massage. 2e produits : pack running, pack Run Club, pack télétravail
+(le mini reformer est retiré : fiche Alibaba supprimée).
+Ordre de travail : python3 construire_tableau.py && python3 remplir_modele_exact.py "$F" && python3 remplir_modele.py
