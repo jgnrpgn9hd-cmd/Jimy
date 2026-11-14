@@ -45,21 +45,21 @@ with open(os.path.join(ICI, "produits.py"), "w") as out:
 
 # 2. upsells.py : packs à plus de 50 € (liens vérifiés le 14/11/2026)
 U = [
- ("Pack Home Gym VAURE : kit barre + bandes de traction + roue abdominale + bandes en tissu", "Kit barre + élastiques VAURE",
-  "S'équiper pour une vraie salle à la maison, en une seule commande.",
-  "Prix séparés dans la boutique : 29,90 + 39,90 + 29,90 + 24,90 = 124,60 €.",
-  "https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html", 21.24, 18.27, 89.90,
-  "Kit 2,50 $ + bandes de traction 10,59 $ (lien) + roue 5 $ + bandes en tissu 3,15 $. Marge 71,63 €."),
- ("Pack Salle VAURE : ceinture + sangles de chevilles + support téléphone magnétique + gourde", "Ceinture de musculation VAURE",
-  "Tout ce qu'il faut dans le sac pour la salle : soulever lourd, travailler les fessiers, se filmer, boire frais.",
-  "Prix séparés dans la boutique : 34,90 + 24,90 + 24,90 + 24,90 = 109,60 €.",
-  "https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html", 15.76, 13.55, 79.90,
-  "Ceinture 6,90 $ (lien) + sangles 3,36 $ + support 1,60 $ + gourde 3,90 $. Marge 66,35 €."),
- ("Pack Programme Complet VAURE : Kit Full Body + Kit Fessiers + Kit Dos & Récup", "Kit Full Body VAURE",
-  "Les 3 programmes de 30 jours pour tout le corps, du renforcement à la récupération.",
-  "Prix séparés dans la boutique : 29,90 + 34,90 + 29,90 = 94,70 €.",
-  "https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html", 13.01, 11.19, 79.90,
-  "Kit barre 2,50 $ (lien) + kit fessiers 6,51 $ + balle de massage 4 $. Marge 68,71 €."),
+ ("Pack Reformer complet : Kit Pilates Plus + bracelets lestés + 3 paires de chaussettes", "Kit Pilates Plus « Reformer à la maison »",
+  "Tout pour faire du Pilates Reformer chez soi, en une seule commande.",
+  "Prix séparés dans la boutique : 39,90 + 39,90 + 32,90 = 112,70 €.",
+  "https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html", 15.38, 13.23, 79.90,
+  "Kit 4,28 $ (lien) + bracelets 5,85 $ + chaussettes 5,25 $. Marge 66,67 €."),
+ ("Pack Studio + Fessiers : cercle, chaussettes, bandes, sangles et 2 programmes", "Kit Pilates Studio",
+  "Le cours collectif et le programme fessiers à la maison.",
+  "Prix séparés dans la boutique : 34,90 + 34,90 = 69,80 €.",
+  "https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html", 11.66, 10.03, 54.90,
+  "Kit Studio 5,15 $ (lien) + Kit Fessiers 6,51 $. Marge 44,87 €."),
+ ("Pack lestés poignets + chevilles : 2 paires de bracelets pastel", "Bracelets lestés pastel",
+  "Se renforcer bras et jambes en même temps, en marchant ou au Pilates.",
+  "Prix séparés dans la boutique : 39,90 + 39,90 = 79,80 € ; Bala 49 à 85 $ la paire aux États-Unis.",
+  "https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html", 11.70, 10.06, 59.90,
+  "2 paires à 5,85 $ (lien). Marge 49,84 €."),
 ]
 with open(os.path.join(ICI, "upsells.py"), "w") as out:
     out.write("# 2e produits (packs à plus de 50 €) : généré par construire_tableau.py.\n"
@@ -71,9 +71,10 @@ L = ["# Mes 10 idées de business — méthode Scutify", "",
      "Chaque idée suit le support « Recherche de produits à fort potentiel » : niche → observation → cible et désir → problème → pistes produit, "
      "puis l'idée de business, les critères et les 4 questions de validation.", "",
      "**Inspirations :**",
+     "- **Pinterest** (Predicts 2026, rapport Loisirs 2026) : l'univers Pilates, bien-être et cocooning à la maison.",
      "- **SmartWorkout**, l'exemple du support : un kit qui règle un problème, avec un programme et une vraie marque.",
-     "- **Hearble**, l'autre boutique de Baptiste : un produit qui remplace un professionnel très cher (« 249 $ au lieu de 5 000 $ »).",
-     "- **Hustle Wear**, la boutique de Baptiste : des messages qui donnent une identité, vendus en packs.",
+     "- **Hearble**, l'autre boutique de Baptiste : un produit qui remplace un professionnel très cher (ici, le studio de Pilates).",
+     "- **Kosso et Hustle Wear** : une seule cible, plusieurs produits qui se répondent, des packs.",
      "- À ne pas copier : NOXYA (sommeil), la boutique de la coach.", "",
      "## Le tableau en résumé", "",
      "| N° | Niche | Produit | Coût | Revente | Marge | Note /10 |", "|---|---|---|---|---|---|---|"]
@@ -82,7 +83,7 @@ for k, f in enumerate(FICHES):
     n = note(6 + k, *f["criteres"], f["cout"], f["liv"], f["revente"])
     L.append(f"| {k + 1} | {f['niche']} | [{f['court']}]({f['lien']}) | {eur(f['cout'])} | {eur(f['revente'])} | {eur(f['marge'])} | {str(n).replace('.', ',')} |")
 L += ["", "La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. "
-      "Le t-shirt et le bracelet ont « NON » en économique : ce sont des produits passion, comme chez Hustle Wear.", ""]
+      "Les 10 produits visent la même cliente : une femme qui fait du Pilates à la maison.", ""]
 ETAPES = [("modele", "Boutique modèle"), ("demande", "Demande en France"), ("observation", "Observation"), ("cible", "Cible et désir"),
           ("probleme", "Problème"), ("question", "Question à résoudre"), ("pistes", "Pistes produit"), ("idee", "**Idée de business**"),
           ("c_probleme", "Solution à un problème"), ("c_economique", "Économique"), ("c_passion", "Besoin / passion"),

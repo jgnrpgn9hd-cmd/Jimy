@@ -1,6 +1,6 @@
 # 10 idées de business, 10 niches : généré par construire_tableau.py à partir de dossier.py (ne pas modifier à la main).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
-rows=[("Kit d'entraînement : barre démontable + élastiques + programme vidéo 30 jours — Niche : VAURE · s'entraîner partout",
+rows=[('Barre de Pilates démontable avec élastiques + 2 disques de glisse + programme vidéo 30 jours + boîte pastel — Niche : Pilates à la maison · faire du Pilates Reformer',
   'https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html',
   'OUI',
   'OUI',
@@ -8,16 +8,68 @@ rows=[("Kit d'entraînement : barre démontable + élastiques + programme vidéo
   'OUI',
   'OUI',
   'NON',
-  2.15,
+  3.68,
   7,
-  29.9,
-  'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  "large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Pas le temps ou pas l'envie d'aller à la salle, et une séance de coaching coûte cher. ÉCONOMIQUE : OUI : 29,90 € une "
-  "fois, au lieu d'un abonnement ou de cours. EFFET WAOUW : Séance complète dans un salon ou une chambre d'hôtel. PRIX EN FRANCE : Kits barre + élastiques : environ 18 à 63 € ; SmartWorkout 99,90 €. "
-  'FOURNISSEUR : 2,50 $ (1 à 499), logo et emballage dès 100. À VÉRIFIER : Tester la solidité des élastiques ; tourner le programme vidéo. Concurrence : Decathlon vend les accessoires de base pas '
-  'cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
-  'Kit Full Body VAURE'),
- ('Kit fessiers : 3 bandes en tissu + 2 sangles de chevilles pour poulie + programme vidéo 30 jours — Niche : VAURE · muscler ses fessiers',
+  39.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
+  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Une séance de Pilates sur machine (Reformer) coûte '
+  "cher en studio et une machine coûte des milliers d'euros. ÉCONOMIQUE : OUI : 39,90 € une fois, au lieu de séances à 30-40 €. EFFET WAOUW : Les mouvements du Reformer dans un salon, avec une "
+  'simple barre. PRIX EN FRANCE : Kits de 26 à 59 € ; SmartWorkout 99,90 €. FOURNISSEUR : Barre 2,50 $ (lien) + disques de glisse 1,78 $ la paire '
+  '(https://www.alibaba.com/product-detail/High-Quality-Core-Sliders-for-Gym_1601519504789.html). À VÉRIFIER : Tester la solidité des élastiques ; programme filmé avec une coach diplômée. '
+  "Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
+  'Kit Pilates Plus « Reformer à la maison »'),
+ ('Paire de bracelets lestés en silicone (poignets ou chevilles), couleurs pastel — Niche : Pilates à la maison · se renforcer en douceur',
+  'https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  5.03,
+  7,
+  39.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
+  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Les haltères sont encombrants et peu agréables ; '
+  'on veut se renforcer en marchant ou pendant le Pilates. ÉCONOMIQUE : OUI : remplace des haltères. EFFET WAOUW : Un bijou qui muscle. PRIX EN FRANCE : Decathlon 42,99 € le lot ; Bala 49 à 85 $ aux '
+  'États-Unis. FOURNISSEUR : 5,85 $ la paire (1 à 499), logo dès 50. À VÉRIFIER : Bien indiquer le poids de chaque bracelet. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la '
+  "marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
+  'Bracelets lestés pastel'),
+ ('Lot de 3 paires de chaussettes antidérapantes pastel pour Pilates, yoga et parquet — Niche : Pilates à la maison · ne plus glisser',
+  'https://www.alibaba.com/product-detail/Custom-Rubber-Grip-Yoga-Dance-Socks_1600795685359.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  4.51,
+  9,
+  32.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
+  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : On glisse sur le tapis ou le parquet, et les '
+  'studios imposent des chaussettes antidérapantes. ÉCONOMIQUE : OUI : 3 paires au prix de 2 en magasin. EFFET WAOUW : Le look « Pilates girl » complet. PRIX EN FRANCE : 1 paire 11,99 à 19 € ; 2 '
+  'paires 26,99 à 32,90 €. FOURNISSEUR : 1,75 $ la paire, logo dès 300. À VÉRIFIER : Vérifier les tailles et le tenue des picots au lavage. Concurrence : Decathlon et Amazon vendent des accessoires '
+  "de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
+  'Chaussettes antidérapantes (lot de 3)'),
+ ('Cercle de Pilates + 1 paire de chaussettes antidérapantes + programme vidéo « cours collectif » — Niche : Pilates à la maison · suivre un cours de Pilates',
+  'https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  4.43,
+  8,
+  34.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
+  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Un cours collectif de Pilates coûte 15 à 30 € la '
+  'séance et les horaires ne conviennent pas toujours. ÉCONOMIQUE : OUI : le prix de deux séances en studio. EFFET WAOUW : Le cercle qui sculpte bras et cuisses en vidéo. PRIX EN FRANCE : Kits '
+  'Pilates complets chez Decathlon ; séances de 15 à 30 €. FOURNISSEUR : Cercle 3,40 $ (lien) + chaussettes 1,75 $. À VÉRIFIER : Programme filmé par une coach diplômée. Concurrence : Decathlon et '
+  "Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
+  'Kit Pilates Studio'),
+ ('3 bandes en tissu pastel + 2 sangles de chevilles + programme 30 jours — Niche : Pilates à la maison · tonifier fessiers et jambes',
   'https://www.alibaba.com/product-detail/Zakerda-Non-Slip-latex-fabric-polyester_1601045479697.html',
   'OUI',
   'OUI',
@@ -28,32 +80,30 @@ rows=[("Kit d'entraînement : barre démontable + élastiques + programme vidéo
   5.6,
   8,
   34.9,
-  'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  'large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : On veut des fessiers plus toniques mais on ne sait pas quels exercices faire, les élastiques en latex roulent, et la '
-  "salle n'a pas toujours de sangles. ÉCONOMIQUE : OUI : remplace les cours collectifs et un coach ; un kit au lieu de 2 achats séparés. EFFET WAOUW : Avant / après sur 30 jours, kickbacks à la "
-  'poulie, bandes qui ne roulent pas. PRIX EN FRANCE : Bandes en tissu : lot de 3 Domyos 19,49 € (prix pro) ; sangles de chevilles 12,99 à 26,98 € la paire. FOURNISSEUR : Bandes 3,15 $ le lot (lien) '
-  '+ sangle de cheville 3,36 $ (https://www.alibaba.com/product-detail/Professional-Kickback-Ankle-Strap-Glute-Workouts_1601112137291.html). À VÉRIFIER : Le programme doit être sérieux (coach '
-  'diplômé) ; pas de promesse de résultat chiffrée. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
-  'Kit Fessiers VAURE'),
- ("Kit traction : barre de porte sans vis + 5 bandes d'aide + défi « ta première traction en 30 jours » — Niche : VAURE · réussir sa première traction",
-  'https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html',
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
+  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Les élastiques en latex roulent sur les cuisses et '
+  'on ne sait pas quels exercices faire. ÉCONOMIQUE : OUI : un kit au lieu de deux achats séparés. EFFET WAOUW : Avant / après sur 30 jours. PRIX EN FRANCE : Bandes 19,49 € + sangles 12,99 à 26,98 € '
+  'achetées séparément. FOURNISSEUR : Bandes 3,15 $ (lien) + sangles 3,36 $ (https://www.alibaba.com/product-detail/Professional-Kickback-Ankle-Strap-Glute-Workouts_1601112137291.html). À VÉRIFIER : '
+  "Aucune promesse de résultat chiffrée. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
+  'Kit Fessiers'),
+ ('Pochette avec 2 disques de glisse, 1 bande en tissu, 1 paire de chaussettes + programme 15 minutes « partout » — Niche : Pilates à la maison · garder sa routine en voyage',
+  'https://www.alibaba.com/product-detail/High-Quality-Core-Sliders-for-Gym_1601519504789.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  12.54,
-  4,
-  49.9,
-  'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  "large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Faire une traction est un objectif que beaucoup n'atteignent jamais : pas de barre chez soi, et sans aide on stagne. "
-  'ÉCONOMIQUE : OUI : un objectif atteint sans abonnement ni coach ; un kit au lieu de 2 achats. EFFET WAOUW : La première traction filmée au jour 30 : le format le plus partagé du fitness. PRIX EN '
-  'FRANCE : Barre sans vis Decathlon 29,99 à 34,99 € seule ; bandes [À VÉRIFIER]. FOURNISSEUR : Barre 3,99 $ (lien) + 5 bandes longues 10,59 $ '
-  '(https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html). À VÉRIFIER : Colis lourd et long : chiffrer la livraison ; préciser les portes compatibles (pas '
-  'de placo ni de bois tendre). Marge juste sous 3 fois le coût. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
-  'Kit Première Traction VAURE'),
- ('Kit récupération : balle de massage double (cacahuète) + programme vidéo « dos libéré » de 10 minutes — Niche : VAURE · soulager son dos et récupérer',
+  5.74,
+  9,
+  34.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
+  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : En vacances ou en déplacement, on perd sa routine '
+  'et le matériel ne rentre pas dans la valise. ÉCONOMIQUE : OUI : pas de salle à payer en voyage. EFFET WAOUW : Toute une séance dans une petite pochette. PRIX EN FRANCE : Peu de kits voyage avec '
+  'programme en France ; disques seuls à petit prix. FOURNISSEUR : Disques 1,78 $ (lien) + bande 3,15 $ + chaussettes 1,75 $. À VÉRIFIER : Pochette à faire imprimer au logo. Concurrence : Decathlon '
+  "et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
+  'Kit Pilates Voyage'),
+ ('Balle de massage double + bande en tissu + programme « dos libéré » de 10 minutes — Niche : Pilates à la maison · soulager son dos',
   'https://www.alibaba.com/product-detail/nature-rubber-peanut-ball-massage-for_62410531730.html',
   'OUI',
   'OUI',
@@ -61,112 +111,63 @@ rows=[("Kit d'entraînement : barre démontable + élastiques + programme vidéo
   'OUI',
   'OUI',
   'NON',
-  3.44,
-  9,
-  29.9,
-  'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  "large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Dos et nuque tendus après le sport ou des heures assis ; une séance d'ostéopathe coûte 45 à 80 € et n'est pas "
-  "remboursée. ÉCONOMIQUE : OUI : 29,90 € au lieu d'une séance d'ostéo à 45-80 €. EFFET WAOUW : La balle qui roule le long de la colonne, soulagement visible sur le visage. PRIX EN FRANCE : [PRIX EN "
-  'FRANCE À VÉRIFIER] FOURNISSEUR : Balle double en caoutchouc naturel : 4 $ (100 à 499), logo dès 100. À VÉRIFIER : Aucune promesse médicale (« détend », jamais « soigne ») ; conseiller un médecin '
-  'si douleur forte. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
-  'Kit Dos & Récup VAURE'),
- ('Roue abdominale à retour automatique, avec tapis pour les genoux — Niche : VAURE · renforcer ses abdos',
-  'https://www.alibaba.com/product-detail/2023-Automatic-Rebound-Assistance-Exercise-Equipment_1600982083887.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  4.3,
-  7,
-  29.9,
-  'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  'large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Les abdos sont durs à travailler seul, et la roue classique fait mal au dos des débutants. ÉCONOMIQUE : OUI : un '
-  'exercice de salle à la maison. EFFET WAOUW : Le retour automatique filmé de côté. PRIX EN FRANCE : [PRIX EN FRANCE À VÉRIFIER] FOURNISSEUR : 5 $ (2 à 99), logo dès 20. À VÉRIFIER : Pas de '
-  'promesse « ventre plat » ; donner les consignes de posture. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
-  'Roue abdominale à rebond'),
- ('Corde à sauter rapide à roulements, poignées aluminium, réglable — Niche : VAURE · faire du cardio partout',
-  'https://www.alibaba.com/product-detail/Adjustable-Cross-Training-Ball-Bearing-Aluminium_1600879114903.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  3.1,
-  9,
-  24.9,
-  'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  'large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Le cardio en salle est ennuyeux et la course dehors dépend de la météo. ÉCONOMIQUE : OUI : du cardio sans abonnement. '
-  'EFFET WAOUW : Double sauts au ralenti, son de la corde. PRIX EN FRANCE : [PRIX EN FRANCE À VÉRIFIER] FOURNISSEUR : 3,60 $ (100 à 499), logo dès 200. À VÉRIFIER : Minimum 100 pièces ; vérifier la '
-  'qualité des roulements. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
-  'Corde à sauter roulements VAURE'),
- ('Ceinture de musculation 10 cm en néoprène, fermeture à verrouillage rapide — Niche : VAURE · protéger son dos sur les charges lourdes',
-  'https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  5.93,
+  6.15,
   8,
   34.9,
-  'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  'large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Le bas du dos tire sur les squats et les soulevés de terre quand les charges montent, et on a peur de se blesser. '
-  'ÉCONOMIQUE : OUI : moins de risque de blessure, donc moins de séances perdues et de soins. EFFET WAOUW : Fermeture rapide filmée avant une grosse série de squats. PRIX EN FRANCE : [PRIX EN FRANCE '
-  'À VÉRIFIER] FOURNISSEUR : 6,90 $ (5 à 99), logo et emballage dès 10 pièces. À VÉRIFIER : Aucune promesse médicale (« soutient » et non « soigne ») ; prévoir un guide des tailles. Concurrence : '
-  'Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
-  'Ceinture de musculation VAURE'),
- ("Gourde isotherme en inox 500 ml, noire mate, gravée VAURE (prénom en option) — Niche : VAURE · boire frais à l'entraînement",
-  'https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html',
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
+  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Dos et nuque tendus après des heures assise ; une '
+  "séance d'ostéopathe coûte 45 à 80 € et n'est pas remboursée. ÉCONOMIQUE : OUI : 34,90 € une fois au lieu de séances à 45-80 €. EFFET WAOUW : La balle qui roule le long du dos, soulagement "
+  'visible. PRIX EN FRANCE : Balles doubles seules 7 à 20 € ; peu de kits avec programme. FOURNISSEUR : Balle 4 $ (lien) + bande 3,15 $. À VÉRIFIER : Aucune promesse médicale (« détend », jamais « '
+  "soigne »). Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
+  'Kit Dos & Posture'),
+ ('Cercle de Pilates + bande en tissu + programme doux de reprise (après feu vert médical) — Niche : Pilates à la maison · reprendre le sport après bébé',
+  'https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  3.35,
-  7,
-  24.9,
-  'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  "large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : L'eau devient tiède pendant la séance, et les gourdes se perdent à la salle. ÉCONOMIQUE : OUI : plus de bouteilles "
-  'achetées à la salle. EFFET WAOUW : Gravure laser du prénom. PRIX EN FRANCE : Decathlon 12,99 € (0,5 L) ; LAKEN 23,90 €. FOURNISSEUR : 3,90 $ (2 à 99), logo dès 200. À VÉRIFIER : Coût de la '
-  'gravure à chiffrer ; certificat de contact alimentaire. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
-  'Gourde isotherme VAURE'),
- ('Support téléphone magnétique pour machines de salle, à pince et aimant, rotatif — Niche : VAURE · se filmer et suivre son programme à la salle',
-  'https://www.alibaba.com/product-detail/Duty-Magnetic-Gym-Desk-Phone-Holder_1601611499238.html',
+  5.63,
+  8,
+  36.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
+  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Après une grossesse, on veut reprendre en douceur, '
+  'mais on ne sait pas par où commencer et on a peu de temps. ÉCONOMIQUE : OUI : pas de cours à payer ni de garde à trouver. EFFET WAOUW : Séance de 15 minutes pendant la sieste de bébé. PRIX EN '
+  'FRANCE : Programmes post-natal en ligne payants ; peu de kits physiques. FOURNISSEUR : Cercle 3,40 $ (lien) + bande 3,15 $. À VÉRIFIER : Programme validé par une sage-femme ou un kiné ; toujours '
+  "après feu vert médical. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
+  'Kit Reprise après bébé'),
+ ("Gourde 2 L avec repères d'heures et paille, couleurs pastel — Niche : Pilates à la maison · penser à boire",
+  'https://www.alibaba.com/product-detail/motivational-water-bottle-2l-2-liter_1600264326049.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  1.38,
-  9,
-  24.9,
-  'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  'large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Impossible de se filmer ou de lire son programme pendant la séance : le téléphone traîne par terre ou tombe des '
-  "machines. ÉCONOMIQUE : OUI : remplace un trépied, et évite l'écran cassé. EFFET WAOUW : Le téléphone qui se colle d'un coup sur la barre de la machine. PRIX EN FRANCE : Supports magnétiques "
-  'basiques à moins de 10 € ; support vélo magnétique Shapeheart 24,96 à 27 €. FOURNISSEUR : Aluminium, double aimant, rotation 360° : 1,60 $ (50 à 499), logo dès 1 000. À VÉRIFIER : Vérifier la '
-  "tenue de l'aimant sur les machines qui vibrent ; les supports basiques sont très bon marché : la marque et le contenu font la différence. Concurrence : Decathlon vend les accessoires de base pas "
-  'cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
-  'Support téléphone magnétique de salle'),
- ('Lot de 5 bandes élastiques longues en latex pour tractions assistées et musculation — Niche : VAURE · réussir ses tractions',
-  'https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html',
+  1.95,
+  8,
+  29.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
+  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : On oublie de boire assez dans la journée, surtout '
+  "quand on fait du sport. ÉCONOMIQUE : OUI : une gourde au lieu de bouteilles en plastique. EFFET WAOUW : Les repères d'heures qui motivent. PRIX EN FRANCE : Gourde 2 L inox 32,99 € (Breaking "
+  "Limits). FOURNISSEUR : 2,27 $, logo dès 100. À VÉRIFIER : Vérifier le plastique sans BPA. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers "
+  'pastel, le programme vidéo en français et les packs.',
+  'Gourde 2 L pastel'),
+ ('Belle boîte : bracelets lestés pastel + 1 paire de chaussettes antidérapantes + carte du programme — Niche : Pilates à la maison · offrir un cadeau Pilates',
+  'https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  9.11,
+  6.54,
   6,
-  39.9,
-  'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  "large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : On n'arrive pas à faire de tractions et on stagne. ÉCONOMIQUE : OUI : remplace plusieurs machines de musculation. EFFET "
-  'WAOUW : Défi « ta première traction en 30 jours ». PRIX EN FRANCE : [PRIX EN FRANCE À VÉRIFIER] FOURNISSEUR : Lot de 5 bandes longues + poignées + ancrage de porte : 6,59 à 10,59 $ (dès 50), en '
-  'stock. À VÉRIFIER : Latex : prévenir les personnes allergiques ; vérifier les longueurs. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le '
-  'programme vidéo et les packs.',
-  'Bandes de traction (lot de 5)')]
+  49.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
+  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : On ne sait jamais quoi offrir à une amie qui aime '
+  'le sport et le bien-être. ÉCONOMIQUE : OUI : un cadeau complet en une commande. EFFET WAOUW : Le déballage du coffret pastel. PRIX EN FRANCE : Coffrets bien-être de 30 à 60 € en France. '
+  "FOURNISSEUR : Bracelets 5,85 $ (lien) + chaussettes 1,75 $. À VÉRIFIER : Prévoir une belle boîte : c'est elle qui fait le prix. Concurrence : Decathlon et Amazon vendent des accessoires de base ; "
+  "la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
+  'Coffret cadeau Pilates')]

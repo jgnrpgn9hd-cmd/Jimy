@@ -3,388 +3,340 @@
 Chaque idée suit le support « Recherche de produits à fort potentiel » : niche → observation → cible et désir → problème → pistes produit, puis l'idée de business, les critères et les 4 questions de validation.
 
 **Inspirations :**
+- **Pinterest** (Predicts 2026, rapport Loisirs 2026) : l'univers Pilates, bien-être et cocooning à la maison.
 - **SmartWorkout**, l'exemple du support : un kit qui règle un problème, avec un programme et une vraie marque.
-- **Hearble**, l'autre boutique de Baptiste : un produit qui remplace un professionnel très cher (« 249 $ au lieu de 5 000 $ »).
-- **Hustle Wear**, la boutique de Baptiste : des messages qui donnent une identité, vendus en packs.
+- **Hearble**, l'autre boutique de Baptiste : un produit qui remplace un professionnel très cher (ici, le studio de Pilates).
+- **Kosso et Hustle Wear** : une seule cible, plusieurs produits qui se répondent, des packs.
 - À ne pas copier : NOXYA (sommeil), la boutique de la coach.
 
 ## Le tableau en résumé
 
 | N° | Niche | Produit | Coût | Revente | Marge | Note /10 |
 |---|---|---|---|---|---|---|
-| 1 | VAURE · s'entraîner partout | [Kit Full Body VAURE](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) | 2,15 € | 29,90 € | 27,75 € | 9,5 |
-| 2 | VAURE · muscler ses fessiers | [Kit Fessiers VAURE](https://www.alibaba.com/product-detail/Zakerda-Non-Slip-latex-fabric-polyester_1601045479697.html) | 5,60 € | 34,90 € | 29,30 € | 8,5 |
-| 3 | VAURE · réussir sa première traction | [Kit Première Traction VAURE](https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html) | 12,54 € | 49,90 € | 37,36 € | 6,5 |
-| 4 | VAURE · soulager son dos et récupérer | [Kit Dos & Récup VAURE](https://www.alibaba.com/product-detail/nature-rubber-peanut-ball-massage-for_62410531730.html) | 3,44 € | 29,90 € | 26,46 € | 8,5 |
-| 5 | VAURE · renforcer ses abdos | [Roue abdominale à rebond](https://www.alibaba.com/product-detail/2023-Automatic-Rebound-Assistance-Exercise-Equipment_1600982083887.html) | 4,30 € | 29,90 € | 25,60 € | 8,5 |
-| 6 | VAURE · faire du cardio partout | [Corde à sauter roulements VAURE](https://www.alibaba.com/product-detail/Adjustable-Cross-Training-Ball-Bearing-Aluminium_1600879114903.html) | 3,10 € | 24,90 € | 21,80 € | 8,5 |
-| 7 | VAURE · protéger son dos sur les charges lourdes | [Ceinture de musculation VAURE](https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html) | 5,93 € | 34,90 € | 28,97 € | 8,5 |
-| 8 | VAURE · boire frais à l'entraînement | [Gourde isotherme VAURE](https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html) | 3,35 € | 24,90 € | 21,55 € | 8,5 |
-| 9 | VAURE · se filmer et suivre son programme à la salle | [Support téléphone magnétique de salle](https://www.alibaba.com/product-detail/Duty-Magnetic-Gym-Desk-Phone-Holder_1601611499238.html) | 1,38 € | 24,90 € | 23,52 € | 8,5 |
-| 10 | VAURE · réussir ses tractions | [Bandes de traction (lot de 5)](https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html) | 9,11 € | 39,90 € | 30,79 € | 8,5 |
+| 1 | Pilates à la maison · faire du Pilates Reformer | [Kit Pilates Plus « Reformer à la maison »](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) | 3,68 € | 39,90 € | 36,22 € | 9,5 |
+| 2 | Pilates à la maison · se renforcer en douceur | [Bracelets lestés pastel](https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html) | 5,03 € | 39,90 € | 34,87 € | 8,5 |
+| 3 | Pilates à la maison · ne plus glisser | [Chaussettes antidérapantes (lot de 3)](https://www.alibaba.com/product-detail/Custom-Rubber-Grip-Yoga-Dance-Socks_1600795685359.html) | 4,51 € | 32,90 € | 28,39 € | 8,5 |
+| 4 | Pilates à la maison · suivre un cours de Pilates | [Kit Pilates Studio](https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html) | 4,43 € | 34,90 € | 30,47 € | 8,5 |
+| 5 | Pilates à la maison · tonifier fessiers et jambes | [Kit Fessiers](https://www.alibaba.com/product-detail/Zakerda-Non-Slip-latex-fabric-polyester_1601045479697.html) | 5,60 € | 34,90 € | 29,30 € | 8,5 |
+| 6 | Pilates à la maison · garder sa routine en voyage | [Kit Pilates Voyage](https://www.alibaba.com/product-detail/High-Quality-Core-Sliders-for-Gym_1601519504789.html) | 5,74 € | 34,90 € | 29,16 € | 8,5 |
+| 7 | Pilates à la maison · soulager son dos | [Kit Dos & Posture](https://www.alibaba.com/product-detail/nature-rubber-peanut-ball-massage-for_62410531730.html) | 6,15 € | 34,90 € | 28,75 € | 8,5 |
+| 8 | Pilates à la maison · reprendre le sport après bébé | [Kit Reprise après bébé](https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html) | 5,63 € | 36,90 € | 31,27 € | 8,5 |
+| 9 | Pilates à la maison · penser à boire | [Gourde 2 L pastel](https://www.alibaba.com/product-detail/motivational-water-bottle-2l-2-liter_1600264326049.html) | 1,95 € | 29,90 € | 27,95 € | 8,5 |
+| 10 | Pilates à la maison · offrir un cadeau Pilates | [Coffret cadeau Pilates](https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html) | 6,54 € | 49,90 € | 43,36 € | 8,5 |
 
-La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Le t-shirt et le bracelet ont « NON » en économique : ce sont des produits passion, comme chez Hustle Wear.
+La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Les 10 produits visent la même cliente : une femme qui fait du Pilates à la maison.
 
-## 1. VAURE · s'entraîner partout — Kit Full Body VAURE
+## 1. Pilates à la maison · faire du Pilates Reformer — Kit Pilates Plus « Reformer à la maison »
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) · coût 2,15 € (2,5 $ × 0,86) · revente 29,90 € · marge 27,75 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) · coût 3,68 € (4,28 $ × 0,86) · revente 39,90 € · marge 36,22 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. |
-| Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
-| Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
-| Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | Pas le temps ou pas l'envie d'aller à la salle, et une séance de coaching coûte cher. |
-| Question à résoudre | Comment s'entraîner partout sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à ceux qui s'entraînent de faire une vraie séance complète partout, chez eux ou en voyage, avec un seul kit et un programme. |
-| Solution à un problème | OUI : pas le temps ou pas l'envie d'aller à la salle, et une séance de coaching coûte cher. |
-| Économique | OUI : 29,90 € une fois, au lieu d'un abonnement ou de cours. |
-| Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Séance complète dans un salon ou une chambre d'hôtel. |
-| Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : marché prouvé (SmartWorkout, l'exemple du support, vend un kit similaire 99,90 €), le programme vidéo rend le produit unique, léger, toute l'année. |
-| Prix en France | Kits barre + élastiques : environ 18 à 63 € ; SmartWorkout 99,90 €. |
-| Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 2,50 $ (1 à 499), logo et emballage dès 100. |
-| À vérifier | Tester la solidité des élastiques ; tourner le programme vidéo. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
+| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
+| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
+| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
+| Problème | Une séance de Pilates sur machine (Reformer) coûte cher en studio et une machine coûte des milliers d'euros. |
+| Question à résoudre | Comment faire du pilates reformer chez soi, simplement, sans payer un studio ? |
+| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
+| **Idée de business** | Je veux permettre aux femmes qui aiment le Pilates de faire les mouvements du Reformer chez elles, avec un kit léger et un programme de 30 jours. |
+| Solution à un problème | OUI : une séance de Pilates sur machine (Reformer) coûte cher en studio et une machine coûte des milliers d'euros. |
+| Économique | OUI : 39,90 € une fois, au lieu de séances à 30-40 €. |
+| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
+| Effet wow | Les mouvements du Reformer dans un salon, avec une simple barre. |
+| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
+| Poids / volume | Colis d'environ 1 kg. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : c'est le produit d'entrée de la marque, le problème est fort et le marché est prouvé (SmartWorkout). |
+| Prix en France | Kits de 26 à 59 € ; SmartWorkout 99,90 €. |
+| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
+| Fournisseur | Barre 2,50 $ (lien) + disques de glisse 1,78 $ la paire (https://www.alibaba.com/product-detail/High-Quality-Core-Sliders-for-Gym_1601519504789.html). |
+| À vérifier | Tester la solidité des élastiques ; programme filmé avec une coach diplômée. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
 
-## 2. VAURE · muscler ses fessiers — Kit Fessiers VAURE
+## 2. Pilates à la maison · se renforcer en douceur — Bracelets lestés pastel
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html) · coût 5,03 € (5,85 $ × 0,86) · revente 39,90 € · marge 34,87 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
+| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
+| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
+| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
+| Problème | Les haltères sont encombrants et peu agréables ; on veut se renforcer en marchant ou pendant le Pilates. |
+| Question à résoudre | Comment se renforcer en douceur chez soi, simplement, sans payer un studio ? |
+| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
+| **Idée de business** | Je veux permettre aux femmes actives de se renforcer en douceur toute la journée, avec des bracelets jolis comme des bijoux. |
+| Solution à un problème | OUI : les haltères sont encombrants et peu agréables ; on veut se renforcer en marchant ou pendant le Pilates. |
+| Économique | OUI : remplace des haltères. |
+| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
+| Effet wow | Un bijou qui muscle. |
+| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
+| Poids / volume | Colis d'environ 1 kg. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : la meilleure preuve de vente (Bala), très photogénique. |
+| Prix en France | Decathlon 42,99 € le lot ; Bala 49 à 85 $ aux États-Unis. |
+| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
+| Fournisseur | 5,85 $ la paire (1 à 499), logo dès 50. |
+| À vérifier | Bien indiquer le poids de chaque bracelet. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
+
+## 3. Pilates à la maison · ne plus glisser — Chaussettes antidérapantes (lot de 3)
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Rubber-Grip-Yoga-Dance-Socks_1600795685359.html) · coût 4,51 € (5,25 $ × 0,86) · revente 32,90 € · marge 28,39 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
+| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
+| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
+| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
+| Problème | On glisse sur le tapis ou le parquet, et les studios imposent des chaussettes antidérapantes. |
+| Question à résoudre | Comment ne plus glisser chez soi, simplement, sans payer un studio ? |
+| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
+| **Idée de business** | Je veux permettre aux pratiquantes de Pilates d'être stables et à l'aise, avec des chaussettes douces et jolies. |
+| Solution à un problème | OUI : on glisse sur le tapis ou le parquet, et les studios imposent des chaussettes antidérapantes. |
+| Économique | OUI : 3 paires au prix de 2 en magasin. |
+| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
+| Effet wow | Le look « Pilates girl » complet. |
+| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
+| Poids / volume | Léger, petit colis. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : achat répété (on use les chaussettes), parfait en 2e produit. |
+| Prix en France | 1 paire 11,99 à 19 € ; 2 paires 26,99 à 32,90 €. |
+| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
+| Fournisseur | 1,75 $ la paire, logo dès 300. |
+| À vérifier | Vérifier les tailles et le tenue des picots au lavage. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
+
+## 4. Pilates à la maison · suivre un cours de Pilates — Kit Pilates Studio
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html) · coût 4,43 € (5,15 $ × 0,86) · revente 34,90 € · marge 30,47 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
+| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
+| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
+| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
+| Problème | Un cours collectif de Pilates coûte 15 à 30 € la séance et les horaires ne conviennent pas toujours. |
+| Question à résoudre | Comment suivre un cours de pilates chez soi, simplement, sans payer un studio ? |
+| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
+| **Idée de business** | Je veux permettre aux femmes qui n'ont pas le temps ou le budget d'aller en studio de suivre un vrai cours chez elles. |
+| Solution à un problème | OUI : un cours collectif de Pilates coûte 15 à 30 € la séance et les horaires ne conviennent pas toujours. |
+| Économique | OUI : le prix de deux séances en studio. |
+| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
+| Effet wow | Le cercle qui sculpte bras et cuisses en vidéo. |
+| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
+| Poids / volume | Colis d'environ 750 g. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : complète le Kit Pilates Plus pour les débutantes. |
+| Prix en France | Kits Pilates complets chez Decathlon ; séances de 15 à 30 €. |
+| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
+| Fournisseur | Cercle 3,40 $ (lien) + chaussettes 1,75 $. |
+| À vérifier | Programme filmé par une coach diplômée. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
+
+## 5. Pilates à la maison · tonifier fessiers et jambes — Kit Fessiers
 
 [Lien Alibaba](https://www.alibaba.com/product-detail/Zakerda-Non-Slip-latex-fabric-polyester_1601045479697.html) · coût 5,60 € (6,51 $ × 0,86) · revente 34,90 € · marge 29,30 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. |
-| Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
-| Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
-| Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | On veut des fessiers plus toniques mais on ne sait pas quels exercices faire, les élastiques en latex roulent, et la salle n'a pas toujours de sangles. |
-| Question à résoudre | Comment muscler ses fessiers sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à celles et ceux qui veulent des fessiers toniques de suivre un programme de 30 jours, à la maison et à la salle, avec tout le matériel dans une seule boîte. |
-| Solution à un problème | OUI : on veut des fessiers plus toniques mais on ne sait pas quels exercices faire, les élastiques en latex roulent, et la salle n'a pas toujours de sangles. |
-| Économique | OUI : remplace les cours collectifs et un coach ; un kit au lieu de 2 achats séparés. |
-| Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Avant / après sur 30 jours, kickbacks à la poulie, bandes qui ne roulent pas. |
-| Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : l'entraînement des fessiers est une des plus grosses tendances fitness, la cible est passionnée, le kit + programme se distingue des bandes seules d'Amazon. |
-| Prix en France | Bandes en tissu : lot de 3 Domyos 19,49 € (prix pro) ; sangles de chevilles 12,99 à 26,98 € la paire. |
-| Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | Bandes 3,15 $ le lot (lien) + sangle de cheville 3,36 $ (https://www.alibaba.com/product-detail/Professional-Kickback-Ankle-Strap-Glute-Workouts_1601112137291.html). |
-| À vérifier | Le programme doit être sérieux (coach diplômé) ; pas de promesse de résultat chiffrée. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
+| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
+| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
+| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
+| Problème | Les élastiques en latex roulent sur les cuisses et on ne sait pas quels exercices faire. |
+| Question à résoudre | Comment tonifier fessiers et jambes chez soi, simplement, sans payer un studio ? |
+| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
+| **Idée de business** | Je veux permettre aux femmes qui veulent des fessiers toniques de suivre un programme simple chez elles, avec des bandes qui ne roulent pas. |
+| Solution à un problème | OUI : les élastiques en latex roulent sur les cuisses et on ne sait pas quels exercices faire. |
+| Économique | OUI : un kit au lieu de deux achats séparés. |
+| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
+| Effet wow | Avant / après sur 30 jours. |
+| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
+| Poids / volume | Colis d'environ 500 g. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : énorme demande sur les réseaux, cible passionnée. |
+| Prix en France | Bandes 19,49 € + sangles 12,99 à 26,98 € achetées séparément. |
+| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
+| Fournisseur | Bandes 3,15 $ (lien) + sangles 3,36 $ (https://www.alibaba.com/product-detail/Professional-Kickback-Ankle-Strap-Glute-Workouts_1601112137291.html). |
+| À vérifier | Aucune promesse de résultat chiffrée. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
 
-## 3. VAURE · réussir sa première traction — Kit Première Traction VAURE
+## 6. Pilates à la maison · garder sa routine en voyage — Kit Pilates Voyage
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html) · coût 12,54 € (14,58 $ × 0,86) · revente 49,90 € · marge 37,36 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. |
-| Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
-| Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
-| Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | Faire une traction est un objectif que beaucoup n'atteignent jamais : pas de barre chez soi, et sans aide on stagne. |
-| Question à résoudre | Comment réussir sa première traction sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à ceux qui n'ont jamais réussi une traction d'y arriver en 30 jours chez eux, avec la barre, les bandes d'aide et le défi. |
-| Solution à un problème | OUI : faire une traction est un objectif que beaucoup n'atteignent jamais : pas de barre chez soi, et sans aide on stagne. |
-| Économique | OUI : un objectif atteint sans abonnement ni coach ; un kit au lieu de 2 achats. |
-| Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | La première traction filmée au jour 30 : le format le plus partagé du fitness. |
-| Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Colis long et lourd (barre + latex) : livraison plus chère. |
-| 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : un objectif clair et émotionnel (« ma première traction »), un défi qui crée du contenu et une communauté, peu de marques le vendent comme ça. |
-| Prix en France | Barre sans vis Decathlon 29,99 à 34,99 € seule ; bandes [À VÉRIFIER]. |
-| Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | Barre 3,99 $ (lien) + 5 bandes longues 10,59 $ (https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html). |
-| À vérifier | Colis lourd et long : chiffrer la livraison ; préciser les portes compatibles (pas de placo ni de bois tendre). Marge juste sous 3 fois le coût. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
-
-## 4. VAURE · soulager son dos et récupérer — Kit Dos & Récup VAURE
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/nature-rubber-peanut-ball-massage-for_62410531730.html) · coût 3,44 € (4,0 $ × 0,86) · revente 29,90 € · marge 26,46 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/High-Quality-Core-Sliders-for-Gym_1601519504789.html) · coût 5,74 € (6,68 $ × 0,86) · revente 34,90 € · marge 29,16 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. |
-| Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
-| Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
-| Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | Dos et nuque tendus après le sport ou des heures assis ; une séance d'ostéopathe coûte 45 à 80 € et n'est pas remboursée. |
-| Question à résoudre | Comment soulager son dos et récupérer sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre aux sportifs et à ceux qui restent assis toute la journée de détendre leur dos en 10 minutes par jour, chez eux, avec une balle et un programme. |
-| Solution à un problème | OUI : dos et nuque tendus après le sport ou des heures assis ; une séance d'ostéopathe coûte 45 à 80 € et n'est pas remboursée. |
-| Économique | OUI : 29,90 € au lieu d'une séance d'ostéo à 45-80 €. |
-| Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | La balle qui roule le long de la colonne, soulagement visible sur le visage. |
-| Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : le mal de dos touche énormément de monde (sportifs et sédentaires), le produit est minuscule et pas cher, le programme fait la différence. |
-| Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
-| Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | Balle double en caoutchouc naturel : 4 $ (100 à 499), logo dès 100. |
-| À vérifier | Aucune promesse médicale (« détend », jamais « soigne ») ; conseiller un médecin si douleur forte. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
+| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
+| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
+| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
+| Problème | En vacances ou en déplacement, on perd sa routine et le matériel ne rentre pas dans la valise. |
+| Question à résoudre | Comment garder sa routine en voyage chez soi, simplement, sans payer un studio ? |
+| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
+| **Idée de business** | Je veux permettre aux femmes qui voyagent de garder leur séance de Pilates partout, avec une pochette qui tient dans un sac. |
+| Solution à un problème | OUI : en vacances ou en déplacement, on perd sa routine et le matériel ne rentre pas dans la valise. |
+| Économique | OUI : pas de salle à payer en voyage. |
+| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
+| Effet wow | Toute une séance dans une petite pochette. |
+| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
+| Poids / volume | Colis d'environ 500 g. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : idée simple et différenciante, parfaite en cadeau. |
+| Prix en France | Peu de kits voyage avec programme en France ; disques seuls à petit prix. |
+| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
+| Fournisseur | Disques 1,78 $ (lien) + bande 3,15 $ + chaussettes 1,75 $. |
+| À vérifier | Pochette à faire imprimer au logo. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
 
-## 5. VAURE · renforcer ses abdos — Roue abdominale à rebond
+## 7. Pilates à la maison · soulager son dos — Kit Dos & Posture
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/2023-Automatic-Rebound-Assistance-Exercise-Equipment_1600982083887.html) · coût 4,30 € (5,0 $ × 0,86) · revente 29,90 € · marge 25,60 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. |
-| Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
-| Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
-| Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | Les abdos sont durs à travailler seul, et la roue classique fait mal au dos des débutants. |
-| Question à résoudre | Comment renforcer ses abdos sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre aux débutants de travailler leurs abdos en sécurité, grâce à une roue qui aide au retour. |
-| Solution à un problème | OUI : les abdos sont durs à travailler seul, et la roue classique fait mal au dos des débutants. |
-| Économique | OUI : un exercice de salle à la maison. |
-| Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Le retour automatique filmé de côté. |
-| Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | NON : vendu partout pour quelques euros, rien ne le distingue durablement ; à garder en complément d'un kit. |
-| Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
-| Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 5 $ (2 à 99), logo dès 20. |
-| À vérifier | Pas de promesse « ventre plat » ; donner les consignes de posture. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
-
-## 6. VAURE · faire du cardio partout — Corde à sauter roulements VAURE
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Adjustable-Cross-Training-Ball-Bearing-Aluminium_1600879114903.html) · coût 3,10 € (3,6 $ × 0,86) · revente 24,90 € · marge 21,80 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/nature-rubber-peanut-ball-massage-for_62410531730.html) · coût 6,15 € (7,15 $ × 0,86) · revente 34,90 € · marge 28,75 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. |
-| Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
-| Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
-| Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | Le cardio en salle est ennuyeux et la course dehors dépend de la météo. |
-| Question à résoudre | Comment faire du cardio partout sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à ceux qui s'entraînent de faire un cardio intense en 10 minutes, partout, avec une corde rapide et solide. |
-| Solution à un problème | OUI : le cardio en salle est ennuyeux et la course dehors dépend de la météo. |
-| Économique | OUI : du cardio sans abonnement. |
-| Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Double sauts au ralenti, son de la corde. |
-| Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | NON : produit de base à petit prix chez Decathlon et Amazon, pas de raison d'acheter VAURE seule. |
-| Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
-| Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 3,60 $ (100 à 499), logo dès 200. |
-| À vérifier | Minimum 100 pièces ; vérifier la qualité des roulements. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
+| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
+| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
+| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
+| Problème | Dos et nuque tendus après des heures assise ; une séance d'ostéopathe coûte 45 à 80 € et n'est pas remboursée. |
+| Question à résoudre | Comment soulager son dos chez soi, simplement, sans payer un studio ? |
+| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
+| **Idée de business** | Je veux permettre aux femmes qui travaillent assises de détendre leur dos en 10 minutes par jour, avec le Pilates. |
+| Solution à un problème | OUI : dos et nuque tendus après des heures assise ; une séance d'ostéopathe coûte 45 à 80 € et n'est pas remboursée. |
+| Économique | OUI : 34,90 € une fois au lieu de séances à 45-80 €. |
+| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
+| Effet wow | La balle qui roule le long du dos, soulagement visible. |
+| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
+| Poids / volume | Colis d'environ 500 g. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : le mal de dos touche énormément de monde, le programme fait la différence. |
+| Prix en France | Balles doubles seules 7 à 20 € ; peu de kits avec programme. |
+| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
+| Fournisseur | Balle 4 $ (lien) + bande 3,15 $. |
+| À vérifier | Aucune promesse médicale (« détend », jamais « soigne »). Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
 
-## 7. VAURE · protéger son dos sur les charges lourdes — Ceinture de musculation VAURE
+## 8. Pilates à la maison · reprendre le sport après bébé — Kit Reprise après bébé
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html) · coût 5,93 € (6,9 $ × 0,86) · revente 34,90 € · marge 28,97 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. |
-| Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
-| Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
-| Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | Le bas du dos tire sur les squats et les soulevés de terre quand les charges montent, et on a peur de se blesser. |
-| Question à résoudre | Comment protéger son dos sur les charges lourdes sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à ceux qui soulèvent lourd de sécuriser leur dos et de progresser en confiance, avec une ceinture qui se ferme en une seconde. |
-| Solution à un problème | OUI : le bas du dos tire sur les squats et les soulevés de terre quand les charges montent, et on a peur de se blesser. |
-| Économique | OUI : moins de risque de blessure, donc moins de séances perdues et de soins. |
-| Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Fermeture rapide filmée avant une grosse série de squats. |
-| Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | NON : marché de passionnés mais très concurrencé ; utile en complément pour les pratiquants de force. |
-| Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
-| Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 6,90 $ (5 à 99), logo et emballage dès 10 pièces. |
-| À vérifier | Aucune promesse médicale (« soutient » et non « soigne ») ; prévoir un guide des tailles. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
-
-## 8. VAURE · boire frais à l'entraînement — Gourde isotherme VAURE
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html) · coût 3,35 € (3,9 $ × 0,86) · revente 24,90 € · marge 21,55 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html) · coût 5,63 € (6,55 $ × 0,86) · revente 36,90 € · marge 31,27 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. |
-| Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
-| Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
-| Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | L'eau devient tiède pendant la séance, et les gourdes se perdent à la salle. |
-| Question à résoudre | Comment boire frais à l'entraînement sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à ceux qui s'entraînent d'avoir une eau fraîche toute la séance, dans une gourde à leur nom qu'on ne perd plus. |
-| Solution à un problème | OUI : l'eau devient tiède pendant la séance, et les gourdes se perdent à la salle. |
-| Économique | OUI : plus de bouteilles achetées à la salle. |
-| Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Gravure laser du prénom. |
-| Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | NON : Decathlon la vend 12,99 € ; seulement en goodies ou en pack. |
-| Prix en France | Decathlon 12,99 € (0,5 L) ; LAKEN 23,90 €. |
-| Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 3,90 $ (2 à 99), logo dès 200. |
-| À vérifier | Coût de la gravure à chiffrer ; certificat de contact alimentaire. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
+| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
+| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
+| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
+| Problème | Après une grossesse, on veut reprendre en douceur, mais on ne sait pas par où commencer et on a peu de temps. |
+| Question à résoudre | Comment reprendre le sport après bébé chez soi, simplement, sans payer un studio ? |
+| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
+| **Idée de business** | Je veux permettre aux jeunes mamans de reprendre une activité douce chez elles, avec un programme adapté et validé. |
+| Solution à un problème | OUI : après une grossesse, on veut reprendre en douceur, mais on ne sait pas par où commencer et on a peu de temps. |
+| Économique | OUI : pas de cours à payer ni de garde à trouver. |
+| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
+| Effet wow | Séance de 15 minutes pendant la sieste de bébé. |
+| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
+| Poids / volume | Colis d'environ 750 g. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : cible très engagée sur Instagram et Pinterest, besoin réel. |
+| Prix en France | Programmes post-natal en ligne payants ; peu de kits physiques. |
+| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
+| Fournisseur | Cercle 3,40 $ (lien) + bande 3,15 $. |
+| À vérifier | Programme validé par une sage-femme ou un kiné ; toujours après feu vert médical. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
 
-## 9. VAURE · se filmer et suivre son programme à la salle — Support téléphone magnétique de salle
+## 9. Pilates à la maison · penser à boire — Gourde 2 L pastel
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Duty-Magnetic-Gym-Desk-Phone-Holder_1601611499238.html) · coût 1,38 € (1,6 $ × 0,86) · revente 24,90 € · marge 23,52 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. |
-| Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
-| Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
-| Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | Impossible de se filmer ou de lire son programme pendant la séance : le téléphone traîne par terre ou tombe des machines. |
-| Question à résoudre | Comment se filmer et suivre son programme à la salle sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à ceux qui s'entraînent de fixer leur téléphone sur n'importe quelle machine pour se filmer, suivre leur programme ou regarder leur vidéo. |
-| Solution à un problème | OUI : impossible de se filmer ou de lire son programme pendant la séance : le téléphone traîne par terre ou tombe des machines. |
-| Économique | OUI : remplace un trépied, et évite l'écran cassé. |
-| Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Le téléphone qui se colle d'un coup sur la barre de la machine. |
-| Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | NON : des supports basiques coûtent moins de 1 € (Action) ; uniquement en complément. |
-| Prix en France | Supports magnétiques basiques à moins de 10 € ; support vélo magnétique Shapeheart 24,96 à 27 €. |
-| Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | Aluminium, double aimant, rotation 360° : 1,60 $ (50 à 499), logo dès 1 000. |
-| À vérifier | Vérifier la tenue de l'aimant sur les machines qui vibrent ; les supports basiques sont très bon marché : la marque et le contenu font la différence. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
-
-## 10. VAURE · réussir ses tractions — Bandes de traction (lot de 5)
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html) · coût 9,11 € (10,59 $ × 0,86) · revente 39,90 € · marge 30,79 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/motivational-water-bottle-2l-2-liter_1600264326049.html) · coût 1,95 € (2,27 $ × 0,86) · revente 29,90 € · marge 27,95 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. |
-| Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
-| Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
-| Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | On n'arrive pas à faire de tractions et on stagne. |
-| Question à résoudre | Comment réussir ses tractions sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à ceux qui n'arrivent pas encore à faire de tractions d'y arriver pas à pas, avec 5 niveaux d'aide et un programme. |
-| Solution à un problème | OUI : on n'arrive pas à faire de tractions et on stagne. |
-| Économique | OUI : remplace plusieurs machines de musculation. |
-| Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Défi « ta première traction en 30 jours ». |
-| Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Environ 4 kg le lot complet selon la fiche : colis lourd, à vérifier. |
-| 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | NON seul (concurrence Amazon) ; OUI dans le Kit Première Traction, d'où sa présence dans le kit. |
-| Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
-| Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | Lot de 5 bandes longues + poignées + ancrage de porte : 6,59 à 10,59 $ (dès 50), en stock. |
-| À vérifier | Latex : prévenir les personnes allergiques ; vérifier les longueurs. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
+| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
+| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
+| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
+| Problème | On oublie de boire assez dans la journée, surtout quand on fait du sport. |
+| Question à résoudre | Comment penser à boire chez soi, simplement, sans payer un studio ? |
+| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
+| **Idée de business** | Je veux permettre aux femmes actives de boire assez, avec une gourde qu'elles ont envie de montrer. |
+| Solution à un problème | OUI : on oublie de boire assez dans la journée, surtout quand on fait du sport. |
+| Économique | OUI : une gourde au lieu de bouteilles en plastique. |
+| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
+| Effet wow | Les repères d'heures qui motivent. |
+| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
+| Poids / volume | Colis d'environ 500 g. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : produit d'appel et de fidélité, parfait dans les packs. |
+| Prix en France | Gourde 2 L inox 32,99 € (Breaking Limits). |
+| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
+| Fournisseur | 2,27 $, logo dès 100. |
+| À vérifier | Vérifier le plastique sans BPA. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
+
+## 10. Pilates à la maison · offrir un cadeau Pilates — Coffret cadeau Pilates
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html) · coût 6,54 € (7,6 $ × 0,86) · revente 49,90 € · marge 43,36 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
+| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
+| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
+| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
+| Problème | On ne sait jamais quoi offrir à une amie qui aime le sport et le bien-être. |
+| Question à résoudre | Comment offrir un cadeau pilates chez soi, simplement, sans payer un studio ? |
+| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
+| **Idée de business** | Je veux permettre à ceux qui cherchent un cadeau de faire plaisir à une passionnée de Pilates avec un coffret beau et utile. |
+| Solution à un problème | OUI : on ne sait jamais quoi offrir à une amie qui aime le sport et le bien-être. |
+| Économique | OUI : un cadeau complet en une commande. |
+| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
+| Effet wow | Le déballage du coffret pastel. |
+| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
+| Poids / volume | Colis d'environ 1,25 kg (tarif jusqu'à 2 kg). |
+| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : toute l'année (anniversaires, fêtes, fête des mères). |
+| Prix en France | Coffrets bien-être de 30 à 60 € en France. |
+| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
+| Fournisseur | Bracelets 5,85 $ (lien) + chaussettes 1,75 $. |
+| À vérifier | Prévoir une belle boîte : c'est elle qui fait le prix. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
 
 ## 2e produits (plus de 50 €)
 
 | Pack | Coût | Revente | Lien |
 |---|---|---|---|
-| Pack Home Gym VAURE : kit barre + bandes de traction + roue abdominale + bandes en tissu | 18,27 € | 89,90 € | [Alibaba](https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html) |
-| Pack Salle VAURE : ceinture + sangles de chevilles + support téléphone magnétique + gourde | 13,55 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html) |
-| Pack Programme Complet VAURE : Kit Full Body + Kit Fessiers + Kit Dos & Récup | 11,19 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) |
+| Pack Reformer complet : Kit Pilates Plus + bracelets lestés + 3 paires de chaussettes | 13,23 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) |
+| Pack Studio + Fessiers : cercle, chaussettes, bandes, sangles et 2 programmes | 10,03 € | 54,90 € | [Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html) |
+| Pack lestés poignets + chevilles : 2 paires de bracelets pastel | 10,06 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html) |
 
 ## Sources
 
-- Support Scutify « Recherche de produits à fort potentiel » (exemples SmartWorkout et randonnée)
-- [Hearble, boutique de Baptiste (249 $ au lieu de 3 000 à 5 000 $)](https://hearble.com/)
-- [Hustle Wear, boutique de Baptiste](https://hustlewear.fr/)
-- [SmartWorkout, kit Élite 99,90 €](https://www.lesavisdemilie.fr/smartworkout-avis-avec-test-du-materiel/)
-- [ClassPass, bilan 2025 (Pilates n°1, +66 %)](https://classpass.com/blog/2025-classpass-look-back-report/)
-- [Selectra, prix du blanchiment dentaire](https://selectra.info/assurance/mutuelle-sante/remboursement/blanchiment-dentaire)
-- [OpinionWay pour Regenerate, importance du sourire](https://client.cosmeticobs.com/en/articles/market-70/the-importance-of-the-smile-among-the-french-6730)
-- [Wesmyle, kit LED PAP+](https://wesmyle.com/fr/products/teeth-whitening-kit)
-- [Spotlight, kit LED (Lookfantastic)](https://www.lookfantastic.fr/p/spotlight-oral-care-led-teeth-whitening-kit/14009189)
-- [Directive 2011/84/UE, peroxyde d'hydrogène dans les produits de blanchiment](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011L0084)
-- [Observatoire du Running 2026 (13,2 millions de coureurs)](https://www.marathons.com/tips-recos/observatoire-du-running-2026-132-millions-de-pratiquants-et-un-marche-toujours-en-croissance/)
-- [Francéclat via FashionUnited (près de 6 milliards d'euros)](https://fashionunited.fr/actualite/business/pres-de-6-milliards-deuros-de-montres-et-bijoux-vendus-en-france-en-2024-en-legere-croissance/2025032037567)
-- [Que Choisir, allergie au nickel (environ 10 % des femmes en Europe)](https://www.quechoisir.org/enquete-sante-le-nickel-c-est-pas-nickel-n6023/)
-- [BLV (Suisse), bijoux et allergie au nickel (10 à 20 % des femmes)](https://www.blv.admin.ch/fr/bijoux-et-accessoires)
-- [DGCCRF, enquête sur les bijoux fantaisie (30 % dangereux en 2016)](https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/les-enquetes/loyaute-et-securite-des-bijoux-fantaisie)
-- [DGCCRF, étiquetage des bijoux (« plaqué or » : 3 microns minimum)](https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/etiquetage-des-bijoux)
-- [Perles & Co, guide de l'acier inoxydable doré (PVD)](https://www.perlesandco.co.uk/ressources/ft40276-guide-2026-tout-savoir-sur-l-acier-inoxydable-dore.html)
-- [Zag Bijoux aux Galeries Lafayette (joncs dorés 45 €)](https://www.galerieslafayette.com/b/zag-bijoux)
-- [Zag Bijoux, créoles Wendy 45 €](https://zagbijoux.fr/en/products/boucles-doreilles-wendy-acier)
-- [Zag Bijoux, créoles Baho 24 €](https://zagbijoux.fr/en/products/boucles-doreilles-baho-acier-dore)
-- [Zag Bijoux, créoles Colombus 30 €](https://zagbijoux.fr/en/products/boucles-doreilles-colombus-acier-dore)
-- [Zag Bijoux, créoles Papaya 30 € (Azuline)](https://azuline.com/en/products/papaya-hoop-earrings-golden-steel-zag)
-- [Zag Bijoux, bracelet Jill 30 €](https://zagbijoux.fr/en/products/bracelet-jill-acier-dore)
-- [Nature & Découvertes, créoles Marty 19,95 €](https://www.natureetdecouvertes.com/bijoux/boucles-oreille/creoles/creoles-marty-dore-98436620)
-- [Nature & Découvertes, créoles Line 39,90 €](https://www.natureetdecouvertes.com/bijoux/boucles-oreille/creoles/boucles-d-oreilles-creoles-dorees-en-acier-inoxydable-line-91048171)
-- [Veolia, dureté de l'eau en France](https://www.veolia.fr/sites/g/files/dvc2401/files/document/2019/11/934_VEOLIA_article_5-EAU-adoucissement_BAT1119.pdf)
-- [MineralStream, pommeaux filtrants](https://fr.mineralstream.co/products/pomme-de-douche-fixe-a-filtration-en-15-etapes-skinpro)
-- [Stone Stream, pommeau Ecopower](https://fr.stone-stream.com/products/pomme-de-douche-ecopower-noire-avec-kit-de-filtration-deau-dure)
-- [Leroy Merlin, pommeau anti-calcaire](https://www.leroymerlin.fr/produits/pommeau-douche-pommeau-de-douche-anti-calcaire-filtrant-3-modes-pomme-douche-economiseur-eau-haute-pression-universelle-douchette-95472543.html)
-- [FFRandonnée (30 millions de randonneurs)](https://www.ffrandonnee.fr/s-informer/actualites/la-randonnee-l-activite-preferee-des-francais)
-- [LifeStraw Go inox (Vetsecurite)](https://vetsecurite.com/en/water-bottles/51755-gourde-filtrante-en-acier-inoxydable-530ml-go-series-bleu-lifestraw-7640144288099.html)
-- [LifeStraw Go inox (Nature & Découvertes)](https://www.natureetdecouvertes.com/outdoor/camping-bivouac/gourdes-termos/gourde-filtre-a-eau-lifestraw-go-series-stainless-steel-700-ml-noire-98465540)
-- [LifeStraw sur Decathlon.fr](https://www.decathlon.fr/brands/lifestraw)
-- [Enquête Deskeo et Edenred, budget du déjeuner (via PayFit / Edenred)](https://www.edenred.fr/magazine/donner-du-sens/pause-dejeuner-et-inflation-quelles-sont-les-nouvelles-tendances-alimentaires-en-2024)
-- [Boulanger, lunch box Adler 23,99 €](https://www.boulanger.com/ref/9000975182)
-- [Pearl, lunch box chauffantes 14,95 à 39,95 €](https://www.pearl.fr/designation/lunchbox-chauffante-electrique-1)
-- [Korben, BenQ ScreenBar Pro environ 140 €](https://korben.info/benq-screenbar-pro-la-lampe-de-bureau-que-je-prenais-pour-un-gadget-et-que-je-ne-peux-plus-quitter.html)
-- [Kaufland, BenQ ScreenBar Halo 2](https://www.kaufland.fr/product/534991437/)
-- [DARES via Europe 1 (22 % de télétravailleurs)](https://www.europe1.fr/economie/de-07-a-1-le-teletravail-apporte-un-gain-reel-mais-modeste-de-la-productivite-en-entreprise-selon-linsee-936356)
-- [Selectra, prix d'une séance d'ostéopathe](https://selectra.info/assurance/mutuelle-sante/remboursement/osteopathe)
-- [Coussin lombaire (Kaufland)](https://www.kaufland.fr/product/475932741/)
-- [Coussin lombaire (ManoMano)](https://www.manomano.fr/p/coussin-de-soutien-lombaire-en-mousse-a-memoire-de-forme-grise-housse-polyester-unie-plusieurs-combinaisons-avec-dossier-et-petit-oreiller-213027362)
-- [Coussin dorsal (Pearl)](https://www.pearl.fr/article/NC5231/coussin-dorsal-a-memoire-de-forme)
-- [CurrentBody via Journal du Luxe (France 30 % des ventes européennes)](https://www.journalduluxe.fr/fr/beaute/marche-appareils-beaute-81-milliards-dollars-2027-laurence-newman-ceo-currentbody/amp)
-- [Solawave (Beauty Bay)](https://www.beautybay.com/fr/p/solawave/4-in-1-radiant-renewal-skincare-wand-with-red-light-therapy/gold/)
-- [Fondation Jean-Jaurès, la France des eaux en bouteille](https://www.jean-jaures.org/publication/la-france-des-eaux-en-bouteille/)
-- [Decathlon, gourde isotherme inox 0,5 L](https://www.decathlonpro.fr/gourde-mh500-isotherme-randonnee-inox-0u5l-blanc-id-8612271.html)
-- [LAKEN sur Decathlon.fr](https://www.decathlon.fr/brands/laken?from=120)
-- [Gourdes personnalisables pour entreprises (Dimo)](https://dimo.fr/bouteilles-isothermes/1747-bouteille-isotherme-en-acier-inoxydable-recycle-sublimation-500-ml.html)
-- [Observatoire Forme & Fitness 2026 (18 millions de pratiquants)](https://www.toute-la-franchise.com/vie-de-la-franchise-A32975-salles-sport-france-perspectives.html)
-- [Theragun Mini Plus (Alltricks)](https://www.alltricks.fr/F-46293-soin-du-corps/P-3223331-pistolet_de_massage_chauffant_therabody_theragun_mini_plus_noir)
-- [Renpho mini (Nature & Découvertes)](https://www.natureetdecouvertes.com/bien-etre/massage/materiel-accessoires/renpho-pistolet-de-massage-micro-wmg16-noir-93384700)
-- [Decathlon Pro, lot de 3 bandes Domyos](https://www.decathlonpro.fr/art-bande-elastique-10kg-id-2871089.html)
-- [Sacs avec compartiment chaussures (Decathlon Pro)](https://www.decathlonpro.fr/sac-sport-75l-hardcase-noir-id-8495884.html)
-- [Sac Erima Six Wings (11teamsports)](https://www.11teamsports.com/fr-fr/p/erima-six-wings-gr-m-sac-gris-c7232309)
-- [Sveltus, sangles de chevilles (FitnessBoutique)](https://www.fitnessboutique.fr/products/sveltus-sangle-cheville-musculation-x2-prod-sve5660)
-- [Prozis, sangles de chevilles](https://www.prozis.com/lu/fr/prozis/sangle-de-cheville-paire-2-noir)
-- [Shapeheart, support magnétique (Le Cyclo)](https://www.lecyclo.com/fr-ca/products/support-velo-aimante-pour-smartphone-shapeheart)
-- [Fastmoss, meilleures ventes TikTok Shop 2026 (États-Unis)](https://www.fastmoss.com/blog/best-selling-products-by-category/)
-- [Dropified, guide fitness TikTok Shop 2026](https://www.dropified.com/blog/the-complete-2026-guide-to-selling-fitness-workout-products-on-tiktok-shop-from-activewear-to-supplements/)
-- [Decathlon, barres de traction sans vis Corength](https://www.decathlonpro.fr/barre-de-traction-verrouillable-100-cm-id-8588491.html)
+- [Pinterest Predicts 2026](https://newsroom.pinterest.com/en-ca/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/)
+- [Pinterest, rapport Loisirs 2026](https://newsroom.pinterest.com/news/2026-pinterest-hobbies-trend-report/)
+- [ClassPass, bilan 2025 (Pilates n° 1)](https://classpass.com/blog/2025-classpass-look-back-report/)
+- [Bala chez Goop](https://goop.com/bala-bangles-weighted-wrist-bangles/p/)
+- [Decathlon, lestés chevilles](https://www.decathlon.be/fr/vc/lestes-chevilles)
+- [Decathlon, chaussettes antidérapantes](https://www.decathlon.fr/vc/chaussettes-antiderapantes-femmes)
+- [Decathlon, kit complet Pilates](https://www.decathlon.fr/p/mp/kit-complet-pilates-fitness-avec-anneau-bandes-disques-balle-et-chaussettes/50e9ffcc-42ac-44e2-bba9-2e7b4c14e663/novar)
+- [ManoMano, kit barre Pilates](https://www.manomano.fr/p/lot-de-barre-pilates-elastique-multifonction-pour-maison-corde-de-traction-yoga-equipement-fitness-228599183)
+- [Decathlon Pro, lot de 3 bandes](https://www.decathlonpro.fr/art-bande-elastique-10kg-id-2871089.html)
+- [Sveltus, sangles de chevilles](https://www.fitnessboutique.fr/products/sveltus-sangle-cheville-musculation-x2-prod-sve5660)
+- [Pearl, balles de massage](https://www.pearl.fr/article/NX8884/double-balle-de-massage-et-dexercice-o-8-cm)
+- [La Poste, tarifs Colissimo 2026](https://www.laposte.fr/professionnel/tarif-colissimo)
 
 Liens Alibaba et prix fournisseur vérifiés le 14/11/2026. Les prix en France viennent des sites cités et peuvent changer.
