@@ -258,3 +258,6 @@ Packs : Home Gym 89,90 €, Salle 79,90 €. Page d'accueil VAURE mise à jour (
 
 ## Serviette et bandes de poignets remplacées
 Ligne 7 : barre de traction de porte (1600346042225, 3,99 $, 34,90 €). Ligne 10 : ceinture de musculation (11000030802889, 6,90 $, 34,90 €). Packs : Home Gym, Salle (sac + gourde + ceinture), Traction (barre + bandes).
+
+## Produits tendance 2026
+Planche à pompes → sangles de chevilles (1601651362272) ; sac de sport → support téléphone magnétique (1601358956127). Packs mis à jour.

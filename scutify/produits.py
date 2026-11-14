@@ -82,22 +82,24 @@ rows=[("Kit d'entraînement : barre démontable + élastiques + programme vidéo
   'exercice de salle à la maison. EFFET WAOUW : Le retour automatique filmé de côté. PRIX EN FRANCE : [PRIX EN FRANCE À VÉRIFIER] FOURNISSEUR : 5 $ (2 à 99), logo dès 20. À VÉRIFIER : Pas de '
   'promesse « ventre plat » ; donner les consignes de posture. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
   'Roue abdominale à rebond'),
- ('Planche à pompes pliable multifonction avec poignées (pectoraux, épaules, triceps) — Niche : VAURE · réussir ses pompes',
-  'https://www.alibaba.com/product-detail/Fitness-Equipment-Push-Up-Training-Board_1601280410343.html',
+ ('Paire de sangles de chevilles rembourrées pour poulie (fessiers, jambes) — Niche : VAURE · muscler ses fessiers à la poulie',
+  'https://www.alibaba.com/product-detail/Custom-Logo-Adjustable-Ankle-Straps-Exercise_1601651362272.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  1.68,
-  6,
+  2.15,
+  9,
   24.9,
   'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  'large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : On fait toujours les mêmes pompes et on ne sait pas quels muscles on travaille. ÉCONOMIQUE : OUI : remplace des machines '
-  'pectoraux et épaules. EFFET WAOUW : Changement de position des poignées en une seconde. PRIX EN FRANCE : [PRIX EN FRANCE À VÉRIFIER] FOURNISSEUR : 1,95 $ (10 à 99), logo à demander. À VÉRIFIER : '
-  'Vérifier la solidité des poignées ; colis un peu long. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
-  'Planche à pompes pliable'),
+  "large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Sans sangle, impossible de faire les exercices fessiers à la poulie (kickbacks) : la salle n'en a pas toujours, ou elles "
+  "sont sales et abîmées. ÉCONOMIQUE : OUI : plus besoin d'attendre ou d'utiliser le matériel abîmé de la salle. EFFET WAOUW : Kickbacks à la poulie filmés de profil, format star des vidéos fitness. "
+  'PRIX EN FRANCE : Sangles de chevilles en France : 12,99 € (Sveltus) à 26,98 € (Prozis) la paire. FOURNISSEUR : 1,25 $ la sangle (2 à 49), soit 2,50 $ la paire, logo personnalisable. À VÉRIFIER : '
+  "Tester la solidité de l'anneau et de la couture ; produit tendance sur Amazon (sources américaines). Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la "
+  'marque, le programme vidéo et les packs.',
+  'Sangles de chevilles (paire)'),
  ('Barre de traction de porte réglable, sans vis ni perçage — Niche : VAURE · faire des tractions chez soi',
   'https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html',
   'OUI',
@@ -132,23 +134,24 @@ rows=[("Kit d'entraînement : barre démontable + élastiques + programme vidéo
   'achetées à la salle. EFFET WAOUW : Gravure laser du prénom. PRIX EN FRANCE : Decathlon 12,99 € (0,5 L) ; LAKEN 23,90 €. FOURNISSEUR : 3,90 $ (2 à 99), logo dès 200. À VÉRIFIER : Coût de la '
   'gravure à chiffrer ; certificat de contact alimentaire. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
   'Gourde isotherme VAURE'),
- ('Sac de sport avec compartiment chaussures séparé — Niche : VAURE · transporter ses affaires de sport',
-  'https://www.alibaba.com/product-detail/custom-portable-duffle-gym-sports-sneaker_60496480489.html',
+ ('Support téléphone magnétique pour machines de salle, à pince et aimant, rotatif — Niche : VAURE · se filmer et suivre son programme à la salle',
+  'https://www.alibaba.com/product-detail/Universal-Gym-Magnet-Fitness-Phone-Mount_1601358956127.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
   'NON',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  6.48,
-  5,
-  39.9,
+  2.75,
+  9,
+  24.9,
   'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  "large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Les chaussures sales et les affaires mouillées se mélangent aux vêtements propres. ÉCONOMIQUE : NON : pas d'économie par "
-  "rapport à un sac classique. EFFET WAOUW : Le compartiment chaussures qui s'ouvre de côté. PRIX EN FRANCE : Sacs avec compartiment chaussures : 7,99 à 30,41 € (Decathlon Pro, 11teamsports). "
-  'FOURNISSEUR : 7,54 $ (300 à 999). À VÉRIFIER : Minimum 300 pièces (environ 1 950 €) ; concurrence forte à petit prix. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se '
-  'démarque par la marque, le programme vidéo et les packs.',
-  'Sac de sport VAURE'),
+  'large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Impossible de se filmer ou de lire son programme pendant la séance : le téléphone traîne par terre ou tombe des '
+  "machines. ÉCONOMIQUE : OUI : remplace un trépied, et évite l'écran cassé. EFFET WAOUW : Le téléphone qui se colle d'un coup sur la barre de la machine. PRIX EN FRANCE : Supports magnétiques "
+  "basiques à moins de 10 € ; support vélo magnétique Shapeheart 24,96 à 27 €. FOURNISSEUR : 3,20 $ (2 à 299), logo dès 200. À VÉRIFIER : Vérifier la tenue de l'aimant sur les machines qui vibrent ; "
+  'les supports basiques sont très bon marché : la marque et le contenu font la différence. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le '
+  'programme vidéo et les packs.',
+  'Support téléphone magnétique de salle'),
  ('Ceinture de musculation 10 cm en néoprène, fermeture à verrouillage rapide — Niche : VAURE · protéger son dos sur les charges lourdes',
   'https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html',
   'OUI',

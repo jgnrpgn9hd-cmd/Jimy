@@ -8,12 +8,12 @@
 
 ## La gamme : 10 produits pour le même sportif (grille Scutify)
 Kit barre + élastiques · bandes en tissu (lot de 3) · bandes de traction (lot de 5) · corde à sauter à roulements · roue abdominale à rebond ·
-planche à pompes pliable · barre de traction de porte · ceinture de musculation · gourde isotherme · sac de sport.
+sangles de chevilles · barre de traction de porte · support téléphone magnétique · ceinture de musculation · gourde isotherme.
 Détail, liens Alibaba et marges : tableau « Support Scutify S01_Tableau recherche 10 idées de business.xlsx » et RECHERCHE_IDEES_METHODE_SCUTIFY.md.
 
 ## Packs (2e produits)
-- Pack Home Gym : kit + bandes de traction + roue + planche, 89,90 € (coût 16,64 €).
-- Pack Salle : sac + gourde + ceinture, 79,90 € (coût 15,77 €).
+- Pack Home Gym : kit + bandes de traction + roue + bandes en tissu, 89,90 € (coût 17,67 €).
+- Pack Salle : ceinture + sangles de chevilles + support téléphone + gourde, 79,90 € (coût 14,19 €).
 - Pack Traction : barre de traction + bandes de traction, 59,90 € (coût 11,95 €).
 
 ## Pourquoi cette gamme
