@@ -72,23 +72,24 @@ rows=[('Porte-clés mural en bois : crochets pour les clés, étagère vide-poch
   'imprimer en français. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes '
   'en français.',
   'Classeur budget à enveloppes'),
- ('Trousse en cuir à enrouler pour chargeurs, câbles et écouteurs — Niche : Organisation élégante · ranger ses câbles',
-  'https://www.alibaba.com/product-detail/Genuine-Leather-Charger-Roll-up-case_60816756885.html',
+ ('Pochette fine en cuir synthétique imperméable pour ordinateur 13-15 pouces, avec support et tapis de souris intégrés — Niche : Organisation élégante · protéger son ordinateur',
+  'https://www.alibaba.com/product-detail/Waterproof-PU-Leather-Lap-Sleeve-Slim_1601679096387.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  4.73,
-  9,
+  3.61,
+  8,
   34.9,
   "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : L'organisation "
   "de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. "
-  "PROBLÈME : Câbles et chargeurs s'emmêlent au fond du sac et on les oublie en voyage. ÉCONOMIQUE : OUI : plus de chargeurs perdus ou rachetés. EFFET WAOUW : Le sac en désordre, puis la trousse qui "
-  'se déroule. PRIX EN FRANCE : Bellroy Tech Kit 69,99 à 72,49 €. FOURNISSEUR : Cuir véritable, 5,50 $ (500 minimum), logo embossé. À VÉRIFIER : Minimum de 500 pièces : commencer par un échantillon. '
-  'Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français.',
-  'Trousse à câbles en cuir'),
+  "PROBLÈME : L'ordinateur se raye et prend des chocs dans le sac, et on travaille mal installé au café ou en déplacement. ÉCONOMIQUE : OUI : évite une réparation d'écran ou de coque ; remplace "
+  'support et tapis de souris. EFFET WAOUW : La pochette qui se déplie en support et en tapis de souris. PRIX EN FRANCE : Yonis 31,20 à 44,20 € ; modèle avec support et tapis 35,98 € ; Trunk en cuir '
+  '39,95 à 67,95 €. FOURNISSEUR : 4,20 $ (100 à 499), logo accepté, plusieurs couleurs. À VÉRIFIER : Annoncer « cuir synthétique » ; vérifier les tailles (13, 14, 15 pouces) et la compatibilité '
+  'MacBook. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français.',
+  'Pochette ordinateur portable'),
  ('Carnet en cuir style vintage avec recharges kraft, logo doré — Niche : Organisation élégante · noter et organiser ses idées',
   'https://www.alibaba.com/product-detail/High-Quality-Handmade-Custom-Vintage-Genuine_1600923403516.html',
   'OUI',

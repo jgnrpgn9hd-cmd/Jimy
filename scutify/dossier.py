@@ -7,7 +7,7 @@ DEMANDE = "L'organisation de la maison est l'un des plus gros univers de Pintere
 MODELE = "Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait."
 CIBLE = "Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique."
 CONC = "Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français."
-PISTES = "Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir."
+PISTES = "Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · pochette ordinateur · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir."
 
 
 def fiche(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, prix_france, fournisseur, vigilance, q4, poids="Léger, petit colis."):
@@ -64,14 +64,14 @@ FICHES = [
        "Kaufland 16,88 à 44,99 € ; Fruugo 18,16 € (prix conseillé 30,85 €).", "2,99 $ (10 à 199), logo possible.",
        "Feuilles de budget à traduire et à imprimer en français.",
        "OUI : tendance forte sur Pinterest et TikTok, achat très émotionnel."),
- fiche("Trousse à câbles en cuir", "Trousse en cuir à enrouler pour chargeurs, câbles et écouteurs", "ranger ses câbles",
-       A + "Genuine-Leather-Charger-Roll-up-case_60816756885.html", 5.50, 9, 34.90,
-       "Câbles et chargeurs s'emmêlent au fond du sac et on les oublie en voyage.",
-       "Je veux permettre aux actifs qui se déplacent de garder tous leurs câbles rangés dans une trousse élégante.",
-       "OUI : plus de chargeurs perdus ou rachetés.", "Le sac en désordre, puis la trousse qui se déroule.",
-       "Bellroy Tech Kit 69,99 à 72,49 €.", "Cuir véritable, 5,50 $ (500 minimum), logo embossé.",
-       "Minimum de 500 pièces : commencer par un échantillon.",
-       "OUI : cadeau parfait pour les actifs, marché prouvé par Bellroy."),
+ fiche("Pochette ordinateur portable", "Pochette fine en cuir synthétique imperméable pour ordinateur 13-15 pouces, avec support et tapis de souris intégrés", "protéger son ordinateur",
+       A + "Waterproof-PU-Leather-Lap-Sleeve-Slim_1601679096387.html", 4.20, 8, 34.90,
+       "L'ordinateur se raye et prend des chocs dans le sac, et on travaille mal installé au café ou en déplacement.",
+       "Je veux permettre aux actifs qui travaillent partout de protéger leur ordinateur et de s'installer en 5 secondes, avec une pochette élégante qui sert aussi de support.",
+       "OUI : évite une réparation d'écran ou de coque ; remplace support et tapis de souris.", "La pochette qui se déplie en support et en tapis de souris.",
+       "Yonis 31,20 à 44,20 € ; modèle avec support et tapis 35,98 € ; Trunk en cuir 39,95 à 67,95 €.", "4,20 $ (100 à 499), logo accepté, plusieurs couleurs.",
+       "Annoncer « cuir synthétique » ; vérifier les tailles (13, 14, 15 pouces) et la compatibilité MacBook.",
+       "OUI : tout le monde a un ordinateur portable, cohérent avec le sous-main et le carnet.", poids="Colis d'environ 500 g."),
  fiche("Carnet en cuir rechargeable", "Carnet en cuir style vintage avec recharges kraft, logo doré", "noter et organiser ses idées",
        A + "High-Quality-Handmade-Custom-Vintage-Genuine_1600923403516.html", 2.30, 8, 34.90,
        "Les idées et les listes sont éparpillées sur des papiers volants et dans le téléphone.",
@@ -126,7 +126,8 @@ SOURCES = [
  ("Rue du Commerce, trieur Fellowes", "https://www.rueducommerce.fr/p/m24070050610.html"),
  ("Fruugo, classeur budget A6", "https://www.fruugo.fr/classeur-budgetaire-a6-ecologique-leger-portable-et-classifiable-pour-la-gestion-de-fonds/p-410851074-869572147"),
  ("Que Choisir, méthode des enveloppes", "https://www.quechoisir.org/conseils-depenses-du-quotidien-maitrisez-votre-budget-avec-la-methode-des-enveloppes-n171136/"),
- ("Bellroy Tech Kit (prix en euros)", "https://aio.lv/en/product--bellroy-etka-sab-217--11743740.md"),
+ ("Rue du Commerce, pochette Yonis", "https://www.rueducommerce.fr/p/m25078926004.html"),
+ ("LDLC, housse Trunk en cuir", "https://www.ldlc.com/fiche/PB00613205.html"),
  ("PaperWrld, carnet en cuir", "https://paperwrld.com/fr-fr/products/leather-bound-travel-journal"),
  ("Touslesprix, sous-mains", "https://www.touslesprix.com/achat,sous-main-bureau-cuir-noir.html"),
  ("Fossil, étui passeport en cuir", "https://www.fossil.com/fr-fr/products/cadeau-etui-pour-passeport-en-cuir/MLG0800212.html"),
