@@ -209,3 +209,6 @@ Ligne 9 : gourde filtrante inox 304 (1601125828345) à la place de la paille pla
 ## Concept marque Run Club (inspiré de Hustle Wear)
 produits_marque_run.py + CONCEPT_MARQUE_RUN_CLUB.md + « Concept marque Run Club - tableau Scutify.xlsx ». Le tableau principal ne change pas.
 remplir_modele_exact.py accepte maintenant PRODUITS=module et SORTIE=nom de fichier.
+
+## Tableau principal = marque Run Club
+produits.py = Run Club (copie de produits_marque_run). Ancienne version 5 niches premium sauvegardée dans produits_5niches_premium.py / upsells_5niches_premium.py.
