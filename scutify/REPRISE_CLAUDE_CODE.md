@@ -285,3 +285,5 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 14/11/2026 — ANALYSE_OBJETS_REINVENTES.md : objets du quotidien réinventés sans appli. GO : pochettes (reco), kit WC lavant 49,90 € (gain 30,60 €).
 
 ## 14/11/2026 — ANALYSE_OBJETS_REINVENTES.md version tout vert (10/10). v1 gardée.
+
+## 14/11/2026 — Kit Soirée sans écran amélioré (+ jeu de 150 questions) 49,90 €, gain 31,95 €. Section rétro : écouteurs chromés et argentique 🟡, journal 5 ans NON.

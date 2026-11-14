@@ -28,7 +28,7 @@
 
 | N° | Produit (l'objet qu'il réinvente) | Le vrai problème | Concurrence en France | Fournisseur (vérifié) | Calcul en 3 phrases | Verdict |
 |---|---|---|---|---|---|---|
-| 1 | **Kit « Soirée sans écran »** : 4 pochettes verrouillables + 1 aimant (réinvente la règle « pas de téléphone à table ») | Repas et soirées où chacun est sur son téléphone ; ados qui n'arrivent pas à réviser | Très faible pour les particuliers : Yondr ne vend qu'aux écoles et aux salles | Pochette néoprène magnétique : 2,59 $ → 2,23 € (8,91 € les 4) | Tu le vends 39,90 €. Tu gagnes 22,90 € (500 g). Pub jusqu'à 22 €, vise 11,40 €. | ✅ GO — recommandation |
+| 1 | **Kit « Soirée sans écran »** : 4 pochettes verrouillables + 1 aimant + jeu de 150 questions pour parler (réinvente la soirée sans téléphone, tendance « déconnexion » et analogique) | Repas et soirées où chacun est sur son téléphone ; on ne sait plus quoi se dire | Très faible : Yondr ne vend qu'aux écoles ; les jeux de questions sont vendus seuls (12 € Entre-Deux, 35 € Social Couples) | Pochettes 2,59 $ → 8,91 € les 4 ; jeu de 150 cartes en boîte ≈ 0,75 $ → 0,65 € (100 minimum) | Tu le vends 49,90 €. Tu gagnes 31,95 € (500 g). Pub jusqu'à 31 €, vise 16 €. | ✅ GO — recommandation |
 | 2 | **Kit WC lavant sans électricité** (réinvente le papier toilette) | Hygiène et irritations ; un WC japonais coûte 450 à 1 500 € | Moyenne : Brico Dépôt 39 €, Leroy Merlin 80 €, BOKU 86,90 € ; ton prix est au milieu | Kit ultra-fin à double buse : 8,50 $ → 7,31 € | Tu le vends 49,90 €. Tu gagnes 30,60 € (colis de 2 kg). Pub jusqu'à 30 €, vise 15,30 €. | ✅ GO |
 | 3 | **Pommeau de douche filtrant 15 étages**, design noir (réinvente le pommeau classique) | Eau calcaire et chlorée : peau qui tire, cheveux ternes | Les marques en pub le vendent 69,95 à 81,95 € ; tu es à moitié prix ; les modèles à 13,99 € n'ont ni marque ni design | 5,50 $ (10 à 99) → 4,73 € | Tu le vends 39,90 €. Tu gagnes 27,08 € (500 g). Pub jusqu'à 27 €, vise 13,50 €. | ✅ GO (aucune promesse médicale) |
 | 4 | **Bracelets lestés en silicone** (réinventent l'haltère : un bijou de sport) | S'entraîner en marchant ou au Pilates sans haltère encombrant | Marché jeune : Decathlon 42,99 € le lot ; Bala 49 à 85 $ aux États-Unis | 5,85 $ la paire → 5,03 € | Tu les vends 39,90 €. Tu gagnes 24,78 € (1 kg). Pub jusqu'à 24 €, vise 12,40 €. | ✅ GO |
@@ -41,11 +41,23 @@
 
 **Résultat : 10 verts sur 10.**
 
+## Tendance rétro : testés à part
+Ces produits suivent la mode rétro. Ils ne sont pas dans le tableau, parce qu'ils ne passent pas encore tous les critères.
+
+| Produit | Ce qui bloque | Verdict |
+|---|---|---|
+| Écouteurs filaires chromés (comme Növae) | Électronique (marquage CE, inscription DEEE) ; JBL Tune 205 Chrome à 22,99 € à la Fnac ; pas encore de fiche fournisseur vérifiée | 🟡 À tester plus tard |
+| Appareil photo argentique réutilisable | Fournisseur vérifié à 12,80 $ (11,01 €) ; vendu 44,90 €, il rapporterait 25,65 €. Mais il est électronique (flash, inscription DEEE) et Kodak vend ses modèles de 30 à 60 € (Ektar H35 à 59,99 €) | 🟡 À tester plus tard |
+| Jeu de cartes de questions seul | 12 € chez Nature & Découvertes : pas 20 € de gain s'il est vendu seul | ✅ Intégré au kit n° 1 |
+| Journal « une question par jour pendant 5 ans » | 14,90 € chez Nature & Découvertes | ❌ NON |
+
 ## Une seule recommandation
-**Le kit « Soirée sans écran » : 4 pochettes verrouillables + 1 aimant, vendu 39,90 €.**
-- Tu le vends 39,90 €.
-- Tu gagnes environ 22,90 € par vente.
-- Tu peux dépenser jusqu'à 22 € de pub pour obtenir un client ; vise 11,40 € pour garder environ 11,50 € de bénéfice.
+**Le kit « Soirée sans écran » : 4 pochettes verrouillables + 1 aimant + un jeu de 150 questions, vendu 49,90 €.**
+- Tu le vends 49,90 €.
+- Tu gagnes environ 31,95 € par vente : 49,90 € − 8,91 € (pochettes) − 0,65 € (jeu) − 6,89 € (envoi) − 1,50 € (frais de paiement).
+- Tu peux dépenser jusqu'à 31 € de pub pour obtenir un client ; vise 16 € pour garder environ 16 € de bénéfice.
+
+**Ce qui a été amélioré :** le jeu de questions donne une raison de poser le téléphone. On ne bloque pas seulement l'écran, on remplit la soirée. Il suit aussi la mode rétro et analogique. Le gain passe de 22,90 € à 31,95 €.
 
 **Pourquoi lui :**
 - **C'est le plus proche de l'esprit de la carte NFC :** un objet simple qui change une habitude.
@@ -58,7 +70,8 @@
 
 ## Sources
 - Fiches Alibaba (vérifiées le 14/11/2026) :
-  - [pochette verrouillable](https://www.alibaba.com/product-detail/Anti-Theft-Mobile-lock-Phone-Lockable_1601268799247.html)
+  - [pochette verrouillable](https://www.alibaba.com/product-detail/Anti-Theft-Mobile-lock-Phone-Lockable_1601268799247.html) · [jeux de questions en boîte (vitrine, fiche précise à demander au fournisseur)](https://www.alibaba.com/showroom/couples-card-game.html)
+  - [appareil photo argentique réutilisable](https://www.alibaba.com/product-detail/35mm-Color-Film-Camera-Reusable-Flash_1600329076521.html)
   - [kit WC lavant](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html)
   - [pommeau filtrant](https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html)
   - [bracelets lestés](https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html)
@@ -74,4 +87,6 @@
   - [StoneStream](https://fr.stone-stream.com/products/pomme-de-douche-ecopower-noire-avec-kit-de-filtration-deau-dure) · [MineralStream](https://fr.mineralstream.co/products/mineralstream%E2%84%A2-noir-vitamine-c-kit-de-douche-complet) · [Leroy Merlin, pommeau 15 étages](https://www.leroymerlin.fr/produits/pommeau-de-douche-anti-calcaire-avec-15-etapes-filtre-et-avec-tuyau-1-5m-pommeau-douche-economie-deau-haute-pression-filtre-douche-3-1-types-98264449.html)
   - [Nature & Découvertes, tableau de routine](https://www.natureetdecouvertes.com/enfant/materiel-montessori/vie-pratique/tableau-routine-et-taches-10-etapes-97847320) · [Kaufland, agenda magnétique](https://www.kaufland.fr/product/552820447/)
   - Bracelets, chaussettes, kits et gourde : sources dans ANALYSE_10_PRODUITS_PUBS_USA.md (Bala, Decathlon, Sveltus, Breaking Limits)
+  - [Nature & Découvertes, jeu Entre-Deux](https://www.natureetdecouvertes.com/enfant/jeux-societe/jeux-carte/jeu-de-questions-entre-deux-coeur-97802510) · [Ludum, Social Couples](https://www.ludum.fr/jeux-d-ambiance-entre-adultes/social-couples-11891) · [Nature & Découvertes, 5 ans de réflexion](https://www.natureetdecouvertes.com/livres-loisirs/librairie-bien-etre/developpement-personnel/5-ans-de-reflexion-10215910)
+  - [PcComponentes, Kodak Ektar H35](https://www.pccomponentes.fr/kodak-ektar-h35-appareil-photo-analogique-35-mm-sable) · [JBL Tune 205 Chrome](https://www.achatmoinscher.com/comparateur-de-prix-Ecouteurs/ecouteurs-filaire-boutons-intra-auriculaires-jbl-tune-205-chrome.html) · [Marketplace, retour du filaire](https://www.marketplace.org/story/2026/09/30/why-older-tech-like-wired-headphones-are-having-a-comeback)
   - [La Poste, tarifs Colissimo 2026](https://www.laposte.fr/professionnel/tarif-colissimo)
