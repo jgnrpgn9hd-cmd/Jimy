@@ -144,23 +144,25 @@ rows=[('Kit barre de Pilates + élastiques + programme 30 jours — Niche : Pila
   'de 161 à 210 € (Solawave). EFFET WAOUW : Le visage éclairé en rouge : le visuel le plus viral de la beauté. PRIX EN FRANCE : Solawave : 161 à 210 € (Beauty Bay). FOURNISSEUR : 4 en 1, étanche : '
   '13,50 $ dès 500 pièces (au lieu de 15 $), logo et coffret dès 500. À VÉRIFIER : Minimum 500 pièces ; demander CE et RoHS ; aucune promesse médicale (rides « atténuées », jamais « supprimées »).',
   'Baguette lumière rouge visage'),
- ('Micro-cravate sans fil pour téléphone, réduction de bruit — Niche : Création de contenu',
-  'https://www.alibaba.com/product-detail/Wireless-Lavalier-Microphone-for-iPhone-Android_1601716125647.html',
+ ('Gourde isotherme en inox 500 ml, finition mate, vendue simple ou gravée au prénom — Niche : Gourde du quotidien personnalisée',
+  'https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  8.76,
-  9,
-  39.9,
-  "MODÈLE : Hearble pour le prix (moins cher que DJI et RØDE), et l'univers de Baptiste : on vend grâce au contenu vidéo. DEMANDE : Environ 150 000 influenceurs en France (Sénat, loi du 9 juin "
-  '2023), sans compter les commerçants et entrepreneurs qui filment leurs vidéos. PROBLÈME : Son de mauvaise qualité (vent, écho, bruit) : la vidéo perd des vues et des ventes. Les micros de marque '
-  'coûtent 59 à 129 €. ÉCONOMIQUE : OUI : 39,90 € au lieu de 59 € (DJI Mic Mini) à 91-129 € (RØDE Wireless Micro). EFFET WAOUW : Avant/après du son dans la même vidéo, le vent qui disparaît. PRIX EN '
-  'FRANCE : DJI Mic Mini : 59 € (1 émetteur), 99 € (2 émetteurs) ; RØDE Wireless Micro : 91 à 129 €. FOURNISSEUR : Banxye, réduction de bruit en 1 clic, pince magnétique : 10,19 $ (100 à 999). À '
-  'VÉRIFIER : Vérifier la prise (USB-C ou Lightning) selon le téléphone ; demander si le logo est possible.',
-  'Micro sans fil pour téléphone'),
+  3.35,
+  7,
+  24.9,
+  "MODÈLE : Un produit basique rendu unique par la personnalisation (critère « Unique » du support Scutify) et vendu en packs, comme Hustle Wear. DEMANDE : La France est l'un des pays qui boivent le "
+  "plus d'eau en bouteille : environ 135 litres par Français et par an, et 86 % des Français en consomment (Fondation Jean-Jaurès, enquête Ipsos). PROBLÈME : L'eau devient tiède dans la journée, on "
+  "rachète sans arrêt des bouteilles en plastique, et les gourdes se perdent ou s'échangent (école, salle de sport, bureau). ÉCONOMIQUE : OUI : une gourde remplace des centaines de bouteilles en "
+  'plastique par an. EFFET WAOUW : La vidéo de la gravure laser du prénom, et la gourde encore pleine de glaçons le soir. PRIX EN FRANCE : Gourdes isothermes inox 500 ml : 12,99 € (Decathlon), 23,90 '
+  "€ (LAKEN) ; gourdes personnalisées pour entreprises de 5,26 à 13,02 € l'unité selon la quantité. FOURNISSEUR : Gourde inox 500 ml double paroi, toucher doux : 3,90 $ (2 à 99), 3,60 $ (100 à 499), "
+  "3,25 $ (500 à 9 999) ; logo dès 200 pièces. À VÉRIFIER : La gravure au prénom se fait à l'unité en France (machine laser à toi ou graveur sous-traitant) : coût à chiffrer. Demander le certificat "
+  "de contact alimentaire et l'inox 304 par écrit. La version simple fait face à Decathlon (12,99 €) : mettre en avant la gravure.",
+  'Gourde isotherme (gravée ou non)'),
  ('Mini pistolet de massage à écran tactile, 4 têtes — Niche : Récupération sportive',
   'https://www.alibaba.com/product-detail/Light-Mini-Massage-Gun-Lcd-Touch_1601094578732.html',
   'OUI',

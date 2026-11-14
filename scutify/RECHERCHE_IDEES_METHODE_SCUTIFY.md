@@ -20,7 +20,7 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 | 6 | Randonnée et outdoor (éco-responsable) | [Gourde filtrante inox](https://www.alibaba.com/product-detail/microfiltration-stainless-steel-water-filter-bottle_60154285879.html) | 7,74 € | 34,90 € | 27,16 € | 8,5 |
 | 7 | Télétravail (maison et confort) | [Coussin lombaire télétravail](https://www.alibaba.com/product-detail/Orthopedic-lumbar-support-memory-foam-cushion_60747546667.html) | 5,16 € | 29,90 € | 24,74 € | 8,5 |
 | 8 | Lumière rouge (soin du visage) | [Baguette lumière rouge visage](https://www.alibaba.com/product-detail/4-in-1-Red-Light-Therapy_1601570406236.html) | 11,61 € | 49,90 € | 38,29 € | 8,5 |
-| 9 | Création de contenu | [Micro sans fil pour téléphone](https://www.alibaba.com/product-detail/Wireless-Lavalier-Microphone-for-iPhone-Android_1601716125647.html) | 8,76 € | 39,90 € | 31,14 € | 8,5 |
+| 9 | Gourde du quotidien personnalisée | [Gourde isotherme (gravée ou non)](https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html) | 3,35 € | 24,90 € | 21,55 € | 8,5 |
 | 10 | Récupération sportive | [Mini pistolet de massage](https://www.alibaba.com/product-detail/Light-Mini-Massage-Gun-Lcd-Touch_1601094578732.html) | 5,71 € | 29,90 € | 24,19 € | 8,5 |
 
 La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Le t-shirt et le bracelet ont « NON » en économique : ce sont des produits passion, comme chez Hustle Wear.
@@ -257,34 +257,34 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | 4 en 1, étanche : 13,50 $ dès 500 pièces (au lieu de 15 $), logo et coffret dès 500. |
 | À vérifier | Minimum 500 pièces ; demander CE et RoHS ; aucune promesse médicale (rides « atténuées », jamais « supprimées »). |
 
-## 9. Création de contenu — Micro sans fil pour téléphone
+## 9. Gourde du quotidien personnalisée — Gourde isotherme (gravée ou non)
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Wireless-Lavalier-Microphone-for-iPhone-Android_1601716125647.html) · coût 8,76 € (10,19 $ × 0,86) · revente 39,90 € · marge 31,14 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html) · coût 3,35 € (3,9 $ × 0,86) · revente 24,90 € · marge 21,55 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Hearble pour le prix (moins cher que DJI et RØDE), et l'univers de Baptiste : on vend grâce au contenu vidéo. |
-| Demande en France | Environ 150 000 influenceurs en France (Sénat, loi du 9 juin 2023), sans compter les commerçants et entrepreneurs qui filment leurs vidéos. |
-| Observation | Tout le monde vend avec la vidéo (TikTok, Reels) ; un mauvais son fait décrocher les gens en quelques secondes. |
-| Cible et désir | Créateurs, entrepreneurs, coachs et commerçants de 18 à 40 ans qui filment au téléphone. |
-| Problème | Son de mauvaise qualité (vent, écho, bruit) : la vidéo perd des vues et des ventes. Les micros de marque coûtent 59 à 129 €. |
-| Question à résoudre | Comment avoir un son de pro sur ses vidéos au téléphone, sans matériel compliqué ? |
-| Pistes produit | Micro-cravate sans fil (choisi) · trépied pour téléphone · petite lumière LED. |
-| **Idée de business** | Je veux permettre aux créateurs et entrepreneurs qui filment au téléphone d'avoir un son de pro en 1 clic, pour moins cher qu'un micro de marque. |
-| Solution à un problème | OUI : des vidéos qui perdent des vues et des ventes. |
-| Économique | OUI : 39,90 € au lieu de 59 € (DJI Mic Mini) à 91-129 € (RØDE Wireless Micro). |
-| Besoin / passion | OUI : la création de contenu est une passion et un business. |
-| Effet wow | Avant/après du son dans la même vidéo, le vent qui disparaît. |
-| Unique | Logo et étui de charge à la marque (à demander, pas indiqué sur la fiche). |
-| Poids / volume | Minuscule et très léger. |
-| 1. Répond aux critères principaux ? | Très bien : problème clair, économie chiffrée, passion. |
-| 2. Bénéfice évident au premier regard ? | Oui : on entend la différence tout de suite. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : site tech noir, pubs avant/après du son, vidéos de créateurs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Plutôt oui : énorme marché, mais beaucoup de micros sans marque sur Amazon : il faut une vraie marque et du contenu. |
-| Prix en France | DJI Mic Mini : 59 € (1 émetteur), 99 € (2 émetteurs) ; RØDE Wireless Micro : 91 à 129 €. |
-| Angle pub / Instagram | « Écoute la différence » : la même vidéo avec et sans le micro, dehors avec du vent. |
-| Fournisseur | Banxye, réduction de bruit en 1 clic, pince magnétique : 10,19 $ (100 à 999). |
-| À vérifier | Vérifier la prise (USB-C ou Lightning) selon le téléphone ; demander si le logo est possible. |
+| Boutique modèle | Un produit basique rendu unique par la personnalisation (critère « Unique » du support Scutify) et vendu en packs, comme Hustle Wear. |
+| Demande en France | La France est l'un des pays qui boivent le plus d'eau en bouteille : environ 135 litres par Français et par an, et 86 % des Français en consomment (Fondation Jean-Jaurès, enquête Ipsos). |
+| Observation | Tout le monde a besoin de boire dans la journée (école, travail, sport) ; les gourdes se ressemblent toutes, et la version au prénom est surtout vendue par des sites d'objets publicitaires pour les entreprises. |
+| Cible et désir | Tout le monde : enfants et ados pour l'école, salariés, sportifs ; et ceux qui cherchent un cadeau personnalisé. |
+| Problème | L'eau devient tiède dans la journée, on rachète sans arrêt des bouteilles en plastique, et les gourdes se perdent ou s'échangent (école, salle de sport, bureau). |
+| Question à résoudre | Comment avoir de l'eau fraîche toute la journée, sans plastique, avec une gourde qu'on reconnaît tout de suite ? |
+| Pistes produit | Gourde isotherme simple (choisie) · version gravée au prénom · pack famille · gourde enfant. |
+| **Idée de business** | Je veux permettre à chacun d'avoir de l'eau fraîche toute la journée sans acheter de bouteilles en plastique, avec une gourde isotherme à son nom, qu'on ne perd plus et qu'on a envie d'offrir. |
+| Solution à un problème | OUI : eau tiède, bouteilles en plastique, gourdes perdues ou échangées. |
+| Économique | OUI : une gourde remplace des centaines de bouteilles en plastique par an. |
+| Besoin / passion | OUI : le cadeau personnalisé (anniversaire, Noël, maîtresse, fête des pères et des mères). |
+| Effet wow | La vidéo de la gravure laser du prénom, et la gourde encore pleine de glaçons le soir. |
+| Unique | OUI pour la version gravée : chaque gourde est unique. La version simple reste disponible pour ceux qui n'en veulent pas. |
+| Poids / volume | Assez légère (environ 300 g) mais un peu volumineuse : colis moyen. |
+| 1. Répond aux critères principaux ? | Très bien : problème quotidien, économie, cadeau. |
+| 2. Bénéfice évident au premier regard ? | Oui : « ta gourde, à ton nom, fraîche toute la journée ». |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : site coloré avec un aperçu du prénom sur la gourde, pubs de gravure en direct, packs famille. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui : tout le monde est client, demande toute l'année (rentrée scolaire, été, fêtes). La version simple a beaucoup de concurrence : c'est la gravure qui fait la différence. |
+| Prix en France | Gourdes isothermes inox 500 ml : 12,99 € (Decathlon), 23,90 € (LAKEN) ; gourdes personnalisées pour entreprises de 5,26 à 13,02 € l'unité selon la quantité. |
+| Angle pub / Instagram | Gravure laser en direct du prénom ; « la gourde de toute la famille » ; glaçons encore là le soir. |
+| Fournisseur | Gourde inox 500 ml double paroi, toucher doux : 3,90 $ (2 à 99), 3,60 $ (100 à 499), 3,25 $ (500 à 9 999) ; logo dès 200 pièces. |
+| À vérifier | La gravure au prénom se fait à l'unité en France (machine laser à toi ou graveur sous-traitant) : coût à chiffrer. Demander le certificat de contact alimentaire et l'inox 304 par écrit. La version simple fait face à Decathlon (12,99 €) : mettre en avant la gravure. |
 
 ## 10. Récupération sportive — Mini pistolet de massage
 
@@ -366,9 +366,10 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 - [Coussin dorsal (Pearl)](https://www.pearl.fr/article/NC5231/coussin-dorsal-a-memoire-de-forme)
 - [CurrentBody via Journal du Luxe (France 30 % des ventes européennes)](https://www.journalduluxe.fr/fr/beaute/marche-appareils-beaute-81-milliards-dollars-2027-laurence-newman-ceo-currentbody/amp)
 - [Solawave (Beauty Bay)](https://www.beautybay.com/fr/p/solawave/4-in-1-radiant-renewal-skincare-wand-with-red-light-therapy/gold/)
-- [Sénat, 150 000 influenceurs](https://www.senat.fr/cra/s20230509/s20230509_3.html)
-- [Phototrend, prix DJI Mic Mini 2](https://phototrend.fr/2026/04/dji-mic-mini-2/)
-- [RØDE Wireless Micro (WRD Tunes)](https://wrdtunes.com/fr/products/rode-wireless-micro-usb-c)
+- [Fondation Jean-Jaurès, la France des eaux en bouteille](https://www.jean-jaures.org/publication/la-france-des-eaux-en-bouteille/)
+- [Decathlon, gourde isotherme inox 0,5 L](https://www.decathlonpro.fr/gourde-mh500-isotherme-randonnee-inox-0u5l-blanc-id-8612271.html)
+- [LAKEN sur Decathlon.fr](https://www.decathlon.fr/brands/laken?from=120)
+- [Gourdes personnalisables pour entreprises (Dimo)](https://dimo.fr/bouteilles-isothermes/1747-bouteille-isotherme-en-acier-inoxydable-recycle-sublimation-500-ml.html)
 - [Observatoire Forme & Fitness 2026 (18 millions de pratiquants)](https://www.toute-la-franchise.com/vie-de-la-franchise-A32975-salles-sport-france-perspectives.html)
 - [Theragun Mini Plus (Alltricks)](https://www.alltricks.fr/F-46293-soin-du-corps/P-3223331-pistolet_de_massage_chauffant_therabody_theragun_mini_plus_noir)
 - [Renpho mini (Nature & Découvertes)](https://www.natureetdecouvertes.com/bien-etre/massage/materiel-accessoires/renpho-pistolet-de-massage-micro-wmg16-noir-93384700)
