@@ -1,7 +1,7 @@
 # 10 produits qui marchent aux États-Unis, filtrés pour la France — tableau final (14/11/2026)
 
 **Ce tableau reprend :**
-- en n° 1, la carte de visite NFC + profil digital (inspirée de ZYKO) ;
+- en n° 1, le kit de pochettes verrouillables (la carte NFC a été retirée sur conseil de la coach : trop complexe) ;
 - de 2 à 10, les produits de l'analyse précédente : les 7 produits verts et les 2 kits retirés, avec leur verdict.
 
 **Limite :** la bibliothèque de pubs Meta, Amazon et AliExpress ne s'ouvrent pas depuis cette session. Les preuves viennent de rapports publics et des prix publics des marques. Les fournisseurs viennent d'Alibaba (fiches ouvertes et vérifiées).
@@ -15,7 +15,7 @@
 
 | N° | Produit | Preuve aux États-Unis | En France | Fournisseur (vérifié) | Calcul en 3 phrases | Verdict |
 |---|---|---|---|---|---|---|
-| 1 | **Carte de visite NFC + profil digital** (comme ZYKO) : carte noire mate ; on l'approche d'un téléphone et le profil s'ouvre (coordonnées, réseaux, métier, rendez-vous) | ZYKO la vend 29,99 $ avec des pubs Meta « Comment ZYKO » ; Popl, Linq, Mobilo, V1CE (79 $) | Popl, Mobilo et V1CE sont chers et en dollars ; cartes sans marque sur Amazon ; peu de marques françaises pour les indépendants | Carte PVC noire mate NTAG215 : 0,15 à 0,35 $, minimum 100, logo dès 100 → 0,30 € (+ environ 1 € d'étui) | Tu la vends 29,99 €. Tu gagnes environ 23 € (lettre de 250 g). Pub jusqu'à 23 €, vise 11,50 €. | ✅ **GO — n° 1** |
+| 1 | **Kit « Soirée sans écran »** : 4 pochettes verrouillables + 1 aimant de déverrouillage | Yondr équipe les écoles, salles de concert et humoristes aux États-Unis | Très faible pour les particuliers ; lots pour collèges (20 pochettes à 249,90 €) | Pochette néoprène magnétique : 2,59 $ → 2,23 € (8,91 € les 4) | Tu le vends 39,90 €. Tu gagnes 22,90 € (500 g). Pub jusqu'à 22 €, vise 11,40 €. | ✅ **GO — n° 1** |
 | 2 | **Bracelets lestés en silicone** (paire) | Bala les vend 49 à 85 $ (Goop, Kate Spade) | Marché jeune ; Decathlon 42,99 € le lot silicone | 5,85 $ → 5,03 € | Tu les vends 39,90 €. Tu gagnes 24,78 €. Pub jusqu'à 24 €, vise 12,40 €. | ✅ GO |
 | 3 | **Chaussettes antidérapantes Pilates** (lot de 3 paires) | Accessoire n°1 des cours de Pilates, Pilates n°1 sur ClassPass | 1 paire : 11,99 à 19 € ; 2 paires : 26,99 à 32,90 € | 1,75 $ la paire → 4,52 € les 3, logo dès 300 | Tu les vends 32,90 € les 3. Tu gagnes 22,60 € (livraison 250 g). Pub jusqu'à 22 €, vise 11,30 €. | ✅ GO |
 | 4 | **Kit Pilates Plus** : barre + élastiques + disques de glisse + programme 30 jours | Kits Pilates parmi les meilleures ventes | Kits de 26 à 59 € | 2,50 $ + 1,78 $ → 3,68 € | Tu le vends 34,90 €. Tu gagnes 21,28 € (livraison 1 kg). Pub jusqu'à 21 €, vise 10,60 €. | ✅ GO |
@@ -27,30 +27,15 @@
 | 10 | Kit Dos : balle de massage double + programme | Récupération = catégorie forte (Copyfy, FastMoss) | Balles doubles de 7 à 20 € (Pearl, i-run) | 4 $ → 3,44 € | Il faudrait la vendre 29,90 €, au-dessus du marché. Tu gagnerais 18,67 €. C'est moins que les 20 € minimum. | ❌ NON |
 
 ## Une seule recommandation
-**La carte de visite NFC + profil digital, vendue 29,99 €.**
-- Tu la vends 29,99 €.
-- Tu gagnes environ 23 € par vente : 29,99 € − 0,30 € (carte) − 1 € (étui) − 4,79 € (envoi) − 0,90 € (frais de paiement).
-- Tu peux dépenser jusqu'à 23 € de pub pour obtenir un client ; vise 11,50 € pour garder environ 11,50 € de bénéfice.
+**Le kit « Soirée sans écran » (4 pochettes verrouillables + 1 aimant), vendu 39,90 €.**
+- Tu le vends 39,90 €.
+- Tu gagnes environ 22,90 € par vente, livraison comprise.
+- Tu peux dépenser jusqu'à 22 € de pub pour obtenir un client ; vise 11,40 €.
 
-**Pourquoi elle :**
-- Elle est déjà prouvée aux États-Unis : ZYKO la vend 29,99 $ avec des pubs Meta.
-- La carte coûte 0,30 € : c'est le meilleur rapport gain / coût du tableau.
-- Elle est minuscule et incassable, et part en lettre.
-- Elle s'adresse à tous ceux qui travaillent : indépendants, commerciaux, artisans, coiffeuses, agents immobiliers.
-- L'effet wow est immédiat (on approche la carte, le profil s'ouvre) : parfait pour les vidéos.
-- Elle règle un vrai problème : les cartes en papier se perdent et deviennent fausses dès qu'on change de numéro. La carte NFC, elle, se met à jour sans être réimprimée.
-
-**À régler avant de lancer : le profil digital.**
-- Le fournisseur programme chaque carte avec un lien unique numéroté, par exemple `tamarque.com/c/00125`.
-- Le client scanne sa carte, arrive sur la page « Active ta carte » et crée son profil lui-même.
-- Argument de vente : « un seul paiement, sans abonnement », contre Popl et Mobilo, qui font payer un abonnement.
-
-**Les produits 2 à 8** sont tous verts. Ils visent une autre cliente (Pilates et renforcement à la maison) : ils feront une deuxième boutique si la carte marche, avec les bracelets lestés en tête (24,78 € de gain).
+La carte de visite NFC a été retirée sur conseil de la coach : il faudrait gérer une page profil pour chaque client, c'est trop complexe. Le kit est simple : un produit physique, sans appli ni plateforme. Le détail est dans ANALYSE_PRODUITS_INNOVANTS.md.
 
 ## Sources
-- [ZYKO (zykocard.com)](https://www.zykocard.com) : capture Instagram envoyée
-- [Hack'celeration, cartes de visite NFC 2026](https://hackceleration.com/fr/labs/fonctionnalite/cartes-de-visite-nfc) · [La Fabrique du Net, avis V1CE](https://www.lafabriquedunet.fr/logiciel/v1ce)
-- Fiche Alibaba de la carte NFC : [carte noire mate NTAG215](https://www.alibaba.com/product-detail/Black-pvc-card-nfc-NTAG-215_62022555600.html) · [autre fournisseur](https://www.alibaba.com/product-detail/Customized-Black-Matte-Nfc-Card-Black_1601097895110.html)
+- [Pochette verrouillable (Alibaba)](https://www.alibaba.com/product-detail/Anti-Theft-Mobile-lock-Phone-Lockable_1601268799247.html) · [OfficeEasy, étuis pour collèges](https://www.officeeasy.fr/etui-pour-smartphone-en-pause-au-college-ecole.html)
 - Bala : [Goop](https://goop.com/bala-bangles-weighted-wrist-bangles/p/) · [Kate Spade](https://katespade.com/products/bala-bangles/RB1PKSGR.html) · [Clove & Twine](https://www.cloveandtwine.com/products/bala-bangles)
 - [Decathlon, lestés chevilles](https://www.decathlon.be/fr/vc/lestes-chevilles) · [Decathlon, chaussettes antidérapantes](https://www.decathlon.fr/vc/chaussettes-antiderapantes-femmes) · [Sveltus, chaussettes (FitnessBoutique)](https://www.fitnessboutique.fr/products/sveltus-chaussette-power-grip-prod-sve9076)
 - [Decathlon, kit Pilates complet](https://www.decathlon.fr/p/mp/kit-complet-pilates-fitness-avec-anneau-bandes-disques-balle-et-chaussettes/50e9ffcc-42ac-44e2-bba9-2e7b4c14e663/novar) · [Breaking Limits (Decathlon)](https://www.decathlon.be/fr/brands/breaking-limits)

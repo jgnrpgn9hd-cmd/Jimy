@@ -1,6 +1,6 @@
 # 10 produits qui sortent du commun et règlent un vrai problème (14/11/2026)
 
-**Ce que je cherchais :** des produits dans l'esprit de la carte NFC, sans la recopier :
+**Ce que je cherchais :** des produits hors du commun, simples à vendre (sans appli ni plateforme à gérer, conseil de la coach) :
 - peu connus en France ;
 - qui règlent un vrai problème du quotidien ;
 - qu'on comprend en une seconde en vidéo ;
@@ -23,15 +23,17 @@
 | N° | Produit | Le vrai problème | Concurrence en France | Fournisseur (vérifié) | Calcul en 3 phrases | Verdict |
 |---|---|---|---|---|---|---|
 | 1 | **Kit « Soirée sans écran »** : 4 pochettes verrouillables pour téléphones + 1 aimant de déverrouillage (le système des écoles et des concerts, version maison) | Les repas de famille et les soirées entre amis où chacun est sur son téléphone ; les ados et étudiants qui n'arrivent pas à réviser | Très faible pour les particuliers : Yondr ne vend qu'aux écoles et aux salles ; en France on trouve surtout des lots pour collèges (20 pochettes à 249,90 €) | Pochette néoprène à fermeture magnétique : 2,59 $ (100 à 1 999), logo possible → 2,23 € la pochette, 8,91 € les 4 | Tu le vends 39,90 €. Tu gagnes 22,90 € (colis de 500 g). Pub jusqu'à 22 €, vise 11,40 €. | ✅ **GO — recommandation** |
-| 2 | **Plaque NFC « avis Google »** pour le comptoir des commerces | Les commerçants ont peu d'avis Google, alors que les clients contents ne pensent pas à en laisser | Moyenne : 25 à 60 € en France (TAP NFC, Mon Avis Facile, MyPlaque) | Présentoir acrylique NFC + QR code : 0,50 à 1,35 $ (100 minimum) → 1,16 € (+ 1 € d'emballage) | Tu la vends 39,90 €. Tu gagnes environ 31,75 € (lettre de 250 g). Pub jusqu'à 31 €, vise 15,90 €. | ✅ GO |
-| 3 | **Cahier réutilisable connecté** : on écrit, on scanne la page avec l'appli, on efface avec un chiffon humide | Notes perdues, cahiers qui s'empilent, papier gaspillé | Faible : Rocketbook est la seule marque connue (Fnac), prix français non confirmé | Cahier A4 effaçable avec appli : 6,20 $ (50 à 499) → 5,33 € | Tu le vends 34,90 €. Tu gagnes 21,63 € (500 g). Pub jusqu'à 21 €, vise 10,80 €. | 🟡 À TESTER : vérifier que l'appli existe en français et le prix de Rocketbook en France |
-| 4 | **Médaille NFC + QR code pour animal** : on la scanne et la fiche de l'animal s'ouvre | Un animal perdu sans moyen de joindre le maître | Moyenne : Animoco 23,99 €, DynaTag 29,95 € | Médaille NFC époxy : 0,39 à 1,09 $ (500 minimum) → 0,94 € | Tu la vends 29,90 €. Tu gagnes 23,27 € (lettre). Pub jusqu'à 23 €, vise 11,60 €. | 🟡 À TESTER : haut du marché, 500 minimum |
-| 5 | **Tableau de routines pour enfant** (feutrine, 96 cartes : se brosser les dents, s'habiller, devoirs) | Les matins et couchers où il faut tout répéter dix fois | Prix français non trouvé ; surtout des modèles artisanaux | 4,50 $ le set (40 à 499) → 3,87 € | Tu le vends 34,90 €. Tu gagnes 23,09 € (500 g). Pub jusqu'à 23 €, vise 11,50 €. | 🟡 À TESTER : vérifier les prix en France |
-| 6 | **Chouchous couvre-verre** (lot de 4) : un chouchou qui se déplie sur le verre en soirée | La peur qu'on mette quelque chose dans son verre | Moyenne : jeunes marques françaises (Protect Your Glass, La Cupote, Drink Watch) | 1,18 $ le chouchou (50 minimum) → 1,01 € | Tu les vends 29,90 € les 4. Tu gagnes 20,17 € (lettre). Pub jusqu'à 20 €, vise 10 €. | 🟡 Gain juste à 20 € ; aucune promesse de protection possible en pub |
-| 7 | Étiquettes QR anti-perte (porte-clés + autocollants) : celui qui trouve l'objet scanne et te contacte | Clés, sac, ordinateur perdus | Looztick (fabriqué en France) | Porte-clés QR : 0,30 à 0,70 $ (200 minimum) → 0,60 € | Vendu 24,90 €, tu gagnes 17,36 €. Il faut le vendre 29,90 € pour passer 20 €. Trop proche de la carte NFC (même plateforme de profils). | ❌ NON pour l'instant |
-| 8 | Bracelet SOS enfant (lot de 3) avec le numéro des parents | Enfant perdu à la plage, au parc, en festival | Kaufland 12 €, Silincode 22,32 € | Silicone + inox gravé : 2,14 $ → 1,84 € | Vendu 29,90 € les 3, tu gagnes 18,69 €. C'est sous 20 €. Les bracelets sont déjà vendus moins cher. | ❌ NON |
-| 9 | Verrou de porte portable (voyage, hôtel, Airbnb) | Se sentir en sécurité dans une chambre qui n'est pas la sienne | Environ 10 € en France | 1,45 $ (100 minimum) → 1,25 € | Prix de vente maximum 19,90 €. Tu gagnerais 13,26 €. Pas assez pour la pub. | ❌ NON |
-| 10 | Boîtes de conservation avec cadran de date | Restes oubliés au frigo, gaspillage | Boîtes classiques partout | 0,72 à 1,89 $, mais 3 000 minimum | Le minimum est trop élevé. Le colis est lourd et encombrant. Le produit est banal en photo. | ❌ NON |
+| 2 | **Cahier réutilisable connecté** : on écrit, on scanne la page avec l'appli, on efface avec un chiffon humide | Notes perdues, cahiers qui s'empilent, papier gaspillé | Faible : Rocketbook est la seule marque connue (Fnac), prix français non confirmé | Cahier A4 effaçable avec appli : 6,20 $ (50 à 499) → 5,33 € | Tu le vends 34,90 €. Tu gagnes 21,63 € (500 g). Pub jusqu'à 21 €, vise 10,80 €. | 🟡 À TESTER : vérifier que l'appli existe en français et le prix de Rocketbook en France |
+| 3 | **Tableau de routines pour enfant** (feutrine, 96 cartes : se brosser les dents, s'habiller, devoirs) | Les matins et couchers où il faut tout répéter dix fois | Prix français non trouvé ; surtout des modèles artisanaux | 4,50 $ le set (40 à 499) → 3,87 € | Tu le vends 34,90 €. Tu gagnes 23,09 € (500 g). Pub jusqu'à 23 €, vise 11,50 €. | 🟡 À TESTER : vérifier les prix en France |
+| 4 | **Chouchous couvre-verre** (lot de 4) : un chouchou qui se déplie sur le verre en soirée | La peur qu'on mette quelque chose dans son verre | Moyenne : jeunes marques françaises (Protect Your Glass, La Cupote, Drink Watch) | 1,18 $ le chouchou (50 minimum) → 1,01 € | Tu les vends 29,90 € les 4. Tu gagnes 20,17 € (lettre). Pub jusqu'à 20 €, vise 10 €. | 🟡 Gain juste à 20 € ; aucune promesse de protection possible en pub |
+| 5 | Bouchons d'oreilles « concert et concentration » en silicone (2 paires + étui en métal) | Concerts trop forts, open space bruyant, enfants hypersensibles au bruit | Forte : Loop domine (Engage 2 Plus à 39,95 €) | 2 paires + étui : 4,50 $ (100 à 999) → 3,87 € | Tu les vends 29,90 €. Tu gagnes 20,34 € (lettre). Pub jusqu'à 20 €, vise 10 €. | 🟡 Gain juste à 20 € et Loop déjà très connu |
+| 6 | Étiquettes QR anti-perte (porte-clés + autocollants) : celui qui trouve l'objet scanne et te contacte | Clés, sac, ordinateur perdus | Looztick (fabriqué en France) | Porte-clés QR : 0,30 à 0,70 $ (200 minimum) → 0,60 € | Vendu 24,90 €, tu gagnes 17,36 €. Il faut le vendre 29,90 € pour passer 20 €. Il faut aussi une plateforme de contact, trop complexe (conseil de la coach). | ❌ NON pour l'instant |
+| 7 | Bracelet SOS enfant (lot de 3) avec le numéro des parents | Enfant perdu à la plage, au parc, en festival | Kaufland 12 €, Silincode 22,32 € | Silicone + inox gravé : 2,14 $ → 1,84 € | Vendu 29,90 € les 3, tu gagnes 18,69 €. C'est sous 20 €. Les bracelets sont déjà vendus moins cher. | ❌ NON |
+| 8 | Verrou de porte portable (voyage, hôtel, Airbnb) | Se sentir en sécurité dans une chambre qui n'est pas la sienne | Environ 10 € en France | 1,45 $ (100 minimum) → 1,25 € | Prix de vente maximum 19,90 €. Tu gagnerais 13,26 €. Pas assez pour la pub. | ❌ NON |
+| 9 | Boîtes de conservation avec cadran de date | Restes oubliés au frigo, gaspillage | Boîtes classiques partout | 0,72 à 1,89 $, mais 3 000 minimum | Le minimum est trop élevé. Le colis est lourd et encombrant. Le produit est banal en photo. | ❌ NON |
+| 10 | Protège pare-brise aimanté anti-givre | Gratter le pare-brise gelé chaque matin d'hiver | Forte : Norauto, Feu Vert, Amazon de 10 à 25 € | 1,50 $, mais 3 000 minimum | Le produit est déjà vendu partout à petit prix. Le minimum est trop élevé. Il ne se vend que l'hiver. | ❌ NON |
+
+**Retirés sur conseil de la coach (trop complexes) :** la plaque NFC « avis Google » et la médaille NFC pour animal. Comme la carte NFC, il faudrait gérer une page profil pour chaque client.
 
 ## Une seule recommandation
 **Le kit « Soirée sans écran » : 4 pochettes verrouillables + 1 aimant, vendu 39,90 €.**
@@ -52,14 +54,13 @@
 2. Que les pochettes acceptent les grands téléphones (iPhone Pro Max).
 3. Le prix exact de 4 pochettes + 1 aimant avec ton logo : c'est la question à poser à l'équipe sourcing Scutify.
 
-**Deuxième produit :** la plaque NFC « avis Google » (n° 2), qui donne le meilleur gain du tableau, mais pour une autre cible (les commerçants).
+**Deuxième produit, pour la même cliente (les familles) :** le tableau de routines pour enfant (n° 3), à tester une fois les prix français vérifiés.
 
 ## Sources
 - Fiches Alibaba (vérifiées le 14/11/2026) :
   - [pochette verrouillable](https://www.alibaba.com/product-detail/Anti-Theft-Mobile-lock-Phone-Lockable_1601268799247.html) · [autre fournisseur](https://www.alibaba.com/product-detail/Customized-Logo-Popular-Lockable-Phone-Pouch_1601205002718.html)
-  - [présentoir NFC avis Google](https://www.alibaba.com/product-detail/Acrylic-NFC-google-review-stand-table_1601208042548.html)
   - [cahier réutilisable](https://www.alibaba.com/product-detail/Newyes-Factory-A4-Blank-Reusable-Notebook_62139315045.html)
-  - [médaille NFC](https://www.alibaba.com/product-detail/Smart-Pet-QR-Stainless-Dog-Tag_1600053434071.html)
+  - [bouchons d'oreilles](https://www.alibaba.com/product-introduction/Custom-logo-2-Pairs-tapones-auditivos_1600979485174.html) · [protège pare-brise](https://www.alibaba.com/product-detail/Car-Windshield-Snow-Cover-for-Ice_1600133650730.html)
   - [tableau de routines](https://www.alibaba.com/product-introduction/2025-Hot-Selling-Felt-Schedule-Wall_1601184415425.html)
   - [chouchou couvre-verre](https://www.alibaba.com/product-introduction/Custom-Color-Elastic-Fabric-Anti-Spike_1600861994527.html)
   - [porte-clés QR](https://www.alibaba.com/product-detail/Lost-and-found-wholesale-key-chain_60557210748.html)
@@ -68,9 +69,8 @@
   - [boîte à date](https://www.alibaba.com/product-detail/plastic-food-container-with-date-dial_60240451054.html)
 - Prix et concurrence en France :
   - [OfficeEasy, étuis « portable en pause » pour collèges](https://www.officeeasy.fr/etui-pour-smartphone-en-pause-au-college-ecole.html)
-  - [JustGeek, plaque Google avis](https://www.justgeek.fr/plaque-google-avis-nfc-153214/)
+  - [Loop, Engage 2 Plus](https://www.loopearplugs.com/fr-be/products/engage-plus)
   - [Fnac, Rocketbook Fusion](https://www.fnac.com/Carnet-Connecte-Reutilisable-a-l-infini-Rocketbook-Fusion-Executive-15-2-cm-x-22-4-cm-A5-Noir/a15128958/w-4)
-  - [Zooplus, médaille QR Animoco](https://www.zooplus.fr/shop/chiens/laisses_colliers_chien/petit_chien/9980177936)
   - [Neozone, Protect Your Glass](https://www.neozone.org/innovation/protect-your-glass-ils-inventent-un-chouchou-innovant-qui-se-transforme-en-protection-de-verre-contre-le-ghb)
   - [La Poste, Looztick](https://www.laposte.fr/professionnel/boutique/retrouvez-vos-objets-perdus-rapidement-grace-aux-portes-cles-et-stickers-looztick/p/mp-600198496)
   - [Kaufland, bracelet SOS](https://www.kaufland.fr/product/533908043/) · [Promofarma, Silincode](https://www.promofarma.com/en/silincode-bracelet-sos-qr-pink-colour-t-s-1ud/p-27053)

@@ -279,3 +279,5 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 14/11/2026 — Tableau final USA : carte NFC n° 1 + produits d avant (7 verts, traction à tester, kit dos NON). Ancienne version : ANALYSE_USA_GENERAL_v1_animaux_nfc.md
 
 ## 14/11/2026 — ANALYSE_PRODUITS_INNOVANTS.md : 10 produits hors du commun ; recommandation kit pochettes verrouillables 39,90 € (gain 22,90 €)
+
+## 14/11/2026 — Coach : pas de produits NFC (trop complexe). Retirés carte, plaque avis, médaille. Kit pochettes = n° 1 partout. Ajoutés bouchons d oreilles (à tester) et protège pare-brise (NON).
