@@ -22,7 +22,7 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 | 7 | Organisation élégante · avoir un bureau net | [Sous-main de bureau](https://www.alibaba.com/product-detail/Multifunctional-Desk-Pad-Waterproof-PU-Leather_1600108081618.html) | 2,75 € | 34,90 € | 32,15 € | 8,5 |
 | 8 | Organisation élégante · garder les papiers de voyage ensemble | [Pochette passeports famille](https://www.alibaba.com/product-detail/Pu-Leather-Passport-Bag-Rfid-Multi_1600903701183.html) | 2,14 € | 29,90 € | 27,76 € | 8,5 |
 | 9 | Organisation élégante · personnaliser ses lettres et cadeaux | [Coffret cachet de cire](https://www.alibaba.com/product-detail/Pink-Wax-Seal-Stamp-Kit-with_1601147778139.html) | 2,49 € | 29,90 € | 27,41 € | 8,5 |
-| 10 | Organisation élégante · offrir une entrée organisée | [Coffret organisation entrée](https://www.alibaba.com/product-detail/Wooden-wood-Wall-Mounted-Key-and_1600214960552.html) | 3,44 € | 49,90 € | 46,46 € | 8,5 |
+| 10 | Organisation élégante · garder ses affaires sur soi | [Sacoche en cuir homme](https://www.alibaba.com/product-detail/MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html) | 10,75 € | 49,90 € | 39,15 € | 8,5 |
 
 La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Les 10 produits visent la même cliente : une personne active qui veut une maison et une vie organisées, avec de beaux objets.
 
@@ -38,7 +38,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique. |
 | Problème | On cherche ses clés tous les matins et le courrier s'entasse dans l'entrée. |
 | Question à résoudre | Comment ne plus chercher ses clés simplement, avec un bel objet ? |
-| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire. |
+| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir. |
 | **Idée de business** | Je veux permettre aux familles de retrouver clés et courrier en une seconde, avec un bel objet dans l'entrée. |
 | Solution à un problème | OUI : on cherche ses clés tous les matins et le courrier s'entasse dans l'entrée. |
 | Économique | OUI : fin des clés perdues et des doubles à refaire. |
@@ -67,7 +67,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique. |
 | Problème | Montre, bijoux, clés et monnaie traînent sur la table de chevet ou le meuble de l'entrée. |
 | Question à résoudre | Comment ranger ses petits objets simplement, avec un bel objet ? |
-| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire. |
+| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir. |
 | **Idée de business** | Je veux permettre à chacun de poser ses objets du quotidien au même endroit, dans un plateau élégant. |
 | Solution à un problème | OUI : montre, bijoux, clés et monnaie traînent sur la table de chevet ou le meuble de l'entrée. |
 | Économique | OUI : plus d'objets perdus le matin. |
@@ -96,7 +96,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique. |
 | Problème | Les papiers importants sont éparpillés et on ne retrouve rien le jour où on en a besoin. |
 | Question à résoudre | Comment retrouver ses papiers importants simplement, avec un bel objet ? |
-| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire. |
+| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir. |
 | **Idée de business** | Je veux permettre aux familles de ranger tous leurs papiers importants au même endroit, classés et protégés. |
 | Solution à un problème | OUI : les papiers importants sont éparpillés et on ne retrouve rien le jour où on en a besoin. |
 | Économique | OUI : du temps gagné et du stress en moins à chaque démarche. |
@@ -125,7 +125,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique. |
 | Problème | L'argent file sans qu'on sache où ; on n'arrive pas à mettre de côté. |
 | Question à résoudre | Comment tenir son budget simplement, avec un bel objet ? |
-| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire. |
+| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir. |
 | **Idée de business** | Je veux permettre à ceux qui veulent reprendre leur budget en main de suivre la méthode des enveloppes avec un joli classeur. |
 | Solution à un problème | OUI : l'argent file sans qu'on sache où ; on n'arrive pas à mettre de côté. |
 | Économique | OUI : aide à économiser bien plus que son prix. |
@@ -154,7 +154,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique. |
 | Problème | Câbles et chargeurs s'emmêlent au fond du sac et on les oublie en voyage. |
 | Question à résoudre | Comment ranger ses câbles simplement, avec un bel objet ? |
-| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire. |
+| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir. |
 | **Idée de business** | Je veux permettre aux actifs qui se déplacent de garder tous leurs câbles rangés dans une trousse élégante. |
 | Solution à un problème | OUI : câbles et chargeurs s'emmêlent au fond du sac et on les oublie en voyage. |
 | Économique | OUI : plus de chargeurs perdus ou rachetés. |
@@ -183,7 +183,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique. |
 | Problème | Les idées et les listes sont éparpillées sur des papiers volants et dans le téléphone. |
 | Question à résoudre | Comment noter et organiser ses idées simplement, avec un bel objet ? |
-| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire. |
+| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir. |
 | **Idée de business** | Je veux permettre à ceux qui aiment écrire de tout garder dans un seul carnet qui dure des années. |
 | Solution à un problème | OUI : les idées et les listes sont éparpillées sur des papiers volants et dans le téléphone. |
 | Économique | OUI : on change seulement la recharge. |
@@ -212,7 +212,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique. |
 | Problème | Le bureau en télétravail est encombré, rayé et taché. |
 | Question à résoudre | Comment avoir un bureau net simplement, avec un bel objet ? |
-| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire. |
+| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir. |
 | **Idée de business** | Je veux permettre à ceux qui travaillent chez eux d'avoir un bureau net et agréable en un seul geste. |
 | Solution à un problème | OUI : le bureau en télétravail est encombré, rayé et taché. |
 | Économique | OUI : protège le bureau et remplace le tapis de souris. |
@@ -241,7 +241,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique. |
 | Problème | À l'aéroport, on cherche les passeports et les billets de toute la famille dans tous les sacs. |
 | Question à résoudre | Comment garder les papiers de voyage ensemble simplement, avec un bel objet ? |
-| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire. |
+| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir. |
 | **Idée de business** | Je veux permettre aux familles qui voyagent d'avoir tous leurs papiers au même endroit, dans une pochette sûre. |
 | Solution à un problème | OUI : à l'aéroport, on cherche les passeports et les billets de toute la famille dans tous les sacs. |
 | Économique | OUI : moins de stress et de risque de perte en voyage. |
@@ -270,7 +270,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique. |
 | Problème | Les cartes et les paquets cadeaux faits maison manquent de finition. |
 | Question à résoudre | Comment personnaliser ses lettres et cadeaux simplement, avec un bel objet ? |
-| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire. |
+| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir. |
 | **Idée de business** | Je veux permettre à ceux qui aiment écrire et offrir de donner une touche élégante à chaque lettre et chaque cadeau. |
 | Solution à un problème | OUI : les cartes et les paquets cadeaux faits maison manquent de finition. |
 | Économique | OUI : remplace des cartes et emballages de luxe. |
@@ -287,9 +287,9 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | 2,90 $ (10 à 49), lettre au choix. |
 | À vérifier | Proposer chaque lettre de l'alphabet en stock. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
 
-## 10. Organisation élégante · offrir une entrée organisée — Coffret organisation entrée
+## 10. Organisation élégante · garder ses affaires sur soi — Sacoche en cuir homme
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Wooden-wood-Wall-Mounted-Key-and_1600214960552.html) · coût 3,44 € (4,0 $ × 0,86) · revente 49,90 € · marge 46,46 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html) · coût 10,75 € (12,5 $ × 0,86) · revente 49,90 € · marge 39,15 €
 
 | Étape | Réponse |
 |---|---|
@@ -297,24 +297,24 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Demande en France | L'organisation de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. |
 | Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
 | Cible et désir | Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique. |
-| Problème | On ne sait pas quoi offrir pour une crémaillère ou un premier appartement. |
-| Question à résoudre | Comment offrir une entrée organisée simplement, avec un bel objet ? |
-| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire. |
-| **Idée de business** | Je veux permettre à ceux qui cherchent un cadeau utile d'offrir une entrée organisée et élégante. |
-| Solution à un problème | OUI : on ne sait pas quoi offrir pour une crémaillère ou un premier appartement. |
-| Économique | OUI : un cadeau utile au lieu d'un objet qui prend la poussière. |
+| Problème | Les poches débordent (téléphone, clés, portefeuille) et on a peur des vols dans les transports. |
+| Question à résoudre | Comment garder ses affaires sur soi simplement, avec un bel objet ? |
+| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir. |
+| **Idée de business** | Je veux permettre aux hommes qui sortent en ville de garder leurs affaires rangées sur eux, en sécurité et les mains libres, avec une sacoche en cuir qui a du style. |
+| Solution à un problème | OUI : les poches débordent (téléphone, clés, portefeuille) et on a peur des vols dans les transports. |
+| Économique | OUI : remplace des poches pleines et protège des vols. |
 | Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Le déballage puis l'entrée transformée. |
+| Effet wow | Les poches vidées sur la table, puis tout rangé dans la sacoche en 5 secondes. |
 | Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Colis d'environ 1,25 kg (tarif jusqu'à 2 kg). |
+| Poids / volume | Colis d'environ 500 g. |
 | 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : crémaillères, déménagements, fêtes, toute l'année. |
-| Prix en France | Coffrets déco de 30 à 60 € ; achat séparé 64,80 € dans la boutique. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : produit très tendance, marge la plus forte de la liste, se vend toute l'année. |
+| Prix en France | Lacoste environ 60 à 150 € (parfois 40 € en promotion) ; places de marché en cuir 43 à 60 €. |
 | Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | Porte-clés 3 $ (lien) + vide-poche 1 $. |
-| À vérifier | Boîte cadeau soignée : c'est elle qui fait le prix. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
+| Fournisseur | Cuir véritable, 12,50 $ (50 à 499), logo accepté. |
+| À vérifier | Demander un certificat de matière et un échantillon avant d'écrire « cuir véritable » ; aucun design qui copie une marque. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
 
 ## 2e produits (plus de 50 €)
 
@@ -339,6 +339,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 - [Touslesprix, sous-mains](https://www.touslesprix.com/achat,sous-main-bureau-cuir-noir.html)
 - [Fossil, étui passeport en cuir](https://www.fossil.com/fr-fr/products/cadeau-etui-pour-passeport-en-cuir/MLG0800212.html)
 - [Greenweez, kit cachet de cire](https://www.greenweez.com/produit/encre-de-chine-noir-india-ink-20-ml/1PEBE0625)
+- [Lacoste, sacoches et pochettes homme](https://www.lacoste.com/fr/lacoste/homme/sacs-petite-maroquinerie/sacoches-pochettes/)
 - [La Poste, tarifs Colissimo 2026](https://www.laposte.fr/professionnel/tarif-colissimo)
 
 Liens Alibaba et prix fournisseur vérifiés le 14/11/2026. Les prix en France viennent des sites cités et peuvent changer.

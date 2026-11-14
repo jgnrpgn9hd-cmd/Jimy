@@ -7,7 +7,7 @@ DEMANDE = "L'organisation de la maison est l'un des plus gros univers de Pintere
 MODELE = "Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait."
 CIBLE = "Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique."
 CONC = "Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français."
-PISTES = "Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire."
+PISTES = "Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · trousse à câbles · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir."
 
 
 def fiche(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, prix_france, fournisseur, vigilance, q4, poids="Léger, petit colis."):
@@ -104,14 +104,14 @@ FICHES = [
        "Kit cachet de cire 40,94 € (Greenweez) ; kits d'entrée de gamme dès 3,59 € (Action).", "2,90 $ (10 à 49), lettre au choix.",
        "Proposer chaque lettre de l'alphabet en stock.",
        "OUI : tendance Pinterest « Pen Pals » (+105 % « cute stamps »)."),
- fiche("Coffret organisation entrée", "Coffret cadeau : porte-clés mural + vide-poche en cuir, belle boîte", "offrir une entrée organisée",
-       A + "Wooden-wood-Wall-Mounted-Key-and_1600214960552.html", 4.00, 6, 49.90,
-       "On ne sait pas quoi offrir pour une crémaillère ou un premier appartement.",
-       "Je veux permettre à ceux qui cherchent un cadeau utile d'offrir une entrée organisée et élégante.",
-       "OUI : un cadeau utile au lieu d'un objet qui prend la poussière.", "Le déballage puis l'entrée transformée.",
-       "Coffrets déco de 30 à 60 € ; achat séparé 64,80 € dans la boutique.", "Porte-clés 3 $ (lien) + vide-poche 1 $.",
-       "Boîte cadeau soignée : c'est elle qui fait le prix.",
-       "OUI : crémaillères, déménagements, fêtes, toute l'année.", poids="Colis d'environ 1,25 kg (tarif jusqu'à 2 kg)."),
+ fiche("Sacoche en cuir homme", "Sacoche bandoulière en cuir véritable, compacte, pour téléphone, clés, portefeuille et écouteurs", "garder ses affaires sur soi",
+       A + "MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html", 12.50, 8, 49.90,
+       "Les poches débordent (téléphone, clés, portefeuille) et on a peur des vols dans les transports.",
+       "Je veux permettre aux hommes qui sortent en ville de garder leurs affaires rangées sur eux, en sécurité et les mains libres, avec une sacoche en cuir qui a du style.",
+       "OUI : remplace des poches pleines et protège des vols.", "Les poches vidées sur la table, puis tout rangé dans la sacoche en 5 secondes.",
+       "Lacoste environ 60 à 150 € (parfois 40 € en promotion) ; places de marché en cuir 43 à 60 €.", "Cuir véritable, 12,50 $ (50 à 499), logo accepté.",
+       "Demander un certificat de matière et un échantillon avant d'écrire « cuir véritable » ; aucun design qui copie une marque.",
+       "OUI : produit très tendance, marge la plus forte de la liste, se vend toute l'année.", poids="Colis d'environ 500 g."),
 ]
 for _f in FICHES:
     _f["cout"] = round(_f["usd"] * 0.86, 2)
@@ -131,5 +131,6 @@ SOURCES = [
  ("Touslesprix, sous-mains", "https://www.touslesprix.com/achat,sous-main-bureau-cuir-noir.html"),
  ("Fossil, étui passeport en cuir", "https://www.fossil.com/fr-fr/products/cadeau-etui-pour-passeport-en-cuir/MLG0800212.html"),
  ("Greenweez, kit cachet de cire", "https://www.greenweez.com/produit/encre-de-chine-noir-india-ink-20-ml/1PEBE0625"),
+ ("Lacoste, sacoches et pochettes homme", "https://www.lacoste.com/fr/lacoste/homme/sacs-petite-maroquinerie/sacoches-pochettes/"),
  ("La Poste, tarifs Colissimo 2026", "https://www.laposte.fr/professionnel/tarif-colissimo"),
 ]

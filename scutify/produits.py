@@ -160,21 +160,21 @@ rows=[('Porte-clés mural en bois : crochets pour les clés, étagère vide-poch
   "chaque lettre de l'alphabet en stock. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et "
   'les étiquettes en français.',
   'Coffret cachet de cire'),
- ('Coffret cadeau : porte-clés mural + vide-poche en cuir, belle boîte — Niche : Organisation élégante · offrir une entrée organisée',
-  'https://www.alibaba.com/product-detail/Wooden-wood-Wall-Mounted-Key-and_1600214960552.html',
+ ('Sacoche bandoulière en cuir véritable, compacte, pour téléphone, clés, portefeuille et écouteurs — Niche : Organisation élégante · garder ses affaires sur soi',
+  'https://www.alibaba.com/product-detail/MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  3.44,
-  6,
+  10.75,
+  8,
   49.9,
   "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : L'organisation "
   "de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. "
-  "PROBLÈME : On ne sait pas quoi offrir pour une crémaillère ou un premier appartement. ÉCONOMIQUE : OUI : un cadeau utile au lieu d'un objet qui prend la poussière. EFFET WAOUW : Le déballage puis "
-  "l'entrée transformée. PRIX EN FRANCE : Coffrets déco de 30 à 60 € ; achat séparé 64,80 € dans la boutique. FOURNISSEUR : Porte-clés 3 $ (lien) + vide-poche 1 $. À VÉRIFIER : Boîte cadeau soignée "
-  ": c'est elle qui fait le prix. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les "
-  'étiquettes en français.',
-  'Coffret organisation entrée')]
+  'PROBLÈME : Les poches débordent (téléphone, clés, portefeuille) et on a peur des vols dans les transports. ÉCONOMIQUE : OUI : remplace des poches pleines et protège des vols. EFFET WAOUW : Les '
+  'poches vidées sur la table, puis tout rangé dans la sacoche en 5 secondes. PRIX EN FRANCE : Lacoste environ 60 à 150 € (parfois 40 € en promotion) ; places de marché en cuir 43 à 60 €. '
+  "FOURNISSEUR : Cuir véritable, 12,50 $ (50 à 499), logo accepté. À VÉRIFIER : Demander un certificat de matière et un échantillon avant d'écrire « cuir véritable » ; aucun design qui copie une "
+  'marque. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français.',
+  'Sacoche en cuir homme')]
