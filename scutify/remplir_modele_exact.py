@@ -4,11 +4,12 @@
 # Usage : python3 remplir_modele_exact.py [modèle.xlsx]
 import os, re, sys, zipfile
 from xml.sax.saxutils import escape
-from produits import rows
+import importlib
+rows = importlib.import_module(os.environ.get("PRODUITS", "produits")).rows
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 MODELE = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ICI, "modele_scutify_vierge.xlsx")
-SORTIE = os.path.join(ICI, "Support Scutify S01_Tableau recherche 10 idées de business.xlsx")
+SORTIE = os.path.join(ICI, os.environ.get("SORTIE", "Support Scutify S01_Tableau recherche 10 idées de business.xlsx"))
 SHEET = "xl/worksheets/sheet1.xml"
 IDX = {"NON": 27, "OUI": 28}  # index des textes « NON » / « OUI » dans sharedStrings.xml du modèle
 
