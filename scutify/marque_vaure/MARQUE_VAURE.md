@@ -8,12 +8,13 @@
 
 ## La gamme : 10 produits pour le même sportif (grille Scutify)
 Kit barre + élastiques · bandes en tissu (lot de 3) · bandes de traction (lot de 5) · corde à sauter à roulements · roue abdominale à rebond ·
-planche à pompes pliable · bandes de poignets · gourde isotherme · sac de sport · serviette microfibre.
+planche à pompes pliable · barre de traction de porte · ceinture de musculation · gourde isotherme · sac de sport.
 Détail, liens Alibaba et marges : tableau « Support Scutify S01_Tableau recherche 10 idées de business.xlsx » et RECHERCHE_IDEES_METHODE_SCUTIFY.md.
 
 ## Packs (2e produits)
 - Pack Home Gym : kit + bandes de traction + roue + planche, 89,90 € (coût 16,64 €).
-- Pack Salle : sac + gourde + serviette + bandes de poignets, 79,90 € (coût 12,81 €).
+- Pack Salle : sac + gourde + ceinture, 79,90 € (coût 15,77 €).
+- Pack Traction : barre de traction + bandes de traction, 59,90 € (coût 11,95 €).
 
 ## Pourquoi cette gamme
 Tout sert au même client (comme Kosso) : un acheteur du kit revient pour les bandes, la roue, le sac. Pas de bijoux ni d'objets hors sujet.

@@ -98,22 +98,24 @@ rows=[("Kit d'entraînement : barre démontable + élastiques + programme vidéo
   'pectoraux et épaules. EFFET WAOUW : Changement de position des poignées en une seconde. PRIX EN FRANCE : [PRIX EN FRANCE À VÉRIFIER] FOURNISSEUR : 1,95 $ (10 à 99), logo à demander. À VÉRIFIER : '
   'Vérifier la solidité des poignées ; colis un peu long. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
   'Planche à pompes pliable'),
- ('Bandes de maintien des poignets pour la musculation (paire) — Niche : VAURE · protéger ses poignets à la salle',
-  'https://www.alibaba.com/product-detail/Custom-Logo-Neoprene-Gym-Wrist-Strap_1601271673226.html',
-  'NON',
+ ('Barre de traction de porte réglable, sans vis ni perçage — Niche : VAURE · faire des tractions chez soi',
+  'https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html',
   'OUI',
   'OUI',
-  'NON',
+  'OUI',
+  'OUI',
   'OUI',
   'NON',
-  1.89,
-  9,
-  24.9,
+  3.43,
+  4,
+  34.9,
   'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  'large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Les poignets plient et font mal sur les charges lourdes (développé couché, épaules). ÉCONOMIQUE : NON : accessoire de '
-  "confort, pas d'économie. EFFET WAOUW : Peu spectaculaire : à vendre en pack. PRIX EN FRANCE : [PRIX EN FRANCE À VÉRIFIER] FOURNISSEUR : 2,20 $ la paire (100 à 499). À VÉRIFIER : Aucune promesse "
-  'médicale ; minimum 100 paires. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
-  'Bandes de poignets VAURE'),
+  'large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Pas de barre de traction à la maison : impossible de travailler le dos et les bras sans aller à la salle, et on ne veut '
+  "pas percer les murs. ÉCONOMIQUE : OUI : l'exercice roi du dos sans abonnement de salle. EFFET WAOUW : Installation dans la porte en 30 secondes, première traction filmée. PRIX EN FRANCE : "
+  'Decathlon : barres sans vis Corength à 29,99 € (70 cm) et 34,99 € (100 cm). FOURNISSEUR : 3,99 $ (10 à 499). À VÉRIFIER : Vérifier la charge maximale et la largeur des portes compatibles ; '
+  'préciser « pas de placo ni de bois tendre » comme Decathlon ; colis long et lourd (environ 1,5 à 2 kg, à vérifier). Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se '
+  'démarque par la marque, le programme vidéo et les packs.',
+  'Barre de traction de porte VAURE'),
  ("Gourde isotherme en inox 500 ml, noire mate, gravée VAURE (prénom en option) — Niche : VAURE · boire frais à l'entraînement",
   'https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html',
   'OUI',
@@ -147,19 +149,20 @@ rows=[("Kit d'entraînement : barre démontable + élastiques + programme vidéo
   'FOURNISSEUR : 7,54 $ (300 à 999). À VÉRIFIER : Minimum 300 pièces (environ 1 950 €) ; concurrence forte à petit prix. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se '
   'démarque par la marque, le programme vidéo et les packs.',
   'Sac de sport VAURE'),
- ('Serviette de sport en microfibre, séchage rapide, logo VAURE — Niche : VAURE · rester propre à la salle',
-  'https://www.alibaba.com/product-detail/Wholesale-Custom-Digital-Printed-Quick-Dry_1600644861034.html',
-  'NON',
+ ('Ceinture de musculation 10 cm en néoprène, fermeture à verrouillage rapide — Niche : VAURE · protéger son dos sur les charges lourdes',
+  'https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html',
   'OUI',
   'OUI',
-  'NON',
+  'OUI',
+  'OUI',
   'OUI',
   'NON',
-  1.07,
-  9,
-  24.9,
+  5.93,
+  8,
+  34.9,
   'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
-  'large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : La serviette en coton est lourde, met des heures à sécher et sent mauvais dans le sac. ÉCONOMIQUE : NON : produit de '
-  'confort. EFFET WAOUW : Peu spectaculaire : à vendre en pack. PRIX EN FRANCE : [PRIX EN FRANCE À VÉRIFIER] FOURNISSEUR : 1,25 $ (50 à 499), impression du logo (Digital printed). À VÉRIFIER : Prix '
-  'seul difficile à justifier : surtout en pack. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
-  'Serviette microfibre VAURE')]
+  'large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Le bas du dos tire sur les squats et les soulevés de terre quand les charges montent, et on a peur de se blesser. '
+  'ÉCONOMIQUE : OUI : moins de risque de blessure, donc moins de séances perdues et de soins. EFFET WAOUW : Fermeture rapide filmée avant une grosse série de squats. PRIX EN FRANCE : [PRIX EN FRANCE '
+  'À VÉRIFIER] FOURNISSEUR : 6,90 $ (5 à 99), logo et emballage dès 10 pièces. À VÉRIFIER : Aucune promesse médicale (« soutient » et non « soigne ») ; prévoir un guide des tailles. Concurrence : '
+  'Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
+  'Ceinture de musculation VAURE')]

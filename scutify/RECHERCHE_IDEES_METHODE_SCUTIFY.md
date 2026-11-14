@@ -18,10 +18,10 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 | 4 | VAURE · faire du cardio partout | [Corde à sauter roulements VAURE](https://www.alibaba.com/product-detail/Adjustable-Cross-Training-Ball-Bearing-Aluminium_1600879114903.html) | 3,10 € | 24,90 € | 21,80 € | 8,5 |
 | 5 | VAURE · renforcer ses abdos | [Roue abdominale à rebond](https://www.alibaba.com/product-detail/2023-Automatic-Rebound-Assistance-Exercise-Equipment_1600982083887.html) | 4,30 € | 29,90 € | 25,60 € | 8,5 |
 | 6 | VAURE · réussir ses pompes | [Planche à pompes pliable](https://www.alibaba.com/product-detail/Fitness-Equipment-Push-Up-Training-Board_1601280410343.html) | 1,68 € | 24,90 € | 23,22 € | 8,5 |
-| 7 | VAURE · protéger ses poignets à la salle | [Bandes de poignets VAURE](https://www.alibaba.com/product-detail/Custom-Logo-Neoprene-Gym-Wrist-Strap_1601271673226.html) | 1,89 € | 24,90 € | 23,01 € | 6,75 |
+| 7 | VAURE · faire des tractions chez soi | [Barre de traction de porte VAURE](https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html) | 3,43 € | 34,90 € | 31,47 € | 7,5 |
 | 8 | VAURE · boire frais à l'entraînement | [Gourde isotherme VAURE](https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html) | 3,35 € | 24,90 € | 21,55 € | 8,5 |
 | 9 | VAURE · transporter ses affaires de sport | [Sac de sport VAURE](https://www.alibaba.com/product-detail/custom-portable-duffle-gym-sports-sneaker_60496480489.html) | 6,48 € | 39,90 € | 33,42 € | 7,0 |
-| 10 | VAURE · rester propre à la salle | [Serviette microfibre VAURE](https://www.alibaba.com/product-detail/Wholesale-Custom-Digital-Printed-Quick-Dry_1600644861034.html) | 1,07 € | 24,90 € | 23,83 € | 6,75 |
+| 10 | VAURE · protéger son dos sur les charges lourdes | [Ceinture de musculation VAURE](https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html) | 5,93 € | 34,90 € | 28,97 € | 8,5 |
 
 La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Le t-shirt et le bracelet ont « NON » en économique : ce sont des produits passion, comme chez Hustle Wear.
 
@@ -37,7 +37,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
 | Problème | Pas le temps ou pas l'envie d'aller à la salle, et une séance de coaching coûte cher. |
 | Question à résoudre | Comment s'entraîner partout sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · corde à sauter · roue abdominale · planche à pompes · bandes de poignets · gourde · sac · serviette. |
+| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · planche à pompes · ceinture · gourde · sac. |
 | **Idée de business** | Je veux permettre à ceux qui s'entraînent de faire une vraie séance complète partout, chez eux ou en voyage, avec un seul kit et un programme. |
 | Solution à un problème | OUI : pas le temps ou pas l'envie d'aller à la salle, et une séance de coaching coûte cher. |
 | Économique | OUI : 29,90 € une fois, au lieu d'un abonnement ou de cours. |
@@ -66,7 +66,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
 | Problème | Les élastiques en latex roulent sur les cuisses, pincent et cassent. |
 | Question à résoudre | Comment travailler fessiers et jambes sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · corde à sauter · roue abdominale · planche à pompes · bandes de poignets · gourde · sac · serviette. |
+| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · planche à pompes · ceinture · gourde · sac. |
 | **Idée de business** | Je veux permettre à ceux qui travaillent leurs jambes et leurs fessiers d'avoir des bandes qui ne roulent pas et durent, avec les exercices en vidéo. |
 | Solution à un problème | OUI : les élastiques en latex roulent sur les cuisses, pincent et cassent. |
 | Économique | OUI : un lot pour remplacer des machines de salle. |
@@ -95,7 +95,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
 | Problème | On n'arrive pas à faire de tractions et on stagne. |
 | Question à résoudre | Comment réussir ses tractions sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · corde à sauter · roue abdominale · planche à pompes · bandes de poignets · gourde · sac · serviette. |
+| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · planche à pompes · ceinture · gourde · sac. |
 | **Idée de business** | Je veux permettre à ceux qui n'arrivent pas encore à faire de tractions d'y arriver pas à pas, avec 5 niveaux d'aide et un programme. |
 | Solution à un problème | OUI : on n'arrive pas à faire de tractions et on stagne. |
 | Économique | OUI : remplace plusieurs machines de musculation. |
@@ -124,7 +124,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
 | Problème | Le cardio en salle est ennuyeux et la course dehors dépend de la météo. |
 | Question à résoudre | Comment faire du cardio partout sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · corde à sauter · roue abdominale · planche à pompes · bandes de poignets · gourde · sac · serviette. |
+| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · planche à pompes · ceinture · gourde · sac. |
 | **Idée de business** | Je veux permettre à ceux qui s'entraînent de faire un cardio intense en 10 minutes, partout, avec une corde rapide et solide. |
 | Solution à un problème | OUI : le cardio en salle est ennuyeux et la course dehors dépend de la météo. |
 | Économique | OUI : du cardio sans abonnement. |
@@ -153,7 +153,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
 | Problème | Les abdos sont durs à travailler seul, et la roue classique fait mal au dos des débutants. |
 | Question à résoudre | Comment renforcer ses abdos sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · corde à sauter · roue abdominale · planche à pompes · bandes de poignets · gourde · sac · serviette. |
+| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · planche à pompes · ceinture · gourde · sac. |
 | **Idée de business** | Je veux permettre aux débutants de travailler leurs abdos en sécurité, grâce à une roue qui aide au retour. |
 | Solution à un problème | OUI : les abdos sont durs à travailler seul, et la roue classique fait mal au dos des débutants. |
 | Économique | OUI : un exercice de salle à la maison. |
@@ -182,7 +182,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
 | Problème | On fait toujours les mêmes pompes et on ne sait pas quels muscles on travaille. |
 | Question à résoudre | Comment réussir ses pompes sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · corde à sauter · roue abdominale · planche à pompes · bandes de poignets · gourde · sac · serviette. |
+| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · planche à pompes · ceinture · gourde · sac. |
 | **Idée de business** | Je veux permettre à ceux qui s'entraînent chez eux de varier leurs pompes et de cibler chaque muscle, avec une planche à code couleur. |
 | Solution à un problème | OUI : on fait toujours les mêmes pompes et on ne sait pas quels muscles on travaille. |
 | Économique | OUI : remplace des machines pectoraux et épaules. |
@@ -199,9 +199,9 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | 1,95 $ (10 à 99), logo à demander. |
 | À vérifier | Vérifier la solidité des poignées ; colis un peu long. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
-## 7. VAURE · protéger ses poignets à la salle — Bandes de poignets VAURE
+## 7. VAURE · faire des tractions chez soi — Barre de traction de porte VAURE
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-Neoprene-Gym-Wrist-Strap_1601271673226.html) · coût 1,89 € (2,2 $ × 0,86) · revente 24,90 € · marge 23,01 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html) · coût 3,43 € (3,99 $ × 0,86) · revente 34,90 € · marge 31,47 €
 
 | Étape | Réponse |
 |---|---|
@@ -209,24 +209,24 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
 | Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | Les poignets plient et font mal sur les charges lourdes (développé couché, épaules). |
-| Question à résoudre | Comment protéger ses poignets à la salle sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · corde à sauter · roue abdominale · planche à pompes · bandes de poignets · gourde · sac · serviette. |
-| **Idée de business** | Je veux permettre à ceux qui soulèvent lourd de protéger leurs poignets avec des bandes solides aux couleurs VAURE. |
-| Solution à un problème | OUI : les poignets plient et font mal sur les charges lourdes (développé couché, épaules). |
-| Économique | NON : accessoire de confort, pas d'économie. |
+| Problème | Pas de barre de traction à la maison : impossible de travailler le dos et les bras sans aller à la salle, et on ne veut pas percer les murs. |
+| Question à résoudre | Comment faire des tractions chez soi sans matériel compliqué ni abonnement cher ? |
+| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · planche à pompes · ceinture · gourde · sac. |
+| **Idée de business** | Je veux permettre à ceux qui s'entraînent chez eux de faire des tractions dans n'importe quelle porte, sans vis ni perçage, avec un programme pour progresser. |
+| Solution à un problème | OUI : pas de barre de traction à la maison : impossible de travailler le dos et les bras sans aller à la salle, et on ne veut pas percer les murs. |
+| Économique | OUI : l'exercice roi du dos sans abonnement de salle. |
 | Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Peu spectaculaire : à vendre en pack. |
+| Effet wow | Installation dans la porte en 30 secondes, première traction filmée. |
 | Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Léger, petit colis. |
+| Poids / volume | Colis long et plus lourd que le reste de la gamme : livraison plus chère. |
 | 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
 | 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
-| Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
+| Prix en France | Decathlon : barres sans vis Corength à 29,99 € (70 cm) et 34,99 € (100 cm). |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 2,20 $ la paire (100 à 499). |
-| À vérifier | Aucune promesse médicale ; minimum 100 paires. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Fournisseur | 3,99 $ (10 à 499). |
+| À vérifier | Vérifier la charge maximale et la largeur des portes compatibles ; préciser « pas de placo ni de bois tendre » comme Decathlon ; colis long et lourd (environ 1,5 à 2 kg, à vérifier). Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
 ## 8. VAURE · boire frais à l'entraînement — Gourde isotherme VAURE
 
@@ -240,7 +240,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
 | Problème | L'eau devient tiède pendant la séance, et les gourdes se perdent à la salle. |
 | Question à résoudre | Comment boire frais à l'entraînement sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · corde à sauter · roue abdominale · planche à pompes · bandes de poignets · gourde · sac · serviette. |
+| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · planche à pompes · ceinture · gourde · sac. |
 | **Idée de business** | Je veux permettre à ceux qui s'entraînent d'avoir une eau fraîche toute la séance, dans une gourde à leur nom qu'on ne perd plus. |
 | Solution à un problème | OUI : l'eau devient tiède pendant la séance, et les gourdes se perdent à la salle. |
 | Économique | OUI : plus de bouteilles achetées à la salle. |
@@ -269,7 +269,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
 | Problème | Les chaussures sales et les affaires mouillées se mélangent aux vêtements propres. |
 | Question à résoudre | Comment transporter ses affaires de sport sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · corde à sauter · roue abdominale · planche à pompes · bandes de poignets · gourde · sac · serviette. |
+| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · planche à pompes · ceinture · gourde · sac. |
 | **Idée de business** | Je veux permettre à ceux qui vont à la salle de séparer chaussures et affaires propres, dans un sac qui porte leur discipline. |
 | Solution à un problème | OUI : les chaussures sales et les affaires mouillées se mélangent aux vêtements propres. |
 | Économique | NON : pas d'économie par rapport à un sac classique. |
@@ -286,9 +286,9 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | 7,54 $ (300 à 999). |
 | À vérifier | Minimum 300 pièces (environ 1 950 €) ; concurrence forte à petit prix. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
-## 10. VAURE · rester propre à la salle — Serviette microfibre VAURE
+## 10. VAURE · protéger son dos sur les charges lourdes — Ceinture de musculation VAURE
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Wholesale-Custom-Digital-Printed-Quick-Dry_1600644861034.html) · coût 1,07 € (1,25 $ × 0,86) · revente 24,90 € · marge 23,83 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html) · coût 5,93 € (6,9 $ × 0,86) · revente 34,90 € · marge 28,97 €
 
 | Étape | Réponse |
 |---|---|
@@ -296,14 +296,14 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
 | Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | La serviette en coton est lourde, met des heures à sécher et sent mauvais dans le sac. |
-| Question à résoudre | Comment rester propre à la salle sans matériel compliqué ni abonnement cher ? |
-| Pistes produit | Kit barre · bandes en tissu · bandes de traction · corde à sauter · roue abdominale · planche à pompes · bandes de poignets · gourde · sac · serviette. |
-| **Idée de business** | Je veux permettre à ceux qui s'entraînent d'avoir une serviette légère qui sèche vite, aux couleurs VAURE. |
-| Solution à un problème | OUI : la serviette en coton est lourde, met des heures à sécher et sent mauvais dans le sac. |
-| Économique | NON : produit de confort. |
+| Problème | Le bas du dos tire sur les squats et les soulevés de terre quand les charges montent, et on a peur de se blesser. |
+| Question à résoudre | Comment protéger son dos sur les charges lourdes sans matériel compliqué ni abonnement cher ? |
+| Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · planche à pompes · ceinture · gourde · sac. |
+| **Idée de business** | Je veux permettre à ceux qui soulèvent lourd de sécuriser leur dos et de progresser en confiance, avec une ceinture qui se ferme en une seconde. |
+| Solution à un problème | OUI : le bas du dos tire sur les squats et les soulevés de terre quand les charges montent, et on a peur de se blesser. |
+| Économique | OUI : moins de risque de blessure, donc moins de séances perdues et de soins. |
 | Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Peu spectaculaire : à vendre en pack. |
+| Effet wow | Fermeture rapide filmée avant une grosse série de squats. |
 | Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
 | Poids / volume | Léger, petit colis. |
 | 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
@@ -312,15 +312,16 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
 | Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 1,25 $ (50 à 499), impression du logo (Digital printed). |
-| À vérifier | Prix seul difficile à justifier : surtout en pack. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Fournisseur | 6,90 $ (5 à 99), logo et emballage dès 10 pièces. |
+| À vérifier | Aucune promesse médicale (« soutient » et non « soigne ») ; prévoir un guide des tailles. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
 ## 2e produits (plus de 50 €)
 
 | Pack | Coût | Revente | Lien |
 |---|---|---|---|
 | Pack Home Gym VAURE : kit barre + bandes de traction + roue abdominale + planche à pompes | 16,64 € | 89,90 € | [Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-100-Latex-Loop-Set_1601034567228.html) |
-| Pack Salle VAURE : sac de sport + gourde + serviette + bandes de poignets | 12,81 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/custom-portable-duffle-gym-sports-sneaker_60496480489.html) |
+| Pack Salle VAURE : sac de sport + gourde + ceinture de musculation | 15,77 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/custom-portable-duffle-gym-sports-sneaker_60496480489.html) |
+| Pack Traction VAURE : barre de traction de porte + bandes de traction | 11,95 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html) |
 
 ## Sources
 
@@ -379,5 +380,6 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 - [Decathlon Pro, lot de 3 bandes Domyos](https://www.decathlonpro.fr/art-bande-elastique-10kg-id-2871089.html)
 - [Sacs avec compartiment chaussures (Decathlon Pro)](https://www.decathlonpro.fr/sac-sport-75l-hardcase-noir-id-8495884.html)
 - [Sac Erima Six Wings (11teamsports)](https://www.11teamsports.com/fr-fr/p/erima-six-wings-gr-m-sac-gris-c7232309)
+- [Decathlon, barres de traction sans vis Corength](https://www.decathlonpro.fr/barre-de-traction-verrouillable-100-cm-id-8588491.html)
 
 Liens Alibaba et prix fournisseur vérifiés le 14/11/2026. Les prix en France viennent des sites cités et peuvent changer.

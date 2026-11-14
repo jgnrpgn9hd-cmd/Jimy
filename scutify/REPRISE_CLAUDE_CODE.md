@@ -255,3 +255,6 @@ Notes : sac cabine 7,25 (pas d'effet waouw, marge < 3 × coût), lunettes 6 (pas
 Demande : cohérence entre tous les produits. dossier.py = 10 produits sport VAURE (kit, bandes tissu, bandes traction, corde, roue abdo,
 planche à pompes, bandes de poignets, gourde, sac, serviette). Version 10 niches gardée dans dossier_v3_criteres_stricts.py.
 Packs : Home Gym 89,90 €, Salle 79,90 €. Page d'accueil VAURE mise à jour (plus de chaîne).
+
+## Serviette et bandes de poignets remplacées
+Ligne 7 : barre de traction de porte (1600346042225, 3,99 $, 34,90 €). Ligne 10 : ceinture de musculation (11000030802889, 6,90 $, 34,90 €). Packs : Home Gym, Salle (sac + gourde + ceinture), Traction (barre + bandes).
