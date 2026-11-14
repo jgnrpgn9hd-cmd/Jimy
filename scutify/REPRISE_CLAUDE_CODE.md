@@ -267,3 +267,6 @@ Planche à pompes → sangles de chevilles (1601651362272) ; sac de sport → su
 
 ## Test question 4 (30 000 €) appliqué
 4 kits OUI (Full Body, Fessiers, Première Traction, Dos & Récup) en lignes 1-4 ; 6 accessoires NON gardés en lignes 5-10 comme compléments. Version précédente : dossier_v4_vaure_accessoires.py.
+
+## 14/11/2026 — Nouvelle analyse USA toutes niches
+ANALYSE_10_PRODUITS_USA_GENERAL.md : 1 GO (plaid photo animal 39,90 €, gain 22,74 €), 1 à tester (collier cuir gravé), 8 NON.
