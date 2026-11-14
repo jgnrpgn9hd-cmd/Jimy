@@ -55,11 +55,11 @@ U = [
   "Prix séparés dans la boutique : 34,90 + 24,90 + 24,90 + 24,90 = 109,60 €.",
   "https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html", 15.76, 13.55, 79.90,
   "Ceinture 6,90 $ (lien) + sangles 3,36 $ + support 1,60 $ + gourde 3,90 $. Marge 66,35 €."),
- ("Pack Traction VAURE : barre de traction de porte + bandes de traction", "Barre de traction de porte VAURE",
-  "Réussir sa première traction à la maison : la barre pour s'accrocher, les bandes pour être aidé.",
-  "Prix séparés dans la boutique : 34,90 + 39,90 = 74,80 €. Decathlon : barre seule 29,99 à 34,99 €.",
-  "https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html", 14.58, 12.54, 59.90,
-  "Barre 3,99 $ (lien) + bandes de traction 10,59 $. Marge 47,36 €."),
+ ("Pack Programme Complet VAURE : Kit Full Body + Kit Fessiers + Kit Dos & Récup", "Kit Full Body VAURE",
+  "Les 3 programmes de 30 jours pour tout le corps, du renforcement à la récupération.",
+  "Prix séparés dans la boutique : 29,90 + 34,90 + 29,90 = 94,70 €.",
+  "https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html", 13.01, 11.19, 79.90,
+  "Kit barre 2,50 $ (lien) + kit fessiers 6,51 $ + balle de massage 4 $. Marge 68,71 €."),
 ]
 with open(os.path.join(ICI, "upsells.py"), "w") as out:
     out.write("# 2e produits (packs à plus de 50 €) : généré par construire_tableau.py.\n"

@@ -12,20 +12,20 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 
 | N° | Niche | Produit | Coût | Revente | Marge | Note /10 |
 |---|---|---|---|---|---|---|
-| 1 | VAURE · s'entraîner partout | [Kit barre + élastiques VAURE](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) | 2,15 € | 29,90 € | 27,75 € | 9,5 |
-| 2 | VAURE · travailler fessiers et jambes | [Bandes élastiques en tissu (lot de 3)](https://www.alibaba.com/product-detail/Zakerda-Non-Slip-latex-fabric-polyester_1601045479697.html) | 2,71 € | 24,90 € | 22,19 € | 8,5 |
-| 3 | VAURE · réussir ses tractions | [Bandes de traction (lot de 5)](https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html) | 9,11 € | 39,90 € | 30,79 € | 8,5 |
-| 4 | VAURE · faire du cardio partout | [Corde à sauter roulements VAURE](https://www.alibaba.com/product-detail/Adjustable-Cross-Training-Ball-Bearing-Aluminium_1600879114903.html) | 3,10 € | 24,90 € | 21,80 € | 8,5 |
+| 1 | VAURE · s'entraîner partout | [Kit Full Body VAURE](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) | 2,15 € | 29,90 € | 27,75 € | 9,5 |
+| 2 | VAURE · muscler ses fessiers | [Kit Fessiers VAURE](https://www.alibaba.com/product-detail/Zakerda-Non-Slip-latex-fabric-polyester_1601045479697.html) | 5,60 € | 34,90 € | 29,30 € | 8,5 |
+| 3 | VAURE · réussir sa première traction | [Kit Première Traction VAURE](https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html) | 12,54 € | 49,90 € | 37,36 € | 6,5 |
+| 4 | VAURE · soulager son dos et récupérer | [Kit Dos & Récup VAURE](https://www.alibaba.com/product-detail/nature-rubber-peanut-ball-massage-for_62410531730.html) | 3,44 € | 29,90 € | 26,46 € | 8,5 |
 | 5 | VAURE · renforcer ses abdos | [Roue abdominale à rebond](https://www.alibaba.com/product-detail/2023-Automatic-Rebound-Assistance-Exercise-Equipment_1600982083887.html) | 4,30 € | 29,90 € | 25,60 € | 8,5 |
-| 6 | VAURE · muscler ses fessiers à la poulie | [Sangles de chevilles (paire)](https://www.alibaba.com/product-detail/Professional-Kickback-Ankle-Strap-Glute-Workouts_1601112137291.html) | 2,89 € | 24,90 € | 22,01 € | 8,5 |
-| 7 | VAURE · faire des tractions chez soi | [Barre de traction de porte VAURE](https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html) | 3,43 € | 34,90 € | 31,47 € | 7,5 |
+| 6 | VAURE · faire du cardio partout | [Corde à sauter roulements VAURE](https://www.alibaba.com/product-detail/Adjustable-Cross-Training-Ball-Bearing-Aluminium_1600879114903.html) | 3,10 € | 24,90 € | 21,80 € | 8,5 |
+| 7 | VAURE · protéger son dos sur les charges lourdes | [Ceinture de musculation VAURE](https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html) | 5,93 € | 34,90 € | 28,97 € | 8,5 |
 | 8 | VAURE · boire frais à l'entraînement | [Gourde isotherme VAURE](https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html) | 3,35 € | 24,90 € | 21,55 € | 8,5 |
 | 9 | VAURE · se filmer et suivre son programme à la salle | [Support téléphone magnétique de salle](https://www.alibaba.com/product-detail/Duty-Magnetic-Gym-Desk-Phone-Holder_1601611499238.html) | 1,38 € | 24,90 € | 23,52 € | 8,5 |
-| 10 | VAURE · protéger son dos sur les charges lourdes | [Ceinture de musculation VAURE](https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html) | 5,93 € | 34,90 € | 28,97 € | 8,5 |
+| 10 | VAURE · réussir ses tractions | [Bandes de traction (lot de 5)](https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html) | 9,11 € | 39,90 € | 30,79 € | 8,5 |
 
 La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Le t-shirt et le bracelet ont « NON » en économique : ce sont des produits passion, comme chez Hustle Wear.
 
-## 1. VAURE · s'entraîner partout — Kit barre + élastiques VAURE
+## 1. VAURE · s'entraîner partout — Kit Full Body VAURE
 
 [Lien Alibaba](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) · coût 2,15 € (2,5 $ × 0,86) · revente 29,90 € · marge 27,75 €
 
@@ -48,15 +48,15 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : marché prouvé (SmartWorkout, l'exemple du support, vend un kit similaire 99,90 €), le programme vidéo rend le produit unique, léger, toute l'année. |
 | Prix en France | Kits barre + élastiques : environ 18 à 63 € ; SmartWorkout 99,90 €. |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
 | Fournisseur | 2,50 $ (1 à 499), logo et emballage dès 100. |
 | À vérifier | Tester la solidité des élastiques ; tourner le programme vidéo. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
-## 2. VAURE · travailler fessiers et jambes — Bandes élastiques en tissu (lot de 3)
+## 2. VAURE · muscler ses fessiers — Kit Fessiers VAURE
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Zakerda-Non-Slip-latex-fabric-polyester_1601045479697.html) · coût 2,71 € (3,15 $ × 0,86) · revente 24,90 € · marge 22,19 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Zakerda-Non-Slip-latex-fabric-polyester_1601045479697.html) · coût 5,60 € (6,51 $ × 0,86) · revente 34,90 € · marge 29,30 €
 
 | Étape | Réponse |
 |---|---|
@@ -64,28 +64,28 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
 | Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | Les élastiques en latex roulent sur les cuisses, pincent et cassent. |
-| Question à résoudre | Comment travailler fessiers et jambes sans matériel compliqué ni abonnement cher ? |
+| Problème | On veut des fessiers plus toniques mais on ne sait pas quels exercices faire, les élastiques en latex roulent, et la salle n'a pas toujours de sangles. |
+| Question à résoudre | Comment muscler ses fessiers sans matériel compliqué ni abonnement cher ? |
 | Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à ceux qui travaillent leurs jambes et leurs fessiers d'avoir des bandes qui ne roulent pas et durent, avec les exercices en vidéo. |
-| Solution à un problème | OUI : les élastiques en latex roulent sur les cuisses, pincent et cassent. |
-| Économique | OUI : un lot pour remplacer des machines de salle. |
+| **Idée de business** | Je veux permettre à celles et ceux qui veulent des fessiers toniques de suivre un programme de 30 jours, à la maison et à la salle, avec tout le matériel dans une seule boîte. |
+| Solution à un problème | OUI : on veut des fessiers plus toniques mais on ne sait pas quels exercices faire, les élastiques en latex roulent, et la salle n'a pas toujours de sangles. |
+| Économique | OUI : remplace les cours collectifs et un coach ; un kit au lieu de 2 achats séparés. |
 | Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Bandes qui restent en place pendant les squats. |
+| Effet wow | Avant / après sur 30 jours, kickbacks à la poulie, bandes qui ne roulent pas. |
 | Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
 | Poids / volume | Léger, petit colis. |
 | 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
-| Prix en France | Decathlon Pro : lot de 3 bandes à 19,49 € (prix pro). |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : l'entraînement des fessiers est une des plus grosses tendances fitness, la cible est passionnée, le kit + programme se distingue des bandes seules d'Amazon. |
+| Prix en France | Bandes en tissu : lot de 3 Domyos 19,49 € (prix pro) ; sangles de chevilles 12,99 à 26,98 € la paire. |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 3,15 $ le lot (1 à 39), logo dès 300. |
-| À vérifier | Prix d'appel face à Decathlon : le programme et le pack font la différence. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Fournisseur | Bandes 3,15 $ le lot (lien) + sangle de cheville 3,36 $ (https://www.alibaba.com/product-detail/Professional-Kickback-Ankle-Strap-Glute-Workouts_1601112137291.html). |
+| À vérifier | Le programme doit être sérieux (coach diplômé) ; pas de promesse de résultat chiffrée. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
-## 3. VAURE · réussir ses tractions — Bandes de traction (lot de 5)
+## 3. VAURE · réussir sa première traction — Kit Première Traction VAURE
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html) · coût 9,11 € (10,59 $ × 0,86) · revente 39,90 € · marge 30,79 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html) · coût 12,54 € (14,58 $ × 0,86) · revente 49,90 € · marge 37,36 €
 
 | Étape | Réponse |
 |---|---|
@@ -93,28 +93,28 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
 | Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | On n'arrive pas à faire de tractions et on stagne. |
-| Question à résoudre | Comment réussir ses tractions sans matériel compliqué ni abonnement cher ? |
+| Problème | Faire une traction est un objectif que beaucoup n'atteignent jamais : pas de barre chez soi, et sans aide on stagne. |
+| Question à résoudre | Comment réussir sa première traction sans matériel compliqué ni abonnement cher ? |
 | Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à ceux qui n'arrivent pas encore à faire de tractions d'y arriver pas à pas, avec 5 niveaux d'aide et un programme. |
-| Solution à un problème | OUI : on n'arrive pas à faire de tractions et on stagne. |
-| Économique | OUI : remplace plusieurs machines de musculation. |
+| **Idée de business** | Je veux permettre à ceux qui n'ont jamais réussi une traction d'y arriver en 30 jours chez eux, avec la barre, les bandes d'aide et le défi. |
+| Solution à un problème | OUI : faire une traction est un objectif que beaucoup n'atteignent jamais : pas de barre chez soi, et sans aide on stagne. |
+| Économique | OUI : un objectif atteint sans abonnement ni coach ; un kit au lieu de 2 achats. |
 | Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Défi « ta première traction en 30 jours ». |
+| Effet wow | La première traction filmée au jour 30 : le format le plus partagé du fitness. |
 | Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Environ 4 kg le lot complet selon la fiche : colis lourd, à vérifier. |
+| Poids / volume | Colis long et lourd (barre + latex) : livraison plus chère. |
 | 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
-| Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : un objectif clair et émotionnel (« ma première traction »), un défi qui crée du contenu et une communauté, peu de marques le vendent comme ça. |
+| Prix en France | Barre sans vis Decathlon 29,99 à 34,99 € seule ; bandes [À VÉRIFIER]. |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | Lot de 5 bandes longues + poignées + ancrage de porte : 6,59 à 10,59 $ (dès 50), en stock. |
-| À vérifier | Latex : prévenir les personnes allergiques ; vérifier les longueurs. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Fournisseur | Barre 3,99 $ (lien) + 5 bandes longues 10,59 $ (https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html). |
+| À vérifier | Colis lourd et long : chiffrer la livraison ; préciser les portes compatibles (pas de placo ni de bois tendre). Marge juste sous 3 fois le coût. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
-## 4. VAURE · faire du cardio partout — Corde à sauter roulements VAURE
+## 4. VAURE · soulager son dos et récupérer — Kit Dos & Récup VAURE
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Adjustable-Cross-Training-Ball-Bearing-Aluminium_1600879114903.html) · coût 3,10 € (3,6 $ × 0,86) · revente 24,90 € · marge 21,80 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/nature-rubber-peanut-ball-massage-for_62410531730.html) · coût 3,44 € (4,0 $ × 0,86) · revente 29,90 € · marge 26,46 €
 
 | Étape | Réponse |
 |---|---|
@@ -122,24 +122,24 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
 | Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | Le cardio en salle est ennuyeux et la course dehors dépend de la météo. |
-| Question à résoudre | Comment faire du cardio partout sans matériel compliqué ni abonnement cher ? |
+| Problème | Dos et nuque tendus après le sport ou des heures assis ; une séance d'ostéopathe coûte 45 à 80 € et n'est pas remboursée. |
+| Question à résoudre | Comment soulager son dos et récupérer sans matériel compliqué ni abonnement cher ? |
 | Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à ceux qui s'entraînent de faire un cardio intense en 10 minutes, partout, avec une corde rapide et solide. |
-| Solution à un problème | OUI : le cardio en salle est ennuyeux et la course dehors dépend de la météo. |
-| Économique | OUI : du cardio sans abonnement. |
+| **Idée de business** | Je veux permettre aux sportifs et à ceux qui restent assis toute la journée de détendre leur dos en 10 minutes par jour, chez eux, avec une balle et un programme. |
+| Solution à un problème | OUI : dos et nuque tendus après le sport ou des heures assis ; une séance d'ostéopathe coûte 45 à 80 € et n'est pas remboursée. |
+| Économique | OUI : 29,90 € au lieu d'une séance d'ostéo à 45-80 €. |
 | Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Double sauts au ralenti, son de la corde. |
+| Effet wow | La balle qui roule le long de la colonne, soulagement visible sur le visage. |
 | Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
 | Poids / volume | Léger, petit colis. |
 | 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : le mal de dos touche énormément de monde (sportifs et sédentaires), le produit est minuscule et pas cher, le programme fait la différence. |
 | Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 3,60 $ (100 à 499), logo dès 200. |
-| À vérifier | Minimum 100 pièces ; vérifier la qualité des roulements. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Fournisseur | Balle double en caoutchouc naturel : 4 $ (100 à 499), logo dès 100. |
+| À vérifier | Aucune promesse médicale (« détend », jamais « soigne ») ; conseiller un médecin si douleur forte. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
 ## 5. VAURE · renforcer ses abdos — Roue abdominale à rebond
 
@@ -164,15 +164,15 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | NON : vendu partout pour quelques euros, rien ne le distingue durablement ; à garder en complément d'un kit. |
 | Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
 | Fournisseur | 5 $ (2 à 99), logo dès 20. |
 | À vérifier | Pas de promesse « ventre plat » ; donner les consignes de posture. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
-## 6. VAURE · muscler ses fessiers à la poulie — Sangles de chevilles (paire)
+## 6. VAURE · faire du cardio partout — Corde à sauter roulements VAURE
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Professional-Kickback-Ankle-Strap-Glute-Workouts_1601112137291.html) · coût 2,89 € (3,36 $ × 0,86) · revente 24,90 € · marge 22,01 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Adjustable-Cross-Training-Ball-Bearing-Aluminium_1600879114903.html) · coût 3,10 € (3,6 $ × 0,86) · revente 24,90 € · marge 21,80 €
 
 | Étape | Réponse |
 |---|---|
@@ -180,28 +180,28 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
 | Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | Sans sangle, impossible de faire les exercices fessiers à la poulie (kickbacks) : la salle n'en a pas toujours, ou elles sont sales et abîmées. |
-| Question à résoudre | Comment muscler ses fessiers à la poulie sans matériel compliqué ni abonnement cher ? |
+| Problème | Le cardio en salle est ennuyeux et la course dehors dépend de la météo. |
+| Question à résoudre | Comment faire du cardio partout sans matériel compliqué ni abonnement cher ? |
 | Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à celles et ceux qui travaillent leurs fessiers à la salle d'avoir leurs propres sangles, confortables et propres, pour tous les exercices à la poulie. |
-| Solution à un problème | OUI : sans sangle, impossible de faire les exercices fessiers à la poulie (kickbacks) : la salle n'en a pas toujours, ou elles sont sales et abîmées. |
-| Économique | OUI : plus besoin d'attendre ou d'utiliser le matériel abîmé de la salle. |
+| **Idée de business** | Je veux permettre à ceux qui s'entraînent de faire un cardio intense en 10 minutes, partout, avec une corde rapide et solide. |
+| Solution à un problème | OUI : le cardio en salle est ennuyeux et la course dehors dépend de la météo. |
+| Économique | OUI : du cardio sans abonnement. |
 | Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Kickbacks à la poulie filmés de profil, format star des vidéos fitness. |
+| Effet wow | Double sauts au ralenti, son de la corde. |
 | Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
 | Poids / volume | Léger, petit colis. |
 | 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
-| Prix en France | Sangles de chevilles en France : 12,99 € (Sveltus) à 26,98 € (Prozis) la paire. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | NON : produit de base à petit prix chez Decathlon et Amazon, pas de raison d'acheter VAURE seule. |
+| Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 3,36 $ le lot (100 à 999), 5,95 $ de 10 à 99 ; en stock (Ready to Ship). |
-| À vérifier | Tester la solidité de l'anneau et de la couture ; produit tendance sur Amazon (sources américaines). Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Fournisseur | 3,60 $ (100 à 499), logo dès 200. |
+| À vérifier | Minimum 100 pièces ; vérifier la qualité des roulements. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
-## 7. VAURE · faire des tractions chez soi — Barre de traction de porte VAURE
+## 7. VAURE · protéger son dos sur les charges lourdes — Ceinture de musculation VAURE
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html) · coût 3,43 € (3,99 $ × 0,86) · revente 34,90 € · marge 31,47 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html) · coût 5,93 € (6,9 $ × 0,86) · revente 34,90 € · marge 28,97 €
 
 | Étape | Réponse |
 |---|---|
@@ -209,24 +209,24 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
 | Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | Pas de barre de traction à la maison : impossible de travailler le dos et les bras sans aller à la salle, et on ne veut pas percer les murs. |
-| Question à résoudre | Comment faire des tractions chez soi sans matériel compliqué ni abonnement cher ? |
+| Problème | Le bas du dos tire sur les squats et les soulevés de terre quand les charges montent, et on a peur de se blesser. |
+| Question à résoudre | Comment protéger son dos sur les charges lourdes sans matériel compliqué ni abonnement cher ? |
 | Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à ceux qui s'entraînent chez eux de faire des tractions dans n'importe quelle porte, sans vis ni perçage, avec un programme pour progresser. |
-| Solution à un problème | OUI : pas de barre de traction à la maison : impossible de travailler le dos et les bras sans aller à la salle, et on ne veut pas percer les murs. |
-| Économique | OUI : l'exercice roi du dos sans abonnement de salle. |
+| **Idée de business** | Je veux permettre à ceux qui soulèvent lourd de sécuriser leur dos et de progresser en confiance, avec une ceinture qui se ferme en une seconde. |
+| Solution à un problème | OUI : le bas du dos tire sur les squats et les soulevés de terre quand les charges montent, et on a peur de se blesser. |
+| Économique | OUI : moins de risque de blessure, donc moins de séances perdues et de soins. |
 | Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Installation dans la porte en 30 secondes, première traction filmée. |
+| Effet wow | Fermeture rapide filmée avant une grosse série de squats. |
 | Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Colis long et plus lourd que le reste de la gamme : livraison plus chère. |
+| Poids / volume | Léger, petit colis. |
 | 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
-| Prix en France | Decathlon : barres sans vis Corength à 29,99 € (70 cm) et 34,99 € (100 cm). |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | NON : marché de passionnés mais très concurrencé ; utile en complément pour les pratiquants de force. |
+| Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 3,99 $ (10 à 499). |
-| À vérifier | Vérifier la charge maximale et la largeur des portes compatibles ; préciser « pas de placo ni de bois tendre » comme Decathlon ; colis long et lourd (environ 1,5 à 2 kg, à vérifier). Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Fournisseur | 6,90 $ (5 à 99), logo et emballage dès 10 pièces. |
+| À vérifier | Aucune promesse médicale (« soutient » et non « soigne ») ; prévoir un guide des tailles. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
 ## 8. VAURE · boire frais à l'entraînement — Gourde isotherme VAURE
 
@@ -251,7 +251,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | NON : Decathlon la vend 12,99 € ; seulement en goodies ou en pack. |
 | Prix en France | Decathlon 12,99 € (0,5 L) ; LAKEN 23,90 €. |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
 | Fournisseur | 3,90 $ (2 à 99), logo dès 200. |
@@ -280,15 +280,15 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | NON : des supports basiques coûtent moins de 1 € (Action) ; uniquement en complément. |
 | Prix en France | Supports magnétiques basiques à moins de 10 € ; support vélo magnétique Shapeheart 24,96 à 27 €. |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
 | Fournisseur | Aluminium, double aimant, rotation 360° : 1,60 $ (50 à 499), logo dès 1 000. |
 | À vérifier | Vérifier la tenue de l'aimant sur les machines qui vibrent ; les supports basiques sont très bon marché : la marque et le contenu font la différence. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
-## 10. VAURE · protéger son dos sur les charges lourdes — Ceinture de musculation VAURE
+## 10. VAURE · réussir ses tractions — Bandes de traction (lot de 5)
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html) · coût 5,93 € (6,9 $ × 0,86) · revente 34,90 € · marge 28,97 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html) · coût 9,11 € (10,59 $ × 0,86) · revente 39,90 € · marge 30,79 €
 
 | Étape | Réponse |
 |---|---|
@@ -296,24 +296,24 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Demande en France | 18 millions de Français pratiquent le fitness au sens large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). |
 | Observation | On veut s'entraîner partout (maison, salle, voyage) avec du matériel simple ; les accessoires vendus partout n'ont ni marque ni programme. |
 | Cible et désir | Hommes et femmes de 18 à 35 ans qui s'entraînent à la maison ou à la salle et veulent progresser. |
-| Problème | Le bas du dos tire sur les squats et les soulevés de terre quand les charges montent, et on a peur de se blesser. |
-| Question à résoudre | Comment protéger son dos sur les charges lourdes sans matériel compliqué ni abonnement cher ? |
+| Problème | On n'arrive pas à faire de tractions et on stagne. |
+| Question à résoudre | Comment réussir ses tractions sans matériel compliqué ni abonnement cher ? |
 | Pistes produit | Kit barre · bandes en tissu · bandes de traction · barre de traction de porte · corde à sauter · roue abdominale · sangles de chevilles · support téléphone magnétique · ceinture · gourde. |
-| **Idée de business** | Je veux permettre à ceux qui soulèvent lourd de sécuriser leur dos et de progresser en confiance, avec une ceinture qui se ferme en une seconde. |
-| Solution à un problème | OUI : le bas du dos tire sur les squats et les soulevés de terre quand les charges montent, et on a peur de se blesser. |
-| Économique | OUI : moins de risque de blessure, donc moins de séances perdues et de soins. |
+| **Idée de business** | Je veux permettre à ceux qui n'arrivent pas encore à faire de tractions d'y arriver pas à pas, avec 5 niveaux d'aide et un programme. |
+| Solution à un problème | OUI : on n'arrive pas à faire de tractions et on stagne. |
+| Économique | OUI : remplace plusieurs machines de musculation. |
 | Besoin / passion | OUI : le sport, le physique, la discipline. |
-| Effet wow | Fermeture rapide filmée avant une grosse série de squats. |
+| Effet wow | Défi « ta première traction en 30 jours ». |
 | Unique | Logo VAURE, couleurs noir et doré, programme vidéo et défis du VAURE Club. |
-| Poids / volume | Léger, petit colis. |
+| Poids / volume | Environ 4 kg le lot complet selon la fiche : colis lourd, à vérifier. |
 | 1. Répond aux critères principaux ? | Bien : besoin réel, passion forte. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant le produit. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de séances, défis du mois, packs VAURE. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | NON seul (concurrence Amazon) ; OUI dans le Kit Première Traction, d'où sa présence dans le kit. |
 | Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 6,90 $ (5 à 99), logo et emballage dès 10 pièces. |
-| À vérifier | Aucune promesse médicale (« soutient » et non « soigne ») ; prévoir un guide des tailles. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
+| Fournisseur | Lot de 5 bandes longues + poignées + ancrage de porte : 6,59 à 10,59 $ (dès 50), en stock. |
+| À vérifier | Latex : prévenir les personnes allergiques ; vérifier les longueurs. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
 ## 2e produits (plus de 50 €)
 
@@ -321,7 +321,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 |---|---|---|---|
 | Pack Home Gym VAURE : kit barre + bandes de traction + roue abdominale + bandes en tissu | 18,27 € | 89,90 € | [Alibaba](https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html) |
 | Pack Salle VAURE : ceinture + sangles de chevilles + support téléphone magnétique + gourde | 13,55 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html) |
-| Pack Traction VAURE : barre de traction de porte + bandes de traction | 12,54 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html) |
+| Pack Programme Complet VAURE : Kit Full Body + Kit Fessiers + Kit Dos & Récup | 11,19 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) |
 
 ## Sources
 

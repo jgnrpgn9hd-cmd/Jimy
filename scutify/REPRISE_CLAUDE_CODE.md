@@ -264,3 +264,6 @@ Planche à pompes → sangles de chevilles (1601651362272) ; sac de sport → su
 
 ## Fiches non disponibles en France (3, 6, 9) remplacées
 3 : 62078479442 ; 6 : 1601112137291 ; 9 : 1601611499238.
+
+## Test question 4 (30 000 €) appliqué
+4 kits OUI (Full Body, Fessiers, Première Traction, Dos & Récup) en lignes 1-4 ; 6 accessoires NON gardés en lignes 5-10 comme compléments. Version précédente : dossier_v4_vaure_accessoires.py.
