@@ -261,3 +261,6 @@ Ligne 7 : barre de traction de porte (1600346042225, 3,99 $, 34,90 €). Ligne 1
 
 ## Produits tendance 2026
 Planche à pompes → sangles de chevilles (1601651362272) ; sac de sport → support téléphone magnétique (1601358956127). Packs mis à jour.
+
+## Fiches non disponibles en France (3, 6, 9) remplacées
+3 : 62078479442 ; 6 : 1601112137291 ; 9 : 1601611499238.

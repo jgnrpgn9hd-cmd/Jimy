@@ -14,13 +14,13 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 |---|---|---|---|---|---|---|
 | 1 | VAURE · s'entraîner partout | [Kit barre + élastiques VAURE](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) | 2,15 € | 29,90 € | 27,75 € | 9,5 |
 | 2 | VAURE · travailler fessiers et jambes | [Bandes élastiques en tissu (lot de 3)](https://www.alibaba.com/product-detail/Zakerda-Non-Slip-latex-fabric-polyester_1601045479697.html) | 2,71 € | 24,90 € | 22,19 € | 8,5 |
-| 3 | VAURE · réussir ses tractions | [Bandes de traction (lot de 5)](https://www.alibaba.com/product-detail/Custom-Logo-100-Latex-Loop-Set_1601034567228.html) | 8,51 € | 39,90 € | 31,39 € | 8,5 |
+| 3 | VAURE · réussir ses tractions | [Bandes de traction (lot de 5)](https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html) | 9,11 € | 39,90 € | 30,79 € | 8,5 |
 | 4 | VAURE · faire du cardio partout | [Corde à sauter roulements VAURE](https://www.alibaba.com/product-detail/Adjustable-Cross-Training-Ball-Bearing-Aluminium_1600879114903.html) | 3,10 € | 24,90 € | 21,80 € | 8,5 |
 | 5 | VAURE · renforcer ses abdos | [Roue abdominale à rebond](https://www.alibaba.com/product-detail/2023-Automatic-Rebound-Assistance-Exercise-Equipment_1600982083887.html) | 4,30 € | 29,90 € | 25,60 € | 8,5 |
-| 6 | VAURE · muscler ses fessiers à la poulie | [Sangles de chevilles (paire)](https://www.alibaba.com/product-detail/Custom-Logo-Adjustable-Ankle-Straps-Exercise_1601651362272.html) | 2,15 € | 24,90 € | 22,75 € | 8,5 |
+| 6 | VAURE · muscler ses fessiers à la poulie | [Sangles de chevilles (paire)](https://www.alibaba.com/product-detail/Professional-Kickback-Ankle-Strap-Glute-Workouts_1601112137291.html) | 2,89 € | 24,90 € | 22,01 € | 8,5 |
 | 7 | VAURE · faire des tractions chez soi | [Barre de traction de porte VAURE](https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html) | 3,43 € | 34,90 € | 31,47 € | 7,5 |
 | 8 | VAURE · boire frais à l'entraînement | [Gourde isotherme VAURE](https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html) | 3,35 € | 24,90 € | 21,55 € | 8,5 |
-| 9 | VAURE · se filmer et suivre son programme à la salle | [Support téléphone magnétique de salle](https://www.alibaba.com/product-detail/Universal-Gym-Magnet-Fitness-Phone-Mount_1601358956127.html) | 2,75 € | 24,90 € | 22,15 € | 8,5 |
+| 9 | VAURE · se filmer et suivre son programme à la salle | [Support téléphone magnétique de salle](https://www.alibaba.com/product-detail/Duty-Magnetic-Gym-Desk-Phone-Holder_1601611499238.html) | 1,38 € | 24,90 € | 23,52 € | 8,5 |
 | 10 | VAURE · protéger son dos sur les charges lourdes | [Ceinture de musculation VAURE](https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html) | 5,93 € | 34,90 € | 28,97 € | 8,5 |
 
 La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Le t-shirt et le bracelet ont « NON » en économique : ce sont des produits passion, comme chez Hustle Wear.
@@ -85,7 +85,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 
 ## 3. VAURE · réussir ses tractions — Bandes de traction (lot de 5)
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-100-Latex-Loop-Set_1601034567228.html) · coût 8,51 € (9,9 $ × 0,86) · revente 39,90 € · marge 31,39 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html) · coût 9,11 € (10,59 $ × 0,86) · revente 39,90 € · marge 30,79 €
 
 | Étape | Réponse |
 |---|---|
@@ -109,7 +109,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
 | Prix en France | [PRIX EN FRANCE À VÉRIFIER] |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 9,90 $ le lot (dès 1), logo à demander. |
+| Fournisseur | Lot de 5 bandes longues + poignées + ancrage de porte : 6,59 à 10,59 $ (dès 50), en stock. |
 | À vérifier | Latex : prévenir les personnes allergiques ; vérifier les longueurs. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
 ## 4. VAURE · faire du cardio partout — Corde à sauter roulements VAURE
@@ -172,7 +172,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 
 ## 6. VAURE · muscler ses fessiers à la poulie — Sangles de chevilles (paire)
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-Adjustable-Ankle-Straps-Exercise_1601651362272.html) · coût 2,15 € (2,5 $ × 0,86) · revente 24,90 € · marge 22,75 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Professional-Kickback-Ankle-Strap-Glute-Workouts_1601112137291.html) · coût 2,89 € (3,36 $ × 0,86) · revente 24,90 € · marge 22,01 €
 
 | Étape | Réponse |
 |---|---|
@@ -196,7 +196,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
 | Prix en France | Sangles de chevilles en France : 12,99 € (Sveltus) à 26,98 € (Prozis) la paire. |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 1,25 $ la sangle (2 à 49), soit 2,50 $ la paire, logo personnalisable. |
+| Fournisseur | 3,36 $ le lot (100 à 999), 5,95 $ de 10 à 99 ; en stock (Ready to Ship). |
 | À vérifier | Tester la solidité de l'anneau et de la couture ; produit tendance sur Amazon (sources américaines). Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
 ## 7. VAURE · faire des tractions chez soi — Barre de traction de porte VAURE
@@ -259,7 +259,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 
 ## 9. VAURE · se filmer et suivre son programme à la salle — Support téléphone magnétique de salle
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Universal-Gym-Magnet-Fitness-Phone-Mount_1601358956127.html) · coût 2,75 € (3,2 $ × 0,86) · revente 24,90 € · marge 22,15 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Duty-Magnetic-Gym-Desk-Phone-Holder_1601611499238.html) · coût 1,38 € (1,6 $ × 0,86) · revente 24,90 € · marge 23,52 €
 
 | Étape | Réponse |
 |---|---|
@@ -283,7 +283,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | 4. Prêt à investir 30 000 € sur ce seul produit ? | Oui pour la gamme complète (un client achète plusieurs produits) ; seul, ce produit a beaucoup de concurrence. |
 | Prix en France | Supports magnétiques basiques à moins de 10 € ; support vélo magnétique Shapeheart 24,96 à 27 €. |
 | Angle pub / Instagram | Séance filmée à 6 h du matin, slogan « Rien n'est offert », défi du mois. |
-| Fournisseur | 3,20 $ (2 à 299), logo dès 200. |
+| Fournisseur | Aluminium, double aimant, rotation 360° : 1,60 $ (50 à 499), logo dès 1 000. |
 | À vérifier | Vérifier la tenue de l'aimant sur les machines qui vibrent ; les supports basiques sont très bon marché : la marque et le contenu font la différence. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs. |
 
 ## 10. VAURE · protéger son dos sur les charges lourdes — Ceinture de musculation VAURE
@@ -319,9 +319,9 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 
 | Pack | Coût | Revente | Lien |
 |---|---|---|---|
-| Pack Home Gym VAURE : kit barre + bandes de traction + roue abdominale + bandes en tissu | 17,67 € | 89,90 € | [Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-100-Latex-Loop-Set_1601034567228.html) |
-| Pack Salle VAURE : ceinture + sangles de chevilles + support téléphone magnétique + gourde | 14,19 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html) |
-| Pack Traction VAURE : barre de traction de porte + bandes de traction | 11,95 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html) |
+| Pack Home Gym VAURE : kit barre + bandes de traction + roue abdominale + bandes en tissu | 18,27 € | 89,90 € | [Alibaba](https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html) |
+| Pack Salle VAURE : ceinture + sangles de chevilles + support téléphone magnétique + gourde | 13,55 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html) |
+| Pack Traction VAURE : barre de traction de porte + bandes de traction | 12,54 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/Pull-Up-Bars-Total-Upper-Body_1600346042225.html) |
 
 ## Sources
 

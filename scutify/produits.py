@@ -35,20 +35,21 @@ rows=[("Kit d'entraînement : barre démontable + élastiques + programme vidéo
   'le programme vidéo et les packs.',
   'Bandes élastiques en tissu (lot de 3)'),
  ('Lot de 5 bandes élastiques longues en latex pour tractions assistées et musculation — Niche : VAURE · réussir ses tractions',
-  'https://www.alibaba.com/product-detail/Custom-Logo-100-Latex-Loop-Set_1601034567228.html',
+  'https://www.alibaba.com/product-detail/custom-eco-100-natural-latex-resistance_62078479442.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  8.51,
+  9.11,
   6,
   39.9,
   'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
   "large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : On n'arrive pas à faire de tractions et on stagne. ÉCONOMIQUE : OUI : remplace plusieurs machines de musculation. EFFET "
-  'WAOUW : Défi « ta première traction en 30 jours ». PRIX EN FRANCE : [PRIX EN FRANCE À VÉRIFIER] FOURNISSEUR : 9,90 $ le lot (dès 1), logo à demander. À VÉRIFIER : Latex : prévenir les personnes '
-  'allergiques ; vérifier les longueurs. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
+  'WAOUW : Défi « ta première traction en 30 jours ». PRIX EN FRANCE : [PRIX EN FRANCE À VÉRIFIER] FOURNISSEUR : Lot de 5 bandes longues + poignées + ancrage de porte : 6,59 à 10,59 $ (dès 50), en '
+  'stock. À VÉRIFIER : Latex : prévenir les personnes allergiques ; vérifier les longueurs. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le '
+  'programme vidéo et les packs.',
   'Bandes de traction (lot de 5)'),
  ('Corde à sauter rapide à roulements, poignées aluminium, réglable — Niche : VAURE · faire du cardio partout',
   'https://www.alibaba.com/product-detail/Adjustable-Cross-Training-Ball-Bearing-Aluminium_1600879114903.html',
@@ -83,21 +84,21 @@ rows=[("Kit d'entraînement : barre démontable + élastiques + programme vidéo
   'promesse « ventre plat » ; donner les consignes de posture. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
   'Roue abdominale à rebond'),
  ('Paire de sangles de chevilles rembourrées pour poulie (fessiers, jambes) — Niche : VAURE · muscler ses fessiers à la poulie',
-  'https://www.alibaba.com/product-detail/Custom-Logo-Adjustable-Ankle-Straps-Exercise_1601651362272.html',
+  'https://www.alibaba.com/product-detail/Professional-Kickback-Ankle-Strap-Glute-Workouts_1601112137291.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  2.15,
+  2.89,
   9,
   24.9,
   'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
   "large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Sans sangle, impossible de faire les exercices fessiers à la poulie (kickbacks) : la salle n'en a pas toujours, ou elles "
   "sont sales et abîmées. ÉCONOMIQUE : OUI : plus besoin d'attendre ou d'utiliser le matériel abîmé de la salle. EFFET WAOUW : Kickbacks à la poulie filmés de profil, format star des vidéos fitness. "
-  'PRIX EN FRANCE : Sangles de chevilles en France : 12,99 € (Sveltus) à 26,98 € (Prozis) la paire. FOURNISSEUR : 1,25 $ la sangle (2 à 49), soit 2,50 $ la paire, logo personnalisable. À VÉRIFIER : '
-  "Tester la solidité de l'anneau et de la couture ; produit tendance sur Amazon (sources américaines). Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la "
+  'PRIX EN FRANCE : Sangles de chevilles en France : 12,99 € (Sveltus) à 26,98 € (Prozis) la paire. FOURNISSEUR : 3,36 $ le lot (100 à 999), 5,95 $ de 10 à 99 ; en stock (Ready to Ship). À VÉRIFIER '
+  ": Tester la solidité de l'anneau et de la couture ; produit tendance sur Amazon (sources américaines). Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la "
   'marque, le programme vidéo et les packs.',
   'Sangles de chevilles (paire)'),
  ('Barre de traction de porte réglable, sans vis ni perçage — Niche : VAURE · faire des tractions chez soi',
@@ -135,22 +136,22 @@ rows=[("Kit d'entraînement : barre démontable + élastiques + programme vidéo
   'gravure à chiffrer ; certificat de contact alimentaire. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
   'Gourde isotherme VAURE'),
  ('Support téléphone magnétique pour machines de salle, à pince et aimant, rotatif — Niche : VAURE · se filmer et suivre son programme à la salle',
-  'https://www.alibaba.com/product-detail/Universal-Gym-Magnet-Fitness-Phone-Mount_1601358956127.html',
+  'https://www.alibaba.com/product-detail/Duty-Magnetic-Gym-Desk-Phone-Holder_1601611499238.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  2.75,
+  1.38,
   9,
   24.9,
   'MODÈLE : Kosso : une seule cible (le sportif), plusieurs produits sous des marques qui se répondent ; Hustle Wear pour les packs. DEMANDE : 18 millions de Français pratiquent le fitness au sens '
   'large (Observatoire Forme & Fitness 2026, Union Sport & Cycle). PROBLÈME : Impossible de se filmer ou de lire son programme pendant la séance : le téléphone traîne par terre ou tombe des '
   "machines. ÉCONOMIQUE : OUI : remplace un trépied, et évite l'écran cassé. EFFET WAOUW : Le téléphone qui se colle d'un coup sur la barre de la machine. PRIX EN FRANCE : Supports magnétiques "
-  "basiques à moins de 10 € ; support vélo magnétique Shapeheart 24,96 à 27 €. FOURNISSEUR : 3,20 $ (2 à 299), logo dès 200. À VÉRIFIER : Vérifier la tenue de l'aimant sur les machines qui vibrent ; "
-  'les supports basiques sont très bon marché : la marque et le contenu font la différence. Concurrence : Decathlon vend les accessoires de base pas cher ; VAURE se démarque par la marque, le '
-  'programme vidéo et les packs.',
+  'basiques à moins de 10 € ; support vélo magnétique Shapeheart 24,96 à 27 €. FOURNISSEUR : Aluminium, double aimant, rotation 360° : 1,60 $ (50 à 499), logo dès 1 000. À VÉRIFIER : Vérifier la '
+  "tenue de l'aimant sur les machines qui vibrent ; les supports basiques sont très bon marché : la marque et le contenu font la différence. Concurrence : Decathlon vend les accessoires de base pas "
+  'cher ; VAURE se démarque par la marque, le programme vidéo et les packs.',
   'Support téléphone magnétique de salle'),
  ('Ceinture de musculation 10 cm en néoprène, fermeture à verrouillage rapide — Niche : VAURE · protéger son dos sur les charges lourdes',
   'https://www.alibaba.com/product-detail/Custom-Wholesale-OEM-Custom-4-Inch_11000030802889.html',
