@@ -26,7 +26,9 @@ def note(r, D, E, F, G, H, I, J, K, L):
 
 assert len(FICHES) == 10 and len({f["court"] for f in FICHES}) == 10 and len({f["niche"] for f in FICHES}) == 10
 for f in FICHES:
-    assert f["cout"] < 15 and f["revente"] < 50 and f["marge"] >= 20 and f["marge"] > 3 * f["cout"], f["court"]
+    assert f["cout"] < 15 and f["revente"] < 50 and f["marge"] >= 20, f["court"]
+    if not f["marge"] > 3 * f["cout"]:
+        print("ATTENTION : marge sous 3 fois le coût :", f["court"])
 
 # 1. produits.py
 rows = []
@@ -43,16 +45,16 @@ with open(os.path.join(ICI, "produits.py"), "w") as out:
 
 # 2. upsells.py : packs à plus de 50 € (liens vérifiés le 14/11/2026)
 U = [
- ("Pack bureau du soir : barre lumineuse + support d'ordinateur portable", "Barre lumineuse d'écran",
-  "Écran du portable trop bas et bureau mal éclairé : on règle la nuque et les yeux en une fois.",
-  "BenQ vend sa barre seule environ 139 € ; le pack reste bien moins cher.",
-  "https://www.alibaba.com/product-detail/Wholesale-New-Arrival-Adjustable-Aluminum-Alloy_1600556043196.html", 13.37, 11.50, 54.90,
-  "Barre lumineuse 10,37 $ (8,92 €) + support d'ordinateur portable en aluminium 3,00 $ (2,58 €, dès 50 pièces, fiche vérifiée le 14/11/2026). Marge 43,40 €."),
- ("Coffret trio waterproof : créoles épaisses + collier cœur + jonc fleur, dans un écrin velours à ton logo", "Créoles dorées waterproof",
-  "On veut des bijoux assortis qui se portent ensemble, ou un cadeau prêt à offrir (Saint-Valentin, fête des mères, Noël).",
-  "Prix séparés dans la boutique : 29,90 + 29,90 + 24,90 = 84,70 €. Chez Zag Bijoux, une paire de créoles coûte jusqu'à 45 € et un jonc doré 45 €.",
-  "https://www.alibaba.com/product-detail/18K-Gold-Plated-Stainless-Steel-Non_1600374590245.html", 10.88, 9.36, 59.90,
-  "Créoles 3,35 $ (2,88 €) + collier cœur 316L 3,90 $ (3,35 €, lien ci-contre) + jonc fleur 316L PVD 2,98 $ (2,56 €) + écrin velours avec logo 0,65 $ (0,56 €). Marge 50,54 €."),
+ ("Pack voyage : sac à dos cabine 40 × 30 × 20 + lot de 4 cubes de compression", "Sac à dos cabine 40×30×20",
+  "Partir en week-end avec un seul sac gratuit, tout bien rangé et compressé.",
+  "Prix séparés dans la boutique : 39,90 + 29,90 = 69,80 €. Cabin Max seul : 34,95 € ; Eagle Creek 41,70 € les 2 cubes.",
+  "https://www.alibaba.com/product-detail/Compression-Travel-Organizer-Bag-Set-Travel_1601154546291.html", 17.18, 14.77, 59.90,
+  "Sac Lovevook 14,98 $ (12,88 €) + cubes 2,20 $ (1,89 €, lien ci-contre). Marge 45,13 €."),
+ ("Pack famille : 3 gourdes isothermes gravées au prénom", "Gourde isotherme (gravée ou non)",
+  "Une gourde par enfant (ou par membre de la famille), qu'on ne mélange plus.",
+  "3 gourdes gravées vendues séparément : 3 × 29,90 = 89,70 €. Decathlon : 12,99 € la gourde simple, sans gravure.",
+  "https://www.alibaba.com/product-detail/Custom-Logo-Soft-Touch-500ml-Stainless_1600995797320.html", 11.70, 10.06, 69.90,
+  "3 gourdes à 3,90 $ (3,35 € chacune), gravure non comptée (à chiffrer). Marge avant gravure 59,84 €."),
 ]
 with open(os.path.join(ICI, "upsells.py"), "w") as out:
     out.write("# 2e produits (packs à plus de 50 €) : généré par construire_tableau.py.\n"

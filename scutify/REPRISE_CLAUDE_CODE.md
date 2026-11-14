@@ -243,3 +243,10 @@ Ligne 3 : t-shirt Run Club → lunch box chauffante (1601609058033, 9,50 $, 34,9
 (1601885292435, 10,37 $, 39,90 €, face à BenQ ~139 €). 2e produits : pack running et pack Run Club retirés, pack télétravail → pack bureau du soir
 (barre + support portable 1600556043196). Pages de vente 03 et 07 refaites (maquettes_sites).
 Écartés après vérification : spray à huile (4 à 15 € en France, pas de marge), brosse électrique (prix > 15 € ou minimum 500), tapis diatomite (5 à 18 € en France).
+
+## Version « critères stricts » (prompt sourcing Scutify) — 14/11/2026
+dossier.py = 10 fiches (5 reprises de dossier_precedent.py + 5 nouvelles) : Pilates, créoles, coffret 3 bijoux, chaîne homme,
+sac cabine 40×30×20, cubes de compression, gourde isotherme, gourde filtrante, pommeau, lunettes Y2K.
+Retirés (électronique ou cosmétique) : blanchiment, lunch box chauffante, barre lumineuse, baguette LED, pistolet de massage.
+2e produits : pack voyage 59,90 €, pack famille 3 gourdes gravées 69,90 €. Pages de vente refaites (maquettes_sites, 2 en thème sombre).
+Notes : sac cabine 7,25 (pas d'effet waouw, marge < 3 × coût), lunettes 6 (pas de problème réel, saisonnier).

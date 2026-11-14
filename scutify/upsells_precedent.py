@@ -1,0 +1,20 @@
+# 2e produits (packs à plus de 50 €) : généré par construire_tableau.py.
+# (nom, se vend avec, problème, preuve prix France, lien, prix $, coût €, revente €, infos fournisseur)
+U=[("Pack bureau du soir : barre lumineuse + support d'ordinateur portable",
+  "Barre lumineuse d'écran",
+  'Écran du portable trop bas et bureau mal éclairé : on règle la nuque et les yeux en une fois.',
+  'BenQ vend sa barre seule environ 139 € ; le pack reste bien moins cher.',
+  'https://www.alibaba.com/product-detail/Wholesale-New-Arrival-Adjustable-Aluminum-Alloy_1600556043196.html',
+  13.37,
+  11.5,
+  54.9,
+  "Barre lumineuse 10,37 $ (8,92 €) + support d'ordinateur portable en aluminium 3,00 $ (2,58 €, dès 50 pièces, fiche vérifiée le 14/11/2026). Marge 43,40 €."),
+ ('Coffret trio waterproof : créoles épaisses + collier cœur + jonc fleur, dans un écrin velours à ton logo',
+  'Créoles dorées waterproof',
+  'On veut des bijoux assortis qui se portent ensemble, ou un cadeau prêt à offrir (Saint-Valentin, fête des mères, Noël).',
+  "Prix séparés dans la boutique : 29,90 + 29,90 + 24,90 = 84,70 €. Chez Zag Bijoux, une paire de créoles coûte jusqu'à 45 € et un jonc doré 45 €.",
+  'https://www.alibaba.com/product-detail/18K-Gold-Plated-Stainless-Steel-Non_1600374590245.html',
+  10.88,
+  9.36,
+  59.9,
+  'Créoles 3,35 $ (2,88 €) + collier cœur 316L 3,90 $ (3,35 €, lien ci-contre) + jonc fleur 316L PVD 2,98 $ (2,56 €) + écrin velours avec logo 0,65 $ (0,56 €). Marge 50,54 €.')]

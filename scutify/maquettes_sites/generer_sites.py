@@ -187,6 +187,105 @@ dict(n=10, fichier="10_mini_pistolet_massage", acc="#3A7D44", fond="#F3F5F2", do
  fin="Récupère comme un pro. Paie comme toi."),
 ]
 
+NOUVEAUX = [
+dict(n=0, fichier="coffret", acc="#8A6A1F", fond="#FBF8F2", doux="#F0E8D8",
+ bandeau="Écrin velours offert · Prêt à offrir",
+ niche="Cadeau bijoux", h1="Le cadeau qu'elle va adorer. Déjà prêt.",
+ sous="Créoles, collier cœur et jonc en acier inoxydable doré, assortis dans un écrin en velours.",
+ prix="49,90 €", ancre="au lieu de 84,70 € séparément",
+ puces=["3 bijoux assortis", "Acier inoxydable doré", "Écrin + carte à message"],
+ photo="Unboxing : l'écrin s'ouvre sur les 3 bijoux, mains qui découvrent le cadeau",
+ preuve="Près de 6 milliards d'euros de montres et bijoux vendus en France en 2024 (Francéclat).",
+ pb_titre="Trouver le bon cadeau, c'est la galère ?",
+ pbs=[("Tu ne sais pas quoi choisir", "Quel bijou, quelle taille, quel style ? Le doute."),
+      ("Peur de te tromper", "Un cadeau qui finit au fond d'un tiroir."),
+      ("Des bijoux qui noircissent", "Les bijoux fantaisie ne tiennent pas quelques semaines.")],
+ kit_titre="Dans le coffret",
+ kit=[("Les créoles épaisses", "acier inoxydable doré"), ("Le collier cœur", "acier 316L doré"),
+      ("Le jonc à fleurs", "acier 316L doré"), ("L'écrin en velours", "avec ta carte à message")],
+ comp=("Bijoux achetés séparément", [("Prix", "84,70 €", "49,90 €"), ("Assortis", "À toi de choisir", "Déjà assortis"), ("Emballage", "À prévoir", "Écrin offert")]),
+ faq=[("Ça noircit ?", "Les bijoux sont en acier inoxydable doré, faits pour résister à l'eau. [GARANTIE À DÉFINIR APRÈS TESTS]"), ("Je peux ajouter un message ?", "Oui, une carte écrite est glissée dans l'écrin.")],
+ fin="Offre un cadeau qui dure."),
+dict(n=0, sombre=True, fichier="chaine", acc="#B8902F", fond="#111111", doux="#2A2A2A",
+ bandeau="Acier inoxydable doré · Ne quitte jamais ton cou",
+ niche="Bijoux homme", h1="La chaîne que tu n'enlèves jamais.",
+ sous="Maille corde 3 mm en acier inoxydable doré. Salle, douche, mer : elle reste dorée.",
+ prix="29,90 €", ancre="au lieu de 75 à 99 € pour une chaîne acier de marque",
+ puces=["Acier inoxydable doré", "Résiste à l'eau et à la sueur", "Écrin offert"],
+ photo="Gros plan d'une chaîne portée sur un t-shirt noir, lumière de rue la nuit",
+ preuve="Près de 6 milliards d'euros de montres et bijoux vendus en France en 2024 (Francéclat).",
+ pb_titre="Ta chaîne te lâche ?",
+ pbs=[("Elle noircit", "Le plaqué s'en va en quelques semaines."),
+      ("Elle verdit ton cou", "Le métal en dessous réagit avec la peau et la sueur."),
+      ("Tu dois l'enlever", "Pour la salle, la douche, la mer… et tu finis par la perdre.")],
+ kit_titre="Choisis ta chaîne",
+ kit=[("Maille corde 3 mm", "la classique"), ("Les longueurs", "[LONGUEURS À CONFIRMER]"),
+      ("L'écrin", "prêt à offrir"), ("Le pack", "chaîne + gourmette [À VENIR]")],
+ comp=("Chaîne en plaqué", [("Matière", "Laiton + fine dorure", "Acier inoxydable doré"), ("À la salle", "Noircit", "Reste dorée"), ("Sur la peau", "Traces vertes", "Non")]),
+ faq=[("C'est du plaqué or ?", "Non : c'est de l'acier inoxydable doré, plus résistant à l'eau."), ("Je peux me doucher avec ?", "Oui, elle est faite pour.")],
+ fin="Porte-la. Oublie-la."),
+dict(n=0, fichier="sac_cabine", acc="#1F6F8B", fond="#F3F7F9", doux="#DCEAF0",
+ bandeau="Format 40 × 30 × 20 cm : le bagage gratuit des low cost",
+ niche="Voyage low cost", h1="Pars en week-end. Ne paie plus ton bagage.",
+ sous="Un sac à dos de 24 litres, extensible, pensé pour passer sous le siège comme bagage gratuit.",
+ prix="39,90 €", ancre="ou 59,90 € avec les cubes de compression",
+ puces=["40 × 30 × 20 cm", "24 L extensible", "Compartiment ordinateur [À CONFIRMER]"],
+ photo="Le sac qui entre dans le gabarit de l'aéroport, en vidéo",
+ preuve="Les compagnies low cost font 44,7 % du trafic aérien en France (UAF).",
+ pb_titre="Les frais de bagage te coûtent cher ?",
+ pbs=[("Le bagage cabine est payant", "6 à 20 € à la réservation, à chaque vol."),
+      ("Le contrôle à la porte", "Un sac trop grand peut coûter jusqu'à 80 €."),
+      ("Les sacs qui débordent", "Tu ne sais jamais si le tien va passer.")],
+ kit_titre="Ce que tu reçois",
+ kit=[("Le sac à dos cabine", "24 L, extensible"), ("Les poches organisées", "papiers, chargeurs, affaires"),
+      ("Le guide des tailles", "compagnie par compagnie"), ("Le pack voyage", "avec 4 cubes de compression : 59,90 €")],
+ comp=("Bagage cabine payant", [("Prix", "6 à 20 € par vol", "39,90 € une fois"), ("À la porte", "Jusqu'à 80 €", "0 €"), ("Stress", "Ça passe ou pas ?", "Format gratuit")]),
+ faq=[("Ça passe chez toutes les compagnies ?", "Les règles changent : vérifie toujours la taille autorisée sur le site de ta compagnie."), ("Il tient combien de jours ?", "Avec les cubes de compression, un week-end prolongé.")],
+ fin="Le week-end commence à l'embarquement."),
+dict(n=0, fichier="cubes", acc="#5B4BB3", fond="#F6F5FC", doux="#E5E2F6",
+ bandeau="Lot de 4 cubes · Gagne de la place dans ta valise",
+ niche="Organisation de valise", h1="Toute ta semaine dans un petit sac.",
+ sous="4 cubes de rangement qui se compriment avec une fermeture éclair : tes vêtements prennent moins de place.",
+ prix="29,90 €", ancre="lot de 4 tailles",
+ puces=["Compressibles", "4 tailles", "Se rangent à plat"],
+ photo="Avant / après : la même valise, en vrac puis rangée en cubes",
+ preuve="Les compagnies low cost font 44,7 % du trafic aérien en France (UAF) : il faut voyager léger.",
+ pb_titre="Ta valise déborde ?",
+ pbs=[("Tout est en vrac", "Tu vides tout pour trouver un t-shirt."),
+      ("Ça ne ferme pas", "Tu t'assois dessus pour la fermer."),
+      ("Le bagage dépasse", "Et tu paies un supplément.")],
+ kit_titre="Dans le lot",
+ kit=[("Grand cube", "pulls, pantalons"), ("Moyen cube", "t-shirts"), ("Petit cube", "sous-vêtements"), ("Pochette", "chargeurs et câbles")],
+ comp=("Valise en vrac", [("Place", "Pleine", "Jusqu'à 2 fois plus de place [À TESTER]"), ("Rangement", "Tout mélangé", "Un cube par usage"), ("Prix", "—", "29,90 €")]),
+ faq=[("Ça froisse les vêtements ?", "Roulés dans les cubes, beaucoup moins qu'en vrac."), ("Ça va au lave-linge ?", "[À CONFIRMER AVEC LE FOURNISSEUR]")],
+ fin="Voyage léger. Range malin."),
+dict(n=0, sombre=True, fichier="lunettes_y2k", acc="#C8C8C8", fond="#0B0B0D", doux="#1D1D22",
+ bandeau="Étui à la marque offert",
+ niche="Lunettes tendance", h1="Stay in motion. All night.",
+ sous="Des lunettes à verre bouclier d'une seule pièce, style années 2000. Pour la rue, les soirées et les festivals.",
+ prix="34,90 €", ancre="étui offert",
+ puces=["Verre d'une seule pièce", "Protection UV [CATÉGORIE À CONFIRMER]", "Étui à la marque"],
+ photo="Soirée : visage éclairé par des lumières rouges, lunettes argentées",
+ preuve="Le style années 2000 revient en force sur Instagram et TikTok.",
+ pb_titre="Le look qui se remarque",
+ pbs=[("En soirée", "Le détail que tout le monde voit sur les photos."),
+      ("En festival", "Le soleil le jour, le style la nuit."),
+      ("Dans la rue", "Un style à part, sans payer une paire de créateur.")],
+ kit_titre="Ce que tu reçois",
+ kit=[("Les lunettes", "verre bouclier"), ("L'étui", "à la marque"), ("La pochette", "pour nettoyer le verre"), ("La carte", "entretien")],
+ comp=("Lunettes de créateur", [("Prix", "Plusieurs centaines d'euros", "34,90 €"), ("Style", "Années 2000", "Années 2000"), ("Étui", "Oui", "Oui, offert")]),
+ faq=[("Elles protègent du soleil ?", "Oui : marquage CE et catégorie de filtre indiqués sur la branche [À CONFIRMER]."), ("Elles vont aux femmes et aux hommes ?", "Oui, elles sont mixtes.")],
+ fin="Brille la nuit. Protège-toi le jour."),
+]
+_par_nom = {x["fichier"]: x for x in SITES + NOUVEAUX}
+_ordre = [("01_pilates", "01_pilates"), ("02_creoles_waterproof", "04_creoles_waterproof"), ("03_coffret_bijoux", "coffret"),
+          ("04_chaine_homme", "chaine"), ("05_sac_cabine", "sac_cabine"), ("06_cubes_compression", "cubes"),
+          ("07_gourde_isotherme", "09_gourde_isotherme"), ("08_gourde_filtrante", "06_gourde_filtrante"),
+          ("09_pommeau_filtrant", "05_pommeau_filtrant"), ("10_lunettes_y2k", "lunettes_y2k")]
+SITES = []
+for i, (nouveau, ancien) in enumerate(_ordre, 1):
+    d = dict(_par_nom[ancien]); d["fichier"] = nouveau; d["n"] = i; SITES.append(d)
+
 CSS = """*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;color:#221E1F;background:var(--fond)}
 h1,h2,.marque{font-family:Outfit,Inter,sans-serif}
 .w{max-width:1100px;margin:0 auto;padding:0 20px}
@@ -210,6 +309,10 @@ details{background:#fff;border-radius:14px;padding:16px 20px;margin-bottom:10px}
 .fin{background:var(--acc);color:#fff;border-radius:24px;padding:44px 24px;text-align:center;margin:48px 0}.fin h2{color:#fff;margin-bottom:10px}.fin a{display:inline-block;background:#fff;color:var(--acc);text-decoration:none;font-weight:700;padding:15px 26px;border-radius:999px;margin-top:14px}
 footer{border-top:1px solid #E6DEDA;padding:22px 0;font-size:13px;color:#55494C}footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}"""
 
+SOMBRE = """body{color:#F2F0EC}.sous,.prix span,.puces,.photo,footer{color:#C9C3BC}.preuve,h2{color:#F2F0EC}
+.cta,.panier{color:#111}.fin,.fin h2{color:#111}.fin a{background:#111;color:#F2F0EC}
+.carte,details,.tab{color:#221E1F}th:last-child,td:last-child{color:#221E1F}.kit div{background:#2A2A2A}footer{border-top-color:#333}"""
+
 def page(s):
     pbs = "".join(f'<div class="carte"><b>{e(t)}</b><p>{e(d)}</p></div>' for t, d in s["pbs"])
     kit = "".join(f'<div><b>{e(t)}</b><small>{e(d)}</small></div>' for t, d in s["kit"])
@@ -220,7 +323,7 @@ def page(s):
     return f"""<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(s['niche'])} — maquette</title>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<style>:root{{--acc:{s['acc']};--fond:{s['fond']};--doux:{s['doux']}}}{CSS}</style></head><body>
+<style>:root{{--acc:{s['acc']};--fond:{s['fond']};--doux:{s['doux']}}}{CSS}{SOMBRE if s.get('sombre') else ''}</style></head><body>
 <div class="band">{e(s['bandeau'])}</div>
 <header><div class="w"><span class="marque">[TA MARQUE]</span><a class="panier" href="#">Panier (0)</a></div></header>
 <div class="w hero"><div><div class="kick">{e(s['niche'])}</div><h1>{e(s['h1'])}</h1><p class="sous">{e(s['sous'])}</p>
