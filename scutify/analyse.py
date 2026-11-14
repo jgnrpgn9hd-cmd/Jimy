@@ -1,0 +1,862 @@
+# Analyse « méthode Scutify » (support 01 – Recherche de produits à fort potentiel) pour chaque produit.
+# Clé = nom court du produit dans produits.py.
+# Champs : cible, probleme, idee, economique, waw, unique, benefice_evident, visualise, invest_30k
+A = {
+"Aspirateur anti-acariens UV": dict(
+ cible="Personnes allergiques aux acariens, parents de jeunes enfants, propriétaires d'animaux.",
+ probleme="Nez bouché, éternuements et yeux qui piquent au réveil ; asthme. Douleur physique quotidienne.",
+ idee="Je veux permettre aux allergiques de se réveiller sans nez bouché en nettoyant eux-mêmes leur matelas et leur canapé en 10 minutes par semaine.",
+ economique="Évite un nettoyage de matelas par un pro (environ 60-100 €) et une partie des antihistaminiques achetés chaque année ; vendu 39,90 € contre 89-100 € pour les modèles de marque.",
+ waw="La vidéo du réservoir rempli de poussière sortie d'un matelas « propre ».",
+ unique="Couleur et logo à la marque (OEM), sac de rangement personnalisé.",
+ benefice_evident="Oui : on voit la poussière sortir, le bénéfice se comprend en 3 secondes.",
+ visualise="Oui : pubs avant/après du réservoir, témoignages d'allergiques, site « sommeil sain ».",
+ invest_30k="Oui : problème fréquent, qui revient toute l'année, produit démontrable en vidéo."),
+"Pommeau de douche filtrant vitamine C": dict(
+ cible="Habitants des régions à eau calcaire (Île-de-France, Nord, Est…), personnes à peau sensible ou cheveux secs/colorés.",
+ probleme="Peau qui tire et qui gratte, cheveux secs et ternes, traces de calcaire.",
+ idee="Je veux permettre aux personnes qui vivent dans une région à eau calcaire de retrouver une peau douce et des cheveux brillants sans changer de salle de bain.",
+ economique="Pommeau « économiseur d'eau » : moins d'eau chaude consommée ; moins de soins hydratants et de masques cheveux à racheter. Recharges = achat récurrent.",
+ waw="Le filtre blanc qui devient marron après quelques semaines, montré en vidéo.",
+ unique="Pommeau et boîte à la marque, abonnement recharges.",
+ benefice_evident="Oui : « eau filtrée = peau et cheveux plus doux », compris tout de suite.",
+ visualise="Oui : avant/après du filtre, témoignages cheveux, site « rituel douche ».",
+ invest_30k="Oui : produit léger, pas cher à envoyer, avec revenus récurrents grâce aux recharges."),
+"Hydropulseur sans fil": dict(
+ cible="Adultes aux gencives sensibles, porteurs d'appareil dentaire, d'implants ou de bridges.",
+ probleme="Gencives qui saignent, restes coincés entre les dents, fil dentaire pénible que personne n'utilise.",
+ idee="Je veux permettre à ceux qui détestent le fil dentaire de garder des gencives saines en 1 minute par jour.",
+ economique="Moins de soins chez le dentiste (un détartrage coûte environ 30 €, un traitement des gencives beaucoup plus) ; 32,90 € contre 60-90 € pour les marques.",
+ waw="La vidéo de ce qui sort d'entre les dents « propres ».",
+ unique="Couleur et logo à la marque, embouts de rechange vendus en plus.",
+ benefice_evident="Oui : « nettoie là où la brosse ne passe pas ».",
+ visualise="Oui : pubs vidéo choc, avis de dentistes, site santé bucco-dentaire.",
+ invest_30k="Oui : déjà 19 113 ventes chez ce fournisseur, besoin quotidien."),
+"Masseur cervical sans fil chauffant": dict(
+ cible="Télétravailleurs, étudiants et toutes les personnes qui passent des heures sur téléphone ou écran.",
+ probleme="Nuque raide et douloureuse, maux de tête de tension (« text neck »).",
+ idee="Je veux permettre aux personnes qui travaillent sur écran de soulager leur nuque chez elles, pendant qu'elles regardent une série.",
+ economique="Une séance de kiné ou d'ostéopathe coûte environ 50-70 € : le masseur est remboursé dès la première séance évitée.",
+ waw="On le pose autour du cou, impulsions + chaleur, mains libres.",
+ unique="Couleurs et logo à la marque, pochette de transport.",
+ benefice_evident="Oui : « nuque bloquée → nuque détendue ».",
+ visualise="Oui : pubs « fin de journée au bureau », témoignages, site bien-être.",
+ invest_30k="Oui : douleur très répandue, produit facile à montrer."),
+"Bouillotte aux noyaux de cerise": dict(
+ cible="Femmes aux règles douloureuses, personnes frileuses, sportifs aux muscles tendus.",
+ probleme="Douleurs de ventre et de nuque, pieds froids ; la bouillotte à eau fuit ou brûle.",
+ idee="Je veux permettre aux femmes qui souffrent pendant leurs règles d'être soulagées en 2 minutes, avec une chaleur douce et naturelle.",
+ economique="Réutilisable des centaines de fois, contrairement aux patchs chauffants jetables (environ 1-2 € pièce) ; aucun branchement.",
+ waw="La chaleur qui épouse le ventre ou la nuque ; au congélateur, elle soulage aussi à froid.",
+ unique="Tissu et étiquette à la marque, formes et motifs exclusifs.",
+ benefice_evident="Oui : « chaleur = moins de douleur ».",
+ visualise="Oui : pubs « règles douloureuses », ambiance cosy, site bien-être féminin.",
+ invest_30k="Plutôt oui : très léger et pas cher à envoyer ; à associer à d'autres produits pour un panier plus grand."),
+"Machine à bruit blanc": dict(
+ cible="Personnes au sommeil léger, voisins ou rue bruyants, conjoints qui ronflent, jeunes parents.",
+ probleme="On n'arrive pas à s'endormir ou on se réveille à cause du bruit ; fatigue le lendemain.",
+ idee="Je veux permettre aux personnes au sommeil léger de dormir d'une traite, même dans un appartement bruyant.",
+ economique="Remplace les bouchons d'oreilles jetables et les applis de sommeil payantes (environ 5-10 € par mois).",
+ waw="La vidéo « 2 minutes et il dort ».",
+ unique="Logo à la marque, sons exclusifs, coloris.",
+ benefice_evident="Oui : « le bruit est masqué, on dort ».",
+ visualise="Oui : pubs jeunes parents / voisins bruyants, site sommeil.",
+ invest_30k="Plutôt oui : marché sommeil très porteur ; produit concurrencé, il faut une marque forte."),
+"Barre lumineuse d'écran": dict(
+ cible="Télétravailleurs, étudiants, joueurs sur PC.",
+ probleme="Yeux qui piquent, maux de tête, pièce trop sombre et pas de place pour une lampe.",
+ idee="Je veux permettre aux télétravailleurs d'avoir un bureau bien éclairé, sans reflet, sans fatiguer leurs yeux.",
+ economique="Remplace une lampe de bureau ; consomme environ 5 W en USB ; 34,90 € contre 40-55 € pour les modèles de marque.",
+ waw="Le « setup » de bureau propre et lumineux avant/après.",
+ unique="Logo à la marque, finition noire ou blanche.",
+ benefice_evident="Oui : « de la lumière sur le bureau, pas sur l'écran ».",
+ visualise="Oui : pubs « setup » sur Instagram/TikTok, site télétravail.",
+ invest_30k="Plutôt oui : marché du télétravail installé ; à combiner avec d'autres accessoires de bureau."),
+"Applique murale sans fil": dict(
+ cible="Locataires, propriétaires qui ne veulent pas de travaux, jeunes qui emménagent.",
+ probleme="Pas de prise ni de point lumineux là où on en a besoin (lit, couloir, escalier), interdiction de percer.",
+ idee="Je veux permettre aux locataires d'ajouter une vraie lumière n'importe où chez eux, sans électricien ni travaux.",
+ economique="Évite de faire venir un électricien pour créer un point lumineux (souvent 100-200 €).",
+ waw="Une lumière allumée sur un mur sans aucun fil.",
+ unique="Couleurs et finitions à la marque.",
+ benefice_evident="Oui : « une applique sans fil, posée en 1 minute ».",
+ visualise="Oui : pubs avant/après d'un coin sombre, site déco.",
+ invest_30k="À confirmer : bon produit d'appel, mais à associer à d'autres luminaires pour une vraie marque."),
+"Lampe de table sans fil": dict(
+ cible="Amateurs de déco, personnes qui reçoivent, propriétaires de balcon ou terrasse.",
+ probleme="Lumière du plafonnier dure le soir, jamais de prise là où on veut une lampe.",
+ idee="Je veux permettre à chacun de créer une ambiance chaleureuse n'importe où, sans fil ni prise.",
+ economique="Pas de rallonge ni d'installation ; 29,90 € contre 48-83 € pour les lampes sans fil de marque.",
+ waw="L'ambiance « restaurant » à la maison, très photogénique.",
+ unique="Coloris exclusifs, logo à la marque.",
+ benefice_evident="Oui, mais c'est surtout un produit plaisir (besoin/passion).",
+ visualise="Oui : pubs déco très visuelles, site déco.",
+ invest_30k="À confirmer : très beau produit, problème moins fort que les autres ; idéal en complément."),
+"Kit Pilates barre + élastiques": dict(
+ cible="Femmes et hommes qui veulent se muscler et s'assouplir chez eux, sans aller en salle.",
+ probleme="Peur ou gêne de s'entraîner en salle, pas le temps, pas de matériel à la maison.",
+ idee="Je veux permettre à ceux qui n'osent pas aller en salle de faire du Pilates chez eux, avec un kit complet et un programme.",
+ economique="Un cours de Pilates coûte 20-35 € la séance, soit plusieurs centaines d'euros par an, sans compter les trajets : le kit est remboursé dès le 2e cours évité.",
+ waw="Les exercices filmés à la maison, avant/après.",
+ unique="Kit et programme à la marque, choix des coloris.",
+ benefice_evident="Oui : « la salle de Pilates à la maison ».",
+ visualise="Oui : c'est le même type de produit que l'exemple du support Scutify (kit de sport maison).",
+ invest_30k="Oui : passion + économie + problème, le cas d'école Scutify."),
+}
+
+A.update({
+"Tapis de sport épais 8 mm": dict(
+ cible="Personnes qui font du Pilates, du yoga ou du renforcement chez elles, sur du carrelage ou du parquet.",
+ probleme="Genoux, coudes et dos qui font mal au sol ; tapis fin qui glisse.",
+ idee="Je veux permettre à ceux qui s'entraînent chez eux de faire leurs exercices sans douleur aux genoux ni glissade.",
+ economique="Un seul achat pour des années, contre un abonnement en studio (Pilates 20-35 € la séance) ; 29,90 € contre 35-50 € pour les marques.",
+ waw="Coloris pastel, 8 mm d'épaisseur qui se voit en vidéo (genou qui s'enfonce).",
+ unique="Logo et coloris à la marque, sangle de transport.",
+ benefice_evident="Oui : « plus épais = plus de douleur aux genoux ».",
+ visualise="Oui : se vend en pack avec le kit Pilates et les poids (« ton coin Pilates à la maison »).",
+ invest_30k="Oui en pack ; seul il est très concurrencé. Volumineux : à expédier roulé."),
+"Poids silicone chevilles et poignets": dict(
+ cible="Femmes qui font du Pilates, de la marche ou de la danse à la maison et veulent tonifier bras et jambes.",
+ probleme="Haltères encombrants, moches et intimidants ; manque de résultats avec le poids du corps seul.",
+ idee="Je veux permettre aux femmes qui font du Pilates chez elles de tonifier bras et jambes avec de beaux bracelets lestés, sans haltères.",
+ economique="Remplace un jeu d'haltères et une partie des cours en salle ; on les porte aussi en marchant ou en faisant le ménage.",
+ waw="Bracelets pastel très photogéniques, tendance Instagram.",
+ unique="Coloris exclusifs et logo gravé.",
+ benefice_evident="Oui : « plus de résistance = plus de résultats, sans haltères ».",
+ visualise="Oui : pubs Pilates à la maison, avant/après tonification.",
+ invest_30k="Oui en gamme avec le kit Pilates et le tapis (panier moyen plus élevé)."),
+"Mini pistolet de massage": dict(
+ cible="Sportifs à la maison, coureurs, personnes qui ont des courbatures ou des muscles tendus.",
+ probleme="Courbatures et muscles durs après le sport, qui empêchent de s'entraîner le lendemain.",
+ idee="Je veux permettre à ceux qui s'entraînent de récupérer plus vite pour enchaîner leurs séances sans douleur.",
+ economique="Une séance de massage ou de kiné coûte environ 50-70 € : remboursé dès la première séance évitée.",
+ waw="Le muscle qui ondule à l'écran.",
+ unique="Logo et coloris à la marque, pochette de transport.",
+ benefice_evident="Oui : « muscle dur → muscle détendu ».",
+ visualise="Oui : pubs « après la séance », témoignages sportifs.",
+ invest_30k="Oui : complément naturel du kit Pilates (on s'entraîne, puis on récupère)."),
+"Tapis d'acupression + coussin": dict(
+ cible="Personnes stressées, au dos tendu, qui ont du mal à décrocher le soir.",
+ probleme="Dos et nuque tendus, stress, difficulté à se détendre avant de dormir.",
+ idee="Je veux permettre aux personnes stressées de détendre leur dos en 15 minutes par jour, allongées chez elles.",
+ economique="Moins de séances de massage (environ 60 € la séance) ; s'utilise tous les jours.",
+ waw="Les milliers de pointes en photo, la sensation de chaleur après quelques minutes.",
+ unique="Tissu et coloris à la marque, sac de rangement personnalisé.",
+ benefice_evident="Oui : « 15 minutes allongé = dos détendu ». À présenter comme détente, sans promesse médicale.",
+ visualise="Oui : pubs routine du soir, site bien-être.",
+ invest_30k="Plutôt oui : produit connu ; il faut une marque et un rituel pour se démarquer."),
+"Coussin lombaire mémoire de forme": dict(
+ cible="Télétravailleurs, étudiants, conducteurs : toutes les personnes assises plusieurs heures par jour.",
+ probleme="Mal au bas du dos en fin de journée, mauvaise posture sur une chaise pas faite pour ça.",
+ idee="Je veux permettre aux personnes assises toute la journée de finir leur journée sans mal de dos.",
+ economique="Évite de racheter une chaise ergonomique (150-400 €) ; une séance d'ostéo coûte environ 50-70 €.",
+ waw="L'avant/après de la posture sur une chaise.",
+ unique="Housse et coloris à la marque.",
+ benefice_evident="Oui : « dos soutenu = moins de douleur ».",
+ visualise="Oui : pubs télétravail, voiture, études.",
+ invest_30k="Plutôt oui : besoin énorme mais produit très connu ; à vendre dans la gamme soulagement."),
+"Masseur cuir chevelu électrique": dict(
+ cible="Personnes stressées, sujettes aux maux de tête de tension.",
+ probleme="Tête tendue, stress, difficulté à décrocher le soir.",
+ idee="Je veux permettre aux personnes stressées de se détendre en 5 minutes, même sous la douche.",
+ economique="Moins de massages en institut (soin du cuir chevelu 30-60 €).",
+ waw="La vidéo de la sensation sous la douche, très partagée sur TikTok.",
+ unique="Coloris et logo à la marque.",
+ benefice_evident="Oui : « massage de la tête = détente immédiate ».",
+ visualise="Oui : pubs ASMR et détente.",
+ invest_30k="À confirmer : produit plaisir, très bon en complément de la gamme soulagement."),
+})
+A["Machine à bruit blanc"]["idee"]="Je veux permettre à ceux qui s'entraînent et travaillent beaucoup de mieux récupérer en dormant d'une traite, même dans un appartement bruyant."
+
+A.update({
+"Coussin de massage shiatsu chauffant": dict(
+ cible="Personnes qui ont mal au dos et à la nuque : télétravailleurs, sportifs, conducteurs, personnes âgées.",
+ probleme="Dos et nuque douloureux en fin de journée ; massages trop chers pour en faire souvent.",
+ idee="Je veux permettre à ceux qui ont mal au dos de se faire masser chez eux, tous les soirs, pour le prix d'une seule séance.",
+ economique="Une séance de massage coûte environ 60 € : le coussin est remboursé dès la première séance évitée.",
+ waw="Les têtes rotatives lumineuses et chauffantes visibles en vidéo.",
+ unique="Coloris et housse à la marque, logo.",
+ benefice_evident="Oui : « un masseur shiatsu à la maison ».",
+ visualise="Oui : c'est le n°1 des ventes Amazon.fr dans sa catégorie, les pubs existent déjà.",
+ invest_30k="Oui : demande prouvée (n°1 Amazon), fournisseur avec 3 273 ventes."),
+"Masseur nuque et épaules chauffant": dict(
+ cible="Télétravailleurs, étudiants, sportifs, personnes stressées.",
+ probleme="Épaules et haut du dos noués, nuque raide.",
+ idee="Je veux permettre à ceux qui ont les épaules nouées de se faire masser mains libres, en travaillant ou en regardant une série.",
+ economique="Une séance de massage ou de kiné coûte environ 50-70 €.",
+ waw="Le masseur posé sur les épaules qui « pétrit » tout seul, avec la chaleur.",
+ unique="Coloris et logo à la marque.",
+ benefice_evident="Oui : « massage des épaules mains libres ».",
+ visualise="Oui : les coussins chauffants pour épaules sont dans les meilleures ventes Amazon.fr.",
+ invest_30k="Oui : besoin prouvé, prix France 27-42 €."),
+})
+P = {  # preuve que le type de produit se vend déjà (meilleures ventes / grandes enseignes)
+ "Tapis de sport épais 8 mm": "Decathlon : tapis Pilates épais HOP-SPORT 1,5-2 cm à 29 € ; tapis parmi les n°1 des ventes Amazon.fr (Pilates).",
+ "Kit Pilates barre + élastiques": "Amazon.fr : kits barre Pilates (XTTANK…) dans les meilleures ventes Pilates ; Decathlon : kit accessoires Pilates à 29,99 €.",
+ "Poids silicone chevilles et poignets": "Amazon.fr : nombreux lots 2 × 0,5 kg (14,99-39,99 €) ; GladiatorFit 32,90 € ; Decathlon : haltères parmi les plus notés (1 819 avis).",
+ "Mini pistolet de massage": "Amazon.fr : un pistolet de massage est n°1 des ventes « masseurs électriques portables ».",
+ "Masseur cervical sans fil chauffant": "Amazon.fr et Cdiscount : nombreux masseurs cervicaux en U (24,89-40,31 €).",
+ "Tapis d'acupression + coussin": "Vendu depuis des années (Tunturi 34,99 €) ; fournisseur 17 ans, 5/5 (149 avis).",
+ "Coussin de massage shiatsu chauffant": "Amazon.fr : n°1 des ventes « coussins de massage électriques » (Brelley, 35,99 €).",
+ "Bouillotte aux noyaux de cerise": "209 modèles analysés en France, prix médian 23,99 € ; Nature & Découvertes 32,95 €.",
+ "Masseur nuque et épaules chauffant": "Amazon.fr : coussins chauffants sans fil pour épaules dans les meilleures ventes massage ; Kaufland 34,95 €, ManoMano 34 €.",
+ "Machine à bruit blanc": "Amazon.fr : Momcozy (341 avis), Dreamegg, eSynic ; marché sommeil très porteur.",
+}
+for k, v in P.items():
+    if k in A: A[k]["preuve"] = v
+
+A["Genouillère chauffante à vibration"] = dict(
+ cible="Sportifs (course, Pilates, foot), personnes de plus de 45 ans qui ont de l'arthrose au genou.",
+ probleme="Genou douloureux et raide, qui empêche de s'entraîner, de monter les escaliers ou de marcher longtemps.",
+ idee="Je veux permettre aux personnes qui ont mal au genou de soulager leur douleur chez elles en 15 minutes, pour continuer à bouger.",
+ economique="Une séance de kiné coûte environ 50 € : la genouillère est remboursée dès la première séance évitée.",
+ waw="Elle chauffe et vibre en vidéo, sans fil, en regardant la télé.",
+ unique="Coloris et logo à la marque, pochette de rangement.",
+ benefice_evident="Oui : « chaleur + massage = genou soulagé ».",
+ visualise="Oui : pubs sportifs et seniors, avant/après de la marche.",
+ invest_30k="Oui : douleur forte, clientèle large (sport + seniors), produit dans les meilleures ventes Amazon.",
+ preuve="Amazon.fr : nombreuses genouillères chauffantes vendues 32,57 à 49,99 € (Comfier, AFDEAL, JinsenTGG).")
+
+A.update({
+"Ventouse électrique intelligente": dict(
+ cible="Sportifs, télétravailleurs, personnes qui ont des nœuds dans le dos, les épaules ou les cuisses.",
+ probleme="Nœuds musculaires et tensions qui font mal et limitent les mouvements.",
+ idee="Je veux permettre à ceux qui ont des nœuds musculaires de faire du cupping chez eux, sans risque et sans rendez-vous.",
+ economique="Une séance de cupping ou de massage coûte environ 50-60 € : remboursé dès la première séance évitée.",
+ waw="La ventouse qui aspire la peau et s'allume en rouge, très partagée sur TikTok.",
+ unique="Coloris et logo à la marque.",
+ benefice_evident="Oui : « elle décolle et détend le muscle ».",
+ visualise="Oui : vidéos TikTok déjà virales, pubs sportifs.",
+ invest_30k="Oui : produit tendance, très léger, marge élevée.",
+ preuve="Amazon.fr : nombreux modèles chauffants 27,99-32,99 € (Alaoo, infrarouge), FITEM 69,95 €."),
+"Étireur de dos réglable": dict(
+ cible="Personnes assises toute la journée, sportifs, personnes au dos voûté.",
+ probleme="Bas du dos bloqué, mauvaise posture, douleurs qui reviennent.",
+ idee="Je veux permettre à ceux qui ont le dos bloqué de l'étirer en 5 minutes chez eux, tous les jours.",
+ economique="Une séance d'ostéopathe coûte environ 50-70 € ; le produit coûte moins de 1 € à fabriquer.",
+ waw="La vidéo « le dos qui craque » et l'avant/après de la posture.",
+ unique="Coloris et logo à la marque, guide d'exercices.",
+ benefice_evident="Oui : « on s'allonge, le dos s'étire ».",
+ visualise="Oui : pubs avant/après posture, TikTok.",
+ invest_30k="Oui : marge très élevée, vendu chez Decathlon et Amazon.",
+ preuve="Decathlon : Endurance 20,50 €, InnovaGoods 23,90 €, Gorilla Sports 29,99 € ; Amazon.fr : SSTANGLU 34,38 €."),
+"Coussin d'équilibre gonflable": dict(
+ cible="Personnes qui font du Pilates ou du renforcement à la maison, sportifs en rééducation (chevilles, genoux).",
+ probleme="Chevilles fragiles, mauvais équilibre, gainage qui stagne.",
+ idee="Je veux permettre à ceux qui s'entraînent chez eux de renforcer leur équilibre et leurs chevilles avec un seul accessoire.",
+ economique="Remplace des séances de rééducation ; sert aussi de coussin d'assise actif au bureau.",
+ waw="Les exercices instables en vidéo, coloris pastel.",
+ unique="Coloris et logo à la marque, pompe incluse.",
+ benefice_evident="Oui : « instable = plus efficace ».",
+ visualise="Oui : se vend en pack avec le tapis, le kit Pilates et les poids.",
+ invest_30k="Plutôt oui : excellent en complément de la gamme sport.",
+ preuve="Decathlon : Gorilla Sports 26,99 €, Neolymp 31,99 €, Rovera 17,50 € ; Amazon Basics 19,88 €."),
+})
+
+A.update({
+"Pack d'élastiques de musculation": dict(
+ cible="Débutants et sportifs qui veulent se muscler chez eux, fans de Tibo InShape, personnes qui veulent réussir leurs premières tractions.",
+ probleme="Pas de place ni de budget pour des haltères ou une salle ; tractions impossibles au début.",
+ idee="Je veux permettre à ceux qui s'entraînent chez eux de travailler tout le corps avec un pack d'élastiques qui tient dans un tiroir.",
+ economique="Remplace des haltères (50-150 €) et un abonnement en salle (environ 500 €/an).",
+ waw="Les tractions assistées et les exercices complets filmés dans un salon.",
+ unique="Logo imprimé, coloris de la marque, programme offert.",
+ benefice_evident="Oui : « une salle de sport dans un tiroir ».",
+ visualise="Oui : c'est la meilleure vente de la boutique de Tibo InShape.",
+ invest_30k="Oui : demande prouvée, coût très bas, léger à envoyer.",
+ preuve="Tibo InShape (TeamShape) : élastique 13 €, pack 29,90 € ; Decathlon : lot de 3 à 19,99-25,99 €."),
+"Barre de traction de porte": dict(
+ cible="Hommes et femmes qui veulent se muscler le haut du corps à la maison.",
+ probleme="Impossible de travailler le dos et les bras sans matériel ; on ne veut pas percer les murs.",
+ idee="Je veux permettre à ceux qui s'entraînent chez eux de faire des tractions dans n'importe quelle porte, sans vis ni travaux.",
+ economique="Remplace un abonnement en salle (environ 500 €/an).",
+ waw="La barre posée en 10 secondes dans une porte, puis des tractions.",
+ unique="Poignées et logo à la marque.",
+ benefice_evident="Oui : « des tractions à la maison sans percer ».",
+ visualise="Oui : recommandée par Tibo InShape, pubs avant/après.",
+ invest_30k="À confirmer : très demandée, mais longue et lourde (livraison chère), ce que le support Scutify conseille d'éviter.",
+ preuve="Decathlon : 29,99 € (70 cm), 34,99 € (100 cm), 39,99 € (multifonction) ; recommandée par Tibo InShape."),
+})
+
+POT = {
+ "Coussin de massage shiatsu chauffant": "⭐⭐⭐ N°1 des ventes Amazon.fr (coussins de massage) ; notre prix est sous Brelley.",
+ "Mini pistolet de massage": "⭐⭐⭐ N°1 des ventes Amazon.fr (masseurs portables).",
+ "Kit Pilates barre + élastiques": "⭐⭐⭐ Meilleures ventes Pilates Amazon.fr ; tendance Pilates très forte.",
+ "Pack d'élastiques de musculation": "⭐⭐⭐ Meilleure vente de Tibo InShape et de Decathlon.",
+ "Ventouse électrique intelligente": "⭐⭐⭐ Virale sur TikTok, effet wow très fort, marge élevée.",
+ "Genouillère chauffante à vibration": "⭐⭐⭐ Très vendue sur Amazon.fr (32,57-49,99 €), clientèle large, plus grosse marge.",
+ "Étireur de dos réglable": "⭐⭐ Vendu chez Decathlon et Amazon ; vidéo « le dos qui craque ».",
+ "Tapis de sport épais 8 mm": "⭐⭐ Très demandé mais très concurrencé : à vendre en pack.",
+ "Poids silicone chevilles et poignets": "⭐⭐ Tendance Pilates, mais concurrents dès 15 € : miser sur les coloris.",
+ "Barre de traction de porte": "⭐⭐ Très demandée, mais lourde à expédier.",
+}
+for k, v in POT.items():
+    if k in A: A[k]["potentiel"] = v
+
+# ---------- Niche « Lumière d'ambiance sans fil » : problème réel + effet waouw ----------
+def _L(cible, probleme, idee, economique, waw, unique, preuve, potentiel, invest="Oui : léger, peu cher à envoyer, très visuel en vidéo."):
+    return dict(cible=cible, probleme=probleme, idee=idee, economique=economique, waw=waw, unique=unique,
+                benefice_evident="Oui : on comprend le problème et la solution en 3 secondes de vidéo.",
+                visualise="Oui : vidéo « avant (plafonnier, câbles, noir) / après (ambiance) », photos déco Instagram.",
+                invest_30k=invest, preuve=preuve, potentiel=potentiel)
+
+A.update({
+"Lampe de chevet induction sans fil": _L(
+ "Couples et jeunes actifs qui veulent une chambre « hôtel de luxe ».",
+ "Table de nuit pleine de câbles, téléphone déchargé au réveil, lampe de chevet banale.",
+ "Je veux permettre à ceux qui veulent une chambre d'hôtel chic de supprimer les câbles du chevet tout en rechargeant leur téléphone la nuit.",
+ "2 produits en 1 (lampe + chargeur induction à 20-30 €) ; 44,90 € contre 47,99-69,98 € en France.",
+ "On pose le téléphone : il charge et la lampe s'allume, sans aucun fil.",
+ "Finition métal à la marque, coloris exclusifs (noir mat, laiton).",
+ "Amazon.fr : lampes sans fil avec chargeur induction 47,99-69,98 €.",
+ "⭐⭐⭐ Double usage, gros panier, marge 34 €."),
+"Applique murale sans fil aimantée": _L(
+ "Locataires, étudiants, jeunes couples dans leur premier appartement.",
+ "Couloir ou tête de lit dans le noir, pas de point lumineux et interdiction de percer.",
+ "Je veux permettre aux locataires d'avoir des appliques d'hôtel sans percer ni appeler d'électricien.",
+ "Évite un électricien (100-200 € pour créer un point lumineux) ; 29,90 €.",
+ "Plaque collée, lampe aimantée qui tourne à 360° et s'allume au toucher.",
+ "Coloris (blanc, noir, bois) et boîte à la marque, vendue par 2.",
+ "Amazon.fr : appliques sans fil rechargeables 19,90-34,90 €.",
+ "⭐⭐⭐ Problème très concret (locataires), vendable par lot de 2."),
+"Lampe champignon sans fil": _L(
+ "Amateurs de déco cosy, 20-40 ans, qui reçoivent chez eux.",
+ "Plafonnier blanc agressif le soir, qui empêche de se détendre ; pas de prise là où on veut une lampe.",
+ "Je veux permettre à ceux qui aiment leur intérieur de créer une ambiance restaurant le soir, sans fil, partout.",
+ "29,90 € contre 48-83 € pour les lampes sans fil de marque (Bonsoirs, Fatboy…).",
+ "On éteint le plafonnier, on pose la lampe : la pièce change d'ambiance.",
+ "Coloris pastel ou chrome exclusifs, boîte cadeau.",
+ "Tendance Instagram (lampes « mushroom ») ; France 26,95-83 €.",
+ "⭐⭐⭐ Très Instagram, prix d'appel."),
+"Lampe dorée de table sans fil": _L(
+ "Couples et familles qui reçoivent, amateurs d'art de la table.",
+ "Dîner sous un plafonnier froid ; bougies qui coulent et dangereuses avec les enfants.",
+ "Je veux permettre à ceux qui reçoivent de dîner chez eux comme au restaurant, sans bougies ni câbles.",
+ "Remplace des bougies achetées chaque semaine ; 39,90 € contre environ 48 € en France.",
+ "La lampe dorée des restaurants chics au centre de la table.",
+ "Finition dorée ou laiton, vendue par 2 pour la table.",
+ "Lampes de restaurant sans fil vendues environ 47,94 € (NegoLuz).",
+ "⭐⭐ Très chic, marge 34 € ; lien à confirmer."),
+"Lampe livre en bois pliante": _L(
+ "Lecteurs, étudiants, amateurs de déco en bois.",
+ "Lire au lit sans réveiller l'autre ; lampes de bureau moches sur une étagère.",
+ "Je veux permettre aux lecteurs d'avoir une lumière douce et belle qui se range comme un livre.",
+ "35,90 € contre 23,99-48 € en France ; une lampe + un objet déco.",
+ "Fermée c'est un livre ; ouverte elle s'illumine en accordéon à 360°.",
+ "Couverture gravée au logo, cadeau personnalisable (prénom).",
+ "Amazon.fr : Yuanj 23,99 €, VORRINC 27,95 €, ZBOLE 36,99 €.",
+ "⭐⭐ Effet waouw fort, idée cadeau."),
+"Lampe coucher de soleil": _L(
+ "Ados et 18-30 ans qui font des photos, personnes qui ont le moral bas l'hiver.",
+ "Nuit à 17 h en hiver, moral en baisse ; photos ternes à la maison.",
+ "Je veux permettre à ceux qui manquent de lumière l'hiver d'avoir un coucher de soleil dans leur chambre à toute heure.",
+ "24,90 €, prix aligné sur Amazon (22,99-25,97 €).",
+ "Un coucher de soleil projeté sur le mur, idéal pour les selfies.",
+ "Boîte à la marque, filtres de couleurs exclusifs.",
+ "Amazon.fr : 22,99-25,97 €, virale sur TikTok.",
+ "⭐⭐ Viral et très bas coût ; branchée en USB."),
+"Projecteur effet vagues d'eau": _L(
+ "Personnes stressées, télétravailleurs, amateurs de relaxation.",
+ "Stress, cerveau qui tourne le soir, impossible de décrocher des écrans.",
+ "Je veux permettre aux personnes stressées de se détendre le soir en transformant leur chambre en bord de mer.",
+ "Moins cher qu'une séance de relaxation ou une appli payante ; 29,90 €.",
+ "Le plafond devient le fond d'une piscine, avec des reflets qui bougent.",
+ "Boîte à la marque, finition cristal.",
+ "Amazon.fr : 27,99-33,29 €.",
+ "⭐⭐ Vidéo hypnotisante, gros potentiel en Reels."),
+"Projecteur ciel étoilé": _L(
+ "Parents de jeunes enfants, adultes qui s'endorment mal.",
+ "Enfant qui a peur du noir, adulte qui n'arrive pas à s'endormir.",
+ "Je veux permettre aux parents de coucher leurs enfants sans pleurs grâce à un ciel étoilé apaisant.",
+ "Remplace veilleuse + machine à bruit blanc ; 34,90 €.",
+ "La chambre entière devient une galaxie.",
+ "Coloris et logo à la marque, minuterie.",
+ "Très vendu sur Amazon.fr (projecteurs galaxie 29,99-39,99 €).",
+ "⭐⭐⭐ Énorme demande (cadeau enfants et ados)."),
+"Lanterne solaire en rotin": _L(
+ "Propriétaires de balcon, terrasse ou jardin.",
+ "Extérieur dans le noir le soir, aucune prise dehors, électricien nécessaire.",
+ "Je veux permettre à ceux qui ont un balcon d'en profiter le soir sans aucune installation électrique.",
+ "Zéro électricité, zéro électricien ; 39,90 € contre 34,99-115 €.",
+ "S'allume seule à la tombée de la nuit et projette des motifs de rotin.",
+ "Rotin naturel, vendue par 2 ou 3 tailles.",
+ "France : 34,99-115 € (lanternes solaires en rotin).",
+ "⭐⭐ Saisonnier (avril-septembre).", "À confirmer : plus volumineuse, et surtout vendue au printemps et en été."),
+"Lampe photo personnalisée": _L(
+ "Toute personne qui cherche un cadeau (fête des mères, Saint-Valentin, Noël).",
+ "Ne jamais savoir quoi offrir, cadeaux sans émotion.",
+ "Je veux permettre à ceux qui manquent d'idées d'offrir un cadeau qui fait pleurer de joie.",
+ "34,90 € contre 34,90-44,90 € en France ; coût 2,56 €.",
+ "Éteinte, plaque transparente ; allumée, la photo apparaît en lumière.",
+ "Unique par nature : chaque lampe porte la photo du client.",
+ "France : Holograbme 34,90 €, Celekado 44,90 €.",
+ "⭐⭐⭐ Produit unique, marge 32 €, pics à chaque fête."),
+})
+
+# ---------- Vrais best-sellers (lignes 4 à 10) ----------
+def _B(cible, probleme, idee, economique, waw, unique, preuve, potentiel, invest="Oui : best-seller prouvé, léger, très démonstratif en vidéo."):
+    return dict(cible=cible, probleme=probleme, idee=idee, economique=economique, waw=waw, unique=unique,
+                benefice_evident="Oui : l'avant/après se comprend en 3 secondes.", visualise="Oui : vidéos avant/après, UGC TikTok, témoignages.",
+                invest_30k=invest, preuve=preuve, potentiel=potentiel)
+A.update({
+"Épilateur lumière pulsée IPL": _B("Femmes et hommes de 18 à 45 ans qui en ont marre du rasoir et de la cire.",
+ "Se raser tous les 2 jours, poils incarnés, irritations ; le laser en institut coûte plus de 1 000 €.",
+ "Je veux permettre à ceux qui détestent se raser d'avoir une peau lisse durablement, chez eux, pour le prix d'une séance d'institut.",
+ "Remplace des années de rasoirs et de cire (environ 150 €/an) et le laser en institut (1 000 € et plus).",
+ "Avant/après de la jambe lisse.", "Coloris et coffret à la marque, lunettes offertes.",
+ "Amazon.fr : Haarlosy 63,62-79,99 €, Philips Lumea 280-365 €.", "⭐⭐⭐ Best-seller beauté, gros panier."),
+"Brosse soufflante une étape": _B("Femmes aux cheveux longs, ondulés ou frisés.",
+ "Brushing long et difficile à la maison ; le coiffeur coûte 25-40 € à chaque fois.",
+ "Je veux permettre aux femmes pressées d'avoir un brushing de salon en 10 minutes chez elles.",
+ "Remboursée dès le 1er brushing évité chez le coiffeur.", "Cheveux mouillés → brushing lisse et volumineux en une seule étape.",
+ "Coloris (nude, noir et or) et pochette à la marque.", "Revlon One Step, best-seller mondial ; France 27,78-41,10 €.", "⭐⭐⭐ Best-seller mondial."),
+"Masseur cuir chevelu étanche": _B("Personnes stressées, sujettes aux maux de tête ou à la chute de cheveux.",
+ "Tête tendue par le stress, maux de tête, cuir chevelu gras ou cheveux qui tombent.",
+ "Je veux permettre aux personnes stressées de se détendre en 5 minutes par jour, même sous la douche.",
+ "Moins cher qu'un massage crânien en spa (40-60 €).", "La vidéo ASMR qui fait fermer les yeux.",
+ "Coloris pastel et logo à la marque.", "France : Livoo 25,54 €, Vulpes Goods 39,95 €.", "⭐⭐ Tendance « scalp care »."),
+"Appareil lifting microcourant": _B("Femmes de 30 à 55 ans qui veulent un visage plus ferme.",
+ "Visage fatigué, ovale qui se relâche, double menton ; soins en institut à 60-100 € la séance.",
+ "Je veux permettre aux femmes de raffermir leur visage en 5 minutes par jour, sans institut.",
+ "42,90 € contre 165-360 € pour NuFACE et FOREO BEAR.", "Routine miroir de 5 minutes, avant/après de l'ovale.",
+ "Coffret luxe à la marque.", "France : Geske 36,98 €, V-face 44,95 €, FOREO BEAR 2 305-359 €.", "⭐⭐⭐ Tendance beauté tech, image luxe."),
+"Détartreur dentaire à ultrasons": _B("Buveurs de café et de thé, fumeurs, tous ceux qui veulent un sourire net.",
+ "Tartre et taches entre deux visites chez le dentiste.",
+ "Je veux permettre à ceux qui complexent sur leur sourire de garder des dents nettes entre deux détartrages.",
+ "Un détartrage coûte environ 30 € ; un blanchiment beaucoup plus.", "Le tartre qui part en direct.",
+ "Coffret et embouts à la marque.", "France : 22,80-28,99 €.", "⭐⭐ Effet waouw très fort ; présenter comme appareil d'entretien."),
+"Brosse vapeur pour animaux": _B("Propriétaires de chats et de chiens qui perdent leurs poils.",
+ "Poils partout sur le canapé et les vêtements, animal qui déteste la brosse.",
+ "Je veux permettre aux propriétaires d'animaux d'avoir une maison sans poils en brossant leur animal 2 minutes par jour.",
+ "Moins de rouleaux adhésifs et de toilettage (30-50 € la séance).", "La brume qui capte les poils, la boule de poils qu'on retire d'un clic.",
+ "Coloris et logo à la marque.", "Zooplus : 21,99-30,49 € ; virale sur TikTok.", "⭐⭐⭐ Niche animaux très acheteuse."),
+"Pistolet haute pression sans fil": _B("Propriétaires de voiture, de balcon ou de terrasse.",
+ "Laver sa voiture coûte 10-20 € à la station ; un Kärcher est encombrant et a besoin d'une prise.",
+ "Je veux permettre aux propriétaires de voiture de la laver chez eux, sans prise, en 15 minutes.",
+ "Remboursé après 2 à 4 lavages en station.", "La voiture couverte de mousse puis rincée.",
+ "Coffret et canon à mousse à la marque.", "N°3 TikTok Shop US (3e trimestre 2026) ; France 29,99-68,28 €.", "⭐⭐⭐ Best-seller prouvé ; plus lourd.",
+ "À confirmer : très demandé, mais plus lourd à expédier."),
+})
+
+# ---------- Sommeil et alimentation ----------
+A.update({
+"Réveil lumière simulateur d'aube": _B("Tous ceux qui ont du mal à se lever, surtout l'hiver ; étudiants, travailleurs en horaires tôt.",
+ "Réveil dans le noir et en sursaut, fatigue toute la journée, déprime de l'hiver ; mauvais endormissement devant les écrans.",
+ "Je veux permettre à ceux qui détestent le réveil de se lever en douceur, avec la lumière d'un lever de soleil, même en plein hiver.",
+ "34,90 € contre 37,59-149 € pour Beurer et Philips.", "La chambre qui s'éclaire comme au lever du soleil.",
+ "Coloris et boîte à la marque.", "France : Beurer 37,59 €, Dreamegg 59,99 €, Philips 99-149 €.", "⭐⭐⭐ Problème quotidien, saison forte en hiver."),
+"Boîte repas chauffante": _B("Salariés, artisans, chauffeurs, étudiants qui mangent sur leur lieu de travail.",
+ "Pas de micro-ondes ou la queue devant ; manger dehors coûte 10-15 € par jour.",
+ "Je veux permettre aux travailleurs de manger chaud et fait maison partout, et d'économiser plus de 2 000 € par an.",
+ "Remboursée en 3 repas pris à l'extérieur.", "Le plat fumant ouvert au bureau ou dans la voiture.",
+ "Coloris et logo à la marque, sac isotherme assorti.", "France : 21,99-33,99 € (Amazon, Cdiscount).", "⭐⭐⭐ Critère économique très fort.",
+ "Plutôt oui : demande toute l'année, mais un peu volumineuse."),
+"Blender portable sans fil": _B("Sportifs, personnes au régime, actifs pressés, étudiants.",
+ "Pas le temps de manger sain, petit-déjeuner sauté, smoothies achetés à 5-7 €.",
+ "Je veux permettre aux personnes pressées de manger sain en 30 secondes, partout, sans prise.",
+ "Remboursé en moins de 6 smoothies achetés.", "Smoothie prêt en 30 secondes dans la gourde.",
+ "Coloris pastel à la marque, livret de recettes offert.", "France : H.Koenig 34,99 €, Ninja Blast 55,57 €, sans marque 28,95-59 €.", "⭐⭐⭐ Best-seller TikTok, très visuel."),
+})
+
+# ---------- Produits simples « dont tout le monde a besoin, avec quelque chose en plus » ----------
+A.update({
+"Coussin d'assise ergonomique": _B("Télétravailleurs, salariés de bureau, chauffeurs, étudiants, jeunes mamans.",
+ "Mal au bas du dos, aux fesses et au coccyx après des heures assis.",
+ "Je veux permettre à ceux qui passent leurs journées assis de rester assis sans douleur, sur n'importe quelle chaise.",
+ "Moins de séances d'ostéo ou de kiné (50-70 € la séance) ; évite d'acheter une chaise ergonomique à 300 €.",
+ "La mousse qui reprend sa forme lentement ; « enfin assis sans douleur ».", "Housse et coloris à la marque.",
+ "France : Kaufland 25,99 €, ManoMano 32,34 €, Pearl 27,95-49,95 €.", "⭐⭐⭐ Tout le monde est assis, besoin quotidien.",
+ "Oui : léger (mousse compressée), besoin quotidien pour tous."),
+"Parapluie inversé anti-vent": _B("Tout le monde, surtout les citadins et les conducteurs.",
+ "Parapluie qui se retourne au vent ; voiture, sol et vêtements trempés quand on le referme.",
+ "Je veux permettre à ceux qui détestent la pluie de rester secs et de ne plus tremper leur voiture.",
+ "Un seul parapluie qui dure au lieu d'en racheter un à chaque coup de vent.", "On le referme à l'envers : la partie mouillée reste à l'intérieur.",
+ "Toile intérieure imprimée à la marque.", "Amazon.fr : 18,99-28,99 €.", "⭐⭐ Simple et malin, pic en automne-hiver."),
+"Brosse à dents sonique": _B("Tout le monde, des ados aux adultes.",
+ "Brossage trop rapide, plaque, taches, gencives qui saignent ; les brosses de marque coûtent 50-60 €.",
+ "Je veux permettre à chacun d'avoir des dents « comme après le dentiste » tous les jours, pour le prix d'une brosse classique.",
+ "24,90 € contre 47,99-59,99 € pour une Sonicare ; moins de soins dentaires.", "La sensation de propreté dès le 1er brossage.",
+ "Coloris (blanc, noir mat, rose) et étui à la marque ; abonnement têtes de rechange.",
+ "France : génériques 19,95 €, Philips Sonicare 47,99-59,99 €.", "⭐⭐⭐ Besoin universel, ventes récurrentes."),
+"Chauffe-tasse effet bois": _B("Télétravailleurs, parents, amateurs de café et de thé.",
+ "Café ou thé froid au bout de 10 minutes, gâché ou réchauffé plusieurs fois.",
+ "Je veux permettre aux amateurs de café de profiter de leur boisson chaude jusqu'à la dernière gorgée.",
+ "Moins de boisson gâchée ; 24,90 € contre 29,99 € (Sunne) et 70-107 € en bois massif.", "La tasse encore fumante une heure après.",
+ "Effet bois, logo gravé.", "France : 12-30 € (Sunne 29,99 €), bois massif 70-107 €.", "⭐⭐ Simple, joli en photo ; minimum 100 pièces."),
+})
+
+# ---------- Univers bien-être à la maison ----------
+A.update({
+"Tapis d'acupression lin et coco": _B("Personnes stressées, télétravailleurs, sportifs, adeptes du yoga.",
+ "Stress, dos et nuque tendus, mal à s'endormir ; un massage coûte environ 60 €.",
+ "Je veux permettre aux personnes stressées de relâcher leur dos et leur esprit en 15 minutes par jour, chez elles.",
+ "Remboursé dès le 1er massage évité.", "La chaleur qui monte dans le dos ; les marques des fleurs sur la peau.",
+ "Lin et coco naturels, coloris et sac à la marque.", "France : Nature & Découvertes 49,90-59,99 €, ShaktiMat 89,99 €.", "⭐⭐⭐ Tendance bien-être, image naturelle et premium.",
+ "Plutôt oui : demande forte, mais un peu volumineux."),
+"Diffuseur effet flamme": _B("Tous ceux qui ont l'air sec avec le chauffage ; amateurs d'ambiance cosy.",
+ "Air sec (gorge, peau, yeux), bougies dangereuses avec enfants et animaux.",
+ "Je veux permettre à chacun d'avoir un air sain et une ambiance de cheminée, sans flamme ni danger.",
+ "Remplace les bougies parfumées achetées chaque mois.", "La flamme qui danse dans la brume.",
+ "Coloris bois clair ou noir mat, coffret à la marque.", "France : Pearl 19,95 €, Kaufland 29,99 €.", "⭐⭐⭐ Très Instagram, saison forte en hiver."),
+"Gourde motivante 2 L": _B("Tout le monde, surtout les femmes qui font attention à leur santé et à leur peau.",
+ "On oublie de boire : fatigue, maux de tête, peau terne ; bouteilles en plastique.",
+ "Je veux permettre à chacun de boire ses 2 litres sans y penser, grâce à une gourde qui motive heure par heure.",
+ "Fini les bouteilles en plastique (environ 150 €/an).", "Les repères d'heure, la gourde pastel en vidéo.",
+ "Couleurs et phrases de motivation à la marque.", "France : Kaufland 16,50-21,50 €, Extralink 17,89 €.", "⭐⭐ Simple, très visuel, coût très bas."),
+"Lampe de luminothérapie": _B("Tous ceux qui manquent d'énergie en hiver ; télétravailleurs, étudiants.",
+ "Nuit à 17 h, fatigue, moral bas, envie de sucre en hiver.",
+ "Je veux permettre à ceux qui subissent l'hiver de retrouver leur énergie en 20 minutes de lumière par jour.",
+ "44,90 € contre 100-130 € pour Beurer et Philips.", "La lumière d'un matin d'été au petit-déjeuner.",
+ "Design épuré, coloris à la marque.", "France : Beurer TL 100 environ 109-128 €, Philips 119 € et plus.", "⭐⭐ Saison forte d'octobre à mars."),
+"Plaid en gaze de coton": _B("Amateurs de déco cosy, couples, familles.",
+ "Plaids en polaire qui font transpirer, grattent et boulochent ; on ne s'en sert qu'en hiver.",
+ "Je veux permettre à chacun d'avoir un plaid doux et respirant, beau sur le canapé, toute l'année.",
+ "39,90 € contre 45-90 € pour les marques (ESSIX, Caresse).", "La matière froissée, très « déco » en photo.",
+ "Étiquette et emballage à la marque dès 500 pièces.", "France : ESSIX 45 €, Caresse 54,20-69 €.", "⭐⭐ Image Bonsoirs, gros panier.",
+ "Plutôt oui : léger mais un peu volumineux."),
+})
+
+# ---------- Accessoires et vêtements de sport ----------
+A.update({
+"Écouteurs sport oreilles libres": _B("Coureurs, cyclistes, marcheurs, tous ceux qui font du sport dehors.",
+ "On n'entend ni voitures ni vélos avec des écouteurs classiques ; ils tombent en courant.",
+ "Je veux permettre aux coureurs d'écouter leur musique en restant en sécurité, les oreilles libres.",
+ "39,90 € contre 137-199 € pour Shokz.", "Musique et bruits de la rue en même temps, rien dans l'oreille.",
+ "Coloris et boîte à la marque.", "France : génériques 39,99 €, Shokz OpenRun 137-199 €.", "⭐⭐⭐ Le running explose, problème de sécurité concret."),
+"Corde à sauter sans corde": _B("Personnes qui font du cardio chez elles, en appartement.",
+ "Impossible de sauter à la corde dans un appartement ; on ne sait pas ce qu'on a brûlé.",
+ "Je veux permettre à ceux qui vivent en appartement de faire du cardio dans leur salon, sans rien casser.",
+ "Remplace un abonnement en salle pour le cardio (environ 500 €/an).", "On saute sans corde, l'écran compte sauts et calories.",
+ "Coloris et logo à la marque.", "France : Decathlon 17-18,33 €, RENPHO 29,99 €.", "⭐⭐ Simple, très visuel, coût très bas."),
+"Bandes élastiques en tissu": _B("Femmes de 18 à 40 ans qui font du fitness, du Pilates ou de la musculation.",
+ "Élastiques en latex qui roulent, pincent et cassent.",
+ "Je veux permettre aux femmes de sculpter leurs fessiers chez elles avec des bandes confortables et belles.",
+ "Remplace une machine à fessiers en salle ; 24,90 € le lot de 3.", "Tissu qui ne roule pas, coloris pastel en vidéo.",
+ "Logo et coloris à la marque, pochette assortie.", "France : Decathlon 20 €, Renoj 33,54 €, Gymshark.", "⭐⭐⭐ Star d'Instagram, logo personnalisable, très léger."),
+"Legging sans couture push-up": _B("Femmes de 18 à 45 ans qui font du sport ou portent le legging au quotidien.",
+ "Leggings qui glissent, marquent et deviennent transparents.",
+ "Je veux permettre aux femmes de se sentir belles et à l'aise pendant le sport, avec un legging qui galbe et ne glisse pas.",
+ "39,90 € contre 60 € pour Gymshark.", "Avant/après de profil.",
+ "Coloris exclusifs et logo à la marque.", "France : Decathlon 38,99-45,99 €, Gymshark Lift Seamless 60 €.", "⭐⭐⭐ Énorme marché, image de marque forte.",
+ "Plutôt oui : marché énorme, mais stock par taille et retours possibles."),
+})
+
+A["T-shirt sport mixte anti-odeur"] = _B("Hommes et femmes qui font du sport : running, salle, Pilates, padel.",
+ "T-shirts de sport qui sentent mauvais même lavés, qui collent et restent mouillés.",
+ "Je veux permettre aux sportifs de rester frais et sans odeur, de la séance au reste de la journée, avec un seul t-shirt.",
+ "34,90 € contre 38,50-55 € pour Montura ou Brooks ; on le lave moins souvent, il dure plus longtemps.",
+ "Le test « sentir le t-shirt après la séance » ; le t-shirt qui sèche à vue d'œil.",
+ "Coupe mixte, coloris et logo à la marque.", "France : Odlo F-Dry 21,99-44 €, Champion 30 €, Montura 38,50-55 €, Brooks 50 €.",
+ "⭐⭐⭐ Vêtement mixte = deux fois plus de clients ; vend la marque.",
+ "Plutôt oui : marché énorme, mais stock par taille ; faire confirmer le traitement argent.")
+
+A["Lunettes de sport polarisées"] = _B("Coureurs, cyclistes, joueurs de padel et de beach-volley, hommes et femmes.",
+ "Soleil et reflets qui éblouissent ; lunettes classiques qui glissent avec la sueur et laissent passer vent et poussière.",
+ "Je veux permettre aux sportifs de voir clair en plein soleil avec des lunettes légères qui tiennent et donnent un look d'athlète.",
+ "34,90 € contre 60-180 € pour Cébé, Rudy Project ou 100%.", "Le look « athlète » des verres miroir colorés en photo.",
+ "Coloris de verres et logo sur la branche à ta marque.", "France : Decathlon dès 22 €, Cébé Terra Polar 59,76 €, Surf Monkey 64,95 €.",
+ "⭐⭐⭐ Très Instagram, mixte, léger ; se vend en plusieurs coloris.",
+ "Oui : léger et très visuel.")
+
+A.update({
+"Brassière de sport dos nu": _B("Femmes de 18 à 40 ans qui font du Pilates, du yoga ou du fitness.",
+ "Brassières qui serrent, bougent, et qu'on n'ose pas porter seules.",
+ "Je veux permettre aux femmes de se sentir belles et soutenues pendant leur séance, avec un ensemble assorti.",
+ "29,90 € contre 40-50 € chez Gymshark.", "L'ensemble brassière + legging assorti en photo.",
+ "Coloris exclusifs et logo à la marque.", "France : Decathlon environ 15-30 €, Gymshark environ 40-50 €.", "⭐⭐⭐ Se vend avec le legging (ensemble).",
+ "Plutôt oui : très demandé, mais stock par taille."),
+"Tapis Pilates PU premium": _B("Pratiquantes de Pilates et de yoga qui veulent du matériel de studio.",
+ "Tapis en mousse qui glissent, s'abîment et font bas de gamme.",
+ "Je veux permettre aux passionnées de Pilates d'avoir chez elles le tapis des studios, à moitié prix.",
+ "49,90 € contre 85-140 € pour les tapis PU et caoutchouc de marque.", "Le tapis gravé au logo, l'adhérence des mains en vidéo.",
+ "Logo gravé, lignes d'alignement (à confirmer).", "France : 85-140 € (Decathlon marketplace, Achamana).", "⭐⭐⭐ Produit premium qui fait la marque.",
+ "Plutôt oui : fort panier, mais lourd (environ 2,5 kg)."),
+})
+
+A["Chaussettes de Pilates (lot de 3)"] = _B("Femmes qui font du Pilates, du yoga ou du barre, en studio ou à la maison.",
+ "On glisse sur le tapis ou le reformer ; pieds nus pas hygiéniques en studio ; beaucoup de studios exigent des chaussettes.",
+ "Je veux permettre aux passionnées de Pilates de tenir chaque posture sans glisser, avec des chaussettes aussi belles que leur tenue.",
+ "8,30 € la paire contre 12-19 € pour Sveltus, Sissel ou Moonchild.", "Les chaussettes assorties à la tenue en photo de Pilates.",
+ "Logo brodé et coloris à la marque.", "France : Sveltus 11,99 €, Sissel 13,99 €, Moonchild 15,20-19 € la paire.",
+ "⭐⭐⭐ Besoin récurrent, très léger, renforce la marque.")
+
+# ---------- Prix de revente finaux (après baisse) ----------
+for _k, _v in {
+ "T-shirt sport mixte anti-odeur": "29,90 € contre 30-55 € pour Champion, Montura ou Brooks ; on le lave moins souvent, il dure plus longtemps.",
+ "Brassière de sport dos nu": "26,90 € contre environ 40-50 € chez Gymshark ; en ensemble avec le legging : 54,90 €.",
+ "Bandes élastiques en tissu": "Remplace une machine à fessiers en salle ; 22,90 € le lot de 3 contre 33,54 € (Renoj).",
+ "Legging sans couture push-up": "34,90 € contre 38,99 € (Decathlon) et 60 € (Gymshark).",
+ "Lunettes de sport polarisées": "29,90 € contre 60-180 € pour Cébé, Rudy Project ou 100%.",
+}.items():
+    A[_k]["economique"] = _v
+
+# T-shirt : fiche fournisseur vérifiée = séchage rapide ; l'anti-odeur reste une option à demander au sourcing.
+A["T-shirt sport séchage rapide"] = dict(A["T-shirt sport mixte anti-odeur"])
+A["T-shirt sport séchage rapide"]["unique"] = "Logo imprimé à la marque ; option anti-odeur (ions d'argent) à demander au sourcing Scutify."
+
+# Montée en gamme (13/11/2026)
+A["Legging SHINBENE taille haute"] = dict(A["Legging sans couture push-up"])
+A["Legging SHINBENE taille haute"].update(
+ economique="34,90 € contre 38,99 € (Decathlon), 60 € (Gymshark) et plus de 100 € (Lululemon Align).",
+ waw="L'ensemble brassière + legging assorti, toucher « seconde peau ».",
+ unique="Même fabricant que la brassière (SHINBENE) : ensemble assorti aux couleurs de la marque.",
+ preuve="France : Decathlon 38,99 €, Gymshark 60 €, Lululemon Align plus de 100 €.")
+A["T-shirt sport séchage rapide"]["unique"] = "T-shirt fait à ton design (logo, motif, couleurs, emballage) dès 10 pièces ; option anti-odeur à demander au sourcing."
+A["T-shirt de sport mixte à ton design"] = dict(A["T-shirt sport séchage rapide"])
+
+A["T-shirt oversize délavé (pump cover)"] = _B("Hommes et femmes de 18 à 35 ans qui vont à la salle et suivent la mode streetwear.",
+ "T-shirts de sport moulants, fins et démodés ; on veut un t-shirt qui fait style à la salle et dehors.",
+ "Je veux permettre aux sportifs d'avoir le look des marques de gym tendance, en coton épais et délavé, à un prix accessible.",
+ "32,90 € contre 34,99 € (Bulk), 58 € (Represent) et 77 € (GCDS).", "Le look oversize délavé des photos de salle sur Instagram.",
+ "Ton logo imprimé, coloris délavés exclusifs, emballage à ta marque dès 1 pièce.",
+ "France : Bulk 34,99 €, Champion 30,95-42,95 €, Represent 247 58 €, Gymshark Heavyweight Washed.",
+ "⭐⭐⭐ Tendance forte, mixte, image de marque.", "Plutôt oui : très tendance, mais stock par taille.")
+
+A["T-shirt running technique réfléchissant"] = _B("Coureurs et sportifs, hommes et femmes, qui s'entraînent tôt le matin ou le soir.",
+ "Courir dans le noir sans être vu ; t-shirts en coton lourds, trempés et qui collent.",
+ "Je veux permettre aux coureurs de s'entraîner en sécurité et au sec, avec un t-shirt technique aussi beau que celui des grandes marques.",
+ "29,90 € contre 30-38 € (Nike Dri-FIT) et 39,90 € (Kiprun Run 900).", "Le t-shirt qui s'illumine dans les phares, filmé de nuit.",
+ "Couleurs, matière et logo à la marque dès 20 pièces.", "France : Nike Dri-FIT 30-38 €, Kiprun Run 900 39,90 €.",
+ "⭐⭐⭐ Mixte, utile et visuel ; va avec les lunettes de running.")
+
+A["T-shirt d'entraînement ajusté"] = _B("Hommes et femmes qui vont à la salle, au running ou au crossfit.",
+ "T-shirts de sport trop larges, ou en coton qui colle et reste trempé.",
+ "Je veux permettre aux sportifs d'avoir un t-shirt d'entraînement ajusté, sobre et haut de gamme, au prix d'un basique.",
+ "24,90 € contre environ 20-30 € (Myprotein hors promo) et 30 € (Gymshark).", "La silhouette « athlète », look minimaliste avec petit logo.",
+ "Petit logo brodé, coloris neutres à la marque (sable, noir, kaki).", "France : Myprotein 12,50 € en promo, Gymshark environ 30 €.",
+ "⭐⭐⭐ Basique indispensable, rachat fréquent (plusieurs couleurs).")
+
+A["T-shirt d'entraînement sans couture"] = dict(A["T-shirt d'entraînement ajusté"])
+A["T-shirt d'entraînement sans couture"].update(economique="29,90 € contre environ 20-30 € (Myprotein hors promo) et 30-40 € (Gymshark sans couture).",
+ unique="Sans couture, petit logo à la marque, coloris neutres.")
+
+A.update({
+"Short 2 en 1 poche téléphone": _B("Coureurs et sportifs de salle, hommes et femmes.",
+ "Cuisses qui frottent, téléphone qui rebondit, short qui remonte.",
+ "Je veux permettre aux sportifs de courir et s'entraîner sans frottements, téléphone bien calé.",
+ "34,90 € contre environ 40 € (Gymshark) et 70 € (On).", "Le téléphone qui ne bouge pas pendant le sprint.",
+ "Logo dès 1 pièce, coloris à la marque.", "France : Decathlon environ 25 €, Gymshark environ 40 €, On 70 €.", "⭐⭐⭐ Complète la tenue running, se vend avec le t-shirt."),
+"Gobelet isotherme 1,2 L": _B("Femmes et hommes de 18 à 40 ans, à la salle, au bureau, en Pilates.",
+ "On oublie de boire, eau tiède, bouteilles en plastique.",
+ "Je veux permettre à chacun de boire assez toute la journée avec un gobelet qui garde la glace des heures, à ses couleurs.",
+ "29,90 € contre 40,78-53,56 € (Stanley Quencher) ; fini les bouteilles en plastique.", "La glace encore là après des heures ; gobelet assorti à la tenue.",
+ "Coloris exclusifs et logo à la marque.", "France : Orion 27,99 €, Stanley Quencher 40,78-53,56 €.", "⭐⭐⭐ Énorme tendance TikTok, coût très bas.",
+ "Oui : très demandé ; un peu volumineux."),
+"Sac de sport compartiment chaussures": _B("Sportifs de salle et de Pilates, hommes et femmes.",
+ "Chaussures sales et affaires mouillées mélangées aux vêtements propres, odeurs.",
+ "Je veux permettre aux sportifs de garder leurs affaires propres et rangées, avec un sac sobre à leur marque.",
+ "34,90 € contre 27,99-74,99 € chez Decathlon et jusqu'à 49,99 € sur Amazon.", "Tout rangé à sa place, compartiment chaussures en vidéo.",
+ "Logo et coloris à la marque.", "France : Amazon 21,95-49,99 €, Decathlon 27,99-74,99 €.", "⭐⭐ Utile, fait la marque ; minimum 300 sacs.",
+ "Plutôt oui : utile toute l'année, mais minimum 300 pièces."),
+"Casquette running légère": _B("Coureurs et sportifs en extérieur, hommes et femmes.",
+ "Casquettes en coton lourdes et trempées, tête qui chauffe au soleil.",
+ "Je veux permettre aux coureurs d'avoir la tête au frais avec une casquette ultra-légère à leur marque.",
+ "24,90 € contre 44,90 € (On Lightweight).", "La casquette légère du look running, avec lunettes et t-shirt.",
+ "Logo et coloris à la marque.", "France : Kiprun Ultralight 15,99 €, On Lightweight 44,90 €.", "⭐⭐ Accessoire de marque, très léger."),
+})
+
+A.update({
+"Veste coupe-vent running": _B("Coureurs hommes et femmes qui courent toute l'année.",
+ "Froid au départ puis trop chaud, vent et petite pluie.",
+ "Je veux permettre aux coureurs de sortir par tous les temps avec une veste qui ne pèse rien.",
+ "44,90 € contre 86,99-110 € (Nike) et environ 150 € (ACT Running).", "La veste qui se plie dans sa poche.",
+ "Logo et coloris à la marque.", "France : Kiprun 19,99-29,99 €, Nike 86,99-110 €, ACT Running environ 150 €.", "⭐⭐ Pièce de marque, saison automne-printemps."),
+"Haut running demi-zip": _B("Coureurs et sportifs, surtout hommes de 20 à 40 ans.",
+ "Froid au début de la sortie puis trop chaud ; t-shirts trop légers l'hiver.",
+ "Je veux permettre aux coureurs d'avoir la pièce phare des marques premium, au juste prix.",
+ "39,90 € contre environ 65 € (Nike) et 40-50 € (Myprotein).", "La silhouette « athlète » avec casquette et lunettes.",
+ "Logo et coloris à la marque.", "France : Myprotein demi-zip environ 40-50 €, Nike environ 65 €.", "⭐⭐⭐ Pièce tendance des marques running."),
+})
+
+A["Gilet d'hydratation running"] = _B("Coureurs de 10 km, semi-marathon et trail.",
+ "Soif sur les longues sorties, mains prises par la bouteille, téléphone qui saute.",
+ "Je veux permettre aux coureurs de boire et garder leur téléphone sans s'arrêter ni être gênés.",
+ "39,90 € contre 49,99-79,99 € (Kiprun) et 159,99 € (Salomon).", "Boire en courant sans s'arrêter.",
+ "Logo et coloris à la marque.", "France : Kiprun 900 Race 49,99-60 €, Proteam 79,99 €, Salomon ADV Skin 159,99 €.",
+ "⭐⭐ Équipement de passionné ; minimum 500 pièces.", "Plutôt oui : vraie demande, mais minimum 500 pièces.")
+
+A["Veste coupe-vent col montant"] = dict(A["Veste coupe-vent running"])
+A["Veste coupe-vent col montant"].update(economique="44,90 € contre 86,99-110 € (Nike) et environ 150 € (ACT Running).", unique="Marque privée : ton logo et ton étiquette.")
+A["Ensemble training demi-zip"] = _B("Hommes de 20 à 40 ans qui s'entraînent et aiment être bien habillés.",
+ "Tenues de sport dépareillées ; on veut une tenue complète qui fait propre à la salle et dehors.",
+ "Je veux permettre aux sportifs d'avoir un ensemble de training haut de gamme assorti, à moitié prix des grandes marques.",
+ "49,90 € l'ensemble contre environ 80-150 € (Nike Tech, Gymshark).", "L'ensemble assorti à ton logo en photo.",
+ "Ensemble à ta marque, coloris exclusifs.", "France : ensembles de training de marque environ 80-150 €.",
+ "⭐⭐⭐ Gros panier, très « marque ».", "Oui : panier élevé, image premium ; stock par taille.")
+
+# ---------- Niche accessoires de bureau ----------
+def _D(cible, probleme, idee, waw, unique, preuve, potentiel):
+    return _B(cible, probleme, idee, "Évite d'acheter des marques 2 à 3 fois plus chères ; bureau plus confortable = moins de douleurs.", waw, unique, preuve, potentiel)
+A.update({
+"Station de recharge 3 en 1": _D("Télétravailleurs, étudiants, gamers équipés Apple ou Android.","3 chargeurs et des câbles partout, appareils jamais chargés.",
+ "Je veux permettre à chacun d'avoir un bureau sans câbles où tout se recharge au même endroit.","Tout charge en même temps, sans un fil.","Coloris et logo à la marque.","Stations de marque environ 40-100 €.","⭐⭐⭐ Très demandé, coût bas."),
+"Sous-main XXL cuir": _D("Télétravailleurs, étudiants, amateurs de beaux bureaux.","Bureau rayé, taché, qui fait désordre.",
+ "Je veux permettre à chacun d'avoir un bureau propre et élégant en 10 secondes.","L'avant/après du bureau en photo.","Logo gravé, 2 couleurs.","France : 34,98-37,39 €.","⭐⭐⭐ Produit d'appel très visuel."),
+"Barre lumineuse d'écran RGB": dict(A.get("Barre lumineuse d'écran", {})) or _D("Télétravailleurs et gamers.","Yeux qui piquent, maux de tête.","Je veux permettre de travailler le soir sans fatiguer ses yeux.","Lumière sans reflet + ambiance RGB.","Logo à la marque.","France : 21,59-54,99 €.","⭐⭐⭐"),
+"Support PC portable aluminium": _D("Télétravailleurs et étudiants sur portable.","Nuque et dos douloureux, écran trop bas.",
+ "Je veux permettre aux télétravailleurs de garder une bonne posture partout.","L'écran à hauteur des yeux en 2 secondes.","Logo gravé.","France : 20-35 €.","⭐⭐⭐ Simple et utile."),
+"Repose-poignets mémoire de forme": _D("Personnes qui tapent toute la journée, gamers.","Poignets douloureux, tendinites.",
+ "Je veux permettre à ceux qui tapent toute la journée de garder des poignets sans douleur.","Le poignet qui s'enfonce en douceur.","Coloris assortis au sous-main.","France : Razer 24,95 €, Fellowes 19,95 €, Logitech 18,99 €.","⭐⭐ Complète le sous-main."),
+"Tapis de souris XXL personnalisé": _D("Gamers, ados et parents qui offrent.","Tapis trop petit, bureau banal.",
+ "Je veux permettre à chaque gamer d'avoir un tapis unique, à son image.","Sa propre photo sur tout le bureau.","100 % personnalisé (critère « Unique »).","Neymo Gaming : 29,90 € et 49,90 € (personnalisé).","⭐⭐⭐ Modèle prouvé par Neymo."),
+"Organiseur bambou chargeur": _D("Télétravailleurs, amateurs de déco naturelle.","Objets éparpillés, téléphone déchargé.",
+ "Je veux permettre à chacun de ranger son bureau et recharger son téléphone au même endroit.","Tout rangé et le téléphone qui charge.","Logo gravé dans le bambou.","Organiseurs en bois avec chargeur environ 30-45 €.","⭐⭐ Joli, cadeau idéal."),
+"Plateau range-câbles": _D("Tous ceux qui ont un bureau avec ordinateur.","Câbles qui pendent, multiprise par terre.",
+ "Je veux permettre à chacun d'avoir un bureau « zéro câble » sans percer.","L'avant/après zéro câble.","Coloris noir ou blanc à la marque.","Environ 20-30 €.","⭐⭐⭐ Viral (#desksetup)."),
+})
+
+A.update({
+"Souris verticale ergonomique": _B("Télétravailleurs, étudiants, gamers qui passent des heures à la souris.",
+ "Douleur au poignet, tendinite, canal carpien.",
+ "Je veux permettre à ceux qui travaillent sur ordinateur de finir leurs journées sans douleur au poignet.",
+ "Moins de kiné ; 29,90 € contre 60-90 € pour une Logitech MX Vertical.", "Avant/après de la position du poignet.",
+ "Logo à la marque.", "France : Perixx 22,99-39,99 €, Logitech MX Vertical 59,99-89,95 €.", "⭐⭐⭐ Douleur fréquente, bénéfice évident."),
+"Coussin lombaire mémoire de forme": _B("Télétravailleurs, chauffeurs, étudiants.",
+ "Bas du dos douloureux après des heures assis.",
+ "Je veux permettre à ceux qui restent assis toute la journée de garder un dos sans douleur.",
+ "Moins d'ostéo (50-70 € la séance) ; évite une chaise ergonomique à 300 €.", "Avant/après de la posture de profil.",
+ "Housse et logo à la marque.", "Coussins ergonomiques environ 25-35 €.", "⭐⭐⭐ Mal de dos = douleur n°1 du bureau."),
+"Repose-pieds ergonomique": _B("Personnes petites ou avec bureau haut, télétravailleurs.",
+ "Jambes lourdes, pieds qui ne touchent pas le sol, dos qui compense.",
+ "Je veux permettre à chacun d'être bien assis, pieds posés, sans jambes lourdes.",
+ "Évite un fauteuil ergonomique ; 29,90 €.", "Le confort immédiat en vidéo.", "Housse à la marque.", "Repose-pieds environ 25-40 €.", "⭐⭐ Complète le coussin lombaire."),
+"Lunettes anti-lumière bleue": _B("Tous ceux qui passent plus de 6 h par jour sur écran.",
+ "Yeux secs, maux de tête, mauvais sommeil.",
+ "Je veux permettre aux gens sur écran de reposer leurs yeux et de mieux dormir.",
+ "24,90 € contre 40-100 € chez l'opticien.", "Le test du filtre à la lampe bleue.", "Étui et logo à la marque.", "Environ 20-40 €.", "⭐⭐ Léger, coût très bas."),
+})
+
+A.update({
+"Bande LED rétroéclairage écran": _B("Gamers et télétravailleurs qui travaillent le soir.",
+ "Écran très lumineux dans le noir : yeux qui piquent, maux de tête.",
+ "Je veux permettre aux gamers et télétravailleurs de reposer leurs yeux le soir avec un setup qui a de l'allure.",
+ "34,90 € contre environ 30-70 € pour les marques.", "Le mur qui change de couleur avec l'écran.",
+ "Logo et packaging à la marque.", "Bandes de marque type Govee environ 30-70 €.", "⭐⭐⭐ Très viral (#desksetup)."),
+"Support casque aluminium": _B("Gamers, musiciens, télétravailleurs avec casque.",
+ "Casque qui traîne, prend la place, tombe et se casse.",
+ "Je veux permettre à chacun de ranger son casque proprement et de dégager son bureau.",
+ "22,90 € contre 36,90 € (Oehlbach).", "Le bureau dégagé, le casque mis en valeur.", "Logo gravé.",
+ "France : CC HPS-8 22,90 €, Innox 15-24 €, Oehlbach 36,90 €.", "⭐⭐ Petit prix, ajout facile au panier."),
+"Tiroir caché sous le bureau": _B("Étudiants, gamers, télétravailleurs avec petit bureau.",
+ "Pas de tiroir, petits objets qui encombrent.",
+ "Je veux permettre à chacun de gagner du rangement sans percer ni acheter de meuble.",
+ "Évite un caisson à 40-80 €.", "Le tiroir « secret » qui sort de sous le bureau.", "Coloris à la marque.",
+ "Environ 15-25 €.", "⭐⭐ Effet waouw simple, coût très bas."),
+})
+
+A.update({
+"Pegboard de bureau à pince": _B("Gamers, créateurs, télétravailleurs qui manquent de place.",
+ "Bureau encombré, objets entassés, aucune place.",
+ "Je veux permettre à chacun de libérer son bureau en rangeant tout à la verticale, sans percer.",
+ "39,90 € contre 53,99 € (StarTech).", "Le bureau qui se vide, le mur de rangement « setup pro ».",
+ "Coloris et logo à la marque.", "France : StarTech 1612B 53,99 €.", "⭐⭐⭐ Produit star des setups TikTok.",
+ "Plutôt oui : très visuel, mais minimum 200 pièces et un peu lourd."),
+"Boîte cache-multiprise": _B("Tous ceux qui ont des câbles au sol (bureau, télé).",
+ "Multiprises et câbles moches, poussière, danger enfants/animaux.",
+ "Je veux permettre à chacun de cacher multiprises et câbles en 1 minute.",
+ "Protège enfants et animaux ; 26,90 €.", "L'avant/après sous le bureau.", "Couvercle effet bois à la marque.", "Environ 20-30 €.", "⭐⭐ Avant/après très efficace."),
+"Réhausseur d'écran avec tiroir": _B("Télétravailleurs et étudiants.",
+ "Écran trop bas et pas de rangement.",
+ "Je veux permettre à chacun d'avoir l'écran à la bonne hauteur et un tiroir en plus, avec un seul produit.",
+ "34,90 € contre 39,99-49,94 €.", "Le bureau qui passe de bazar à propre.", "Bambou, logo gravé.",
+ "France : Bava 29,99 €, Relaxdays 39,99 €, StarTech 49,94 €.", "⭐⭐⭐ Deux problèmes réglés.", "Plutôt oui : utile, mais volumineux."),
+"Support vertical PC portable": _B("Télétravailleurs qui branchent leur portable sur un écran.",
+ "Portable fermé à plat qui prend la place.",
+ "Je veux permettre à chacun de gagner la moitié de son bureau en rangeant son portable debout.",
+ "22,90 € ; évite d'acheter un bureau plus grand.", "L'espace gagné en un geste.", "Logo gravé.", "Environ 15-30 €.", "⭐⭐ Coût très bas."),
+"Gaine range-câbles": _B("Tous ceux qui ont un ordinateur fixe ou une télé.",
+ "Câbles emmêlés qui pendent.",
+ "Je veux permettre à chacun de regrouper tous ses câbles en un seul, proprement.",
+ "22,90 € ; protège les câbles des animaux.", "L'avant/après « un seul câble ».", "Logo sur la gaine.",
+ "France : cache-câbles 19,39-24,27 €, gaines pro jusqu'à 39,90 €.", "⭐⭐ Simple ; minimum 500 pièces."),
+})
+
+# ---------- Angle Instagram de chaque produit (rangement du setup) ----------
+_INSTA = {
+ "Tiroir caché sous le bureau": "Vidéo POV : la main tire le tiroir « secret » de sous un bureau tout propre (format Reel 7 s).",
+ "Pegboard de bureau à pince": "Photo du setup de face : pegboard noir mat avec casque, plante, pots en bois — le visuel star de #desksetup.",
+ "Plateau range-câbles": "Avant/après en vue de dessous : nid de câbles → plateau propre, zéro câble visible depuis la chaise.",
+ "Boîte cache-multiprise": "Avant/après au sol : multiprise poussiéreuse → boîte effet bois, ambiance cosy.",
+ "Réhausseur d'écran avec tiroir": "Photo symétrique du bureau : écran surélevé sur bambou, clavier rangé dessous, lumière chaude.",
+ "Support casque aluminium": "Gros plan produit : casque posé sur l'arche alu noir mat, fond flou du setup.",
+ "Support vertical PC portable": "Timelapse : le portable passe de « à plat » à « debout », le bureau se libère.",
+ "Gaine range-câbles": "Avant/après derrière le bureau : 6 câbles emmêlés → un seul câble gainé.",
+ "Organiseur bambou chargeur": "Flat lay vu du dessus : bambou, téléphone qui charge, stylos, montre — esthétique minimaliste.",
+ "Station de recharge 3 en 1": "Photo de nuit : téléphone, montre et écouteurs alignés sur la station, lumière d'ambiance.",
+}
+for _k, _v in _INSTA.items():
+    if _k in A: A[_k]["waw"] = _v
+
+# ---------- Lignes 6 à 10 : un produit par niche choisie par Jairo ----------
+A.update({
+"Rasoir de sûreté zéro déchet": _B("Hommes et femmes de 20 à 40 ans sensibles à l'écologie et au style.",
+ "Rasoirs jetables qui polluent, recharges hors de prix (3-4 € la lame), irritations.",
+ "Je veux permettre à chacun de se raser sans plastique et pour 10 fois moins cher, avec un bel objet qui dure toute la vie.",
+ "Lame à 0,20 € contre 3-4 € la recharge : rentabilisé en 3 mois.", "Le rasoir rose gold posé dans une salle de bain minimaliste.",
+ "Logo gravé, coffret kraft, abonnement lames.", "France : rasoirs de sûreté 19-35 €.", "⭐⭐⭐ Rachat de lames = clients récurrents."),
+"Bouillotte rechargeable velours": _B("Femmes de 16 à 40 ans, frileuses ou avec des règles douloureuses.",
+ "Froid l'hiver, douleurs de règles, bouillotte à eau qui fuit ou brûle.",
+ "Je veux permettre à chacun d'avoir chaud et d'apaiser ses douleurs en 10 minutes, sans eau bouillante.",
+ "Moins cher que monter le chauffage ; remplace les antidouleurs pour certaines.", "Ambiance cosy : plaid, bougie, bouillotte velours.",
+ "Couleurs pastel, housse brodée au logo.", "France : bouillottes électriques 20-30 €.", "⭐⭐ Saisonnier (octobre-mars), coût très bas."),
+"Baguette lumière rouge visage": _B("Femmes de 25 à 50 ans qui veulent une peau plus ferme et éclatante.",
+ "Rides, teint terne, poches ; la LED en institut coûte 50-90 € la séance.",
+ "Je veux permettre aux femmes d'avoir le soin LED d'institut chez elles, en 5 minutes par jour, pour le prix d'une seule séance.",
+ "49,90 € contre 50-90 € la séance en institut.", "Le visage éclairé en rouge : visuel viral de TikTok skincare.",
+ "Coffret premium, programme de soin 30 jours.", "France : baguettes LED 49-150 €, Solawave plus de 100 €.", "⭐⭐⭐ Tendance forte, gros panier. Pas de promesse médicale."),
+"Paille filtrante randonnée": _B("Randonneurs, campeurs, voyageurs de 20 à 45 ans.",
+ "Porter 2-3 L d'eau est lourd ; l'eau des ruisseaux peut rendre malade.",
+ "Je veux permettre aux randonneurs de boire l'eau de la nature sans risque et de marcher plus léger.",
+ "Remplace des dizaines de bouteilles d'eau ; moins cher que LifeStraw.", "Vidéo : on boit directement dans la rivière.",
+ "Couleurs nature, étui à la marque, packs famille.", "France : LifeStraw 19,90-39,95 €.", "⭐⭐⭐ Exemple même du support Scutify, léger."),
+"Kit gua sha quartz rose": _B("Femmes de 18 à 40 ans fans de skincare et de self-care.",
+ "Visage gonflé au réveil, mâchoire tendue, besoin d'un moment pour soi.",
+ "Je veux permettre aux femmes de dégonfler leur visage et de se détendre en 5 minutes par jour, avec un rituel beau et simple.",
+ "29,90 € contre 60-80 € un massage visage en institut.", "Pierres roses dans un coffret, rituel du matin en vidéo.",
+ "Coffret luxe au logo, guide du rituel.", "France : Sephora 14,99-17,99 €, coffrets 25-50 €.", "⭐⭐ Idée cadeau, très instagrammable."),
+})
+
+A.update({
+"Coussin lombaire télétravail": _B("Télétravailleurs de 25 à 50 ans qui travaillent depuis chez eux sur une chaise normale.",
+ "Mal au bas du dos après une journée de télétravail sur une chaise de cuisine ; une chaise ergonomique coûte 300 €.",
+ "Je veux permettre aux télétravailleurs de finir leur journée sans mal de dos, sans acheter une chaise ergonomique à 300 €.",
+ "29,90 € contre 300 € la chaise ergonomique ou 50-70 € la séance d'ostéo.", "Avant/après de la posture de profil, la mousse qui reprend sa forme.",
+ "Housse aux couleurs de la marque, pack télétravail avec repose-pieds.", "France : coussins lombaires environ 25-35 €.",
+ "⭐⭐⭐ Demande réelle : 22 % des salariés télétravaillent (DARES 2024)."),
+})
+
+A.update({
+"Rasoir de sûreté laiton noir mat": _B("Hommes et femmes de 20 à 40 ans, soucieux du style et de l'écologie.",
+ "Rasoirs jetables qui polluent, recharges hors de prix, irritations.",
+ "Je veux permettre à chacun de se raser sans plastique et 10 fois moins cher, avec un bel objet en laiton qui dure toute la vie.",
+ "Lame à 0,20 € contre 3-4 € la recharge.", "Rasoir laiton noir mat dans une salle de bain minimaliste.",
+ "Logo gravé, boîte rigide, abonnement lames.", "France : rasoirs de sûreté 19-35 €.", "⭐⭐⭐ Rachat de lames = clients récurrents."),
+"Coussin lombaire velours": _B("Télétravailleurs de 25 à 50 ans.",
+ "Mal au bas du dos après une journée de télétravail sur une chaise normale.",
+ "Je veux permettre aux télétravailleurs de finir leur journée sans mal de dos, sans acheter une chaise à 300 €.",
+ "29,90 € contre 300 € la chaise ergonomique.", "Coussin velours beige sur une chaise design, avant/après de la posture.",
+ "Housse velours couleur sable, logo brodé.", "France : 25-35 €.", "⭐⭐⭐ 22 % des salariés télétravaillent (DARES 2024)."),
+"Gourde filtrante inox": _B("Randonneurs, campeurs, voyageurs de 20 à 45 ans.",
+ "Porter 2-3 L d'eau est lourd ; l'eau des sources peut rendre malade.",
+ "Je veux permettre aux randonneurs de boire l'eau de la nature sans risque, avec une gourde belle et durable.",
+ "Moins chère que LifeStraw inox (environ 40 €), remplace les bouteilles en plastique.", "On remplit la gourde inox dans une rivière et on boit.",
+ "Inox brossé vert sauge ou sable, logo gravé.", "France : LifeStraw Go inox environ 40 €.", "⭐⭐⭐ 30 millions de randonneurs (FFRandonnée 2025)."),
+})
+
+A.update({
+"Brosse vapeur pour chat": _B("Propriétaires de chats de 20 à 50 ans.",
+ "Poils partout sur le canapé et les vêtements, brossage qui stresse le chat.",
+ "Je veux permettre aux propriétaires de chats de ne plus avoir de poils partout, en 2 minutes de brossage par jour.",
+ "Moins de rouleaux adhésifs et de passages d'aspirateur.", "Avant/après de la brosse pleine de poils, chat détendu.",
+ "Coloris pastel, logo, guide de brossage.", "France : environ 15-30 € (non revérifié).", "⭐⭐⭐ Énorme marché des animaux, produit viral."),
+"Sachets silicone réutilisables": _B("Familles et jeunes actifs de 25 à 45 ans qui cuisinent et veulent moins de plastique.",
+ "Sacs congélation et films plastique jetés tous les jours.",
+ "Je veux permettre aux familles de conserver leurs aliments sans plastique jetable, avec des sachets qui durent des années.",
+ "Remplace des centaines de sacs jetables par an.", "Frigo rangé aux couleurs pastel.",
+ "Couleurs à la marque, logo, lots de 4 et 8.", "France : Stasher environ 15-20 € le sachet (non revérifié).", "⭐⭐ Tendance zéro déchet, rachat en lots."),
+"Masseur cuir chevelu": _B("Femmes et hommes de 20 à 45 ans stressés ou sujets aux maux de tête.",
+ "Tensions, stress, maux de tête ; un head spa coûte 50-90 €.",
+ "Je veux permettre à chacun de se détendre en 5 minutes par jour avec un massage du cuir chevelu chez soi.",
+ "29,90 € contre 50-90 € le head spa en institut.", "Vidéo ASMR sous la douche.",
+ "Coffret blanc ou noir mat, logo.", "France : environ 25-40 € (non revérifié).", "⭐⭐⭐ Tendance head spa, léger, cadeau idéal."),
+})
