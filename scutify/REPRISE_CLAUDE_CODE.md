@@ -201,3 +201,7 @@ Lignes 1-5 inchangées. À faire confirmer : minimum 500 pièces pour la baguett
 Chaque produit des lignes 6-10 part maintenant d'une pratique réelle des Français (ligne « DEMANDE » dans l'argument).
 Ligne 7 : bouillotte remplacée par le coussin lombaire pour le télétravail (22 % des salariés, DARES 2024).
 Rando : 30 millions de randonneurs en 2025 (FFRandonnée).
+
+## « Pas de produits qui font chinois »
+Ligne 6 : rasoir Haward laiton noir mat (1600349040668). Ligne 7 : coussin lombaire housse velours WM-08211 (60747546667).
+Ligne 9 : gourde filtrante inox 304 (1601125828345) à la place de la paille plastique. Lignes 8 et 10 gardées (pas de version alu < 15 € trouvée pour la baguette ; gua sha déjà en coffret luxe).

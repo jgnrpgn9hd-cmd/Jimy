@@ -73,37 +73,36 @@ rows=[('Kit barre Pilates 13 pièces + élastiques + programme — Niche : Pilat
   'cm qui couvre clavier et souris, glisse fluide, base antidérapante. Unique : le client met sa photo ou son dessin. Waouw : la transformation du setup en vidéo. Prix en France : Neymo 29,90 € '
   '(dessin) et 49,90 € (personnalisé) → 34,90 €. Fournisseur Xiamen Xydan : 2,16-3,58 $ (coût calculé sur 3,58 $), minimum 10 pièces.',
   'Tapis de souris XXL personnalisé'),
- ('Rasoir de sûreté zéro déchet métal rose gold + lames — Niche : Produit éco-responsable et durable',
-  'https://www.alibaba.com/product-detail/Custom-Logo-Eco-Reusable-Metal-Shaving_1601237221734.html',
+ ('Rasoir de sûreté en laiton noir mat, fabricant spécialisé (Haward) — Niche : Produit éco-responsable et durable',
+  'https://www.alibaba.com/product-detail/Private-label-double-edge-safety-razor_1600349040668.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  3.18,
+  5.16,
   7,
-  24.9,
-  'DEMANDE : des millions de Français se rasent chaque semaine et la loi anti-gaspillage (AGEC) pousse à sortir du plastique jetable. Problème : 2 milliards de rasoirs '
-  'jetables jetés par an et des recharges Gillette à 3-4 € la lame. Solution : un rasoir métal à vie, lames à 0,20 €. Effet waouw : bel objet rose gold dans la salle de bain. Prix France : rasoirs '
-  'de sûreté 19-35 €. Fournisseur : 2,90-3,70 $, minimum 100 pièces, plus de 36 000 vendus.',
-  'Rasoir de sûreté zéro déchet'),
- ('Coussin lombaire mémoire de forme pour le télétravail — Niche : Maison et confort (télétravail)',
-  'https://www.alibaba.com/product-detail/High-Quality-Memory-Foam-Lumbar-Cushion_1601388102740.html',
+  29.9,
+  'DEMANDE : des millions de Français se rasent chaque semaine et la loi anti-gaspillage (AGEC) pousse à sortir du plastique jetable. LOOK PREMIUM : laiton lourd noir mat (ou rose gold mat), logo '
+  'gravé, boîte rigide. Problème : rasoirs jetables qui polluent, recharges à 3-4 € la lame. Prix France : rasoirs de sûreté 19-35 €. Fournisseur Ningbo Haward (fabricant spécialisé du rasoir) : 6 $ '
+  '(1-499 pièces).',
+  'Rasoir de sûreté laiton noir mat'),
+ ('Coussin lombaire mémoire de forme, housse velours amovible — Niche : Maison et confort (télétravail)',
+  'https://www.alibaba.com/product-detail/Orthopedic-lumbar-support-memory-foam-cushion_60747546667.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  5.76,
+  5.16,
   6,
   29.9,
-  'DEMANDE : environ 22 % des salariés du privé télétravaillent (DARES 2024, contre 4 % en 2019), souvent sur une chaise de cuisine qui ne soutient pas le dos. Problème : bas du dos douloureux après '
-  "des heures assis, dos voûté sur une chaise qui ne soutient pas. Solution : le coussin épouse le creux du dos et redresse la posture. Économique : moins de séances d'ostéo (50-70 €), évite une "
-  "chaise ergonomique à 300 €. Waouw : la mousse qui reprend sa forme, l'avant/après de la posture de profil. Prix en France : coussins ergonomiques environ 25-35 € (non revérifié) → 29,90 €. "
-  'Fournisseur Nantong Art : 6,70 $ (100-499 pièces).',
-  'Coussin lombaire télétravail'),
+  'DEMANDE : environ 22 % des salariés du privé télétravaillent (DARES 2024, contre 4 % en 2019), souvent sur une chaise de cuisine. LOOK PREMIUM : housse velours doux (pas de filet gris), coloris '
+  'beige/sable à demander, logo brodé. Problème : mal au bas du dos ; une chaise ergonomique coûte 300 €. Prix France : 25-35 €. Fournisseur Nantong (modèle WM-08211) : 6 $ dès 300 pièces, fiche '
+  'vérifiée.',
+  'Coussin lombaire velours'),
  ('Baguette lumière rouge 4 en 1 (LED 630 nm, microcourant, chaleur, vibration) — Niche : Produit à base de lumière rouge',
   'https://www.alibaba.com/product-detail/4-in-1-Red-Light-Therapy_1601570406236.html',
   'OUI',
@@ -119,21 +118,20 @@ rows=[('Kit barre Pilates 13 pièces + élastiques + programme — Niche : Pilat
   'séance de LED en institut coûte 50-90 €. Solution : soin LED 5 min par jour chez soi. Effet waouw : le visage éclairé en rouge, le visuel star de TikTok skincare. Prix France : baguettes LED '
   '49-150 € (Solawave plus de 100 €). Fournisseur : 13,50 $ dès 500 pièces (à négocier).',
   'Baguette lumière rouge visage'),
- ('Paille filtrante randonnée (99,999 % des bactéries) — Niche : Nature, randonnée et outdoor',
-  'https://www.alibaba.com/product-detail/Mini-Camping-Straw-Water-Filter-for_62134252936.html',
+ ('Gourde filtrante inox 304 au charbon actif — Niche : Nature, randonnée et outdoor',
+  'https://www.alibaba.com/product-detail/Factory-Price-304-Stainless-Steel-Portable_1601125828345.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  6.88,
+  8.51,
   8,
-  29.9,
-  'DEMANDE : environ 30 millions de Français ont randonné en 2025 (62 % de la population, +3 millions depuis 2021), dont 8 millions en itinérance (FFRandonnée). Problème : en rando, porter 2-3 L '
-  "d'eau est lourd et l'eau des ruisseaux est risquée. Solution : boire directement à la source, 1 500 L filtrés. Effet waouw : vidéo où l'on boit dans une rivière. Exemple cité dans le support "
-  'Scutify. Prix France : LifeStraw 19,90-39,95 €. Fournisseur Youber : 8 $ (2-9 999 pièces), fiche vérifiée.',
-  'Paille filtrante randonnée'),
+  34.9,
+  'DEMANDE : environ 30 millions de Français ont randonné en 2025 (FFRandonnée). LOOK PREMIUM : inox brossé, couleurs nature (vert sauge, sable, noir mat), logo gravé — fini le plastique « kit de '
+  "survie ». Problème : porter 2-3 L d'eau et boire l'eau des sources sans risque. Prix France : LifeStraw Go inox environ 40 €. Fournisseur : 9,90 $ (3-499 pièces).",
+  'Gourde filtrante inox'),
  ('Kit rouleau + gua sha quartz rose en coffret — Niche : Bien-être et soins de soi',
   'https://www.alibaba.com/product-detail/Dropshipping-High-quality-Natural-Private-label_62431944790.html',
   'OUI',

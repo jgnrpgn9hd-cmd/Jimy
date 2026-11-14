@@ -824,3 +824,21 @@ A.update({
  "Housse aux couleurs de la marque, pack télétravail avec repose-pieds.", "France : coussins lombaires environ 25-35 €.",
  "⭐⭐⭐ Demande réelle : 22 % des salariés télétravaillent (DARES 2024)."),
 })
+
+A.update({
+"Rasoir de sûreté laiton noir mat": _B("Hommes et femmes de 20 à 40 ans, soucieux du style et de l'écologie.",
+ "Rasoirs jetables qui polluent, recharges hors de prix, irritations.",
+ "Je veux permettre à chacun de se raser sans plastique et 10 fois moins cher, avec un bel objet en laiton qui dure toute la vie.",
+ "Lame à 0,20 € contre 3-4 € la recharge.", "Rasoir laiton noir mat dans une salle de bain minimaliste.",
+ "Logo gravé, boîte rigide, abonnement lames.", "France : rasoirs de sûreté 19-35 €.", "⭐⭐⭐ Rachat de lames = clients récurrents."),
+"Coussin lombaire velours": _B("Télétravailleurs de 25 à 50 ans.",
+ "Mal au bas du dos après une journée de télétravail sur une chaise normale.",
+ "Je veux permettre aux télétravailleurs de finir leur journée sans mal de dos, sans acheter une chaise à 300 €.",
+ "29,90 € contre 300 € la chaise ergonomique.", "Coussin velours beige sur une chaise design, avant/après de la posture.",
+ "Housse velours couleur sable, logo brodé.", "France : 25-35 €.", "⭐⭐⭐ 22 % des salariés télétravaillent (DARES 2024)."),
+"Gourde filtrante inox": _B("Randonneurs, campeurs, voyageurs de 20 à 45 ans.",
+ "Porter 2-3 L d'eau est lourd ; l'eau des sources peut rendre malade.",
+ "Je veux permettre aux randonneurs de boire l'eau de la nature sans risque, avec une gourde belle et durable.",
+ "Moins chère que LifeStraw inox (environ 40 €), remplace les bouteilles en plastique.", "On remplit la gourde inox dans une rivière et on boit.",
+ "Inox brossé vert sauge ou sable, logo gravé.", "France : LifeStraw Go inox environ 40 €.", "⭐⭐⭐ 30 millions de randonneurs (FFRandonnée 2025)."),
+})
