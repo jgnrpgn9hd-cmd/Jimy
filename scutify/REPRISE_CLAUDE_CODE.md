@@ -277,3 +277,5 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 14/11/2026 — Suite recherche : plaque NFC avis Google (GO, 1601208042548), médaille NFC animal (à tester, 1600053434071), plaque Spotify (NON)
 
 ## 14/11/2026 — Tableau final USA : carte NFC n° 1 + produits d avant (7 verts, traction à tester, kit dos NON). Ancienne version : ANALYSE_USA_GENERAL_v1_animaux_nfc.md
+
+## 14/11/2026 — ANALYSE_PRODUITS_INNOVANTS.md : 10 produits hors du commun ; recommandation kit pochettes verrouillables 39,90 € (gain 22,90 €)
