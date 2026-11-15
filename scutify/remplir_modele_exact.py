@@ -72,6 +72,11 @@ for n in range(4, 16):
 xml = xml.replace('<mergeCell ref="U4:U5"/>', '')
 xml = re.sub(r'<mergeCells count="(\d+)"', lambda m: f'<mergeCells count="{int(m.group(1)) - 1}"', xml, count=1)
 
+# Colonnes N à T (points de la note) : c'est la coach qui les remplit, on les laisse vides (style conservé).
+for n in range(6, 16):
+    for col in "NOPQRST":
+        xml = re.sub(rf'<c r="{col}{n}" s="(\d+)"(?: t="\w+")?(?:/>|>.*?</c>)', lambda m: f'<c r="{col}{n}" s="{m.group(1)}"/>', xml, count=1, flags=re.S)
+
 # Lien Alibaba visible en entier : colonne C plus large, retour à la ligne automatique, lignes 6-15 plus hautes.
 LARGEUR_C, HAUTEUR = "50.0", "54.0"
 STYLES = "xl/styles.xml"
