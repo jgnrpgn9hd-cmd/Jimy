@@ -352,3 +352,10 @@ Porte-cartes retiré. Chemise Oxford retirée (coupe pas oversize).
 Collection : t-shirt oversize 240 g (1601269043057), t-shirt 250 g (1600928907355, coupe droite), sweat à capuche 3D (1600347472870),
 sweat zippé boxy (1601590727563, 12,46 $ MOQ 50 → 49,90 €, gain ≈ 29,09 €), sweat col rond 450 g oversize (1600274136737, 11,90 $ MOQ 100 → 44,90 €, gain ≈ 24,73 €),
 jogging 400 g jambe large (1601293233463). + pommeau, lunettes = 8. Manque 2 (pistes : t-shirt manches longues oversize, surchemise oversize).
+
+## Étape — VAURE : look net, pas délavé
+Règle de Jairo : pas « clochard », pas délavé (pas de vintage wash, acid wash, distressed, bords bruts).
+Retirés : sweat zippé 1601590727563 (« Vintage Wash Finish »), jogging 1601293233463 (« Distress », jaune).
+Remplacés par : sweat zippé uni 100 % coton oversize 1600947092413 (14,37 $ MOQ 20 → 49,90 €, gain ≈ 27,45 €),
+jogging molleton uni coupe ample 1601254248379 (12,35 $ MOQ 50 → 49,90 €, gain ≈ 29,19 €).
+Sweat 3D 1600347472870 : « vintage » seulement dans le titre, modèle uni → couleurs unies à commander.
