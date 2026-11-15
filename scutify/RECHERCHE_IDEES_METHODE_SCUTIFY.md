@@ -17,8 +17,8 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 | 2 | Accessoires homme · ne plus être ébloui | [Lunettes de soleil UV400](https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html) | 0,75 € | 34,90 € | 34,15 € | 6,0 |
 | 3 | Mode homme · avoir un t-shirt oversize qui tombe bien | [T-shirt oversize 240 g](https://www.alibaba.com/product-detail/Custom-Logo-240g-Cotton-T-Shirt_1601269043057.html) | 3,84 € | 34,90 € | 31,06 € | 6,75 |
 | 4 | Mode homme · avoir un t-shirt qui ne se déforme pas | [T-shirt épais 250 g](https://www.alibaba.com/product-detail/Heavyweight-Tshirt_1600928907355.html) | 5,80 € | 34,90 € | 29,10 € | 8,25 |
-| 5 | Maison · garder ses plantes en vie sans y penser | [Pot à réserve d'eau](https://www.alibaba.com/product-detail/Leizisure-Self-watering-Pots-Manufacture-Indoor_60802490966.html) | 4,30 € | 34,90 € | 30,60 € | 8,25 |
-| 6 | Maison · doubler la place dans sa penderie | [Cintres velours + crochets en cascade](https://www.alibaba.com/product-detail/Black-Non-slip-Flocked-Velvet-Hanger_1600222821866.html) | 2,84 € | 34,90 € | 32,06 € | 5,25 |
+| 5 | Maison · garder ses plantes en vie sans y penser | [Pot à réserve d'eau](https://www.alibaba.com/product-detail/Pack-of-3-White-Decorative-Plastic_1600135015737.html) | 6,87 € | 39,90 € | 33,03 € | 8,25 |
+| 6 | Maison · rendre les joints de carrelage blancs comme neufs | [Kit stylos pour joints](https://www.alibaba.com/product-detail/Grout-Pen-White-4pcs-Waterproof-Grouting_1600121068779.html) | 1,39 € | 29,90 € | 28,51 € | 6,75 |
 | 7 | Maison · ranger couettes et vêtements d'hiver en prenant 3 fois moins de place | [Sacs sous vide + pompe](https://www.alibaba.com/product-detail/8-Packs-Space-Saver-Plastic-Vacuum_1600116022034.html) | 4,13 € | 34,90 € | 30,77 € | 6,75 |
 | 8 | Mode homme · avoir un sweat qui ne bouloche pas | [Sweat à capuche épais](https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html) | 8,51 € | 49,90 € | 41,39 € | 4,5 |
 | 9 | Maison · avoir un beau tapis toujours propre | [Tapis lavable en machine](https://www.alibaba.com/product-detail/Wholesale-Custom-Area-Rug-Modern-Washable_11000039435438.html) | 11,55 € | 49,90 € | 38,35 € | 7,0 |
@@ -144,7 +144,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 
 ## 5. Maison · garder ses plantes en vie sans y penser — Pot à réserve d'eau
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Leizisure-Self-watering-Pots-Manufacture-Indoor_60802490966.html) · coût 4,30 € (5,0 $ × 0,86) · revente 34,90 € · marge 30,60 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Pack-of-3-White-Decorative-Plastic_1600135015737.html) · coût 6,87 € (7,99 $ × 0,86) · revente 39,90 € · marge 33,03 €
 
 | Étape | Réponse |
 |---|---|
@@ -161,44 +161,44 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Besoin / passion | OUI : les plantes, la déco. |
 | Effet wow | Le petit flotteur qui montre le niveau d'eau ; la plante reste verte 3 semaines sans arrosage. |
 | Unique | NON : pot générique, beaucoup de modèles semblables existent. |
-| Poids / volume | Colis de 500 g. |
+| Poids / volume | Colis d'environ 1 kg. |
 | 1. Répond aux critères principaux ? | Bien : problème du quotidien qui dure toute l'année. |
 | 2. Bénéfice évident au premier regard ? | Oui : la démonstration se comprend en quelques secondes. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, comparaison avec la marque connue. |
 | 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : énorme communauté plantes sur Pinterest et TikTok, cadeau facile. |
 | Prix en France | Lechuza Classico Color 28 : 38,49 € (Kaufland) ; Lechuza D.21 : 69,12 € (Leroy Merlin). |
 | Angle pub / Instagram | La plante fanée du voisin à côté de la plante verte dans le pot à réserve, avec le flotteur qui monte. |
-| Fournisseur | Zhejiang Leizisure : 5 $ (20 à 999), 4,50 $ dès 1 000 ; sourcing par Scutify. |
+| Fournisseur | Hangzhou EDAR International : lot de 3 pots 7,99 $ (7,59 $ dès 5 000 lots) ; sourcing par Scutify. |
 | À vérifier | Vérifier l'étanchéité et la clarté de l'indicateur sur échantillon ; ne pas promettre une durée précise sans test. |
 
-## 6. Maison · doubler la place dans sa penderie — Cintres velours + crochets en cascade
+## 6. Maison · rendre les joints de carrelage blancs comme neufs — Kit stylos pour joints
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Black-Non-slip-Flocked-Velvet-Hanger_1600222821866.html) · coût 2,84 € (3,3 $ × 0,86) · revente 34,90 € · marge 32,06 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Grout-Pen-White-4pcs-Waterproof-Grouting_1600121068779.html) · coût 1,39 € (1,62 $ × 0,86) · revente 29,90 € · marge 28,51 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Les marques de rangement qui vendent des lots de cintres fins en velours. |
+| Boutique modèle | Rubson : la marque de référence des joints et mastics en France. |
 | Demande en France | Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et moins cher. |
-| Observation | Les vidéos « closet makeover » et rangement avant / après font des millions de vues. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans en appartement, avec une petite penderie. |
-| Problème | La penderie déborde, les cintres épais prennent toute la place et les vêtements glissent par terre. |
-| Question à résoudre | Comment doubler la place dans sa penderie, avec une belle pièce à petit prix ? |
+| Observation | Les vidéos « grout pen before after » font des millions de vues : la transformation se voit en une seconde. |
+| Cible et désir | Propriétaires et locataires de 25 à 55 ans qui veulent une salle de bain propre sans travaux (y compris avant un état des lieux). |
+| Problème | Les joints de la salle de bain et de la cuisine deviennent gris ou noirs : la pièce paraît sale même propre, et refaire les joints coûte cher. |
+| Question à résoudre | Comment rendre les joints de carrelage blancs comme neufs, avec une belle pièce à petit prix ? |
 | Pistes produit | Lampe d'écran · planche en titane · moulins par gravité · cubes de compression · fontaine à eau pour chat · support téléphone voiture. |
-| **Idée de business** | Je veux permettre à ceux qui manquent de place de ranger deux fois plus de vêtements dans la même penderie. |
-| Solution à un problème | OUI : la penderie déborde, les cintres épais prennent toute la place et les vêtements glissent par terre. |
-| Économique | NON : pas d'économie à l'usage. |
-| Besoin / passion | NON : le rangement est un besoin, pas une passion. |
-| Effet wow | Avant / après de la penderie : moitié de place libérée en 10 minutes. |
-| Unique | NON : produit très courant, difficile à rendre unique. |
-| Poids / volume | Colis d'environ 1 kg. |
+| **Idée de business** | Je veux permettre à ceux qui ont des joints grisés de les rendre blancs en quelques minutes, sans artisan ni travaux. |
+| Solution à un problème | OUI : les joints de la salle de bain et de la cuisine deviennent gris ou noirs : la pièce paraît sale même propre, et refaire les joints coûte cher. |
+| Économique | OUI : évite de faire refaire les joints par un artisan (et peut sauver une caution d'état des lieux). |
+| Besoin / passion | NON : la propreté de la maison est un besoin, pas une passion. |
+| Effet wow | Un trait de stylo : le joint noir redevient blanc à côté du joint sale. |
+| Unique | NON : produit courant, difficile à rendre unique. |
+| Poids / volume | Léger, petit colis. |
 | 1. Répond aux critères principaux ? | Bien : problème du quotidien qui dure toute l'année. |
 | 2. Bénéfice évident au premier regard ? | Oui : la démonstration se comprend en quelques secondes. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, comparaison avec la marque connue. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : avant / après de rangement très partagé. |
-| Prix en France | Lots de cintres en velours de marque vendus en magasin (prix à vérifier). |
-| Angle pub / Instagram | La penderie en vrac, puis la même avec les cintres fins : tout est aligné et il reste de la place. |
-| Fournisseur | Guangzhou Sinfoo Plastic : cintre en velours 0,14 $ (0,12 $ dès 20 000), soit environ 3,30 $ le lot de 20 avec crochets ; sourcing par Scutify. |
-| À vérifier | Vérifier le poids du colis (environ 1 kg pour 20 cintres) et la solidité sur échantillon ; prix France de référence à confirmer. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : avant / après parmi les plus regardés sur TikTok et Pinterest. |
+| Prix en France | Rubson Rénov'Joint 11,90 € le stylo (Mr Bricolage) ; lot de 5 stylos 38,89 € (ManoMano). |
+| Angle pub / Instagram | Gros plan sur un joint noir, un trait de stylo : moitié blanche, moitié sale, puis tout le mur. |
+| Fournisseur | Dongguan Tianyi Stationery : 0,28 $ le stylo, brosse en plus, soit environ 1,62 $ le kit ; sourcing par Scutify. |
+| À vérifier | Tester la tenue à l'eau et au nettoyage sur échantillon ; demander la fiche de sécurité (encre) et la conformité REACH. |
 
 ## 7. Maison · ranger couettes et vêtements d'hiver en prenant 3 fois moins de place — Sacs sous vide + pompe
 
@@ -322,10 +322,12 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 |---|---|---|---|
 | Pack 3 t-shirts oversize 240 g | 11,51 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-240g-Cotton-T-Shirt_1601269043057.html) |
 | Ensemble VAURE : sweat à capuche + jogging de la même couleur | 19,13 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html) |
-| Pack Rangement : sacs sous vide + cintres velours en cascade | 6,97 € | 54,90 € | [Alibaba](https://www.alibaba.com/product-detail/8-Packs-Space-Saver-Plastic-Vacuum_1600116022034.html) |
+| Pack Salle de bain : pommeau filtrant + kit stylos pour joints | 8,14 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) |
 
 ## Sources
 
+- [Mr Bricolage, Rubson Rénov'Joint](https://www.mr-bricolage.fr/v/joint-carrelage-blanc)
+- [ManoMano, lot de 5 stylos pour joints](https://www.manomano.fr/p/5-pieces-de-coulis-blanc-impermeable-stylo-reparation-pour-carrelage-mural-joint-carrelage-sol-cuisine-et-salle-bain-217513948)
 - [Nature & Découvertes, tapis 120 × 180 cm lavable](https://www.natureetdecouvertes.com/deco-maison/chambre-enfant/tapis-coussins-enfant/tapis-salon-beige-120x180-cm-93173580)
 - [Les Petits, tapis lavable Lorena Canals](https://lespetits.fr/en-pl/products/tapis-lavable-monstera-naturel)
 - [Auchan, tapis lavable vidaXL 120 × 180 cm](https://www.auchan.fr/vidaxl-tapis-lavable-multicolore-120x180-cm-antiderapant/pr-bb4dc037-fe03-4caf-9fda-26e410c4665a)

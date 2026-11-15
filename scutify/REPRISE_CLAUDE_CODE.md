@@ -391,3 +391,8 @@ Diffuseur retiré. Packs : 3 t-shirts 59,90 €, Ensemble VAURE 79,90 €, Pack 
 
 ## Étape — Critères D à I notés honnêtement (tableau _CRIT en fin de dossier.py)
 Notes /10 : pommeau, lunettes 6, t-shirt oversize 6,75, t-shirt 250 g 8,25, pot 8,25, cintres 5,25, sous vide 6,75, sweat capuche 4,5, tapis 7, sweat col rond 4,25.
+
+## Étape — Pot : nouveau lien (le 60802490966 ne s'ouvrait pas chez Jairo) ; cintres remplacés
+Pot : lot de 3 pots blancs à réserve 1600135015737 (7,99 $ → 39,90 €, ~1 kg, gain ≈ 22,94 €).
+Cintres retirés (pas de vrai problème) → Kit 4 stylos pour joints + brosse 1600121068779 (≈1,62 $ → 29,90 €, gain ≈ 22,82 €), réf. Rubson 11,90 € le stylo.
+Pack Rangement remplacé par Pack Salle de bain (pommeau + kit joints) 59,90 €.

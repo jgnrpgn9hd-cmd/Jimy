@@ -74,40 +74,40 @@ rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pre
   '100, logo dès 50 ; lien choisi par Jairo. À VÉRIFIER : Vérifier la tenue au lavage sur échantillon ; couleurs unies. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par '
   "l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On.",
   'T-shirt épais 250 g'),
- ("Pot de fleurs cube avec réserve d'eau cachée et indicateur de niveau : la plante se sert seule — Niche : Maison · garder ses plantes en vie sans y penser",
-  'https://www.alibaba.com/product-detail/Leizisure-Self-watering-Pots-Manufacture-Indoor_60802490966.html',
+ ("Lot de 3 pots de fleurs blancs avec réserve d'eau cachée et indicateur de niveau : la plante se sert seule — Niche : Maison · garder ses plantes en vie sans y penser",
+  'https://www.alibaba.com/product-detail/Pack-of-3-White-Decorative-Plastic_1600135015737.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
   'NON',
-  4.3,
-  8,
-  34.9,
+  6.87,
+  7,
+  39.9,
   "MODÈLE : Lechuza : la marque allemande des pots à réserve d'eau. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et "
   "moins cher. PROBLÈME : Les plantes d'intérieur meurent quand on oublie de les arroser ou qu'on part en vacances. ÉCONOMIQUE : OUI : on ne rachète plus de plantes mortes faute d'arrosage. EFFET "
   "WAOUW : Le petit flotteur qui montre le niveau d'eau ; la plante reste verte 3 semaines sans arrosage. PRIX EN FRANCE : Lechuza Classico Color 28 : 38,49 € (Kaufland) ; Lechuza D.21 : 69,12 € "
-  "(Leroy Merlin). FOURNISSEUR : Zhejiang Leizisure : 5 $ (20 à 999), 4,50 $ dès 1 000 ; sourcing par Scutify. À VÉRIFIER : Vérifier l'étanchéité et la clarté de l'indicateur sur échantillon ; ne "
-  'pas promettre une durée précise sans test.',
+  "(Leroy Merlin). FOURNISSEUR : Hangzhou EDAR International : lot de 3 pots 7,99 $ (7,59 $ dès 5 000 lots) ; sourcing par Scutify. À VÉRIFIER : Vérifier l'étanchéité et la clarté de l'indicateur "
+  'sur échantillon ; ne pas promettre une durée précise sans test.',
   "Pot à réserve d'eau"),
- ('Lot de 20 cintres ultra-fins en velours antidérapant + 10 crochets pour suspendre en cascade — Niche : Maison · doubler la place dans sa penderie',
-  'https://www.alibaba.com/product-detail/Black-Non-slip-Flocked-Velvet-Hanger_1600222821866.html',
-  'NON',
+ ('Kit de 4 stylos blanchisseurs de joints de carrelage, imperméables, + brosse de nettoyage — Niche : Maison · rendre les joints de carrelage blancs comme neufs',
+  'https://www.alibaba.com/product-detail/Grout-Pen-White-4pcs-Waterproof-Grouting_1600121068779.html',
+  'OUI',
   'OUI',
   'NON',
   'OUI',
   'NON',
   'NON',
-  2.84,
-  7,
-  34.9,
-  'MODÈLE : Les marques de rangement qui vendent des lots de cintres fins en velours. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à '
-  "proposer mieux et moins cher. PROBLÈME : La penderie déborde, les cintres épais prennent toute la place et les vêtements glissent par terre. ÉCONOMIQUE : NON : pas d'économie à l'usage. EFFET "
-  'WAOUW : Avant / après de la penderie : moitié de place libérée en 10 minutes. PRIX EN FRANCE : Lots de cintres en velours de marque vendus en magasin (prix à vérifier). FOURNISSEUR : Guangzhou '
-  'Sinfoo Plastic : cintre en velours 0,14 $ (0,12 $ dès 20 000), soit environ 3,30 $ le lot de 20 avec crochets ; sourcing par Scutify. À VÉRIFIER : Vérifier le poids du colis (environ 1 kg pour 20 '
-  'cintres) et la solidité sur échantillon ; prix France de référence à confirmer.',
-  'Cintres velours + crochets en cascade'),
+  1.39,
+  9,
+  29.9,
+  'MODÈLE : Rubson : la marque de référence des joints et mastics en France. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer '
+  'mieux et moins cher. PROBLÈME : Les joints de la salle de bain et de la cuisine deviennent gris ou noirs : la pièce paraît sale même propre, et refaire les joints coûte cher. ÉCONOMIQUE : OUI : '
+  "évite de faire refaire les joints par un artisan (et peut sauver une caution d'état des lieux). EFFET WAOUW : Un trait de stylo : le joint noir redevient blanc à côté du joint sale. PRIX EN "
+  "FRANCE : Rubson Rénov'Joint 11,90 € le stylo (Mr Bricolage) ; lot de 5 stylos 38,89 € (ManoMano). FOURNISSEUR : Dongguan Tianyi Stationery : 0,28 $ le stylo, brosse en plus, soit environ 1,62 $ "
+  "le kit ; sourcing par Scutify. À VÉRIFIER : Tester la tenue à l'eau et au nettoyage sur échantillon ; demander la fiche de sécurité (encre) et la conformité REACH.",
+  'Kit stylos pour joints'),
  ("Lot de 8 sacs sous vide réutilisables (3 tailles) + pompe à main, sans aspirateur — Niche : Maison · ranger couettes et vêtements d'hiver en prenant 3 fois moins de place",
   'https://www.alibaba.com/product-detail/8-Packs-Space-Saver-Plastic-Vacuum_1600116022034.html',
   'OUI',
