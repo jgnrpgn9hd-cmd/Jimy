@@ -162,20 +162,21 @@ rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pre
   '63,99 € ; Lorena Canals 120 × 180 cm 149 € ; vidaXL 120 × 180 cm 48,43 €. FOURNISSEUR : Lien choisi par Jairo : 8,95 $ le m² (6,98 $ dès 1 000 m²), soit environ 13,43 $ pour 100 × 150 cm ; '
   "sourcing par Scutify. À VÉRIFIER : Prix au m² : faire chiffrer par Scutify la taille 100 × 150 cm livrée ; colis d'environ 2 kg, donc vérifier le poids réel ; tester le lavage sur échantillon.",
   'Tapis lavable en machine'),
- ("Brosse en acier inoxydable qui retire le sous-poil mort ; un bouton rentre les picots et fait tomber les poils d'un coup — Niche : Animaux · ne plus avoir de poils partout dans la maison",
-  'https://www.alibaba.com/product-detail/Pet-Grooming-Cleaning-Dematting-Tool-Self_1600880909407.html',
-  'OUI',
-  'OUI',
+ ("Filtre qui se visse sur le robinet de cuisine, tête orientable à 360°, avec 3 cartouches (environ 3 mois d'eau filtrée) — Niche : Cuisine · boire l'eau du robinet sans goût de chlore",
+  'https://www.alibaba.com/product-detail/ZS-Customized-Logo-360-Rotating-Tap_1601126424492.html',
   'OUI',
   'OUI',
   'NON',
+  'OUI',
   'NON',
-  2.45,
+  'NON',
+  3.87,
   9,
   29.9,
-  'MODÈLE : FURminator : la marque de référence des brosses anti-mue. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et '
-  'moins cher. PROBLÈME : Chiens et chats perdent leurs poils partout : canapé, vêtements, sol ; et nettoyer une brosse classique est pénible. ÉCONOMIQUE : OUI : moins de passages chez le toiletteur '
-  "(souvent 40 à 60 €) et moins d'aspirateur. EFFET WAOUW : On appuie sur le bouton : une énorme boule de poils tombe d'un coup de la brosse. PRIX EN FRANCE : FURminator 25,99 à 49,99 € (Zoomalia) ; "
-  'Zooplus et Galaxus vendent aussi la gamme FURminator. FOURNISSEUR : Fournisseur du lien : 2,85 $ (50 à 499), 2,55 $ dès 5 000, acier inoxydable, tailles M (135 g) et L (175 g) ; sourcing par '
-  'Scutify. À VÉRIFIER : Vérifier que les picots ne griffent pas la peau (bouts arrondis) sur échantillon ; ne pas copier le nom ni le design de FURminator.',
-  'Brosse autonettoyante chien et chat')]
+  "MODÈLE : Brita : la marque de référence de l'eau filtrée en France. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux "
+  "et moins cher. PROBLÈME : L'eau du robinet a souvent un goût de chlore ; on achète alors des packs de bouteilles lourds, chers et pleins de plastique. ÉCONOMIQUE : OUI : remplace les packs de "
+  "bouteilles d'eau (souvent plus de 100 € par an pour une famille). EFFET WAOUW : La cartouche neuve blanche à côté de la cartouche grise après un mois : la preuve en vidéo, comme pour le pommeau. "
+  'PRIX EN FRANCE : Brita On Tap 34,47 € (Rue du Commerce) à 59,90 € (Castorama) ; cartouche Brita On Tap V 15,99 à 32,99 €. FOURNISSEUR : Shandong Eledeep (marque ZS) : 1,50 $ le filtre (0,80 $ dès '
+  '5 000), soit environ 4,50 $ le kit de 3 ; sourcing par Scutify. À VÉRIFIER : Ne pas écrire « retire le fluor » ni aucune promesse santé sans test de laboratoire ; vérifier les adaptateurs pour '
+  'les robinets français ; vendre les cartouches de rechange en abonnement.',
+  'Filtre à eau pour robinet')]

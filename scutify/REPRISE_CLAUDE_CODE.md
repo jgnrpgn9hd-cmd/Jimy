@@ -407,3 +407,5 @@ Version précédente : dossier_v17_kits_maison.py.
 Filtre de robinet tenté : 4 annonces Alibaba supprimées (404), abandonné.
 
 ## Étape — Ligne 10 : brosse autonettoyante chien et chat (1600880909407, 2,85 $ → 29,90 €, gain ≈ 21,76 €), réf. FURminator 25,99 à 49,99 €.
+
+## Étape — Ligne 10 : filtre à eau pour robinet (1601126424492, kit 3 filtres ≈ 4,50 $ → 29,90 €), réf. Brita On Tap 34,47 à 59,90 €. Brosse animaux retirée.

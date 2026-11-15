@@ -451,3 +451,26 @@ _br["c_unique"] = "NON : produit courant, difficile à rendre unique."
 _br["cout"] = round(_br["usd"] * 0.86, 2); _br["marge"] = round(_br["revente"] - _br["cout"], 2)
 FICHES[9] = _br
 SOURCES += [("Zoomalia, brosses FURminator", "https://www.zoomalia.com/animalerie/brosse-furminator-pour-chiens-a-poils-courts-5-tailles-disponibles-p-17179.html")]
+
+# Ligne 10 (nouvelle demande) : filtre à eau pour robinet, à la place de la brosse pour animaux.
+_fr = autre("Filtre à eau pour robinet", "Filtre qui se visse sur le robinet de cuisine, tête orientable à 360°, avec 3 cartouches (environ 3 mois d'eau filtrée)",
+       "Cuisine · boire l'eau du robinet sans goût de chlore",
+       A + "ZS-Customized-Logo-360-Rotating-Tap_1601126424492.html", 4.50, 9, 29.90,
+       "L'eau du robinet a souvent un goût de chlore ; on achète alors des packs de bouteilles lourds, chers et pleins de plastique.",
+       "Je veux permettre à ceux qui n'aiment pas le goût de l'eau du robinet de boire une eau filtrée directement au robinet, sans acheter de bouteilles.",
+       "OUI : remplace les packs de bouteilles d'eau (souvent plus de 100 € par an pour une famille).", "La cartouche neuve blanche à côté de la cartouche grise après un mois : la preuve en vidéo, comme pour le pommeau.",
+       "Brita On Tap 34,47 € (Rue du Commerce) à 59,90 € (Castorama) ; cartouche Brita On Tap V 15,99 à 32,99 €.",
+       "Shandong Eledeep (marque ZS) : 1,50 $ le filtre (0,80 $ dès 5 000), soit environ 4,50 $ le kit de 3 ; sourcing par Scutify.",
+       "Ne pas écrire « retire le fluor » ni aucune promesse santé sans test de laboratoire ; vérifier les adaptateurs pour les robinets français ; vendre les cartouches de rechange en abonnement.",
+       "OUI : même famille que le pommeau filtrant (pack « Eau pure »), cartouches de rechange qui font revenir le client.",
+       "Brita : la marque de référence de l'eau filtrée en France.",
+       "Familles et jeunes actifs de 25 à 55 ans qui achètent de l'eau en bouteille.",
+       "Les vidéos « filtre de robinet avant / après » et les tests de cartouches sales font des millions de vues.",
+       "NON : boire une eau agréable est un besoin, pas une passion.", "Léger, petit colis.",
+       "Le pack de bouteilles porté dans l'escalier, puis le verre rempli au robinet filtré en 2 secondes.")
+_fr["criteres"] = ("OUI", "OUI", "NON", "OUI", "NON", "NON")
+_fr["c_unique"] = "NON : produit courant, difficile à rendre unique."
+_fr["cout"] = round(_fr["usd"] * 0.86, 2); _fr["marge"] = round(_fr["revente"] - _fr["cout"], 2)
+FICHES[9] = _fr
+SOURCES += [("Castorama, Brita On Tap V", "https://www.castorama.fr/systeme-de-filtration-sur-robinet-brita-on-tap-v/4006387129088_CAFR.prd"),
+            ("Rue du Commerce, Brita", "https://www.rueducommerce.fr/m/C000034465-brita/")]

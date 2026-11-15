@@ -22,7 +22,7 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 | 7 | Maison · ranger couettes et vêtements d'hiver en prenant 3 fois moins de place | [Sacs sous vide + pompe](https://www.alibaba.com/product-detail/8-Packs-Space-Saver-Plastic-Vacuum_1600116022034.html) | 4,13 € | 34,90 € | 30,77 € | 6,75 |
 | 8 | Mode homme · avoir un sweat qui ne bouloche pas | [Sweat à capuche épais](https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html) | 8,51 € | 49,90 € | 41,39 € | 4,5 |
 | 9 | Maison · avoir un beau tapis toujours propre | [Tapis lavable en machine](https://www.alibaba.com/product-detail/Wholesale-Custom-Area-Rug-Modern-Washable_11000039435438.html) | 11,55 € | 49,90 € | 38,35 € | 7,0 |
-| 10 | Animaux · ne plus avoir de poils partout dans la maison | [Brosse autonettoyante chien et chat](https://www.alibaba.com/product-detail/Pet-Grooming-Cleaning-Dematting-Tool-Self_1600880909407.html) | 2,45 € | 29,90 € | 27,45 € | 8,25 |
+| 10 | Cuisine · boire l'eau du robinet sans goût de chlore | [Filtre à eau pour robinet](https://www.alibaba.com/product-detail/ZS-Customized-Logo-360-Rotating-Tap_1601126424492.html) | 3,87 € | 29,90 € | 26,03 € | 6,75 |
 
 La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Chaque produit reprend le produit phare d'une grande marque e-commerce mondiale (Jolie, Goodr, Brick, Ridge, Tushy, Stanley, Loop, Theragun, Bala, Bellroy), à moitié prix et à ta marque.
 
@@ -287,34 +287,34 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | Lien choisi par Jairo : 8,95 $ le m² (6,98 $ dès 1 000 m²), soit environ 13,43 $ pour 100 × 150 cm ; sourcing par Scutify. |
 | À vérifier | Prix au m² : faire chiffrer par Scutify la taille 100 × 150 cm livrée ; colis d'environ 2 kg, donc vérifier le poids réel ; tester le lavage sur échantillon. |
 
-## 10. Animaux · ne plus avoir de poils partout dans la maison — Brosse autonettoyante chien et chat
+## 10. Cuisine · boire l'eau du robinet sans goût de chlore — Filtre à eau pour robinet
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Pet-Grooming-Cleaning-Dematting-Tool-Self_1600880909407.html) · coût 2,45 € (2,85 $ × 0,86) · revente 29,90 € · marge 27,45 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/ZS-Customized-Logo-360-Rotating-Tap_1601126424492.html) · coût 3,87 € (4,5 $ × 0,86) · revente 29,90 € · marge 26,03 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | FURminator : la marque de référence des brosses anti-mue. |
+| Boutique modèle | Brita : la marque de référence de l'eau filtrée en France. |
 | Demande en France | Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et moins cher. |
-| Observation | Les vidéos de brossage avec la boule de poils qui tombe font des millions de vues sur TikTok et Pinterest. |
-| Cible et désir | Propriétaires de chiens et de chats de 20 à 55 ans, en appartement ou en maison. |
-| Problème | Chiens et chats perdent leurs poils partout : canapé, vêtements, sol ; et nettoyer une brosse classique est pénible. |
-| Question à résoudre | Comment ne plus avoir de poils partout dans la maison, avec une belle pièce à petit prix ? |
+| Observation | Les vidéos « filtre de robinet avant / après » et les tests de cartouches sales font des millions de vues. |
+| Cible et désir | Familles et jeunes actifs de 25 à 55 ans qui achètent de l'eau en bouteille. |
+| Problème | L'eau du robinet a souvent un goût de chlore ; on achète alors des packs de bouteilles lourds, chers et pleins de plastique. |
+| Question à résoudre | Comment boire l'eau du robinet sans goût de chlore, avec une belle pièce à petit prix ? |
 | Pistes produit | Lampe d'écran · planche en titane · moulins par gravité · cubes de compression · fontaine à eau pour chat · support téléphone voiture. |
-| **Idée de business** | Je veux permettre aux propriétaires de chiens et de chats de retirer les poils morts à la maison en quelques minutes, sans en mettre partout. |
-| Solution à un problème | OUI : chiens et chats perdent leurs poils partout : canapé, vêtements, sol ; et nettoyer une brosse classique est pénible. |
-| Économique | OUI : moins de passages chez le toiletteur (souvent 40 à 60 €) et moins d'aspirateur. |
-| Besoin / passion | OUI : les animaux de compagnie. |
-| Effet wow | On appuie sur le bouton : une énorme boule de poils tombe d'un coup de la brosse. |
+| **Idée de business** | Je veux permettre à ceux qui n'aiment pas le goût de l'eau du robinet de boire une eau filtrée directement au robinet, sans acheter de bouteilles. |
+| Solution à un problème | OUI : l'eau du robinet a souvent un goût de chlore ; on achète alors des packs de bouteilles lourds, chers et pleins de plastique. |
+| Économique | OUI : remplace les packs de bouteilles d'eau (souvent plus de 100 € par an pour une famille). |
+| Besoin / passion | NON : boire une eau agréable est un besoin, pas une passion. |
+| Effet wow | La cartouche neuve blanche à côté de la cartouche grise après un mois : la preuve en vidéo, comme pour le pommeau. |
 | Unique | NON : produit courant, difficile à rendre unique. |
 | Poids / volume | Léger, petit colis. |
 | 1. Répond aux critères principaux ? | Bien : problème du quotidien qui dure toute l'année. |
 | 2. Bénéfice évident au premier regard ? | Oui : la démonstration se comprend en quelques secondes. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, comparaison avec la marque connue. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : marché des animaux énorme, la vidéo de la boule de poils est très partagée. |
-| Prix en France | FURminator 25,99 à 49,99 € (Zoomalia) ; Zooplus et Galaxus vendent aussi la gamme FURminator. |
-| Angle pub / Instagram | Quelques coups de brosse sur le chien, un clic sur le bouton : la boule de poils tombe, le canapé reste propre. |
-| Fournisseur | Fournisseur du lien : 2,85 $ (50 à 499), 2,55 $ dès 5 000, acier inoxydable, tailles M (135 g) et L (175 g) ; sourcing par Scutify. |
-| À vérifier | Vérifier que les picots ne griffent pas la peau (bouts arrondis) sur échantillon ; ne pas copier le nom ni le design de FURminator. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : même famille que le pommeau filtrant (pack « Eau pure »), cartouches de rechange qui font revenir le client. |
+| Prix en France | Brita On Tap 34,47 € (Rue du Commerce) à 59,90 € (Castorama) ; cartouche Brita On Tap V 15,99 à 32,99 €. |
+| Angle pub / Instagram | Le pack de bouteilles porté dans l'escalier, puis le verre rempli au robinet filtré en 2 secondes. |
+| Fournisseur | Shandong Eledeep (marque ZS) : 1,50 $ le filtre (0,80 $ dès 5 000), soit environ 4,50 $ le kit de 3 ; sourcing par Scutify. |
+| À vérifier | Ne pas écrire « retire le fluor » ni aucune promesse santé sans test de laboratoire ; vérifier les adaptateurs pour les robinets français ; vendre les cartouches de rechange en abonnement. |
 
 ## 2e produits (plus de 50 €)
 
@@ -354,5 +354,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 - [Pearl, coussin ergonomique à mémoire de forme](https://www.pearl.fr/article/NX3937/coussin-ergonomique-a-memoire-de-forme-pour-assise)
 - [ManoMano, coussin HONORNIC](https://www.manomano.fr/p/noircoussin-de-siege-en-mousse-a-memoire-forme-coussin-ergonomique-pour-chaise-bureau-voiture-fauteuil-225376154)
 - [Zoomalia, brosses FURminator](https://www.zoomalia.com/animalerie/brosse-furminator-pour-chiens-a-poils-courts-5-tailles-disponibles-p-17179.html)
+- [Castorama, Brita On Tap V](https://www.castorama.fr/systeme-de-filtration-sur-robinet-brita-on-tap-v/4006387129088_CAFR.prd)
+- [Rue du Commerce, Brita](https://www.rueducommerce.fr/m/C000034465-brita/)
 
 Liens Alibaba et prix fournisseur vérifiés le 14/11/2026. Les prix en France viennent des sites cités et peuvent changer.
