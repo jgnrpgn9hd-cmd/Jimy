@@ -13,16 +13,16 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 
 | N° | Niche | Produit | Coût | Revente | Marge | Note /10 |
 |---|---|---|---|---|---|---|
-| 1 | Salle de bain · avoir une eau plus douce sous la douche | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) | 6,75 € | 39,90 € | 33,15 € | 9,5 |
-| 2 | Accessoires homme · ne plus être ébloui | [Lunettes de soleil UV400](https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html) | 0,75 € | 34,90 € | 34,15 € | 8,5 |
-| 3 | Mode homme · avoir un t-shirt oversize qui tombe bien | [T-shirt oversize 240 g](https://www.alibaba.com/product-detail/Custom-Logo-240g-Cotton-T-Shirt_1601269043057.html) | 3,84 € | 34,90 € | 31,06 € | 8,5 |
-| 4 | Mode homme · avoir un t-shirt qui ne se déforme pas | [T-shirt épais 250 g](https://www.alibaba.com/product-detail/Heavyweight-Tshirt_1600928907355.html) | 5,80 € | 34,90 € | 29,10 € | 8,5 |
-| 5 | Maison · garder ses plantes en vie sans y penser | [Pot à réserve d'eau](https://www.alibaba.com/product-detail/Leizisure-Self-watering-Pots-Manufacture-Indoor_60802490966.html) | 4,30 € | 34,90 € | 30,60 € | 8,5 |
-| 6 | Maison · doubler la place dans sa penderie | [Cintres velours + crochets en cascade](https://www.alibaba.com/product-detail/Black-Non-slip-Flocked-Velvet-Hanger_1600222821866.html) | 2,84 € | 34,90 € | 32,06 € | 8,5 |
-| 7 | Maison · ranger couettes et vêtements d'hiver en prenant 3 fois moins de place | [Sacs sous vide + pompe](https://www.alibaba.com/product-detail/8-Packs-Space-Saver-Plastic-Vacuum_1600116022034.html) | 4,13 € | 34,90 € | 30,77 € | 8,5 |
-| 8 | Mode homme · avoir un sweat qui ne bouloche pas | [Sweat à capuche épais](https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html) | 8,51 € | 49,90 € | 41,39 € | 8,5 |
-| 9 | Maison · avoir un beau tapis toujours propre | [Tapis lavable en machine](https://www.alibaba.com/product-detail/Wholesale-Custom-Area-Rug-Modern-Washable_11000039435438.html) | 11,55 € | 49,90 € | 38,35 € | 8,5 |
-| 10 | Mode homme · avoir un pull de tous les jours qui garde sa forme | [Sweat col rond 450 g](https://www.alibaba.com/product-detail/2021-100-cotton-heavyweight-450-gsm_1600274136737.html) | 10,23 € | 44,90 € | 34,67 € | 8,5 |
+| 1 | Salle de bain · avoir une eau plus douce sous la douche | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) | 6,75 € | 39,90 € | 33,15 € | 8,0 |
+| 2 | Accessoires homme · ne plus être ébloui | [Lunettes de soleil UV400](https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html) | 0,75 € | 34,90 € | 34,15 € | 6,0 |
+| 3 | Mode homme · avoir un t-shirt oversize qui tombe bien | [T-shirt oversize 240 g](https://www.alibaba.com/product-detail/Custom-Logo-240g-Cotton-T-Shirt_1601269043057.html) | 3,84 € | 34,90 € | 31,06 € | 6,75 |
+| 4 | Mode homme · avoir un t-shirt qui ne se déforme pas | [T-shirt épais 250 g](https://www.alibaba.com/product-detail/Heavyweight-Tshirt_1600928907355.html) | 5,80 € | 34,90 € | 29,10 € | 8,25 |
+| 5 | Maison · garder ses plantes en vie sans y penser | [Pot à réserve d'eau](https://www.alibaba.com/product-detail/Leizisure-Self-watering-Pots-Manufacture-Indoor_60802490966.html) | 4,30 € | 34,90 € | 30,60 € | 8,25 |
+| 6 | Maison · doubler la place dans sa penderie | [Cintres velours + crochets en cascade](https://www.alibaba.com/product-detail/Black-Non-slip-Flocked-Velvet-Hanger_1600222821866.html) | 2,84 € | 34,90 € | 32,06 € | 5,25 |
+| 7 | Maison · ranger couettes et vêtements d'hiver en prenant 3 fois moins de place | [Sacs sous vide + pompe](https://www.alibaba.com/product-detail/8-Packs-Space-Saver-Plastic-Vacuum_1600116022034.html) | 4,13 € | 34,90 € | 30,77 € | 6,75 |
+| 8 | Mode homme · avoir un sweat qui ne bouloche pas | [Sweat à capuche épais](https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html) | 8,51 € | 49,90 € | 41,39 € | 4,5 |
+| 9 | Maison · avoir un beau tapis toujours propre | [Tapis lavable en machine](https://www.alibaba.com/product-detail/Wholesale-Custom-Area-Rug-Modern-Washable_11000039435438.html) | 11,55 € | 49,90 € | 38,35 € | 7,0 |
+| 10 | Mode homme · avoir un pull de tous les jours qui garde sa forme | [Sweat col rond 450 g](https://www.alibaba.com/product-detail/2021-100-cotton-heavyweight-450-gsm_1600274136737.html) | 10,23 € | 44,90 € | 34,67 € | 4,25 |
 
 La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Chaque produit reprend le produit phare d'une grande marque e-commerce mondiale (Jolie, Goodr, Brick, Ridge, Tushy, Stanley, Loop, Theragun, Bala, Bellroy), à moitié prix et à ta marque.
 
@@ -41,7 +41,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
 | **Idée de business** | Je veux permettre à ceux qui ont une eau calcaire de prendre une douche plus douce pour la peau et les cheveux, sans travaux. |
 | Solution à un problème | OUI : l'eau calcaire et chlorée fait tirer la peau et ternit les cheveux. |
-| Économique | OUI : moitié prix des marques qui font de la pub (69,95 à 81,95 €). |
+| Économique | NON : il ne fait pas économiser d'argent au client (il coûte moins cher que les marques, mais ce n'est pas une économie à l'usage). |
 | Besoin / passion | OUI : le soin de soi, la routine du matin. |
 | Effet wow | Le filtre neuf blanc puis tout jauni après un mois : la preuve en vidéo. |
 | Unique | Design premium, preuve en vidéo du filtre usé, cartouches de rechange en abonnement. |
@@ -70,7 +70,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
 | **Idée de business** | Je veux permettre aux hommes de voir clair au soleil avec des lunettes au look sport-chic. |
 | Solution à un problème | OUI : le soleil et les reflets éblouissent en voiture, en ville et au sport. |
-| Économique | OUI : meilleure marge de la gamme, moins chères que les marques. |
+| Économique | NON : pas d'économie à l'usage. |
 | Besoin / passion | OUI : le style, la conduite, le sport. |
 | Effet wow | Les verres miroir verts et le logo VAURE gravé : un vrai look de marque. |
 | Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
@@ -82,7 +82,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Prix en France | Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €. |
 | Angle pub / Instagram | Le vêtement fin et déformé à côté de la pièce VAURE épaisse, puis la tenue complète, en 10 secondes. |
 | Fournisseur | Lien choisi par Jairo : 0,87 $ (2 minimum, en stock) ; fournisseur de secours iRun polarisé : 7,48 $ (500 minimum, logo dès 100) (https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html). |
-| À vérifier | Fournisseur jeune et non vérifié : commander 2 échantillons ; exiger le marquage CE et la norme EN ISO 12312-1 avant de vendre ; demander une version polarisée. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
+| À vérifier | OUI : se vend surtout de mars à septembre. Fournisseur jeune et non vérifié : commander 2 échantillons ; exiger le marquage CE et la norme EN ISO 12312-1 avant de vendre ; demander une version polarisée. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
 
 ## 3. Mode homme · avoir un t-shirt oversize qui tombe bien — T-shirt oversize 240 g
 
@@ -99,9 +99,9 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
 | **Idée de business** | Je veux permettre aux hommes qui aiment le style oversize d'avoir un t-shirt épais qui garde sa forme, au prix d'un t-shirt de grande surface. |
 | Solution à un problème | OUI : les t-shirts larges premier prix sont fins : ils tombent mal, se déforment et font « trop grand » au lieu de faire oversize. |
-| Économique | OUI : 34,90 € contre 50 à 72 € chez On et Essentials. |
+| Économique | NON : pas d'économie à l'usage. |
 | Besoin / passion | OUI : la mode homme sport-chic, le style, l'image de soi. |
-| Effet wow | On le pose à côté d'un t-shirt fin : la différence d'épaisseur se voit tout de suite. |
+| Effet wow | NON : un t-shirt, même épais, n'attire pas l'œil en vidéo. |
 | Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
 | Poids / volume | Colis de 500 g. |
 | 1. Répond aux critères principaux ? | Bien : basique porté toute l'année, sans effet de mode passagère. |
@@ -128,9 +128,9 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
 | **Idée de business** | Je veux permettre aux hommes de porter un t-shirt épais qui reste net lavage après lavage. |
 | Solution à un problème | OUI : les t-shirts classiques deviennent transparents, se déforment et le col gondole après quelques lavages. |
-| Économique | OUI : moitié prix de On. |
+| Économique | OUI : il dure plus longtemps qu'un t-shirt fin, donc on en rachète moins. |
 | Besoin / passion | OUI : la mode homme sport-chic, le style, l'image de soi. |
-| Effet wow | Le col reste droit et le tissu ne laisse pas passer la lumière, même blanc. |
+| Effet wow | NON : un t-shirt, même épais, n'attire pas l'œil en vidéo. |
 | Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
 | Poids / volume | Colis de 500 g. |
 | 1. Répond aux critères principaux ? | Bien : basique porté toute l'année, sans effet de mode passagère. |
@@ -157,10 +157,10 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Pistes produit | Lampe d'écran · planche en titane · moulins par gravité · cubes de compression · fontaine à eau pour chat · support téléphone voiture. |
 | **Idée de business** | Je veux permettre à ceux qui aiment les plantes mais oublient d'arroser de garder des plantes vertes sans effort. |
 | Solution à un problème | OUI : les plantes d'intérieur meurent quand on oublie de les arroser ou qu'on part en vacances. |
-| Économique | OUI : environ moitié prix de Lechuza (38,49 à 69,12 €). |
+| Économique | OUI : on ne rachète plus de plantes mortes faute d'arrosage. |
 | Besoin / passion | OUI : les plantes, la déco. |
 | Effet wow | Le petit flotteur qui montre le niveau d'eau ; la plante reste verte 3 semaines sans arrosage. |
-| Unique | Même usage que la marque connue, environ moitié prix, avec une marque soignée et une vidéo de démonstration. |
+| Unique | NON : pot générique, beaucoup de modèles semblables existent. |
 | Poids / volume | Colis de 500 g. |
 | 1. Répond aux critères principaux ? | Bien : problème du quotidien qui dure toute l'année. |
 | 2. Bénéfice évident au premier regard ? | Oui : la démonstration se comprend en quelques secondes. |
@@ -186,10 +186,10 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Pistes produit | Lampe d'écran · planche en titane · moulins par gravité · cubes de compression · fontaine à eau pour chat · support téléphone voiture. |
 | **Idée de business** | Je veux permettre à ceux qui manquent de place de ranger deux fois plus de vêtements dans la même penderie. |
 | Solution à un problème | OUI : la penderie déborde, les cintres épais prennent toute la place et les vêtements glissent par terre. |
-| Économique | OUI : lot complet prêt à l'emploi, cintres + crochets. |
-| Besoin / passion | OUI : le rangement, la maison bien organisée. |
+| Économique | NON : pas d'économie à l'usage. |
+| Besoin / passion | NON : le rangement est un besoin, pas une passion. |
 | Effet wow | Avant / après de la penderie : moitié de place libérée en 10 minutes. |
-| Unique | Même usage que la marque connue, environ moitié prix, avec une marque soignée et une vidéo de démonstration. |
+| Unique | NON : produit très courant, difficile à rendre unique. |
 | Poids / volume | Colis d'environ 1 kg. |
 | 1. Répond aux critères principaux ? | Bien : problème du quotidien qui dure toute l'année. |
 | 2. Bénéfice évident au premier regard ? | Oui : la démonstration se comprend en quelques secondes. |
@@ -215,10 +215,10 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Pistes produit | Lampe d'écran · planche en titane · moulins par gravité · cubes de compression · fontaine à eau pour chat · support téléphone voiture. |
 | **Idée de business** | Je veux permettre à ceux qui manquent de place de ranger leurs affaires volumineuses à plat, sans aspirateur. |
 | Solution à un problème | OUI : couettes, oreillers et vêtements d'hiver prennent toute l'armoire. |
-| Économique | OUI : moins cher que Compactor (41,99 €) et Mastrad (50 €). |
-| Besoin / passion | OUI : le rangement, le gain de place. |
+| Économique | OUI : évite d'acheter un meuble ou un box de rangement. |
+| Besoin / passion | NON : le rangement est un besoin, pas une passion. |
 | Effet wow | La grosse couette devient plate comme une feuille en 30 secondes de pompe. |
-| Unique | Même usage que la marque connue, environ moitié prix, avec une marque soignée et une vidéo de démonstration. |
+| Unique | NON : produit très courant, difficile à rendre unique. |
 | Poids / volume | Colis d'environ 1 kg. |
 | 1. Répond aux critères principaux ? | Bien : problème du quotidien qui dure toute l'année. |
 | 2. Bénéfice évident au premier regard ? | Oui : la démonstration se comprend en quelques secondes. |
@@ -243,8 +243,8 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Question à résoudre | Comment avoir un sweat qui ne bouloche pas, avec une belle pièce à petit prix ? |
 | Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
 | **Idée de business** | Je veux permettre aux hommes d'avoir un sweat épais et structuré, au look des grandes marques, sans payer 130 €. |
-| Solution à un problème | OUI : les sweats fins boulochent, se déforment et perdent leur tenue après quelques lavages. |
-| Économique | OUI : 49,90 € contre 130 à 140 € chez On et Essentials. |
+| Solution à un problème | NON : pas de vraie douleur, c'est surtout un achat de style. |
+| Économique | NON : pas d'économie à l'usage. |
 | Besoin / passion | OUI : la mode homme sport-chic, le style, l'image de soi. |
 | Effet wow | Le logo en relief et l'épaisseur du tissu : on sent la qualité en le prenant en main. |
 | Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
@@ -256,7 +256,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Prix en France | On Club Hoodie 130 € ; Essentials sweat à capuche 139,99 € (Breuninger). |
 | Angle pub / Instagram | Le vêtement fin et déformé à côté de la pièce VAURE épaisse, puis la tenue complète, en 10 secondes. |
 | Fournisseur | Jiangxi Yi Lingzhi Clothing (7 ans, vérifié) : 9,89 $ (50 à 99), 9,35 $ dès 100 ; lien choisi par Jairo. |
-| À vérifier | Le titre de l'annonce dit « vintage » : commander uniquement en couleurs unies, sans effet délavé. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
+| À vérifier | OUI : se vend surtout d'octobre à mars. Le titre de l'annonce dit « vintage » : commander uniquement en couleurs unies, sans effet délavé. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
 
 ## 9. Maison · avoir un beau tapis toujours propre — Tapis lavable en machine
 
@@ -273,10 +273,10 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Pistes produit | Lampe d'écran · planche en titane · moulins par gravité · cubes de compression · fontaine à eau pour chat · support téléphone voiture. |
 | **Idée de business** | Je veux permettre aux familles et aux propriétaires d'animaux d'avoir un beau tapis doux qui repasse à neuf en machine. |
 | Solution à un problème | OUI : un tapis taché (café, enfants, animaux) est presque impossible à nettoyer : il faut le jeter ou payer un pressing. |
-| Économique | OUI : moins cher que les tapis lavables de marque (63,99 à 149 €). |
-| Besoin / passion | OUI : la déco, la maison propre. |
+| Économique | OUI : plus besoin de pressing ni de racheter un tapis taché. |
+| Besoin / passion | NON : la propreté de la maison est un besoin, pas une passion. |
 | Effet wow | On verse du café sur le tapis, on le met en machine : il ressort comme neuf. |
-| Unique | Même usage que la marque connue, environ moitié prix, avec une marque soignée et une vidéo de démonstration. |
+| Unique | OUI : motif, couleur et taille personnalisables chez le fournisseur. |
 | Poids / volume | Colis d'environ 2 kg. |
 | 1. Répond aux critères principaux ? | Bien : problème du quotidien qui dure toute l'année. |
 | 2. Bénéfice évident au premier regard ? | Oui : la démonstration se comprend en quelques secondes. |
@@ -301,10 +301,10 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Question à résoudre | Comment avoir un pull de tous les jours qui garde sa forme, avec une belle pièce à petit prix ? |
 | Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
 | **Idée de business** | Je veux permettre aux hommes d'avoir un sweat très épais qui reste structuré, à porter au travail comme le week-end. |
-| Solution à un problème | OUI : les pulls et sweats bon marché se détendent, rétrécissent ou perdent leur forme. |
-| Économique | OUI : nettement moins cher que les marques sport-chic. |
+| Solution à un problème | NON : pas de vraie douleur, c'est surtout un achat de style. |
+| Économique | NON : pas d'économie à l'usage. |
 | Besoin / passion | OUI : la mode homme sport-chic, le style, l'image de soi. |
-| Effet wow | 450 g : un tissu si épais que le sweat tient presque debout. |
+| Effet wow | NON : pièce sobre, peu spectaculaire en vidéo. |
 | Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
 | Poids / volume | Colis de 750 g. |
 | 1. Répond aux critères principaux ? | Bien : basique porté toute l'année, sans effet de mode passagère. |
@@ -314,7 +314,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Prix en France | Sweats col rond On et Essentials vendus plus de 100 € (Breuninger). |
 | Angle pub / Instagram | Le vêtement fin et déformé à côté de la pièce VAURE épaisse, puis la tenue complète, en 10 secondes. |
 | Fournisseur | 11,90 $ (100 à 499), 10,60 $ dès 500, logo personnalisé. |
-| À vérifier | Minimum 100 pièces : commencer avec 2 couleurs ; aucune mention délavée. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
+| À vérifier | OUI : se vend surtout d'octobre à mars. Minimum 100 pièces : commencer avec 2 couleurs ; aucune mention délavée. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
 
 ## 2e produits (plus de 50 €)
 

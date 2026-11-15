@@ -388,3 +388,6 @@ Diffuseur retiré. Packs : 3 t-shirts 59,90 €, Ensemble VAURE 79,90 €, Pack 
 
 ## Étape — Jogging remplacé par le tapis lavable de Jairo (11000039435438)
 8,95 $/m² → 100 × 150 cm ≈ 13,43 $ (11,55 €), vendu 49,90 €, colis ~2 kg (10,49 €), gain estimé ≈ 26,36 €.
+
+## Étape — Critères D à I notés honnêtement (tableau _CRIT en fin de dossier.py)
+Notes /10 : pommeau, lunettes 6, t-shirt oversize 6,75, t-shirt 250 g 8,25, pot 8,25, cintres 5,25, sous vide 6,75, sweat capuche 4,5, tapis 7, sweat col rond 4,25.

@@ -344,3 +344,40 @@ SOURCES = [
  ("MineralStream, kit de douche", "https://fr.mineralstream.co/products/mineralstream%E2%84%A2-noir-vitamine-c-kit-de-douche-complet"),
  ("La Poste, tarifs Colissimo 2026", "https://www.laposte.fr/professionnel/tarif-colissimo"),
 ]
+
+# Critères notés honnêtement (D économique, E douleur, F passion, G waw, H unique, I saisonnier) + explication.
+_CRIT = {
+ "Pommeau de douche filtrant": ("NON", "OUI", "OUI", "OUI", "OUI", "NON",
+   {"c_economique": "NON : il ne fait pas économiser d'argent au client (il coûte moins cher que les marques, mais ce n'est pas une économie à l'usage)."}),
+ "Lunettes de soleil UV400": ("NON", "OUI", "OUI", "OUI", "OUI", "OUI",
+   {"c_economique": "NON : pas d'économie à l'usage.", "saison": "OUI : se vend surtout de mars à septembre."}),
+ "T-shirt oversize 240 g": ("NON", "OUI", "OUI", "NON", "OUI", "NON",
+   {"c_economique": "NON : pas d'économie à l'usage.", "c_wow": "NON : un t-shirt, même épais, n'attire pas l'œil en vidéo."}),
+ "T-shirt épais 250 g": ("OUI", "OUI", "OUI", "NON", "OUI", "NON",
+   {"c_economique": "OUI : il dure plus longtemps qu'un t-shirt fin, donc on en rachète moins.", "c_wow": "NON : un t-shirt, même épais, n'attire pas l'œil en vidéo."}),
+ "Pot à réserve d'eau": ("OUI", "OUI", "OUI", "OUI", "NON", "NON",
+   {"c_economique": "OUI : on ne rachète plus de plantes mortes faute d'arrosage.", "c_unique": "NON : pot générique, beaucoup de modèles semblables existent."}),
+ "Cintres velours + crochets en cascade": ("NON", "OUI", "NON", "OUI", "NON", "NON",
+   {"c_economique": "NON : pas d'économie à l'usage.", "c_passion": "NON : le rangement est un besoin, pas une passion.",
+    "c_unique": "NON : produit très courant, difficile à rendre unique."}),
+ "Sacs sous vide + pompe": ("OUI", "OUI", "NON", "OUI", "NON", "NON",
+   {"c_economique": "OUI : évite d'acheter un meuble ou un box de rangement.", "c_passion": "NON : le rangement est un besoin, pas une passion.",
+    "c_unique": "NON : produit très courant, difficile à rendre unique."}),
+ "Sweat à capuche épais": ("NON", "NON", "OUI", "OUI", "OUI", "OUI",
+   {"c_economique": "NON : pas d'économie à l'usage.", "c_probleme": "NON : pas de vraie douleur, c'est surtout un achat de style.",
+    "saison": "OUI : se vend surtout d'octobre à mars."}),
+ "Tapis lavable en machine": ("OUI", "OUI", "NON", "OUI", "OUI", "NON",
+   {"c_economique": "OUI : plus besoin de pressing ni de racheter un tapis taché.", "c_passion": "NON : la propreté de la maison est un besoin, pas une passion.",
+    "c_unique": "OUI : motif, couleur et taille personnalisables chez le fournisseur."}),
+ "Sweat col rond 450 g": ("NON", "NON", "OUI", "NON", "OUI", "OUI",
+   {"c_economique": "NON : pas d'économie à l'usage.", "c_probleme": "NON : pas de vraie douleur, c'est surtout un achat de style.",
+    "c_wow": "NON : pièce sobre, peu spectaculaire en vidéo.", "saison": "OUI : se vend surtout d'octobre à mars."}),
+}
+for _f in FICHES:
+    _c = _CRIT[_f["court"]]
+    _f["criteres"] = _c[:6]
+    for _k, _v in _c[6].items():
+        if _k == "saison":
+            _f["vigilance"] = _v + " " + _f["vigilance"]
+        else:
+            _f[_k] = _v
