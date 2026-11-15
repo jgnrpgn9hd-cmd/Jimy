@@ -359,3 +359,9 @@ Retirés : sweat zippé 1601590727563 (« Vintage Wash Finish »), jogging 16012
 Remplacés par : sweat zippé uni 100 % coton oversize 1600947092413 (14,37 $ MOQ 20 → 49,90 €, gain ≈ 27,45 €),
 jogging molleton uni coupe ample 1601254248379 (12,35 $ MOQ 50 → 49,90 €, gain ≈ 29,19 €).
 Sweat 3D 1600347472870 : « vintage » seulement dans le titre, modèle uni → couleurs unies à commander.
+
+## Étape — VAURE calquée sur la gamme Fear of God Essentials (référence de style et de prix, sans copier nom/logo/design)
+Prix France Essentials (Breuninger) : sweat à capuche 139,99 €, t-shirt 71,99 €, manches longues 79,99 €, jogging 119,99 €.
+Ajout : t-shirt manches longues col boutonné (henley) 60795328307, 10,50 $ MOQ 100 → 39,90 €, 500 g, gain ≈ 22,78 €.
+Écartés : manches longues col montant 11000028283617 (camouflage), manches longues 280 g (acid wash), t-shirt 280 g imprimé.
+Total 9/10 (7 vêtements + lunettes + pommeau). 10e à choisir : short en molleton (saisonnier) ou casquette brodée.
