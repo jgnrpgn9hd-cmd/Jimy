@@ -1,0 +1,83 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#f3f1ec}body{width:1600px;height:1800px;font-family:'Inter',sans-serif}</style></head>
+<body>
+<svg width="1600" height="1800" viewBox="0 0 1600 1800" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <!-- Lettres dessinées (pas une police) : hauteur 100, trait 13 -->
+  <g id="L-V"><path d="M0 0 L36 88 L72 0"/></g>
+  <g id="L-A"><path d="M0 100 L36 12 L72 100"/></g>
+  <g id="L-U"><path d="M0 0 V60 C0 86 16 100 36 100 C56 100 72 86 72 60 V0"/></g>
+  <g id="L-R"><path d="M0 100 V0 H38 C58 0 70 13 70 29 C70 45 58 58 38 58 H0 M36 58 L70 100"/></g>
+  <g id="L-E"><path d="M66 0 H0 V100 H66 M0 50 H54"/></g>
+  <g id="word" fill="none" stroke-width="13" stroke-linejoin="miter" stroke-linecap="butt">
+    <use href="#L-V" x="0"/><use href="#L-A" x="96"/><use href="#L-U" x="198"/><use href="#L-R" x="300"/><use href="#L-E" x="400"/>
+  </g>
+  <!-- Monogramme : V formé de deux verres de lunettes -->
+  <g id="mono">
+    <path d="M0 0 C10 -4 26 -2 34 8 L64 92 C66 100 58 104 52 98 L4 18 C-2 10 -4 2 0 0 Z"/>
+    <path d="M128 0 C118 -4 102 -2 94 8 L64 92 C62 100 70 104 76 98 L124 18 C130 10 132 2 128 0 Z"/>
+  </g>
+  <!-- Emblème : soleil levé dans le V -->
+  <g id="emb">
+    <circle cx="0" cy="0" r="96" fill="none" stroke-width="7"/>
+    <path d="M-52 -48 L0 62 L52 -48" fill="none" stroke-width="14" stroke-linejoin="miter"/>
+    <circle cx="0" cy="-22" r="13" class="sun"/>
+    <line x1="-80" y1="-2" x2="-30" y2="-2" stroke-width="5"/>
+    <line x1="30" y1="-2" x2="80" y2="-2" stroke-width="5"/>
+  </g>
+</defs>
+
+<text x="80" y="110" font-size="44" font-weight="700" fill="#0f1a15">VAURE — propositions de logo</text>
+<text x="80" y="155" font-size="22" fill="#5d6b64">Lettres dessinées sur mesure (pas une police toute faite) · vert sapin #0F3D2E · vert soleil #3FD18F · noir #0B0D0C</text>
+
+<!-- ============ 1. LOGOTYPE ============ -->
+<rect x="80" y="200" width="1440" height="460" rx="28" fill="#0f3d2e"/>
+<text x="120" y="250" font-size="20" font-weight="600" fill="#9fd9bd" letter-spacing="3">1 · LOGOTYPE</text>
+<g transform="translate(560 360) scale(1.0)" stroke="#f3f1ec"><use href="#word"/></g>
+<text x="120" y="620" font-size="19" fill="#cfe7dc">Le V et le A sans barre se répondent comme un reflet (V / Λ). Lisible, chic, marche partout.</text>
+<g transform="translate(1180 560)">
+  <rect x="0" y="-40" width="300" height="80" rx="14" fill="#f3f1ec"/>
+  <g transform="translate(78 -14) scale(.28)" stroke="#0f3d2e"><use href="#word"/></g>
+</g>
+
+<!-- ============ 2. MONOGRAMME ============ -->
+<rect x="80" y="700" width="700" height="520" rx="28" fill="#0b0d0c"/>
+<text x="120" y="750" font-size="20" font-weight="600" fill="#9fd9bd" letter-spacing="3">2 · MONOGRAMME « V-LUNETTES »</text>
+<g transform="translate(366 840)" fill="#3fd18f"><use href="#mono"/></g>
+<g transform="translate(300 1030) scale(.45)" stroke="#f3f1ec"><use href="#word"/></g>
+<text x="120" y="1180" font-size="19" fill="#b9c4bf">Le V est fait de deux verres : on y voit une paire de lunettes.</text>
+
+<!-- ============ 3. EMBLÈME ============ -->
+<rect x="820" y="700" width="700" height="520" rx="28" fill="#f8f7f3" stroke="#d9d6cd" stroke-width="2"/>
+<text x="860" y="750" font-size="20" font-weight="600" fill="#0f3d2e" letter-spacing="3">3 · EMBLÈME « SOLEIL »</text>
+<g transform="translate(1170 920)" stroke="#0f3d2e" fill="none"><use href="#emb"/></g>
+<style>.sun{fill:#3fd18f;stroke:none}</style>
+<g transform="translate(1040 1060) scale(.45)" stroke="#0f3d2e"><use href="#word"/></g>
+<text x="860" y="1180" font-size="19" fill="#5d6b64">Un V qui laisse passer le soleil, sur l'horizon. Idéal en badge brodé.</text>
+
+<!-- ============ APPLICATIONS ============ -->
+<text x="80" y="1290" font-size="20" font-weight="600" fill="#0f1a15" letter-spacing="3">EN SITUATION</text>
+
+<!-- Branche de lunettes -->
+<rect x="80" y="1320" width="460" height="400" rx="28" fill="#1a1f1d"/>
+<path d="M120 1500 C120 1490 128 1484 140 1484 L460 1488 C478 1488 494 1496 506 1514 C510 1522 504 1528 498 1522 C486 1510 474 1506 460 1506 L140 1508 C128 1508 120 1506 120 1500 Z" fill="#2c3330"/>
+<g transform="translate(170 1489) scale(.13)" stroke="#e8efe9"><use href="#word"/></g>
+<g transform="translate(150 1488) scale(.11)" fill="#3fd18f"><use href="#mono"/></g>
+<text x="120" y="1680" font-size="18" fill="#b9c4bf">Branche des lunettes</text>
+
+<!-- Casquette (vue de face simplifiée) -->
+<rect x="570" y="1320" width="460" height="400" rx="28" fill="#e6e2d8"/>
+<path d="M650 1560 C650 1450 720 1400 800 1400 C880 1400 950 1450 950 1560 Z" fill="#0f3d2e"/>
+<path d="M630 1560 C700 1590 900 1590 970 1560 C960 1600 640 1600 630 1560 Z" fill="#0b2a20"/>
+<g transform="translate(800 1495) scale(.42)" stroke="#f3f1ec" fill="none"><use href="#emb"/></g>
+<text x="610" y="1680" font-size="18" fill="#5d6b64">Casquette · emblème brodé</text>
+
+<!-- Étiquette / boîte -->
+<rect x="1060" y="1320" width="460" height="400" rx="28" fill="#0f3d2e"/>
+<rect x="1150" y="1400" width="280" height="190" rx="10" fill="#0b0d0c"/>
+<g transform="translate(1250 1440) scale(.6)" fill="#3fd18f"><use href="#mono"/></g>
+<g transform="translate(1210 1540) scale(.3)" stroke="#f3f1ec"><use href="#word"/></g>
+<text x="1100" y="1680" font-size="18" fill="#cfe7dc">Étui / boîte</text>
+</svg>
+</body></html>
