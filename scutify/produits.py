@@ -162,20 +162,20 @@ rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pre
   '63,99 € ; Lorena Canals 120 × 180 cm 149 € ; vidaXL 120 × 180 cm 48,43 €. FOURNISSEUR : Lien choisi par Jairo : 8,95 $ le m² (6,98 $ dès 1 000 m²), soit environ 13,43 $ pour 100 × 150 cm ; '
   "sourcing par Scutify. À VÉRIFIER : Prix au m² : faire chiffrer par Scutify la taille 100 × 150 cm livrée ; colis d'environ 2 kg, donc vérifier le poids réel ; tester le lavage sur échantillon.",
   'Tapis lavable en machine'),
- ('Cercle de Pilates + 1 paire de chaussettes antidérapantes + programme vidéo « cours collectif » — Niche : Bien-être · suivre un cours de Pilates collectif chez soi',
-  'https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html',
-  'OUI',
+ ("Brosse en acier inoxydable qui retire le sous-poil mort ; un bouton rentre les picots et fait tomber les poils d'un coup — Niche : Animaux · ne plus avoir de poils partout dans la maison",
+  'https://www.alibaba.com/product-detail/Pet-Grooming-Cleaning-Dematting-Tool-Self_1600880909407.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  4.43,
-  8,
-  34.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
-  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Un cours collectif de Pilates coûte 15 à 30 € la '
-  'séance et les horaires ne conviennent pas toujours. ÉCONOMIQUE : OUI : le prix de deux séances en studio. EFFET WAOUW : Le cercle qui sculpte bras et cuisses en vidéo. PRIX EN FRANCE : Kits '
-  'Pilates complets chez Decathlon ; séances de 15 à 30 €. FOURNISSEUR : Cercle 3,40 $ (lien) + chaussettes 1,75 $. À VÉRIFIER : Programme filmé par une coach diplômée. Concurrence : Decathlon et '
-  "Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
-  'Kit Pilates Studio (cercle)')]
+  'NON',
+  2.45,
+  9,
+  29.9,
+  'MODÈLE : FURminator : la marque de référence des brosses anti-mue. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et '
+  'moins cher. PROBLÈME : Chiens et chats perdent leurs poils partout : canapé, vêtements, sol ; et nettoyer une brosse classique est pénible. ÉCONOMIQUE : OUI : moins de passages chez le toiletteur '
+  "(souvent 40 à 60 €) et moins d'aspirateur. EFFET WAOUW : On appuie sur le bouton : une énorme boule de poils tombe d'un coup de la brosse. PRIX EN FRANCE : FURminator 25,99 à 49,99 € (Zoomalia) ; "
+  'Zooplus et Galaxus vendent aussi la gamme FURminator. FOURNISSEUR : Fournisseur du lien : 2,85 $ (50 à 499), 2,55 $ dès 5 000, acier inoxydable, tailles M (135 g) et L (175 g) ; sourcing par '
+  'Scutify. À VÉRIFIER : Vérifier que les picots ne griffent pas la peau (bouts arrondis) sur échantillon ; ne pas copier le nom ni le design de FURminator.',
+  'Brosse autonettoyante chien et chat')]

@@ -429,3 +429,25 @@ _ks.update(court="Kit Pilates Studio (cercle)", niche="Bien-être · suivre un c
            c_passion="OUI : le Pilates, très suivi sur Pinterest et Instagram.")
 _ks["cout"] = round(_ks["usd"] * 0.86, 2); _ks["marge"] = round(_ks["revente"] - _ks["cout"], 2)
 FICHES[9] = _ks
+
+# Ligne 10 (nouvelle demande) : brosse autonettoyante pour chiens et chats, à la place du Kit Pilates Studio.
+_br = autre("Brosse autonettoyante chien et chat", "Brosse en acier inoxydable qui retire le sous-poil mort ; un bouton rentre les picots et fait tomber les poils d'un coup",
+       "Animaux · ne plus avoir de poils partout dans la maison",
+       A + "Pet-Grooming-Cleaning-Dematting-Tool-Self_1600880909407.html", 2.85, 9, 29.90,
+       "Chiens et chats perdent leurs poils partout : canapé, vêtements, sol ; et nettoyer une brosse classique est pénible.",
+       "Je veux permettre aux propriétaires de chiens et de chats de retirer les poils morts à la maison en quelques minutes, sans en mettre partout.",
+       "OUI : moins de passages chez le toiletteur (souvent 40 à 60 €) et moins d'aspirateur.", "On appuie sur le bouton : une énorme boule de poils tombe d'un coup de la brosse.",
+       "FURminator 25,99 à 49,99 € (Zoomalia) ; Zooplus et Galaxus vendent aussi la gamme FURminator.",
+       "Fournisseur du lien : 2,85 $ (50 à 499), 2,55 $ dès 5 000, acier inoxydable, tailles M (135 g) et L (175 g) ; sourcing par Scutify.",
+       "Vérifier que les picots ne griffent pas la peau (bouts arrondis) sur échantillon ; ne pas copier le nom ni le design de FURminator.",
+       "OUI : marché des animaux énorme, la vidéo de la boule de poils est très partagée.",
+       "FURminator : la marque de référence des brosses anti-mue.",
+       "Propriétaires de chiens et de chats de 20 à 55 ans, en appartement ou en maison.",
+       "Les vidéos de brossage avec la boule de poils qui tombe font des millions de vues sur TikTok et Pinterest.",
+       "OUI : les animaux de compagnie.", "Léger, petit colis.",
+       "Quelques coups de brosse sur le chien, un clic sur le bouton : la boule de poils tombe, le canapé reste propre.")
+_br["criteres"] = ("OUI", "OUI", "OUI", "OUI", "NON", "NON")
+_br["c_unique"] = "NON : produit courant, difficile à rendre unique."
+_br["cout"] = round(_br["usd"] * 0.86, 2); _br["marge"] = round(_br["revente"] - _br["cout"], 2)
+FICHES[9] = _br
+SOURCES += [("Zoomalia, brosses FURminator", "https://www.zoomalia.com/animalerie/brosse-furminator-pour-chiens-a-poils-courts-5-tailles-disponibles-p-17179.html")]

@@ -405,3 +405,5 @@ Version précédente : dossier_v17_kits_maison.py.
 
 ## Étape — Ligne 10 : sweat col rond remplacé par Kit Pilates Studio (cercle 1600060372660 + chaussettes, 5,15 $ → 34,90 €).
 Filtre de robinet tenté : 4 annonces Alibaba supprimées (404), abandonné.
+
+## Étape — Ligne 10 : brosse autonettoyante chien et chat (1600880909407, 2,85 $ → 29,90 €, gain ≈ 21,76 €), réf. FURminator 25,99 à 49,99 €.

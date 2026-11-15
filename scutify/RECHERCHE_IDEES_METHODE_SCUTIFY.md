@@ -22,7 +22,7 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 | 7 | Maison · ranger couettes et vêtements d'hiver en prenant 3 fois moins de place | [Sacs sous vide + pompe](https://www.alibaba.com/product-detail/8-Packs-Space-Saver-Plastic-Vacuum_1600116022034.html) | 4,13 € | 34,90 € | 30,77 € | 6,75 |
 | 8 | Mode homme · avoir un sweat qui ne bouloche pas | [Sweat à capuche épais](https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html) | 8,51 € | 49,90 € | 41,39 € | 4,5 |
 | 9 | Maison · avoir un beau tapis toujours propre | [Tapis lavable en machine](https://www.alibaba.com/product-detail/Wholesale-Custom-Area-Rug-Modern-Washable_11000039435438.html) | 11,55 € | 49,90 € | 38,35 € | 7,0 |
-| 10 | Bien-être · suivre un cours de Pilates collectif chez soi | [Kit Pilates Studio (cercle)](https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html) | 4,43 € | 34,90 € | 30,47 € | 8,5 |
+| 10 | Animaux · ne plus avoir de poils partout dans la maison | [Brosse autonettoyante chien et chat](https://www.alibaba.com/product-detail/Pet-Grooming-Cleaning-Dematting-Tool-Self_1600880909407.html) | 2,45 € | 29,90 € | 27,45 € | 8,25 |
 
 La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Chaque produit reprend le produit phare d'une grande marque e-commerce mondiale (Jolie, Goodr, Brick, Ridge, Tushy, Stanley, Loop, Theragun, Bala, Bellroy), à moitié prix et à ta marque.
 
@@ -287,34 +287,34 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | Lien choisi par Jairo : 8,95 $ le m² (6,98 $ dès 1 000 m²), soit environ 13,43 $ pour 100 × 150 cm ; sourcing par Scutify. |
 | À vérifier | Prix au m² : faire chiffrer par Scutify la taille 100 × 150 cm livrée ; colis d'environ 2 kg, donc vérifier le poids réel ; tester le lavage sur échantillon. |
 
-## 10. Bien-être · suivre un cours de Pilates collectif chez soi — Kit Pilates Studio (cercle)
+## 10. Animaux · ne plus avoir de poils partout dans la maison — Brosse autonettoyante chien et chat
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html) · coût 4,43 € (5,15 $ × 0,86) · revente 34,90 € · marge 30,47 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Pet-Grooming-Cleaning-Dematting-Tool-Self_1600880909407.html) · coût 2,45 € (2,85 $ × 0,86) · revente 29,90 € · marge 27,45 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
-| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
-| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
-| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
-| Problème | Un cours collectif de Pilates coûte 15 à 30 € la séance et les horaires ne conviennent pas toujours. |
-| Question à résoudre | Comment suivre un cours de pilates chez soi, simplement, sans payer un studio ? |
-| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
-| **Idée de business** | Je veux permettre aux femmes qui n'ont pas le temps ou le budget d'aller en studio de suivre un vrai cours chez elles. |
-| Solution à un problème | OUI : un cours collectif de Pilates coûte 15 à 30 € la séance, et les horaires ne conviennent pas toujours. |
-| Économique | OUI : le prix de deux séances en studio. |
-| Besoin / passion | OUI : le Pilates, très suivi sur Pinterest et Instagram. |
-| Effet wow | Le cercle qui sculpte bras et cuisses en vidéo. |
-| Unique | OUI : cercle + chaussettes antidérapantes + programme vidéo « cours collectif » en français, dans une boîte à l'image de la marque. |
-| Poids / volume | Colis d'environ 750 g. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : complète le Kit Pilates Plus pour les débutantes. |
-| Prix en France | Kits Pilates complets chez Decathlon ; séances de 15 à 30 €. |
-| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
-| Fournisseur | Cercle 3,40 $ (lien) + chaussettes 1,75 $. |
-| À vérifier | Programme filmé par une coach diplômée. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
+| Boutique modèle | FURminator : la marque de référence des brosses anti-mue. |
+| Demande en France | Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et moins cher. |
+| Observation | Les vidéos de brossage avec la boule de poils qui tombe font des millions de vues sur TikTok et Pinterest. |
+| Cible et désir | Propriétaires de chiens et de chats de 20 à 55 ans, en appartement ou en maison. |
+| Problème | Chiens et chats perdent leurs poils partout : canapé, vêtements, sol ; et nettoyer une brosse classique est pénible. |
+| Question à résoudre | Comment ne plus avoir de poils partout dans la maison, avec une belle pièce à petit prix ? |
+| Pistes produit | Lampe d'écran · planche en titane · moulins par gravité · cubes de compression · fontaine à eau pour chat · support téléphone voiture. |
+| **Idée de business** | Je veux permettre aux propriétaires de chiens et de chats de retirer les poils morts à la maison en quelques minutes, sans en mettre partout. |
+| Solution à un problème | OUI : chiens et chats perdent leurs poils partout : canapé, vêtements, sol ; et nettoyer une brosse classique est pénible. |
+| Économique | OUI : moins de passages chez le toiletteur (souvent 40 à 60 €) et moins d'aspirateur. |
+| Besoin / passion | OUI : les animaux de compagnie. |
+| Effet wow | On appuie sur le bouton : une énorme boule de poils tombe d'un coup de la brosse. |
+| Unique | NON : produit courant, difficile à rendre unique. |
+| Poids / volume | Léger, petit colis. |
+| 1. Répond aux critères principaux ? | Bien : problème du quotidien qui dure toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : la démonstration se comprend en quelques secondes. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, comparaison avec la marque connue. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : marché des animaux énorme, la vidéo de la boule de poils est très partagée. |
+| Prix en France | FURminator 25,99 à 49,99 € (Zoomalia) ; Zooplus et Galaxus vendent aussi la gamme FURminator. |
+| Angle pub / Instagram | Quelques coups de brosse sur le chien, un clic sur le bouton : la boule de poils tombe, le canapé reste propre. |
+| Fournisseur | Fournisseur du lien : 2,85 $ (50 à 499), 2,55 $ dès 5 000, acier inoxydable, tailles M (135 g) et L (175 g) ; sourcing par Scutify. |
+| À vérifier | Vérifier que les picots ne griffent pas la peau (bouts arrondis) sur échantillon ; ne pas copier le nom ni le design de FURminator. |
 
 ## 2e produits (plus de 50 €)
 
@@ -353,5 +353,6 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 - [La Poste, tarifs Colissimo 2026](https://www.laposte.fr/professionnel/tarif-colissimo)
 - [Pearl, coussin ergonomique à mémoire de forme](https://www.pearl.fr/article/NX3937/coussin-ergonomique-a-memoire-de-forme-pour-assise)
 - [ManoMano, coussin HONORNIC](https://www.manomano.fr/p/noircoussin-de-siege-en-mousse-a-memoire-forme-coussin-ergonomique-pour-chaise-bureau-voiture-fauteuil-225376154)
+- [Zoomalia, brosses FURminator](https://www.zoomalia.com/animalerie/brosse-furminator-pour-chiens-a-poils-courts-5-tailles-disponibles-p-17179.html)
 
 Liens Alibaba et prix fournisseur vérifiés le 14/11/2026. Les prix en France viennent des sites cités et peuvent changer.
