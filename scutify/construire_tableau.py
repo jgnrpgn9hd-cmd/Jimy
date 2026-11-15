@@ -45,21 +45,21 @@ with open(os.path.join(ICI, "produits.py"), "w") as out:
 
 # 2. upsells.py : packs à plus de 50 € (liens vérifiés le 14/11/2026)
 U = [
- ("Pack Salle de bain spa : kit WC lavant + pommeau filtrant", "Kit WC lavant sans électricité",
-  "Toute la salle de bain plus propre et plus douce, sans travaux.",
-  "Prix séparés dans la boutique : 49,90 + 39,90 = 89,80 €.",
-  "https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html", 16.35, 14.06, 74.90,
-  "Kit WC 8,50 $ (lien) + pommeau 7,85 $. Marge 60,84 €."),
- ("Pack Ambiance : lampe de table dorée + applique murale aimantée", "Lampe de table dorée sans fil",
-  "Une ambiance d'hôtel dans tout le salon, sans un seul fil.",
-  "Prix séparés dans la boutique : 39,90 + 34,90 = 74,80 €.",
-  "https://www.alibaba.com/product-detail/decorative-rechargeable-LED-table-night-lights_1600626990642.html", 12.64, 10.87, 59.90,
-  "Lampe 5,98 $ (lien) + applique 6,66 $. Marge 49,03 €."),
- ("Pack Chambre d'hôtel : lampe de chevet à induction + applique murale aimantée", "Lampe de chevet à induction",
-  "Une chambre d'hôtel de luxe, le téléphone qui charge, sans électricien.",
-  "Prix séparés dans la boutique : 44,90 + 34,90 = 79,80 €.",
-  "https://www.alibaba.com/product-detail/Touch-Rechargeable-portable-modern-hotel-luxury_62380394938.html", 19.08, 16.41, 64.90,
-  "Lampe de chevet 12,42 $ (lien) + applique 6,66 $. Marge 48,49 €."),
+ ("Pack Cheveux de salon : brosse soufflante + lisseur sans fil", "Brosse soufflante",
+  "Le brushing à la maison et la retouche partout.",
+  "Prix séparés dans la boutique : 39,90 + 39,90 = 79,80 €.",
+  "https://www.alibaba.com/product-detail/Hot-Styling-Tools-one-step-volumizer_1600089481377.html", 17.98, 15.46, 64.90,
+  "Brosse 8,98 $ (lien) + lisseur 9 $. Marge 49,44 €."),
+ ("Pack Peau éclatante : brosse visage sonique + miroir lumineux", "Brosse visage sonique",
+  "Une peau nette et un maquillage parfait partout.",
+  "Prix séparés dans la boutique : 34,90 + 32,90 = 67,80 €.",
+  "https://www.alibaba.com/product-detail/Electric-Silicone-Facial-Brush-for-Cleaning_1601405783636.html", 7.88, 6.78, 54.90,
+  "Brosse 2,75 $ (lien) + miroir 5,13 $. Marge 48,12 €."),
+ ("Pack Cheveux doux : pommeau filtrant + taie d'oreiller en soie", "Pommeau de douche filtrant",
+  "Des cheveux et une peau plus doux, de la douche à l'oreiller.",
+  "Prix séparés dans la boutique : 39,90 + 39,90 = 79,80 €.",
+  "https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html", 20.84, 17.92, 64.90,
+  "Pommeau 7,85 $ (lien) + taie 12,99 $. Marge 46,98 €."),
 ]
 with open(os.path.join(ICI, "upsells.py"), "w") as out:
     out.write("# 2e produits (packs à plus de 50 €) : généré par construire_tableau.py.\n"
@@ -83,7 +83,7 @@ for k, f in enumerate(FICHES):
     n = note(6 + k, *f["criteres"], f["cout"], f["liv"], f["revente"])
     L.append(f"| {k + 1} | {f['niche']} | [{f['court']}]({f['lien']}) | {eur(f['cout'])} | {eur(f['revente'])} | {eur(f['marge'])} | {str(n).replace('.', ',')} |")
 L += ["", "La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. "
-      "Des objets beaux qu'on a envie de montrer, qui règlent un vrai problème : l'achat coup de cœur « il me le faut ».", ""]
+      "Beauté à la maison : le résultat du salon sans le prix ni le temps, l'achat coup de cœur « il me le faut ».", ""]
 ETAPES = [("modele", "Boutique modèle"), ("demande", "Demande en France"), ("observation", "Observation"), ("cible", "Cible et désir"),
           ("probleme", "Problème"), ("question", "Question à résoudre"), ("pistes", "Pistes produit"), ("idee", "**Idée de business**"),
           ("c_probleme", "Solution à un problème"), ("c_economique", "Économique"), ("c_passion", "Besoin / passion"),

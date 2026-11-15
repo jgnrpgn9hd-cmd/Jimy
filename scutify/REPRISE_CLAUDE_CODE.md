@@ -321,3 +321,5 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 15/11/2026 — Lignes 3-10 : 8 produits de 8 univers différents (WC lavant, cache-multiprise, étagère invisible, égouttoir doré, sacoche cuir, cachet de cire, classeur budget, punch needle). Version sport : dossier_v10_sport_recup.py.
 
 ## 15/11/2026 — Lignes 3-10 « coup de cœur » : lampe dorée sans fil, lampe de chevet induction, applique aimantée, lampe photo, kit WC, sacoche, brosse soufflante, cache-multiprise. Version 8 univers : dossier_v11_8univers.py.
+
+## 15/11/2026 — Lignes 3-10 : accessoires beauté sans cosmétique (bigoudis, brosse soufflante, lisseur sans fil, brosse sonique, taie soie, miroir LED, ponceuse ongles, coffret nuit). Version coup de cœur : dossier_v12_coupdecoeur.py.

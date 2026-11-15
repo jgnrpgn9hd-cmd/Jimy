@@ -1,6 +1,6 @@
 # 10 idées de business, 10 niches : généré par construire_tableau.py à partir de dossier.py (ne pas modifier à la main).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
-rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pression — Niche : Salle de bain · avoir une eau plus douce sous la douche',
+rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pression — Niche : Beauté · avoir une eau plus douce sous la douche',
   'https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html',
   'OUI',
   'OUI',
@@ -38,109 +38,23 @@ rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pre
   '; vérifier la norme CE et la catégorie de filtre. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et '
   'les packs.',
   'Lunettes de running polarisées'),
- ('Lampe de table rechargeable en métal doré, lumière chaude réglable au toucher — Niche : Lumière design · éclairer sa table sans prise',
-  'https://www.alibaba.com/product-detail/decorative-rechargeable-LED-table-night-lights_1600626990642.html',
+ ('Kit bigoudi souple en satin + pince griffe, à mettre le soir pour des boucles au réveil — Niche : Beauté · avoir des boucles sans abîmer ses cheveux',
+  'https://www.alibaba.com/product-detail/TikTok-Hot-Selling-Curling-Rods-100_1600398034810.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  5.14,
-  7,
-  39.9,
-  "MODÈLE : Marques de design accessible : on vend un objet qu'on a envie de montrer, qui règle un vrai problème du quotidien. DEMANDE : Les lampes design sans fil et les objets « beaux et utiles » "
-  'font partie des contenus les plus enregistrés sur Pinterest et TikTok ; la maison est la catégorie n° 1 des pubs Meta en 2026 (TrendTrack). PROBLÈME : On dîne sous la lumière froide du '
-  "plafonnier, il n'y a pas de prise au milieu de la table, et les bougies coulent et sont dangereuses avec les enfants. ÉCONOMIQUE : OUI : remplace les bougies et une lampe à brancher. EFFET WAOUW "
-  ": La table qui passe de la lumière froide à l'ambiance restaurant, d'un toucher. PRIX EN FRANCE : NegoLuz environ 47,94 € ; lampes sans fil de marque 50 à 150 €. FOURNISSEUR : 5,98 $ (5 à 99), "
-  '5,65 $ dès 100. À VÉRIFIER : Produit électrique rechargeable : marquage CE, notice en français, inscription au recyclage des appareils (DEEE).',
-  'Lampe de table dorée sans fil'),
- ('Lampe de chevet tactile façon hôtel de luxe, socle qui recharge le téléphone sans fil — Niche : Lumière design · recharger son téléphone et lire au lit',
-  'https://www.alibaba.com/product-detail/Touch-Rechargeable-portable-modern-hotel-luxury_62380394938.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  10.68,
-  7,
-  44.9,
-  "MODÈLE : Marques de design accessible : on vend un objet qu'on a envie de montrer, qui règle un vrai problème du quotidien. DEMANDE : Les lampes design sans fil et les objets « beaux et utiles » "
-  'font partie des contenus les plus enregistrés sur Pinterest et TikTok ; la maison est la catégorie n° 1 des pubs Meta en 2026 (TrendTrack). PROBLÈME : La table de nuit est pleine de câbles, et le '
-  "téléphone traîne à plat au réveil. ÉCONOMIQUE : OUI : lampe + chargeur en un seul objet. EFFET WAOUW : On pose le téléphone, il charge, et la lampe s'allume d'un toucher. PRIX EN FRANCE : 47,99 à "
-  '69,98 € en France. FOURNISSEUR : 12,42 $ (1 à 99), 11,27 $ dès 100. À VÉRIFIER : Produit électrique avec chargeur à induction : marquage CE, compatibilité des téléphones, DEEE.',
-  'Lampe de chevet à induction'),
- ("Applique rechargeable qui se clipse sur une plaque aimantée, tourne à 360° et s'allume au toucher — Niche : Lumière design · éclairer sans électricien",
-  'https://www.alibaba.com/product-detail/Rechargeable-Touch-Magnetic-LED-Light-360_11000013900976.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  5.73,
-  8,
-  34.9,
-  "MODÈLE : Marques de design accessible : on vend un objet qu'on a envie de montrer, qui règle un vrai problème du quotidien. DEMANDE : Les lampes design sans fil et les objets « beaux et utiles » "
-  'font partie des contenus les plus enregistrés sur Pinterest et TikTok ; la maison est la catégorie n° 1 des pubs Meta en 2026 (TrendTrack). PROBLÈME : Couloir, coin lecture ou tête de lit dans le '
-  "noir, pas de prise, et interdit de percer quand on est locataire. ÉCONOMIQUE : OUI : pas d'électricien, pas de travaux. EFFET WAOUW : On colle la plaque, on clipse la lampe, elle tourne et "
-  "s'allume. PRIX EN FRANCE : 19,90 à 34,90 € en France. FOURNISSEUR : 6,30 à 6,66 $ (2 minimum). À VÉRIFIER : Produit électrique rechargeable : marquage CE, DEEE ; vérifier la tenue de l'adhésif.",
-  'Applique murale aimantée sans fil'),
- ("Plaque transparente gravée avec la photo du client, qui s'illumine sur un socle en bois — Niche : Cadeau personnalisé · offrir un cadeau qui fait pleurer",
-  'https://www.alibaba.com/product-detail/Personalized-custom-creative-made-engraved-luminous_1600684887832.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  2.3,
-  8,
-  34.9,
-  "MODÈLE : Marques de design accessible : on vend un objet qu'on a envie de montrer, qui règle un vrai problème du quotidien. DEMANDE : Les lampes design sans fil et les objets « beaux et utiles » "
-  'font partie des contenus les plus enregistrés sur Pinterest et TikTok ; la maison est la catégorie n° 1 des pubs Meta en 2026 (TrendTrack). PROBLÈME : On ne sait jamais quoi offrir (fête des '
-  'mères, Saint-Valentin, anniversaire) et on finit avec un cadeau sans émotion. ÉCONOMIQUE : OUI : un cadeau unique pour moins de 35 €. EFFET WAOUW : Éteinte, une plaque vide ; allumée, la photo '
-  'apparaît. Les gens pleurent en vidéo. PRIX EN FRANCE : Holograbme 34,90 €, Celekado 44,90 €. FOURNISSEUR : 2,68 $ (10 à 199), gravure faite par le fournisseur. À VÉRIFIER : Chaque commande '
-  "demande d'envoyer la photo au fournisseur : prévoir un formulaire simple ; produit électrique (DEEE).",
-  'Lampe photo personnalisée'),
- ("Kit lavant ultra-fin à double buse autonettoyante, se glisse sous l'abattant, eau froide, sans électricité — Niche : Salle de bain · être plus propre aux toilettes",
-  'https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  7.31,
-  5,
-  49.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : Maison et "
-  "cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus "
-  "partagées. PROBLÈME : Le papier toilette ne lave pas vraiment, irrite, coûte cher, et un WC japonais coûte 450 à 1 500 €. ÉCONOMIQUE : OUI : moins de papier toilette, au lieu d'un WC japonais à "
-  "plusieurs centaines d'euros. EFFET WAOUW : Le jet qui sort et se range tout seul ; les pubs avec humour (comme Tushy aux États-Unis). PRIX EN FRANCE : Brico Dépôt 39 €, Leroy Merlin 80 €, BOKU "
-  "86,90 € (Castorama). FOURNISSEUR : 8,50 $ (50 à 999), logo dès 300. À VÉRIFIER : Vérifier la compatibilité avec les toilettes françaises et fournir le raccord ; colis d'environ 2 kg. Concurrence "
-  ': des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français.',
-  'Kit WC lavant sans électricité'),
- ('Sacoche bandoulière en cuir véritable, compacte, pour téléphone, clés, portefeuille et écouteurs — Niche : Mode homme · garder ses affaires sur soi',
-  'https://www.alibaba.com/product-detail/MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  10.75,
-  8,
-  49.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : L'organisation "
-  "de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. "
-  'PROBLÈME : Les poches débordent (téléphone, clés, portefeuille) et on a peur des vols dans les transports. ÉCONOMIQUE : OUI : remplace des poches pleines et protège des vols. EFFET WAOUW : Les '
-  'poches vidées sur la table, puis tout rangé dans la sacoche en 5 secondes. PRIX EN FRANCE : Lacoste environ 60 à 150 € (parfois 40 € en promotion) ; places de marché en cuir 43 à 60 €. '
-  "FOURNISSEUR : Cuir véritable, 12,50 $ (50 à 499), logo accepté. À VÉRIFIER : Demander un certificat de matière et un échantillon avant d'écrire « cuir véritable » ; aucun design qui copie une "
-  'marque. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français.',
-  'Sacoche en cuir homme'),
- ('Brosse soufflante 3 en 1 : sèche, lisse et donne du volume en une seule étape — Niche : Beauté cheveux · faire un brushing de salon chez soi',
+  0.89,
+  9,
+  29.9,
+  'MODÈLE : Kitsch, Foreo, Slip : des accessoires beauté vendus 30 à 300 € avec des vidéos avant / après. DEMANDE : La beauté est la catégorie qui vend le plus sur TikTok Shop (FastMoss) ; les '
+  'bigoudis sans chaleur sont régulièrement en rupture après une vidéo virale (CJ Dropshipping). PROBLÈME : Le fer à friser abîme et casse les cheveux, et faire ses boucles le matin prend du temps. '
+  "ÉCONOMIQUE : OUI : remplace le fer et les rendez-vous chez le coiffeur. EFFET WAOUW : Le bigoudi qu'on déroule le matin : des boucles parfaites apparaissent. PRIX EN FRANCE : Kitsch 26,95 à 32,95 "
+  "€ ; modèles basiques 9 à 19 €. FOURNISSEUR : 1,04 $ (200 minimum), logo personnalisé. À VÉRIFIER : Tutoriel vidéo indispensable (comment l'enrouler) ; soigner la boîte.",
+  'Bigoudis sans chaleur en satin'),
+ ('Brosse soufflante 3 en 1 : sèche, lisse et donne du volume en une seule étape — Niche : Beauté · faire un brushing de salon chez soi',
   'https://www.alibaba.com/product-detail/Hot-Styling-Tools-one-step-volumizer_1600089481377.html',
   'OUI',
   'OUI',
@@ -151,27 +65,109 @@ rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pre
   7.72,
   7,
   39.9,
-  "MODÈLE : Marques de design accessible : on vend un objet qu'on a envie de montrer, qui règle un vrai problème du quotidien. DEMANDE : Les lampes design sans fil et les objets « beaux et utiles » "
-  'font partie des contenus les plus enregistrés sur Pinterest et TikTok ; la maison est la catégorie n° 1 des pubs Meta en 2026 (TrendTrack). PROBLÈME : Un brushing chez le coiffeur coûte 25 à 40 '
-  '€, et à la maison il faut 45 minutes avec sèche-cheveux, brosse et lisseur. ÉCONOMIQUE : OUI : remplace des brushings à 25-40 €. EFFET WAOUW : Cheveux mouillés, puis brushing de salon en 10 '
-  "minutes, d'une seule main. PRIX EN FRANCE : BaByliss, Remington, Rowenta : 27,78 à 41,10 €. FOURNISSEUR : 8,98 $ (2 à 999). À VÉRIFIER : Appareil chauffant : marquage CE obligatoire, prise "
-  "européenne, notice en français, DEEE ; ne pas copier le design d'une marque.",
+  'MODÈLE : Kitsch, Foreo, Slip : des accessoires beauté vendus 30 à 300 € avec des vidéos avant / après. DEMANDE : La beauté est la catégorie qui vend le plus sur TikTok Shop (FastMoss) ; les '
+  'bigoudis sans chaleur sont régulièrement en rupture après une vidéo virale (CJ Dropshipping). PROBLÈME : Un brushing chez le coiffeur coûte 25 à 40 €, et à la maison il faut 45 minutes avec '
+  "sèche-cheveux, brosse et lisseur. ÉCONOMIQUE : OUI : remplace des brushings à 25-40 €. EFFET WAOUW : Cheveux mouillés, puis brushing de salon en 10 minutes, d'une seule main. PRIX EN FRANCE : "
+  'BaByliss, Remington, Rowenta : 27,78 à 41,10 €. FOURNISSEUR : 8,98 $ (2 à 999). À VÉRIFIER : Appareil chauffant : Appareil électrique : marquage CE, notice en français, inscription au recyclage '
+  "des appareils (DEEE) ; aucune promesse médicale. Ne pas copier le design d'une marque.",
   'Brosse soufflante'),
- ('Boîte de rangement pour multiprise et câbles, couvercle en bambou — Niche : Salon · cacher les câbles',
-  'https://www.alibaba.com/product-detail/Cable-Management-Box-Organizer-Bamboo-Lid_1600989455921.html',
+ ('Lisseur mini rechargeable sans fil, à glisser dans le sac — Niche : Beauté · se recoiffer partout',
+  'https://www.alibaba.com/product-detail/Cordless-Flat-Irons-Factory-Custom-Logo_1601367502059.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  3.01,
-  7,
+  7.74,
+  8,
+  39.9,
+  'MODÈLE : Kitsch, Foreo, Slip : des accessoires beauté vendus 30 à 300 € avec des vidéos avant / après. DEMANDE : La beauté est la catégorie qui vend le plus sur TikTok Shop (FastMoss) ; les '
+  'bigoudis sans chaleur sont régulièrement en rupture après une vidéo virale (CJ Dropshipping). PROBLÈME : Les cheveux frisent avec la pluie ou la transpiration, et on ne peut pas se recoiffer hors '
+  'de chez soi. ÉCONOMIQUE : OUI : moins cher que les marques (45,90 à 63,38 €, Dyson 581 €). EFFET WAOUW : Sortir le lisseur du sac, sans prise, et des cheveux parfaits en 2 minutes. PRIX EN FRANCE '
+  ': Postquam 45,90 €, MEDION 63,38 €, Dyson Corrale 581,90 €. FOURNISSEUR : 9 $ (2 minimum), logo personnalisé. À VÉRIFIER : Appareil chauffant avec batterie : Appareil électrique : marquage CE, '
+  'notice en français, inscription au recyclage des appareils (DEEE) ; aucune promesse médicale.',
+  'Lisseur sans fil'),
+ ('Brosse nettoyante en silicone à vibrations, étanche, rechargeable — Niche : Beauté · nettoyer sa peau en profondeur',
+  'https://www.alibaba.com/product-detail/Electric-Silicone-Facial-Brush-for-Cleaning_1601405783636.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  2.36,
+  9,
   34.9,
-  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. DEMANDE : Maison et "
-  "cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus "
-  'partagées. PROBLÈME : Multiprises et câbles visibles sous le bureau ou derrière la télé : moche, poussiéreux, dangereux avec des enfants ou des animaux. ÉCONOMIQUE : OUI : maison plus nette et '
-  'plus sûre. EFFET WAOUW : Le nid de câbles, puis la jolie boîte : avant / après immédiat. PRIX EN FRANCE : Leroy Merlin 23,29 € (barré 41,92 €) ; Pearl 9,95 à 43,95 €. FOURNISSEUR : 3,50 $ (50 à '
-  '299), logo dès 500. À VÉRIFIER : Vérifier la taille pour les multiprises françaises (prises larges). Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la '
-  'marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français.',
-  'Boîte cache-multiprise')]
+  'MODÈLE : Kitsch, Foreo, Slip : des accessoires beauté vendus 30 à 300 € avec des vidéos avant / après. DEMANDE : La beauté est la catégorie qui vend le plus sur TikTok Shop (FastMoss) ; les '
+  'bigoudis sans chaleur sont régulièrement en rupture après une vidéo virale (CJ Dropshipping). PROBLÈME : Les mains et les cotons ne nettoient pas les pores en profondeur ; la peau reste terne. '
+  'ÉCONOMIQUE : OUI : bien moins chère que Foreo (59 à 315 €). EFFET WAOUW : La mousse qui se forme sur le visage, la peau qui brille après. PRIX EN FRANCE : Foreo Luna de 59,70 à 315 € selon le '
+  'modèle. FOURNISSEUR : 2,75 $ (20 à 99), 2,65 $ dès 100. À VÉRIFIER : Appareil électrique : marquage CE, notice en français, inscription au recyclage des appareils (DEEE) ; aucune promesse '
+  'médicale.',
+  'Brosse visage sonique'),
+ ("Taie d'oreiller 100 % soie de mûrier 22 momme, belle boîte — Niche : Beauté · garder ses cheveux et sa peau la nuit",
+  'https://www.alibaba.com/product-detail/22-momme-100-Custom-Package-100_1601168614658.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  11.17,
+  8,
+  39.9,
+  'MODÈLE : Kitsch, Foreo, Slip : des accessoires beauté vendus 30 à 300 € avec des vidéos avant / après. DEMANDE : La beauté est la catégorie qui vend le plus sur TikTok Shop (FastMoss) ; les '
+  'bigoudis sans chaleur sont régulièrement en rupture après une vidéo virale (CJ Dropshipping). PROBLÈME : Le coton frotte : cheveux cassés et emmêlés, marques sur le visage au réveil. ÉCONOMIQUE : '
+  'OUI : moitié prix des taies en soie vendues en France. EFFET WAOUW : Les cheveux lisses au réveil, la soie qui brille. PRIX EN FRANCE : Maison de la Soie 59,92 € ; Nature & Découvertes 74 à 129 '
+  '€. FOURNISSEUR : 12,99 $ (2 à 499), 9,89 $ dès 500, logo +0,50 $. À VÉRIFIER : Positionner sur la beauté des cheveux et de la peau (pas le sommeil, niche de NOXYA) ; vérifier la certification '
+  'OEKO-TEX.',
+  "Taie d'oreiller en soie"),
+ ('Miroir pliable rechargeable avec 3 lumières (chaude, naturelle, froide), tactile — Niche : Beauté · se maquiller avec une bonne lumière partout',
+  'https://www.alibaba.com/product-detail/Custom-Logo-Touch-Switch-Folding-Rechargeable_1600658723083.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  4.41,
+  8,
+  32.9,
+  'MODÈLE : Kitsch, Foreo, Slip : des accessoires beauté vendus 30 à 300 € avec des vidéos avant / après. DEMANDE : La beauté est la catégorie qui vend le plus sur TikTok Shop (FastMoss) ; les '
+  "bigoudis sans chaleur sont régulièrement en rupture après une vidéo virale (CJ Dropshipping). PROBLÈME : Mauvaise lumière dans la salle de bain ou à l'hôtel : maquillage raté, qu'on découvre "
+  'dehors. ÉCONOMIQUE : OUI : évite les maquillages ratés. EFFET WAOUW : Le visage éclairé comme en studio, en un toucher. PRIX EN FRANCE : UNIQ 19,99 € ; StylPro Go and Glow 32,95 € ; modèles haut '
+  'de gamme 78 à 104 €. FOURNISSEUR : 5,13 $ (300 minimum), logo personnalisé. À VÉRIFIER : Appareil électrique : marquage CE, notice en français, inscription au recyclage des appareils (DEEE) ; '
+  'aucune promesse médicale.',
+  'Miroir lumineux de voyage'),
+ ('Kit manucure électrique rechargeable avec 6 embouts — Niche : Beauté · faire une manucure de salon chez soi',
+  'https://www.alibaba.com/product-detail/Electric-Nail-Drills-for-Acrylic-Nails_1600084555339.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  7.96,
+  8,
+  39.9,
+  'MODÈLE : Kitsch, Foreo, Slip : des accessoires beauté vendus 30 à 300 € avec des vidéos avant / après. DEMANDE : La beauté est la catégorie qui vend le plus sur TikTok Shop (FastMoss) ; les '
+  'bigoudis sans chaleur sont régulièrement en rupture après une vidéo virale (CJ Dropshipping). PROBLÈME : Une manucure en institut coûte 30 à 60 € et il faut y retourner toutes les 3 semaines. '
+  "ÉCONOMIQUE : OUI : amorti dès la première manucure évitée. EFFET WAOUW : L'ongle limé et poli en accéléré, résultat de salon. PRIX EN FRANCE : Beurer MP 64 39 €, Beurer MP62 80,64 € ; modèles pro "
+  '77 à 110 €. FOURNISSEUR : 9,25 $ (1 à 4 999). À VÉRIFIER : Appareil électrique : marquage CE, notice en français, inscription au recyclage des appareils (DEEE) ; aucune promesse médicale.',
+  'Ponceuse à ongles électrique'),
+ ("Coffret cadeau : taie d'oreiller en soie + bigoudis sans chaleur en satin — Niche : Beauté · offrir une routine beauté du soir",
+  'https://www.alibaba.com/product-detail/22-momme-100-Custom-Package-100_1601168614658.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  12.07,
+  8,
+  49.9,
+  'MODÈLE : Kitsch, Foreo, Slip : des accessoires beauté vendus 30 à 300 € avec des vidéos avant / après. DEMANDE : La beauté est la catégorie qui vend le plus sur TikTok Shop (FastMoss) ; les '
+  "bigoudis sans chaleur sont régulièrement en rupture après une vidéo virale (CJ Dropshipping). PROBLÈME : On ne sait pas quoi offrir à une femme qui prend soin d'elle. ÉCONOMIQUE : OUI : deux "
+  "produits premium pour le prix d'une taie en soie de marque. EFFET WAOUW : Le déballage, puis les boucles et les cheveux lisses au réveil. PRIX EN FRANCE : Taie en soie 59,92 € + Kitsch 32,95 € "
+  'achetés séparément. FOURNISSEUR : Taie 12,99 $ (lien) + bigoudis 1,04 $. À VÉRIFIER : Belle boîte indispensable ; même positionnement beauté que la taie.',
+  'Coffret nuit beauté')]

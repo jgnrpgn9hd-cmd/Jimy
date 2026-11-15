@@ -49,71 +49,85 @@ FICHES = [
        "OUI : accessoire très visible en photo, marge correcte."),
 ]
 
-import dossier_v8_maison as _mai, dossier_v7_organisation as _org
-_M = {f["court"]: dict(f) for f in _mai.FICHES}
-_O = {f["court"]: dict(f) for f in _org.FICHES}
-def _prendre(src, nom, univers):
-    f = dict(src[nom]); f["niche"] = univers + " · " + f["niche"].split(" · ", 1)[1]; return f
-FICHES[0]["niche"] = "Salle de bain · " + FICHES[0]["niche"].split(" · ", 1)[1]
+FICHES[0]["niche"] = "Beauté · " + FICHES[0]["niche"].split(" · ", 1)[1]
 FICHES[1]["niche"] = "Sport · " + FICHES[1]["niche"].split(" · ", 1)[1]
-_DESIGN = dict(
-    demande="Les lampes design sans fil et les objets « beaux et utiles » font partie des contenus les plus enregistrés sur Pinterest et TikTok ; la maison est la catégorie n° 1 des pubs Meta en 2026 (TrendTrack).",
-    modele="Marques de design accessible : on vend un objet qu'on a envie de montrer, qui règle un vrai problème du quotidien.",
-    observation="On veut un intérieur d'hôtel ou de restaurant chic, mais sans électricien, sans fils et sans gros budget.",
-    cible="Femmes et hommes de 25 à 45 ans, souvent en appartement ou locataires, qui soignent leur intérieur et achètent sur coup de cœur.",
-    pistes="Lampe de table sans fil · lampe de chevet à induction · applique aimantée · lampe photo · brosse soufflante · kit WC lavant · sacoche en cuir · cache-multiprise.",
-    c_passion="OUI : la déco, le design, prendre soin de soi et de son intérieur.",
-    c_unique="Design premium (métal doré, bois, verre), belle boîte, marque soignée.",
-    q3="Oui : vidéos « avant / après » d'une pièce, ambiance du soir, déballage.",
-    angle_pub="La pièce triste et froide, puis l'objet qui change tout en un geste, en 10 secondes.")
-def _design(court, nom, usage, univers, lien, usd, liv, revente, probleme, idee, eco, wow, prix, fourn, vig, q4, poids):
+_BEAUTE = dict(
+    demande="La beauté est la catégorie qui vend le plus sur TikTok Shop (FastMoss) ; les bigoudis sans chaleur sont régulièrement en rupture après une vidéo virale (CJ Dropshipping).",
+    modele="Kitsch, Foreo, Slip : des accessoires beauté vendus 30 à 300 € avec des vidéos avant / après.",
+    observation="Sur TikTok et Instagram, les routines beauté « à la maison » remplacent le salon : on veut le résultat du coiffeur ou de l'esthéticienne, sans le prix ni le temps.",
+    cible="Femmes de 18 à 45 ans qui prennent soin de leurs cheveux et de leur peau, actives sur Instagram et TikTok.",
+    pistes="Bigoudis sans chaleur · brosse soufflante · lisseur sans fil · brosse visage sonique · taie en soie · miroir lumineux · ponceuse à ongles · coffret beauté.",
+    c_passion="OUI : la beauté, prendre soin de soi, se sentir belle.",
+    c_unique="Design premium (satin, blanc nacré, doré), belle boîte, tutoriels vidéo en français.",
+    q3="Oui : avant / après en vidéo, routines du soir et du matin, déballage.",
+    angle_pub="Le résultat du salon obtenu à la maison, montré en avant / après en 10 secondes.")
+def _beaute(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, prix, fourn, vig, q4, poids):
     f = fiche(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, prix, fourn, vig, q4, poids=poids)
-    f.update(_DESIGN); f["vigilance"] = vig; f["niche"] = univers + " · " + usage; return f
+    f.update(_BEAUTE); f["vigilance"] = vig; f["niche"] = "Beauté · " + usage; return f
 _A = "https://www.alibaba.com/product-detail/"
+_ELEC = "Appareil électrique : marquage CE, notice en français, inscription au recyclage des appareils (DEEE) ; aucune promesse médicale."
 FICHES += [
- _design("Lampe de table dorée sans fil", "Lampe de table rechargeable en métal doré, lumière chaude réglable au toucher", "éclairer sa table sans prise", "Lumière design",
-   _A + "decorative-rechargeable-LED-table-night-lights_1600626990642.html", 5.98, 7, 39.90,
-   "On dîne sous la lumière froide du plafonnier, il n'y a pas de prise au milieu de la table, et les bougies coulent et sont dangereuses avec les enfants.",
-   "Je veux permettre à chacun d'avoir l'ambiance d'un restaurant chic à la maison, avec une lampe sans fil qu'on pose où on veut.",
-   "OUI : remplace les bougies et une lampe à brancher.", "La table qui passe de la lumière froide à l'ambiance restaurant, d'un toucher.",
-   "NegoLuz environ 47,94 € ; lampes sans fil de marque 50 à 150 €.", "5,98 $ (5 à 99), 5,65 $ dès 100.",
-   "Produit électrique rechargeable : marquage CE, notice en français, inscription au recyclage des appareils (DEEE).",
-   "OUI : objet coup de cœur très partagé sur Pinterest, achat cadeau.", "Colis d'environ 750 g."),
- _design("Lampe de chevet à induction", "Lampe de chevet tactile façon hôtel de luxe, socle qui recharge le téléphone sans fil", "recharger son téléphone et lire au lit", "Lumière design",
-   _A + "Touch-Rechargeable-portable-modern-hotel-luxury_62380394938.html", 12.42, 7, 44.90,
-   "La table de nuit est pleine de câbles, et le téléphone traîne à plat au réveil.",
-   "Je veux permettre à chacun d'avoir une table de nuit d'hôtel de luxe : une seule lampe qui éclaire et recharge le téléphone, sans fil.",
-   "OUI : lampe + chargeur en un seul objet.", "On pose le téléphone, il charge, et la lampe s'allume d'un toucher.",
-   "47,99 à 69,98 € en France.", "12,42 $ (1 à 99), 11,27 $ dès 100.",
-   "Produit électrique avec chargeur à induction : marquage CE, compatibilité des téléphones, DEEE.",
-   "OUI : deux problèmes réglés d'un coup, look premium.", "Colis d'environ 1 kg."),
- _design("Applique murale aimantée sans fil", "Applique rechargeable qui se clipse sur une plaque aimantée, tourne à 360° et s'allume au toucher", "éclairer sans électricien", "Lumière design",
-   _A + "Rechargeable-Touch-Magnetic-LED-Light-360_11000013900976.html", 6.66, 8, 34.90,
-   "Couloir, coin lecture ou tête de lit dans le noir, pas de prise, et interdit de percer quand on est locataire.",
-   "Je veux permettre aux locataires et à ceux qui n'ont pas de prise d'avoir une applique d'hôtel en 10 secondes, sans électricien ni perçage.",
-   "OUI : pas d'électricien, pas de travaux.", "On colle la plaque, on clipse la lampe, elle tourne et s'allume.",
-   "19,90 à 34,90 € en France.", "6,30 à 6,66 $ (2 minimum).",
-   "Produit électrique rechargeable : marquage CE, DEEE ; vérifier la tenue de l'adhésif.",
-   "OUI : énorme cible de locataires, effet waouh immédiat.", "Colis d'environ 500 g."),
- _design("Lampe photo personnalisée", "Plaque transparente gravée avec la photo du client, qui s'illumine sur un socle en bois", "offrir un cadeau qui fait pleurer", "Cadeau personnalisé",
-   _A + "Personalized-custom-creative-made-engraved-luminous_1600684887832.html", 2.68, 8, 34.90,
-   "On ne sait jamais quoi offrir (fête des mères, Saint-Valentin, anniversaire) et on finit avec un cadeau sans émotion.",
-   "Je veux permettre à ceux qui cherchent un cadeau de faire pleurer de joie, avec leur photo gravée en lumière.",
-   "OUI : un cadeau unique pour moins de 35 €.", "Éteinte, une plaque vide ; allumée, la photo apparaît. Les gens pleurent en vidéo.",
-   "Holograbme 34,90 €, Celekado 44,90 €.", "2,68 $ (10 à 199), gravure faite par le fournisseur.",
-   "Chaque commande demande d'envoyer la photo au fournisseur : prévoir un formulaire simple ; produit électrique (DEEE).",
-   "OUI : émotion maximale, ventes toute l'année (fêtes, anniversaires).", "Colis d'environ 500 g."),
- _prendre(_M, "Kit WC lavant sans électricité", "Salle de bain"),
- _prendre(_O, "Sacoche en cuir homme", "Mode homme"),
- _design("Brosse soufflante", "Brosse soufflante 3 en 1 : sèche, lisse et donne du volume en une seule étape", "faire un brushing de salon chez soi", "Beauté cheveux",
+ _beaute("Bigoudis sans chaleur en satin", "Kit bigoudi souple en satin + pince griffe, à mettre le soir pour des boucles au réveil", "avoir des boucles sans abîmer ses cheveux",
+   _A + "TikTok-Hot-Selling-Curling-Rods-100_1600398034810.html", 1.04, 9, 29.90,
+   "Le fer à friser abîme et casse les cheveux, et faire ses boucles le matin prend du temps.",
+   "Je veux permettre aux femmes aux cheveux longs d'avoir des boucles parfaites au réveil, sans chaleur et sans abîmer leurs cheveux.",
+   "OUI : remplace le fer et les rendez-vous chez le coiffeur.", "Le bigoudi qu'on déroule le matin : des boucles parfaites apparaissent.",
+   "Kitsch 26,95 à 32,95 € ; modèles basiques 9 à 19 €.", "1,04 $ (200 minimum), logo personnalisé.",
+   "Tutoriel vidéo indispensable (comment l'enrouler) ; soigner la boîte.",
+   "OUI : produit viral en rupture de stock aux États-Unis, très gros marché.", "Petit colis en lettre (250 g)."),
+ _beaute("Brosse soufflante", "Brosse soufflante 3 en 1 : sèche, lisse et donne du volume en une seule étape", "faire un brushing de salon chez soi",
    _A + "Hot-Styling-Tools-one-step-volumizer_1600089481377.html", 8.98, 7, 39.90,
    "Un brushing chez le coiffeur coûte 25 à 40 €, et à la maison il faut 45 minutes avec sèche-cheveux, brosse et lisseur.",
    "Je veux permettre aux femmes qui manquent de temps d'avoir un brushing de salon en 10 minutes, avec un seul appareil.",
    "OUI : remplace des brushings à 25-40 €.", "Cheveux mouillés, puis brushing de salon en 10 minutes, d'une seule main.",
    "BaByliss, Remington, Rowenta : 27,78 à 41,10 €.", "8,98 $ (2 à 999).",
-   "Appareil chauffant : marquage CE obligatoire, prise européenne, notice en français, DEEE ; ne pas copier le design d'une marque.",
+   "Appareil chauffant : " + _ELEC + " Ne pas copier le design d'une marque.",
    "OUI : achat coup de cœur très fort, cible énorme.", "Colis d'environ 750 g."),
- _prendre(_M, "Boîte cache-multiprise", "Salon"),
+ _beaute("Lisseur sans fil", "Lisseur mini rechargeable sans fil, à glisser dans le sac", "se recoiffer partout",
+   _A + "Cordless-Flat-Irons-Factory-Custom-Logo_1601367502059.html", 9.00, 8, 39.90,
+   "Les cheveux frisent avec la pluie ou la transpiration, et on ne peut pas se recoiffer hors de chez soi.",
+   "Je veux permettre aux femmes de se recoiffer en 2 minutes au bureau, en soirée ou en voyage, avec un lisseur sans fil.",
+   "OUI : moins cher que les marques (45,90 à 63,38 €, Dyson 581 €).", "Sortir le lisseur du sac, sans prise, et des cheveux parfaits en 2 minutes.",
+   "Postquam 45,90 €, MEDION 63,38 €, Dyson Corrale 581,90 €.", "9 $ (2 minimum), logo personnalisé.",
+   "Appareil chauffant avec batterie : " + _ELEC,
+   "OUI : achat impulsif, idée cadeau.", "Colis d'environ 500 g."),
+ _beaute("Brosse visage sonique", "Brosse nettoyante en silicone à vibrations, étanche, rechargeable", "nettoyer sa peau en profondeur",
+   _A + "Electric-Silicone-Facial-Brush-for-Cleaning_1601405783636.html", 2.75, 9, 34.90,
+   "Les mains et les cotons ne nettoient pas les pores en profondeur ; la peau reste terne.",
+   "Je veux permettre à chacune d'avoir une peau nette et lumineuse avec un nettoyage de 1 minute par jour.",
+   "OUI : bien moins chère que Foreo (59 à 315 €).", "La mousse qui se forme sur le visage, la peau qui brille après.",
+   "Foreo Luna de 59,70 à 315 € selon le modèle.", "2,75 $ (20 à 99), 2,65 $ dès 100.",
+   _ELEC, "OUI : produit beauté star, très visuel, marge forte.", "Petit colis en lettre (250 g)."),
+ _beaute("Taie d'oreiller en soie", "Taie d'oreiller 100 % soie de mûrier 22 momme, belle boîte", "garder ses cheveux et sa peau la nuit",
+   _A + "22-momme-100-Custom-Package-100_1601168614658.html", 12.99, 8, 39.90,
+   "Le coton frotte : cheveux cassés et emmêlés, marques sur le visage au réveil.",
+   "Je veux permettre aux femmes de se réveiller avec des cheveux lisses et sans marques, grâce à une taie en soie.",
+   "OUI : moitié prix des taies en soie vendues en France.", "Les cheveux lisses au réveil, la soie qui brille.",
+   "Maison de la Soie 59,92 € ; Nature & Découvertes 74 à 129 €.", "12,99 $ (2 à 499), 9,89 $ dès 500, logo +0,50 $.",
+   "Positionner sur la beauté des cheveux et de la peau (pas le sommeil, niche de NOXYA) ; vérifier la certification OEKO-TEX.",
+   "OUI : cadeau beauté très demandé, marque de luxe à moitié prix.", "Colis d'environ 500 g."),
+ _beaute("Miroir lumineux de voyage", "Miroir pliable rechargeable avec 3 lumières (chaude, naturelle, froide), tactile", "se maquiller avec une bonne lumière partout",
+   _A + "Custom-Logo-Touch-Switch-Folding-Rechargeable_1600658723083.html", 5.13, 8, 32.90,
+   "Mauvaise lumière dans la salle de bain ou à l'hôtel : maquillage raté, qu'on découvre dehors.",
+   "Je veux permettre aux femmes de se maquiller avec une lumière parfaite partout, avec un miroir qui tient dans le sac.",
+   "OUI : évite les maquillages ratés.", "Le visage éclairé comme en studio, en un toucher.",
+   "UNIQ 19,99 € ; StylPro Go and Glow 32,95 € ; modèles haut de gamme 78 à 104 €.", "5,13 $ (300 minimum), logo personnalisé.",
+   _ELEC, "OUI : achat facile, idée cadeau.", "Colis d'environ 500 g."),
+ _beaute("Ponceuse à ongles électrique", "Kit manucure électrique rechargeable avec 6 embouts", "faire une manucure de salon chez soi",
+   _A + "Electric-Nail-Drills-for-Acrylic-Nails_1600084555339.html", 9.25, 8, 39.90,
+   "Une manucure en institut coûte 30 à 60 € et il faut y retourner toutes les 3 semaines.",
+   "Je veux permettre aux femmes de faire une manucure propre chez elles, avec un appareil simple et des tutoriels.",
+   "OUI : amorti dès la première manucure évitée.", "L'ongle limé et poli en accéléré, résultat de salon.",
+   "Beurer MP 64 39 €, Beurer MP62 80,64 € ; modèles pro 77 à 110 €.", "9,25 $ (1 à 4 999).",
+   _ELEC, "OUI : gros marché des ongles, vidéos très partagées.", "Colis d'environ 500 g."),
+ _beaute("Coffret nuit beauté", "Coffret cadeau : taie d'oreiller en soie + bigoudis sans chaleur en satin", "offrir une routine beauté du soir",
+   _A + "22-momme-100-Custom-Package-100_1601168614658.html", 14.03, 8, 49.90,
+   "On ne sait pas quoi offrir à une femme qui prend soin d'elle.",
+   "Je veux permettre à ceux qui cherchent un cadeau d'offrir une vraie routine beauté du soir, dans un beau coffret.",
+   "OUI : deux produits premium pour le prix d'une taie en soie de marque.", "Le déballage, puis les boucles et les cheveux lisses au réveil.",
+   "Taie en soie 59,92 € + Kitsch 32,95 € achetés séparément.", "Taie 12,99 $ (lien) + bigoudis 1,04 $.",
+   "Belle boîte indispensable ; même positionnement beauté que la taie.",
+   "OUI : cadeau toute l'année (anniversaires, fête des mères, Noël).", "Colis d'environ 500 g."),
 ]
 
 for _f in FICHES:
@@ -133,6 +147,13 @@ SOURCES = [
  ("MineralStream, kit de douche", "https://fr.mineralstream.co/products/mineralstream%E2%84%A2-noir-vitamine-c-kit-de-douche-complet"),
  ("La Poste, tarifs Colissimo 2026", "https://www.laposte.fr/professionnel/tarif-colissimo"),
 ]
-_vus = {u for _, u in SOURCES}
-SOURCES += [s for s in _mai.SOURCES + _org.SOURCES if s[1] not in _vus and not _vus.add(s[1])]
-
+SOURCES += [
+ ("FastMoss, meilleures ventes TikTok Shop par catégorie", "https://www.fastmoss.com/blog/best-selling-products-by-category/"),
+ ("CJ Dropshipping, produits viraux 2026", "https://cjdropshipping.com/blogs/winning-products/TikTok-Viral-products-2026"),
+ ("Kitsch, bigoudis sans chaleur", "https://www.mykitsch.com/fr/products/heatless-satin-curling-set-black-satin-sleep-bonnet-bundle-sunset-tie-dye"),
+ ("Kaufland, lisseur sans fil", "https://www.kaufland.fr/product/513441332/"),
+ ("Sephora, Foreo Luna", "https://www.sephora.fr/p/luna-4-P10044624.html"),
+ ("Maison de la Soie, taie 22 momme", "https://www.maisondelasoie.com/en/products/oxford-silk-pillowcase-with-22-mommes"),
+ ("Lookfantastic, miroir StylPro", "https://lookfantastic.fr/p/stylpro-go-and-glow-mirror/13168270"),
+ ("Meilleurtest, ponceuses à ongles", "https://meilleurtest.fr/comparatif/ponceuse-a-ongle/"),
+]
