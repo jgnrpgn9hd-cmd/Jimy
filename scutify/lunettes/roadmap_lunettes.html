@@ -1,0 +1,290 @@
+<title>Lunettes VAURE · Road Map 1 à 4</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Mise en page : un dossier en 4 étapes (la Road Map Scutify), colonne de lecture + maquette téléphone de la page produit */
+:root{
+  --bg:#f5f7f6; --surface:#ffffff; --ink:#14201b; --muted:#56655e; --line:#dbe3df;
+  --brand:#0f3d2e; --accent:#2fb67c; --accent-ink:#0b5a3a; --warn:#a4561a; --warn-bg:#fbf0e6;
+  --display:'Sora',ui-sans-serif,system-ui,sans-serif; --body:'Inter',ui-sans-serif,system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0c1411; --surface:#121d18; --ink:#e6eeea; --muted:#9db0a7; --line:#24342d;
+  --brand:#8fdcb6; --accent:#3fd18f; --accent-ink:#8fdcb6; --warn:#f0b07a; --warn-bg:#2a1d12; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c1411; --surface:#121d18; --ink:#e6eeea; --muted:#9db0a7; --line:#24342d;
+  --brand:#8fdcb6; --accent:#3fd18f; --accent-ink:#8fdcb6; --warn:#f0b07a; --warn-bg:#2a1d12; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--body);margin:0}
+.wrap{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.2;margin:0}
+h1{font-size:clamp(28px,5vw,42px);color:var(--brand)}
+h2{font-size:24px;color:var(--brand);display:flex;align-items:baseline;gap:12px}
+h2 .n{font-size:13px;letter-spacing:.12em;color:var(--accent-ink);font-family:var(--body);font-weight:600}
+h3{font-size:16px;margin-top:22px}
+p,li{max-width:68ch}
+.lead{color:var(--muted);font-size:16px;margin-top:10px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.pill{font-size:12px;letter-spacing:.04em;padding:4px 10px;border-radius:999px;border:1px solid var(--line);color:var(--muted);background:var(--surface)}
+section{margin-top:44px;padding-top:28px;border-top:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:16px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;min-width:0}
+.box h3{margin-top:0}
+.note{background:var(--warn-bg);color:var(--ink);border-left:3px solid var(--warn);padding:12px 16px;border-radius:6px;margin-top:16px}
+.note b{color:var(--warn)}
+.tbl{overflow-x:auto;margin-top:14px}
+table{border-collapse:collapse;width:100%;min-width:560px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+td.num{white-space:nowrap}
+.ok{color:var(--accent-ink);font-weight:600}
+ol.q li{margin-bottom:6px}
+.quote{font-family:var(--display);font-size:20px;color:var(--brand);margin:6px 0}
+.lp{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:28px;margin-top:18px;align-items:start}
+@media (max-width:760px){.lp{grid-template-columns:1fr}}
+.phone{width:100%;max-width:300px;justify-self:center;border:10px solid #1b2622;border-radius:34px;background:#0d1a15;overflow:hidden;color:#eaf3ee;font-size:12px}
+.phone .bar{background:#0f3d2e;text-align:center;padding:6px 0;font-size:10px;letter-spacing:.08em}
+.phone .hero{padding:16px 14px 10px;text-align:center}
+.phone .logo{font-family:var(--display);letter-spacing:.35em;font-size:13px}
+.phone h4{font-family:var(--display);font-size:20px;margin:10px 0 4px}
+.phone .sub{color:#a9c9b9;font-size:11px}
+.phone .price{font-family:var(--display);font-size:18px;color:#3fd18f;margin-top:8px}
+.phone .price s{color:#7d978b;font-size:12px;margin-left:6px}
+.phone .cta{display:block;margin:10px 14px;background:#3fd18f;color:#08261a;text-align:center;border-radius:8px;padding:10px;font-weight:700}
+.phone ul{list-style:none;padding:0 14px;margin:6px 0}
+.phone li{padding:5px 0;border-bottom:1px solid #1f3a30;font-size:11px}
+.phone .rev{padding:8px 14px 16px;color:#a9c9b9;font-size:11px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:12px 0 0}
+.steps li{counter-increment:s;padding:10px 0 10px 40px;position:relative;border-bottom:1px solid var(--line)}
+.steps li::before{content:counter(s);position:absolute;left:0;top:10px;width:26px;height:26px;border-radius:50%;background:var(--brand);color:var(--bg);font-size:12px;font-weight:700;display:grid;place-items:center}
+a{color:var(--accent-ink)}
+.src{font-size:13px;color:var(--muted)}
+</style>
+
+<div class="wrap">
+<header>
+  <h1>Lunettes VAURE : étapes 1 à 4 de la Road Map</h1>
+  <p class="lead">Le produit, l'étude de marché, le positionnement et la boutique Shopify, pour lancer les lunettes de soleil comme premier produit de la marque.</p>
+  <div class="meta"><span class="pill">Produit : lunettes de soleil enveloppantes UV400</span><span class="pill">Prix de vente : 34,90 €</span><span class="pill">Dropshipping via Scutify</span><span class="pill">Lancement conseillé : fin février</span></div>
+</header>
+
+<!-- 01 -->
+<section id="produit">
+  <h2><span class="n">ÉTAPE 01</span>Le produit</h2>
+
+  <h3>Critères</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Critère Scutify</th><th>Réponse</th><th>Pourquoi</th></tr></thead>
+    <tbody>
+      <tr><td>Économique</td><td>NON</td><td>Il ne fait pas économiser d'argent à l'usage.</td></tr>
+      <tr><td>Solution à un problème</td><td class="ok">OUI</td><td>L'éblouissement au volant, en ville et au sport ; les yeux plissés toute la journée.</td></tr>
+      <tr><td>Besoin / passion</td><td class="ok">OUI</td><td>Le style, la voiture, le sport : on achète des lunettes pour son image autant que pour ses yeux.</td></tr>
+      <tr><td>Effet waw</td><td class="ok">OUI</td><td>Verres miroir, look sport-chic, test « avec / sans » face au soleil.</td></tr>
+      <tr><td>Unique</td><td class="ok">OUI</td><td>Logo VAURE gravé sur la branche, étui et boîte à l'image de la marque.</td></tr>
+      <tr><td>Saisonnier</td><td>OUI</td><td>Ventes fortes de mars à septembre. On prépare l'hiver, on lance fin février.</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="grid">
+    <div class="box"><h3>Chiffres du produit</h3>
+      <p>Version conseillée : <b>polarisée</b> (fournisseur iRun, 7,48 $ soit 6,43 €). Vendue 34,90 €, livraison 4,79 € et 3 % de frais : <b>gain ≈ 22,60 €</b> par paire.</p>
+      <p>Version de base (0,87 $) : gain ≈ 28 €, mais elle n'est pas polarisée. Elle ne peut donc pas promettre « fini l'éblouissement ».</p>
+      <p class="src">Liens : <a href="https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html">iRun polarisé 1601430271723</a> · <a href="https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html">modèle de base 1601961719548</a></p>
+    </div>
+    <div class="box"><h3>Problèmes réglés</h3>
+      <ul>
+        <li>Ébloui par le soleil bas et les reflets sur la route.</li>
+        <li>Reflets sur l'eau, la neige et les vitrines.</li>
+        <li>Lunettes qui glissent du nez en bougeant.</li>
+        <li>Lunettes de marque trop chères pour une paire qu'on peut perdre ou casser.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Projection marketing</h3>
+  <div class="grid">
+    <div class="box"><h3>Cible</h3><p>Hommes de 20 à 40 ans qui conduisent tous les jours, font du sport et aiment le style sport-chic. Deuxième cible : les femmes qui offrent un cadeau.</p></div>
+    <div class="box"><h3>Où les trouver</h3><p>TikTok et Instagram (Reels), avec des vidéos courtes tournées en voiture, en terrasse ou au bord de l'eau, de préférence aux heures où le soleil est bas.</p></div>
+    <div class="box"><h3>Angle principal</h3><p class="quote">Fini l'éblouissement.</p><p>Le même plan filmé avec puis sans les lunettes polarisées : les reflets disparaissent à l'écran.</p></div>
+  </div>
+  <p>Budget pub : avec 22,60 € de gain, on peut payer au maximum 22 € de pub par vente. L'objectif est de rester sous 11 € par vente.</p>
+
+  <h3>Personality fit</h3>
+  <p>Le produit colle à ce que tu aimes : un style homme sport-chic, une marque soignée, un produit qu'on voit sur soi. Tu peux le porter et le filmer toi-même chaque jour sans acteur. C'est aussi un produit simple à gérer, sans tailles ni retours pour mauvaise taille, pour un premier lancement.</p>
+</section>
+
+<!-- 02 -->
+<section id="marche">
+  <h2><span class="n">ÉTAPE 02</span>Étude de marché</h2>
+
+  <h3>Le marché</h3>
+  <p>Le marché français des lunettes de soleil pèse autour de <b>1,1 milliard d'euros par an</b>, en croissance d'environ 6 % par an. Il faut prendre ce chiffre avec prudence : il vient de cabinets d'études et de blogs, et les sources ne s'accordent pas toutes. La part des ventes en ligne des lunettes non correctrices serait d'environ 25 %.</p>
+  <p class="src">Sources : <a href="https://www.sphericalinsights.com/fr/reports/france-sunglasses-market">Spherical Insights</a> · <a href="https://modelesdebusinessplan.com/blogs/infos/marche-lunettes-chiffres">Modèles de business plan</a> · <a href="https://www.xerfi.com/blog/marche-des-lunettes-un-modele-sous-tension_2365">Xerfi</a></p>
+
+  <h3>Concurrence</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Marque</th><th>Prix</th><th>Force</th><th>Notre différence</th></tr></thead>
+    <tbody>
+      <tr><td>Decathlon</td><td class="num">29,99 € (44,99 € photochromiques)</td><td>Confiance, magasins partout</td><td>Look plus mode, marque à part entière</td></tr>
+      <tr><td>Hawkers</td><td class="num">15,99 à 51 €</td><td>Marque connue en ligne, beaucoup de pubs</td><td>Positionnement sport-chic, pas « mode jeune » ; polarisé à prix fixe</td></tr>
+      <tr><td>Cébé</td><td class="num">59,76 €</td><td>Technique, sport</td><td>Presque moitié prix</td></tr>
+      <tr><td>Goodr (États-Unis)</td><td class="num">≈ 25 $</td><td>Modèle à suivre : lunettes de sport fun et pas chères</td><td>Version française, plus sobre</td></tr>
+    </tbody>
+  </table></div>
+  <p class="src">Prix relevés : <a href="https://www.decathlon.fr/nutrition-sante/lunettes-de-soleil-hawkers">Decathlon (Hawkers)</a> · Decathlon et Cébé relevés plus tôt dans le dossier Scutify.</p>
+
+  <h3>Expertise</h3>
+  <p>Ce qu'il faut maîtriser avant de vendre, et pouvoir expliquer clairement sur la page :</p>
+  <ul>
+    <li><b>UV400</b> : bloque 100 % des UV jusqu'à 400 nm. C'est la protection, pas la teinte.</li>
+    <li><b>Polarisé</b> : coupe les reflets horizontaux (route, eau). C'est ce qui règle l'éblouissement.</li>
+    <li><b>Catégorie de filtre (0 à 4)</b> : la catégorie 3 est la norme pour le plein soleil. La catégorie 4 est interdite au volant.</li>
+    <li><b>Marquage CE et norme EN ISO 12312-1</b> : obligatoires pour vendre en Europe. Demande le rapport de test au fournisseur.</li>
+  </ul>
+  <div class="note"><b>À faire avant tout lancement :</b> obtenir du fournisseur le certificat CE (EN ISO 12312-1) et la catégorie de filtre, et commander 2 échantillons pour tester la polarisation (test : regarder un écran de téléphone en tournant la tête, il doit s'assombrir).</div>
+
+  <h3>Questionnaire (à faire passer à 20 à 30 personnes de la cible)</h3>
+  <ol class="q">
+    <li>Combien de paires de lunettes de soleil as-tu achetées ces 2 dernières années ?</li>
+    <li>Combien as-tu payé ta dernière paire ? Où l'as-tu achetée ?</li>
+    <li>Qu'est-ce qui te gêne le plus au soleil : la route, l'eau, l'écran, autre ?</li>
+    <li>Sais-tu ce que veut dire « polarisé » ? Est-ce important pour toi ?</li>
+    <li>Qu'est-ce qui te fait choisir une paire : le look, la marque, le prix, la protection ?</li>
+    <li>As-tu déjà perdu ou cassé une paire chère ?</li>
+    <li>Achèterais-tu des lunettes de soleil sur Instagram ou TikTok ? Pourquoi ?</li>
+    <li>Quel prix te paraît juste pour une paire polarisée d'une jeune marque française ?</li>
+    <li>Préfères-tu une monture noire mate, transparente ou colorée ? Des verres miroir ou foncés ?</li>
+    <li>Qu'est-ce qui te rassurerait pour acheter : avis clients, garantie, retour gratuit ?</li>
+  </ol>
+</section>
+
+<!-- 03 -->
+<section id="positionnement">
+  <h2><span class="n">ÉTAPE 03</span>Positionnement</h2>
+
+  <h3>Branding</h3>
+  <div class="grid">
+    <div class="box"><h3>Marque</h3><p><b>VAURE</b>, une marque sport-chic pour homme. Le logo est le V « deux verres » avec le nom VAURE, comme dans la planche de logo.</p></div>
+    <div class="box"><h3>Couleurs</h3><p>Vert sapin, noir mat, vert soleil pour les rappels. Pas de jaune, rien de criard.</p></div>
+    <div class="box"><h3>Ton</h3><p>Court, sûr de lui, sans exagération. On parle de liberté et de confort, jamais de promesse médicale.</p></div>
+  </div>
+
+  <h3>Bénéfices émotionnels</h3>
+  <ul>
+    <li><b>Sérénité</b> : conduire face au soleil couchant sans plisser les yeux.</li>
+    <li><b>Assurance</b> : un look qui fait « athlète », sur une terrasse comme en sortie vélo.</li>
+    <li><b>Liberté</b> : une paire qu'on n'a pas peur d'emmener partout, à un prix qu'on ne regrette pas.</li>
+    <li><b>Appartenance</b> : faire partie d'une jeune marque française au style net.</li>
+  </ul>
+
+  <h3>Copywriting</h3>
+  <div class="grid">
+    <div class="box"><h3>Accroches (titres)</h3>
+      <p class="quote">Fini l'éblouissement.</p>
+      <p>Voir net, même face au soleil.</p>
+      <p>Le soleil en face. Les yeux grands ouverts.</p>
+    </div>
+    <div class="box"><h3>Hooks vidéo (3 premières secondes)</h3>
+      <ul>
+        <li>« Si tu conduis le soir, regarde ça. »</li>
+        <li>« Même reflet, même route. Sans… puis avec. »</li>
+        <li>« 34,90 € contre 60 € : j'ai testé les deux. »</li>
+      </ul>
+    </div>
+    <div class="box"><h3>Promesse en une phrase</h3>
+      <p>Des lunettes polarisées légères et enveloppantes, protection UV400, au look sport-chic, pour voir net au volant comme au sport, à 34,90 €.</p>
+    </div>
+  </div>
+  <div class="note"><b>Règle d'or :</b> n'écrire « polarisées » que si la version polarisée est bien commandée, et « catégorie 3 » que si le certificat le confirme. Aucune promesse santé (« protège vos yeux des maladies », etc.).</div>
+</section>
+
+<!-- 04 -->
+<section id="shopify">
+  <h2><span class="n">ÉTAPE 04</span>King of Shopify</h2>
+
+  <div class="lp">
+    <div>
+      <h3>Structure de la page produit (landing page)</h3>
+      <ol class="steps">
+        <li><b>Bandeau du haut</b> : « Livraison offerte dès 2 paires · Retour 30 jours ».</li>
+        <li><b>Hero</b> : photo portée en plein soleil, titre « Fini l'éblouissement. », prix, bouton « Ajouter au panier », note des avis.</li>
+        <li><b>Le problème</b> : 3 visuels (route au soleil couchant, reflets sur l'eau, yeux plissés).</li>
+        <li><b>La solution</b> : vidéo « sans / avec » polarisant, en 10 secondes.</li>
+        <li><b>3 bénéfices</b> : voir net (polarisé), protégé (UV400), léger et qui tient (monture enveloppante).</li>
+        <li><b>Comparatif</b> : VAURE 34,90 € face à une marque à 60 €, avec les mêmes cases cochées.</li>
+        <li><b>Ce que tu reçois</b> : lunettes, étui rigide, chiffon, carte VAURE.</li>
+        <li><b>Avis clients</b> avec photos (à collecter dès les premières ventes, jamais inventés).</li>
+        <li><b>FAQ</b> : polarisé ? catégorie ? délai ? retour ? taille ?</li>
+        <li><b>Rappel de l'offre</b> + bouton fixe en bas sur téléphone.</li>
+      </ol>
+
+      <h3>Offre</h3>
+      <div class="tbl"><table>
+        <thead><tr><th>Offre</th><th>Prix</th><th>Gain estimé</th></tr></thead>
+        <tbody>
+          <tr><td>1 paire</td><td class="num">34,90 €</td><td class="num">≈ 22,60 €</td></tr>
+          <tr><td>2 paires (duo, livraison offerte)</td><td class="num">59,90 €</td><td class="num">≈ 38 €</td></tr>
+          <tr><td>Paire + étui premium gravé</td><td class="num">39,90 €</td><td class="num">≈ 26 €</td></tr>
+        </tbody>
+      </table></div>
+      <p class="src">Gains calculés avec la version polarisée (6,43 €), Colissimo (4,79 € pour 1 paire, 6,89 € pour 2) et 3 % de frais. Le prix livré exact viendra de Scutify. L'étui premium est estimé à environ 1 € de coût.</p>
+
+      <h3>Pages secondaires</h3>
+      <ul>
+        <li><b>À propos</b> : l'histoire de VAURE en 5 lignes.</li>
+        <li><b>Livraison</b> : délais réels annoncés par Scutify (à afficher honnêtement).</li>
+        <li><b>Retours et remboursements</b> : 30 jours, conditions claires.</li>
+        <li><b>FAQ</b> : la même que sur la page produit, plus complète.</li>
+        <li><b>Contact</b> : formulaire et adresse e-mail.</li>
+        <li><b>Mentions légales, CGV, confidentialité</b> : obligatoires en France.</li>
+        <li><b>Suivi de commande</b>.</li>
+      </ul>
+
+      <h3>Visuels à préparer</h3>
+      <ul>
+        <li>Photos portées : en voiture, en terrasse, au bord de l'eau, au sport, à l'heure où le soleil est bas.</li>
+        <li>Photos produit sur fond uni (vert sapin et gris clair), de face, de profil, branche avec logo.</li>
+        <li>Vidéo « sans / avec » polarisant, filmée à travers le verre.</li>
+        <li>Photo du colis : boîte, étui, chiffon, carte.</li>
+        <li>Visuels avant / après remplacés par de vraies photos dès réception des échantillons (le dessin actuel ne sert que d'idée).</li>
+      </ul>
+    </div>
+
+    <div class="phone" aria-label="Aperçu de la page produit sur téléphone">
+      <div class="bar">LIVRAISON OFFERTE DÈS 2 PAIRES · RETOUR 30 JOURS</div>
+      <div class="hero">
+        <div class="logo">VAURE</div>
+        <svg viewBox="0 0 260 110" width="100%" role="img" aria-label="Lunettes VAURE">
+          <defs><linearGradient id="v" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#06261c"/><stop offset=".6" stop-color="#1f8a5c"/><stop offset="1" stop-color="#9be8bf"/></linearGradient></defs>
+          <path d="M20 40 C20 32 34 28 56 28 L204 28 C226 28 240 32 240 40 C240 66 228 88 200 92 C176 95 156 90 146 76 C140 68 134 66 130 66 C126 66 120 68 114 76 C104 90 84 95 60 92 C32 88 20 66 20 40 Z" fill="url(#v)"/>
+          <path d="M16 42 C14 26 34 20 56 20 L204 20 C226 20 246 26 244 42 L240 40 C240 30 224 27 204 27 L56 27 C36 27 20 30 20 40 Z" fill="#111"/>
+          <path d="M50 30 L80 30 L40 88 L22 70 Z" fill="#fff" opacity=".12"/>
+        </svg>
+        <h4>Fini l'éblouissement.</h4>
+        <div class="sub">Polarisées · UV400 · ultra-légères</div>
+        <div class="price">34,90 €</div>
+      </div>
+      <span class="cta">Ajouter au panier</span>
+      <ul>
+        <li>Voir net face au soleil et aux reflets</li>
+        <li>Monture enveloppante qui ne glisse pas</li>
+        <li>Étui rigide et chiffon offerts</li>
+        <li>Retour gratuit pendant 30 jours</li>
+      </ul>
+      <div class="rev">Aperçu de la structure. Les avis clients s'affichent ici après les premières ventes.</div>
+    </div>
+  </div>
+
+  <div class="note"><b>Prix barré :</b> 59,90 € n'est utilisable que si tu as vraiment vendu à ce prix avant (règle française des prix de référence). Sinon, compare plutôt à « une marque à 60 € » dans le comparatif, sans prix barré.</div>
+</section>
+
+<section id="suite">
+  <h2><span class="n">ENSUITE</span>Avant de passer à l'étape 05</h2>
+  <ol class="steps">
+    <li>Commander 2 échantillons polarisés et vérifier qualité, polarisation et logo.</li>
+    <li>Obtenir le certificat CE (EN ISO 12312-1) et la catégorie de filtre.</li>
+    <li>Faire passer le questionnaire à 20 à 30 personnes et ajuster le prix et le look.</li>
+    <li>Faire les photos et la vidéo « sans / avec », puis monter la boutique Shopify avec cette structure.</li>
+  </ol>
+</section>
+</div>

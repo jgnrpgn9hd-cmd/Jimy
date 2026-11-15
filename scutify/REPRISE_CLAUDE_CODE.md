@@ -409,3 +409,6 @@ Filtre de robinet tenté : 4 annonces Alibaba supprimées (404), abandonné.
 ## Étape — Ligne 10 : brosse autonettoyante chien et chat (1600880909407, 2,85 $ → 29,90 €, gain ≈ 21,76 €), réf. FURminator 25,99 à 49,99 €.
 
 ## Étape — Ligne 10 : filtre à eau pour robinet (1601126424492, kit 3 filtres ≈ 4,50 $ → 29,90 €), réf. Brita On Tap 34,47 à 59,90 €. Brosse animaux retirée.
+
+## Étape — Road Map Scutify étapes 1 à 4 pour les lunettes (artifact https://claude.ai/artifact/9XuksXw1VdXq3LtRWXWdsZ, source lunettes/roadmap_lunettes.html)
+Version conseillée : polarisée iRun 1601430271723 (7,48 $ → 34,90 €, gain ≈ 22,60 €). Offres : 1 paire 34,90 €, duo 59,90 €, paire + étui 39,90 €.
