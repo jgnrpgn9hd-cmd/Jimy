@@ -325,3 +325,5 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 15/11/2026 — Lignes 3-10 : accessoires beauté sans cosmétique (bigoudis, brosse soufflante, lisseur sans fil, brosse sonique, taie soie, miroir LED, ponceuse ongles, coffret nuit). Version coup de cœur : dossier_v12_coupdecoeur.py.
 
 ## 15/11/2026 — Lignes 3-10 : produits phares des grandes marques e-commerce (Brick NFC, Ridge, Tushy, Stanley, Loop, Theragun, Bala, Bellroy). Version beauté : dossier_v13_beaute.py.
+
+## 15/11/2026 — Lunettes : lien de Jairo (1601961719548, 0,87 $, MOQ 2, fournisseur non vérifié) ; iRun gardé en secours.

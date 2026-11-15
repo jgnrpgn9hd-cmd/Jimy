@@ -19,23 +19,25 @@ rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pre
   'Confirmer que le modèle à 7,85 $ est le pommeau complet (au-delà de 17 $ le coût dépasse 15 €) ; demander le prix avec logo pour 100 pièces, le prix des cartouches et un test de filtration (SGS). '
   'Aucune promesse médicale. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs.',
   'Pommeau de douche filtrant'),
- ('Lunettes de sport enveloppantes, verres polarisés UV400, légères, qui ne glissent pas — Niche : Sport · courir sans être ébloui',
-  'https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html',
+ ('Lunettes de sport enveloppantes et surdimensionnées, protection UV400, anti-vent et anti-sable — Niche : Sport · courir sans être ébloui',
+  'https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  6.43,
+  0.75,
   9,
   34.9,
   'MODÈLE : Goodr : une marque qui vend presque uniquement des lunettes de sport à 25 $. DEMANDE : Des millions de Français courent ; les courses officielles affichent complet ; les marques running '
   '(Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. PROBLÈME : Le soleil et les reflets éblouissent, et les lunettes classiques glissent avec la sueur. ÉCONOMIQUE : OUI : '
-  'moins chères que les marques, mêmes usages. EFFET WAOUW : Le look « athlète » des photos de course. PRIX EN FRANCE : Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €. FOURNISSEUR : 7,48 '
-  '$ (500 minimum), logo dès 100. À VÉRIFIER : Minimum de 500 pièces : à négocier avec le sourcing Scutify ; vérifier la norme CE et la catégorie de filtre. Concurrence : Decathlon (Kiprun) vend des '
-  'versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs.',
-  'Lunettes de running polarisées'),
+  'moins chères que les marques, mêmes usages. EFFET WAOUW : Le look « athlète » des photos de course. PRIX EN FRANCE : Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €. FOURNISSEUR : Lien '
+  'choisi par Jairo : 0,87 $ (2 minimum, en stock) ; fournisseur de secours iRun polarisé : 7,48 $ (500 minimum, logo dès 100) '
+  '(https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html). À VÉRIFIER : Fournisseur jeune (1 an) et non vérifié : commander 2 échantillons, '
+  'vérifier la qualité, le marquage CE et la norme EN ISO 12312-1 (catégorie de filtre) avant de vendre ; demander si un logo est possible. Concurrence : Decathlon (Kiprun) vend des versions '
+  'basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs.',
+  'Lunettes de sport UV400'),
  ('Carte NFC noire mate à poser à la maison : on la touche avec son téléphone pour bloquer les applis qui font perdre du temps, on la retouche pour les débloquer — Niche : Bien-être numérique · '
   'décrocher de son téléphone',
   'https://www.alibaba.com/product-detail/Black-pvc-card-nfc-NTAG-215_62022555600.html',

@@ -14,7 +14,7 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 | N° | Niche | Produit | Coût | Revente | Marge | Note /10 |
 |---|---|---|---|---|---|---|
 | 1 | Salle de bain · avoir une eau plus douce sous la douche | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) | 6,75 € | 39,90 € | 33,15 € | 9,5 |
-| 2 | Sport · courir sans être ébloui | [Lunettes de running polarisées](https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html) | 6,43 € | 34,90 € | 28,47 € | 8,5 |
+| 2 | Sport · courir sans être ébloui | [Lunettes de sport UV400](https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html) | 0,75 € | 34,90 € | 34,15 € | 8,5 |
 | 3 | Bien-être numérique · décrocher de son téléphone | [Bloqueur d'applis NFC](https://www.alibaba.com/product-detail/Black-pvc-card-nfc-NTAG-215_62022555600.html) | 0,30 € | 34,90 € | 34,60 € | 8,5 |
 | 4 | Accessoires homme · avoir un portefeuille fin | [Portefeuille métal minimaliste](https://www.alibaba.com/product-detail/Minimalist-Men-Wallet-Aluminum-Metal-Slim_1601391026836.html) | 4,99 € | 39,90 € | 34,91 € | 8,5 |
 | 5 | Salle de bain · être plus propre aux toilettes | [Kit WC lavant sans électricité](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) | 7,31 € | 49,90 € | 42,59 € | 8,5 |
@@ -55,9 +55,9 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | Shenzhen Calux Purification Technology (fabricant vérifié, 14 ans, spécialiste de la filtration) : 7,85 à 20 $ selon le modèle, minimum 2 lots ; ancien fournisseur de secours : 5,50 $ (https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html). |
 | À vérifier | Confirmer que le modèle à 7,85 $ est le pommeau complet (au-delà de 17 $ le coût dépasse 15 €) ; demander le prix avec logo pour 100 pièces, le prix des cartouches et un test de filtration (SGS). Aucune promesse médicale. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
 
-## 2. Sport · courir sans être ébloui — Lunettes de running polarisées
+## 2. Sport · courir sans être ébloui — Lunettes de sport UV400
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html) · coût 6,43 € (7,48 $ × 0,86) · revente 34,90 € · marge 28,47 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html) · coût 0,75 € (0,87 $ × 0,86) · revente 34,90 € · marge 34,15 €
 
 | Étape | Réponse |
 |---|---|
@@ -81,8 +81,8 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : accessoire très visible en photo, marge correcte. |
 | Prix en France | Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €. |
 | Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
-| Fournisseur | 7,48 $ (500 minimum), logo dès 100. |
-| À vérifier | Minimum de 500 pièces : à négocier avec le sourcing Scutify ; vérifier la norme CE et la catégorie de filtre. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
+| Fournisseur | Lien choisi par Jairo : 0,87 $ (2 minimum, en stock) ; fournisseur de secours iRun polarisé : 7,48 $ (500 minimum, logo dès 100) (https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html). |
+| À vérifier | Fournisseur jeune (1 an) et non vérifié : commander 2 échantillons, vérifier la qualité, le marquage CE et la norme EN ISO 12312-1 (catégorie de filtre) avant de vendre ; demander si un logo est possible. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
 
 ## 3. Bien-être numérique · décrocher de son téléphone — Bloqueur d'applis NFC
 

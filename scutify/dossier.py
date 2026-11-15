@@ -39,13 +39,13 @@ FICHES = [
        "StoneStream 69,95 €, MineralStream 81,95 € ; pommeaux basiques dès 13,99 €.", "Shenzhen Calux Purification Technology (fabricant vérifié, 14 ans, spécialiste de la filtration) : 7,85 à 20 $ selon le modèle, minimum 2 lots ; ancien fournisseur de secours : 5,50 $ (" + A + "High-Pressure-Water-Filter-Shower-Head_1600995143105.html).",
        "Confirmer que le modèle à 7,85 $ est le pommeau complet (au-delà de 17 $ le coût dépasse 15 €) ; demander le prix avec logo pour 100 pièces, le prix des cartouches et un test de filtration (SGS). Aucune promesse médicale.",
        "OUI : énorme marché, preuve visuelle très forte, cartouches de rechange à revendre.", poids="Colis d'environ 500 g."),
- fiche("Lunettes de running polarisées", "Lunettes de sport enveloppantes, verres polarisés UV400, légères, qui ne glissent pas", "courir sans être ébloui",
-       A + "IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html", 7.48, 9, 34.90,
+ fiche("Lunettes de sport UV400", "Lunettes de sport enveloppantes et surdimensionnées, protection UV400, anti-vent et anti-sable", "courir sans être ébloui",
+       "https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html", 0.87, 9, 34.90,
        "Le soleil et les reflets éblouissent, et les lunettes classiques glissent avec la sueur.",
        "Je veux permettre aux coureurs de courir au soleil sans plisser les yeux, avec des lunettes légères qui tiennent.",
        "OUI : moins chères que les marques, mêmes usages.", "Le look « athlète » des photos de course.",
-       "Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €.", "7,48 $ (500 minimum), logo dès 100.",
-       "Minimum de 500 pièces : à négocier avec le sourcing Scutify ; vérifier la norme CE et la catégorie de filtre.",
+       "Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €.", "Lien choisi par Jairo : 0,87 $ (2 minimum, en stock) ; fournisseur de secours iRun polarisé : 7,48 $ (500 minimum, logo dès 100) (" + A + "IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html).",
+       "Fournisseur jeune (1 an) et non vérifié : commander 2 échantillons, vérifier la qualité, le marquage CE et la norme EN ISO 12312-1 (catégorie de filtre) avant de vendre ; demander si un logo est possible.",
        "OUI : accessoire très visible en photo, marge correcte."),
 ]
 
