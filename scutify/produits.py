@@ -1,22 +1,24 @@
 # 10 idées de business, 10 niches : généré par construire_tableau.py à partir de dossier.py (ne pas modifier à la main).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
 rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pression — Niche : Running · avoir une eau plus douce sous la douche',
-  'https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html',
+  'https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  4.73,
+  6.75,
   8,
   39.9,
   "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. DEMANDE : Des "
   'millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. PROBLÈME : Après chaque '
   "entraînement on se douche, mais l'eau calcaire et chlorée fait tirer la peau et ternit les cheveux. ÉCONOMIQUE : OUI : moitié prix des marques qui font de la pub (69,95 à 81,95 €). EFFET WAOUW : "
-  'Le filtre neuf blanc puis tout jauni après un mois : la preuve en vidéo. PRIX EN FRANCE : StoneStream 69,95 €, MineralStream 81,95 € ; pommeaux basiques dès 13,99 €. FOURNISSEUR : 5,50 $ (10 à '
-  "99), logo dès 2 000. À VÉRIFIER : Aucune promesse médicale (« peau plus douce », jamais « soigne l'eczéma »). Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque "
-  'se démarque par le design, la communauté (club, défis) et les packs.',
+  'Le filtre neuf blanc puis tout jauni après un mois : la preuve en vidéo. PRIX EN FRANCE : StoneStream 69,95 €, MineralStream 81,95 € ; pommeaux basiques dès 13,99 €. FOURNISSEUR : Shenzhen Calux '
+  'Purification Technology (fabricant vérifié, 14 ans, spécialiste de la filtration) : 7,85 à 20 $ selon le modèle, minimum 2 lots ; ancien fournisseur de secours : 5,50 $ '
+  '(https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html). À VÉRIFIER : Confirmer que le modèle à 7,85 $ est le pommeau complet (au-delà de 17 $ le coût '
+  'dépasse 15 €) ; demander le prix avec logo pour 100 pièces, le prix des cartouches et un test de filtration (SGS). Aucune promesse médicale. Concurrence : Decathlon (Kiprun) vend des versions '
+  'basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs.',
   'Pommeau de douche filtrant'),
  ('Lunettes de sport enveloppantes, verres polarisés UV400, légères, qui ne glissent pas — Niche : Running · courir sans être ébloui',
   'https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html',

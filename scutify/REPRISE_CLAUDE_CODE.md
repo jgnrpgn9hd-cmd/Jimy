@@ -313,3 +313,5 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 15/11/2026 — Tableau Scutify : niche RUNNING (10 équipements, lunettes incluses). Maison gardée : dossier_v8_maison.py, upsells_v8_maison.py, construire_tableau_v8_maison.py.
 
 ## 15/11/2026 — Running : ceinture remplacée par le pommeau de douche filtrant en ligne 1 (demande de Jairo).
+
+## 15/11/2026 — Pommeau filtrant : nouveau fournisseur Shenzhen Calux (1601697241736, lien envoyé par Jairo), 7,85 $ → 6,75 €, gain ~25,06 € à 39,90 €.

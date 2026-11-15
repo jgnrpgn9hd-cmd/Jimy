@@ -13,7 +13,7 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 
 | N° | Niche | Produit | Coût | Revente | Marge | Note /10 |
 |---|---|---|---|---|---|---|
-| 1 | Running · avoir une eau plus douce sous la douche | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html) | 4,73 € | 39,90 € | 35,17 € | 9,5 |
+| 1 | Running · avoir une eau plus douce sous la douche | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) | 6,75 € | 39,90 € | 33,15 € | 9,5 |
 | 2 | Running · courir sans être ébloui | [Lunettes de running polarisées](https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html) | 6,43 € | 34,90 € | 28,47 € | 8,5 |
 | 3 | Running · boire sur les longues sorties | [Gilet d'hydratation](https://www.alibaba.com/product-detail/Trail-Running-Vest-Hydration-Vest-Adjustable_1601644236868.html) | 8,59 € | 44,90 € | 36,31 € | 8,5 |
 | 4 | Running · courir au soleil | [Casquette de running légère](https://www.alibaba.com/product-detail/Custom-Logo-Quick-Dry-Running-Cap_1600612754499.html) | 2,56 € | 29,90 € | 27,34 € | 8,5 |
@@ -28,7 +28,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 
 ## 1. Running · avoir une eau plus douce sous la douche — Pommeau de douche filtrant
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html) · coût 4,73 € (5,5 $ × 0,86) · revente 39,90 € · marge 35,17 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) · coût 6,75 € (7,85 $ × 0,86) · revente 39,90 € · marge 33,15 €
 
 | Étape | Réponse |
 |---|---|
@@ -52,8 +52,8 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : énorme marché, preuve visuelle très forte, cartouches de rechange à revendre. |
 | Prix en France | StoneStream 69,95 €, MineralStream 81,95 € ; pommeaux basiques dès 13,99 €. |
 | Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
-| Fournisseur | 5,50 $ (10 à 99), logo dès 2 000. |
-| À vérifier | Aucune promesse médicale (« peau plus douce », jamais « soigne l'eczéma »). Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
+| Fournisseur | Shenzhen Calux Purification Technology (fabricant vérifié, 14 ans, spécialiste de la filtration) : 7,85 à 20 $ selon le modèle, minimum 2 lots ; ancien fournisseur de secours : 5,50 $ (https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html). |
+| À vérifier | Confirmer que le modèle à 7,85 $ est le pommeau complet (au-delà de 17 $ le coût dépasse 15 €) ; demander le prix avec logo pour 100 pièces, le prix des cartouches et un test de filtration (SGS). Aucune promesse médicale. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
 
 ## 2. Running · courir sans être ébloui — Lunettes de running polarisées
 
