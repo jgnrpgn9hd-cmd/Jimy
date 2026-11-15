@@ -327,3 +327,5 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 15/11/2026 — Lignes 3-10 : produits phares des grandes marques e-commerce (Brick NFC, Ridge, Tushy, Stanley, Loop, Theragun, Bala, Bellroy). Version beauté : dossier_v13_beaute.py.
 
 ## 15/11/2026 — Lunettes : lien de Jairo (1601961719548, 0,87 $, MOQ 2, fournisseur non vérifié) ; iRun gardé en secours.
+
+## 15/11/2026 — T-shirt type Fincut : 95% coton 5% élasthanne coupe ajustée (1600439850340, 6 $ de 50 à 299, 4,70 $ dès 300) ; 250 g 100% coton (1600928907355, 6,75 $ de 50 à 99, logo dès 50). Fincut : 28 € l unité, packs 25 et 22,25 €/u.
