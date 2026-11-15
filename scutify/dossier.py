@@ -388,3 +388,34 @@ for _f in FICHES:
             _f["vigilance"] = _v + " " + _f["vigilance"]
         else:
             _f[_k] = _v
+
+# Ligne 5 : Kit Pilates (« kit pilote » de Jairo) ; ligne 6 : coussin d'assise ergonomique. Remplacent les deux kits maison.
+import dossier_v6_pilates as _pil6
+_kp = dict([f for f in _pil6.FICHES if f["court"].startswith("Kit Pilates Plus")][0])
+_kp.update(court="Kit Pilates « Reformer à la maison »", niche="Bien-être · faire du Pilates Reformer chez soi",
+           criteres=("OUI", "OUI", "OUI", "OUI", "OUI", "NON"),
+           c_probleme="OUI : les séances de Pilates Reformer coûtent 30 à 40 € en studio et une machine coûte des milliers d'euros.",
+           c_unique="OUI : kit complet (barre + élastiques + disques de glisse) avec programme vidéo de 30 jours et boîte à l'image de la marque.",
+           c_passion="OUI : le Pilates, très suivi sur Pinterest et Instagram.")
+_cs = autre("Coussin d'assise ergonomique", "Coussin d'assise en mousse à mémoire de forme avec découpe pour le coccyx, housse lavable",
+       "Bien-être · rester assis longtemps confortablement",
+       A + "Coccyx-Office-Chair-Cushion-Support-Waist_1600948399915.html", 5.50, 7, 34.90,
+       "On passe 8 à 10 heures assis (bureau, voiture, télétravail) : bas du dos, fesses et coccyx deviennent douloureux.",
+       "Je veux permettre à ceux qui restent longtemps assis d'être confortables toute la journée, sur n'importe quelle chaise.",
+       "NON : pas d'économie directe à l'usage.", "La mousse qui reprend lentement sa forme après qu'on appuie dessus.",
+       "Newgen Medicals 23,95 à 49,95 € (Pearl) ; HONORNIC 32,34 € (ManoMano) ; Decathlon (marketplace).",
+       "Qingdao Yuhao : 5,50 $ (100 à 499), 4,50 $ dès 1 000 ; sourcing par Scutify.",
+       "Aucune promesse médicale (ne pas dire « soigne » ou « sciatique ») : parler de confort et de posture ; vérifier la densité de la mousse sur échantillon.",
+       "OUI : problème vécu par tous ceux qui travaillent assis, se vend toute l'année.",
+       "Les marques de coussins ergonomiques vendues en pharmacie et en magasin de bien-être.",
+       "Télétravailleurs, employés de bureau, chauffeurs et jeunes mamans, 25 à 55 ans.",
+       "Les vidéos « desk setup » et télétravail montrent de plus en plus d'accessoires de confort pour la chaise.",
+       "NON : le confort au bureau est un besoin, pas une passion.", "Colis de 750 g.",
+       "Quelqu'un qui se tortille sur sa chaise, puis s'assoit sur le coussin et ne bouge plus de la journée.")
+_cs["criteres"] = ("NON", "OUI", "NON", "OUI", "NON", "NON")
+_cs["c_unique"] = "NON : produit courant, difficile à rendre unique."
+for _f in (_kp, _cs):
+    _f["cout"] = round(_f["usd"] * 0.86, 2); _f["marge"] = round(_f["revente"] - _f["cout"], 2)
+FICHES[4], FICHES[5] = _kp, _cs
+SOURCES += [("Pearl, coussin ergonomique à mémoire de forme", "https://www.pearl.fr/article/NX3937/coussin-ergonomique-a-memoire-de-forme-pour-assise"),
+            ("ManoMano, coussin HONORNIC", "https://www.manomano.fr/p/noircoussin-de-siege-en-mousse-a-memoire-forme-coussin-ergonomique-pour-chaise-bureau-voiture-fauteuil-225376154")]

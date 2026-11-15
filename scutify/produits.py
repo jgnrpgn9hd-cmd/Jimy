@@ -74,42 +74,41 @@ rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pre
   '100, logo dès 50 ; lien choisi par Jairo. À VÉRIFIER : Vérifier la tenue au lavage sur échantillon ; couleurs unies. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par '
   "l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On.",
   'T-shirt épais 250 g'),
- ('Kit de 26 pièces : feutres de retouche + bâtons de cire de 13 teintes de bois, avec taille-crayon, pour effacer rayures et éclats — Niche : Maison · effacer les rayures sur les meubles et le '
-  'parquet',
-  'https://www.alibaba.com/product-detail/Furniture-Repair-Kit-Wood-Markers-Set_1600133850172.html',
+ ('Barre de Pilates démontable avec élastiques + 2 disques de glisse + programme vidéo 30 jours + boîte pastel — Niche : Bien-être · faire du Pilates Reformer chez soi',
+  'https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html',
   'OUI',
   'OUI',
-  'NON',
   'OUI',
-  'NON',
-  'NON',
-  3.35,
-  9,
-  29.9,
-  'MODÈLE : Liberon et Les Anciens Ébénistes : les marques françaises de retouche bois. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à '
-  "proposer mieux et moins cher. PROBLÈME : Rayures sur la table, le parquet, les portes ou le meuble TV : le bois paraît abîmé, et réparer ou remplacer coûte cher (sans parler de l'état des lieux). "
-  "ÉCONOMIQUE : OUI : évite de faire réparer ou de remplacer un meuble (et peut sauver une caution d'état des lieux). EFFET WAOUW : Un coup de feutre : la rayure claire disparaît dans le bois. PRIX "
-  'EN FRANCE : Les Anciens Ébénistes 13,21 € le feutre (Leroy Merlin) ; kit de cire parquet 11 blocs 32,99 € ; kits 21 à 25 pièces 20,83 à 21,50 € (Leroy Merlin). FOURNISSEUR : Dongguan Tianyi '
-  'Stationery : kit de 13 pièces à environ 1,95 $ (0,15 $ la pièce), 2 kits = 26 pièces ≈ 3,90 $ ; sourcing par Scutify. À VÉRIFIER : Concurrence : des kits de 21 à 25 pièces existent à environ 21 € '
-  'en magasin ; se démarquer par le kit complet (feutres + cire) et une vidéo avant / après. Tester les teintes sur échantillon.',
-  'Kit anti-rayures meubles'),
- ('Kit de 4 stylos blanchisseurs de joints de carrelage, imperméables, + brosse de nettoyage — Niche : Maison · rendre les joints de carrelage blancs comme neufs',
-  'https://www.alibaba.com/product-detail/Grout-Pen-White-4pcs-Waterproof-Grouting_1600121068779.html',
   'OUI',
   'OUI',
   'NON',
+  3.68,
+  7,
+  39.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
+  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Une séance de Pilates sur machine (Reformer) coûte '
+  "cher en studio et une machine coûte des milliers d'euros. ÉCONOMIQUE : OUI : 39,90 € une fois, au lieu de séances à 30-40 €. EFFET WAOUW : Les mouvements du Reformer dans un salon, avec une "
+  'simple barre. PRIX EN FRANCE : Kits de 26 à 59 € ; SmartWorkout 99,90 €. FOURNISSEUR : Barre 2,50 $ (lien) + disques de glisse 1,78 $ la paire '
+  '(https://www.alibaba.com/product-detail/High-Quality-Core-Sliders-for-Gym_1601519504789.html). À VÉRIFIER : Tester la solidité des élastiques ; programme filmé avec une coach diplômée. '
+  "Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
+  'Kit Pilates « Reformer à la maison »'),
+ ("Coussin d'assise en mousse à mémoire de forme avec découpe pour le coccyx, housse lavable — Niche : Bien-être · rester assis longtemps confortablement",
+  'https://www.alibaba.com/product-detail/Coccyx-Office-Chair-Cushion-Support-Waist_1600948399915.html',
+  'NON',
+  'OUI',
+  'NON',
   'OUI',
   'NON',
   'NON',
-  1.39,
-  9,
-  29.9,
-  'MODÈLE : Rubson : la marque de référence des joints et mastics en France. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer '
-  'mieux et moins cher. PROBLÈME : Les joints de la salle de bain et de la cuisine deviennent gris ou noirs : la pièce paraît sale même propre, et refaire les joints coûte cher. ÉCONOMIQUE : OUI : '
-  "évite de faire refaire les joints par un artisan (et peut sauver une caution d'état des lieux). EFFET WAOUW : Un trait de stylo : le joint noir redevient blanc à côté du joint sale. PRIX EN "
-  "FRANCE : Rubson Rénov'Joint 11,90 € le stylo (Mr Bricolage) ; lot de 5 stylos 38,89 € (ManoMano). FOURNISSEUR : Dongguan Tianyi Stationery : 0,28 $ le stylo, brosse en plus, soit environ 1,62 $ "
-  "le kit ; sourcing par Scutify. À VÉRIFIER : Tester la tenue à l'eau et au nettoyage sur échantillon ; demander la fiche de sécurité (encre) et la conformité REACH.",
-  'Kit stylos pour joints'),
+  4.73,
+  7,
+  34.9,
+  'MODÈLE : Les marques de coussins ergonomiques vendues en pharmacie et en magasin de bien-être. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, '
+  'il reste à proposer mieux et moins cher. PROBLÈME : On passe 8 à 10 heures assis (bureau, voiture, télétravail) : bas du dos, fesses et coccyx deviennent douloureux. ÉCONOMIQUE : NON : pas '
+  "d'économie directe à l'usage. EFFET WAOUW : La mousse qui reprend lentement sa forme après qu'on appuie dessus. PRIX EN FRANCE : Newgen Medicals 23,95 à 49,95 € (Pearl) ; HONORNIC 32,34 € "
+  '(ManoMano) ; Decathlon (marketplace). FOURNISSEUR : Qingdao Yuhao : 5,50 $ (100 à 499), 4,50 $ dès 1 000 ; sourcing par Scutify. À VÉRIFIER : Aucune promesse médicale (ne pas dire « soigne » ou « '
+  'sciatique ») : parler de confort et de posture ; vérifier la densité de la mousse sur échantillon.',
+  "Coussin d'assise ergonomique"),
  ("Lot de 8 sacs sous vide réutilisables (3 tailles) + pompe à main, sans aspirateur — Niche : Maison · ranger couettes et vêtements d'hiver en prenant 3 fois moins de place",
   'https://www.alibaba.com/product-detail/8-Packs-Space-Saver-Plastic-Vacuum_1600116022034.html',
   'OUI',

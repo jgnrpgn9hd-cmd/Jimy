@@ -398,3 +398,7 @@ Cintres retirés (pas de vrai problème) → Kit 4 stylos pour joints + brosse 1
 Pack Rangement remplacé par Pack Salle de bain (pommeau + kit joints) 59,90 €.
 
 ## Étape — Pot retiré (Jairo : « nul ») → Kit anti-rayures meubles 26 pièces (1600133850172, ≈3,90 $ → 29,90 €, gain ≈ 20,86 €). Kit joints validé.
+
+## Étape — « kit pilote » = Kit Pilates : ligne 5 = Kit Pilates « Reformer à la maison » (1600918081475 + disques 1601519504789, 4,28 $ → 39,90 €),
+ligne 6 = coussin d'assise ergonomique (1600948399915, 5,50 $ → 34,90 €). Kits joints et anti-rayures retirés. Pack Bien-être 59,90 €.
+Version précédente : dossier_v17_kits_maison.py.

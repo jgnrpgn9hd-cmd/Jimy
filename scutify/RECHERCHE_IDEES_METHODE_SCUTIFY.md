@@ -17,8 +17,8 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 | 2 | Accessoires homme · ne plus être ébloui | [Lunettes de soleil UV400](https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html) | 0,75 € | 34,90 € | 34,15 € | 6,0 |
 | 3 | Mode homme · avoir un t-shirt oversize qui tombe bien | [T-shirt oversize 240 g](https://www.alibaba.com/product-detail/Custom-Logo-240g-Cotton-T-Shirt_1601269043057.html) | 3,84 € | 34,90 € | 31,06 € | 6,75 |
 | 4 | Mode homme · avoir un t-shirt qui ne se déforme pas | [T-shirt épais 250 g](https://www.alibaba.com/product-detail/Heavyweight-Tshirt_1600928907355.html) | 5,80 € | 34,90 € | 29,10 € | 8,25 |
-| 5 | Maison · effacer les rayures sur les meubles et le parquet | [Kit anti-rayures meubles](https://www.alibaba.com/product-detail/Furniture-Repair-Kit-Wood-Markers-Set_1600133850172.html) | 3,35 € | 29,90 € | 26,55 € | 6,75 |
-| 6 | Maison · rendre les joints de carrelage blancs comme neufs | [Kit stylos pour joints](https://www.alibaba.com/product-detail/Grout-Pen-White-4pcs-Waterproof-Grouting_1600121068779.html) | 1,39 € | 29,90 € | 28,51 € | 6,75 |
+| 5 | Bien-être · faire du Pilates Reformer chez soi | [Kit Pilates « Reformer à la maison »](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) | 3,68 € | 39,90 € | 36,22 € | 8,5 |
+| 6 | Bien-être · rester assis longtemps confortablement | [Coussin d'assise ergonomique](https://www.alibaba.com/product-detail/Coccyx-Office-Chair-Cushion-Support-Waist_1600948399915.html) | 4,73 € | 34,90 € | 30,17 € | 5,25 |
 | 7 | Maison · ranger couettes et vêtements d'hiver en prenant 3 fois moins de place | [Sacs sous vide + pompe](https://www.alibaba.com/product-detail/8-Packs-Space-Saver-Plastic-Vacuum_1600116022034.html) | 4,13 € | 34,90 € | 30,77 € | 6,75 |
 | 8 | Mode homme · avoir un sweat qui ne bouloche pas | [Sweat à capuche épais](https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html) | 8,51 € | 49,90 € | 41,39 € | 4,5 |
 | 9 | Maison · avoir un beau tapis toujours propre | [Tapis lavable en machine](https://www.alibaba.com/product-detail/Wholesale-Custom-Area-Rug-Modern-Washable_11000039435438.html) | 11,55 € | 49,90 € | 38,35 € | 7,0 |
@@ -142,63 +142,63 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | Fuzhou Xinglan : 6,75 $ (50 à 99), 6,30 $ dès 100, logo dès 50 ; lien choisi par Jairo. |
 | À vérifier | Vérifier la tenue au lavage sur échantillon ; couleurs unies. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
 
-## 5. Maison · effacer les rayures sur les meubles et le parquet — Kit anti-rayures meubles
+## 5. Bien-être · faire du Pilates Reformer chez soi — Kit Pilates « Reformer à la maison »
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Furniture-Repair-Kit-Wood-Markers-Set_1600133850172.html) · coût 3,35 € (3,9 $ × 0,86) · revente 29,90 € · marge 26,55 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Liberon et Les Anciens Ébénistes : les marques françaises de retouche bois. |
-| Demande en France | Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et moins cher. |
-| Observation | Les vidéos « furniture scratch repair before after » font des millions de vues sur TikTok et Pinterest. |
-| Cible et désir | Propriétaires et locataires de 25 à 55 ans, familles avec enfants ou animaux. |
-| Problème | Rayures sur la table, le parquet, les portes ou le meuble TV : le bois paraît abîmé, et réparer ou remplacer coûte cher (sans parler de l'état des lieux). |
-| Question à résoudre | Comment effacer les rayures sur les meubles et le parquet, avec une belle pièce à petit prix ? |
-| Pistes produit | Lampe d'écran · planche en titane · moulins par gravité · cubes de compression · fontaine à eau pour chat · support téléphone voiture. |
-| **Idée de business** | Je veux permettre à ceux qui ont des meubles ou un parquet rayés de les faire disparaître en quelques secondes, sans menuisier. |
-| Solution à un problème | OUI : rayures sur la table, le parquet, les portes ou le meuble TV : le bois paraît abîmé, et réparer ou remplacer coûte cher (sans parler de l'état des lieux). |
-| Économique | OUI : évite de faire réparer ou de remplacer un meuble (et peut sauver une caution d'état des lieux). |
-| Besoin / passion | NON : l'entretien de la maison est un besoin, pas une passion. |
-| Effet wow | Un coup de feutre : la rayure claire disparaît dans le bois. |
-| Unique | NON : kits courants, difficile à rendre unique. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : problème du quotidien qui dure toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : la démonstration se comprend en quelques secondes. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, comparaison avec la marque connue. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : effet avant / après immédiat, utile pour tous les locataires (état des lieux). |
-| Prix en France | Les Anciens Ébénistes 13,21 € le feutre (Leroy Merlin) ; kit de cire parquet 11 blocs 32,99 € ; kits 21 à 25 pièces 20,83 à 21,50 € (Leroy Merlin). |
-| Angle pub / Instagram | Gros plan sur une rayure blanche dans une table en bois, un coup de feutre : elle a disparu. |
-| Fournisseur | Dongguan Tianyi Stationery : kit de 13 pièces à environ 1,95 $ (0,15 $ la pièce), 2 kits = 26 pièces ≈ 3,90 $ ; sourcing par Scutify. |
-| À vérifier | Concurrence : des kits de 21 à 25 pièces existent à environ 21 € en magasin ; se démarquer par le kit complet (feutres + cire) et une vidéo avant / après. Tester les teintes sur échantillon. |
-
-## 6. Maison · rendre les joints de carrelage blancs comme neufs — Kit stylos pour joints
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Grout-Pen-White-4pcs-Waterproof-Grouting_1600121068779.html) · coût 1,39 € (1,62 $ × 0,86) · revente 29,90 € · marge 28,51 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) · coût 3,68 € (4,28 $ × 0,86) · revente 39,90 € · marge 36,22 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Rubson : la marque de référence des joints et mastics en France. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
+| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
+| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
+| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
+| Problème | Une séance de Pilates sur machine (Reformer) coûte cher en studio et une machine coûte des milliers d'euros. |
+| Question à résoudre | Comment faire du pilates reformer chez soi, simplement, sans payer un studio ? |
+| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
+| **Idée de business** | Je veux permettre aux femmes qui aiment le Pilates de faire les mouvements du Reformer chez elles, avec un kit léger et un programme de 30 jours. |
+| Solution à un problème | OUI : les séances de Pilates Reformer coûtent 30 à 40 € en studio et une machine coûte des milliers d'euros. |
+| Économique | OUI : 39,90 € une fois, au lieu de séances à 30-40 €. |
+| Besoin / passion | OUI : le Pilates, très suivi sur Pinterest et Instagram. |
+| Effet wow | Les mouvements du Reformer dans un salon, avec une simple barre. |
+| Unique | OUI : kit complet (barre + élastiques + disques de glisse) avec programme vidéo de 30 jours et boîte à l'image de la marque. |
+| Poids / volume | Colis d'environ 1 kg. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : c'est le produit d'entrée de la marque, le problème est fort et le marché est prouvé (SmartWorkout). |
+| Prix en France | Kits de 26 à 59 € ; SmartWorkout 99,90 €. |
+| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
+| Fournisseur | Barre 2,50 $ (lien) + disques de glisse 1,78 $ la paire (https://www.alibaba.com/product-detail/High-Quality-Core-Sliders-for-Gym_1601519504789.html). |
+| À vérifier | Tester la solidité des élastiques ; programme filmé avec une coach diplômée. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
+
+## 6. Bien-être · rester assis longtemps confortablement — Coussin d'assise ergonomique
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Coccyx-Office-Chair-Cushion-Support-Waist_1600948399915.html) · coût 4,73 € (5,5 $ × 0,86) · revente 34,90 € · marge 30,17 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Les marques de coussins ergonomiques vendues en pharmacie et en magasin de bien-être. |
 | Demande en France | Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et moins cher. |
-| Observation | Les vidéos « grout pen before after » font des millions de vues : la transformation se voit en une seconde. |
-| Cible et désir | Propriétaires et locataires de 25 à 55 ans qui veulent une salle de bain propre sans travaux (y compris avant un état des lieux). |
-| Problème | Les joints de la salle de bain et de la cuisine deviennent gris ou noirs : la pièce paraît sale même propre, et refaire les joints coûte cher. |
-| Question à résoudre | Comment rendre les joints de carrelage blancs comme neufs, avec une belle pièce à petit prix ? |
+| Observation | Les vidéos « desk setup » et télétravail montrent de plus en plus d'accessoires de confort pour la chaise. |
+| Cible et désir | Télétravailleurs, employés de bureau, chauffeurs et jeunes mamans, 25 à 55 ans. |
+| Problème | On passe 8 à 10 heures assis (bureau, voiture, télétravail) : bas du dos, fesses et coccyx deviennent douloureux. |
+| Question à résoudre | Comment rester assis longtemps confortablement, avec une belle pièce à petit prix ? |
 | Pistes produit | Lampe d'écran · planche en titane · moulins par gravité · cubes de compression · fontaine à eau pour chat · support téléphone voiture. |
-| **Idée de business** | Je veux permettre à ceux qui ont des joints grisés de les rendre blancs en quelques minutes, sans artisan ni travaux. |
-| Solution à un problème | OUI : les joints de la salle de bain et de la cuisine deviennent gris ou noirs : la pièce paraît sale même propre, et refaire les joints coûte cher. |
-| Économique | OUI : évite de faire refaire les joints par un artisan (et peut sauver une caution d'état des lieux). |
-| Besoin / passion | NON : la propreté de la maison est un besoin, pas une passion. |
-| Effet wow | Un trait de stylo : le joint noir redevient blanc à côté du joint sale. |
+| **Idée de business** | Je veux permettre à ceux qui restent longtemps assis d'être confortables toute la journée, sur n'importe quelle chaise. |
+| Solution à un problème | OUI : on passe 8 à 10 heures assis (bureau, voiture, télétravail) : bas du dos, fesses et coccyx deviennent douloureux. |
+| Économique | NON : pas d'économie directe à l'usage. |
+| Besoin / passion | NON : le confort au bureau est un besoin, pas une passion. |
+| Effet wow | La mousse qui reprend lentement sa forme après qu'on appuie dessus. |
 | Unique | NON : produit courant, difficile à rendre unique. |
-| Poids / volume | Léger, petit colis. |
+| Poids / volume | Colis de 750 g. |
 | 1. Répond aux critères principaux ? | Bien : problème du quotidien qui dure toute l'année. |
 | 2. Bénéfice évident au premier regard ? | Oui : la démonstration se comprend en quelques secondes. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, comparaison avec la marque connue. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : avant / après parmi les plus regardés sur TikTok et Pinterest. |
-| Prix en France | Rubson Rénov'Joint 11,90 € le stylo (Mr Bricolage) ; lot de 5 stylos 38,89 € (ManoMano). |
-| Angle pub / Instagram | Gros plan sur un joint noir, un trait de stylo : moitié blanche, moitié sale, puis tout le mur. |
-| Fournisseur | Dongguan Tianyi Stationery : 0,28 $ le stylo, brosse en plus, soit environ 1,62 $ le kit ; sourcing par Scutify. |
-| À vérifier | Tester la tenue à l'eau et au nettoyage sur échantillon ; demander la fiche de sécurité (encre) et la conformité REACH. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : problème vécu par tous ceux qui travaillent assis, se vend toute l'année. |
+| Prix en France | Newgen Medicals 23,95 à 49,95 € (Pearl) ; HONORNIC 32,34 € (ManoMano) ; Decathlon (marketplace). |
+| Angle pub / Instagram | Quelqu'un qui se tortille sur sa chaise, puis s'assoit sur le coussin et ne bouge plus de la journée. |
+| Fournisseur | Qingdao Yuhao : 5,50 $ (100 à 499), 4,50 $ dès 1 000 ; sourcing par Scutify. |
+| À vérifier | Aucune promesse médicale (ne pas dire « soigne » ou « sciatique ») : parler de confort et de posture ; vérifier la densité de la mousse sur échantillon. |
 
 ## 7. Maison · ranger couettes et vêtements d'hiver en prenant 3 fois moins de place — Sacs sous vide + pompe
 
@@ -322,7 +322,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 |---|---|---|---|
 | Pack 3 t-shirts oversize 240 g | 11,51 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-240g-Cotton-T-Shirt_1601269043057.html) |
 | Ensemble VAURE : sweat à capuche + jogging de la même couleur | 19,13 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html) |
-| Pack Salle de bain : pommeau filtrant + kit stylos pour joints | 8,14 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) |
+| Pack Bien-être : kit Pilates + coussin d'assise ergonomique | 8,41 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) |
 
 ## Sources
 
@@ -351,5 +351,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 - [StoneStream, pommeau filtrant](https://fr.stone-stream.com/products/pomme-de-douche-ecopower-noire-avec-kit-de-filtration-deau-dure)
 - [MineralStream, kit de douche](https://fr.mineralstream.co/products/mineralstream%E2%84%A2-noir-vitamine-c-kit-de-douche-complet)
 - [La Poste, tarifs Colissimo 2026](https://www.laposte.fr/professionnel/tarif-colissimo)
+- [Pearl, coussin ergonomique à mémoire de forme](https://www.pearl.fr/article/NX3937/coussin-ergonomique-a-memoire-de-forme-pour-assise)
+- [ManoMano, coussin HONORNIC](https://www.manomano.fr/p/noircoussin-de-siege-en-mousse-a-memoire-forme-coussin-ergonomique-pour-chaise-bureau-voiture-fauteuil-225376154)
 
 Liens Alibaba et prix fournisseur vérifiés le 14/11/2026. Les prix en France viennent des sites cités et peuvent changer.

@@ -55,11 +55,11 @@ U = [
   "Prix séparés dans la boutique : 49,90 + 49,90 = 99,80 € ; chez On : 130 + 140 €.",
   "https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html", 22.24, 19.13, 79.90,
   "Sweat 9,89 $ (lien) + jogging 12,35 $ (1601254248379). Marge 60,77 €."),
- ("Pack Salle de bain : pommeau filtrant + kit stylos pour joints", "Kit stylos pour joints",
-  "Une salle de bain qui paraît neuve : eau plus douce et joints blancs.",
-  "Prix séparés dans la boutique : 39,90 + 29,90 = 69,80 €.",
-  "https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html", 9.47, 8.14, 59.90,
-  "Pommeau 7,85 $ (lien) + kit joints 1,62 $ (1600121068779). Marge 51,76 €."),
+ ("Pack Bien-être : kit Pilates + coussin d'assise ergonomique", "Kit Pilates « Reformer à la maison »",
+  "Bouger chez soi et être bien assis au bureau : le dos dit merci.",
+  "Prix séparés dans la boutique : 39,90 + 34,90 = 74,80 €.",
+  "https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html", 9.78, 8.41, 59.90,
+  "Kit 4,28 $ (barre 2,50 $ + disques 1,78 $) + coussin 5,50 $ (1600948399915). Marge 51,49 €."),
 ]
 with open(os.path.join(ICI, "upsells.py"), "w") as out:
     out.write("# 2e produits (packs à plus de 50 €) : généré par construire_tableau.py.\n"
