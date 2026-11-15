@@ -396,3 +396,5 @@ Notes /10 : pommeau, lunettes 6, t-shirt oversize 6,75, t-shirt 250 g 8,25, pot 
 Pot : lot de 3 pots blancs à réserve 1600135015737 (7,99 $ → 39,90 €, ~1 kg, gain ≈ 22,94 €).
 Cintres retirés (pas de vrai problème) → Kit 4 stylos pour joints + brosse 1600121068779 (≈1,62 $ → 29,90 €, gain ≈ 22,82 €), réf. Rubson 11,90 € le stylo.
 Pack Rangement remplacé par Pack Salle de bain (pommeau + kit joints) 59,90 €.
+
+## Étape — Pot retiré (Jairo : « nul ») → Kit anti-rayures meubles 26 pièces (1600133850172, ≈3,90 $ → 29,90 €, gain ≈ 20,86 €). Kit joints validé.

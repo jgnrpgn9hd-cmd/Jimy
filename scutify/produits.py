@@ -74,23 +74,25 @@ rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pre
   '100, logo dès 50 ; lien choisi par Jairo. À VÉRIFIER : Vérifier la tenue au lavage sur échantillon ; couleurs unies. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par '
   "l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On.",
   'T-shirt épais 250 g'),
- ("Lot de 3 pots de fleurs blancs avec réserve d'eau cachée et indicateur de niveau : la plante se sert seule — Niche : Maison · garder ses plantes en vie sans y penser",
-  'https://www.alibaba.com/product-detail/Pack-of-3-White-Decorative-Plastic_1600135015737.html',
-  'OUI',
-  'OUI',
+ ('Kit de 26 pièces : feutres de retouche + bâtons de cire de 13 teintes de bois, avec taille-crayon, pour effacer rayures et éclats — Niche : Maison · effacer les rayures sur les meubles et le '
+  'parquet',
+  'https://www.alibaba.com/product-detail/Furniture-Repair-Kit-Wood-Markers-Set_1600133850172.html',
   'OUI',
   'OUI',
   'NON',
+  'OUI',
   'NON',
-  6.87,
-  7,
-  39.9,
-  "MODÈLE : Lechuza : la marque allemande des pots à réserve d'eau. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et "
-  "moins cher. PROBLÈME : Les plantes d'intérieur meurent quand on oublie de les arroser ou qu'on part en vacances. ÉCONOMIQUE : OUI : on ne rachète plus de plantes mortes faute d'arrosage. EFFET "
-  "WAOUW : Le petit flotteur qui montre le niveau d'eau ; la plante reste verte 3 semaines sans arrosage. PRIX EN FRANCE : Lechuza Classico Color 28 : 38,49 € (Kaufland) ; Lechuza D.21 : 69,12 € "
-  "(Leroy Merlin). FOURNISSEUR : Hangzhou EDAR International : lot de 3 pots 7,99 $ (7,59 $ dès 5 000 lots) ; sourcing par Scutify. À VÉRIFIER : Vérifier l'étanchéité et la clarté de l'indicateur "
-  'sur échantillon ; ne pas promettre une durée précise sans test.',
-  "Pot à réserve d'eau"),
+  'NON',
+  3.35,
+  9,
+  29.9,
+  'MODÈLE : Liberon et Les Anciens Ébénistes : les marques françaises de retouche bois. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à '
+  "proposer mieux et moins cher. PROBLÈME : Rayures sur la table, le parquet, les portes ou le meuble TV : le bois paraît abîmé, et réparer ou remplacer coûte cher (sans parler de l'état des lieux). "
+  "ÉCONOMIQUE : OUI : évite de faire réparer ou de remplacer un meuble (et peut sauver une caution d'état des lieux). EFFET WAOUW : Un coup de feutre : la rayure claire disparaît dans le bois. PRIX "
+  'EN FRANCE : Les Anciens Ébénistes 13,21 € le feutre (Leroy Merlin) ; kit de cire parquet 11 blocs 32,99 € ; kits 21 à 25 pièces 20,83 à 21,50 € (Leroy Merlin). FOURNISSEUR : Dongguan Tianyi '
+  'Stationery : kit de 13 pièces à environ 1,95 $ (0,15 $ la pièce), 2 kits = 26 pièces ≈ 3,90 $ ; sourcing par Scutify. À VÉRIFIER : Concurrence : des kits de 21 à 25 pièces existent à environ 21 € '
+  'en magasin ; se démarquer par le kit complet (feutres + cire) et une vidéo avant / après. Tester les teintes sur échantillon.',
+  'Kit anti-rayures meubles'),
  ('Kit de 4 stylos blanchisseurs de joints de carrelage, imperméables, + brosse de nettoyage — Niche : Maison · rendre les joints de carrelage blancs comme neufs',
   'https://www.alibaba.com/product-detail/Grout-Pen-White-4pcs-Waterproof-Grouting_1600121068779.html',
   'OUI',

@@ -17,7 +17,7 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 | 2 | Accessoires homme · ne plus être ébloui | [Lunettes de soleil UV400](https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html) | 0,75 € | 34,90 € | 34,15 € | 6,0 |
 | 3 | Mode homme · avoir un t-shirt oversize qui tombe bien | [T-shirt oversize 240 g](https://www.alibaba.com/product-detail/Custom-Logo-240g-Cotton-T-Shirt_1601269043057.html) | 3,84 € | 34,90 € | 31,06 € | 6,75 |
 | 4 | Mode homme · avoir un t-shirt qui ne se déforme pas | [T-shirt épais 250 g](https://www.alibaba.com/product-detail/Heavyweight-Tshirt_1600928907355.html) | 5,80 € | 34,90 € | 29,10 € | 8,25 |
-| 5 | Maison · garder ses plantes en vie sans y penser | [Pot à réserve d'eau](https://www.alibaba.com/product-detail/Pack-of-3-White-Decorative-Plastic_1600135015737.html) | 6,87 € | 39,90 € | 33,03 € | 8,25 |
+| 5 | Maison · effacer les rayures sur les meubles et le parquet | [Kit anti-rayures meubles](https://www.alibaba.com/product-detail/Furniture-Repair-Kit-Wood-Markers-Set_1600133850172.html) | 3,35 € | 29,90 € | 26,55 € | 6,75 |
 | 6 | Maison · rendre les joints de carrelage blancs comme neufs | [Kit stylos pour joints](https://www.alibaba.com/product-detail/Grout-Pen-White-4pcs-Waterproof-Grouting_1600121068779.html) | 1,39 € | 29,90 € | 28,51 € | 6,75 |
 | 7 | Maison · ranger couettes et vêtements d'hiver en prenant 3 fois moins de place | [Sacs sous vide + pompe](https://www.alibaba.com/product-detail/8-Packs-Space-Saver-Plastic-Vacuum_1600116022034.html) | 4,13 € | 34,90 € | 30,77 € | 6,75 |
 | 8 | Mode homme · avoir un sweat qui ne bouloche pas | [Sweat à capuche épais](https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html) | 8,51 € | 49,90 € | 41,39 € | 4,5 |
@@ -142,34 +142,34 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | Fuzhou Xinglan : 6,75 $ (50 à 99), 6,30 $ dès 100, logo dès 50 ; lien choisi par Jairo. |
 | À vérifier | Vérifier la tenue au lavage sur échantillon ; couleurs unies. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
 
-## 5. Maison · garder ses plantes en vie sans y penser — Pot à réserve d'eau
+## 5. Maison · effacer les rayures sur les meubles et le parquet — Kit anti-rayures meubles
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Pack-of-3-White-Decorative-Plastic_1600135015737.html) · coût 6,87 € (7,99 $ × 0,86) · revente 39,90 € · marge 33,03 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Furniture-Repair-Kit-Wood-Markers-Set_1600133850172.html) · coût 3,35 € (3,9 $ × 0,86) · revente 29,90 € · marge 26,55 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Lechuza : la marque allemande des pots à réserve d'eau. |
+| Boutique modèle | Liberon et Les Anciens Ébénistes : les marques françaises de retouche bois. |
 | Demande en France | Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et moins cher. |
-| Observation | Les vidéos « plantes qui survivent aux vacances » et les intérieurs végétalisés sont partout sur Pinterest. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans, en appartement, qui aiment les plantes mais manquent de temps. |
-| Problème | Les plantes d'intérieur meurent quand on oublie de les arroser ou qu'on part en vacances. |
-| Question à résoudre | Comment garder ses plantes en vie sans y penser, avec une belle pièce à petit prix ? |
+| Observation | Les vidéos « furniture scratch repair before after » font des millions de vues sur TikTok et Pinterest. |
+| Cible et désir | Propriétaires et locataires de 25 à 55 ans, familles avec enfants ou animaux. |
+| Problème | Rayures sur la table, le parquet, les portes ou le meuble TV : le bois paraît abîmé, et réparer ou remplacer coûte cher (sans parler de l'état des lieux). |
+| Question à résoudre | Comment effacer les rayures sur les meubles et le parquet, avec une belle pièce à petit prix ? |
 | Pistes produit | Lampe d'écran · planche en titane · moulins par gravité · cubes de compression · fontaine à eau pour chat · support téléphone voiture. |
-| **Idée de business** | Je veux permettre à ceux qui aiment les plantes mais oublient d'arroser de garder des plantes vertes sans effort. |
-| Solution à un problème | OUI : les plantes d'intérieur meurent quand on oublie de les arroser ou qu'on part en vacances. |
-| Économique | OUI : on ne rachète plus de plantes mortes faute d'arrosage. |
-| Besoin / passion | OUI : les plantes, la déco. |
-| Effet wow | Le petit flotteur qui montre le niveau d'eau ; la plante reste verte 3 semaines sans arrosage. |
-| Unique | NON : pot générique, beaucoup de modèles semblables existent. |
-| Poids / volume | Colis d'environ 1 kg. |
+| **Idée de business** | Je veux permettre à ceux qui ont des meubles ou un parquet rayés de les faire disparaître en quelques secondes, sans menuisier. |
+| Solution à un problème | OUI : rayures sur la table, le parquet, les portes ou le meuble TV : le bois paraît abîmé, et réparer ou remplacer coûte cher (sans parler de l'état des lieux). |
+| Économique | OUI : évite de faire réparer ou de remplacer un meuble (et peut sauver une caution d'état des lieux). |
+| Besoin / passion | NON : l'entretien de la maison est un besoin, pas une passion. |
+| Effet wow | Un coup de feutre : la rayure claire disparaît dans le bois. |
+| Unique | NON : kits courants, difficile à rendre unique. |
+| Poids / volume | Léger, petit colis. |
 | 1. Répond aux critères principaux ? | Bien : problème du quotidien qui dure toute l'année. |
 | 2. Bénéfice évident au premier regard ? | Oui : la démonstration se comprend en quelques secondes. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, comparaison avec la marque connue. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : énorme communauté plantes sur Pinterest et TikTok, cadeau facile. |
-| Prix en France | Lechuza Classico Color 28 : 38,49 € (Kaufland) ; Lechuza D.21 : 69,12 € (Leroy Merlin). |
-| Angle pub / Instagram | La plante fanée du voisin à côté de la plante verte dans le pot à réserve, avec le flotteur qui monte. |
-| Fournisseur | Hangzhou EDAR International : lot de 3 pots 7,99 $ (7,59 $ dès 5 000 lots) ; sourcing par Scutify. |
-| À vérifier | Vérifier l'étanchéité et la clarté de l'indicateur sur échantillon ; ne pas promettre une durée précise sans test. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : effet avant / après immédiat, utile pour tous les locataires (état des lieux). |
+| Prix en France | Les Anciens Ébénistes 13,21 € le feutre (Leroy Merlin) ; kit de cire parquet 11 blocs 32,99 € ; kits 21 à 25 pièces 20,83 à 21,50 € (Leroy Merlin). |
+| Angle pub / Instagram | Gros plan sur une rayure blanche dans une table en bois, un coup de feutre : elle a disparu. |
+| Fournisseur | Dongguan Tianyi Stationery : kit de 13 pièces à environ 1,95 $ (0,15 $ la pièce), 2 kits = 26 pièces ≈ 3,90 $ ; sourcing par Scutify. |
+| À vérifier | Concurrence : des kits de 21 à 25 pièces existent à environ 21 € en magasin ; se démarquer par le kit complet (feutres + cire) et une vidéo avant / après. Tester les teintes sur échantillon. |
 
 ## 6. Maison · rendre les joints de carrelage blancs comme neufs — Kit stylos pour joints
 
@@ -326,6 +326,8 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 
 ## Sources
 
+- [Leroy Merlin, kit de réparation de meubles 21 pièces](https://www.leroymerlin.fr/produits/kit-de-reparation-de-meubles-en-bois-21-stylos-et-batons-de-cire-pour-eliminer-les-rayures-et-les-taches-96039703.html)
+- [Leroy Merlin, feutre Les Anciens Ébénistes](https://www.leroymerlin.fr/produits/feutre-de-retouche-les-anciens-ebenistes-chene-53170103.html)
 - [Mr Bricolage, Rubson Rénov'Joint](https://www.mr-bricolage.fr/v/joint-carrelage-blanc)
 - [ManoMano, lot de 5 stylos pour joints](https://www.manomano.fr/p/5-pieces-de-coulis-blanc-impermeable-stylo-reparation-pour-carrelage-mural-joint-carrelage-sol-cuisine-et-salle-bain-217513948)
 - [Nature & Découvertes, tapis 120 × 180 cm lavable](https://www.natureetdecouvertes.com/deco-maison/chambre-enfant/tapis-coussins-enfant/tapis-salon-beige-120x180-cm-93173580)
