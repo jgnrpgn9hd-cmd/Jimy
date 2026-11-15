@@ -365,3 +365,8 @@ Prix France Essentials (Breuninger) : sweat à capuche 139,99 €, t-shirt 71,99
 Ajout : t-shirt manches longues col boutonné (henley) 60795328307, 10,50 $ MOQ 100 → 39,90 €, 500 g, gain ≈ 22,78 €.
 Écartés : manches longues col montant 11000028283617 (camouflage), manches longues 280 g (acid wash), t-shirt 280 g imprimé.
 Total 9/10 (7 vêtements + lunettes + pommeau). 10e à choisir : short en molleton (saisonnier) ou casquette brodée.
+
+## Étape — VAURE sur le modèle On (style sport-chic minimaliste, ensembles assortis)
+Prix On France : Club-T 50 €, Club Hoodie 130 €, Focus Tech Hoodie 150 €, Core-T 60 €, Core Shorts 60 €, Trek Pants 140 € (BE), Performance Long-T 90 €.
+10e produit : casquette légère (1600612754499, 2,98 $ MOQ 100 → 29,90 €, gain ≈ 21,65 €), équivalent de la casquette légère On.
+Liste 10/10 : t-shirt oversize 240 g, t-shirt 250 g, manches longues henley, sweat à capuche, sweat zippé, sweat col rond 450 g, jogging, casquette, lunettes UV400, pommeau filtrant.
