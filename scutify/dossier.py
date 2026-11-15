@@ -419,3 +419,13 @@ for _f in (_kp, _cs):
 FICHES[4], FICHES[5] = _kp, _cs
 SOURCES += [("Pearl, coussin ergonomique à mémoire de forme", "https://www.pearl.fr/article/NX3937/coussin-ergonomique-a-memoire-de-forme-pour-assise"),
             ("ManoMano, coussin HONORNIC", "https://www.manomano.fr/p/noircoussin-de-siege-en-mousse-a-memoire-forme-coussin-ergonomique-pour-chaise-bureau-voiture-fauteuil-225376154")]
+
+# Ligne 10 : le sweat col rond est remplacé par le Kit Pilates Studio (cercle + chaussettes + programme cours collectif).
+_ks = dict([f for f in _pil6.FICHES if f["court"] == "Kit Pilates Studio"][0])
+_ks.update(court="Kit Pilates Studio (cercle)", niche="Bien-être · suivre un cours de Pilates collectif chez soi",
+           criteres=("OUI", "OUI", "OUI", "OUI", "OUI", "NON"),
+           c_probleme="OUI : un cours collectif de Pilates coûte 15 à 30 € la séance, et les horaires ne conviennent pas toujours.",
+           c_unique="OUI : cercle + chaussettes antidérapantes + programme vidéo « cours collectif » en français, dans une boîte à l'image de la marque.",
+           c_passion="OUI : le Pilates, très suivi sur Pinterest et Instagram.")
+_ks["cout"] = round(_ks["usd"] * 0.86, 2); _ks["marge"] = round(_ks["revente"] - _ks["cout"], 2)
+FICHES[9] = _ks

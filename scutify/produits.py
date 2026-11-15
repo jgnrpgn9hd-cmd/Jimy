@@ -162,21 +162,20 @@ rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pre
   '63,99 € ; Lorena Canals 120 × 180 cm 149 € ; vidaXL 120 × 180 cm 48,43 €. FOURNISSEUR : Lien choisi par Jairo : 8,95 $ le m² (6,98 $ dès 1 000 m²), soit environ 13,43 $ pour 100 × 150 cm ; '
   "sourcing par Scutify. À VÉRIFIER : Prix au m² : faire chiffrer par Scutify la taille 100 × 150 cm livrée ; colis d'environ 2 kg, donc vérifier le poids réel ; tester le lavage sur échantillon.",
   'Tapis lavable en machine'),
- ('Sweat col rond 450 g 100 % coton, coupe oversize, uni — Niche : Mode homme · avoir un pull de tous les jours qui garde sa forme',
-  'https://www.alibaba.com/product-detail/2021-100-cotton-heavyweight-450-gsm_1600274136737.html',
-  'NON',
-  'NON',
-  'OUI',
-  'NON',
+ ('Cercle de Pilates + 1 paire de chaussettes antidérapantes + programme vidéo « cours collectif » — Niche : Bien-être · suivre un cours de Pilates collectif chez soi',
+  'https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html',
   'OUI',
   'OUI',
-  10.23,
-  7,
-  44.9,
-  'MODÈLE : On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins '
-  'cher. DEMANDE : Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et '
-  "TikTok. PROBLÈME : Les pulls et sweats bon marché se détendent, rétrécissent ou perdent leur forme. ÉCONOMIQUE : NON : pas d'économie à l'usage. EFFET WAOUW : NON : pièce sobre, peu spectaculaire "
-  'en vidéo. PRIX EN FRANCE : Sweats col rond On et Essentials vendus plus de 100 € (Breuninger). FOURNISSEUR : 11,90 $ (100 à 499), 10,60 $ dès 500, logo personnalisé. À VÉRIFIER : OUI : se vend '
-  "surtout d'octobre à mars. Minimum 100 pièces : commencer avec 2 couleurs ; aucune mention délavée. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du "
-  'tissu, le look net (jamais délavé), les ensembles et le prix face à On.',
-  'Sweat col rond 450 g')]
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  4.43,
+  8,
+  34.9,
+  "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). DEMANDE : Le Pilates est l'activité n° 1 sur "
+  'ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. PROBLÈME : Un cours collectif de Pilates coûte 15 à 30 € la '
+  'séance et les horaires ne conviennent pas toujours. ÉCONOMIQUE : OUI : le prix de deux séances en studio. EFFET WAOUW : Le cercle qui sculpte bras et cuisses en vidéo. PRIX EN FRANCE : Kits '
+  'Pilates complets chez Decathlon ; séances de 15 à 30 €. FOURNISSEUR : Cercle 3,40 $ (lien) + chaussettes 1,75 $. À VÉRIFIER : Programme filmé par une coach diplômée. Concurrence : Decathlon et '
+  "Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs.",
+  'Kit Pilates Studio (cercle)')]

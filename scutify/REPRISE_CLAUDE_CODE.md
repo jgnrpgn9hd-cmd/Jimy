@@ -402,3 +402,6 @@ Pack Rangement remplacé par Pack Salle de bain (pommeau + kit joints) 59,90 €
 ## Étape — « kit pilote » = Kit Pilates : ligne 5 = Kit Pilates « Reformer à la maison » (1600918081475 + disques 1601519504789, 4,28 $ → 39,90 €),
 ligne 6 = coussin d'assise ergonomique (1600948399915, 5,50 $ → 34,90 €). Kits joints et anti-rayures retirés. Pack Bien-être 59,90 €.
 Version précédente : dossier_v17_kits_maison.py.
+
+## Étape — Ligne 10 : sweat col rond remplacé par Kit Pilates Studio (cercle 1600060372660 + chaussettes, 5,15 $ → 34,90 €).
+Filtre de robinet tenté : 4 annonces Alibaba supprimées (404), abandonné.
