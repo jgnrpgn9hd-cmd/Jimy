@@ -49,85 +49,63 @@ FICHES = [
        "OUI : accessoire très visible en photo, marge correcte."),
 ]
 
-FICHES[0]["niche"] = "Beauté · " + FICHES[0]["niche"].split(" · ", 1)[1]
+import dossier_v8_maison as _mai, dossier_v7_organisation as _org, dossier_v9_running as _run, dossier_v6_pilates as _pil
+_M = {f["court"]: dict(f) for f in _mai.FICHES}
+_O = {f["court"]: dict(f) for f in _org.FICHES}
+_R = {f["court"]: dict(f) for f in _run.FICHES}
+_P = {f["court"]: dict(f) for f in _pil.FICHES}
+_DTC = dict(
+    demande="Produit phare d'une des marques e-commerce qui vendent le plus au monde (classements Brandsearch, TrendTrack, Shopify 2026).",
+    observation="Les marques en ligne qui réussissent le mieux vendent un seul produit phare qui règle un problème clair, avec une vidéo de démonstration.",
+    cible="Femmes et hommes de 20 à 45 ans, actifs, qui achètent en ligne sur coup de cœur quand ils voient un problème réglé en vidéo.",
+    pistes="Bloqueur d'applis NFC (Brick) · portefeuille métal (Ridge) · kit WC lavant (Tushy) · gobelet isotherme (Stanley) · bouchons d'oreilles (Loop) · mini pistolet de massage (Theragun) · bracelets lestés (Bala) · sacoche (Bellroy).",
+    c_unique="Même usage que la marque phare, à moitié prix, avec ta marque, ton design et ta communauté.",
+    q3="Oui : la vidéo de démonstration de la marque phare marche déjà, il suffit de la refaire à sa façon.",
+    angle_pub="Le problème en 3 secondes, puis la démonstration du produit, comme les pubs de la marque phare.")
+def _phare(f, univers, marque, prix_marque):
+    f = dict(f); f.update(_DTC)
+    f["niche"] = univers + " · " + f["niche"].split(" · ", 1)[1]
+    f["modele"] = marque + " : la marque qui a fait de ce produit un succès mondial."
+    f["prix_france"] = prix_marque + " " + f["prix_france"]
+    return f
+FICHES[0]["niche"] = "Salle de bain · " + FICHES[0]["niche"].split(" · ", 1)[1]
+FICHES[0]["modele"] = "Jolie (États-Unis) : le pommeau filtrant devenu une marque à succès."
 FICHES[1]["niche"] = "Sport · " + FICHES[1]["niche"].split(" · ", 1)[1]
-_BEAUTE = dict(
-    demande="La beauté est la catégorie qui vend le plus sur TikTok Shop (FastMoss) ; les bigoudis sans chaleur sont régulièrement en rupture après une vidéo virale (CJ Dropshipping).",
-    modele="Kitsch, Foreo, Slip : des accessoires beauté vendus 30 à 300 € avec des vidéos avant / après.",
-    observation="Sur TikTok et Instagram, les routines beauté « à la maison » remplacent le salon : on veut le résultat du coiffeur ou de l'esthéticienne, sans le prix ni le temps.",
-    cible="Femmes de 18 à 45 ans qui prennent soin de leurs cheveux et de leur peau, actives sur Instagram et TikTok.",
-    pistes="Bigoudis sans chaleur · brosse soufflante · lisseur sans fil · brosse visage sonique · taie en soie · miroir lumineux · ponceuse à ongles · coffret beauté.",
-    c_passion="OUI : la beauté, prendre soin de soi, se sentir belle.",
-    c_unique="Design premium (satin, blanc nacré, doré), belle boîte, tutoriels vidéo en français.",
-    q3="Oui : avant / après en vidéo, routines du soir et du matin, déballage.",
-    angle_pub="Le résultat du salon obtenu à la maison, montré en avant / après en 10 secondes.")
-def _beaute(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, prix, fourn, vig, q4, poids):
-    f = fiche(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, prix, fourn, vig, q4, poids=poids)
-    f.update(_BEAUTE); f["vigilance"] = vig; f["niche"] = "Beauté · " + usage; return f
+FICHES[1]["modele"] = "Goodr : une marque qui vend presque uniquement des lunettes de sport à 25 $."
 _A = "https://www.alibaba.com/product-detail/"
-_ELEC = "Appareil électrique : marquage CE, notice en français, inscription au recyclage des appareils (DEEE) ; aucune promesse médicale."
+_brick = fiche("Bloqueur d'applis NFC", "Carte NFC noire mate à poser à la maison : on la touche avec son téléphone pour bloquer les applis qui font perdre du temps, on la retouche pour les débloquer", "décrocher de son téléphone",
+   _A + "Black-pvc-card-nfc-NTAG-215_62022555600.html", 0.35, 9, 34.90,
+   "On passe des heures sur les réseaux sociaux sans le vouloir ; les limites de temps dans le téléphone se contournent en un clic.",
+   "Je veux permettre à ceux qui veulent reprendre le contrôle de leur temps de bloquer leurs applis d'un simple geste, avec un objet qui reste à la maison.",
+   "OUI : moins cher que Brick (55 à 59 $), aucun abonnement.", "On touche la carte : Instagram et TikTok disparaissent. Pour les rouvrir, il faut se lever et retoucher la carte.",
+   "Brick 55 à 59 $ (environ 15,9 millions de dollars de ventes par mois selon Brandsearch).", "Carte NFC noire mate NTAG215 : 0,15 à 0,35 $ (100 minimum), logo dès 100 ; prévoir environ 1 € d'étui.",
+   "Fonctionne avec une appli gratuite (Foqos sur iPhone, Raccourcis) : vérifier et tester la mise en place sur iPhone et Android, et écrire un guide simple. Aucune plateforme à gérer.",
+   "OUI : le produit phare qui grandit le plus vite au monde selon Brandsearch, problème énorme (addiction au téléphone).")
 FICHES += [
- _beaute("Bigoudis sans chaleur en satin", "Kit bigoudi souple en satin + pince griffe, à mettre le soir pour des boucles au réveil", "avoir des boucles sans abîmer ses cheveux",
-   _A + "TikTok-Hot-Selling-Curling-Rods-100_1600398034810.html", 1.04, 9, 29.90,
-   "Le fer à friser abîme et casse les cheveux, et faire ses boucles le matin prend du temps.",
-   "Je veux permettre aux femmes aux cheveux longs d'avoir des boucles parfaites au réveil, sans chaleur et sans abîmer leurs cheveux.",
-   "OUI : remplace le fer et les rendez-vous chez le coiffeur.", "Le bigoudi qu'on déroule le matin : des boucles parfaites apparaissent.",
-   "Kitsch 26,95 à 32,95 € ; modèles basiques 9 à 19 €.", "1,04 $ (200 minimum), logo personnalisé.",
-   "Tutoriel vidéo indispensable (comment l'enrouler) ; soigner la boîte.",
-   "OUI : produit viral en rupture de stock aux États-Unis, très gros marché.", "Petit colis en lettre (250 g)."),
- _beaute("Brosse soufflante", "Brosse soufflante 3 en 1 : sèche, lisse et donne du volume en une seule étape", "faire un brushing de salon chez soi",
-   _A + "Hot-Styling-Tools-one-step-volumizer_1600089481377.html", 8.98, 7, 39.90,
-   "Un brushing chez le coiffeur coûte 25 à 40 €, et à la maison il faut 45 minutes avec sèche-cheveux, brosse et lisseur.",
-   "Je veux permettre aux femmes qui manquent de temps d'avoir un brushing de salon en 10 minutes, avec un seul appareil.",
-   "OUI : remplace des brushings à 25-40 €.", "Cheveux mouillés, puis brushing de salon en 10 minutes, d'une seule main.",
-   "BaByliss, Remington, Rowenta : 27,78 à 41,10 €.", "8,98 $ (2 à 999).",
-   "Appareil chauffant : " + _ELEC + " Ne pas copier le design d'une marque.",
-   "OUI : achat coup de cœur très fort, cible énorme.", "Colis d'environ 750 g."),
- _beaute("Lisseur sans fil", "Lisseur mini rechargeable sans fil, à glisser dans le sac", "se recoiffer partout",
-   _A + "Cordless-Flat-Irons-Factory-Custom-Logo_1601367502059.html", 9.00, 8, 39.90,
-   "Les cheveux frisent avec la pluie ou la transpiration, et on ne peut pas se recoiffer hors de chez soi.",
-   "Je veux permettre aux femmes de se recoiffer en 2 minutes au bureau, en soirée ou en voyage, avec un lisseur sans fil.",
-   "OUI : moins cher que les marques (45,90 à 63,38 €, Dyson 581 €).", "Sortir le lisseur du sac, sans prise, et des cheveux parfaits en 2 minutes.",
-   "Postquam 45,90 €, MEDION 63,38 €, Dyson Corrale 581,90 €.", "9 $ (2 minimum), logo personnalisé.",
-   "Appareil chauffant avec batterie : " + _ELEC,
-   "OUI : achat impulsif, idée cadeau.", "Colis d'environ 500 g."),
- _beaute("Brosse visage sonique", "Brosse nettoyante en silicone à vibrations, étanche, rechargeable", "nettoyer sa peau en profondeur",
-   _A + "Electric-Silicone-Facial-Brush-for-Cleaning_1601405783636.html", 2.75, 9, 34.90,
-   "Les mains et les cotons ne nettoient pas les pores en profondeur ; la peau reste terne.",
-   "Je veux permettre à chacune d'avoir une peau nette et lumineuse avec un nettoyage de 1 minute par jour.",
-   "OUI : bien moins chère que Foreo (59 à 315 €).", "La mousse qui se forme sur le visage, la peau qui brille après.",
-   "Foreo Luna de 59,70 à 315 € selon le modèle.", "2,75 $ (20 à 99), 2,65 $ dès 100.",
-   _ELEC, "OUI : produit beauté star, très visuel, marge forte.", "Petit colis en lettre (250 g)."),
- _beaute("Taie d'oreiller en soie", "Taie d'oreiller 100 % soie de mûrier 22 momme, belle boîte", "garder ses cheveux et sa peau la nuit",
-   _A + "22-momme-100-Custom-Package-100_1601168614658.html", 12.99, 8, 39.90,
-   "Le coton frotte : cheveux cassés et emmêlés, marques sur le visage au réveil.",
-   "Je veux permettre aux femmes de se réveiller avec des cheveux lisses et sans marques, grâce à une taie en soie.",
-   "OUI : moitié prix des taies en soie vendues en France.", "Les cheveux lisses au réveil, la soie qui brille.",
-   "Maison de la Soie 59,92 € ; Nature & Découvertes 74 à 129 €.", "12,99 $ (2 à 499), 9,89 $ dès 500, logo +0,50 $.",
-   "Positionner sur la beauté des cheveux et de la peau (pas le sommeil, niche de NOXYA) ; vérifier la certification OEKO-TEX.",
-   "OUI : cadeau beauté très demandé, marque de luxe à moitié prix.", "Colis d'environ 500 g."),
- _beaute("Miroir lumineux de voyage", "Miroir pliable rechargeable avec 3 lumières (chaude, naturelle, froide), tactile", "se maquiller avec une bonne lumière partout",
-   _A + "Custom-Logo-Touch-Switch-Folding-Rechargeable_1600658723083.html", 5.13, 8, 32.90,
-   "Mauvaise lumière dans la salle de bain ou à l'hôtel : maquillage raté, qu'on découvre dehors.",
-   "Je veux permettre aux femmes de se maquiller avec une lumière parfaite partout, avec un miroir qui tient dans le sac.",
-   "OUI : évite les maquillages ratés.", "Le visage éclairé comme en studio, en un toucher.",
-   "UNIQ 19,99 € ; StylPro Go and Glow 32,95 € ; modèles haut de gamme 78 à 104 €.", "5,13 $ (300 minimum), logo personnalisé.",
-   _ELEC, "OUI : achat facile, idée cadeau.", "Colis d'environ 500 g."),
- _beaute("Ponceuse à ongles électrique", "Kit manucure électrique rechargeable avec 6 embouts", "faire une manucure de salon chez soi",
-   _A + "Electric-Nail-Drills-for-Acrylic-Nails_1600084555339.html", 9.25, 8, 39.90,
-   "Une manucure en institut coûte 30 à 60 € et il faut y retourner toutes les 3 semaines.",
-   "Je veux permettre aux femmes de faire une manucure propre chez elles, avec un appareil simple et des tutoriels.",
-   "OUI : amorti dès la première manucure évitée.", "L'ongle limé et poli en accéléré, résultat de salon.",
-   "Beurer MP 64 39 €, Beurer MP62 80,64 € ; modèles pro 77 à 110 €.", "9,25 $ (1 à 4 999).",
-   _ELEC, "OUI : gros marché des ongles, vidéos très partagées.", "Colis d'environ 500 g."),
- _beaute("Coffret nuit beauté", "Coffret cadeau : taie d'oreiller en soie + bigoudis sans chaleur en satin", "offrir une routine beauté du soir",
-   _A + "22-momme-100-Custom-Package-100_1601168614658.html", 14.03, 8, 49.90,
-   "On ne sait pas quoi offrir à une femme qui prend soin d'elle.",
-   "Je veux permettre à ceux qui cherchent un cadeau d'offrir une vraie routine beauté du soir, dans un beau coffret.",
-   "OUI : deux produits premium pour le prix d'une taie en soie de marque.", "Le déballage, puis les boucles et les cheveux lisses au réveil.",
-   "Taie en soie 59,92 € + Kitsch 32,95 € achetés séparément.", "Taie 12,99 $ (lien) + bigoudis 1,04 $.",
-   "Belle boîte indispensable ; même positionnement beauté que la taie.",
-   "OUI : cadeau toute l'année (anniversaires, fête des mères, Noël).", "Colis d'environ 500 g."),
+ _phare(_brick, "Bien-être numérique", "Brick", ""),
+ _phare(fiche("Portefeuille métal minimaliste", "Porte-cartes en aluminium anti-RFID avec pince à billets, ultra-fin", "avoir un portefeuille fin",
+   _A + "Minimalist-Men-Wallet-Aluminum-Metal-Slim_1601391026836.html", 5.80, 9, 39.90,
+   "Le portefeuille en cuir devient épais, déforme la poche, et les cartes sans contact peuvent être piratées.",
+   "Je veux permettre aux hommes et aux femmes qui en ont assez d'un gros portefeuille de tout garder dans un porte-cartes fin et solide.",
+   "OUI : un tiers du prix de Ridge.", "Le gros portefeuille à côté du porte-cartes de 8 mm ; les cartes qui sortent d'un geste.",
+   "", "5,80 $ (50 à 499), logo personnalisé, 70 g.",
+   "Vérifier la protection RFID avant de l'annoncer ; ne pas copier le design ni le nom de Ridge.",
+   "OUI : Ridge est la plus grosse marque e-commerce de sa catégorie (16,9 millions de dollars par mois selon Brandsearch)."),
+   "Accessoires homme", "Ridge", "Ridge 65 à 149 € en Europe."),
+ _phare(_M["Kit WC lavant sans électricité"], "Salle de bain", "Tushy", "Tushy aux États-Unis ;"),
+ _phare(_R["Gobelet isotherme 1,2 L"], "Cuisine", "Stanley", ""),
+ _phare(fiche("Bouchons d'oreilles concert", "2 paires de bouchons d'oreilles en silicone qui baissent le volume sans couper le son, étui en métal", "protéger ses oreilles sans s'isoler",
+   "https://www.alibaba.com/product-introduction/Custom-logo-2-Pairs-tapones-auditivos_1600979485174.html", 4.50, 9, 29.90,
+   "Concerts, bars et open spaces trop bruyants : oreilles qui sifflent ou impossible de se concentrer.",
+   "Je veux permettre à ceux qui sortent ou travaillent dans le bruit de protéger leurs oreilles avec des bouchons discrets et jolis.",
+   "OUI : moins cher que Loop (39,95 €).", "Le bijou dans l'oreille, et le son du concert encore clair mais moins fort.",
+   "Loop Engage 2 Plus 39,95 €.", "2 paires + étui : 4,50 $ (100 à 999), logo dès 500.",
+   "Indiquer la réduction de bruit testée (norme EN 352) ; aucune promesse médicale.",
+   "OUI : Loop est devenue une marque mondiale avec ce seul produit."),
+   "Bien-être", "Loop", ""),
+ _phare(_R["Mini pistolet de massage"], "Récupération", "Theragun", ""),
+ _phare(_P["Bracelets lestés pastel"], "Bien-être", "Bala", ""),
+ _phare(_O["Sacoche en cuir homme"], "Mode homme", "Bellroy", "Bellroy, sacoches 69 à 99 € ;"),
 ]
 
 for _f in FICHES:
@@ -148,12 +126,11 @@ SOURCES = [
  ("La Poste, tarifs Colissimo 2026", "https://www.laposte.fr/professionnel/tarif-colissimo"),
 ]
 SOURCES += [
- ("FastMoss, meilleures ventes TikTok Shop par catégorie", "https://www.fastmoss.com/blog/best-selling-products-by-category/"),
- ("CJ Dropshipping, produits viraux 2026", "https://cjdropshipping.com/blogs/winning-products/TikTok-Viral-products-2026"),
- ("Kitsch, bigoudis sans chaleur", "https://www.mykitsch.com/fr/products/heatless-satin-curling-set-black-satin-sleep-bonnet-bundle-sunset-tie-dye"),
- ("Kaufland, lisseur sans fil", "https://www.kaufland.fr/product/513441332/"),
- ("Sephora, Foreo Luna", "https://www.sephora.fr/p/luna-4-P10044624.html"),
- ("Maison de la Soie, taie 22 momme", "https://www.maisondelasoie.com/en/products/oxford-silk-pillowcase-with-22-mommes"),
- ("Lookfantastic, miroir StylPro", "https://lookfantastic.fr/p/stylpro-go-and-glow-mirror/13168270"),
- ("Meilleurtest, ponceuses à ongles", "https://meilleurtest.fr/comparatif/ponceuse-a-ongle/"),
+ ("Brandsearch, 25 Shopify les plus rentables 2026", "https://brandsearch.co/blog/top-shopify-stores-by-revenue"),
+ ("Brandsearch, 25 marques DTC qui grandissent le plus vite", "https://brandsearch.co/blog/fastest-growing-dtc-brands"),
+ ("Revue de Brick (bloqueur d'applis NFC)", "https://trailandkale.com/brick-app-blocker-review/"),
+ ("Alternatives à Brick (appli gratuite Foqos)", "https://habitdoom.com/blog/brick-alternatives-iphone"),
+ ("Ridge, boutique européenne", "https://eu.ridge.com/products/titanium-stonewashed"),
+ ("Loop, Engage 2 Plus", "https://www.loopearplugs.com/fr-be/products/engage-plus"),
+ ("Sitebuilderreport, boutiques à un seul produit", "https://www.sitebuilderreport.com/inspiration/one-product-shopify-stores"),
 ]
