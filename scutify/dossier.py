@@ -135,10 +135,12 @@ FICHES = [
        "OUI : énorme marché, preuve visuelle très forte, cartouches de rechange à revendre.",
        poids="Colis d'environ 500 g.", passion="OUI : le soin de soi, la routine du matin."),
 ]
-FICHES[-1]["modele"] = "Jolie (États-Unis) : le pommeau filtrant devenu une marque à succès."
-FICHES[-1]["c_unique"] = "Design premium, preuve en vidéo du filtre usé, cartouches de rechange en abonnement."
-FICHES[-1]["q1"] = "Bien : l'eau calcaire touche presque toute la France, le problème dure toute l'année."
-FICHES[-1]["angle_pub"] = "Le filtre neuf à côté du filtre jauni après un mois, en 10 secondes."
+FICHES.insert(0, FICHES.pop())  # pommeau en 1
+FICHES.insert(1, FICHES.pop())  # lunettes en 2
+FICHES[0]["modele"] = "Jolie (États-Unis) : le pommeau filtrant devenu une marque à succès."
+FICHES[0]["c_unique"] = "Design premium, preuve en vidéo du filtre usé, cartouches de rechange en abonnement."
+FICHES[0]["q1"] = "Bien : l'eau calcaire touche presque toute la France, le problème dure toute l'année."
+FICHES[0]["angle_pub"] = "Le filtre neuf à côté du filtre jauni après un mois, en 10 secondes."
 
 for _f in FICHES:
     _f["cout"] = round(_f["usd"] * 0.86, 2)

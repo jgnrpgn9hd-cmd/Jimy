@@ -1,6 +1,43 @@
 # 10 idées de business, 10 niches : généré par construire_tableau.py à partir de dossier.py (ne pas modifier à la main).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
-rows=[('T-shirt oversize 240 g 100 % coton, coupe large épaules tombantes, uni, petit logo VAURE — Niche : Mode homme · avoir un t-shirt oversize qui tombe bien',
+rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pression — Niche : Salle de bain · avoir une eau plus douce sous la douche',
+  'https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  6.75,
+  8,
+  39.9,
+  'MODÈLE : Jolie (États-Unis) : le pommeau filtrant devenu une marque à succès. DEMANDE : Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en '
+  "France, et le style « clean » oversize est partout sur Instagram et TikTok. PROBLÈME : L'eau calcaire et chlorée fait tirer la peau et ternit les cheveux. ÉCONOMIQUE : OUI : moitié prix des "
+  'marques qui font de la pub (69,95 à 81,95 €). EFFET WAOUW : Le filtre neuf blanc puis tout jauni après un mois : la preuve en vidéo. PRIX EN FRANCE : StoneStream 69,95 €, MineralStream 81,95 € ; '
+  'pommeaux basiques dès 13,99 €. FOURNISSEUR : Shenzhen Calux Purification Technology (fabricant vérifié, 14 ans) : 7,85 à 20 $ selon le modèle, minimum 2 lots. À VÉRIFIER : Confirmer que le modèle '
+  "à 7,85 $ est le pommeau complet ; demander un test de filtration (SGS). Aucune promesse médicale. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, "
+  'le look net (jamais délavé), les ensembles et le prix face à On.',
+  'Pommeau de douche filtrant'),
+ ('Lunettes de soleil enveloppantes, verres miroir vert, protection UV400, logo VAURE sur la branche — Niche : Accessoires homme · ne plus être ébloui',
+  'https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  0.75,
+  9,
+  34.9,
+  'MODÈLE : On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins '
+  'cher. DEMANDE : Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et '
+  'TikTok. PROBLÈME : Le soleil et les reflets éblouissent en voiture, en ville et au sport. ÉCONOMIQUE : OUI : meilleure marge de la gamme, moins chères que les marques. EFFET WAOUW : Les verres '
+  'miroir verts et le logo VAURE gravé : un vrai look de marque. PRIX EN FRANCE : Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €. FOURNISSEUR : Lien choisi par Jairo : 0,87 $ (2 minimum, '
+  'en stock) ; fournisseur de secours iRun polarisé : 7,48 $ (500 minimum, logo dès 100) (https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html). À '
+  'VÉRIFIER : Fournisseur jeune et non vérifié : commander 2 échantillons ; exiger le marquage CE et la norme EN ISO 12312-1 avant de vendre ; demander une version polarisée. Concurrence : Zara, '
+  "Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On.",
+  'Lunettes de soleil UV400'),
+ ('T-shirt oversize 240 g 100 % coton, coupe large épaules tombantes, uni, petit logo VAURE — Niche : Mode homme · avoir un t-shirt oversize qui tombe bien',
   'https://www.alibaba.com/product-detail/Custom-Logo-240g-Cotton-T-Shirt_1601269043057.html',
   'OUI',
   'OUI',
@@ -144,41 +181,4 @@ rows=[('T-shirt oversize 240 g 100 % coton, coupe large épaules tombantes, uni,
   'tête. PRIX EN FRANCE : Casquettes Ciele et On vendues bien plus cher en magasin de sport ; Decathlon dès quelques euros. FOURNISSEUR : Kimtex : 2,98 $ (100 à 499), 2,28 $ dès 500, broderie '
   "possible. À VÉRIFIER : Minimum 100 pièces ; choisir une couleur unie qui va avec la gamme. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le "
   'look net (jamais délavé), les ensembles et le prix face à On.',
-  'Casquette légère'),
- ('Lunettes de soleil enveloppantes, verres miroir vert, protection UV400, logo VAURE sur la branche — Niche : Accessoires homme · ne plus être ébloui',
-  'https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  0.75,
-  9,
-  34.9,
-  'MODÈLE : On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins '
-  'cher. DEMANDE : Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et '
-  'TikTok. PROBLÈME : Le soleil et les reflets éblouissent en voiture, en ville et au sport. ÉCONOMIQUE : OUI : meilleure marge de la gamme, moins chères que les marques. EFFET WAOUW : Les verres '
-  'miroir verts et le logo VAURE gravé : un vrai look de marque. PRIX EN FRANCE : Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €. FOURNISSEUR : Lien choisi par Jairo : 0,87 $ (2 minimum, '
-  'en stock) ; fournisseur de secours iRun polarisé : 7,48 $ (500 minimum, logo dès 100) (https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html). À '
-  'VÉRIFIER : Fournisseur jeune et non vérifié : commander 2 échantillons ; exiger le marquage CE et la norme EN ISO 12312-1 avant de vendre ; demander une version polarisée. Concurrence : Zara, '
-  "Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On.",
-  'Lunettes de soleil UV400'),
- ('Pommeau de douche à 15 étages de filtration, design premium, haute pression — Niche : Salle de bain · avoir une eau plus douce sous la douche',
-  'https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  6.75,
-  8,
-  39.9,
-  'MODÈLE : Jolie (États-Unis) : le pommeau filtrant devenu une marque à succès. DEMANDE : Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en '
-  "France, et le style « clean » oversize est partout sur Instagram et TikTok. PROBLÈME : L'eau calcaire et chlorée fait tirer la peau et ternit les cheveux. ÉCONOMIQUE : OUI : moitié prix des "
-  'marques qui font de la pub (69,95 à 81,95 €). EFFET WAOUW : Le filtre neuf blanc puis tout jauni après un mois : la preuve en vidéo. PRIX EN FRANCE : StoneStream 69,95 €, MineralStream 81,95 € ; '
-  'pommeaux basiques dès 13,99 €. FOURNISSEUR : Shenzhen Calux Purification Technology (fabricant vérifié, 14 ans) : 7,85 à 20 $ selon le modèle, minimum 2 lots. À VÉRIFIER : Confirmer que le modèle '
-  "à 7,85 $ est le pommeau complet ; demander un test de filtration (SGS). Aucune promesse médicale. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, "
-  'le look net (jamais délavé), les ensembles et le prix face à On.',
-  'Pommeau de douche filtrant')]
+  'Casquette légère')]
