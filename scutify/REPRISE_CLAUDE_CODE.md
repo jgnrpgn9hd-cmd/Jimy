@@ -338,3 +338,11 @@ Nouveaux liens de Jairo, à mettre EN HAUT du tableau :
 - T-shirt oversize 240 g (Quanzhou Haixin, NON vérifié) 1601269043057 — 4,46 $ (MOQ 30) → 34,90 €, 500 g, gain ≈ 23,12 €
 Refusés : boxers, chaussettes invisibles, polo, sweat 400 g Fuzhou, ceinture sans trous, portefeuille métal, sacoche, casquette.
 Reste : 4 produits à trouver.
+
+## Étape — Marque de vêtements « TENUE » (proposition)
+Collection : t-shirt 250 g (1600928907355), t-shirt oversize 240 g (1601269043057), sweat épais 3D (1600347472870),
+jogging 400 g assorti (1601293233463, 15,80 $ MOQ 50 → 49,90 €, gain ≈ 26,22 €),
+chemise Oxford 100 % coton (60597365401, 8,50 $ MOQ 50 → 44,90 €, gain ≈ 29,35 €),
+accessoires : porte-cartes pop-up (1600929091140), lunettes UV400. Hors marque : pommeau filtrant.
+Packs : ensemble sweat + jogging 89,90 € ; 3 t-shirts 69,90 €. Manque 2 produits (pistes : surchemise, sweat demi-zip).
+Photos alicdn bloquées par le réseau (non téléchargées).
