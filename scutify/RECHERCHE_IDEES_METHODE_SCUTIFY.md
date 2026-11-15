@@ -3,9 +3,9 @@
 Chaque idée suit le support « Recherche de produits à fort potentiel » : niche → observation → cible et désir → problème → pistes produit, puis l'idée de business, les critères et les 4 questions de validation.
 
 **Inspirations :**
-- **TrendTrack** : maison et cuisine, catégorie n° 1 des pubs Meta en 2026 ; **Pinterest** : l'univers « home organization ».
+- **FlipBelt, Ciele, Salomon** : des accessoires running simples vendus 30 à 180 €.
 - **SmartWorkout**, l'exemple du support : un kit qui règle un problème, avec un programme et une vraie marque.
-- **Tushy et StoneStream** : des produits de salle de bain vendus avec des pubs à effet waouh.
+- **Run clubs et Strava** : les coureurs partagent leurs sorties et suivent des marques à communauté.
 - **Kosso et Hustle Wear** : une seule cible, plusieurs produits qui se répondent, des packs.
 - À ne pas copier : NOXYA (sommeil), la boutique de la coach.
 
@@ -13,342 +13,327 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 
 | N° | Niche | Produit | Coût | Revente | Marge | Note /10 |
 |---|---|---|---|---|---|---|
-| 1 | Maison · être plus propre aux toilettes | [Kit WC lavant sans électricité](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) | 7,31 € | 49,90 € | 42,59 € | 8,0 |
-| 2 | Maison · avoir une eau plus douce sous la douche | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html) | 4,73 € | 39,90 € | 35,17 € | 8,5 |
-| 3 | Maison · gagner de la place dans la cuisine | [Égouttoir enroulable doré](https://www.alibaba.com/product-detail/China-factory-gold-Roll-up-Dish_1601010537663.html) | 3,61 € | 34,90 € | 31,29 € | 8,5 |
-| 4 | Maison · cacher les câbles | [Boîte cache-multiprise](https://www.alibaba.com/product-detail/Cable-Management-Box-Organizer-Bamboo-Lid_1600989455921.html) | 3,01 € | 34,90 € | 31,89 € | 8,5 |
-| 5 | Maison · ranger ses livres avec style | [Étagère invisible pour livres (lot de 3)](https://www.alibaba.com/product-detail/Floating-Shelf-Bracket-Heavy-Duty-Hidden_1601291464842.html) | 7,74 € | 39,90 € | 32,16 € | 8,5 |
-| 6 | Maison · ne plus chercher ses clés | [Porte-clés mural avec étagère](https://www.alibaba.com/product-detail/Wooden-wood-Wall-Mounted-Key-and_1600214960552.html) | 2,58 € | 34,90 € | 32,32 € | 8,5 |
-| 7 | Maison · ranger ses petits objets | [Vide-poche en cuir](https://www.alibaba.com/product-detail/Handmade-Premium-Leather-Valet-Tray-Dice_1601215748409.html) | 0,86 € | 29,90 € | 29,04 € | 8,5 |
-| 8 | Maison · retrouver ses papiers importants | [Trieur papiers importants](https://www.alibaba.com/product-detail/Fireproof-Multi-Layer-Accordion-File-Folder_1601781954486.html) | 8,17 € | 39,90 € | 31,73 € | 8,5 |
-| 9 | Maison · tenir son budget | [Classeur budget à enveloppes](https://www.alibaba.com/product-detail/Marble-A6-Budget-Binder-with-Zip_1600733904045.html) | 2,57 € | 34,90 € | 32,33 € | 8,5 |
-| 10 | Maison · offrir une entrée organisée | [Coffret organisation entrée](https://www.alibaba.com/product-detail/Wooden-wood-Wall-Mounted-Key-and_1600214960552.html) | 3,44 € | 49,90 € | 46,46 € | 8,5 |
+| 1 | Running · courir avec son téléphone | [Ceinture de running](https://www.alibaba.com/product-detail/WRELS-High-Quality-Sports-Waist-Belt_1601605225679.html) | 5,41 € | 32,90 € | 27,49 € | 9,5 |
+| 2 | Running · courir sans être ébloui | [Lunettes de running polarisées](https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html) | 6,43 € | 34,90 € | 28,47 € | 8,5 |
+| 3 | Running · boire sur les longues sorties | [Gilet d'hydratation](https://www.alibaba.com/product-detail/Trail-Running-Vest-Hydration-Vest-Adjustable_1601644236868.html) | 8,59 € | 44,90 € | 36,31 € | 8,5 |
+| 4 | Running · courir au soleil | [Casquette de running légère](https://www.alibaba.com/product-detail/Custom-Logo-Quick-Dry-Running-Cap_1600612754499.html) | 2,56 € | 29,90 € | 27,34 € | 8,5 |
+| 5 | Running · s'hydrater sans bidon encombrant | [Duo de flasques souples 500 ml](https://www.alibaba.com/product-detail/Custom-Logo-BPA-Free-TPU-Soft_1601305523890.html) | 2,06 € | 29,90 € | 27,84 € | 8,5 |
+| 6 | Running · séparer le propre et le sale | [Sac de sport compartiment chaussures](https://www.alibaba.com/product-detail/custom-portable-duffle-gym-sports-sneaker_60496480489.html) | 6,48 € | 39,90 € | 33,42 € | 8,5 |
+| 7 | Running · garder sa boisson fraîche | [Gobelet isotherme 1,2 L](https://www.alibaba.com/product-detail/40oz-Tumbler-with-Handle-and-Straw_1601725774684.html) | 2,06 € | 32,90 € | 30,84 € | 8,5 |
+| 8 | Running · récupérer après la course | [Mini pistolet de massage](https://www.alibaba.com/product-detail/Light-Mini-Massage-Gun-Lcd-Touch_1601094578732.html) | 5,71 € | 34,90 € | 29,19 € | 8,5 |
+| 9 | Running · détendre ses jambes | [Kit récup coureur](https://www.alibaba.com/product-detail/nature-rubber-peanut-ball-massage-for_62410531730.html) | 6,15 € | 34,90 € | 28,75 € | 8,5 |
+| 10 | Running · préparer sa première course | [Pack première course](https://www.alibaba.com/product-detail/Custom-Logo-ABS-Race-Bibs-Clips_1601697619934.html) | 8,16 € | 49,90 € | 41,74 € | 8,5 |
 
-La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Les 10 produits visent la même cible : une personne qui veut une maison nette, pratique et jolie, sans travaux.
+La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Les 10 produits visent la même cible : le coureur ou la coureuse qui s'entraîne plusieurs fois par semaine.
 
-## 1. Maison · être plus propre aux toilettes — Kit WC lavant sans électricité
+## 1. Running · courir avec son téléphone — Ceinture de running
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) · coût 7,31 € (8,5 $ × 0,86) · revente 49,90 € · marge 42,59 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | Le papier toilette ne lave pas vraiment, irrite, coûte cher, et un WC japonais coûte 450 à 1 500 €. |
-| Question à résoudre | Comment être plus propre aux toilettes simplement, avec un bel objet ? |
-| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre à chacun d'avoir la propreté d'un WC japonais chez soi, en 10 minutes et sans électricien. |
-| Solution à un problème | OUI : le papier toilette ne lave pas vraiment, irrite, coûte cher, et un WC japonais coûte 450 à 1 500 €. |
-| Économique | OUI : moins de papier toilette, au lieu d'un WC japonais à plusieurs centaines d'euros. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Le jet qui sort et se range tout seul ; les pubs avec humour (comme Tushy aux États-Unis). |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Colis d'environ 2 kg. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : produit spectaculaire, vrai problème, marché prouvé aux États-Unis (Tushy). |
-| Prix en France | Brico Dépôt 39 €, Leroy Merlin 80 €, BOKU 86,90 € (Castorama). |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 8,50 $ (50 à 999), logo dès 300. |
-| À vérifier | Vérifier la compatibilité avec les toilettes françaises et fournir le raccord ; colis d'environ 2 kg. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
-
-## 2. Maison · avoir une eau plus douce sous la douche — Pommeau de douche filtrant
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html) · coût 4,73 € (5,5 $ × 0,86) · revente 39,90 € · marge 35,17 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/WRELS-High-Quality-Sports-Waist-Belt_1601605225679.html) · coût 5,41 € (6,29 $ × 0,86) · revente 32,90 € · marge 27,49 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | Eau calcaire et chlorée : peau qui tire, cheveux ternes, pommeau entartré. |
-| Question à résoudre | Comment avoir une eau plus douce sous la douche simplement, avec un bel objet ? |
-| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre à ceux qui ont une eau dure de prendre une douche plus douce pour la peau et les cheveux, sans travaux. |
-| Solution à un problème | OUI : eau calcaire et chlorée : peau qui tire, cheveux ternes, pommeau entartré. |
-| Économique | OUI : moitié prix des marques qui font de la pub (69,95 à 81,95 €). |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Le filtre neuf blanc puis tout jauni après un mois : la preuve en vidéo. |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Colis d'environ 500 g. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : énorme marché, preuve visuelle très forte, cartouches de rechange à revendre. |
-| Prix en France | StoneStream 69,95 €, MineralStream 81,95 € ; pommeaux basiques dès 13,99 €. |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 5,50 $ (10 à 99), logo dès 2 000. |
-| À vérifier | Aucune promesse médicale (« peau plus douce », jamais « soigne l'eczéma »). Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
-
-## 3. Maison · gagner de la place dans la cuisine — Égouttoir enroulable doré
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/China-factory-gold-Roll-up-Dish_1601010537663.html) · coût 3,61 € (4,2 $ × 0,86) · revente 34,90 € · marge 31,29 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | Petit plan de travail encombré par l'égouttoir et la vaisselle qui sèche. |
-| Question à résoudre | Comment gagner de la place dans la cuisine simplement, avec un bel objet ? |
-| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre à ceux qui ont une petite cuisine de libérer leur plan de travail avec un égouttoir qui se range en rouleau. |
-| Solution à un problème | OUI : petit plan de travail encombré par l'égouttoir et la vaisselle qui sèche. |
-| Économique | OUI : remplace un égouttoir encombrant. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Il se déroule sur l'évier, on y pose la vaisselle, puis il s'enroule dans le tiroir. |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Colis d'environ 750 g. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : très visuel, utile tous les jours, look premium doré. |
-| Prix en France | Pearl 22,95 à 39,95 € ; Emuca 25,90 € ; Joseph Joseph 33,24 à 41,99 €. |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 4,20 $ (100 à 499), logo dès 400. |
-| À vérifier | Vérifier les dimensions par rapport aux éviers français. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
-
-## 4. Maison · cacher les câbles — Boîte cache-multiprise
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Cable-Management-Box-Organizer-Bamboo-Lid_1600989455921.html) · coût 3,01 € (3,5 $ × 0,86) · revente 34,90 € · marge 31,89 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | Multiprises et câbles visibles sous le bureau ou derrière la télé : moche, poussiéreux, dangereux avec des enfants ou des animaux. |
-| Question à résoudre | Comment cacher les câbles simplement, avec un bel objet ? |
-| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre à chacun de cacher multiprises et câbles dans une jolie boîte, en 2 minutes. |
-| Solution à un problème | OUI : multiprises et câbles visibles sous le bureau ou derrière la télé : moche, poussiéreux, dangereux avec des enfants ou des animaux. |
-| Économique | OUI : maison plus nette et plus sûre. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Le nid de câbles, puis la jolie boîte : avant / après immédiat. |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Colis d'environ 1 kg. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : problème visible dans toutes les maisons, très partagé sur Pinterest. |
-| Prix en France | Leroy Merlin 23,29 € (barré 41,92 €) ; Pearl 9,95 à 43,95 €. |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 3,50 $ (50 à 299), logo dès 500. |
-| À vérifier | Vérifier la taille pour les multiprises françaises (prises larges). Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
-
-## 5. Maison · ranger ses livres avec style — Étagère invisible pour livres (lot de 3)
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Floating-Shelf-Bracket-Heavy-Duty-Hidden_1601291464842.html) · coût 7,74 € (9,0 $ × 0,86) · revente 39,90 € · marge 32,16 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | Les livres s'entassent faute de place dans la bibliothèque. |
-| Question à résoudre | Comment ranger ses livres avec style simplement, avec un bel objet ? |
-| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre aux lecteurs de ranger leurs livres au mur, avec un effet « livres qui flottent ». |
-| Solution à un problème | OUI : les livres s'entassent faute de place dans la bibliothèque. |
-| Économique | OUI : pas besoin d'acheter une bibliothèque. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Les livres qui flottent : on se demande comment ça tient. |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Colis d'environ 750 g. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : effet waouh immédiat, classique de Pinterest. |
-| Prix en France | Lot de 3 en acrylique 57,46 € (ManoMano) ; étagères simples 13 à 24 €. |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 3 $ le support (200 minimum). |
-| À vérifier | Fournir vis et chevilles ; indiquer le poids maximum par support. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
-
-## 6. Maison · ne plus chercher ses clés — Porte-clés mural avec étagère
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Wooden-wood-Wall-Mounted-Key-and_1600214960552.html) · coût 2,58 € (3,0 $ × 0,86) · revente 34,90 € · marge 32,32 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | On cherche ses clés tous les matins et le courrier s'entasse dans l'entrée. |
-| Question à résoudre | Comment ne plus chercher ses clés simplement, avec un bel objet ? |
-| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre aux familles de retrouver clés et courrier en une seconde, avec un bel objet dans l'entrée. |
-| Solution à un problème | OUI : on cherche ses clés tous les matins et le courrier s'entasse dans l'entrée. |
-| Économique | OUI : fin des clés perdues et des doubles à refaire. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Avant / après de l'entrée en 15 secondes. |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Colis d'environ 1 kg. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : produit d'entrée simple, visuel et utile tous les jours. |
-| Prix en France | Modèles de 20,50 à 36,66 € (comparatif LeBonTri), Kaufland 22,78 €. |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 3 $ (10 à 49), bois et métal. |
-| À vérifier | Fournir les vis et chevilles ; vérifier la solidité des crochets. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
-
-## 7. Maison · ranger ses petits objets — Vide-poche en cuir
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Handmade-Premium-Leather-Valet-Tray-Dice_1601215748409.html) · coût 0,86 € (1,0 $ × 0,86) · revente 29,90 € · marge 29,04 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | Montre, bijoux, clés et monnaie traînent sur la table de chevet ou le meuble de l'entrée. |
-| Question à résoudre | Comment ranger ses petits objets simplement, avec un bel objet ? |
-| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre à chacun de poser ses objets du quotidien au même endroit, dans un plateau élégant. |
-| Solution à un problème | OUI : montre, bijoux, clés et monnaie traînent sur la table de chevet ou le meuble de l'entrée. |
-| Économique | OUI : plus d'objets perdus le matin. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Le plateau qui se monte en un clic avec les boutons-pression. |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. |
+| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
+| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
+| Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
+| Problème | Le téléphone et les clés rebondissent dans les poches ou dans la main pendant la course. |
+| Question à résoudre | Comment courir avec son téléphone simplement, avec un bel objet ? |
+| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| **Idée de business** | Je veux permettre aux coureurs de garder téléphone, clés et gels sur eux sans que rien ne bouge, avec une ceinture fine. |
+| Solution à un problème | OUI : le téléphone et les clés rebondissent dans les poches ou dans la main pendant la course. |
+| Économique | OUI : remplace brassard et poches qui ballottent. |
+| Besoin / passion | OUI : la course à pied, les défis, la performance. |
+| Effet wow | Le sprint où rien ne bouge. |
+| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
 | Poids / volume | Léger, petit colis. |
 | 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : idée cadeau toute l'année, parfait en 2e produit. |
-| Prix en France | Bruneau 41,95 € HT ; Montblanc 340 € ; artisans 30 à 60 €. |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 1 $ (1 à 499), logo dès 300. |
-| À vérifier | Vérifier la matière (cuir ou simili) et l'annoncer honnêtement. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : achat obligé de presque tous les coureurs, produit d'entrée parfait. |
+| Prix en France | FlipBelt 28 à 40 € (i-run). |
+| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
+| Fournisseur | 6,29 $ (50 à 499), logo, taille et couleur personnalisables. |
+| À vérifier | Vérifier que les grands téléphones rentrent. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
 
-## 8. Maison · retrouver ses papiers importants — Trieur papiers importants
+## 2. Running · courir sans être ébloui — Lunettes de running polarisées
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Fireproof-Multi-Layer-Accordion-File-Folder_1601781954486.html) · coût 8,17 € (9,5 $ × 0,86) · revente 39,90 € · marge 31,73 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | Les papiers importants sont éparpillés et on ne retrouve rien le jour où on en a besoin. |
-| Question à résoudre | Comment retrouver ses papiers importants simplement, avec un bel objet ? |
-| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre aux familles de ranger tous leurs papiers importants au même endroit, classés et protégés. |
-| Solution à un problème | OUI : les papiers importants sont éparpillés et on ne retrouve rien le jour où on en a besoin. |
-| Économique | OUI : du temps gagné et du stress en moins à chaque démarche. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Tout un tiroir de papiers rangé dans un seul trieur. |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Colis d'environ 1 kg. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : vrai problème pour toutes les familles, peu de produits beaux et organisés. |
-| Prix en France | Trieurs simples 11 à 20 € ; Fellowes 48,96 € ; valisettes 40 à 50 €. |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 9,50 $ (200 à 499), 7 $ dès 5 000. |
-| À vérifier | Ne pas promettre une protection totale contre le feu sans test ; parler de « résistant à la chaleur ». Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
-
-## 9. Maison · tenir son budget — Classeur budget à enveloppes
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Marble-A6-Budget-Binder-with-Zip_1600733904045.html) · coût 2,57 € (2,99 $ × 0,86) · revente 34,90 € · marge 32,33 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html) · coût 6,43 € (7,48 $ × 0,86) · revente 34,90 € · marge 28,47 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | L'argent file sans qu'on sache où ; on n'arrive pas à mettre de côté. |
-| Question à résoudre | Comment tenir son budget simplement, avec un bel objet ? |
-| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre à ceux qui veulent reprendre leur budget en main de suivre la méthode des enveloppes avec un joli classeur. |
-| Solution à un problème | OUI : l'argent file sans qu'on sache où ; on n'arrive pas à mettre de côté. |
-| Économique | OUI : aide à économiser bien plus que son prix. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Le remplissage des enveloppes en vidéo, très partagé. |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. |
+| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
+| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
+| Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
+| Problème | Le soleil et les reflets éblouissent, et les lunettes classiques glissent avec la sueur. |
+| Question à résoudre | Comment courir sans être ébloui simplement, avec un bel objet ? |
+| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| **Idée de business** | Je veux permettre aux coureurs de courir au soleil sans plisser les yeux, avec des lunettes légères qui tiennent. |
+| Solution à un problème | OUI : le soleil et les reflets éblouissent, et les lunettes classiques glissent avec la sueur. |
+| Économique | OUI : moins chères que les marques, mêmes usages. |
+| Besoin / passion | OUI : la course à pied, les défis, la performance. |
+| Effet wow | Le look « athlète » des photos de course. |
+| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
 | Poids / volume | Léger, petit colis. |
 | 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : tendance forte sur Pinterest et TikTok, achat très émotionnel. |
-| Prix en France | Kaufland 16,88 à 44,99 € ; Fruugo 18,16 € (prix conseillé 30,85 €). |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 2,99 $ (10 à 199), logo possible. |
-| À vérifier | Feuilles de budget à traduire et à imprimer en français. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : accessoire très visible en photo, marge correcte. |
+| Prix en France | Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €. |
+| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
+| Fournisseur | 7,48 $ (500 minimum), logo dès 100. |
+| À vérifier | Minimum de 500 pièces : à négocier avec le sourcing Scutify ; vérifier la norme CE et la catégorie de filtre. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
 
-## 10. Maison · offrir une entrée organisée — Coffret organisation entrée
+## 3. Running · boire sur les longues sorties — Gilet d'hydratation
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Wooden-wood-Wall-Mounted-Key-and_1600214960552.html) · coût 3,44 € (4,0 $ × 0,86) · revente 49,90 € · marge 46,46 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Trail-Running-Vest-Hydration-Vest-Adjustable_1601644236868.html) · coût 8,59 € (9,99 $ × 0,86) · revente 44,90 € · marge 36,31 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | On ne sait pas quoi offrir pour une crémaillère ou un premier appartement. |
-| Question à résoudre | Comment offrir une entrée organisée simplement, avec un bel objet ? |
-| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre à ceux qui cherchent un cadeau utile d'offrir une entrée organisée et élégante. |
-| Solution à un problème | OUI : on ne sait pas quoi offrir pour une crémaillère ou un premier appartement. |
-| Économique | OUI : un cadeau utile au lieu d'un objet qui prend la poussière. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Le déballage puis l'entrée transformée. |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Colis d'environ 1,25 kg (tarif jusqu'à 2 kg). |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. |
+| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
+| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
+| Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
+| Problème | Soif et coup de fatigue sur les longues sorties ; mains prises par la bouteille. |
+| Question à résoudre | Comment boire sur les longues sorties simplement, avec un bel objet ? |
+| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| **Idée de business** | Je veux permettre aux coureurs qui préparent un semi ou un trail de boire sans s'arrêter, les mains libres. |
+| Solution à un problème | OUI : soif et coup de fatigue sur les longues sorties ; mains prises par la bouteille. |
+| Économique | OUI : deux fois moins cher que Kiprun, cinq fois moins que Salomon. |
+| Besoin / passion | OUI : la course à pied, les défis, la performance. |
+| Effet wow | Boire en courant sans ralentir. |
+| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
+| Poids / volume | Léger, petit colis. |
 | 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : crémaillères, déménagements, fêtes, toute l'année. |
-| Prix en France | Coffrets déco de 30 à 60 € ; achat séparé 64,80 € dans la boutique. |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | Porte-clés 3 $ (lien) + vide-poche 1 $. |
-| À vérifier | Boîte cadeau soignée : c'est elle qui fait le prix. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : produit cher en magasin, très bonne marge, achat avant chaque course. |
+| Prix en France | Kiprun Race 900 59,99 à 60 € ; Salomon 149,99 à 179,99 €. |
+| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
+| Fournisseur | 5,49 à 9,99 $ (500 minimum). |
+| À vérifier | Minimum de 500 pièces ; vérifier le réglage pour toutes les morphologies. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
+
+## 4. Running · courir au soleil — Casquette de running légère
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-Quick-Dry-Running-Cap_1600612754499.html) · coût 2,56 € (2,98 $ × 0,86) · revente 29,90 € · marge 27,34 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. |
+| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
+| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
+| Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
+| Problème | Les casquettes en coton sont lourdes et trempées de sueur ; la tête chauffe au soleil. |
+| Question à résoudre | Comment courir au soleil simplement, avec un bel objet ? |
+| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| **Idée de business** | Je veux permettre aux coureurs de se protéger du soleil avec une casquette qui pèse presque rien et sèche vite. |
+| Solution à un problème | OUI : les casquettes en coton sont lourdes et trempées de sueur ; la tête chauffe au soleil. |
+| Économique | OUI : moins chère que Ciele ou On. |
+| Besoin / passion | OUI : la course à pied, les défis, la performance. |
+| Effet wow | La casquette du look running, avec les lunettes. |
+| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
+| Poids / volume | Léger, petit colis. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : produit de marque très visible, idéal pour la communauté. |
+| Prix en France | Ciele 29,90 à 43,39 € ; On 44,90 € ; Kiprun dès 8,99 €. |
+| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
+| Fournisseur | 2,98 $ (100 à 499), logo personnalisé. |
+| À vérifier | Taille unique réglable : vérifier le tour de tête. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
+
+## 5. Running · s'hydrater sans bidon encombrant — Duo de flasques souples 500 ml
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-BPA-Free-TPU-Soft_1601305523890.html) · coût 2,06 € (2,4 $ × 0,86) · revente 29,90 € · marge 27,84 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. |
+| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
+| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
+| Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
+| Problème | Les bouteilles rigides ballottent et prennent de la place une fois vides. |
+| Question à résoudre | Comment s'hydrater sans bidon encombrant simplement, avec un bel objet ? |
+| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| **Idée de business** | Je veux permettre aux coureurs de boire pendant la course avec des flasques qui se plient et ne ballottent pas. |
+| Solution à un problème | OUI : les bouteilles rigides ballottent et prennent de la place une fois vides. |
+| Économique | OUI : deux flasques au prix d'une Salomon. |
+| Besoin / passion | OUI : la course à pied, les défis, la performance. |
+| Effet wow | La flasque vide qui se roule dans la poche. |
+| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
+| Poids / volume | Léger, petit colis. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : se rachète souvent, s'ajoute à chaque commande. |
+| Prix en France | Salomon 20 à 28 € la flasque ; Kiprun 11,99 € (250 ml). |
+| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
+| Fournisseur | 1,20 $ la flasque (100 à 499), logo dès 200. |
+| À vérifier | Vérifier les certificats sans BPA et alimentaires. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
+
+## 6. Running · séparer le propre et le sale — Sac de sport compartiment chaussures
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/custom-portable-duffle-gym-sports-sneaker_60496480489.html) · coût 6,48 € (7,54 $ × 0,86) · revente 39,90 € · marge 33,42 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. |
+| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
+| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
+| Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
+| Problème | Chaussures sales et vêtements trempés mélangés aux affaires propres ; mauvaises odeurs. |
+| Question à résoudre | Comment séparer le propre et le sale simplement, avec un bel objet ? |
+| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| **Idée de business** | Je veux permettre aux sportifs de transporter leurs affaires sans tout salir, avec un sac bien compartimenté. |
+| Solution à un problème | OUI : chaussures sales et vêtements trempés mélangés aux affaires propres ; mauvaises odeurs. |
+| Économique | OUI : plus de vêtements propres salis. |
+| Besoin / passion | OUI : la course à pied, les défis, la performance. |
+| Effet wow | Chaque chose à sa place en vidéo. |
+| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
+| Poids / volume | Colis d'environ 750 g. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : utile à tous les sportifs, très bon support de marque. |
+| Prix en France | Amazon 21,95 à 49,99 € ; Decathlon 27,99 à 74,99 €. |
+| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
+| Fournisseur | 7,54 $ (300 minimum), logo personnalisé. |
+| À vérifier | Minimum de 300 pièces ; colis d'environ 750 g. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
+
+## 7. Running · garder sa boisson fraîche — Gobelet isotherme 1,2 L
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/40oz-Tumbler-with-Handle-and-Straw_1601725774684.html) · coût 2,06 € (2,39 $ × 0,86) · revente 32,90 € · marge 30,84 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. |
+| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
+| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
+| Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
+| Problème | On oublie de boire, l'eau devient tiède, et on achète des bouteilles en plastique. |
+| Question à résoudre | Comment garder sa boisson fraîche simplement, avec un bel objet ? |
+| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| **Idée de business** | Je veux permettre aux sportifs de boire assez toute la journée avec une boisson qui reste fraîche des heures. |
+| Solution à un problème | OUI : on oublie de boire, l'eau devient tiède, et on achète des bouteilles en plastique. |
+| Économique | OUI : moins cher que Stanley, même usage. |
+| Besoin / passion | OUI : la course à pied, les défis, la performance. |
+| Effet wow | La glace encore là après des heures. |
+| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
+| Poids / volume | Colis d'environ 750 g. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : tendance très forte, achat cadeau. |
+| Prix en France | Stanley Quencher 40,78 à 53,56 € ; Orion 27,99 €. |
+| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
+| Fournisseur | 2,39 $ (2 à 999). |
+| À vérifier | Colis d'environ 750 g ; vérifier l'étanchéité du couvercle. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
+
+## 8. Running · récupérer après la course — Mini pistolet de massage
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Light-Mini-Massage-Gun-Lcd-Touch_1601094578732.html) · coût 5,71 € (6,64 $ × 0,86) · revente 34,90 € · marge 29,19 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. |
+| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
+| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
+| Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
+| Problème | Mollets et cuisses durs et courbatures après les sorties ; un kiné coûte cher. |
+| Question à résoudre | Comment récupérer après la course simplement, avec un bel objet ? |
+| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| **Idée de business** | Je veux permettre aux coureurs de récupérer en 5 minutes chez eux, avec un mini pistolet de massage. |
+| Solution à un problème | OUI : mollets et cuisses durs et courbatures après les sorties ; un kiné coûte cher. |
+| Économique | OUI : bien moins cher que les marques (65 à 190 €). |
+| Besoin / passion | OUI : la course à pied, les défis, la performance. |
+| Effet wow | Le muscle qui ondule à l'écran. |
+| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
+| Poids / volume | Léger, petit colis. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : très visuel en vidéo, gros marché de la récupération. |
+| Prix en France | Sans marque 30 à 50 € ; marques 65 à 190 €. |
+| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
+| Fournisseur | 6,64 $ (1 à 499), certifié CE. |
+| À vérifier | Produit électrique : notice en français, garantie, inscription au recyclage des appareils (DEEE). Aucune promesse médicale. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
+
+## 9. Running · détendre ses jambes — Kit récup coureur
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/nature-rubber-peanut-ball-massage-for_62410531730.html) · coût 6,15 € (7,15 $ × 0,86) · revente 34,90 € · marge 28,75 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. |
+| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
+| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
+| Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
+| Problème | Jambes lourdes et dos raide après les sorties ; on ne sait pas quels étirements faire. |
+| Question à résoudre | Comment détendre ses jambes simplement, avec un bel objet ? |
+| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| **Idée de business** | Je veux permettre aux coureurs de détendre leurs jambes et leur dos en 10 minutes, avec un petit kit et un programme. |
+| Solution à un problème | OUI : jambes lourdes et dos raide après les sorties ; on ne sait pas quels étirements faire. |
+| Économique | OUI : 34,90 € une fois au lieu de séances de kiné. |
+| Besoin / passion | OUI : la course à pied, les défis, la performance. |
+| Effet wow | La balle qui roule le long du mollet, soulagement visible. |
+| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
+| Poids / volume | Léger, petit colis. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : complète le pistolet de massage, le programme fait la différence. |
+| Prix en France | Balles seules 7 à 20 € ; peu de kits avec programme pour coureurs. |
+| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
+| Fournisseur | Balle 4 $ (lien) + bande 3,15 $. |
+| À vérifier | Programme d'étirements validé par un coach ; aucune promesse médicale. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
+
+## 10. Running · préparer sa première course — Pack première course
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-ABS-Race-Bibs-Clips_1601697619934.html) · coût 8,16 € (9,49 $ × 0,86) · revente 49,90 € · marge 41,74 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. |
+| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
+| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
+| Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
+| Problème | Avant sa première course, on ne sait pas quoi acheter ni comment s'entraîner, et les épingles trouent le t-shirt. |
+| Question à résoudre | Comment préparer sa première course simplement, avec un bel objet ? |
+| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| **Idée de business** | Je veux permettre à ceux qui préparent leur premier 10 km d'avoir tout l'équipement et un plan, dans un seul coffret. |
+| Solution à un problème | OUI : avant sa première course, on ne sait pas quoi acheter ni comment s'entraîner, et les épingles trouent le t-shirt. |
+| Économique | OUI : un coffret au lieu de quatre achats séparés. |
+| Besoin / passion | OUI : la course à pied, les défis, la performance. |
+| Effet wow | L'ouverture du coffret la veille de la course. |
+| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
+| Poids / volume | Léger, petit colis. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : idée cadeau toute l'année (inscriptions aux courses), panier moyen élevé. |
+| Prix en France | FlipBelt 28 à 40 € + aimants 10 à 13 € + flasque 20 à 28 € achetés séparément. |
+| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
+| Fournisseur | Aimants 0,50 $ (lien) + ceinture 6,29 $ + flasque 1,20 $. |
+| À vérifier | Plan d'entraînement à faire écrire par un coach diplômé. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
 
 ## 2e produits (plus de 50 €)
 
 | Pack | Coût | Revente | Lien |
 |---|---|---|---|
-| Pack Salle de bain spa : kit WC lavant + pommeau filtrant | 12,04 € | 74,90 € | [Alibaba](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) |
-| Pack Maison nette : égouttoir enroulable + boîte cache-multiprise | 6,62 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/China-factory-gold-Roll-up-Dish_1601010537663.html) |
-| Pack Papiers en ordre : trieur papiers importants + classeur budget | 10,74 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/Fireproof-Multi-Layer-Accordion-File-Folder_1601781954486.html) |
+| Pack Marathon : gilet d'hydratation + lunettes polarisées + casquette | 17,59 € | 89,90 € | [Alibaba](https://www.alibaba.com/product-detail/Trail-Running-Vest-Hydration-Vest-Adjustable_1601644236868.html) |
+| Pack Récup : mini pistolet de massage + kit récup coureur | 11,86 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/Light-Mini-Massage-Gun-Lcd-Touch_1601094578732.html) |
+| Pack Sac de sport : sac compartiment chaussures + gobelet isotherme + duo de flasques | 10,60 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/custom-portable-duffle-gym-sports-sneaker_60496480489.html) |
 
 ## Sources
 
-- [TrendTrack, meilleurs produits sur Meta 2026](https://www.trendtrack.io/blog-post/the-best-products-on-meta-for-dropshipping-in-2026)
-- [Brico Dépôt, kit WC 2 douchettes](https://www.bricodepot.fr/p/0634154948774/media.bricodepot.fr)
-- [Castorama, BOKU](https://www.castorama.fr/mkp/kit-wc-japonais-poser-bidet-boku-autonettoyant-non-lectrique/3770027022190_CAFR.prd)
-- [StoneStream, pommeau filtrant](https://fr.stone-stream.com/products/pomme-de-douche-ecopower-noire-avec-kit-de-filtration-deau-dure)
-- [Rue du Commerce, égouttoir Joseph Joseph](https://www.rueducommerce.fr/p/m26069676955.html)
-- [Castorama, égouttoir Emuca](https://www.castorama.fr/mkp/emuca-egouttoir-flexible-et-enroulable-en-silicone-acier-et-plastique-gris/8432393278612_CAFR.prd)
-- [Leroy Merlin, boîte cache-multiprise](https://www.leroymerlin.fr/produits/boites-multiprise-boite-rangement-de-cables-avec-couvercle-en-bois-boites-de-prises-cache-cordon-multifonctionnel-et-boite-de-gestion-cache-76567678.html)
-- [ManoMano, étagères invisibles acryliques](https://www.manomano.fr/p/etagere-murale-flottante-invisible-en-acrylique-transparent-de-38-cm-etagere-murale-pour-livres-denfants-lot-de-3-95155962)
-- [Pinterest Predicts 2026](https://newsroom.pinterest.com/en-ca/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/)
-- [BeautyMatter, chiffres Pen Pals](https://beautymatter.com/articles/pinterest-predicts-2026)
-- [LeBonTri, comparatif porte-clés muraux](https://lebontri.fr/blog/rangement/meilleur-porte-cle-mural)
-- [Kaufland, porte-clés avec étagère](https://www.kaufland.fr/product/555558377/)
-- [Bruneau, vide-poche en cuir](https://www.bruneau.lu/en/product/8016752)
-- [Rue du Commerce, trieur Fellowes](https://www.rueducommerce.fr/p/m24070050610.html)
-- [Fruugo, classeur budget A6](https://www.fruugo.fr/classeur-budgetaire-a6-ecologique-leger-portable-et-classifiable-pour-la-gestion-de-fonds/p-410851074-869572147)
-- [Que Choisir, méthode des enveloppes](https://www.quechoisir.org/conseils-depenses-du-quotidien-maitrisez-votre-budget-avec-la-methode-des-enveloppes-n171136/)
-- [Rue du Commerce, pochette Yonis](https://www.rueducommerce.fr/p/m25078926004.html)
-- [LDLC, housse Trunk en cuir](https://www.ldlc.com/fiche/PB00613205.html)
-- [PaperWrld, carnet en cuir](https://paperwrld.com/fr-fr/products/leather-bound-travel-journal)
-- [Touslesprix, sous-mains](https://www.touslesprix.com/achat,sous-main-bureau-cuir-noir.html)
-- [Fossil, étui passeport en cuir](https://www.fossil.com/fr-fr/products/cadeau-etui-pour-passeport-en-cuir/MLG0800212.html)
-- [Greenweez, kit cachet de cire](https://www.greenweez.com/produit/encre-de-chine-noir-india-ink-20-ml/1PEBE0625)
-- [Lacoste, sacoches et pochettes homme](https://www.lacoste.com/fr/lacoste/homme/sacs-petite-maroquinerie/sacoches-pochettes/)
+- [i-run, FlipBelt](https://www.i-run.fr/accessoires/Ceinture-porte-dossard_c1080/FlipBelt_m240/FlipBelt-FlipBelt_FlipBelt_fiche_36841.html)
+- [i-run, aimants porte-dossard](https://www.i-run.fr/accessoires/Ceinture-porte-dossard_c1080/i-run-fr_m114/i-run-fr-Aimants-Accroche-Dossards_i-run-fr_fiche_60664.html)
+- [Decathlon, accessoires running et lunettes](https://www.decathlon.fr/boutiques/accessoires-decathlon-coach-course-a-pied-accessoires)
+- [Alltricks, flasque Salomon 500 ml](https://www.alltricks.fr/F-11906-bidons/P-2932843-flasque_souple_salomon_soft_flask_500ml_ultra_42_bleu)
+- [Alltricks, gilet Kiprun Race 900](https://www.alltricks.fr/F-41498-bagagerie/P-3208797-gilet_d_hydratation_kiprun_race_900_3l_vert)
+- [Sports Shoes, Salomon S/LAB Sense 6](https://www.sportsshoes.com/fr-fr/product/sal7011/s/lab-sense-6-gilet-de-running-(avec-flasques)---ss26)
+- [Snowleader, casquettes Ciele](https://www.snowleader.com/gocapsc-field-capitalrc-light-grey-CIEL00274.html)
+- [Pearl, balles de massage](https://www.pearl.fr/article/NX8884/double-balle-de-massage-et-dexercice-o-8-cm)
 - [La Poste, tarifs Colissimo 2026](https://www.laposte.fr/professionnel/tarif-colissimo)
 
 Liens Alibaba et prix fournisseur vérifiés le 14/11/2026. Les prix en France viennent des sites cités et peuvent changer.

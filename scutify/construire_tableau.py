@@ -45,21 +45,21 @@ with open(os.path.join(ICI, "produits.py"), "w") as out:
 
 # 2. upsells.py : packs à plus de 50 € (liens vérifiés le 14/11/2026)
 U = [
- ("Pack Salle de bain spa : kit WC lavant + pommeau filtrant", "Kit WC lavant sans électricité",
-  "Toute la salle de bain plus propre et plus douce, sans travaux.",
-  "Prix séparés dans la boutique : 49,90 + 39,90 = 89,80 €.",
-  "https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html", 14.00, 12.04, 74.90,
-  "Kit WC 8,50 $ (lien) + pommeau 5,50 $. Marge 62,86 €."),
- ("Pack Maison nette : égouttoir enroulable + boîte cache-multiprise", "Égouttoir enroulable doré",
-  "La cuisine et le salon dégagés en une commande.",
+ ("Pack Marathon : gilet d'hydratation + lunettes polarisées + casquette", "Gilet d'hydratation",
+  "Tout l'équipement des longues sorties et des courses au soleil.",
+  "Prix séparés dans la boutique : 44,90 + 34,90 + 29,90 = 109,70 €.",
+  "https://www.alibaba.com/product-detail/Trail-Running-Vest-Hydration-Vest-Adjustable_1601644236868.html", 20.45, 17.59, 89.90,
+  "Gilet 9,99 $ (lien) + lunettes 7,48 $ + casquette 2,98 $. Marge 72,31 €."),
+ ("Pack Récup : mini pistolet de massage + kit récup coureur", "Mini pistolet de massage",
+  "Récupérer vite après les sorties, sans kiné.",
   "Prix séparés dans la boutique : 34,90 + 34,90 = 69,80 €.",
-  "https://www.alibaba.com/product-detail/China-factory-gold-Roll-up-Dish_1601010537663.html", 7.70, 6.62, 59.90,
-  "Égouttoir 4,20 $ (lien) + boîte 3,50 $. Marge 53,28 €."),
- ("Pack Papiers en ordre : trieur papiers importants + classeur budget", "Trieur papiers importants",
-  "Tous les papiers et tout le budget de la maison enfin organisés.",
-  "Prix séparés dans la boutique : 39,90 + 34,90 = 74,80 €.",
-  "https://www.alibaba.com/product-detail/Fireproof-Multi-Layer-Accordion-File-Folder_1601781954486.html", 12.49, 10.74, 59.90,
-  "Trieur 9,50 $ (lien) + classeur 2,99 $. Marge 49,16 €."),
+  "https://www.alibaba.com/product-detail/Light-Mini-Massage-Gun-Lcd-Touch_1601094578732.html", 13.79, 11.86, 59.90,
+  "Pistolet 6,64 $ (lien) + kit récup 7,15 $. Marge 48,04 €."),
+ ("Pack Sac de sport : sac compartiment chaussures + gobelet isotherme + duo de flasques", "Sac de sport compartiment chaussures",
+  "Partir à la salle ou à l'entraînement avec tout le nécessaire.",
+  "Prix séparés dans la boutique : 39,90 + 32,90 + 29,90 = 102,70 €.",
+  "https://www.alibaba.com/product-detail/custom-portable-duffle-gym-sports-sneaker_60496480489.html", 12.33, 10.60, 79.90,
+  "Sac 7,54 $ (lien) + gobelet 2,39 $ + flasques 2,40 $. Marge 69,30 €."),
 ]
 with open(os.path.join(ICI, "upsells.py"), "w") as out:
     out.write("# 2e produits (packs à plus de 50 €) : généré par construire_tableau.py.\n"
@@ -71,9 +71,9 @@ L = ["# Mes 10 idées de business — méthode Scutify", "",
      "Chaque idée suit le support « Recherche de produits à fort potentiel » : niche → observation → cible et désir → problème → pistes produit, "
      "puis l'idée de business, les critères et les 4 questions de validation.", "",
      "**Inspirations :**",
-     "- **TrendTrack** : maison et cuisine, catégorie n° 1 des pubs Meta en 2026 ; **Pinterest** : l'univers « home organization ».",
+     "- **FlipBelt, Ciele, Salomon** : des accessoires running simples vendus 30 à 180 €.",
      "- **SmartWorkout**, l'exemple du support : un kit qui règle un problème, avec un programme et une vraie marque.",
-     "- **Tushy et StoneStream** : des produits de salle de bain vendus avec des pubs à effet waouh.",
+     "- **Run clubs et Strava** : les coureurs partagent leurs sorties et suivent des marques à communauté.",
      "- **Kosso et Hustle Wear** : une seule cible, plusieurs produits qui se répondent, des packs.",
      "- À ne pas copier : NOXYA (sommeil), la boutique de la coach.", "",
      "## Le tableau en résumé", "",
@@ -83,7 +83,7 @@ for k, f in enumerate(FICHES):
     n = note(6 + k, *f["criteres"], f["cout"], f["liv"], f["revente"])
     L.append(f"| {k + 1} | {f['niche']} | [{f['court']}]({f['lien']}) | {eur(f['cout'])} | {eur(f['revente'])} | {eur(f['marge'])} | {str(n).replace('.', ',')} |")
 L += ["", "La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. "
-      "Les 10 produits visent la même cible : une personne qui veut une maison nette, pratique et jolie, sans travaux.", ""]
+      "Les 10 produits visent la même cible : le coureur ou la coureuse qui s'entraîne plusieurs fois par semaine.", ""]
 ETAPES = [("modele", "Boutique modèle"), ("demande", "Demande en France"), ("observation", "Observation"), ("cible", "Cible et désir"),
           ("probleme", "Problème"), ("question", "Question à résoudre"), ("pistes", "Pistes produit"), ("idee", "**Idée de business**"),
           ("c_probleme", "Solution à un problème"), ("c_economique", "Économique"), ("c_passion", "Besoin / passion"),

@@ -309,3 +309,5 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 15/11/2026 — 100_IDEES_EFFET_WAOUH.md : 100 idées (non vérifiées), top 15.
 
 ## 15/11/2026 — Tableau Scutify : niche Maison (effet waouh). Organisation gardée : dossier_v7_organisation.py, upsells_v7_organisation.py, construire_tableau_v7_organisation.py.
+
+## 15/11/2026 — Tableau Scutify : niche RUNNING (10 équipements, lunettes incluses). Maison gardée : dossier_v8_maison.py, upsells_v8_maison.py, construire_tableau_v8_maison.py.
