@@ -315,3 +315,5 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 15/11/2026 — Running : ceinture remplacée par le pommeau de douche filtrant en ligne 1 (demande de Jairo).
 
 ## 15/11/2026 — Pommeau filtrant : nouveau fournisseur Shenzhen Calux (1601697241736, lien envoyé par Jairo), 7,85 $ → 6,75 €, gain ~25,06 € à 39,90 €.
+
+## 15/11/2026 — Lignes 3-10 revues : bracelets lestés, Kit Pilates Plus, gilet, chaussettes, Kit Fessiers, Kit Pilates Studio, gourde 2 L, pack première course. Niche « Sport et récupération ». Running précédent : dossier_v9_running.py.

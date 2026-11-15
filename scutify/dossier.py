@@ -4,14 +4,14 @@
 
 DEMANDE = "Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €."
 MODELE = "Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €."
-CIBLE = "Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses."
+CIBLE = "Femmes et hommes de 20 à 45 ans qui s'entraînent plusieurs fois par semaine (course, Pilates, renforcement) et prennent soin de leur récupération."
 CONC = "Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs."
 PISTES = "Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard."
 
 
 def fiche(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, prix_france, fournisseur, vigilance, q4, poids="Léger, petit colis."):
     return dict(
-        court=court, nom=nom, niche=f"Running · {usage}", lien=lien, usd=usd, liv=liv, revente=revente,
+        court=court, nom=nom, niche=f"Sport et récupération · {usage}", lien=lien, usd=usd, liv=liv, revente=revente,
         criteres=("OUI", "OUI", "OUI", "OUI", "OUI", "NON"), modele=MODELE, demande=DEMANDE,
         observation="Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie.",
         cible=CIBLE, probleme=probleme,
@@ -47,6 +47,8 @@ FICHES = [
        "Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €.", "7,48 $ (500 minimum), logo dès 100.",
        "Minimum de 500 pièces : à négocier avec le sourcing Scutify ; vérifier la norme CE et la catégorie de filtre.",
        "OUI : accessoire très visible en photo, marge correcte."),
+]
+FICHES += [
  fiche("Gilet d'hydratation", "Gilet léger ajustable avec flasque souple 500 ml à l'avant et poche pour le téléphone", "boire sur les longues sorties",
        A + "Trail-Running-Vest-Hydration-Vest-Adjustable_1601644236868.html", 9.99, 8, 44.90,
        "Soif et coup de fatigue sur les longues sorties ; mains prises par la bouteille.",
@@ -55,54 +57,6 @@ FICHES = [
        "Kiprun Race 900 59,99 à 60 € ; Salomon 149,99 à 179,99 €.", "5,49 à 9,99 $ (500 minimum).",
        "Minimum de 500 pièces ; vérifier le réglage pour toutes les morphologies.",
        "OUI : produit cher en magasin, très bonne marge, achat avant chaque course."),
- fiche("Casquette de running légère", "Casquette en nylon ultra-léger, perforations laser, séchage rapide", "courir au soleil",
-       A + "Custom-Logo-Quick-Dry-Running-Cap_1600612754499.html", 2.98, 9, 29.90,
-       "Les casquettes en coton sont lourdes et trempées de sueur ; la tête chauffe au soleil.",
-       "Je veux permettre aux coureurs de se protéger du soleil avec une casquette qui pèse presque rien et sèche vite.",
-       "OUI : moins chère que Ciele ou On.", "La casquette du look running, avec les lunettes.",
-       "Ciele 29,90 à 43,39 € ; On 44,90 € ; Kiprun dès 8,99 €.", "2,98 $ (100 à 499), logo personnalisé.",
-       "Taille unique réglable : vérifier le tour de tête.",
-       "OUI : produit de marque très visible, idéal pour la communauté."),
- fiche("Duo de flasques souples 500 ml", "2 flasques souples en TPU sans BPA, qui se plient une fois vides", "s'hydrater sans bidon encombrant",
-       A + "Custom-Logo-BPA-Free-TPU-Soft_1601305523890.html", 2.40, 9, 29.90,
-       "Les bouteilles rigides ballottent et prennent de la place une fois vides.",
-       "Je veux permettre aux coureurs de boire pendant la course avec des flasques qui se plient et ne ballottent pas.",
-       "OUI : deux flasques au prix d'une Salomon.", "La flasque vide qui se roule dans la poche.",
-       "Salomon 20 à 28 € la flasque ; Kiprun 11,99 € (250 ml).", "1,20 $ la flasque (100 à 499), logo dès 200.",
-       "Vérifier les certificats sans BPA et alimentaires.",
-       "OUI : se rachète souvent, s'ajoute à chaque commande."),
- fiche("Sac de sport compartiment chaussures", "Sac de sport avec compartiment séparé et aéré pour les chaussures et les affaires mouillées", "séparer le propre et le sale",
-       A + "custom-portable-duffle-gym-sports-sneaker_60496480489.html", 7.54, 7, 39.90,
-       "Chaussures sales et vêtements trempés mélangés aux affaires propres ; mauvaises odeurs.",
-       "Je veux permettre aux sportifs de transporter leurs affaires sans tout salir, avec un sac bien compartimenté.",
-       "OUI : plus de vêtements propres salis.", "Chaque chose à sa place en vidéo.",
-       "Amazon 21,95 à 49,99 € ; Decathlon 27,99 à 74,99 €.", "7,54 $ (300 minimum), logo personnalisé.",
-       "Minimum de 300 pièces ; colis d'environ 750 g.",
-       "OUI : utile à tous les sportifs, très bon support de marque.", poids="Colis d'environ 750 g."),
- fiche("Gobelet isotherme 1,2 L", "Gobelet XXL isotherme avec poignée et paille, couleurs de la marque", "garder sa boisson fraîche",
-       A + "40oz-Tumbler-with-Handle-and-Straw_1601725774684.html", 2.39, 7, 32.90,
-       "On oublie de boire, l'eau devient tiède, et on achète des bouteilles en plastique.",
-       "Je veux permettre aux sportifs de boire assez toute la journée avec une boisson qui reste fraîche des heures.",
-       "OUI : moins cher que Stanley, même usage.", "La glace encore là après des heures.",
-       "Stanley Quencher 40,78 à 53,56 € ; Orion 27,99 €.", "2,39 $ (2 à 999).",
-       "Colis d'environ 750 g ; vérifier l'étanchéité du couvercle.",
-       "OUI : tendance très forte, achat cadeau.", poids="Colis d'environ 750 g."),
- fiche("Mini pistolet de massage", "Mini pistolet de massage 4 têtes, écran tactile, certifié CE", "récupérer après la course",
-       A + "Light-Mini-Massage-Gun-Lcd-Touch_1601094578732.html", 6.64, 8, 34.90,
-       "Mollets et cuisses durs et courbatures après les sorties ; un kiné coûte cher.",
-       "Je veux permettre aux coureurs de récupérer en 5 minutes chez eux, avec un mini pistolet de massage.",
-       "OUI : bien moins cher que les marques (65 à 190 €).", "Le muscle qui ondule à l'écran.",
-       "Sans marque 30 à 50 € ; marques 65 à 190 €.", "6,64 $ (1 à 499), certifié CE.",
-       "Produit électrique : notice en français, garantie, inscription au recyclage des appareils (DEEE). Aucune promesse médicale.",
-       "OUI : très visuel en vidéo, gros marché de la récupération."),
- fiche("Kit récup coureur", "Balle de massage double + bande élastique + programme d'étirements de 10 minutes", "détendre ses jambes",
-       A + "nature-rubber-peanut-ball-massage-for_62410531730.html", 7.15, 8, 34.90,
-       "Jambes lourdes et dos raide après les sorties ; on ne sait pas quels étirements faire.",
-       "Je veux permettre aux coureurs de détendre leurs jambes et leur dos en 10 minutes, avec un petit kit et un programme.",
-       "OUI : 34,90 € une fois au lieu de séances de kiné.", "La balle qui roule le long du mollet, soulagement visible.",
-       "Balles seules 7 à 20 € ; peu de kits avec programme pour coureurs.", "Balle 4 $ (lien) + bande 3,15 $.",
-       "Programme d'étirements validé par un coach ; aucune promesse médicale.",
-       "OUI : complète le pistolet de massage, le programme fait la différence."),
  fiche("Pack première course", "Coffret : ceinture de running + 4 aimants pour dossard + flasque souple + plan d'entraînement 10 km", "préparer sa première course",
        A + "Custom-Logo-ABS-Race-Bibs-Clips_1601697619934.html", 9.49, 8, 49.90,
        "Avant sa première course, on ne sait pas quoi acheter ni comment s'entraîner, et les épingles trouent le t-shirt.",
@@ -112,6 +66,16 @@ FICHES = [
        "Plan d'entraînement à faire écrire par un coach diplômé.",
        "OUI : idée cadeau toute l'année (inscriptions aux courses), panier moyen élevé."),
 ]
+
+import dossier_v6_pilates as _pil
+_P = {f["court"]: dict(f) for f in _pil.FICHES}
+for _n in ["Bracelets lestés pastel", "Kit Pilates Plus « Reformer à la maison »", "Chaussettes antidérapantes (lot de 3)", "Kit Fessiers", "Kit Pilates Studio"]:
+    _f = _P[_n]; _f["niche"] = _f["niche"].replace("Pilates à la maison", "Sport et récupération"); FICHES.append(_f)
+
+_ordre = ["Pommeau de douche filtrant", "Lunettes de running polarisées", "Bracelets lestés pastel", "Kit Pilates Plus « Reformer à la maison »", "Gilet d'hydratation",
+          "Chaussettes antidérapantes (lot de 3)", "Kit Fessiers", "Kit Pilates Studio", "Gourde 2 L pastel", "Pack première course"]
+_f = _P["Gourde 2 L pastel"]; _f["niche"] = _f["niche"].replace("Pilates à la maison", "Sport et récupération"); FICHES.append(_f)
+FICHES.sort(key=lambda f: _ordre.index(f["court"]))
 for _f in FICHES:
     _f["cout"] = round(_f["usd"] * 0.86, 2)
     _f["marge"] = round(_f["revente"] - _f["cout"], 2)
@@ -129,3 +93,5 @@ SOURCES = [
  ("MineralStream, kit de douche", "https://fr.mineralstream.co/products/mineralstream%E2%84%A2-noir-vitamine-c-kit-de-douche-complet"),
  ("La Poste, tarifs Colissimo 2026", "https://www.laposte.fr/professionnel/tarif-colissimo"),
 ]
+_vus = {u for _, u in SOURCES}
+SOURCES += [s for s in _pil.SOURCES if s[1] not in _vus]
