@@ -6,7 +6,7 @@ DEMANDE = "Des millions de Français courent ; les courses officielles affichent
 MODELE = "Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €."
 CIBLE = "Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses."
 CONC = "Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs."
-PISTES = "Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard."
+PISTES = "Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard."
 
 
 def fiche(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, prix_france, fournisseur, vigilance, q4, poids="Léger, petit colis."):
@@ -31,14 +31,14 @@ def fiche(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, 
 
 A = "https://www.alibaba.com/product-detail/"
 FICHES = [
- fiche("Ceinture de running", "Ceinture élastique fine, poches pour téléphone, clés et gels, bandes réfléchissantes", "courir avec son téléphone",
-       A + "WRELS-High-Quality-Sports-Waist-Belt_1601605225679.html", 6.29, 9, 32.90,
-       "Le téléphone et les clés rebondissent dans les poches ou dans la main pendant la course.",
-       "Je veux permettre aux coureurs de garder téléphone, clés et gels sur eux sans que rien ne bouge, avec une ceinture fine.",
-       "OUI : remplace brassard et poches qui ballottent.", "Le sprint où rien ne bouge.",
-       "FlipBelt 28 à 40 € (i-run).", "6,29 $ (50 à 499), logo, taille et couleur personnalisables.",
-       "Vérifier que les grands téléphones rentrent.",
-       "OUI : achat obligé de presque tous les coureurs, produit d'entrée parfait."),
+ fiche("Pommeau de douche filtrant", "Pommeau de douche à 15 étages de filtration, design premium, haute pression", "avoir une eau plus douce sous la douche",
+       A + "High-Pressure-Water-Filter-Shower-Head_1600995143105.html", 5.50, 8, 39.90,
+       "Après chaque entraînement on se douche, mais l'eau calcaire et chlorée fait tirer la peau et ternit les cheveux.",
+       "Je veux permettre aux sportifs qui se douchent souvent de prendre une douche plus douce pour la peau et les cheveux, sans travaux.",
+       "OUI : moitié prix des marques qui font de la pub (69,95 à 81,95 €).", "Le filtre neuf blanc puis tout jauni après un mois : la preuve en vidéo.",
+       "StoneStream 69,95 €, MineralStream 81,95 € ; pommeaux basiques dès 13,99 €.", "5,50 $ (10 à 99), logo dès 2 000.",
+       "Aucune promesse médicale (« peau plus douce », jamais « soigne l'eczéma »).",
+       "OUI : énorme marché, preuve visuelle très forte, cartouches de rechange à revendre.", poids="Colis d'environ 500 g."),
  fiche("Lunettes de running polarisées", "Lunettes de sport enveloppantes, verres polarisés UV400, légères, qui ne glissent pas", "courir sans être ébloui",
        A + "IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html", 7.48, 9, 34.90,
        "Le soleil et les reflets éblouissent, et les lunettes classiques glissent avec la sueur.",
@@ -125,5 +125,7 @@ SOURCES = [
  ("Sports Shoes, Salomon S/LAB Sense 6", "https://www.sportsshoes.com/fr-fr/product/sal7011/s/lab-sense-6-gilet-de-running-(avec-flasques)---ss26"),
  ("Snowleader, casquettes Ciele", "https://www.snowleader.com/gocapsc-field-capitalrc-light-grey-CIEL00274.html"),
  ("Pearl, balles de massage", "https://www.pearl.fr/article/NX8884/double-balle-de-massage-et-dexercice-o-8-cm"),
+ ("StoneStream, pommeau filtrant", "https://fr.stone-stream.com/products/pomme-de-douche-ecopower-noire-avec-kit-de-filtration-deau-dure"),
+ ("MineralStream, kit de douche", "https://fr.mineralstream.co/products/mineralstream%E2%84%A2-noir-vitamine-c-kit-de-douche-complet"),
  ("La Poste, tarifs Colissimo 2026", "https://www.laposte.fr/professionnel/tarif-colissimo"),
 ]

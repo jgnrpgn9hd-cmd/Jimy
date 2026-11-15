@@ -13,7 +13,7 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 
 | N° | Niche | Produit | Coût | Revente | Marge | Note /10 |
 |---|---|---|---|---|---|---|
-| 1 | Running · courir avec son téléphone | [Ceinture de running](https://www.alibaba.com/product-detail/WRELS-High-Quality-Sports-Waist-Belt_1601605225679.html) | 5,41 € | 32,90 € | 27,49 € | 9,5 |
+| 1 | Running · avoir une eau plus douce sous la douche | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html) | 4,73 € | 39,90 € | 35,17 € | 9,5 |
 | 2 | Running · courir sans être ébloui | [Lunettes de running polarisées](https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html) | 6,43 € | 34,90 € | 28,47 € | 8,5 |
 | 3 | Running · boire sur les longues sorties | [Gilet d'hydratation](https://www.alibaba.com/product-detail/Trail-Running-Vest-Hydration-Vest-Adjustable_1601644236868.html) | 8,59 € | 44,90 € | 36,31 € | 8,5 |
 | 4 | Running · courir au soleil | [Casquette de running légère](https://www.alibaba.com/product-detail/Custom-Logo-Quick-Dry-Running-Cap_1600612754499.html) | 2,56 € | 29,90 € | 27,34 € | 8,5 |
@@ -26,9 +26,9 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 
 La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Les 10 produits visent la même cible : le coureur ou la coureuse qui s'entraîne plusieurs fois par semaine.
 
-## 1. Running · courir avec son téléphone — Ceinture de running
+## 1. Running · avoir une eau plus douce sous la douche — Pommeau de douche filtrant
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/WRELS-High-Quality-Sports-Waist-Belt_1601605225679.html) · coût 5,41 € (6,29 $ × 0,86) · revente 32,90 € · marge 27,49 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html) · coût 4,73 € (5,5 $ × 0,86) · revente 39,90 € · marge 35,17 €
 
 | Étape | Réponse |
 |---|---|
@@ -36,24 +36,24 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
 | Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
 | Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
-| Problème | Le téléphone et les clés rebondissent dans les poches ou dans la main pendant la course. |
-| Question à résoudre | Comment courir avec son téléphone simplement, avec un bel objet ? |
-| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
-| **Idée de business** | Je veux permettre aux coureurs de garder téléphone, clés et gels sur eux sans que rien ne bouge, avec une ceinture fine. |
-| Solution à un problème | OUI : le téléphone et les clés rebondissent dans les poches ou dans la main pendant la course. |
-| Économique | OUI : remplace brassard et poches qui ballottent. |
+| Problème | Après chaque entraînement on se douche, mais l'eau calcaire et chlorée fait tirer la peau et ternit les cheveux. |
+| Question à résoudre | Comment avoir une eau plus douce sous la douche simplement, avec un bel objet ? |
+| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| **Idée de business** | Je veux permettre aux sportifs qui se douchent souvent de prendre une douche plus douce pour la peau et les cheveux, sans travaux. |
+| Solution à un problème | OUI : après chaque entraînement on se douche, mais l'eau calcaire et chlorée fait tirer la peau et ternit les cheveux. |
+| Économique | OUI : moitié prix des marques qui font de la pub (69,95 à 81,95 €). |
 | Besoin / passion | OUI : la course à pied, les défis, la performance. |
-| Effet wow | Le sprint où rien ne bouge. |
+| Effet wow | Le filtre neuf blanc puis tout jauni après un mois : la preuve en vidéo. |
 | Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
-| Poids / volume | Léger, petit colis. |
+| Poids / volume | Colis d'environ 500 g. |
 | 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : achat obligé de presque tous les coureurs, produit d'entrée parfait. |
-| Prix en France | FlipBelt 28 à 40 € (i-run). |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : énorme marché, preuve visuelle très forte, cartouches de rechange à revendre. |
+| Prix en France | StoneStream 69,95 €, MineralStream 81,95 € ; pommeaux basiques dès 13,99 €. |
 | Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
-| Fournisseur | 6,29 $ (50 à 499), logo, taille et couleur personnalisables. |
-| À vérifier | Vérifier que les grands téléphones rentrent. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
+| Fournisseur | 5,50 $ (10 à 99), logo dès 2 000. |
+| À vérifier | Aucune promesse médicale (« peau plus douce », jamais « soigne l'eczéma »). Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
 
 ## 2. Running · courir sans être ébloui — Lunettes de running polarisées
 
@@ -67,7 +67,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
 | Problème | Le soleil et les reflets éblouissent, et les lunettes classiques glissent avec la sueur. |
 | Question à résoudre | Comment courir sans être ébloui simplement, avec un bel objet ? |
-| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
 | **Idée de business** | Je veux permettre aux coureurs de courir au soleil sans plisser les yeux, avec des lunettes légères qui tiennent. |
 | Solution à un problème | OUI : le soleil et les reflets éblouissent, et les lunettes classiques glissent avec la sueur. |
 | Économique | OUI : moins chères que les marques, mêmes usages. |
@@ -96,7 +96,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
 | Problème | Soif et coup de fatigue sur les longues sorties ; mains prises par la bouteille. |
 | Question à résoudre | Comment boire sur les longues sorties simplement, avec un bel objet ? |
-| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
 | **Idée de business** | Je veux permettre aux coureurs qui préparent un semi ou un trail de boire sans s'arrêter, les mains libres. |
 | Solution à un problème | OUI : soif et coup de fatigue sur les longues sorties ; mains prises par la bouteille. |
 | Économique | OUI : deux fois moins cher que Kiprun, cinq fois moins que Salomon. |
@@ -125,7 +125,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
 | Problème | Les casquettes en coton sont lourdes et trempées de sueur ; la tête chauffe au soleil. |
 | Question à résoudre | Comment courir au soleil simplement, avec un bel objet ? |
-| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
 | **Idée de business** | Je veux permettre aux coureurs de se protéger du soleil avec une casquette qui pèse presque rien et sèche vite. |
 | Solution à un problème | OUI : les casquettes en coton sont lourdes et trempées de sueur ; la tête chauffe au soleil. |
 | Économique | OUI : moins chère que Ciele ou On. |
@@ -154,7 +154,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
 | Problème | Les bouteilles rigides ballottent et prennent de la place une fois vides. |
 | Question à résoudre | Comment s'hydrater sans bidon encombrant simplement, avec un bel objet ? |
-| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
 | **Idée de business** | Je veux permettre aux coureurs de boire pendant la course avec des flasques qui se plient et ne ballottent pas. |
 | Solution à un problème | OUI : les bouteilles rigides ballottent et prennent de la place une fois vides. |
 | Économique | OUI : deux flasques au prix d'une Salomon. |
@@ -183,7 +183,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
 | Problème | Chaussures sales et vêtements trempés mélangés aux affaires propres ; mauvaises odeurs. |
 | Question à résoudre | Comment séparer le propre et le sale simplement, avec un bel objet ? |
-| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
 | **Idée de business** | Je veux permettre aux sportifs de transporter leurs affaires sans tout salir, avec un sac bien compartimenté. |
 | Solution à un problème | OUI : chaussures sales et vêtements trempés mélangés aux affaires propres ; mauvaises odeurs. |
 | Économique | OUI : plus de vêtements propres salis. |
@@ -212,7 +212,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
 | Problème | On oublie de boire, l'eau devient tiède, et on achète des bouteilles en plastique. |
 | Question à résoudre | Comment garder sa boisson fraîche simplement, avec un bel objet ? |
-| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
 | **Idée de business** | Je veux permettre aux sportifs de boire assez toute la journée avec une boisson qui reste fraîche des heures. |
 | Solution à un problème | OUI : on oublie de boire, l'eau devient tiède, et on achète des bouteilles en plastique. |
 | Économique | OUI : moins cher que Stanley, même usage. |
@@ -241,7 +241,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
 | Problème | Mollets et cuisses durs et courbatures après les sorties ; un kiné coûte cher. |
 | Question à résoudre | Comment récupérer après la course simplement, avec un bel objet ? |
-| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
 | **Idée de business** | Je veux permettre aux coureurs de récupérer en 5 minutes chez eux, avec un mini pistolet de massage. |
 | Solution à un problème | OUI : mollets et cuisses durs et courbatures après les sorties ; un kiné coûte cher. |
 | Économique | OUI : bien moins cher que les marques (65 à 190 €). |
@@ -270,7 +270,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
 | Problème | Jambes lourdes et dos raide après les sorties ; on ne sait pas quels étirements faire. |
 | Question à résoudre | Comment détendre ses jambes simplement, avec un bel objet ? |
-| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
 | **Idée de business** | Je veux permettre aux coureurs de détendre leurs jambes et leur dos en 10 minutes, avec un petit kit et un programme. |
 | Solution à un problème | OUI : jambes lourdes et dos raide après les sorties ; on ne sait pas quels étirements faire. |
 | Économique | OUI : 34,90 € une fois au lieu de séances de kiné. |
@@ -299,7 +299,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Cible et désir | Coureurs et coureuses de 20 à 45 ans, du 5 km au marathon, qui s'entraînent plusieurs fois par semaine et préparent des courses. |
 | Problème | Avant sa première course, on ne sait pas quoi acheter ni comment s'entraîner, et les épingles trouent le t-shirt. |
 | Question à résoudre | Comment préparer sa première course simplement, avec un bel objet ? |
-| Pistes produit | Ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
+| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
 | **Idée de business** | Je veux permettre à ceux qui préparent leur premier 10 km d'avoir tout l'équipement et un plan, dans un seul coffret. |
 | Solution à un problème | OUI : avant sa première course, on ne sait pas quoi acheter ni comment s'entraîner, et les épingles trouent le t-shirt. |
 | Économique | OUI : un coffret au lieu de quatre achats séparés. |
@@ -334,6 +334,8 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 - [Sports Shoes, Salomon S/LAB Sense 6](https://www.sportsshoes.com/fr-fr/product/sal7011/s/lab-sense-6-gilet-de-running-(avec-flasques)---ss26)
 - [Snowleader, casquettes Ciele](https://www.snowleader.com/gocapsc-field-capitalrc-light-grey-CIEL00274.html)
 - [Pearl, balles de massage](https://www.pearl.fr/article/NX8884/double-balle-de-massage-et-dexercice-o-8-cm)
+- [StoneStream, pommeau filtrant](https://fr.stone-stream.com/products/pomme-de-douche-ecopower-noire-avec-kit-de-filtration-deau-dure)
+- [MineralStream, kit de douche](https://fr.mineralstream.co/products/mineralstream%E2%84%A2-noir-vitamine-c-kit-de-douche-complet)
 - [La Poste, tarifs Colissimo 2026](https://www.laposte.fr/professionnel/tarif-colissimo)
 
 Liens Alibaba et prix fournisseur vérifiés le 14/11/2026. Les prix en France viennent des sites cités et peuvent changer.

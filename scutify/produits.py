@@ -1,22 +1,23 @@
 # 10 idées de business, 10 niches : généré par construire_tableau.py à partir de dossier.py (ne pas modifier à la main).
 # (nom complet — Niche : niche, lien, D, E, F, G, H, I, coût €, livraison /10, revente €, argument coach, nom court)
-rows=[('Ceinture élastique fine, poches pour téléphone, clés et gels, bandes réfléchissantes — Niche : Running · courir avec son téléphone',
-  'https://www.alibaba.com/product-detail/WRELS-High-Quality-Sports-Waist-Belt_1601605225679.html',
+rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pression — Niche : Running · avoir une eau plus douce sous la douche',
+  'https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  5.41,
-  9,
-  32.9,
+  4.73,
+  8,
+  39.9,
   "MODÈLE : Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. DEMANDE : Des "
-  'millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. PROBLÈME : Le téléphone et '
-  'les clés rebondissent dans les poches ou dans la main pendant la course. ÉCONOMIQUE : OUI : remplace brassard et poches qui ballottent. EFFET WAOUW : Le sprint où rien ne bouge. PRIX EN FRANCE : '
-  'FlipBelt 28 à 40 € (i-run). FOURNISSEUR : 6,29 $ (50 à 499), logo, taille et couleur personnalisables. À VÉRIFIER : Vérifier que les grands téléphones rentrent. Concurrence : Decathlon (Kiprun) '
-  'vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs.',
-  'Ceinture de running'),
+  'millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. PROBLÈME : Après chaque '
+  "entraînement on se douche, mais l'eau calcaire et chlorée fait tirer la peau et ternit les cheveux. ÉCONOMIQUE : OUI : moitié prix des marques qui font de la pub (69,95 à 81,95 €). EFFET WAOUW : "
+  'Le filtre neuf blanc puis tout jauni après un mois : la preuve en vidéo. PRIX EN FRANCE : StoneStream 69,95 €, MineralStream 81,95 € ; pommeaux basiques dès 13,99 €. FOURNISSEUR : 5,50 $ (10 à '
+  "99), logo dès 2 000. À VÉRIFIER : Aucune promesse médicale (« peau plus douce », jamais « soigne l'eczéma »). Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque "
+  'se démarque par le design, la communauté (club, défis) et les packs.',
+  'Pommeau de douche filtrant'),
  ('Lunettes de sport enveloppantes, verres polarisés UV400, légères, qui ne glissent pas — Niche : Running · courir sans être ébloui',
   'https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html',
   'OUI',
