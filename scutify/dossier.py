@@ -299,7 +299,22 @@ MAISON = [
        "La couette énorme, quelques coups de pompe, et elle tient dans un tiroir."),
 ]
 _P = {f["court"]: f for f in FICHES}
-VETEMENTS = [_P["Sweat à capuche épais"], _P["Jogging uni coupe ample"], _P["Sweat col rond 450 g"]]
+TAPIS = autre("Tapis lavable en machine", "Tapis doux et moelleux 100 × 150 cm, antidérapant, qui se lave en machine",
+       "Maison · avoir un beau tapis toujours propre",
+       A + "Wholesale-Custom-Area-Rug-Modern-Washable_11000039435438.html", 13.43, 6, 49.90,
+       "Un tapis taché (café, enfants, animaux) est presque impossible à nettoyer : il faut le jeter ou payer un pressing.",
+       "Je veux permettre aux familles et aux propriétaires d'animaux d'avoir un beau tapis doux qui repasse à neuf en machine.",
+       "OUI : moins cher que les tapis lavables de marque (63,99 à 149 €).", "On verse du café sur le tapis, on le met en machine : il ressort comme neuf.",
+       "Nature & Découvertes 120 × 180 cm 63,99 € ; Lorena Canals 120 × 180 cm 149 € ; vidaXL 120 × 180 cm 48,43 €.",
+       "Lien choisi par Jairo : 8,95 $ le m² (6,98 $ dès 1 000 m²), soit environ 13,43 $ pour 100 × 150 cm ; sourcing par Scutify.",
+       "Prix au m² : faire chiffrer par Scutify la taille 100 × 150 cm livrée ; colis d'environ 2 kg, donc vérifier le poids réel ; tester le lavage sur échantillon.",
+       "OUI : très fort pour les familles et les propriétaires d'animaux, effet avant / après en vidéo.",
+       "Ruggable (États-Unis) : la marque qui a rendu célèbres les tapis lavables en machine.",
+       "Familles avec enfants ou animaux, 25 à 45 ans, qui aiment une maison jolie mais pratique.",
+       "Les vidéos « tapis lavable en machine » avec du café renversé font des millions de vues.",
+       "OUI : la déco, la maison propre.", "Colis d'environ 2 kg.",
+       "Le café renversé sur le tapis, la machine à laver, puis le tapis propre remis au salon.")
+VETEMENTS = [_P["Sweat à capuche épais"], TAPIS, _P["Sweat col rond 450 g"]]
 FICHES = FICHES[:4] + MAISON + VETEMENTS
 
 for _f in FICHES:
@@ -307,6 +322,9 @@ for _f in FICHES:
     _f["marge"] = round(_f["revente"] - _f["cout"], 2)
 
 SOURCES = [
+ ("Nature & Découvertes, tapis 120 × 180 cm lavable", "https://www.natureetdecouvertes.com/deco-maison/chambre-enfant/tapis-coussins-enfant/tapis-salon-beige-120x180-cm-93173580"),
+ ("Les Petits, tapis lavable Lorena Canals", "https://lespetits.fr/en-pl/products/tapis-lavable-monstera-naturel"),
+ ("Auchan, tapis lavable vidaXL 120 × 180 cm", "https://www.auchan.fr/vidaxl-tapis-lavable-multicolore-120x180-cm-antiderapant/pr-bb4dc037-fe03-4caf-9fda-26e410c4665a"),
  ("Kaufland, Lechuza Classico Color 28", "https://www.kaufland.fr/product/425726183/"),
  ("Leroy Merlin, pot Lechuza D.21", "https://www.leroymerlin.fr/produits/pot-de-fleur-rond-lechuza-d-21-x-h-20-cm-gris-71618750.html"),
  ("Kaufland, sacs sous vide Compactor", "https://www.kaufland.fr/product/488505000/"),

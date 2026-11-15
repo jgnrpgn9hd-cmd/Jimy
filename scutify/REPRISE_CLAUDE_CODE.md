@@ -385,3 +385,6 @@ Packs : 3 t-shirts 59,90 €, Pack Cuisine 74,90 €, Pack Route 54,90 €. Vers
 Tableau : 1 pommeau, 2 lunettes, 3 t-shirt oversize, 4 t-shirt 250 g, 5 pot à réserve d'eau (60802490966), 6 cintres velours + cascade (1600222821866),
 7 sacs sous vide + pompe (1600116022034), 8 sweat à capuche (1600347472870), 9 jogging (1601254248379), 10 sweat col rond 450 g (1600274136737).
 Diffuseur retiré. Packs : 3 t-shirts 59,90 €, Ensemble VAURE 79,90 €, Pack Rangement 54,90 €. Version précédente : dossier_v16_autres_niches.py.
+
+## Étape — Jogging remplacé par le tapis lavable de Jairo (11000039435438)
+8,95 $/m² → 100 × 150 cm ≈ 13,43 $ (11,55 €), vendu 49,90 €, colis ~2 kg (10,49 €), gain estimé ≈ 26,36 €.

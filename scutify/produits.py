@@ -143,24 +143,23 @@ rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pre
   "Yi Lingzhi Clothing (7 ans, vérifié) : 9,89 $ (50 à 99), 9,35 $ dès 100 ; lien choisi par Jairo. À VÉRIFIER : Le titre de l'annonce dit « vintage » : commander uniquement en couleurs unies, sans "
   "effet délavé. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On.",
   'Sweat à capuche épais'),
- ('Jogging molleton 100 % coton, coupe ample, uni, bas ourlé propre — Niche : Mode homme · porter un jogging qui ne fait pas négligé',
-  'https://www.alibaba.com/product-detail/Custom-french-terry-sweatpants-high-quality_1601254248379.html',
+ ('Tapis doux et moelleux 100 × 150 cm, antidérapant, qui se lave en machine — Niche : Maison · avoir un beau tapis toujours propre',
+  'https://www.alibaba.com/product-detail/Wholesale-Custom-Area-Rug-Modern-Washable_11000039435438.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  10.62,
-  7,
+  11.55,
+  6,
   49.9,
-  'MODÈLE : On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins '
-  'cher. DEMANDE : Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et '
-  "TikTok. PROBLÈME : Le jogging fait vite négligé : tissu fin, poches aux genoux, bas qui se déforment. ÉCONOMIQUE : OUI : 49,90 € contre 120 à 140 € chez Essentials et On. EFFET WAOUW : L'ensemble "
-  'sweat + jogging de la même couleur : la tenue est faite en 2 pièces. PRIX EN FRANCE : Essentials jogging 119,99 € (Breuninger) ; On Trek Pants environ 140 € (site belge). FOURNISSEUR : 12,35 $ '
-  "(50 à 499), 10,64 $ dès 500. À VÉRIFIER : Vérifier l'épaisseur et la coupe sur échantillon ; pas de bords bruts ni de délavé. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se "
-  "démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On.",
-  'Jogging uni coupe ample'),
+  'MODÈLE : Ruggable (États-Unis) : la marque qui a rendu célèbres les tapis lavables en machine. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, '
+  'il reste à proposer mieux et moins cher. PROBLÈME : Un tapis taché (café, enfants, animaux) est presque impossible à nettoyer : il faut le jeter ou payer un pressing. ÉCONOMIQUE : OUI : moins '
+  'cher que les tapis lavables de marque (63,99 à 149 €). EFFET WAOUW : On verse du café sur le tapis, on le met en machine : il ressort comme neuf. PRIX EN FRANCE : Nature & Découvertes 120 × 180 '
+  'cm 63,99 € ; Lorena Canals 120 × 180 cm 149 € ; vidaXL 120 × 180 cm 48,43 €. FOURNISSEUR : Lien choisi par Jairo : 8,95 $ le m² (6,98 $ dès 1 000 m²), soit environ 13,43 $ pour 100 × 150 cm ; '
+  "sourcing par Scutify. À VÉRIFIER : Prix au m² : faire chiffrer par Scutify la taille 100 × 150 cm livrée ; colis d'environ 2 kg, donc vérifier le poids réel ; tester le lavage sur échantillon.",
+  'Tapis lavable en machine'),
  ('Sweat col rond 450 g 100 % coton, coupe oversize, uni — Niche : Mode homme · avoir un pull de tous les jours qui garde sa forme',
   'https://www.alibaba.com/product-detail/2021-100-cotton-heavyweight-450-gsm_1600274136737.html',
   'OUI',
