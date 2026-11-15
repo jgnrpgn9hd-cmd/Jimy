@@ -1,18 +1,18 @@
-# Dossier ORGANISATION ÉLÉGANTE : 10 objets cohérents (maison, papiers, bureau, voyage), inspirés des tendances Pinterest
-# « home organization », « Pen Pals », « Poetcore ». Chaque objet règle un problème précis de la même cliente.
+# Dossier MAISON : 10 objets à effet waouh qui règlent un problème de la maison (salle de bain, cuisine, salon, entrée, papiers).
+# Maison et cuisine = catégorie n° 1 des pubs Meta en 2026 (TrendTrack). Une seule cible : la personne qui veut une maison nette et pratique.
 # Méthode du support Scutify (niche → observation → cible → problème → pistes → idée → critères → 4 questions).
-# Liens Alibaba et prix vérifiés le 14/11/2026. Coût = $ × 0,86. Version précédente (Pilates) : dossier_v6_pilates.py.
+# Liens Alibaba et prix vérifiés le 14/11/2026. Coût = $ × 0,86. Versions précédentes : dossier_v7_organisation.py (organisation élégante), dossier_v6_pilates.py.
 
-DEMANDE = "L'organisation de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée."
+DEMANDE = "Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées."
 MODELE = "Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait."
-CIBLE = "Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique."
+CIBLE = "Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux."
 CONC = "Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français."
-PISTES = "Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · pochette ordinateur · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir."
+PISTES = "Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée."
 
 
 def fiche(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, prix_france, fournisseur, vigilance, q4, poids="Léger, petit colis."):
     return dict(
-        court=court, nom=nom, niche=f"Organisation élégante · {usage}", lien=lien, usd=usd, liv=liv, revente=revente,
+        court=court, nom=nom, niche=f"Maison · {usage}", lien=lien, usd=usd, liv=liv, revente=revente,
         criteres=("OUI", "OUI", "OUI", "OUI", "OUI", "NON"), modele=MODELE, demande=DEMANDE,
         observation="Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour.",
         cible=CIBLE, probleme=probleme,
@@ -32,6 +32,46 @@ def fiche(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, 
 
 A = "https://www.alibaba.com/product-detail/"
 FICHES = [
+ fiche("Kit WC lavant sans électricité", "Kit lavant ultra-fin à double buse autonettoyante, se glisse sous l'abattant, eau froide, sans électricité", "être plus propre aux toilettes",
+       A + "Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html", 8.50, 5, 49.90,
+       "Le papier toilette ne lave pas vraiment, irrite, coûte cher, et un WC japonais coûte 450 à 1 500 €.",
+       "Je veux permettre à chacun d'avoir la propreté d'un WC japonais chez soi, en 10 minutes et sans électricien.",
+       "OUI : moins de papier toilette, au lieu d'un WC japonais à plusieurs centaines d'euros.", "Le jet qui sort et se range tout seul ; les pubs avec humour (comme Tushy aux États-Unis).",
+       "Brico Dépôt 39 €, Leroy Merlin 80 €, BOKU 86,90 € (Castorama).", "8,50 $ (50 à 999), logo dès 300.",
+       "Vérifier la compatibilité avec les toilettes françaises et fournir le raccord ; colis d'environ 2 kg.",
+       "OUI : produit spectaculaire, vrai problème, marché prouvé aux États-Unis (Tushy).", poids="Colis d'environ 2 kg."),
+ fiche("Pommeau de douche filtrant", "Pommeau de douche à 15 étages de filtration, design premium, haute pression", "avoir une eau plus douce sous la douche",
+       A + "High-Pressure-Water-Filter-Shower-Head_1600995143105.html", 5.50, 8, 39.90,
+       "Eau calcaire et chlorée : peau qui tire, cheveux ternes, pommeau entartré.",
+       "Je veux permettre à ceux qui ont une eau dure de prendre une douche plus douce pour la peau et les cheveux, sans travaux.",
+       "OUI : moitié prix des marques qui font de la pub (69,95 à 81,95 €).", "Le filtre neuf blanc puis tout jauni après un mois : la preuve en vidéo.",
+       "StoneStream 69,95 €, MineralStream 81,95 € ; pommeaux basiques dès 13,99 €.", "5,50 $ (10 à 99), logo dès 2 000.",
+       "Aucune promesse médicale (« peau plus douce », jamais « soigne l'eczéma »).",
+       "OUI : énorme marché, preuve visuelle très forte, cartouches de rechange à revendre.", poids="Colis d'environ 500 g."),
+ fiche("Égouttoir enroulable doré", "Égouttoir à rouleaux en inox enrobé de silicone, finition dorée, qui se pose au-dessus de l'évier", "gagner de la place dans la cuisine",
+       A + "China-factory-gold-Roll-up-Dish_1601010537663.html", 4.20, 7, 34.90,
+       "Petit plan de travail encombré par l'égouttoir et la vaisselle qui sèche.",
+       "Je veux permettre à ceux qui ont une petite cuisine de libérer leur plan de travail avec un égouttoir qui se range en rouleau.",
+       "OUI : remplace un égouttoir encombrant.", "Il se déroule sur l'évier, on y pose la vaisselle, puis il s'enroule dans le tiroir.",
+       "Pearl 22,95 à 39,95 € ; Emuca 25,90 € ; Joseph Joseph 33,24 à 41,99 €.", "4,20 $ (100 à 499), logo dès 400.",
+       "Vérifier les dimensions par rapport aux éviers français.",
+       "OUI : très visuel, utile tous les jours, look premium doré.", poids="Colis d'environ 750 g."),
+ fiche("Boîte cache-multiprise", "Boîte de rangement pour multiprise et câbles, couvercle en bambou", "cacher les câbles",
+       A + "Cable-Management-Box-Organizer-Bamboo-Lid_1600989455921.html", 3.50, 7, 34.90,
+       "Multiprises et câbles visibles sous le bureau ou derrière la télé : moche, poussiéreux, dangereux avec des enfants ou des animaux.",
+       "Je veux permettre à chacun de cacher multiprises et câbles dans une jolie boîte, en 2 minutes.",
+       "OUI : maison plus nette et plus sûre.", "Le nid de câbles, puis la jolie boîte : avant / après immédiat.",
+       "Leroy Merlin 23,29 € (barré 41,92 €) ; Pearl 9,95 à 43,95 €.", "3,50 $ (50 à 299), logo dès 500.",
+       "Vérifier la taille pour les multiprises françaises (prises larges).",
+       "OUI : problème visible dans toutes les maisons, très partagé sur Pinterest.", poids="Colis d'environ 1 kg."),
+ fiche("Étagère invisible pour livres (lot de 3)", "3 supports en métal invisibles : les livres semblent flotter contre le mur", "ranger ses livres avec style",
+       A + "Floating-Shelf-Bracket-Heavy-Duty-Hidden_1601291464842.html", 9.00, 7, 39.90,
+       "Les livres s'entassent faute de place dans la bibliothèque.",
+       "Je veux permettre aux lecteurs de ranger leurs livres au mur, avec un effet « livres qui flottent ».",
+       "OUI : pas besoin d'acheter une bibliothèque.", "Les livres qui flottent : on se demande comment ça tient.",
+       "Lot de 3 en acrylique 57,46 € (ManoMano) ; étagères simples 13 à 24 €.", "3 $ le support (200 minimum).",
+       "Fournir vis et chevilles ; indiquer le poids maximum par support.",
+       "OUI : effet waouh immédiat, classique de Pinterest.", poids="Colis d'environ 750 g."),
  fiche("Porte-clés mural avec étagère", "Porte-clés mural en bois : crochets pour les clés, étagère vide-poche, range-courrier", "ne plus chercher ses clés",
        A + "Wooden-wood-Wall-Mounted-Key-and_1600214960552.html", 3.00, 7, 34.90,
        "On cherche ses clés tous les matins et le courrier s'entasse dans l'entrée.",
@@ -64,60 +104,28 @@ FICHES = [
        "Kaufland 16,88 à 44,99 € ; Fruugo 18,16 € (prix conseillé 30,85 €).", "2,99 $ (10 à 199), logo possible.",
        "Feuilles de budget à traduire et à imprimer en français.",
        "OUI : tendance forte sur Pinterest et TikTok, achat très émotionnel."),
- fiche("Pochette ordinateur portable", "Pochette fine en cuir synthétique imperméable pour ordinateur 13-15 pouces, avec support et tapis de souris intégrés", "protéger son ordinateur",
-       A + "Waterproof-PU-Leather-Lap-Sleeve-Slim_1601679096387.html", 4.20, 8, 34.90,
-       "L'ordinateur se raye et prend des chocs dans le sac, et on travaille mal installé au café ou en déplacement.",
-       "Je veux permettre aux actifs qui travaillent partout de protéger leur ordinateur et de s'installer en 5 secondes, avec une pochette élégante qui sert aussi de support.",
-       "OUI : évite une réparation d'écran ou de coque ; remplace support et tapis de souris.", "La pochette qui se déplie en support et en tapis de souris.",
-       "Yonis 31,20 à 44,20 € ; modèle avec support et tapis 35,98 € ; Trunk en cuir 39,95 à 67,95 €.", "4,20 $ (100 à 499), logo accepté, plusieurs couleurs.",
-       "Annoncer « cuir synthétique » ; vérifier les tailles (13, 14, 15 pouces) et la compatibilité MacBook.",
-       "OUI : tout le monde a un ordinateur portable, cohérent avec le sous-main et le carnet.", poids="Colis d'environ 500 g."),
- fiche("Carnet en cuir rechargeable", "Carnet en cuir style vintage avec recharges kraft, logo doré", "noter et organiser ses idées",
-       A + "High-Quality-Handmade-Custom-Vintage-Genuine_1600923403516.html", 2.30, 8, 34.90,
-       "Les idées et les listes sont éparpillées sur des papiers volants et dans le téléphone.",
-       "Je veux permettre à ceux qui aiment écrire de tout garder dans un seul carnet qui dure des années.",
-       "OUI : on change seulement la recharge.", "Le cuir qui se patine, très « Pinterest ».",
-       "PaperWrld 36,49 à 39,49 € ; Traveler's Company 52 à 66 $.", "Cuir véritable, 2,30 $ (100 minimum).",
-       "Vérifier la qualité du cuir sur échantillon.",
-       "OUI : tendance « Poetcore » et journaling, achat répété des recharges."),
- fiche("Sous-main de bureau", "Grand sous-main en cuir synthétique, imperméable et antidérapant", "avoir un bureau net",
-       A + "Multifunctional-Desk-Pad-Waterproof-PU-Leather_1600108081618.html", 3.20, 7, 34.90,
-       "Le bureau en télétravail est encombré, rayé et taché.",
-       "Je veux permettre à ceux qui travaillent chez eux d'avoir un bureau net et agréable en un seul geste.",
-       "OUI : protège le bureau et remplace le tapis de souris.", "Le bureau transformé en 10 secondes.",
-       "Sous-mains synthétiques de 15 à 47 € (JGD jusqu'à 47 €).", "3,20 $ (2 à 2 999), logo dès 0,15 $.",
-       "Annoncer « cuir synthétique », jamais « cuir ».",
-       "OUI : télétravail installé, produit utile tous les jours.", poids="Colis d'environ 750 g."),
- fiche("Pochette passeports famille", "Pochette zippée pour 4 passeports, billets et cartes, protection RFID", "garder les papiers de voyage ensemble",
-       A + "Pu-Leather-Passport-Bag-Rfid-Multi_1600903701183.html", 2.49, 9, 29.90,
-       "À l'aéroport, on cherche les passeports et les billets de toute la famille dans tous les sacs.",
-       "Je veux permettre aux familles qui voyagent d'avoir tous leurs papiers au même endroit, dans une pochette sûre.",
-       "OUI : moins de stress et de risque de perte en voyage.", "Toute la famille prête au contrôle en une seconde.",
-       "Modèles simples 5 à 25 € (Voopies 24,90 €) ; Fossil en cuir 89 €.", "2,49 $ (5 à 49), 1,99 $ dès 1 000.",
-       "Tester la protection RFID avant de l'annoncer.",
-       "OUI : achat facile avant chaque voyage, idée cadeau."),
- fiche("Coffret cachet de cire", "Coffret avec tampon en laiton à l'initiale, perles de cire, cuillère", "personnaliser ses lettres et cadeaux",
-       A + "Pink-Wax-Seal-Stamp-Kit-with_1601147778139.html", 2.90, 9, 29.90,
-       "Les cartes et les paquets cadeaux faits maison manquent de finition.",
-       "Je veux permettre à ceux qui aiment écrire et offrir de donner une touche élégante à chaque lettre et chaque cadeau.",
-       "OUI : remplace des cartes et emballages de luxe.", "Le cachet qui se décolle de la cire, très partagé en vidéo.",
-       "Kit cachet de cire 40,94 € (Greenweez) ; kits d'entrée de gamme dès 3,59 € (Action).", "2,90 $ (10 à 49), lettre au choix.",
-       "Proposer chaque lettre de l'alphabet en stock.",
-       "OUI : tendance Pinterest « Pen Pals » (+105 % « cute stamps »)."),
- fiche("Sacoche en cuir homme", "Sacoche bandoulière en cuir véritable, compacte, pour téléphone, clés, portefeuille et écouteurs", "garder ses affaires sur soi",
-       A + "MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html", 12.50, 8, 49.90,
-       "Les poches débordent (téléphone, clés, portefeuille) et on a peur des vols dans les transports.",
-       "Je veux permettre aux hommes qui sortent en ville de garder leurs affaires rangées sur eux, en sécurité et les mains libres, avec une sacoche en cuir qui a du style.",
-       "OUI : remplace des poches pleines et protège des vols.", "Les poches vidées sur la table, puis tout rangé dans la sacoche en 5 secondes.",
-       "Lacoste environ 60 à 150 € (parfois 40 € en promotion) ; places de marché en cuir 43 à 60 €.", "Cuir véritable, 12,50 $ (50 à 499), logo accepté.",
-       "Demander un certificat de matière et un échantillon avant d'écrire « cuir véritable » ; aucun design qui copie une marque.",
-       "OUI : produit très tendance, marge la plus forte de la liste, se vend toute l'année.", poids="Colis d'environ 500 g."),
+ fiche("Coffret organisation entrée", "Coffret cadeau : porte-clés mural + vide-poche en cuir, belle boîte", "offrir une entrée organisée",
+       A + "Wooden-wood-Wall-Mounted-Key-and_1600214960552.html", 4.00, 6, 49.90,
+       "On ne sait pas quoi offrir pour une crémaillère ou un premier appartement.",
+       "Je veux permettre à ceux qui cherchent un cadeau utile d'offrir une entrée organisée et élégante.",
+       "OUI : un cadeau utile au lieu d'un objet qui prend la poussière.", "Le déballage puis l'entrée transformée.",
+       "Coffrets déco de 30 à 60 € ; achat séparé 64,80 € dans la boutique.", "Porte-clés 3 $ (lien) + vide-poche 1 $.",
+       "Boîte cadeau soignée : c'est elle qui fait le prix.",
+       "OUI : crémaillères, déménagements, fêtes, toute l'année.", poids="Colis d'environ 1,25 kg (tarif jusqu'à 2 kg)."),
 ]
 for _f in FICHES:
     _f["cout"] = round(_f["usd"] * 0.86, 2)
     _f["marge"] = round(_f["revente"] - _f["cout"], 2)
 
 SOURCES = [
+ ("TrendTrack, meilleurs produits sur Meta 2026", "https://www.trendtrack.io/blog-post/the-best-products-on-meta-for-dropshipping-in-2026"),
+ ("Brico Dépôt, kit WC 2 douchettes", "https://www.bricodepot.fr/p/0634154948774/media.bricodepot.fr"),
+ ("Castorama, BOKU", "https://www.castorama.fr/mkp/kit-wc-japonais-poser-bidet-boku-autonettoyant-non-lectrique/3770027022190_CAFR.prd"),
+ ("StoneStream, pommeau filtrant", "https://fr.stone-stream.com/products/pomme-de-douche-ecopower-noire-avec-kit-de-filtration-deau-dure"),
+ ("Rue du Commerce, égouttoir Joseph Joseph", "https://www.rueducommerce.fr/p/m26069676955.html"),
+ ("Castorama, égouttoir Emuca", "https://www.castorama.fr/mkp/emuca-egouttoir-flexible-et-enroulable-en-silicone-acier-et-plastique-gris/8432393278612_CAFR.prd"),
+ ("Leroy Merlin, boîte cache-multiprise", "https://www.leroymerlin.fr/produits/boites-multiprise-boite-rangement-de-cables-avec-couvercle-en-bois-boites-de-prises-cache-cordon-multifonctionnel-et-boite-de-gestion-cache-76567678.html"),
+ ("ManoMano, étagères invisibles acryliques", "https://www.manomano.fr/p/etagere-murale-flottante-invisible-en-acrylique-transparent-de-38-cm-etagere-murale-pour-livres-denfants-lot-de-3-95155962"),
  ("Pinterest Predicts 2026", "https://newsroom.pinterest.com/en-ca/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/"),
  ("BeautyMatter, chiffres Pen Pals", "https://beautymatter.com/articles/pinterest-predicts-2026"),
  ("LeBonTri, comparatif porte-clés muraux", "https://lebontri.fr/blog/rangement/meilleur-porte-cle-mural"),
