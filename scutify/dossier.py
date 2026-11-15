@@ -56,37 +56,66 @@ def _prendre(src, nom, univers):
     f = dict(src[nom]); f["niche"] = univers + " · " + f["niche"].split(" · ", 1)[1]; return f
 FICHES[0]["niche"] = "Salle de bain · " + FICHES[0]["niche"].split(" · ", 1)[1]
 FICHES[1]["niche"] = "Sport · " + FICHES[1]["niche"].split(" · ", 1)[1]
+_DESIGN = dict(
+    demande="Les lampes design sans fil et les objets « beaux et utiles » font partie des contenus les plus enregistrés sur Pinterest et TikTok ; la maison est la catégorie n° 1 des pubs Meta en 2026 (TrendTrack).",
+    modele="Marques de design accessible : on vend un objet qu'on a envie de montrer, qui règle un vrai problème du quotidien.",
+    observation="On veut un intérieur d'hôtel ou de restaurant chic, mais sans électricien, sans fils et sans gros budget.",
+    cible="Femmes et hommes de 25 à 45 ans, souvent en appartement ou locataires, qui soignent leur intérieur et achètent sur coup de cœur.",
+    pistes="Lampe de table sans fil · lampe de chevet à induction · applique aimantée · lampe photo · brosse soufflante · kit WC lavant · sacoche en cuir · cache-multiprise.",
+    c_passion="OUI : la déco, le design, prendre soin de soi et de son intérieur.",
+    c_unique="Design premium (métal doré, bois, verre), belle boîte, marque soignée.",
+    q3="Oui : vidéos « avant / après » d'une pièce, ambiance du soir, déballage.",
+    angle_pub="La pièce triste et froide, puis l'objet qui change tout en un geste, en 10 secondes.")
+def _design(court, nom, usage, univers, lien, usd, liv, revente, probleme, idee, eco, wow, prix, fourn, vig, q4, poids):
+    f = fiche(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, prix, fourn, vig, q4, poids=poids)
+    f.update(_DESIGN); f["vigilance"] = vig; f["niche"] = univers + " · " + usage; return f
+_A = "https://www.alibaba.com/product-detail/"
 FICHES += [
+ _design("Lampe de table dorée sans fil", "Lampe de table rechargeable en métal doré, lumière chaude réglable au toucher", "éclairer sa table sans prise", "Lumière design",
+   _A + "decorative-rechargeable-LED-table-night-lights_1600626990642.html", 5.98, 7, 39.90,
+   "On dîne sous la lumière froide du plafonnier, il n'y a pas de prise au milieu de la table, et les bougies coulent et sont dangereuses avec les enfants.",
+   "Je veux permettre à chacun d'avoir l'ambiance d'un restaurant chic à la maison, avec une lampe sans fil qu'on pose où on veut.",
+   "OUI : remplace les bougies et une lampe à brancher.", "La table qui passe de la lumière froide à l'ambiance restaurant, d'un toucher.",
+   "NegoLuz environ 47,94 € ; lampes sans fil de marque 50 à 150 €.", "5,98 $ (5 à 99), 5,65 $ dès 100.",
+   "Produit électrique rechargeable : marquage CE, notice en français, inscription au recyclage des appareils (DEEE).",
+   "OUI : objet coup de cœur très partagé sur Pinterest, achat cadeau.", "Colis d'environ 750 g."),
+ _design("Lampe de chevet à induction", "Lampe de chevet tactile façon hôtel de luxe, socle qui recharge le téléphone sans fil", "recharger son téléphone et lire au lit", "Lumière design",
+   _A + "Touch-Rechargeable-portable-modern-hotel-luxury_62380394938.html", 12.42, 7, 44.90,
+   "La table de nuit est pleine de câbles, et le téléphone traîne à plat au réveil.",
+   "Je veux permettre à chacun d'avoir une table de nuit d'hôtel de luxe : une seule lampe qui éclaire et recharge le téléphone, sans fil.",
+   "OUI : lampe + chargeur en un seul objet.", "On pose le téléphone, il charge, et la lampe s'allume d'un toucher.",
+   "47,99 à 69,98 € en France.", "12,42 $ (1 à 99), 11,27 $ dès 100.",
+   "Produit électrique avec chargeur à induction : marquage CE, compatibilité des téléphones, DEEE.",
+   "OUI : deux problèmes réglés d'un coup, look premium.", "Colis d'environ 1 kg."),
+ _design("Applique murale aimantée sans fil", "Applique rechargeable qui se clipse sur une plaque aimantée, tourne à 360° et s'allume au toucher", "éclairer sans électricien", "Lumière design",
+   _A + "Rechargeable-Touch-Magnetic-LED-Light-360_11000013900976.html", 6.66, 8, 34.90,
+   "Couloir, coin lecture ou tête de lit dans le noir, pas de prise, et interdit de percer quand on est locataire.",
+   "Je veux permettre aux locataires et à ceux qui n'ont pas de prise d'avoir une applique d'hôtel en 10 secondes, sans électricien ni perçage.",
+   "OUI : pas d'électricien, pas de travaux.", "On colle la plaque, on clipse la lampe, elle tourne et s'allume.",
+   "19,90 à 34,90 € en France.", "6,30 à 6,66 $ (2 minimum).",
+   "Produit électrique rechargeable : marquage CE, DEEE ; vérifier la tenue de l'adhésif.",
+   "OUI : énorme cible de locataires, effet waouh immédiat.", "Colis d'environ 500 g."),
+ _design("Lampe photo personnalisée", "Plaque transparente gravée avec la photo du client, qui s'illumine sur un socle en bois", "offrir un cadeau qui fait pleurer", "Cadeau personnalisé",
+   _A + "Personalized-custom-creative-made-engraved-luminous_1600684887832.html", 2.68, 8, 34.90,
+   "On ne sait jamais quoi offrir (fête des mères, Saint-Valentin, anniversaire) et on finit avec un cadeau sans émotion.",
+   "Je veux permettre à ceux qui cherchent un cadeau de faire pleurer de joie, avec leur photo gravée en lumière.",
+   "OUI : un cadeau unique pour moins de 35 €.", "Éteinte, une plaque vide ; allumée, la photo apparaît. Les gens pleurent en vidéo.",
+   "Holograbme 34,90 €, Celekado 44,90 €.", "2,68 $ (10 à 199), gravure faite par le fournisseur.",
+   "Chaque commande demande d'envoyer la photo au fournisseur : prévoir un formulaire simple ; produit électrique (DEEE).",
+   "OUI : émotion maximale, ventes toute l'année (fêtes, anniversaires).", "Colis d'environ 500 g."),
  _prendre(_M, "Kit WC lavant sans électricité", "Salle de bain"),
- _prendre(_M, "Boîte cache-multiprise", "Salon"),
- _prendre(_M, "Étagère invisible pour livres (lot de 3)", "Déco"),
- _prendre(_M, "Égouttoir enroulable doré", "Cuisine"),
  _prendre(_O, "Sacoche en cuir homme", "Mode homme"),
- _prendre(_O, "Coffret cachet de cire", "Papeterie"),
- _prendre(_M, "Classeur budget à enveloppes", "Budget"),
- fiche("Kit punch needle", "Kit de broderie en relief : tambour, aiguille punch, laine, toile avec un motif mignon, vidéo en français", "créer un bel objet fait main",
-       "https://www.alibaba.com/product-detail/Punch-Needle-Embroidery-Beginner-Kit-DIY_1600444432316.html", 3.60, 9, 34.90,
-       "Le soir, on passe des heures sur son téléphone sans vraiment se détendre.",
-       "Je veux permettre à ceux qui veulent décrocher des écrans de créer un bel objet de déco en une soirée, avec un kit simple et une vidéo.",
-       "OUI : une activité qui dure plusieurs soirées, moins chère qu'un atelier (40 à 60 €).", "La laine qui forme des boucles en relief à chaque coup d'aiguille : très satisfaisant en vidéo.",
-       "Nature & Découvertes 11,99 € (basique) ; kits premium KnitPro 49,85 €, Modern Crafter 65 €.", "3,60 $ (10 à 99), 3,30 $ dès 100.",
-       "Soigner les motifs et la boîte pour se démarquer des kits d'entrée de gamme ; tourner la vidéo en français.",
-       "OUI : tendance Pinterest « loisirs manuels contre les écrans », achat cadeau toute l'année."),
+ _design("Brosse soufflante", "Brosse soufflante 3 en 1 : sèche, lisse et donne du volume en une seule étape", "faire un brushing de salon chez soi", "Beauté cheveux",
+   _A + "Hot-Styling-Tools-one-step-volumizer_1600089481377.html", 8.98, 7, 39.90,
+   "Un brushing chez le coiffeur coûte 25 à 40 €, et à la maison il faut 45 minutes avec sèche-cheveux, brosse et lisseur.",
+   "Je veux permettre aux femmes qui manquent de temps d'avoir un brushing de salon en 10 minutes, avec un seul appareil.",
+   "OUI : remplace des brushings à 25-40 €.", "Cheveux mouillés, puis brushing de salon en 10 minutes, d'une seule main.",
+   "BaByliss, Remington, Rowenta : 27,78 à 41,10 €.", "8,98 $ (2 à 999).",
+   "Appareil chauffant : marquage CE obligatoire, prise européenne, notice en français, DEEE ; ne pas copier le design d'une marque.",
+   "OUI : achat coup de cœur très fort, cible énorme.", "Colis d'environ 750 g."),
+ _prendre(_M, "Boîte cache-multiprise", "Salon"),
 ]
-for _f in FICHES[-1:]:
-    _f["niche"] = "Loisirs créatifs · " + _f["niche"].split(" · ", 1)[1]
-    _f.update(
-        demande="Pinterest, rapport Loisirs 2026 : les gens échangent du temps d'écran contre des loisirs manuels ; kits premium vendus 50 à 65 €.",
-        modele="The Woobles et We Are Knitters : des kits créatifs vendus avec de belles vidéos et une communauté.",
-        observation="Sur Pinterest et Instagram, les loisirs créatifs « cosy » explosent ; beaucoup veulent décrocher des écrans le soir.",
-        cible="Femmes et hommes de 20 à 45 ans qui cherchent une activité calme et créative le soir ou à offrir.",
-        question="Comment décrocher des écrans le soir avec une activité simple et gratifiante ?",
-        pistes="Punch needle · broderie · macramé · crochet · feutrage.",
-        c_passion="OUI : la déco, le fait main, la détente.",
-        c_unique="Motifs exclusifs, belle boîte, vidéo pas à pas en français.",
-        q3="Oui : vidéos de création en accéléré, avant / après, motifs du mois.",
-        angle_pub="La toile vierge, puis le coussin fini en accéléré, en 15 secondes.",
-        vigilance="Soigner les motifs et la boîte pour se démarquer des kits d'entrée de gamme ; tourner la vidéo en français.")
+
 for _f in FICHES:
     _f["cout"] = round(_f["usd"] * 0.86, 2)
     _f["marge"] = round(_f["revente"] - _f["cout"], 2)
@@ -106,4 +135,4 @@ SOURCES = [
 ]
 _vus = {u for _, u in SOURCES}
 SOURCES += [s for s in _mai.SOURCES + _org.SOURCES if s[1] not in _vus and not _vus.add(s[1])]
-SOURCES += [("LoveCrafts, kit punch needle KnitPro", "https://www.lovecrafts.com/fr-fr/p/knitpro-punch-needle-the-earthy-kit")]
+

@@ -50,16 +50,16 @@ U = [
   "Prix séparés dans la boutique : 49,90 + 39,90 = 89,80 €.",
   "https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html", 16.35, 14.06, 74.90,
   "Kit WC 8,50 $ (lien) + pommeau 7,85 $. Marge 60,84 €."),
- ("Pack Maison nette : égouttoir enroulable + boîte cache-multiprise", "Égouttoir enroulable doré",
-  "La cuisine et le salon dégagés en une commande.",
-  "Prix séparés dans la boutique : 34,90 + 34,90 = 69,80 €.",
-  "https://www.alibaba.com/product-detail/China-factory-gold-Roll-up-Dish_1601010537663.html", 7.70, 6.62, 59.90,
-  "Égouttoir 4,20 $ (lien) + boîte 3,50 $. Marge 53,28 €."),
- ("Pack Papeterie chic : coffret cachet de cire + classeur budget", "Coffret cachet de cire",
-  "Écrire, offrir et gérer son budget avec de beaux objets.",
-  "Prix séparés dans la boutique : 29,90 + 34,90 = 64,80 €.",
-  "https://www.alibaba.com/product-detail/Pink-Wax-Seal-Stamp-Kit-with_1601147778139.html", 5.89, 5.07, 54.90,
-  "Cachet 2,90 $ (lien) + classeur 2,99 $. Marge 49,83 €."),
+ ("Pack Ambiance : lampe de table dorée + applique murale aimantée", "Lampe de table dorée sans fil",
+  "Une ambiance d'hôtel dans tout le salon, sans un seul fil.",
+  "Prix séparés dans la boutique : 39,90 + 34,90 = 74,80 €.",
+  "https://www.alibaba.com/product-detail/decorative-rechargeable-LED-table-night-lights_1600626990642.html", 12.64, 10.87, 59.90,
+  "Lampe 5,98 $ (lien) + applique 6,66 $. Marge 49,03 €."),
+ ("Pack Chambre d'hôtel : lampe de chevet à induction + applique murale aimantée", "Lampe de chevet à induction",
+  "Une chambre d'hôtel de luxe, le téléphone qui charge, sans électricien.",
+  "Prix séparés dans la boutique : 44,90 + 34,90 = 79,80 €.",
+  "https://www.alibaba.com/product-detail/Touch-Rechargeable-portable-modern-hotel-luxury_62380394938.html", 19.08, 16.41, 64.90,
+  "Lampe de chevet 12,42 $ (lien) + applique 6,66 $. Marge 48,49 €."),
 ]
 with open(os.path.join(ICI, "upsells.py"), "w") as out:
     out.write("# 2e produits (packs à plus de 50 €) : généré par construire_tableau.py.\n"
@@ -83,7 +83,7 @@ for k, f in enumerate(FICHES):
     n = note(6 + k, *f["criteres"], f["cout"], f["liv"], f["revente"])
     L.append(f"| {k + 1} | {f['niche']} | [{f['court']}]({f['lien']}) | {eur(f['cout'])} | {eur(f['revente'])} | {eur(f['marge'])} | {str(n).replace('.', ',')} |")
 L += ["", "La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. "
-      "10 idées dans 9 univers différents : chacune règle un problème du quotidien avec un effet waouh en vidéo.", ""]
+      "Des objets beaux qu'on a envie de montrer, qui règlent un vrai problème : l'achat coup de cœur « il me le faut ».", ""]
 ETAPES = [("modele", "Boutique modèle"), ("demande", "Demande en France"), ("observation", "Observation"), ("cible", "Cible et désir"),
           ("probleme", "Problème"), ("question", "Question à résoudre"), ("pistes", "Pistes produit"), ("idee", "**Idée de business**"),
           ("c_probleme", "Solution à un problème"), ("c_economique", "Économique"), ("c_passion", "Besoin / passion"),

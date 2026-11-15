@@ -15,16 +15,16 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 |---|---|---|---|---|---|---|
 | 1 | Salle de bain · avoir une eau plus douce sous la douche | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) | 6,75 € | 39,90 € | 33,15 € | 9,5 |
 | 2 | Sport · courir sans être ébloui | [Lunettes de running polarisées](https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html) | 6,43 € | 34,90 € | 28,47 € | 8,5 |
-| 3 | Salle de bain · être plus propre aux toilettes | [Kit WC lavant sans électricité](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) | 7,31 € | 49,90 € | 42,59 € | 8,5 |
-| 4 | Salon · cacher les câbles | [Boîte cache-multiprise](https://www.alibaba.com/product-detail/Cable-Management-Box-Organizer-Bamboo-Lid_1600989455921.html) | 3,01 € | 34,90 € | 31,89 € | 8,5 |
-| 5 | Déco · ranger ses livres avec style | [Étagère invisible pour livres (lot de 3)](https://www.alibaba.com/product-detail/Floating-Shelf-Bracket-Heavy-Duty-Hidden_1601291464842.html) | 7,74 € | 39,90 € | 32,16 € | 8,5 |
-| 6 | Cuisine · gagner de la place dans la cuisine | [Égouttoir enroulable doré](https://www.alibaba.com/product-detail/China-factory-gold-Roll-up-Dish_1601010537663.html) | 3,61 € | 34,90 € | 31,29 € | 8,5 |
-| 7 | Mode homme · garder ses affaires sur soi | [Sacoche en cuir homme](https://www.alibaba.com/product-detail/MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html) | 10,75 € | 49,90 € | 39,15 € | 8,5 |
-| 8 | Papeterie · personnaliser ses lettres et cadeaux | [Coffret cachet de cire](https://www.alibaba.com/product-detail/Pink-Wax-Seal-Stamp-Kit-with_1601147778139.html) | 2,49 € | 29,90 € | 27,41 € | 8,5 |
-| 9 | Budget · tenir son budget | [Classeur budget à enveloppes](https://www.alibaba.com/product-detail/Marble-A6-Budget-Binder-with-Zip_1600733904045.html) | 2,57 € | 34,90 € | 32,33 € | 8,5 |
-| 10 | Loisirs créatifs · créer un bel objet fait main | [Kit punch needle](https://www.alibaba.com/product-detail/Punch-Needle-Embroidery-Beginner-Kit-DIY_1600444432316.html) | 3,10 € | 34,90 € | 31,80 € | 8,5 |
+| 3 | Lumière design · éclairer sa table sans prise | [Lampe de table dorée sans fil](https://www.alibaba.com/product-detail/decorative-rechargeable-LED-table-night-lights_1600626990642.html) | 5,14 € | 39,90 € | 34,76 € | 8,5 |
+| 4 | Lumière design · recharger son téléphone et lire au lit | [Lampe de chevet à induction](https://www.alibaba.com/product-detail/Touch-Rechargeable-portable-modern-hotel-luxury_62380394938.html) | 10,68 € | 44,90 € | 34,22 € | 8,5 |
+| 5 | Lumière design · éclairer sans électricien | [Applique murale aimantée sans fil](https://www.alibaba.com/product-detail/Rechargeable-Touch-Magnetic-LED-Light-360_11000013900976.html) | 5,73 € | 34,90 € | 29,17 € | 8,5 |
+| 6 | Cadeau personnalisé · offrir un cadeau qui fait pleurer | [Lampe photo personnalisée](https://www.alibaba.com/product-detail/Personalized-custom-creative-made-engraved-luminous_1600684887832.html) | 2,30 € | 34,90 € | 32,60 € | 8,5 |
+| 7 | Salle de bain · être plus propre aux toilettes | [Kit WC lavant sans électricité](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) | 7,31 € | 49,90 € | 42,59 € | 8,5 |
+| 8 | Mode homme · garder ses affaires sur soi | [Sacoche en cuir homme](https://www.alibaba.com/product-detail/MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html) | 10,75 € | 49,90 € | 39,15 € | 8,5 |
+| 9 | Beauté cheveux · faire un brushing de salon chez soi | [Brosse soufflante](https://www.alibaba.com/product-detail/Hot-Styling-Tools-one-step-volumizer_1600089481377.html) | 7,72 € | 39,90 € | 32,18 € | 8,5 |
+| 10 | Salon · cacher les câbles | [Boîte cache-multiprise](https://www.alibaba.com/product-detail/Cable-Management-Box-Organizer-Bamboo-Lid_1600989455921.html) | 3,01 € | 34,90 € | 31,89 € | 8,5 |
 
-La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. 10 idées dans 9 univers différents : chacune règle un problème du quotidien avec un effet waouh en vidéo.
+La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Des objets beaux qu'on a envie de montrer, qui règlent un vrai problème : l'achat coup de cœur « il me le faut ».
 
 ## 1. Salle de bain · avoir une eau plus douce sous la douche — Pommeau de douche filtrant
 
@@ -84,7 +84,123 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | 7,48 $ (500 minimum), logo dès 100. |
 | À vérifier | Minimum de 500 pièces : à négocier avec le sourcing Scutify ; vérifier la norme CE et la catégorie de filtre. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
 
-## 3. Salle de bain · être plus propre aux toilettes — Kit WC lavant sans électricité
+## 3. Lumière design · éclairer sa table sans prise — Lampe de table dorée sans fil
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/decorative-rechargeable-LED-table-night-lights_1600626990642.html) · coût 5,14 € (5,98 $ × 0,86) · revente 39,90 € · marge 34,76 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Marques de design accessible : on vend un objet qu'on a envie de montrer, qui règle un vrai problème du quotidien. |
+| Demande en France | Les lampes design sans fil et les objets « beaux et utiles » font partie des contenus les plus enregistrés sur Pinterest et TikTok ; la maison est la catégorie n° 1 des pubs Meta en 2026 (TrendTrack). |
+| Observation | On veut un intérieur d'hôtel ou de restaurant chic, mais sans électricien, sans fils et sans gros budget. |
+| Cible et désir | Femmes et hommes de 25 à 45 ans, souvent en appartement ou locataires, qui soignent leur intérieur et achètent sur coup de cœur. |
+| Problème | On dîne sous la lumière froide du plafonnier, il n'y a pas de prise au milieu de la table, et les bougies coulent et sont dangereuses avec les enfants. |
+| Question à résoudre | Comment éclairer sa table sans prise simplement, avec un bel objet ? |
+| Pistes produit | Lampe de table sans fil · lampe de chevet à induction · applique aimantée · lampe photo · brosse soufflante · kit WC lavant · sacoche en cuir · cache-multiprise. |
+| **Idée de business** | Je veux permettre à chacun d'avoir l'ambiance d'un restaurant chic à la maison, avec une lampe sans fil qu'on pose où on veut. |
+| Solution à un problème | OUI : on dîne sous la lumière froide du plafonnier, il n'y a pas de prise au milieu de la table, et les bougies coulent et sont dangereuses avec les enfants. |
+| Économique | OUI : remplace les bougies et une lampe à brancher. |
+| Besoin / passion | OUI : la déco, le design, prendre soin de soi et de son intérieur. |
+| Effet wow | La table qui passe de la lumière froide à l'ambiance restaurant, d'un toucher. |
+| Unique | Design premium (métal doré, bois, verre), belle boîte, marque soignée. |
+| Poids / volume | Colis d'environ 750 g. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos « avant / après » d'une pièce, ambiance du soir, déballage. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : objet coup de cœur très partagé sur Pinterest, achat cadeau. |
+| Prix en France | NegoLuz environ 47,94 € ; lampes sans fil de marque 50 à 150 €. |
+| Angle pub / Instagram | La pièce triste et froide, puis l'objet qui change tout en un geste, en 10 secondes. |
+| Fournisseur | 5,98 $ (5 à 99), 5,65 $ dès 100. |
+| À vérifier | Produit électrique rechargeable : marquage CE, notice en français, inscription au recyclage des appareils (DEEE). |
+
+## 4. Lumière design · recharger son téléphone et lire au lit — Lampe de chevet à induction
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Touch-Rechargeable-portable-modern-hotel-luxury_62380394938.html) · coût 10,68 € (12,42 $ × 0,86) · revente 44,90 € · marge 34,22 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Marques de design accessible : on vend un objet qu'on a envie de montrer, qui règle un vrai problème du quotidien. |
+| Demande en France | Les lampes design sans fil et les objets « beaux et utiles » font partie des contenus les plus enregistrés sur Pinterest et TikTok ; la maison est la catégorie n° 1 des pubs Meta en 2026 (TrendTrack). |
+| Observation | On veut un intérieur d'hôtel ou de restaurant chic, mais sans électricien, sans fils et sans gros budget. |
+| Cible et désir | Femmes et hommes de 25 à 45 ans, souvent en appartement ou locataires, qui soignent leur intérieur et achètent sur coup de cœur. |
+| Problème | La table de nuit est pleine de câbles, et le téléphone traîne à plat au réveil. |
+| Question à résoudre | Comment recharger son téléphone et lire au lit simplement, avec un bel objet ? |
+| Pistes produit | Lampe de table sans fil · lampe de chevet à induction · applique aimantée · lampe photo · brosse soufflante · kit WC lavant · sacoche en cuir · cache-multiprise. |
+| **Idée de business** | Je veux permettre à chacun d'avoir une table de nuit d'hôtel de luxe : une seule lampe qui éclaire et recharge le téléphone, sans fil. |
+| Solution à un problème | OUI : la table de nuit est pleine de câbles, et le téléphone traîne à plat au réveil. |
+| Économique | OUI : lampe + chargeur en un seul objet. |
+| Besoin / passion | OUI : la déco, le design, prendre soin de soi et de son intérieur. |
+| Effet wow | On pose le téléphone, il charge, et la lampe s'allume d'un toucher. |
+| Unique | Design premium (métal doré, bois, verre), belle boîte, marque soignée. |
+| Poids / volume | Colis d'environ 1 kg. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos « avant / après » d'une pièce, ambiance du soir, déballage. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : deux problèmes réglés d'un coup, look premium. |
+| Prix en France | 47,99 à 69,98 € en France. |
+| Angle pub / Instagram | La pièce triste et froide, puis l'objet qui change tout en un geste, en 10 secondes. |
+| Fournisseur | 12,42 $ (1 à 99), 11,27 $ dès 100. |
+| À vérifier | Produit électrique avec chargeur à induction : marquage CE, compatibilité des téléphones, DEEE. |
+
+## 5. Lumière design · éclairer sans électricien — Applique murale aimantée sans fil
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Rechargeable-Touch-Magnetic-LED-Light-360_11000013900976.html) · coût 5,73 € (6,66 $ × 0,86) · revente 34,90 € · marge 29,17 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Marques de design accessible : on vend un objet qu'on a envie de montrer, qui règle un vrai problème du quotidien. |
+| Demande en France | Les lampes design sans fil et les objets « beaux et utiles » font partie des contenus les plus enregistrés sur Pinterest et TikTok ; la maison est la catégorie n° 1 des pubs Meta en 2026 (TrendTrack). |
+| Observation | On veut un intérieur d'hôtel ou de restaurant chic, mais sans électricien, sans fils et sans gros budget. |
+| Cible et désir | Femmes et hommes de 25 à 45 ans, souvent en appartement ou locataires, qui soignent leur intérieur et achètent sur coup de cœur. |
+| Problème | Couloir, coin lecture ou tête de lit dans le noir, pas de prise, et interdit de percer quand on est locataire. |
+| Question à résoudre | Comment éclairer sans électricien simplement, avec un bel objet ? |
+| Pistes produit | Lampe de table sans fil · lampe de chevet à induction · applique aimantée · lampe photo · brosse soufflante · kit WC lavant · sacoche en cuir · cache-multiprise. |
+| **Idée de business** | Je veux permettre aux locataires et à ceux qui n'ont pas de prise d'avoir une applique d'hôtel en 10 secondes, sans électricien ni perçage. |
+| Solution à un problème | OUI : couloir, coin lecture ou tête de lit dans le noir, pas de prise, et interdit de percer quand on est locataire. |
+| Économique | OUI : pas d'électricien, pas de travaux. |
+| Besoin / passion | OUI : la déco, le design, prendre soin de soi et de son intérieur. |
+| Effet wow | On colle la plaque, on clipse la lampe, elle tourne et s'allume. |
+| Unique | Design premium (métal doré, bois, verre), belle boîte, marque soignée. |
+| Poids / volume | Colis d'environ 500 g. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos « avant / après » d'une pièce, ambiance du soir, déballage. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : énorme cible de locataires, effet waouh immédiat. |
+| Prix en France | 19,90 à 34,90 € en France. |
+| Angle pub / Instagram | La pièce triste et froide, puis l'objet qui change tout en un geste, en 10 secondes. |
+| Fournisseur | 6,30 à 6,66 $ (2 minimum). |
+| À vérifier | Produit électrique rechargeable : marquage CE, DEEE ; vérifier la tenue de l'adhésif. |
+
+## 6. Cadeau personnalisé · offrir un cadeau qui fait pleurer — Lampe photo personnalisée
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Personalized-custom-creative-made-engraved-luminous_1600684887832.html) · coût 2,30 € (2,68 $ × 0,86) · revente 34,90 € · marge 32,60 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Marques de design accessible : on vend un objet qu'on a envie de montrer, qui règle un vrai problème du quotidien. |
+| Demande en France | Les lampes design sans fil et les objets « beaux et utiles » font partie des contenus les plus enregistrés sur Pinterest et TikTok ; la maison est la catégorie n° 1 des pubs Meta en 2026 (TrendTrack). |
+| Observation | On veut un intérieur d'hôtel ou de restaurant chic, mais sans électricien, sans fils et sans gros budget. |
+| Cible et désir | Femmes et hommes de 25 à 45 ans, souvent en appartement ou locataires, qui soignent leur intérieur et achètent sur coup de cœur. |
+| Problème | On ne sait jamais quoi offrir (fête des mères, Saint-Valentin, anniversaire) et on finit avec un cadeau sans émotion. |
+| Question à résoudre | Comment offrir un cadeau qui fait pleurer simplement, avec un bel objet ? |
+| Pistes produit | Lampe de table sans fil · lampe de chevet à induction · applique aimantée · lampe photo · brosse soufflante · kit WC lavant · sacoche en cuir · cache-multiprise. |
+| **Idée de business** | Je veux permettre à ceux qui cherchent un cadeau de faire pleurer de joie, avec leur photo gravée en lumière. |
+| Solution à un problème | OUI : on ne sait jamais quoi offrir (fête des mères, Saint-Valentin, anniversaire) et on finit avec un cadeau sans émotion. |
+| Économique | OUI : un cadeau unique pour moins de 35 €. |
+| Besoin / passion | OUI : la déco, le design, prendre soin de soi et de son intérieur. |
+| Effet wow | Éteinte, une plaque vide ; allumée, la photo apparaît. Les gens pleurent en vidéo. |
+| Unique | Design premium (métal doré, bois, verre), belle boîte, marque soignée. |
+| Poids / volume | Colis d'environ 500 g. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos « avant / après » d'une pièce, ambiance du soir, déballage. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : émotion maximale, ventes toute l'année (fêtes, anniversaires). |
+| Prix en France | Holograbme 34,90 €, Celekado 44,90 €. |
+| Angle pub / Instagram | La pièce triste et froide, puis l'objet qui change tout en un geste, en 10 secondes. |
+| Fournisseur | 2,68 $ (10 à 199), gravure faite par le fournisseur. |
+| À vérifier | Chaque commande demande d'envoyer la photo au fournisseur : prévoir un formulaire simple ; produit électrique (DEEE). |
+
+## 7. Salle de bain · être plus propre aux toilettes — Kit WC lavant sans électricité
 
 [Lien Alibaba](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) · coût 7,31 € (8,5 $ × 0,86) · revente 49,90 € · marge 42,59 €
 
@@ -113,94 +229,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | 8,50 $ (50 à 999), logo dès 300. |
 | À vérifier | Vérifier la compatibilité avec les toilettes françaises et fournir le raccord ; colis d'environ 2 kg. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
 
-## 4. Salon · cacher les câbles — Boîte cache-multiprise
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Cable-Management-Box-Organizer-Bamboo-Lid_1600989455921.html) · coût 3,01 € (3,5 $ × 0,86) · revente 34,90 € · marge 31,89 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | Multiprises et câbles visibles sous le bureau ou derrière la télé : moche, poussiéreux, dangereux avec des enfants ou des animaux. |
-| Question à résoudre | Comment cacher les câbles simplement, avec un bel objet ? |
-| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre à chacun de cacher multiprises et câbles dans une jolie boîte, en 2 minutes. |
-| Solution à un problème | OUI : multiprises et câbles visibles sous le bureau ou derrière la télé : moche, poussiéreux, dangereux avec des enfants ou des animaux. |
-| Économique | OUI : maison plus nette et plus sûre. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Le nid de câbles, puis la jolie boîte : avant / après immédiat. |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Colis d'environ 1 kg. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : problème visible dans toutes les maisons, très partagé sur Pinterest. |
-| Prix en France | Leroy Merlin 23,29 € (barré 41,92 €) ; Pearl 9,95 à 43,95 €. |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 3,50 $ (50 à 299), logo dès 500. |
-| À vérifier | Vérifier la taille pour les multiprises françaises (prises larges). Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
-
-## 5. Déco · ranger ses livres avec style — Étagère invisible pour livres (lot de 3)
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Floating-Shelf-Bracket-Heavy-Duty-Hidden_1601291464842.html) · coût 7,74 € (9,0 $ × 0,86) · revente 39,90 € · marge 32,16 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | Les livres s'entassent faute de place dans la bibliothèque. |
-| Question à résoudre | Comment ranger ses livres avec style simplement, avec un bel objet ? |
-| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre aux lecteurs de ranger leurs livres au mur, avec un effet « livres qui flottent ». |
-| Solution à un problème | OUI : les livres s'entassent faute de place dans la bibliothèque. |
-| Économique | OUI : pas besoin d'acheter une bibliothèque. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Les livres qui flottent : on se demande comment ça tient. |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Colis d'environ 750 g. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : effet waouh immédiat, classique de Pinterest. |
-| Prix en France | Lot de 3 en acrylique 57,46 € (ManoMano) ; étagères simples 13 à 24 €. |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 3 $ le support (200 minimum). |
-| À vérifier | Fournir vis et chevilles ; indiquer le poids maximum par support. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
-
-## 6. Cuisine · gagner de la place dans la cuisine — Égouttoir enroulable doré
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/China-factory-gold-Roll-up-Dish_1601010537663.html) · coût 3,61 € (4,2 $ × 0,86) · revente 34,90 € · marge 31,29 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | Petit plan de travail encombré par l'égouttoir et la vaisselle qui sèche. |
-| Question à résoudre | Comment gagner de la place dans la cuisine simplement, avec un bel objet ? |
-| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre à ceux qui ont une petite cuisine de libérer leur plan de travail avec un égouttoir qui se range en rouleau. |
-| Solution à un problème | OUI : petit plan de travail encombré par l'égouttoir et la vaisselle qui sèche. |
-| Économique | OUI : remplace un égouttoir encombrant. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Il se déroule sur l'évier, on y pose la vaisselle, puis il s'enroule dans le tiroir. |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Colis d'environ 750 g. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : très visuel, utile tous les jours, look premium doré. |
-| Prix en France | Pearl 22,95 à 39,95 € ; Emuca 25,90 € ; Joseph Joseph 33,24 à 41,99 €. |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 4,20 $ (100 à 499), logo dès 400. |
-| À vérifier | Vérifier les dimensions par rapport aux éviers français. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
-
-## 7. Mode homme · garder ses affaires sur soi — Sacoche en cuir homme
+## 8. Mode homme · garder ses affaires sur soi — Sacoche en cuir homme
 
 [Lien Alibaba](https://www.alibaba.com/product-detail/MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html) · coût 10,75 € (12,5 $ × 0,86) · revente 49,90 € · marge 39,15 €
 
@@ -229,38 +258,38 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | Cuir véritable, 12,50 $ (50 à 499), logo accepté. |
 | À vérifier | Demander un certificat de matière et un échantillon avant d'écrire « cuir véritable » ; aucun design qui copie une marque. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
 
-## 8. Papeterie · personnaliser ses lettres et cadeaux — Coffret cachet de cire
+## 9. Beauté cheveux · faire un brushing de salon chez soi — Brosse soufflante
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Pink-Wax-Seal-Stamp-Kit-with_1601147778139.html) · coût 2,49 € (2,9 $ × 0,86) · revente 29,90 € · marge 27,41 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Hot-Styling-Tools-one-step-volumizer_1600089481377.html) · coût 7,72 € (8,98 $ × 0,86) · revente 39,90 € · marge 32,18 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
-| Demande en France | L'organisation de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. |
-| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
-| Cible et désir | Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique. |
-| Problème | Les cartes et les paquets cadeaux faits maison manquent de finition. |
-| Question à résoudre | Comment personnaliser ses lettres et cadeaux simplement, avec un bel objet ? |
-| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · pochette ordinateur · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir. |
-| **Idée de business** | Je veux permettre à ceux qui aiment écrire et offrir de donner une touche élégante à chaque lettre et chaque cadeau. |
-| Solution à un problème | OUI : les cartes et les paquets cadeaux faits maison manquent de finition. |
-| Économique | OUI : remplace des cartes et emballages de luxe. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Le cachet qui se décolle de la cire, très partagé en vidéo. |
-| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Léger, petit colis. |
+| Boutique modèle | Marques de design accessible : on vend un objet qu'on a envie de montrer, qui règle un vrai problème du quotidien. |
+| Demande en France | Les lampes design sans fil et les objets « beaux et utiles » font partie des contenus les plus enregistrés sur Pinterest et TikTok ; la maison est la catégorie n° 1 des pubs Meta en 2026 (TrendTrack). |
+| Observation | On veut un intérieur d'hôtel ou de restaurant chic, mais sans électricien, sans fils et sans gros budget. |
+| Cible et désir | Femmes et hommes de 25 à 45 ans, souvent en appartement ou locataires, qui soignent leur intérieur et achètent sur coup de cœur. |
+| Problème | Un brushing chez le coiffeur coûte 25 à 40 €, et à la maison il faut 45 minutes avec sèche-cheveux, brosse et lisseur. |
+| Question à résoudre | Comment faire un brushing de salon chez soi simplement, avec un bel objet ? |
+| Pistes produit | Lampe de table sans fil · lampe de chevet à induction · applique aimantée · lampe photo · brosse soufflante · kit WC lavant · sacoche en cuir · cache-multiprise. |
+| **Idée de business** | Je veux permettre aux femmes qui manquent de temps d'avoir un brushing de salon en 10 minutes, avec un seul appareil. |
+| Solution à un problème | OUI : un brushing chez le coiffeur coûte 25 à 40 €, et à la maison il faut 45 minutes avec sèche-cheveux, brosse et lisseur. |
+| Économique | OUI : remplace des brushings à 25-40 €. |
+| Besoin / passion | OUI : la déco, le design, prendre soin de soi et de son intérieur. |
+| Effet wow | Cheveux mouillés, puis brushing de salon en 10 minutes, d'une seule main. |
+| Unique | Design premium (métal doré, bois, verre), belle boîte, marque soignée. |
+| Poids / volume | Colis d'environ 750 g. |
 | 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : tendance Pinterest « Pen Pals » (+105 % « cute stamps »). |
-| Prix en France | Kit cachet de cire 40,94 € (Greenweez) ; kits d'entrée de gamme dès 3,59 € (Action). |
-| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 2,90 $ (10 à 49), lettre au choix. |
-| À vérifier | Proposer chaque lettre de l'alphabet en stock. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos « avant / après » d'une pièce, ambiance du soir, déballage. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : achat coup de cœur très fort, cible énorme. |
+| Prix en France | BaByliss, Remington, Rowenta : 27,78 à 41,10 €. |
+| Angle pub / Instagram | La pièce triste et froide, puis l'objet qui change tout en un geste, en 10 secondes. |
+| Fournisseur | 8,98 $ (2 à 999). |
+| À vérifier | Appareil chauffant : marquage CE obligatoire, prise européenne, notice en français, DEEE ; ne pas copier le design d'une marque. |
 
-## 9. Budget · tenir son budget — Classeur budget à enveloppes
+## 10. Salon · cacher les câbles — Boîte cache-multiprise
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Marble-A6-Budget-Binder-with-Zip_1600733904045.html) · coût 2,57 € (2,99 $ × 0,86) · revente 34,90 € · marge 32,33 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Cable-Management-Box-Organizer-Bamboo-Lid_1600989455921.html) · coût 3,01 € (3,5 $ × 0,86) · revente 34,90 € · marge 31,89 €
 
 | Étape | Réponse |
 |---|---|
@@ -268,61 +297,32 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
 | Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
 | Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
-| Problème | L'argent file sans qu'on sache où ; on n'arrive pas à mettre de côté. |
-| Question à résoudre | Comment tenir son budget simplement, avec un bel objet ? |
+| Problème | Multiprises et câbles visibles sous le bureau ou derrière la télé : moche, poussiéreux, dangereux avec des enfants ou des animaux. |
+| Question à résoudre | Comment cacher les câbles simplement, avec un bel objet ? |
 | Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
-| **Idée de business** | Je veux permettre à ceux qui veulent reprendre leur budget en main de suivre la méthode des enveloppes avec un joli classeur. |
-| Solution à un problème | OUI : l'argent file sans qu'on sache où ; on n'arrive pas à mettre de côté. |
-| Économique | OUI : aide à économiser bien plus que son prix. |
+| **Idée de business** | Je veux permettre à chacun de cacher multiprises et câbles dans une jolie boîte, en 2 minutes. |
+| Solution à un problème | OUI : multiprises et câbles visibles sous le bureau ou derrière la télé : moche, poussiéreux, dangereux avec des enfants ou des animaux. |
+| Économique | OUI : maison plus nette et plus sûre. |
 | Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Le remplissage des enveloppes en vidéo, très partagé. |
+| Effet wow | Le nid de câbles, puis la jolie boîte : avant / après immédiat. |
 | Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
-| Poids / volume | Léger, petit colis. |
+| Poids / volume | Colis d'environ 1 kg. |
 | 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
 | 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : tendance forte sur Pinterest et TikTok, achat très émotionnel. |
-| Prix en France | Kaufland 16,88 à 44,99 € ; Fruugo 18,16 € (prix conseillé 30,85 €). |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : problème visible dans toutes les maisons, très partagé sur Pinterest. |
+| Prix en France | Leroy Merlin 23,29 € (barré 41,92 €) ; Pearl 9,95 à 43,95 €. |
 | Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
-| Fournisseur | 2,99 $ (10 à 199), logo possible. |
-| À vérifier | Feuilles de budget à traduire et à imprimer en français. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
-
-## 10. Loisirs créatifs · créer un bel objet fait main — Kit punch needle
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Punch-Needle-Embroidery-Beginner-Kit-DIY_1600444432316.html) · coût 3,10 € (3,6 $ × 0,86) · revente 34,90 € · marge 31,80 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | The Woobles et We Are Knitters : des kits créatifs vendus avec de belles vidéos et une communauté. |
-| Demande en France | Pinterest, rapport Loisirs 2026 : les gens échangent du temps d'écran contre des loisirs manuels ; kits premium vendus 50 à 65 €. |
-| Observation | Sur Pinterest et Instagram, les loisirs créatifs « cosy » explosent ; beaucoup veulent décrocher des écrans le soir. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans qui cherchent une activité calme et créative le soir ou à offrir. |
-| Problème | Le soir, on passe des heures sur son téléphone sans vraiment se détendre. |
-| Question à résoudre | Comment décrocher des écrans le soir avec une activité simple et gratifiante ? |
-| Pistes produit | Punch needle · broderie · macramé · crochet · feutrage. |
-| **Idée de business** | Je veux permettre à ceux qui veulent décrocher des écrans de créer un bel objet de déco en une soirée, avec un kit simple et une vidéo. |
-| Solution à un problème | OUI : le soir, on passe des heures sur son téléphone sans vraiment se détendre. |
-| Économique | OUI : une activité qui dure plusieurs soirées, moins chère qu'un atelier (40 à 60 €). |
-| Besoin / passion | OUI : la déco, le fait main, la détente. |
-| Effet wow | La laine qui forme des boucles en relief à chaque coup d'aiguille : très satisfaisant en vidéo. |
-| Unique | Motifs exclusifs, belle boîte, vidéo pas à pas en français. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de création en accéléré, avant / après, motifs du mois. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : tendance Pinterest « loisirs manuels contre les écrans », achat cadeau toute l'année. |
-| Prix en France | Nature & Découvertes 11,99 € (basique) ; kits premium KnitPro 49,85 €, Modern Crafter 65 €. |
-| Angle pub / Instagram | La toile vierge, puis le coussin fini en accéléré, en 15 secondes. |
-| Fournisseur | 3,60 $ (10 à 99), 3,30 $ dès 100. |
-| À vérifier | Soigner les motifs et la boîte pour se démarquer des kits d'entrée de gamme ; tourner la vidéo en français. |
+| Fournisseur | 3,50 $ (50 à 299), logo dès 500. |
+| À vérifier | Vérifier la taille pour les multiprises françaises (prises larges). Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
 
 ## 2e produits (plus de 50 €)
 
 | Pack | Coût | Revente | Lien |
 |---|---|---|---|
 | Pack Salle de bain spa : kit WC lavant + pommeau filtrant | 14,06 € | 74,90 € | [Alibaba](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) |
-| Pack Maison nette : égouttoir enroulable + boîte cache-multiprise | 6,62 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/China-factory-gold-Roll-up-Dish_1601010537663.html) |
-| Pack Papeterie chic : coffret cachet de cire + classeur budget | 5,07 € | 54,90 € | [Alibaba](https://www.alibaba.com/product-detail/Pink-Wax-Seal-Stamp-Kit-with_1601147778139.html) |
+| Pack Ambiance : lampe de table dorée + applique murale aimantée | 10,87 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/decorative-rechargeable-LED-table-night-lights_1600626990642.html) |
+| Pack Chambre d'hôtel : lampe de chevet à induction + applique murale aimantée | 16,41 € | 64,90 € | [Alibaba](https://www.alibaba.com/product-detail/Touch-Rechargeable-portable-modern-hotel-luxury_62380394938.html) |
 
 ## Sources
 
@@ -359,6 +359,5 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 - [Fossil, étui passeport en cuir](https://www.fossil.com/fr-fr/products/cadeau-etui-pour-passeport-en-cuir/MLG0800212.html)
 - [Greenweez, kit cachet de cire](https://www.greenweez.com/produit/encre-de-chine-noir-india-ink-20-ml/1PEBE0625)
 - [Lacoste, sacoches et pochettes homme](https://www.lacoste.com/fr/lacoste/homme/sacs-petite-maroquinerie/sacoches-pochettes/)
-- [LoveCrafts, kit punch needle KnitPro](https://www.lovecrafts.com/fr-fr/p/knitpro-punch-needle-the-earthy-kit)
 
 Liens Alibaba et prix fournisseur vérifiés le 14/11/2026. Les prix en France viennent des sites cités et peuvent changer.
