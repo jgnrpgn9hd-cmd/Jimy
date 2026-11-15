@@ -66,15 +66,9 @@ for k, row in enumerate(rows):
                        lambda mm: mm.group(1) + f"<v>{v}</v>", ligne, count=1, flags=re.S)
     xml = xml[:m.start()] + ligne + xml[m.end():]
 
-# Colonne U « NOTE FINALE » retirée à la demande de Jairo : cellules vidées (style neutre du fond) et fusion U4:U5 supprimée.
-for n in range(4, 16):
-    xml = re.sub(rf'<c r="U{n}" s="\d+"(?: t="\w+")?(?:/>|>.*?</c>)', f'<c r="U{n}" s="4"/>', xml, count=1, flags=re.S)
-xml = xml.replace('<mergeCell ref="U4:U5"/>', '')
-xml = re.sub(r'<mergeCells count="(\d+)"', lambda m: f'<mergeCells count="{int(m.group(1)) - 1}"', xml, count=1)
-
-# Colonnes N à T (points de la note) : c'est la coach qui les remplit, on les laisse vides (style conservé).
+# Colonnes N à U (points et note finale) : c'est la coach qui les remplit, on les laisse vides (style conservé).
 for n in range(6, 16):
-    for col in "NOPQRST":
+    for col in "NOPQRSTU":
         xml = re.sub(rf'<c r="{col}{n}" s="(\d+)"(?: t="\w+")?(?:/>|>.*?</c>)', lambda m: f'<c r="{col}{n}" s="{m.group(1)}"/>', xml, count=1, flags=re.S)
 
 # Lien Alibaba visible en entier : colonne C plus large, retour à la ligne automatique, lignes 6-15 plus hautes.

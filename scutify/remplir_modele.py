@@ -18,14 +18,9 @@ SORTIE = os.path.join(ICI, "Support Scutify S01 - version avec analyses.xlsx")
 
 wb = load_workbook(MODELE)
 ws = wb["S1 BUSINESS IDEAS"]
-# Colonne U « NOTE FINALE » retirée à la demande de Jairo.
-from openpyxl.styles import PatternFill as _PF, Border as _B
-ws.unmerge_cells("U4:U5")
-for _r in range(4, 16):
-    _c = ws.cell(_r, 21); _c.value = None; _c.fill = _PF(); _c.border = _B()
 # Colonnes N à T : remplies par la coach, on les laisse vides.
 for _r in range(6, 16):
-    for _col in range(14, 21):
+    for _col in range(14, 22):
         ws.cell(_r, _col).value = None
 for k, row in enumerate(rows):
     r = 6 + k
