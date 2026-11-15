@@ -45,21 +45,21 @@ with open(os.path.join(ICI, "produits.py"), "w") as out:
 
 # 2. upsells.py : packs à plus de 50 € (liens vérifiés le 15/11/2026)
 U = [
- ("Ensemble VAURE : sweat à capuche + jogging de la même couleur", "Sweat à capuche épais",
-  "La tenue complète en 2 pièces, nette et assortie, sans réfléchir.",
-  "Prix séparés dans la boutique : 49,90 + 49,90 = 99,80 € ; chez On : 130 + 140 €.",
-  "https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html", 22.24, 19.13, 79.90,
-  "Sweat 9,89 $ (lien) + jogging 12,35 $ (1601254248379). Marge 60,77 €."),
  ("Pack 3 t-shirts oversize 240 g", "T-shirt oversize 240 g",
   "Toute la semaine en t-shirts épais qui gardent leur forme.",
   "Prix séparés dans la boutique : 3 × 34,90 = 104,70 € ; On Club-T 50 € l'unité.",
   "https://www.alibaba.com/product-detail/Custom-Logo-240g-Cotton-T-Shirt_1601269043057.html", 13.38, 11.51, 59.90,
   "3 × 4,46 $ (lien). Marge 48,39 €."),
- ("Pack Soleil : lunettes UV400 + casquette légère", "Lunettes de soleil UV400",
-  "Protégé du soleil de la tête aux yeux, avec le même look.",
+ ("Pack Cuisine : planche en titane + duo de moulins par gravité", "Planche à découper en titane",
+  "Une cuisine plus propre et plus pratique, avec deux beaux objets.",
+  "Prix séparés dans la boutique : 44,90 + 44,90 = 89,80 €.",
+  "https://www.alibaba.com/product-detail/100-Pure-Titanium-Cutting-Board-Antibacterial_1601511136490.html", 29.10, 25.03, 74.90,
+  "Planche 15,30 $ (lien) + moulins 13,80 $ (1600110095572). Marge 49,87 €."),
+ ("Pack Route : lunettes UV400 + support téléphone voiture", "Lunettes de soleil UV400",
+  "Voir clair et garder le GPS sous les yeux en conduisant.",
   "Prix séparés dans la boutique : 34,90 + 29,90 = 64,80 €.",
-  "https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html", 3.85, 3.31, 54.90,
-  "Lunettes 0,87 $ (lien) + casquette 2,98 $ (1600612754499). Marge 51,59 €."),
+  "https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html", 4.37, 3.76, 54.90,
+  "Lunettes 0,87 $ (lien) + support 3,50 $ (1601468984648). Marge 51,14 €."),
 ]
 with open(os.path.join(ICI, "upsells.py"), "w") as out:
     out.write("# 2e produits (packs à plus de 50 €) : généré par construire_tableau.py.\n"

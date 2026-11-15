@@ -374,3 +374,9 @@ Liste 10/10 : t-shirt oversize 240 g, t-shirt 250 g, manches longues henley, swe
 ## Étape — Vêtements validés par la coach : tableau rempli avec VAURE
 dossier.py = 10 fiches VAURE (ancien dossier sauvegardé dans dossier_v14_dtc.py, construire_tableau_v14_dtc.py).
 Packs U : Ensemble VAURE 79,90 €, 3 t-shirts oversize 59,90 €, Pack Soleil 54,90 €. Fichiers xlsx régénérés.
+
+## Étape — Lignes 5 à 10 : autres niches (hors VAURE)
+1-4 : pommeau, lunettes, t-shirt oversize, t-shirt 250 g. 5-10 : lampe d'écran (1601885292435), planche titane (1601511136490),
+moulins gravité ×2 (1600110095572), cubes de compression (1601401536287), fontaine chat inox (1600898536177), support voiture magnétique (1601468984648).
+Packs : 3 t-shirts 59,90 €, Pack Cuisine 74,90 €, Pack Route 54,90 €. Version précédente : dossier_v15_vaure_complet.py.
+Écartés : rouleau anti-poils et organiseur de coffre (plus chers que le marché), sac cabine (pas de lien et marge < 20 €).
