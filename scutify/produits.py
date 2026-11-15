@@ -74,100 +74,108 @@ rows=[('Pommeau de douche à 15 étages de filtration, design premium, haute pre
   "par Jairo. À VÉRIFIER : Vérifier la tenue au lavage sur échantillon ; couleurs unies. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net "
   '(jamais délavé), les ensembles et le prix face à On.',
   'T-shirt épais 250 g'),
- ("Barre lumineuse qui se pose sur l'écran, éclaire le bureau sans reflet sur l'écran, intensité réglable, USB — Niche : Bureau · bien voir son bureau sans reflet sur l'écran",
-  'https://www.alibaba.com/product-detail/Full-Desk-Coverage-Monitor-Light-Bar_1601885292435.html',
+ ("Pot de fleurs cube avec réserve d'eau cachée et indicateur de niveau : la plante se sert seule — Niche : Maison · garder ses plantes en vie sans y penser",
+  'https://www.alibaba.com/product-detail/Leizisure-Self-watering-Pots-Manufacture-Indoor_60802490966.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  8.92,
-  7,
-  39.9,
-  "MODÈLE : BenQ ScreenBar : la barre d'écran devenue la référence des bureaux. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à "
-  "proposer mieux et moins cher. PROBLÈME : Le soir, la lampe de bureau fait des reflets sur l'écran ou éclaire mal le clavier et les papiers. ÉCONOMIQUE : OUI : environ 2,5 fois moins cher que BenQ "
-  "(99 €). EFFET WAOUW : On allume la barre : le bureau s'éclaire, l'écran reste sans reflet. PRIX EN FRANCE : BenQ ScreenBar 99 €, ScreenBar Plus 129 € (BenQ France). FOURNISSEUR : Changsha Ziteng "
-  ': 8,92 à 10,37 $ (dès 1 pièce), boîtier en aluminium, USB. À VÉRIFIER : Produit électrique : exiger le marquage CE et RoHS ; aucune promesse de santé pour les yeux.',
-  "Lampe d'écran anti-reflets"),
- ('Planche à découper double face en titane, ne garde pas les odeurs, se lave au lave-vaisselle — Niche : Cuisine · avoir une planche à découper toujours propre',
-  'https://www.alibaba.com/product-detail/100-Pure-Titanium-Cutting-Board-Antibacterial_1601511136490.html',
+  4.3,
+  8,
+  34.9,
+  "MODÈLE : Lechuza : la marque allemande des pots à réserve d'eau. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et "
+  "moins cher. PROBLÈME : Les plantes d'intérieur meurent quand on oublie de les arroser ou qu'on part en vacances. ÉCONOMIQUE : OUI : environ moitié prix de Lechuza (38,49 à 69,12 €). EFFET WAOUW : "
+  "Le petit flotteur qui montre le niveau d'eau ; la plante reste verte 3 semaines sans arrosage. PRIX EN FRANCE : Lechuza Classico Color 28 : 38,49 € (Kaufland) ; Lechuza D.21 : 69,12 € (Leroy "
+  "Merlin). FOURNISSEUR : Zhejiang Leizisure : 5 $ (20 à 999), 4,50 $ dès 1 000 ; sourcing par Scutify. À VÉRIFIER : Vérifier l'étanchéité et la clarté de l'indicateur sur échantillon ; ne pas "
+  'promettre une durée précise sans test.',
+  "Pot à réserve d'eau"),
+ ('Lot de 20 cintres ultra-fins en velours antidérapant + 10 crochets pour suspendre en cascade — Niche : Maison · doubler la place dans sa penderie',
+  'https://www.alibaba.com/product-detail/Black-Non-slip-Flocked-Velvet-Hanger_1600222821866.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  13.16,
-  7,
-  44.9,
-  'MODÈLE : Les planches en titane vendues sous marque (Lacor, TRUVO) en France. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à '
-  'proposer mieux et moins cher. PROBLÈME : Les planches en bois et en plastique se rayent, gardent les odeurs et noircissent avec le temps. ÉCONOMIQUE : OUI : environ 35 % moins cher que Lacor '
-  "(69,90 €). EFFET WAOUW : On coupe de l'ail et de l'oignon, on rince : plus aucune odeur. PRIX EN FRANCE : Lacor 25 × 36 cm 69,90 € (La Redoute) ; Kaufland 44 à 85 €. FOURNISSEUR : Huizhou Yongli "
-  '(4,6/5, 248 avis) : 5,70 à 15,30 $ selon la taille, minimum 300 pièces ; coût calculé au prix le plus haut. À VÉRIFIER : Le fournisseur indique « titane / inox » : exiger un certificat de matière '
-  '; contact alimentaire (norme LFGB) ; ne pas promettre « antibactérien » sans preuve ; minimum 300 pièces.',
-  'Planche à découper en titane'),
- ("Duo de moulins électriques rechargeables en USB : on retourne le moulin, il moud tout seul, avec une lumière — Niche : Cuisine · assaisonner d'une seule main",
-  'https://www.alibaba.com/product-detail/Automatic-USB-rechargeable-gravity-stainless-steel_1600110095572.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  11.87,
-  7,
-  44.9,
-  'MODÈLE : WMF et Peugeot : les moulins électriques haut de gamme. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et '
-  "moins cher. PROBLÈME : Les moulins manuels demandent deux mains, alors qu'on tient souvent une poêle ou une spatule dans l'autre. ÉCONOMIQUE : OUI : le duo coûte moins cher qu'un seul moulin "
-  "Cecotec ou WMF. EFFET WAOUW : On retourne le moulin : il s'allume et moud tout seul. PRIX EN FRANCE : Cecotec 57,04 € ; WMF environ 60 € ; Peugeot Elis Sense 89,75 € (prix d'un seul moulin). "
-  'FOURNISSEUR : Fournisseur du lien : 6,90 $ pièce (50 à 499), donc 13,80 $ le duo ; meule en céramique, USB. À VÉRIFIER : Produit électrique et contact alimentaire : exiger CE, RoHS et LFGB.',
-  'Moulins sel et poivre par gravité'),
- ('Lot de 7 sacs de rangement pour valise avec fermeture qui compresse les vêtements — Niche : Voyage · tout faire rentrer dans sa valise',
-  'https://www.alibaba.com/product-detail/7pcs-Set-Compression-Packing-Cubes-for_1601401536287.html',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'OUI',
-  'NON',
-  2.56,
+  2.84,
   7,
   34.9,
-  'MODÈLE : Eagle Creek : la marque de référence des cubes de rangement. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux '
-  "et moins cher. PROBLÈME : La valise déborde, on doit choisir ce qu'on laisse, et on paie un bagage en plus. ÉCONOMIQUE : OUI : 7 cubes pour moins cher que 2 cubes Eagle Creek (41,70 €). EFFET "
-  'WAOUW : On ferme le cube : les vêtements prennent moitié moins de place. PRIX EN FRANCE : Eagle Creek, 2 cubes de compression : 41,70 € (Markenkoffer) à 51,90 € (Hardloop). FOURNISSEUR : '
-  'Fournisseur du lien : 2,98 $ le lot de 7 (10 à 499), polyester ; logo dès 2 000 pièces. À VÉRIFIER : Vérifier la solidité des fermetures sur échantillon ; logo seulement à partir de 2 000 pièces.',
-  'Cubes de compression pour valise'),
- ("Fontaine à eau en inox 4 L avec pompe silencieuse, l'eau tourne et reste fraîche — Niche : Animaux · donner envie à son chat de boire",
-  'https://www.alibaba.com/product-detail/4L-Automatic-Pet-Drinking-Fountain-with_1600898536177.html',
+  'MODÈLE : Les marques de rangement qui vendent des lots de cintres fins en velours. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à '
+  "proposer mieux et moins cher. PROBLÈME : La penderie déborde, les cintres épais prennent toute la place et les vêtements glissent par terre. ÉCONOMIQUE : OUI : lot complet prêt à l'emploi, "
+  'cintres + crochets. EFFET WAOUW : Avant / après de la penderie : moitié de place libérée en 10 minutes. PRIX EN FRANCE : Lots de cintres en velours de marque vendus en magasin (prix à vérifier). '
+  'FOURNISSEUR : Guangzhou Sinfoo Plastic : cintre en velours 0,14 $ (0,12 $ dès 20 000), soit environ 3,30 $ le lot de 20 avec crochets ; sourcing par Scutify. À VÉRIFIER : Vérifier le poids du '
+  'colis (environ 1 kg pour 20 cintres) et la solidité sur échantillon ; prix France de référence à confirmer.',
+  'Cintres velours + crochets en cascade'),
+ ("Lot de 8 sacs sous vide réutilisables (3 tailles) + pompe à main, sans aspirateur — Niche : Maison · ranger couettes et vêtements d'hiver en prenant 3 fois moins de place",
+  'https://www.alibaba.com/product-detail/8-Packs-Space-Saver-Plastic-Vacuum_1600116022034.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  14.19,
-  5,
+  4.13,
+  7,
+  34.9,
+  'MODÈLE : Compactor : la marque française de rangement sous vide. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et '
+  "moins cher. PROBLÈME : Couettes, oreillers et vêtements d'hiver prennent toute l'armoire. ÉCONOMIQUE : OUI : moins cher que Compactor (41,99 €) et Mastrad (50 €). EFFET WAOUW : La grosse couette "
+  'devient plate comme une feuille en 30 secondes de pompe. PRIX EN FRANCE : Compactor lot de 10 sacs + pompe 41,99 € (Kaufland) ; Mastrad kit pompe + 10 sacs 50 €. FOURNISSEUR : Zhuhai Xutai : 0,11 '
+  "à 0,41 $ le sac, pompe en plus ; environ 4,80 $ le lot calculé au prix le plus haut ; sourcing par Scutify. À VÉRIFIER : Demander le prix exact du lot avec pompe ; tester l'étanchéité des valves "
+  '; lots sans marque vendus environ 24 € en France.',
+  'Sacs sous vide + pompe'),
+ ('Sweat à capuche épais oversize 100 % coton, logo en relief ton sur ton — Niche : Mode homme · avoir un sweat qui ne bouloche pas',
+  'https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  8.51,
+  7,
   49.9,
-  'MODÈLE : Petkit : la marque de fontaines connectées pour chats. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et '
-  "moins cher. PROBLÈME : Beaucoup de chats boudent l'eau qui stagne dans leur gamelle. ÉCONOMIQUE : OUI : environ moitié prix de Petkit (89,99 €). EFFET WAOUW : Le chat qui vient boire au filet "
-  "d'eau : vidéo qui touche tout de suite. PRIX EN FRANCE : Petkit Eversweet Max 89,99 €, Eversweet Pro 3 89,99 € (Nature & Découvertes). FOURNISSEUR : Shenzhen Chongxin : 16,50 $ (90 à 511), 15,30 "
-  '$ dès 1 024, inox. À VÉRIFIER : Produit électrique : exiger CE et RoHS ; colis lourd (2 kg) ; aucune promesse vétérinaire ou de santé.',
-  'Fontaine à eau pour chat'),
- ('Support aimanté à ventouse, rotation 360°, se plie, compatible MagSafe — Niche : Voiture · garder son téléphone stable en conduisant',
-  'https://www.alibaba.com/product-detail/360-Rotating-Vacuum-Strong-Magnetic-Support_1601468984648.html',
+  'MODÈLE : On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins '
+  'cher. DEMANDE : Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et '
+  'TikTok. PROBLÈME : Les sweats fins boulochent, se déforment et perdent leur tenue après quelques lavages. ÉCONOMIQUE : OUI : 49,90 € contre 130 à 140 € chez On et Essentials. EFFET WAOUW : Le '
+  "logo en relief et l'épaisseur du tissu : on sent la qualité en le prenant en main. PRIX EN FRANCE : On Club Hoodie 130 € ; Essentials sweat à capuche 139,99 € (Breuninger). FOURNISSEUR : Jiangxi "
+  "Yi Lingzhi Clothing (7 ans, vérifié) : 9,89 $ (50 à 99), 9,35 $ dès 100 ; lien choisi par Jairo. À VÉRIFIER : Le titre de l'annonce dit « vintage » : commander uniquement en couleurs unies, sans "
+  "effet délavé. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On.",
+  'Sweat à capuche épais'),
+ ('Jogging molleton 100 % coton, coupe ample, uni, bas ourlé propre — Niche : Mode homme · porter un jogging qui ne fait pas négligé',
+  'https://www.alibaba.com/product-detail/Custom-french-terry-sweatpants-high-quality_1601254248379.html',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'OUI',
   'NON',
-  3.01,
-  9,
-  29.9,
-  'MODÈLE : ESR et Belkin : les supports MagSafe de marque. DEMANDE : Produit déjà vendu sous de grandes marques en France, bien plus cher : la demande existe, il reste à proposer mieux et moins '
-  "cher. PROBLÈME : Le téléphone glisse, tombe ou se décroche de la grille d'aération pendant qu'on suit le GPS. ÉCONOMIQUE : OUI : environ 30 % moins cher que ESR (43,60 €). EFFET WAOUW : On "
-  'approche le téléphone : il se colle tout seul, puis on le fait tourner. PRIX EN FRANCE : ESR HaloLock 43,60 € (Kaufland) ; Belkin 37,99 € (Coolblue). FOURNISSEUR : Fournisseur du lien : 3,50 $ (1 '
-  "à 50), 3,40 $ dès 51, logo dès 100 pièces. À VÉRIFIER : Vérifier la tenue de la ventouse sur échantillon ; ne jamais montrer quelqu'un qui manipule son téléphone en roulant.",
-  'Support téléphone voiture magnétique')]
+  10.62,
+  7,
+  49.9,
+  'MODÈLE : On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins '
+  'cher. DEMANDE : Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et '
+  "TikTok. PROBLÈME : Le jogging fait vite négligé : tissu fin, poches aux genoux, bas qui se déforment. ÉCONOMIQUE : OUI : 49,90 € contre 120 à 140 € chez Essentials et On. EFFET WAOUW : L'ensemble "
+  'sweat + jogging de la même couleur : la tenue est faite en 2 pièces. PRIX EN FRANCE : Essentials jogging 119,99 € (Breuninger) ; On Trek Pants environ 140 € (site belge). FOURNISSEUR : 12,35 $ '
+  "(50 à 499), 10,64 $ dès 500. À VÉRIFIER : Vérifier l'épaisseur et la coupe sur échantillon ; pas de bords bruts ni de délavé. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se "
+  "démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On.",
+  'Jogging uni coupe ample'),
+ ('Sweat col rond 450 g 100 % coton, coupe oversize, uni — Niche : Mode homme · avoir un pull de tous les jours qui garde sa forme',
+  'https://www.alibaba.com/product-detail/2021-100-cotton-heavyweight-450-gsm_1600274136737.html',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'OUI',
+  'NON',
+  10.23,
+  7,
+  44.9,
+  'MODÈLE : On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins '
+  'cher. DEMANDE : Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et '
+  'TikTok. PROBLÈME : Les pulls et sweats bon marché se détendent, rétrécissent ou perdent leur forme. ÉCONOMIQUE : OUI : nettement moins cher que les marques sport-chic. EFFET WAOUW : 450 g : un '
+  'tissu si épais que le sweat tient presque debout. PRIX EN FRANCE : Sweats col rond On et Essentials vendus plus de 100 € (Breuninger). FOURNISSEUR : 11,90 $ (100 à 499), 10,60 $ dès 500, logo '
+  "personnalisé. À VÉRIFIER : Minimum 100 pièces : commencer avec 2 couleurs ; aucune mention délavée. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du "
+  'tissu, le look net (jamais délavé), les ensembles et le prix face à On.',
+  'Sweat col rond 450 g')]

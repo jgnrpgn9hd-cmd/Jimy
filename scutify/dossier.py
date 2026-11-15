@@ -250,13 +250,66 @@ AUTRES = [
        "OUI : la voiture, les trajets.", "Léger, petit colis.",
        "Le téléphone qui tombe au premier virage, puis le support aimanté qui ne bouge plus."),
 ]
-FICHES = FICHES[:4] + AUTRES
+
+MAISON = [
+ autre("Pot à réserve d'eau", "Pot de fleurs cube avec réserve d'eau cachée et indicateur de niveau : la plante se sert seule",
+       "Maison · garder ses plantes en vie sans y penser",
+       A + "Leizisure-Self-watering-Pots-Manufacture-Indoor_60802490966.html", 5.00, 8, 34.90,
+       "Les plantes d'intérieur meurent quand on oublie de les arroser ou qu'on part en vacances.",
+       "Je veux permettre à ceux qui aiment les plantes mais oublient d'arroser de garder des plantes vertes sans effort.",
+       "OUI : environ moitié prix de Lechuza (38,49 à 69,12 €).", "Le petit flotteur qui montre le niveau d'eau ; la plante reste verte 3 semaines sans arrosage.",
+       "Lechuza Classico Color 28 : 38,49 € (Kaufland) ; Lechuza D.21 : 69,12 € (Leroy Merlin).",
+       "Zhejiang Leizisure : 5 $ (20 à 999), 4,50 $ dès 1 000 ; sourcing par Scutify.",
+       "Vérifier l'étanchéité et la clarté de l'indicateur sur échantillon ; ne pas promettre une durée précise sans test.",
+       "OUI : énorme communauté plantes sur Pinterest et TikTok, cadeau facile.",
+       "Lechuza : la marque allemande des pots à réserve d'eau.",
+       "Femmes et hommes de 20 à 45 ans, en appartement, qui aiment les plantes mais manquent de temps.",
+       "Les vidéos « plantes qui survivent aux vacances » et les intérieurs végétalisés sont partout sur Pinterest.",
+       "OUI : les plantes, la déco.", "Colis de 500 g.",
+       "La plante fanée du voisin à côté de la plante verte dans le pot à réserve, avec le flotteur qui monte."),
+ autre("Cintres velours + crochets en cascade", "Lot de 20 cintres ultra-fins en velours antidérapant + 10 crochets pour suspendre en cascade",
+       "Maison · doubler la place dans sa penderie",
+       A + "Black-Non-slip-Flocked-Velvet-Hanger_1600222821866.html", 3.30, 7, 34.90,
+       "La penderie déborde, les cintres épais prennent toute la place et les vêtements glissent par terre.",
+       "Je veux permettre à ceux qui manquent de place de ranger deux fois plus de vêtements dans la même penderie.",
+       "OUI : lot complet prêt à l'emploi, cintres + crochets.", "Avant / après de la penderie : moitié de place libérée en 10 minutes.",
+       "Lots de cintres en velours de marque vendus en magasin (prix à vérifier).",
+       "Guangzhou Sinfoo Plastic : cintre en velours 0,14 $ (0,12 $ dès 20 000), soit environ 3,30 $ le lot de 20 avec crochets ; sourcing par Scutify.",
+       "Vérifier le poids du colis (environ 1 kg pour 20 cintres) et la solidité sur échantillon ; prix France de référence à confirmer.",
+       "OUI : avant / après de rangement très partagé.",
+       "Les marques de rangement qui vendent des lots de cintres fins en velours.",
+       "Femmes et hommes de 20 à 45 ans en appartement, avec une petite penderie.",
+       "Les vidéos « closet makeover » et rangement avant / après font des millions de vues.",
+       "OUI : le rangement, la maison bien organisée.", "Colis d'environ 1 kg.",
+       "La penderie en vrac, puis la même avec les cintres fins : tout est aligné et il reste de la place."),
+ autre("Sacs sous vide + pompe", "Lot de 8 sacs sous vide réutilisables (3 tailles) + pompe à main, sans aspirateur",
+       "Maison · ranger couettes et vêtements d'hiver en prenant 3 fois moins de place",
+       A + "8-Packs-Space-Saver-Plastic-Vacuum_1600116022034.html", 4.80, 7, 34.90,
+       "Couettes, oreillers et vêtements d'hiver prennent toute l'armoire.",
+       "Je veux permettre à ceux qui manquent de place de ranger leurs affaires volumineuses à plat, sans aspirateur.",
+       "OUI : moins cher que Compactor (41,99 €) et Mastrad (50 €).", "La grosse couette devient plate comme une feuille en 30 secondes de pompe.",
+       "Compactor lot de 10 sacs + pompe 41,99 € (Kaufland) ; Mastrad kit pompe + 10 sacs 50 €.",
+       "Zhuhai Xutai : 0,11 à 0,41 $ le sac, pompe en plus ; environ 4,80 $ le lot calculé au prix le plus haut ; sourcing par Scutify.",
+       "Demander le prix exact du lot avec pompe ; tester l'étanchéité des valves ; lots sans marque vendus environ 24 € en France.",
+       "OUI : effet avant / après spectaculaire, utile toute l'année (changement de saison, déménagement).",
+       "Compactor : la marque française de rangement sous vide.",
+       "Familles et jeunes en appartement qui manquent de place de rangement.",
+       "Les vidéos « vacuum bag before after » font partie des contenus rangement les plus vus.",
+       "OUI : le rangement, le gain de place.", "Colis d'environ 1 kg.",
+       "La couette énorme, quelques coups de pompe, et elle tient dans un tiroir."),
+]
+_P = {f["court"]: f for f in FICHES}
+VETEMENTS = [_P["Sweat à capuche épais"], _P["Jogging uni coupe ample"], _P["Sweat col rond 450 g"]]
+FICHES = FICHES[:4] + MAISON + VETEMENTS
 
 for _f in FICHES:
     _f["cout"] = round(_f["usd"] * 0.86, 2)
     _f["marge"] = round(_f["revente"] - _f["cout"], 2)
 
 SOURCES = [
+ ("Kaufland, Lechuza Classico Color 28", "https://www.kaufland.fr/product/425726183/"),
+ ("Leroy Merlin, pot Lechuza D.21", "https://www.leroymerlin.fr/produits/pot-de-fleur-rond-lechuza-d-21-x-h-20-cm-gris-71618750.html"),
+ ("Kaufland, sacs sous vide Compactor", "https://www.kaufland.fr/product/488505000/"),
  ("BenQ France, ScreenBar", "https://www.benq.eu/fr-fr/campaign/screenbar-one-stop-shop-for-easy-office-lighting-solution/main.html"),
  ("La Redoute, planches à découper", "https://www.laredoute.fr/pplp/100/74779/74834/158012/cat-74798.aspx?pgnt=2"),
  ("Rue du Commerce, moulin Cecotec", "https://www.rueducommerce.fr/p/m24072841090.html"),

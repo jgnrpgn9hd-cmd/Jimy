@@ -380,3 +380,8 @@ Packs U : Ensemble VAURE 79,90 €, 3 t-shirts oversize 59,90 €, Pack Soleil 5
 moulins gravité ×2 (1600110095572), cubes de compression (1601401536287), fontaine chat inox (1600898536177), support voiture magnétique (1601468984648).
 Packs : 3 t-shirts 59,90 €, Pack Cuisine 74,90 €, Pack Route 54,90 €. Version précédente : dossier_v15_vaure_complet.py.
 Écartés : rouleau anti-poils et organiseur de coffre (plus chers que le marché), sac cabine (pas de lien et marge < 20 €).
+
+## Étape — Dropshipping (Scutify source) : minimums de commande sans importance
+Tableau : 1 pommeau, 2 lunettes, 3 t-shirt oversize, 4 t-shirt 250 g, 5 pot à réserve d'eau (60802490966), 6 cintres velours + cascade (1600222821866),
+7 sacs sous vide + pompe (1600116022034), 8 sweat à capuche (1600347472870), 9 jogging (1601254248379), 10 sweat col rond 450 g (1600274136737).
+Diffuseur retiré. Packs : 3 t-shirts 59,90 €, Ensemble VAURE 79,90 €, Pack Rangement 54,90 €. Version précédente : dossier_v16_autres_niches.py.
