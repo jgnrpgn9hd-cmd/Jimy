@@ -329,3 +329,12 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 15/11/2026 — Lunettes : lien de Jairo (1601961719548, 0,87 $, MOQ 2, fournisseur non vérifié) ; iRun gardé en secours.
 
 ## 15/11/2026 — T-shirt type Fincut : 95% coton 5% élasthanne coupe ajustée (1600439850340, 6 $ de 50 à 299, 4,70 $ dès 300) ; 250 g 100% coton (1600928907355, 6,75 $ de 50 à 99, logo dès 50). Fincut : 28 € l unité, packs 25 et 22,25 €/u.
+
+## Étape — 6 produits validés (liens de Jairo)
+Validés : pommeau filtrant (1601697241736), t-shirt 250 g (1600928907355), lunettes UV400 (1601961719548).
+Nouveaux liens de Jairo, à mettre EN HAUT du tableau :
+- Porte-cartes pop-up automatique cuir, TILONSTAR (Guangzhou Taitan, vérifié) 1600929091140 — 4,90 $ (MOQ 1) → 39,90 €, lettre 250 g, gain ≈ 29,70 €
+- Sweat à capuche épais 3D relief oversize (Jiangxi Yi Lingzhi, vérifié) 1600347472870 — 9,89 $ (MOQ 50) → 49,90 €, 1 kg, gain ≈ 31,00 €
+- T-shirt oversize 240 g (Quanzhou Haixin, NON vérifié) 1601269043057 — 4,46 $ (MOQ 30) → 34,90 €, 500 g, gain ≈ 23,12 €
+Refusés : boxers, chaussettes invisibles, polo, sweat 400 g Fuzhou, ceinture sans trous, portefeuille métal, sacoche, casquette.
+Reste : 4 produits à trouver.
