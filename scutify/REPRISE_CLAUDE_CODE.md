@@ -370,3 +370,7 @@ Total 9/10 (7 vêtements + lunettes + pommeau). 10e à choisir : short en mollet
 Prix On France : Club-T 50 €, Club Hoodie 130 €, Focus Tech Hoodie 150 €, Core-T 60 €, Core Shorts 60 €, Trek Pants 140 € (BE), Performance Long-T 90 €.
 10e produit : casquette légère (1600612754499, 2,98 $ MOQ 100 → 29,90 €, gain ≈ 21,65 €), équivalent de la casquette légère On.
 Liste 10/10 : t-shirt oversize 240 g, t-shirt 250 g, manches longues henley, sweat à capuche, sweat zippé, sweat col rond 450 g, jogging, casquette, lunettes UV400, pommeau filtrant.
+
+## Étape — Vêtements validés par la coach : tableau rempli avec VAURE
+dossier.py = 10 fiches VAURE (ancien dossier sauvegardé dans dossier_v14_dtc.py, construire_tableau_v14_dtc.py).
+Packs U : Ensemble VAURE 79,90 €, 3 t-shirts oversize 59,90 €, Pack Soleil 54,90 €. Fichiers xlsx régénérés.

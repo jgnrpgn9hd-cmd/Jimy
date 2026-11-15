@@ -13,336 +13,327 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 
 | N° | Niche | Produit | Coût | Revente | Marge | Note /10 |
 |---|---|---|---|---|---|---|
-| 1 | Salle de bain · avoir une eau plus douce sous la douche | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) | 6,75 € | 39,90 € | 33,15 € | 9,5 |
-| 2 | Sport · courir sans être ébloui | [Lunettes de sport UV400](https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html) | 0,75 € | 34,90 € | 34,15 € | 8,5 |
-| 3 | Bien-être numérique · décrocher de son téléphone | [Bloqueur d'applis NFC](https://www.alibaba.com/product-detail/Black-pvc-card-nfc-NTAG-215_62022555600.html) | 0,30 € | 34,90 € | 34,60 € | 8,5 |
-| 4 | Accessoires homme · avoir un portefeuille fin | [Portefeuille métal minimaliste](https://www.alibaba.com/product-detail/Minimalist-Men-Wallet-Aluminum-Metal-Slim_1601391026836.html) | 4,99 € | 39,90 € | 34,91 € | 8,5 |
-| 5 | Salle de bain · être plus propre aux toilettes | [Kit WC lavant sans électricité](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) | 7,31 € | 49,90 € | 42,59 € | 8,5 |
-| 6 | Cuisine · garder sa boisson fraîche | [Gobelet isotherme 1,2 L](https://www.alibaba.com/product-detail/40oz-Tumbler-with-Handle-and-Straw_1601725774684.html) | 2,06 € | 32,90 € | 30,84 € | 8,5 |
-| 7 | Bien-être · protéger ses oreilles sans s'isoler | [Bouchons d'oreilles concert](https://www.alibaba.com/product-introduction/Custom-logo-2-Pairs-tapones-auditivos_1600979485174.html) | 3,87 € | 29,90 € | 26,03 € | 8,5 |
-| 8 | Récupération · récupérer après la course | [Mini pistolet de massage](https://www.alibaba.com/product-detail/Light-Mini-Massage-Gun-Lcd-Touch_1601094578732.html) | 5,71 € | 34,90 € | 29,19 € | 8,5 |
-| 9 | Bien-être · se renforcer en douceur | [Bracelets lestés pastel](https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html) | 5,03 € | 39,90 € | 34,87 € | 8,5 |
-| 10 | Mode homme · garder ses affaires sur soi | [Sacoche en cuir homme](https://www.alibaba.com/product-detail/MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html) | 10,75 € | 49,90 € | 39,15 € | 8,5 |
+| 1 | Mode homme · avoir un t-shirt oversize qui tombe bien | [T-shirt oversize 240 g](https://www.alibaba.com/product-detail/Custom-Logo-240g-Cotton-T-Shirt_1601269043057.html) | 3,84 € | 34,90 € | 31,06 € | 9,5 |
+| 2 | Mode homme · avoir un t-shirt qui ne se déforme pas | [T-shirt épais 250 g](https://www.alibaba.com/product-detail/Heavyweight-Tshirt_1600928907355.html) | 5,80 € | 34,90 € | 29,10 € | 8,5 |
+| 3 | Mode homme · être habillé sans être en chemise | [T-shirt manches longues](https://www.alibaba.com/product-detail/Custom-Long-Sleeve-T-Shirt-Men_60795328307.html) | 9,03 € | 39,90 € | 30,87 € | 8,5 |
+| 4 | Mode homme · avoir un sweat qui ne bouloche pas | [Sweat à capuche épais](https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html) | 8,51 € | 49,90 € | 41,39 € | 8,5 |
+| 5 | Mode homme · avoir une veste de tous les jours | [Sweat zippé uni](https://www.alibaba.com/product-detail/LOW-MOQ-High-Quality-Blank-Plain_1600947092413.html) | 12,36 € | 49,90 € | 37,54 € | 8,5 |
+| 6 | Mode homme · avoir un pull de tous les jours qui garde sa forme | [Sweat col rond 450 g](https://www.alibaba.com/product-detail/2021-100-cotton-heavyweight-450-gsm_1600274136737.html) | 10,23 € | 44,90 € | 34,67 € | 8,5 |
+| 7 | Mode homme · porter un jogging qui ne fait pas négligé | [Jogging uni coupe ample](https://www.alibaba.com/product-detail/Custom-french-terry-sweatpants-high-quality_1601254248379.html) | 10,62 € | 49,90 € | 39,28 € | 8,5 |
+| 8 | Accessoires homme · se protéger du soleil avec style | [Casquette légère](https://www.alibaba.com/product-detail/Custom-Logo-Quick-Dry-Running-Cap_1600612754499.html) | 2,56 € | 29,90 € | 27,34 € | 8,5 |
+| 9 | Accessoires homme · ne plus être ébloui | [Lunettes de soleil UV400](https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html) | 0,75 € | 34,90 € | 34,15 € | 8,5 |
+| 10 | Salle de bain · avoir une eau plus douce sous la douche | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) | 6,75 € | 39,90 € | 33,15 € | 8,5 |
 
 La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Chaque produit reprend le produit phare d'une grande marque e-commerce mondiale (Jolie, Goodr, Brick, Ridge, Tushy, Stanley, Loop, Theragun, Bala, Bellroy), à moitié prix et à ta marque.
 
-## 1. Salle de bain · avoir une eau plus douce sous la douche — Pommeau de douche filtrant
+## 1. Mode homme · avoir un t-shirt oversize qui tombe bien — T-shirt oversize 240 g
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-240g-Cotton-T-Shirt_1601269043057.html) · coût 3,84 € (4,46 $ × 0,86) · revente 34,90 € · marge 31,06 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins cher. |
+| Demande en France | Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et TikTok. |
+| Observation | Sur Instagram et TikTok, les hommes montrent des tenues oversize unies (sweat + jogging assortis) ; ils veulent le style On ou Essentials sans payer 130 € le sweat. |
+| Cible et désir | Hommes de 18 à 35 ans qui aiment le look sport-chic propre (oversize, couleurs unies) mais trouvent les grandes marques trop chères. |
+| Problème | Les t-shirts larges premier prix sont fins : ils tombent mal, se déforment et font « trop grand » au lieu de faire oversize. |
+| Question à résoudre | Comment avoir un t-shirt oversize qui tombe bien, avec une belle pièce à petit prix ? |
+| Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
+| **Idée de business** | Je veux permettre aux hommes qui aiment le style oversize d'avoir un t-shirt épais qui garde sa forme, au prix d'un t-shirt de grande surface. |
+| Solution à un problème | OUI : les t-shirts larges premier prix sont fins : ils tombent mal, se déforment et font « trop grand » au lieu de faire oversize. |
+| Économique | OUI : 34,90 € contre 50 à 72 € chez On et Essentials. |
+| Besoin / passion | OUI : la mode homme sport-chic, le style, l'image de soi. |
+| Effet wow | On le pose à côté d'un t-shirt fin : la différence d'épaisseur se voit tout de suite. |
+| Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
+| Poids / volume | Colis de 500 g. |
+| 1. Répond aux critères principaux ? | Bien : basique porté toute l'année, sans effet de mode passagère. |
+| 2. Bénéfice évident au premier regard ? | Oui : on voit tout de suite l'épaisseur, la coupe et la différence de prix. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : essayages en vidéo, comparaison avec un t-shirt fin, ensembles du mois, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : produit d'appel de la marque, se vend en pack de 3. |
+| Prix en France | On Club-T 50 € ; Essentials 71,99 € (Breuninger). |
+| Angle pub / Instagram | Le vêtement fin et déformé à côté de la pièce VAURE épaisse, puis la tenue complète, en 10 secondes. |
+| Fournisseur | Quanzhou Haixin Garment Technology (7 ans, NON vérifié) : 4,46 $ (30 à 199), 3,93 $ dès 1 000 ; lien choisi par Jairo. |
+| À vérifier | Fournisseur non vérifié : commander des échantillons ou trouver le même modèle chez un fournisseur vérifié ; choisir des couleurs unies, pas de délavé. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
+
+## 2. Mode homme · avoir un t-shirt qui ne se déforme pas — T-shirt épais 250 g
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Heavyweight-Tshirt_1600928907355.html) · coût 5,80 € (6,75 $ × 0,86) · revente 34,90 € · marge 29,10 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins cher. |
+| Demande en France | Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et TikTok. |
+| Observation | Sur Instagram et TikTok, les hommes montrent des tenues oversize unies (sweat + jogging assortis) ; ils veulent le style On ou Essentials sans payer 130 € le sweat. |
+| Cible et désir | Hommes de 18 à 35 ans qui aiment le look sport-chic propre (oversize, couleurs unies) mais trouvent les grandes marques trop chères. |
+| Problème | Les t-shirts classiques deviennent transparents, se déforment et le col gondole après quelques lavages. |
+| Question à résoudre | Comment avoir un t-shirt qui ne se déforme pas, avec une belle pièce à petit prix ? |
+| Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
+| **Idée de business** | Je veux permettre aux hommes de porter un t-shirt épais qui reste net lavage après lavage. |
+| Solution à un problème | OUI : les t-shirts classiques deviennent transparents, se déforment et le col gondole après quelques lavages. |
+| Économique | OUI : moitié prix de On. |
+| Besoin / passion | OUI : la mode homme sport-chic, le style, l'image de soi. |
+| Effet wow | Le col reste droit et le tissu ne laisse pas passer la lumière, même blanc. |
+| Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
+| Poids / volume | Colis de 500 g. |
+| 1. Répond aux critères principaux ? | Bien : basique porté toute l'année, sans effet de mode passagère. |
+| 2. Bénéfice évident au premier regard ? | Oui : on voit tout de suite l'épaisseur, la coupe et la différence de prix. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : essayages en vidéo, comparaison avec un t-shirt fin, ensembles du mois, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : basique qu'on rachète, idéal en pack. |
+| Prix en France | On Core-T 60 € ; Fincut 28 €. |
+| Angle pub / Instagram | Le vêtement fin et déformé à côté de la pièce VAURE épaisse, puis la tenue complète, en 10 secondes. |
+| Fournisseur | Fuzhou Xinglan : 6,75 $ (50 à 99), 6,30 $ dès 100, logo dès 50 ; lien choisi par Jairo. |
+| À vérifier | Vérifier la tenue au lavage sur échantillon ; couleurs unies. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
+
+## 3. Mode homme · être habillé sans être en chemise — T-shirt manches longues
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Long-Sleeve-T-Shirt-Men_60795328307.html) · coût 9,03 € (10,5 $ × 0,86) · revente 39,90 € · marge 30,87 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins cher. |
+| Demande en France | Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et TikTok. |
+| Observation | Sur Instagram et TikTok, les hommes montrent des tenues oversize unies (sweat + jogging assortis) ; ils veulent le style On ou Essentials sans payer 130 € le sweat. |
+| Cible et désir | Hommes de 18 à 35 ans qui aiment le look sport-chic propre (oversize, couleurs unies) mais trouvent les grandes marques trop chères. |
+| Problème | Entre le t-shirt trop simple et la chemise trop habillée, on ne sait pas quoi mettre en mi-saison. |
+| Question à résoudre | Comment être habillé sans être en chemise, avec une belle pièce à petit prix ? |
+| Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
+| **Idée de business** | Je veux permettre aux hommes d'avoir une pièce entre-deux, plus habillée qu'un t-shirt et plus confortable qu'une chemise. |
+| Solution à un problème | OUI : entre le t-shirt trop simple et la chemise trop habillée, on ne sait pas quoi mettre en mi-saison. |
+| Économique | OUI : moitié prix des manches longues de marque. |
+| Besoin / passion | OUI : la mode homme sport-chic, le style, l'image de soi. |
+| Effet wow | Le col boutonné donne un look soigné sans effort. |
+| Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
+| Poids / volume | Colis de 500 g. |
+| 1. Répond aux critères principaux ? | Bien : basique porté toute l'année, sans effet de mode passagère. |
+| 2. Bénéfice évident au premier regard ? | Oui : on voit tout de suite l'épaisseur, la coupe et la différence de prix. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : essayages en vidéo, comparaison avec un t-shirt fin, ensembles du mois, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : complète la gamme pour l'automne et le printemps. |
+| Prix en France | On Performance Long-T environ 90 € (57,90 € en promotion chez un revendeur) ; Essentials manches longues 79,99 €. |
+| Angle pub / Instagram | Le vêtement fin et déformé à côté de la pièce VAURE épaisse, puis la tenue complète, en 10 secondes. |
+| Fournisseur | 10,50 $ (100 à 499), 8,50 $ dès 500, logo dès 100. |
+| À vérifier | Minimum 100 pièces : commencer avec 2 couleurs ; vérifier le grammage sur échantillon. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
+
+## 4. Mode homme · avoir un sweat qui ne bouloche pas — Sweat à capuche épais
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html) · coût 8,51 € (9,89 $ × 0,86) · revente 49,90 € · marge 41,39 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins cher. |
+| Demande en France | Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et TikTok. |
+| Observation | Sur Instagram et TikTok, les hommes montrent des tenues oversize unies (sweat + jogging assortis) ; ils veulent le style On ou Essentials sans payer 130 € le sweat. |
+| Cible et désir | Hommes de 18 à 35 ans qui aiment le look sport-chic propre (oversize, couleurs unies) mais trouvent les grandes marques trop chères. |
+| Problème | Les sweats fins boulochent, se déforment et perdent leur tenue après quelques lavages. |
+| Question à résoudre | Comment avoir un sweat qui ne bouloche pas, avec une belle pièce à petit prix ? |
+| Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
+| **Idée de business** | Je veux permettre aux hommes d'avoir un sweat épais et structuré, au look des grandes marques, sans payer 130 €. |
+| Solution à un problème | OUI : les sweats fins boulochent, se déforment et perdent leur tenue après quelques lavages. |
+| Économique | OUI : 49,90 € contre 130 à 140 € chez On et Essentials. |
+| Besoin / passion | OUI : la mode homme sport-chic, le style, l'image de soi. |
+| Effet wow | Le logo en relief et l'épaisseur du tissu : on sent la qualité en le prenant en main. |
+| Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
+| Poids / volume | Colis de 750 g à 1 kg. |
+| 1. Répond aux critères principaux ? | Bien : basique porté toute l'année, sans effet de mode passagère. |
+| 2. Bénéfice évident au premier regard ? | Oui : on voit tout de suite l'épaisseur, la coupe et la différence de prix. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : essayages en vidéo, comparaison avec un t-shirt fin, ensembles du mois, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : pièce phare, se vend en ensemble avec le jogging. |
+| Prix en France | On Club Hoodie 130 € ; Essentials sweat à capuche 139,99 € (Breuninger). |
+| Angle pub / Instagram | Le vêtement fin et déformé à côté de la pièce VAURE épaisse, puis la tenue complète, en 10 secondes. |
+| Fournisseur | Jiangxi Yi Lingzhi Clothing (7 ans, vérifié) : 9,89 $ (50 à 99), 9,35 $ dès 100 ; lien choisi par Jairo. |
+| À vérifier | Le titre de l'annonce dit « vintage » : commander uniquement en couleurs unies, sans effet délavé. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
+
+## 5. Mode homme · avoir une veste de tous les jours — Sweat zippé uni
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/LOW-MOQ-High-Quality-Blank-Plain_1600947092413.html) · coût 12,36 € (14,37 $ × 0,86) · revente 49,90 € · marge 37,54 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins cher. |
+| Demande en France | Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et TikTok. |
+| Observation | Sur Instagram et TikTok, les hommes montrent des tenues oversize unies (sweat + jogging assortis) ; ils veulent le style On ou Essentials sans payer 130 € le sweat. |
+| Cible et désir | Hommes de 18 à 35 ans qui aiment le look sport-chic propre (oversize, couleurs unies) mais trouvent les grandes marques trop chères. |
+| Problème | Trop chaud pour un manteau, trop froid en t-shirt : on n'a rien de pratique et de beau à enfiler par-dessus. |
+| Question à résoudre | Comment avoir une veste de tous les jours, avec une belle pièce à petit prix ? |
+| Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
+| **Idée de business** | Je veux permettre aux hommes d'avoir une veste zippée simple et nette qui va avec tout. |
+| Solution à un problème | OUI : trop chaud pour un manteau, trop froid en t-shirt : on n'a rien de pratique et de beau à enfiler par-dessus. |
+| Économique | OUI : environ 3 fois moins cher que On. |
+| Besoin / passion | OUI : la mode homme sport-chic, le style, l'image de soi. |
+| Effet wow | La tenue complète zippé + jogging de la même couleur. |
+| Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
+| Poids / volume | Colis de 750 g. |
+| 1. Répond aux critères principaux ? | Bien : basique porté toute l'année, sans effet de mode passagère. |
+| 2. Bénéfice évident au premier regard ? | Oui : on voit tout de suite l'épaisseur, la coupe et la différence de prix. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : essayages en vidéo, comparaison avec un t-shirt fin, ensembles du mois, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : complète l'ensemble, bon panier moyen. |
+| Prix en France | On Focus Tech Zip Hoodie 170 € (site belge). |
+| Angle pub / Instagram | Le vêtement fin et déformé à côté de la pièce VAURE épaisse, puis la tenue complète, en 10 secondes. |
+| Fournisseur | Guangzhou Yanlu Industrial (8 ans) : 14,37 $ (20 à 99), 12,15 $ dès 100. |
+| À vérifier | Coût proche de la limite de 15 € : négocier 12 $ ; vérifier le grammage (320 g annoncé). Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
+
+## 6. Mode homme · avoir un pull de tous les jours qui garde sa forme — Sweat col rond 450 g
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/2021-100-cotton-heavyweight-450-gsm_1600274136737.html) · coût 10,23 € (11,9 $ × 0,86) · revente 44,90 € · marge 34,67 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins cher. |
+| Demande en France | Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et TikTok. |
+| Observation | Sur Instagram et TikTok, les hommes montrent des tenues oversize unies (sweat + jogging assortis) ; ils veulent le style On ou Essentials sans payer 130 € le sweat. |
+| Cible et désir | Hommes de 18 à 35 ans qui aiment le look sport-chic propre (oversize, couleurs unies) mais trouvent les grandes marques trop chères. |
+| Problème | Les pulls et sweats bon marché se détendent, rétrécissent ou perdent leur forme. |
+| Question à résoudre | Comment avoir un pull de tous les jours qui garde sa forme, avec une belle pièce à petit prix ? |
+| Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
+| **Idée de business** | Je veux permettre aux hommes d'avoir un sweat très épais qui reste structuré, à porter au travail comme le week-end. |
+| Solution à un problème | OUI : les pulls et sweats bon marché se détendent, rétrécissent ou perdent leur forme. |
+| Économique | OUI : nettement moins cher que les marques sport-chic. |
+| Besoin / passion | OUI : la mode homme sport-chic, le style, l'image de soi. |
+| Effet wow | 450 g : un tissu si épais que le sweat tient presque debout. |
+| Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
+| Poids / volume | Colis de 750 g. |
+| 1. Répond aux critères principaux ? | Bien : basique porté toute l'année, sans effet de mode passagère. |
+| 2. Bénéfice évident au premier regard ? | Oui : on voit tout de suite l'épaisseur, la coupe et la différence de prix. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : essayages en vidéo, comparaison avec un t-shirt fin, ensembles du mois, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : pièce plus habillée que le sweat à capuche. |
+| Prix en France | Sweats col rond On et Essentials vendus plus de 100 € (Breuninger). |
+| Angle pub / Instagram | Le vêtement fin et déformé à côté de la pièce VAURE épaisse, puis la tenue complète, en 10 secondes. |
+| Fournisseur | 11,90 $ (100 à 499), 10,60 $ dès 500, logo personnalisé. |
+| À vérifier | Minimum 100 pièces : commencer avec 2 couleurs ; aucune mention délavée. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
+
+## 7. Mode homme · porter un jogging qui ne fait pas négligé — Jogging uni coupe ample
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-french-terry-sweatpants-high-quality_1601254248379.html) · coût 10,62 € (12,35 $ × 0,86) · revente 49,90 € · marge 39,28 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins cher. |
+| Demande en France | Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et TikTok. |
+| Observation | Sur Instagram et TikTok, les hommes montrent des tenues oversize unies (sweat + jogging assortis) ; ils veulent le style On ou Essentials sans payer 130 € le sweat. |
+| Cible et désir | Hommes de 18 à 35 ans qui aiment le look sport-chic propre (oversize, couleurs unies) mais trouvent les grandes marques trop chères. |
+| Problème | Le jogging fait vite négligé : tissu fin, poches aux genoux, bas qui se déforment. |
+| Question à résoudre | Comment porter un jogging qui ne fait pas négligé, avec une belle pièce à petit prix ? |
+| Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
+| **Idée de business** | Je veux permettre aux hommes de porter un jogging confortable qui fait tenue, pas pyjama. |
+| Solution à un problème | OUI : le jogging fait vite négligé : tissu fin, poches aux genoux, bas qui se déforment. |
+| Économique | OUI : 49,90 € contre 120 à 140 € chez Essentials et On. |
+| Besoin / passion | OUI : la mode homme sport-chic, le style, l'image de soi. |
+| Effet wow | L'ensemble sweat + jogging de la même couleur : la tenue est faite en 2 pièces. |
+| Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
+| Poids / volume | Colis de 750 g. |
+| 1. Répond aux critères principaux ? | Bien : basique porté toute l'année, sans effet de mode passagère. |
+| 2. Bénéfice évident au premier regard ? | Oui : on voit tout de suite l'épaisseur, la coupe et la différence de prix. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : essayages en vidéo, comparaison avec un t-shirt fin, ensembles du mois, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : moitié de l'ensemble, le produit le plus rentable en pack. |
+| Prix en France | Essentials jogging 119,99 € (Breuninger) ; On Trek Pants environ 140 € (site belge). |
+| Angle pub / Instagram | Le vêtement fin et déformé à côté de la pièce VAURE épaisse, puis la tenue complète, en 10 secondes. |
+| Fournisseur | 12,35 $ (50 à 499), 10,64 $ dès 500. |
+| À vérifier | Vérifier l'épaisseur et la coupe sur échantillon ; pas de bords bruts ni de délavé. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
+
+## 8. Accessoires homme · se protéger du soleil avec style — Casquette légère
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-Quick-Dry-Running-Cap_1600612754499.html) · coût 2,56 € (2,98 $ × 0,86) · revente 29,90 € · marge 27,34 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins cher. |
+| Demande en France | Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et TikTok. |
+| Observation | Sur Instagram et TikTok, les hommes montrent des tenues oversize unies (sweat + jogging assortis) ; ils veulent le style On ou Essentials sans payer 130 € le sweat. |
+| Cible et désir | Hommes de 18 à 35 ans qui aiment le look sport-chic propre (oversize, couleurs unies) mais trouvent les grandes marques trop chères. |
+| Problème | Les casquettes en coton épais tiennent chaud et marquent la sueur. |
+| Question à résoudre | Comment se protéger du soleil avec style, avec une belle pièce à petit prix ? |
+| Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
+| **Idée de business** | Je veux permettre aux hommes de porter une casquette légère qui reste nette, en ville comme au sport. |
+| Solution à un problème | OUI : les casquettes en coton épais tiennent chaud et marquent la sueur. |
+| Économique | OUI : petit prix d'achat, complément facile. |
+| Besoin / passion | OUI : la mode homme sport-chic, le style, l'image de soi. |
+| Effet wow | Ultra légère : on l'oublie sur la tête. |
+| Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
+| Poids / volume | Léger, petit colis. |
+| 1. Répond aux critères principaux ? | Bien : basique porté toute l'année, sans effet de mode passagère. |
+| 2. Bénéfice évident au premier regard ? | Oui : on voit tout de suite l'épaisseur, la coupe et la différence de prix. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : essayages en vidéo, comparaison avec un t-shirt fin, ensembles du mois, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : complément de panier pour atteindre la livraison offerte. |
+| Prix en France | Casquettes Ciele et On vendues bien plus cher en magasin de sport ; Decathlon dès quelques euros. |
+| Angle pub / Instagram | Le vêtement fin et déformé à côté de la pièce VAURE épaisse, puis la tenue complète, en 10 secondes. |
+| Fournisseur | Kimtex : 2,98 $ (100 à 499), 2,28 $ dès 500, broderie possible. |
+| À vérifier | Minimum 100 pièces ; choisir une couleur unie qui va avec la gamme. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
+
+## 9. Accessoires homme · ne plus être ébloui — Lunettes de soleil UV400
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html) · coût 0,75 € (0,87 $ × 0,86) · revente 34,90 € · marge 34,15 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins cher. |
+| Demande en France | Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et TikTok. |
+| Observation | Sur Instagram et TikTok, les hommes montrent des tenues oversize unies (sweat + jogging assortis) ; ils veulent le style On ou Essentials sans payer 130 € le sweat. |
+| Cible et désir | Hommes de 18 à 35 ans qui aiment le look sport-chic propre (oversize, couleurs unies) mais trouvent les grandes marques trop chères. |
+| Problème | Le soleil et les reflets éblouissent en voiture, en ville et au sport. |
+| Question à résoudre | Comment ne plus être ébloui, avec une belle pièce à petit prix ? |
+| Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
+| **Idée de business** | Je veux permettre aux hommes de voir clair au soleil avec des lunettes au look sport-chic. |
+| Solution à un problème | OUI : le soleil et les reflets éblouissent en voiture, en ville et au sport. |
+| Économique | OUI : meilleure marge de la gamme, moins chères que les marques. |
+| Besoin / passion | OUI : le style, la conduite, le sport. |
+| Effet wow | Les verres miroir verts et le logo VAURE gravé : un vrai look de marque. |
+| Unique | Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On. |
+| Poids / volume | Léger, petit colis. |
+| 1. Répond aux critères principaux ? | Bien : basique porté toute l'année, sans effet de mode passagère. |
+| 2. Bénéfice évident au premier regard ? | Oui : on voit tout de suite l'épaisseur, la coupe et la différence de prix. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : essayages en vidéo, comparaison avec un t-shirt fin, ensembles du mois, packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : premier produit à lancer (petit stock, pas de tailles, très léger). |
+| Prix en France | Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €. |
+| Angle pub / Instagram | Le vêtement fin et déformé à côté de la pièce VAURE épaisse, puis la tenue complète, en 10 secondes. |
+| Fournisseur | Lien choisi par Jairo : 0,87 $ (2 minimum, en stock) ; fournisseur de secours iRun polarisé : 7,48 $ (500 minimum, logo dès 100) (https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html). |
+| À vérifier | Fournisseur jeune et non vérifié : commander 2 échantillons ; exiger le marquage CE et la norme EN ISO 12312-1 avant de vendre ; demander une version polarisée. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
+
+## 10. Salle de bain · avoir une eau plus douce sous la douche — Pommeau de douche filtrant
 
 [Lien Alibaba](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) · coût 6,75 € (7,85 $ × 0,86) · revente 39,90 € · marge 33,15 €
 
 | Étape | Réponse |
 |---|---|
 | Boutique modèle | Jolie (États-Unis) : le pommeau filtrant devenu une marque à succès. |
-| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
-| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans qui s'entraînent plusieurs fois par semaine (course, Pilates, renforcement) et prennent soin de leur récupération. |
-| Problème | Après chaque entraînement on se douche, mais l'eau calcaire et chlorée fait tirer la peau et ternit les cheveux. |
-| Question à résoudre | Comment avoir une eau plus douce sous la douche simplement, avec un bel objet ? |
-| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
-| **Idée de business** | Je veux permettre aux sportifs qui se douchent souvent de prendre une douche plus douce pour la peau et les cheveux, sans travaux. |
-| Solution à un problème | OUI : après chaque entraînement on se douche, mais l'eau calcaire et chlorée fait tirer la peau et ternit les cheveux. |
+| Demande en France | Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et TikTok. |
+| Observation | Sur Instagram et TikTok, les hommes montrent des tenues oversize unies (sweat + jogging assortis) ; ils veulent le style On ou Essentials sans payer 130 € le sweat. |
+| Cible et désir | Hommes de 18 à 35 ans qui aiment le look sport-chic propre (oversize, couleurs unies) mais trouvent les grandes marques trop chères. |
+| Problème | L'eau calcaire et chlorée fait tirer la peau et ternit les cheveux. |
+| Question à résoudre | Comment avoir une eau plus douce sous la douche, avec une belle pièce à petit prix ? |
+| Pistes produit | T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant. |
+| **Idée de business** | Je veux permettre à ceux qui ont une eau calcaire de prendre une douche plus douce pour la peau et les cheveux, sans travaux. |
+| Solution à un problème | OUI : l'eau calcaire et chlorée fait tirer la peau et ternit les cheveux. |
 | Économique | OUI : moitié prix des marques qui font de la pub (69,95 à 81,95 €). |
-| Besoin / passion | OUI : la course à pied, les défis, la performance. |
+| Besoin / passion | OUI : le soin de soi, la routine du matin. |
 | Effet wow | Le filtre neuf blanc puis tout jauni après un mois : la preuve en vidéo. |
-| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
+| Unique | Design premium, preuve en vidéo du filtre usé, cartouches de rechange en abonnement. |
 | Poids / volume | Colis d'environ 500 g. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
+| 1. Répond aux critères principaux ? | Bien : l'eau calcaire touche presque toute la France, le problème dure toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on voit tout de suite l'épaisseur, la coupe et la différence de prix. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : essayages en vidéo, comparaison avec un t-shirt fin, ensembles du mois, packs. |
 | 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : énorme marché, preuve visuelle très forte, cartouches de rechange à revendre. |
 | Prix en France | StoneStream 69,95 €, MineralStream 81,95 € ; pommeaux basiques dès 13,99 €. |
-| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
-| Fournisseur | Shenzhen Calux Purification Technology (fabricant vérifié, 14 ans, spécialiste de la filtration) : 7,85 à 20 $ selon le modèle, minimum 2 lots ; ancien fournisseur de secours : 5,50 $ (https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html). |
-| À vérifier | Confirmer que le modèle à 7,85 $ est le pommeau complet (au-delà de 17 $ le coût dépasse 15 €) ; demander le prix avec logo pour 100 pièces, le prix des cartouches et un test de filtration (SGS). Aucune promesse médicale. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
-
-## 2. Sport · courir sans être ébloui — Lunettes de sport UV400
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html) · coût 0,75 € (0,87 $ × 0,86) · revente 34,90 € · marge 34,15 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Goodr : une marque qui vend presque uniquement des lunettes de sport à 25 $. |
-| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
-| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans qui s'entraînent plusieurs fois par semaine (course, Pilates, renforcement) et prennent soin de leur récupération. |
-| Problème | Le soleil et les reflets éblouissent, et les lunettes classiques glissent avec la sueur. |
-| Question à résoudre | Comment courir sans être ébloui simplement, avec un bel objet ? |
-| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
-| **Idée de business** | Je veux permettre aux coureurs de courir au soleil sans plisser les yeux, avec des lunettes légères qui tiennent. |
-| Solution à un problème | OUI : le soleil et les reflets éblouissent, et les lunettes classiques glissent avec la sueur. |
-| Économique | OUI : moins chères que les marques, mêmes usages. |
-| Besoin / passion | OUI : la course à pied, les défis, la performance. |
-| Effet wow | Le look « athlète » des photos de course. |
-| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : accessoire très visible en photo, marge correcte. |
-| Prix en France | Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €. |
-| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
-| Fournisseur | Lien choisi par Jairo : 0,87 $ (2 minimum, en stock) ; fournisseur de secours iRun polarisé : 7,48 $ (500 minimum, logo dès 100) (https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html). |
-| À vérifier | Fournisseur jeune (1 an) et non vérifié : commander 2 échantillons, vérifier la qualité, le marquage CE et la norme EN ISO 12312-1 (catégorie de filtre) avant de vendre ; demander si un logo est possible. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
-
-## 3. Bien-être numérique · décrocher de son téléphone — Bloqueur d'applis NFC
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Black-pvc-card-nfc-NTAG-215_62022555600.html) · coût 0,30 € (0,35 $ × 0,86) · revente 34,90 € · marge 34,60 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Brick : la marque qui a fait de ce produit un succès mondial. |
-| Demande en France | Produit phare d'une des marques e-commerce qui vendent le plus au monde (classements Brandsearch, TrendTrack, Shopify 2026). |
-| Observation | Les marques en ligne qui réussissent le mieux vendent un seul produit phare qui règle un problème clair, avec une vidéo de démonstration. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans, actifs, qui achètent en ligne sur coup de cœur quand ils voient un problème réglé en vidéo. |
-| Problème | On passe des heures sur les réseaux sociaux sans le vouloir ; les limites de temps dans le téléphone se contournent en un clic. |
-| Question à résoudre | Comment décrocher de son téléphone simplement, avec un bel objet ? |
-| Pistes produit | Bloqueur d'applis NFC (Brick) · portefeuille métal (Ridge) · kit WC lavant (Tushy) · gobelet isotherme (Stanley) · bouchons d'oreilles (Loop) · mini pistolet de massage (Theragun) · bracelets lestés (Bala) · sacoche (Bellroy). |
-| **Idée de business** | Je veux permettre à ceux qui veulent reprendre le contrôle de leur temps de bloquer leurs applis d'un simple geste, avec un objet qui reste à la maison. |
-| Solution à un problème | OUI : on passe des heures sur les réseaux sociaux sans le vouloir ; les limites de temps dans le téléphone se contournent en un clic. |
-| Économique | OUI : moins cher que Brick (55 à 59 $), aucun abonnement. |
-| Besoin / passion | OUI : la course à pied, les défis, la performance. |
-| Effet wow | On touche la carte : Instagram et TikTok disparaissent. Pour les rouvrir, il faut se lever et retoucher la carte. |
-| Unique | Même usage que la marque phare, à moitié prix, avec ta marque, ton design et ta communauté. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : la vidéo de démonstration de la marque phare marche déjà, il suffit de la refaire à sa façon. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : le produit phare qui grandit le plus vite au monde selon Brandsearch, problème énorme (addiction au téléphone). |
-| Prix en France |  Brick 55 à 59 $ (environ 15,9 millions de dollars de ventes par mois selon Brandsearch). |
-| Angle pub / Instagram | Le problème en 3 secondes, puis la démonstration du produit, comme les pubs de la marque phare. |
-| Fournisseur | Carte NFC noire mate NTAG215 : 0,15 à 0,35 $ (100 minimum), logo dès 100 ; prévoir environ 1 € d'étui. |
-| À vérifier | Fonctionne avec une appli gratuite (Foqos sur iPhone, Raccourcis) : vérifier et tester la mise en place sur iPhone et Android, et écrire un guide simple. Aucune plateforme à gérer. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
-
-## 4. Accessoires homme · avoir un portefeuille fin — Portefeuille métal minimaliste
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Minimalist-Men-Wallet-Aluminum-Metal-Slim_1601391026836.html) · coût 4,99 € (5,8 $ × 0,86) · revente 39,90 € · marge 34,91 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Ridge : la marque qui a fait de ce produit un succès mondial. |
-| Demande en France | Produit phare d'une des marques e-commerce qui vendent le plus au monde (classements Brandsearch, TrendTrack, Shopify 2026). |
-| Observation | Les marques en ligne qui réussissent le mieux vendent un seul produit phare qui règle un problème clair, avec une vidéo de démonstration. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans, actifs, qui achètent en ligne sur coup de cœur quand ils voient un problème réglé en vidéo. |
-| Problème | Le portefeuille en cuir devient épais, déforme la poche, et les cartes sans contact peuvent être piratées. |
-| Question à résoudre | Comment avoir un portefeuille fin simplement, avec un bel objet ? |
-| Pistes produit | Bloqueur d'applis NFC (Brick) · portefeuille métal (Ridge) · kit WC lavant (Tushy) · gobelet isotherme (Stanley) · bouchons d'oreilles (Loop) · mini pistolet de massage (Theragun) · bracelets lestés (Bala) · sacoche (Bellroy). |
-| **Idée de business** | Je veux permettre aux hommes et aux femmes qui en ont assez d'un gros portefeuille de tout garder dans un porte-cartes fin et solide. |
-| Solution à un problème | OUI : le portefeuille en cuir devient épais, déforme la poche, et les cartes sans contact peuvent être piratées. |
-| Économique | OUI : un tiers du prix de Ridge. |
-| Besoin / passion | OUI : la course à pied, les défis, la performance. |
-| Effet wow | Le gros portefeuille à côté du porte-cartes de 8 mm ; les cartes qui sortent d'un geste. |
-| Unique | Même usage que la marque phare, à moitié prix, avec ta marque, ton design et ta communauté. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : la vidéo de démonstration de la marque phare marche déjà, il suffit de la refaire à sa façon. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : Ridge est la plus grosse marque e-commerce de sa catégorie (16,9 millions de dollars par mois selon Brandsearch). |
-| Prix en France | Ridge 65 à 149 € en Europe.  |
-| Angle pub / Instagram | Le problème en 3 secondes, puis la démonstration du produit, comme les pubs de la marque phare. |
-| Fournisseur | 5,80 $ (50 à 499), logo personnalisé, 70 g. |
-| À vérifier | Vérifier la protection RFID avant de l'annoncer ; ne pas copier le design ni le nom de Ridge. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
-
-## 5. Salle de bain · être plus propre aux toilettes — Kit WC lavant sans électricité
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) · coût 7,31 € (8,5 $ × 0,86) · revente 49,90 € · marge 42,59 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Tushy : la marque qui a fait de ce produit un succès mondial. |
-| Demande en France | Produit phare d'une des marques e-commerce qui vendent le plus au monde (classements Brandsearch, TrendTrack, Shopify 2026). |
-| Observation | Les marques en ligne qui réussissent le mieux vendent un seul produit phare qui règle un problème clair, avec une vidéo de démonstration. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans, actifs, qui achètent en ligne sur coup de cœur quand ils voient un problème réglé en vidéo. |
-| Problème | Le papier toilette ne lave pas vraiment, irrite, coûte cher, et un WC japonais coûte 450 à 1 500 €. |
-| Question à résoudre | Comment être plus propre aux toilettes simplement, avec un bel objet ? |
-| Pistes produit | Bloqueur d'applis NFC (Brick) · portefeuille métal (Ridge) · kit WC lavant (Tushy) · gobelet isotherme (Stanley) · bouchons d'oreilles (Loop) · mini pistolet de massage (Theragun) · bracelets lestés (Bala) · sacoche (Bellroy). |
-| **Idée de business** | Je veux permettre à chacun d'avoir la propreté d'un WC japonais chez soi, en 10 minutes et sans électricien. |
-| Solution à un problème | OUI : le papier toilette ne lave pas vraiment, irrite, coûte cher, et un WC japonais coûte 450 à 1 500 €. |
-| Économique | OUI : moins de papier toilette, au lieu d'un WC japonais à plusieurs centaines d'euros. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Le jet qui sort et se range tout seul ; les pubs avec humour (comme Tushy aux États-Unis). |
-| Unique | Même usage que la marque phare, à moitié prix, avec ta marque, ton design et ta communauté. |
-| Poids / volume | Colis d'environ 2 kg. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : la vidéo de démonstration de la marque phare marche déjà, il suffit de la refaire à sa façon. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : produit spectaculaire, vrai problème, marché prouvé aux États-Unis (Tushy). |
-| Prix en France | Tushy aux États-Unis ; Brico Dépôt 39 €, Leroy Merlin 80 €, BOKU 86,90 € (Castorama). |
-| Angle pub / Instagram | Le problème en 3 secondes, puis la démonstration du produit, comme les pubs de la marque phare. |
-| Fournisseur | 8,50 $ (50 à 999), logo dès 300. |
-| À vérifier | Vérifier la compatibilité avec les toilettes françaises et fournir le raccord ; colis d'environ 2 kg. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
-
-## 6. Cuisine · garder sa boisson fraîche — Gobelet isotherme 1,2 L
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/40oz-Tumbler-with-Handle-and-Straw_1601725774684.html) · coût 2,06 € (2,39 $ × 0,86) · revente 32,90 € · marge 30,84 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Stanley : la marque qui a fait de ce produit un succès mondial. |
-| Demande en France | Produit phare d'une des marques e-commerce qui vendent le plus au monde (classements Brandsearch, TrendTrack, Shopify 2026). |
-| Observation | Les marques en ligne qui réussissent le mieux vendent un seul produit phare qui règle un problème clair, avec une vidéo de démonstration. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans, actifs, qui achètent en ligne sur coup de cœur quand ils voient un problème réglé en vidéo. |
-| Problème | On oublie de boire, l'eau devient tiède, et on achète des bouteilles en plastique. |
-| Question à résoudre | Comment garder sa boisson fraîche simplement, avec un bel objet ? |
-| Pistes produit | Bloqueur d'applis NFC (Brick) · portefeuille métal (Ridge) · kit WC lavant (Tushy) · gobelet isotherme (Stanley) · bouchons d'oreilles (Loop) · mini pistolet de massage (Theragun) · bracelets lestés (Bala) · sacoche (Bellroy). |
-| **Idée de business** | Je veux permettre aux sportifs de boire assez toute la journée avec une boisson qui reste fraîche des heures. |
-| Solution à un problème | OUI : on oublie de boire, l'eau devient tiède, et on achète des bouteilles en plastique. |
-| Économique | OUI : moins cher que Stanley, même usage. |
-| Besoin / passion | OUI : la course à pied, les défis, la performance. |
-| Effet wow | La glace encore là après des heures. |
-| Unique | Même usage que la marque phare, à moitié prix, avec ta marque, ton design et ta communauté. |
-| Poids / volume | Colis d'environ 750 g. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : la vidéo de démonstration de la marque phare marche déjà, il suffit de la refaire à sa façon. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : tendance très forte, achat cadeau. |
-| Prix en France |  Stanley Quencher 40,78 à 53,56 € ; Orion 27,99 €. |
-| Angle pub / Instagram | Le problème en 3 secondes, puis la démonstration du produit, comme les pubs de la marque phare. |
-| Fournisseur | 2,39 $ (2 à 999). |
-| À vérifier | Colis d'environ 750 g ; vérifier l'étanchéité du couvercle. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
-
-## 7. Bien-être · protéger ses oreilles sans s'isoler — Bouchons d'oreilles concert
-
-[Lien Alibaba](https://www.alibaba.com/product-introduction/Custom-logo-2-Pairs-tapones-auditivos_1600979485174.html) · coût 3,87 € (4,5 $ × 0,86) · revente 29,90 € · marge 26,03 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Loop : la marque qui a fait de ce produit un succès mondial. |
-| Demande en France | Produit phare d'une des marques e-commerce qui vendent le plus au monde (classements Brandsearch, TrendTrack, Shopify 2026). |
-| Observation | Les marques en ligne qui réussissent le mieux vendent un seul produit phare qui règle un problème clair, avec une vidéo de démonstration. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans, actifs, qui achètent en ligne sur coup de cœur quand ils voient un problème réglé en vidéo. |
-| Problème | Concerts, bars et open spaces trop bruyants : oreilles qui sifflent ou impossible de se concentrer. |
-| Question à résoudre | Comment protéger ses oreilles sans s'isoler simplement, avec un bel objet ? |
-| Pistes produit | Bloqueur d'applis NFC (Brick) · portefeuille métal (Ridge) · kit WC lavant (Tushy) · gobelet isotherme (Stanley) · bouchons d'oreilles (Loop) · mini pistolet de massage (Theragun) · bracelets lestés (Bala) · sacoche (Bellroy). |
-| **Idée de business** | Je veux permettre à ceux qui sortent ou travaillent dans le bruit de protéger leurs oreilles avec des bouchons discrets et jolis. |
-| Solution à un problème | OUI : concerts, bars et open spaces trop bruyants : oreilles qui sifflent ou impossible de se concentrer. |
-| Économique | OUI : moins cher que Loop (39,95 €). |
-| Besoin / passion | OUI : la course à pied, les défis, la performance. |
-| Effet wow | Le bijou dans l'oreille, et le son du concert encore clair mais moins fort. |
-| Unique | Même usage que la marque phare, à moitié prix, avec ta marque, ton design et ta communauté. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : la vidéo de démonstration de la marque phare marche déjà, il suffit de la refaire à sa façon. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : Loop est devenue une marque mondiale avec ce seul produit. |
-| Prix en France |  Loop Engage 2 Plus 39,95 €. |
-| Angle pub / Instagram | Le problème en 3 secondes, puis la démonstration du produit, comme les pubs de la marque phare. |
-| Fournisseur | 2 paires + étui : 4,50 $ (100 à 999), logo dès 500. |
-| À vérifier | Indiquer la réduction de bruit testée (norme EN 352) ; aucune promesse médicale. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
-
-## 8. Récupération · récupérer après la course — Mini pistolet de massage
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Light-Mini-Massage-Gun-Lcd-Touch_1601094578732.html) · coût 5,71 € (6,64 $ × 0,86) · revente 34,90 € · marge 29,19 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Theragun : la marque qui a fait de ce produit un succès mondial. |
-| Demande en France | Produit phare d'une des marques e-commerce qui vendent le plus au monde (classements Brandsearch, TrendTrack, Shopify 2026). |
-| Observation | Les marques en ligne qui réussissent le mieux vendent un seul produit phare qui règle un problème clair, avec une vidéo de démonstration. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans, actifs, qui achètent en ligne sur coup de cœur quand ils voient un problème réglé en vidéo. |
-| Problème | Mollets et cuisses durs et courbatures après les sorties ; un kiné coûte cher. |
-| Question à résoudre | Comment récupérer après la course simplement, avec un bel objet ? |
-| Pistes produit | Bloqueur d'applis NFC (Brick) · portefeuille métal (Ridge) · kit WC lavant (Tushy) · gobelet isotherme (Stanley) · bouchons d'oreilles (Loop) · mini pistolet de massage (Theragun) · bracelets lestés (Bala) · sacoche (Bellroy). |
-| **Idée de business** | Je veux permettre aux coureurs de récupérer en 5 minutes chez eux, avec un mini pistolet de massage. |
-| Solution à un problème | OUI : mollets et cuisses durs et courbatures après les sorties ; un kiné coûte cher. |
-| Économique | OUI : bien moins cher que les marques (65 à 190 €). |
-| Besoin / passion | OUI : la course à pied, les défis, la performance. |
-| Effet wow | Le muscle qui ondule à l'écran. |
-| Unique | Même usage que la marque phare, à moitié prix, avec ta marque, ton design et ta communauté. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : la vidéo de démonstration de la marque phare marche déjà, il suffit de la refaire à sa façon. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : très visuel en vidéo, gros marché de la récupération. |
-| Prix en France |  Sans marque 30 à 50 € ; marques 65 à 190 €. |
-| Angle pub / Instagram | Le problème en 3 secondes, puis la démonstration du produit, comme les pubs de la marque phare. |
-| Fournisseur | 6,64 $ (1 à 499), certifié CE. |
-| À vérifier | Produit électrique : notice en français, garantie, inscription au recyclage des appareils (DEEE). Aucune promesse médicale. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
-
-## 9. Bien-être · se renforcer en douceur — Bracelets lestés pastel
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html) · coût 5,03 € (5,85 $ × 0,86) · revente 39,90 € · marge 34,87 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Bala : la marque qui a fait de ce produit un succès mondial. |
-| Demande en France | Produit phare d'une des marques e-commerce qui vendent le plus au monde (classements Brandsearch, TrendTrack, Shopify 2026). |
-| Observation | Les marques en ligne qui réussissent le mieux vendent un seul produit phare qui règle un problème clair, avec une vidéo de démonstration. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans, actifs, qui achètent en ligne sur coup de cœur quand ils voient un problème réglé en vidéo. |
-| Problème | Les haltères sont encombrants et peu agréables ; on veut se renforcer en marchant ou pendant le Pilates. |
-| Question à résoudre | Comment se renforcer en douceur chez soi, simplement, sans payer un studio ? |
-| Pistes produit | Bloqueur d'applis NFC (Brick) · portefeuille métal (Ridge) · kit WC lavant (Tushy) · gobelet isotherme (Stanley) · bouchons d'oreilles (Loop) · mini pistolet de massage (Theragun) · bracelets lestés (Bala) · sacoche (Bellroy). |
-| **Idée de business** | Je veux permettre aux femmes actives de se renforcer en douceur toute la journée, avec des bracelets jolis comme des bijoux. |
-| Solution à un problème | OUI : les haltères sont encombrants et peu agréables ; on veut se renforcer en marchant ou pendant le Pilates. |
-| Économique | OUI : remplace des haltères. |
-| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
-| Effet wow | Un bijou qui muscle. |
-| Unique | Même usage que la marque phare, à moitié prix, avec ta marque, ton design et ta communauté. |
-| Poids / volume | Colis d'environ 1 kg. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : la vidéo de démonstration de la marque phare marche déjà, il suffit de la refaire à sa façon. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : la meilleure preuve de vente (Bala), très photogénique. |
-| Prix en France |  Decathlon 42,99 € le lot ; Bala 49 à 85 $ aux États-Unis. |
-| Angle pub / Instagram | Le problème en 3 secondes, puis la démonstration du produit, comme les pubs de la marque phare. |
-| Fournisseur | 5,85 $ la paire (1 à 499), logo dès 50. |
-| À vérifier | Bien indiquer le poids de chaque bracelet. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
-
-## 10. Mode homme · garder ses affaires sur soi — Sacoche en cuir homme
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html) · coût 10,75 € (12,5 $ × 0,86) · revente 49,90 € · marge 39,15 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Bellroy : la marque qui a fait de ce produit un succès mondial. |
-| Demande en France | Produit phare d'une des marques e-commerce qui vendent le plus au monde (classements Brandsearch, TrendTrack, Shopify 2026). |
-| Observation | Les marques en ligne qui réussissent le mieux vendent un seul produit phare qui règle un problème clair, avec une vidéo de démonstration. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans, actifs, qui achètent en ligne sur coup de cœur quand ils voient un problème réglé en vidéo. |
-| Problème | Les poches débordent (téléphone, clés, portefeuille) et on a peur des vols dans les transports. |
-| Question à résoudre | Comment garder ses affaires sur soi simplement, avec un bel objet ? |
-| Pistes produit | Bloqueur d'applis NFC (Brick) · portefeuille métal (Ridge) · kit WC lavant (Tushy) · gobelet isotherme (Stanley) · bouchons d'oreilles (Loop) · mini pistolet de massage (Theragun) · bracelets lestés (Bala) · sacoche (Bellroy). |
-| **Idée de business** | Je veux permettre aux hommes qui sortent en ville de garder leurs affaires rangées sur eux, en sécurité et les mains libres, avec une sacoche en cuir qui a du style. |
-| Solution à un problème | OUI : les poches débordent (téléphone, clés, portefeuille) et on a peur des vols dans les transports. |
-| Économique | OUI : remplace des poches pleines et protège des vols. |
-| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
-| Effet wow | Les poches vidées sur la table, puis tout rangé dans la sacoche en 5 secondes. |
-| Unique | Même usage que la marque phare, à moitié prix, avec ta marque, ton design et ta communauté. |
-| Poids / volume | Colis d'environ 500 g. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : la vidéo de démonstration de la marque phare marche déjà, il suffit de la refaire à sa façon. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : produit très tendance, marge la plus forte de la liste, se vend toute l'année. |
-| Prix en France | Bellroy, sacoches 69 à 99 € ; Lacoste environ 60 à 150 € (parfois 40 € en promotion) ; places de marché en cuir 43 à 60 €. |
-| Angle pub / Instagram | Le problème en 3 secondes, puis la démonstration du produit, comme les pubs de la marque phare. |
-| Fournisseur | Cuir véritable, 12,50 $ (50 à 499), logo accepté. |
-| À vérifier | Demander un certificat de matière et un échantillon avant d'écrire « cuir véritable » ; aucun design qui copie une marque. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
+| Angle pub / Instagram | Le filtre neuf à côté du filtre jauni après un mois, en 10 secondes. |
+| Fournisseur | Shenzhen Calux Purification Technology (fabricant vérifié, 14 ans) : 7,85 à 20 $ selon le modèle, minimum 2 lots. |
+| À vérifier | Confirmer que le modèle à 7,85 $ est le pommeau complet ; demander un test de filtration (SGS). Aucune promesse médicale. Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On. |
 
 ## 2e produits (plus de 50 €)
 
 | Pack | Coût | Revente | Lien |
 |---|---|---|---|
-| Pack Salle de bain spa : kit WC lavant + pommeau filtrant | 14,06 € | 74,90 € | [Alibaba](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) |
-| Pack Homme essentiel : portefeuille métal + sacoche en cuir | 15,74 € | 74,90 € | [Alibaba](https://www.alibaba.com/product-detail/MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html) |
-| Pack Déconnexion : bloqueur d'applis NFC + bouchons d'oreilles | 4,17 € | 54,90 € | [Alibaba](https://www.alibaba.com/product-detail/Black-pvc-card-nfc-NTAG-215_62022555600.html) |
+| Ensemble VAURE : sweat à capuche + jogging de la même couleur | 19,13 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/Premium-3d-Puff-Print-Hoodie_1600347472870.html) |
+| Pack 3 t-shirts oversize 240 g | 11,51 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-240g-Cotton-T-Shirt_1601269043057.html) |
+| Pack Soleil : lunettes UV400 + casquette légère | 3,31 € | 54,90 € | [Alibaba](https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html) |
 
 ## Sources
 
-- [i-run, FlipBelt](https://www.i-run.fr/accessoires/Ceinture-porte-dossard_c1080/FlipBelt_m240/FlipBelt-FlipBelt_FlipBelt_fiche_36841.html)
-- [i-run, aimants porte-dossard](https://www.i-run.fr/accessoires/Ceinture-porte-dossard_c1080/i-run-fr_m114/i-run-fr-Aimants-Accroche-Dossards_i-run-fr_fiche_60664.html)
-- [Decathlon, accessoires running et lunettes](https://www.decathlon.fr/boutiques/accessoires-decathlon-coach-course-a-pied-accessoires)
-- [Alltricks, flasque Salomon 500 ml](https://www.alltricks.fr/F-11906-bidons/P-2932843-flasque_souple_salomon_soft_flask_500ml_ultra_42_bleu)
-- [Alltricks, gilet Kiprun Race 900](https://www.alltricks.fr/F-41498-bagagerie/P-3208797-gilet_d_hydratation_kiprun_race_900_3l_vert)
-- [Sports Shoes, Salomon S/LAB Sense 6](https://www.sportsshoes.com/fr-fr/product/sal7011/s/lab-sense-6-gilet-de-running-(avec-flasques)---ss26)
+- [On, vêtements homme (France)](https://www.on.com/fr-fr/shop/mens/apparel)
+- [On, running homme (Belgique)](https://www.on.com/fr-be/shop/mens/apparel/running)
+- [Breuninger, Fear of God Essentials](https://www.breuninger.com/be/fr/marques/essentials-fear-of-god/)
+- [Fincut, t-shirts et basiques homme](https://fincutmen.com)
+- [Decathlon, lunettes de sport](https://www.decathlon.fr/boutiques/accessoires-decathlon-coach-course-a-pied-accessoires)
 - [Snowleader, casquettes Ciele](https://www.snowleader.com/gocapsc-field-capitalrc-light-grey-CIEL00274.html)
-- [Pearl, balles de massage](https://www.pearl.fr/article/NX8884/double-balle-de-massage-et-dexercice-o-8-cm)
 - [StoneStream, pommeau filtrant](https://fr.stone-stream.com/products/pomme-de-douche-ecopower-noire-avec-kit-de-filtration-deau-dure)
 - [MineralStream, kit de douche](https://fr.mineralstream.co/products/mineralstream%E2%84%A2-noir-vitamine-c-kit-de-douche-complet)
 - [La Poste, tarifs Colissimo 2026](https://www.laposte.fr/professionnel/tarif-colissimo)
-- [Brandsearch, 25 Shopify les plus rentables 2026](https://brandsearch.co/blog/top-shopify-stores-by-revenue)
-- [Brandsearch, 25 marques DTC qui grandissent le plus vite](https://brandsearch.co/blog/fastest-growing-dtc-brands)
-- [Revue de Brick (bloqueur d'applis NFC)](https://trailandkale.com/brick-app-blocker-review/)
-- [Alternatives à Brick (appli gratuite Foqos)](https://habitdoom.com/blog/brick-alternatives-iphone)
-- [Ridge, boutique européenne](https://eu.ridge.com/products/titanium-stonewashed)
-- [Loop, Engage 2 Plus](https://www.loopearplugs.com/fr-be/products/engage-plus)
-- [Sitebuilderreport, boutiques à un seul produit](https://www.sitebuilderreport.com/inspiration/one-product-shopify-stores)
 
 Liens Alibaba et prix fournisseur vérifiés le 14/11/2026. Les prix en France viennent des sites cités et peuvent changer.

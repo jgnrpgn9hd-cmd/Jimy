@@ -1,136 +1,157 @@
-# Dossier RUNNING : 10 équipements de course à pied, chacun règle un problème précis du coureur. Pas de vêtements à tailles.
+# Dossier VAURE : marque homme sport-chic oversize (modèle : On et Fear of God Essentials), vêtements validés par la coach.
 # Méthode du support Scutify (niche → observation → cible → problème → pistes → idée → critères → 4 questions).
-# Liens Alibaba et prix vérifiés le 15/11/2026. Coût = $ × 0,86. Versions précédentes : dossier_v8_maison.py, dossier_v7_organisation.py, dossier_v6_pilates.py.
+# Liens Alibaba et prix vérifiés le 15/11/2026. Coût = $ × 0,86. Version précédente : dossier_v14_dtc.py.
 
-DEMANDE = "Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €."
-MODELE = "Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €."
-CIBLE = "Femmes et hommes de 20 à 45 ans qui s'entraînent plusieurs fois par semaine (course, Pilates, renforcement) et prennent soin de leur récupération."
-CONC = "Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs."
-PISTES = "Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard."
+DEMANDE = "Les marques sport-chic (On, Fear of God Essentials) vendent leurs basiques épais et oversize 50 à 170 € en France, et le style « clean » oversize est partout sur Instagram et TikTok."
+MODELE = "On et Fear of God Essentials : une gamme courte de basiques unis, épais, petit logo, ensembles assortis ; VAURE fait pareil, avec son propre nom et ses propres modèles, 3 fois moins cher."
+CIBLE = "Hommes de 18 à 35 ans qui aiment le look sport-chic propre (oversize, couleurs unies) mais trouvent les grandes marques trop chères."
+OBS = "Sur Instagram et TikTok, les hommes montrent des tenues oversize unies (sweat + jogging assortis) ; ils veulent le style On ou Essentials sans payer 130 € le sweat."
+PISTES = "T-shirt oversize · t-shirt épais · manches longues · sweat à capuche · sweat zippé · sweat col rond · jogging · casquette · lunettes de soleil · pommeau filtrant."
+CONC = "Concurrence : Zara, Uniqlo et les marques Instagram ; VAURE se démarque par l'épaisseur du tissu, le look net (jamais délavé), les ensembles et le prix face à On."
+A = "https://www.alibaba.com/product-detail/"
 
 
-def fiche(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, prix_france, fournisseur, vigilance, q4, poids="Léger, petit colis."):
+def fiche(court, nom, niche, lien, usd, liv, revente, probleme, idee, eco, wow, prix_france, fournisseur, vigilance, q4,
+          poids="Léger, petit colis.", passion="OUI : la mode homme sport-chic, le style, l'image de soi."):
     return dict(
-        court=court, nom=nom, niche=f"Sport et récupération · {usage}", lien=lien, usd=usd, liv=liv, revente=revente,
+        court=court, nom=nom, niche=niche, lien=lien, usd=usd, liv=liv, revente=revente,
         criteres=("OUI", "OUI", "OUI", "OUI", "OUI", "NON"), modele=MODELE, demande=DEMANDE,
-        observation="Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie.",
-        cible=CIBLE, probleme=probleme,
-        question=f"Comment {usage.lower()} simplement, avec un bel objet ?",
+        observation=OBS, cible=CIBLE, probleme=probleme,
+        question=f"Comment {niche.split(' · ', 1)[1]}, avec une belle pièce à petit prix ?",
         pistes=PISTES, idee=idee,
         c_probleme="OUI : " + probleme[0].lower() + probleme[1:],
-        c_economique=eco, c_passion="OUI : la course à pied, les défis, la performance.", c_wow=wow,
-        c_unique="Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs.",
+        c_economique=eco, c_passion=passion, c_wow=wow,
+        c_unique="Marque VAURE : look net et uni, tissus épais, petit logo ton sur ton, ensembles assortis, 3 fois moins cher que On.",
         c_poids=poids,
-        q1="Bien : vrai problème quotidien, produit léger, se garde toute l'année.",
-        q2="Oui : on comprend l'usage en voyant un coureur l'utiliser.",
-        q3="Oui : vidéos de sorties et de courses, défis du mois, packs avant une course.",
+        q1="Bien : basique porté toute l'année, sans effet de mode passagère.",
+        q2="Oui : on voit tout de suite l'épaisseur, la coupe et la différence de prix.",
+        q3="Oui : essayages en vidéo, comparaison avec un t-shirt fin, ensembles du mois, packs.",
         q4=q4, prix_france=prix_france,
-        angle_pub="Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes.",
+        angle_pub="Le vêtement fin et déformé à côté de la pièce VAURE épaisse, puis la tenue complète, en 10 secondes.",
         fournisseur=fournisseur, vigilance=vigilance + " " + CONC)
 
 
-A = "https://www.alibaba.com/product-detail/"
 FICHES = [
- fiche("Pommeau de douche filtrant", "Pommeau de douche à 15 étages de filtration, design premium, haute pression", "avoir une eau plus douce sous la douche",
-       "https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html", 7.85, 8, 39.90,
-       "Après chaque entraînement on se douche, mais l'eau calcaire et chlorée fait tirer la peau et ternit les cheveux.",
-       "Je veux permettre aux sportifs qui se douchent souvent de prendre une douche plus douce pour la peau et les cheveux, sans travaux.",
-       "OUI : moitié prix des marques qui font de la pub (69,95 à 81,95 €).", "Le filtre neuf blanc puis tout jauni après un mois : la preuve en vidéo.",
-       "StoneStream 69,95 €, MineralStream 81,95 € ; pommeaux basiques dès 13,99 €.", "Shenzhen Calux Purification Technology (fabricant vérifié, 14 ans, spécialiste de la filtration) : 7,85 à 20 $ selon le modèle, minimum 2 lots ; ancien fournisseur de secours : 5,50 $ (" + A + "High-Pressure-Water-Filter-Shower-Head_1600995143105.html).",
-       "Confirmer que le modèle à 7,85 $ est le pommeau complet (au-delà de 17 $ le coût dépasse 15 €) ; demander le prix avec logo pour 100 pièces, le prix des cartouches et un test de filtration (SGS). Aucune promesse médicale.",
-       "OUI : énorme marché, preuve visuelle très forte, cartouches de rechange à revendre.", poids="Colis d'environ 500 g."),
- fiche("Lunettes de sport UV400", "Lunettes de sport enveloppantes et surdimensionnées, protection UV400, anti-vent et anti-sable", "courir sans être ébloui",
+ fiche("T-shirt oversize 240 g", "T-shirt oversize 240 g 100 % coton, coupe large épaules tombantes, uni, petit logo VAURE",
+       "Mode homme · avoir un t-shirt oversize qui tombe bien",
+       A + "Custom-Logo-240g-Cotton-T-Shirt_1601269043057.html", 4.46, 8, 34.90,
+       "Les t-shirts larges premier prix sont fins : ils tombent mal, se déforment et font « trop grand » au lieu de faire oversize.",
+       "Je veux permettre aux hommes qui aiment le style oversize d'avoir un t-shirt épais qui garde sa forme, au prix d'un t-shirt de grande surface.",
+       "OUI : 34,90 € contre 50 à 72 € chez On et Essentials.", "On le pose à côté d'un t-shirt fin : la différence d'épaisseur se voit tout de suite.",
+       "On Club-T 50 € ; Essentials 71,99 € (Breuninger).",
+       "Quanzhou Haixin Garment Technology (7 ans, NON vérifié) : 4,46 $ (30 à 199), 3,93 $ dès 1 000 ; lien choisi par Jairo.",
+       "Fournisseur non vérifié : commander des échantillons ou trouver le même modèle chez un fournisseur vérifié ; choisir des couleurs unies, pas de délavé.",
+       "OUI : produit d'appel de la marque, se vend en pack de 3.", poids="Colis de 500 g."),
+ fiche("T-shirt épais 250 g", "T-shirt 250 g 100 % coton, col qui ne gondole pas, coupe droite (prendre une taille au-dessus pour l'effet oversize)",
+       "Mode homme · avoir un t-shirt qui ne se déforme pas",
+       A + "Heavyweight-Tshirt_1600928907355.html", 6.75, 8, 34.90,
+       "Les t-shirts classiques deviennent transparents, se déforment et le col gondole après quelques lavages.",
+       "Je veux permettre aux hommes de porter un t-shirt épais qui reste net lavage après lavage.",
+       "OUI : moitié prix de On.", "Le col reste droit et le tissu ne laisse pas passer la lumière, même blanc.",
+       "On Core-T 60 € ; Fincut 28 €.",
+       "Fuzhou Xinglan : 6,75 $ (50 à 99), 6,30 $ dès 100, logo dès 50 ; lien choisi par Jairo.",
+       "Vérifier la tenue au lavage sur échantillon ; couleurs unies.",
+       "OUI : basique qu'on rachète, idéal en pack.", poids="Colis de 500 g."),
+ fiche("T-shirt manches longues", "T-shirt manches longues à col boutonné (henley), coton, uni",
+       "Mode homme · être habillé sans être en chemise",
+       A + "Custom-Long-Sleeve-T-Shirt-Men_60795328307.html", 10.50, 8, 39.90,
+       "Entre le t-shirt trop simple et la chemise trop habillée, on ne sait pas quoi mettre en mi-saison.",
+       "Je veux permettre aux hommes d'avoir une pièce entre-deux, plus habillée qu'un t-shirt et plus confortable qu'une chemise.",
+       "OUI : moitié prix des manches longues de marque.", "Le col boutonné donne un look soigné sans effort.",
+       "On Performance Long-T environ 90 € (57,90 € en promotion chez un revendeur) ; Essentials manches longues 79,99 €.",
+       "10,50 $ (100 à 499), 8,50 $ dès 500, logo dès 100.",
+       "Minimum 100 pièces : commencer avec 2 couleurs ; vérifier le grammage sur échantillon.",
+       "OUI : complète la gamme pour l'automne et le printemps.", poids="Colis de 500 g."),
+ fiche("Sweat à capuche épais", "Sweat à capuche épais oversize 100 % coton, logo en relief ton sur ton",
+       "Mode homme · avoir un sweat qui ne bouloche pas",
+       A + "Premium-3d-Puff-Print-Hoodie_1600347472870.html", 9.89, 7, 49.90,
+       "Les sweats fins boulochent, se déforment et perdent leur tenue après quelques lavages.",
+       "Je veux permettre aux hommes d'avoir un sweat épais et structuré, au look des grandes marques, sans payer 130 €.",
+       "OUI : 49,90 € contre 130 à 140 € chez On et Essentials.", "Le logo en relief et l'épaisseur du tissu : on sent la qualité en le prenant en main.",
+       "On Club Hoodie 130 € ; Essentials sweat à capuche 139,99 € (Breuninger).",
+       "Jiangxi Yi Lingzhi Clothing (7 ans, vérifié) : 9,89 $ (50 à 99), 9,35 $ dès 100 ; lien choisi par Jairo.",
+       "Le titre de l'annonce dit « vintage » : commander uniquement en couleurs unies, sans effet délavé.",
+       "OUI : pièce phare, se vend en ensemble avec le jogging.", poids="Colis de 750 g à 1 kg."),
+ fiche("Sweat zippé uni", "Sweat zippé oversize 100 % coton, uni, petit logo brodé",
+       "Mode homme · avoir une veste de tous les jours",
+       A + "LOW-MOQ-High-Quality-Blank-Plain_1600947092413.html", 14.37, 7, 49.90,
+       "Trop chaud pour un manteau, trop froid en t-shirt : on n'a rien de pratique et de beau à enfiler par-dessus.",
+       "Je veux permettre aux hommes d'avoir une veste zippée simple et nette qui va avec tout.",
+       "OUI : environ 3 fois moins cher que On.", "La tenue complète zippé + jogging de la même couleur.",
+       "On Focus Tech Zip Hoodie 170 € (site belge).",
+       "Guangzhou Yanlu Industrial (8 ans) : 14,37 $ (20 à 99), 12,15 $ dès 100.",
+       "Coût proche de la limite de 15 € : négocier 12 $ ; vérifier le grammage (320 g annoncé).",
+       "OUI : complète l'ensemble, bon panier moyen.", poids="Colis de 750 g."),
+ fiche("Sweat col rond 450 g", "Sweat col rond 450 g 100 % coton, coupe oversize, uni",
+       "Mode homme · avoir un pull de tous les jours qui garde sa forme",
+       A + "2021-100-cotton-heavyweight-450-gsm_1600274136737.html", 11.90, 7, 44.90,
+       "Les pulls et sweats bon marché se détendent, rétrécissent ou perdent leur forme.",
+       "Je veux permettre aux hommes d'avoir un sweat très épais qui reste structuré, à porter au travail comme le week-end.",
+       "OUI : nettement moins cher que les marques sport-chic.", "450 g : un tissu si épais que le sweat tient presque debout.",
+       "Sweats col rond On et Essentials vendus plus de 100 € (Breuninger).",
+       "11,90 $ (100 à 499), 10,60 $ dès 500, logo personnalisé.",
+       "Minimum 100 pièces : commencer avec 2 couleurs ; aucune mention délavée.",
+       "OUI : pièce plus habillée que le sweat à capuche.", poids="Colis de 750 g."),
+ fiche("Jogging uni coupe ample", "Jogging molleton 100 % coton, coupe ample, uni, bas ourlé propre",
+       "Mode homme · porter un jogging qui ne fait pas négligé",
+       A + "Custom-french-terry-sweatpants-high-quality_1601254248379.html", 12.35, 7, 49.90,
+       "Le jogging fait vite négligé : tissu fin, poches aux genoux, bas qui se déforment.",
+       "Je veux permettre aux hommes de porter un jogging confortable qui fait tenue, pas pyjama.",
+       "OUI : 49,90 € contre 120 à 140 € chez Essentials et On.", "L'ensemble sweat + jogging de la même couleur : la tenue est faite en 2 pièces.",
+       "Essentials jogging 119,99 € (Breuninger) ; On Trek Pants environ 140 € (site belge).",
+       "12,35 $ (50 à 499), 10,64 $ dès 500.",
+       "Vérifier l'épaisseur et la coupe sur échantillon ; pas de bords bruts ni de délavé.",
+       "OUI : moitié de l'ensemble, le produit le plus rentable en pack.", poids="Colis de 750 g."),
+ fiche("Casquette légère", "Casquette légère respirante à séchage rapide, logo VAURE brodé ton sur ton",
+       "Accessoires homme · se protéger du soleil avec style",
+       A + "Custom-Logo-Quick-Dry-Running-Cap_1600612754499.html", 2.98, 9, 29.90,
+       "Les casquettes en coton épais tiennent chaud et marquent la sueur.",
+       "Je veux permettre aux hommes de porter une casquette légère qui reste nette, en ville comme au sport.",
+       "OUI : petit prix d'achat, complément facile.", "Ultra légère : on l'oublie sur la tête.",
+       "Casquettes Ciele et On vendues bien plus cher en magasin de sport ; Decathlon dès quelques euros.",
+       "Kimtex : 2,98 $ (100 à 499), 2,28 $ dès 500, broderie possible.",
+       "Minimum 100 pièces ; choisir une couleur unie qui va avec la gamme.",
+       "OUI : complément de panier pour atteindre la livraison offerte."),
+ fiche("Lunettes de soleil UV400", "Lunettes de soleil enveloppantes, verres miroir vert, protection UV400, logo VAURE sur la branche",
+       "Accessoires homme · ne plus être ébloui",
        "https://www.alibaba.com/product-detail/Sunglasses_1601961719548.html", 0.87, 9, 34.90,
-       "Le soleil et les reflets éblouissent, et les lunettes classiques glissent avec la sueur.",
-       "Je veux permettre aux coureurs de courir au soleil sans plisser les yeux, avec des lunettes légères qui tiennent.",
-       "OUI : moins chères que les marques, mêmes usages.", "Le look « athlète » des photos de course.",
-       "Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €.", "Lien choisi par Jairo : 0,87 $ (2 minimum, en stock) ; fournisseur de secours iRun polarisé : 7,48 $ (500 minimum, logo dès 100) (" + A + "IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html).",
-       "Fournisseur jeune (1 an) et non vérifié : commander 2 échantillons, vérifier la qualité, le marquage CE et la norme EN ISO 12312-1 (catégorie de filtre) avant de vendre ; demander si un logo est possible.",
-       "OUI : accessoire très visible en photo, marge correcte."),
+       "Le soleil et les reflets éblouissent en voiture, en ville et au sport.",
+       "Je veux permettre aux hommes de voir clair au soleil avec des lunettes au look sport-chic.",
+       "OUI : meilleure marge de la gamme, moins chères que les marques.", "Les verres miroir verts et le logo VAURE gravé : un vrai look de marque.",
+       "Decathlon 29,99 € (44,99 € photochromiques) ; Cébé 59,76 €.",
+       "Lien choisi par Jairo : 0,87 $ (2 minimum, en stock) ; fournisseur de secours iRun polarisé : 7,48 $ (500 minimum, logo dès 100) (" + A + "IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html).",
+       "Fournisseur jeune et non vérifié : commander 2 échantillons ; exiger le marquage CE et la norme EN ISO 12312-1 avant de vendre ; demander une version polarisée.",
+       "OUI : premier produit à lancer (petit stock, pas de tailles, très léger).",
+       passion="OUI : le style, la conduite, le sport."),
+ fiche("Pommeau de douche filtrant", "Pommeau de douche à 15 étages de filtration, design premium, haute pression",
+       "Salle de bain · avoir une eau plus douce sous la douche",
+       "https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html", 7.85, 8, 39.90,
+       "L'eau calcaire et chlorée fait tirer la peau et ternit les cheveux.",
+       "Je veux permettre à ceux qui ont une eau calcaire de prendre une douche plus douce pour la peau et les cheveux, sans travaux.",
+       "OUI : moitié prix des marques qui font de la pub (69,95 à 81,95 €).", "Le filtre neuf blanc puis tout jauni après un mois : la preuve en vidéo.",
+       "StoneStream 69,95 €, MineralStream 81,95 € ; pommeaux basiques dès 13,99 €.",
+       "Shenzhen Calux Purification Technology (fabricant vérifié, 14 ans) : 7,85 à 20 $ selon le modèle, minimum 2 lots.",
+       "Confirmer que le modèle à 7,85 $ est le pommeau complet ; demander un test de filtration (SGS). Aucune promesse médicale.",
+       "OUI : énorme marché, preuve visuelle très forte, cartouches de rechange à revendre.",
+       poids="Colis d'environ 500 g.", passion="OUI : le soin de soi, la routine du matin."),
 ]
-
-import dossier_v8_maison as _mai, dossier_v7_organisation as _org, dossier_v9_running as _run, dossier_v6_pilates as _pil
-_M = {f["court"]: dict(f) for f in _mai.FICHES}
-_O = {f["court"]: dict(f) for f in _org.FICHES}
-_R = {f["court"]: dict(f) for f in _run.FICHES}
-_P = {f["court"]: dict(f) for f in _pil.FICHES}
-_DTC = dict(
-    demande="Produit phare d'une des marques e-commerce qui vendent le plus au monde (classements Brandsearch, TrendTrack, Shopify 2026).",
-    observation="Les marques en ligne qui réussissent le mieux vendent un seul produit phare qui règle un problème clair, avec une vidéo de démonstration.",
-    cible="Femmes et hommes de 20 à 45 ans, actifs, qui achètent en ligne sur coup de cœur quand ils voient un problème réglé en vidéo.",
-    pistes="Bloqueur d'applis NFC (Brick) · portefeuille métal (Ridge) · kit WC lavant (Tushy) · gobelet isotherme (Stanley) · bouchons d'oreilles (Loop) · mini pistolet de massage (Theragun) · bracelets lestés (Bala) · sacoche (Bellroy).",
-    c_unique="Même usage que la marque phare, à moitié prix, avec ta marque, ton design et ta communauté.",
-    q3="Oui : la vidéo de démonstration de la marque phare marche déjà, il suffit de la refaire à sa façon.",
-    angle_pub="Le problème en 3 secondes, puis la démonstration du produit, comme les pubs de la marque phare.")
-def _phare(f, univers, marque, prix_marque):
-    f = dict(f); f.update(_DTC)
-    f["niche"] = univers + " · " + f["niche"].split(" · ", 1)[1]
-    f["modele"] = marque + " : la marque qui a fait de ce produit un succès mondial."
-    f["prix_france"] = prix_marque + " " + f["prix_france"]
-    return f
-FICHES[0]["niche"] = "Salle de bain · " + FICHES[0]["niche"].split(" · ", 1)[1]
-FICHES[0]["modele"] = "Jolie (États-Unis) : le pommeau filtrant devenu une marque à succès."
-FICHES[1]["niche"] = "Sport · " + FICHES[1]["niche"].split(" · ", 1)[1]
-FICHES[1]["modele"] = "Goodr : une marque qui vend presque uniquement des lunettes de sport à 25 $."
-_A = "https://www.alibaba.com/product-detail/"
-_brick = fiche("Bloqueur d'applis NFC", "Carte NFC noire mate à poser à la maison : on la touche avec son téléphone pour bloquer les applis qui font perdre du temps, on la retouche pour les débloquer", "décrocher de son téléphone",
-   _A + "Black-pvc-card-nfc-NTAG-215_62022555600.html", 0.35, 9, 34.90,
-   "On passe des heures sur les réseaux sociaux sans le vouloir ; les limites de temps dans le téléphone se contournent en un clic.",
-   "Je veux permettre à ceux qui veulent reprendre le contrôle de leur temps de bloquer leurs applis d'un simple geste, avec un objet qui reste à la maison.",
-   "OUI : moins cher que Brick (55 à 59 $), aucun abonnement.", "On touche la carte : Instagram et TikTok disparaissent. Pour les rouvrir, il faut se lever et retoucher la carte.",
-   "Brick 55 à 59 $ (environ 15,9 millions de dollars de ventes par mois selon Brandsearch).", "Carte NFC noire mate NTAG215 : 0,15 à 0,35 $ (100 minimum), logo dès 100 ; prévoir environ 1 € d'étui.",
-   "Fonctionne avec une appli gratuite (Foqos sur iPhone, Raccourcis) : vérifier et tester la mise en place sur iPhone et Android, et écrire un guide simple. Aucune plateforme à gérer.",
-   "OUI : le produit phare qui grandit le plus vite au monde selon Brandsearch, problème énorme (addiction au téléphone).")
-FICHES += [
- _phare(_brick, "Bien-être numérique", "Brick", ""),
- _phare(fiche("Portefeuille métal minimaliste", "Porte-cartes en aluminium anti-RFID avec pince à billets, ultra-fin", "avoir un portefeuille fin",
-   _A + "Minimalist-Men-Wallet-Aluminum-Metal-Slim_1601391026836.html", 5.80, 9, 39.90,
-   "Le portefeuille en cuir devient épais, déforme la poche, et les cartes sans contact peuvent être piratées.",
-   "Je veux permettre aux hommes et aux femmes qui en ont assez d'un gros portefeuille de tout garder dans un porte-cartes fin et solide.",
-   "OUI : un tiers du prix de Ridge.", "Le gros portefeuille à côté du porte-cartes de 8 mm ; les cartes qui sortent d'un geste.",
-   "", "5,80 $ (50 à 499), logo personnalisé, 70 g.",
-   "Vérifier la protection RFID avant de l'annoncer ; ne pas copier le design ni le nom de Ridge.",
-   "OUI : Ridge est la plus grosse marque e-commerce de sa catégorie (16,9 millions de dollars par mois selon Brandsearch)."),
-   "Accessoires homme", "Ridge", "Ridge 65 à 149 € en Europe."),
- _phare(_M["Kit WC lavant sans électricité"], "Salle de bain", "Tushy", "Tushy aux États-Unis ;"),
- _phare(_R["Gobelet isotherme 1,2 L"], "Cuisine", "Stanley", ""),
- _phare(fiche("Bouchons d'oreilles concert", "2 paires de bouchons d'oreilles en silicone qui baissent le volume sans couper le son, étui en métal", "protéger ses oreilles sans s'isoler",
-   "https://www.alibaba.com/product-introduction/Custom-logo-2-Pairs-tapones-auditivos_1600979485174.html", 4.50, 9, 29.90,
-   "Concerts, bars et open spaces trop bruyants : oreilles qui sifflent ou impossible de se concentrer.",
-   "Je veux permettre à ceux qui sortent ou travaillent dans le bruit de protéger leurs oreilles avec des bouchons discrets et jolis.",
-   "OUI : moins cher que Loop (39,95 €).", "Le bijou dans l'oreille, et le son du concert encore clair mais moins fort.",
-   "Loop Engage 2 Plus 39,95 €.", "2 paires + étui : 4,50 $ (100 à 999), logo dès 500.",
-   "Indiquer la réduction de bruit testée (norme EN 352) ; aucune promesse médicale.",
-   "OUI : Loop est devenue une marque mondiale avec ce seul produit."),
-   "Bien-être", "Loop", ""),
- _phare(_R["Mini pistolet de massage"], "Récupération", "Theragun", ""),
- _phare(_P["Bracelets lestés pastel"], "Bien-être", "Bala", ""),
- _phare(_O["Sacoche en cuir homme"], "Mode homme", "Bellroy", "Bellroy, sacoches 69 à 99 € ;"),
-]
+FICHES[-1]["modele"] = "Jolie (États-Unis) : le pommeau filtrant devenu une marque à succès."
+FICHES[-1]["c_unique"] = "Design premium, preuve en vidéo du filtre usé, cartouches de rechange en abonnement."
+FICHES[-1]["q1"] = "Bien : l'eau calcaire touche presque toute la France, le problème dure toute l'année."
+FICHES[-1]["angle_pub"] = "Le filtre neuf à côté du filtre jauni après un mois, en 10 secondes."
 
 for _f in FICHES:
     _f["cout"] = round(_f["usd"] * 0.86, 2)
     _f["marge"] = round(_f["revente"] - _f["cout"], 2)
 
 SOURCES = [
- ("i-run, FlipBelt", "https://www.i-run.fr/accessoires/Ceinture-porte-dossard_c1080/FlipBelt_m240/FlipBelt-FlipBelt_FlipBelt_fiche_36841.html"),
- ("i-run, aimants porte-dossard", "https://www.i-run.fr/accessoires/Ceinture-porte-dossard_c1080/i-run-fr_m114/i-run-fr-Aimants-Accroche-Dossards_i-run-fr_fiche_60664.html"),
- ("Decathlon, accessoires running et lunettes", "https://www.decathlon.fr/boutiques/accessoires-decathlon-coach-course-a-pied-accessoires"),
- ("Alltricks, flasque Salomon 500 ml", "https://www.alltricks.fr/F-11906-bidons/P-2932843-flasque_souple_salomon_soft_flask_500ml_ultra_42_bleu"),
- ("Alltricks, gilet Kiprun Race 900", "https://www.alltricks.fr/F-41498-bagagerie/P-3208797-gilet_d_hydratation_kiprun_race_900_3l_vert"),
- ("Sports Shoes, Salomon S/LAB Sense 6", "https://www.sportsshoes.com/fr-fr/product/sal7011/s/lab-sense-6-gilet-de-running-(avec-flasques)---ss26"),
+ ("On, vêtements homme (France)", "https://www.on.com/fr-fr/shop/mens/apparel"),
+ ("On, running homme (Belgique)", "https://www.on.com/fr-be/shop/mens/apparel/running"),
+ ("Breuninger, Fear of God Essentials", "https://www.breuninger.com/be/fr/marques/essentials-fear-of-god/"),
+ ("Fincut, t-shirts et basiques homme", "https://fincutmen.com"),
+ ("Decathlon, lunettes de sport", "https://www.decathlon.fr/boutiques/accessoires-decathlon-coach-course-a-pied-accessoires"),
  ("Snowleader, casquettes Ciele", "https://www.snowleader.com/gocapsc-field-capitalrc-light-grey-CIEL00274.html"),
- ("Pearl, balles de massage", "https://www.pearl.fr/article/NX8884/double-balle-de-massage-et-dexercice-o-8-cm"),
  ("StoneStream, pommeau filtrant", "https://fr.stone-stream.com/products/pomme-de-douche-ecopower-noire-avec-kit-de-filtration-deau-dure"),
  ("MineralStream, kit de douche", "https://fr.mineralstream.co/products/mineralstream%E2%84%A2-noir-vitamine-c-kit-de-douche-complet"),
  ("La Poste, tarifs Colissimo 2026", "https://www.laposte.fr/professionnel/tarif-colissimo"),
-]
-SOURCES += [
- ("Brandsearch, 25 Shopify les plus rentables 2026", "https://brandsearch.co/blog/top-shopify-stores-by-revenue"),
- ("Brandsearch, 25 marques DTC qui grandissent le plus vite", "https://brandsearch.co/blog/fastest-growing-dtc-brands"),
- ("Revue de Brick (bloqueur d'applis NFC)", "https://trailandkale.com/brick-app-blocker-review/"),
- ("Alternatives à Brick (appli gratuite Foqos)", "https://habitdoom.com/blog/brick-alternatives-iphone"),
- ("Ridge, boutique européenne", "https://eu.ridge.com/products/titanium-stonewashed"),
- ("Loop, Engage 2 Plus", "https://www.loopearplugs.com/fr-be/products/engage-plus"),
- ("Sitebuilderreport, boutiques à un seul produit", "https://www.sitebuilderreport.com/inspiration/one-product-shopify-stores"),
 ]
