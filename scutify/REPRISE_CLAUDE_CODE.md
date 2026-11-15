@@ -305,3 +305,5 @@ Fournisseur 62022555600 (0,15-0,35 $, min 100). Vendue 29,99 €, gain ~23 €. 
 ## 14/11/2026 — Tableau final : Organisation élégante + sacoche en cuir homme (remplace le coffret entrée).
 
 ## 14/11/2026 — Trousse à câbles remplacée par la pochette ordinateur portable (4,20 $, 34,90 €, gain 23,35 €). Pack Voyage -> Pack Nomade.
+
+## 15/11/2026 — 100_IDEES_EFFET_WAOUH.md : 100 idées (non vérifiées), top 15.
