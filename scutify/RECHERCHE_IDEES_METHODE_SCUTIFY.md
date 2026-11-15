@@ -5,7 +5,7 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 **Inspirations :**
 - **FlipBelt, Ciele, Salomon** : des accessoires running simples vendus 30 à 180 €.
 - **SmartWorkout**, l'exemple du support : un kit qui règle un problème, avec un programme et une vraie marque.
-- **Bala et SmartWorkout** : bracelets lestés et kits Pilates vendus 49 à 99 € ; **Run clubs et Strava** : communautés de sportifs.
+- **Tushy, StoneStream, Joseph Joseph** : des objets du quotidien rendus beaux et vendus avec des pubs à effet waouh.
 - **Kosso et Hustle Wear** : une seule cible, plusieurs produits qui se répondent, des packs.
 - À ne pas copier : NOXYA (sommeil), la boutique de la coach.
 
@@ -13,20 +13,20 @@ Chaque idée suit le support « Recherche de produits à fort potentiel » : nic
 
 | N° | Niche | Produit | Coût | Revente | Marge | Note /10 |
 |---|---|---|---|---|---|---|
-| 1 | Sport et récupération · avoir une eau plus douce sous la douche | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) | 6,75 € | 39,90 € | 33,15 € | 9,5 |
-| 2 | Sport et récupération · courir sans être ébloui | [Lunettes de running polarisées](https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html) | 6,43 € | 34,90 € | 28,47 € | 8,5 |
-| 3 | Sport et récupération · se renforcer en douceur | [Bracelets lestés pastel](https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html) | 5,03 € | 39,90 € | 34,87 € | 8,5 |
-| 4 | Sport et récupération · faire du Pilates Reformer | [Kit Pilates Plus « Reformer à la maison »](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) | 3,68 € | 39,90 € | 36,22 € | 8,5 |
-| 5 | Sport et récupération · boire sur les longues sorties | [Gilet d'hydratation](https://www.alibaba.com/product-detail/Trail-Running-Vest-Hydration-Vest-Adjustable_1601644236868.html) | 8,59 € | 44,90 € | 36,31 € | 8,5 |
-| 6 | Sport et récupération · ne plus glisser | [Chaussettes antidérapantes (lot de 3)](https://www.alibaba.com/product-detail/Custom-Rubber-Grip-Yoga-Dance-Socks_1600795685359.html) | 4,51 € | 32,90 € | 28,39 € | 8,5 |
-| 7 | Sport et récupération · tonifier fessiers et jambes | [Kit Fessiers](https://www.alibaba.com/product-detail/Zakerda-Non-Slip-latex-fabric-polyester_1601045479697.html) | 5,60 € | 34,90 € | 29,30 € | 8,5 |
-| 8 | Sport et récupération · suivre un cours de Pilates | [Kit Pilates Studio](https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html) | 4,43 € | 34,90 € | 30,47 € | 8,5 |
-| 9 | Sport et récupération · penser à boire | [Gourde 2 L pastel](https://www.alibaba.com/product-detail/motivational-water-bottle-2l-2-liter_1600264326049.html) | 1,95 € | 29,90 € | 27,95 € | 8,5 |
-| 10 | Sport et récupération · préparer sa première course | [Pack première course](https://www.alibaba.com/product-detail/Custom-Logo-ABS-Race-Bibs-Clips_1601697619934.html) | 8,16 € | 49,90 € | 41,74 € | 8,5 |
+| 1 | Salle de bain · avoir une eau plus douce sous la douche | [Pommeau de douche filtrant](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) | 6,75 € | 39,90 € | 33,15 € | 9,5 |
+| 2 | Sport · courir sans être ébloui | [Lunettes de running polarisées](https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html) | 6,43 € | 34,90 € | 28,47 € | 8,5 |
+| 3 | Salle de bain · être plus propre aux toilettes | [Kit WC lavant sans électricité](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) | 7,31 € | 49,90 € | 42,59 € | 8,5 |
+| 4 | Salon · cacher les câbles | [Boîte cache-multiprise](https://www.alibaba.com/product-detail/Cable-Management-Box-Organizer-Bamboo-Lid_1600989455921.html) | 3,01 € | 34,90 € | 31,89 € | 8,5 |
+| 5 | Déco · ranger ses livres avec style | [Étagère invisible pour livres (lot de 3)](https://www.alibaba.com/product-detail/Floating-Shelf-Bracket-Heavy-Duty-Hidden_1601291464842.html) | 7,74 € | 39,90 € | 32,16 € | 8,5 |
+| 6 | Cuisine · gagner de la place dans la cuisine | [Égouttoir enroulable doré](https://www.alibaba.com/product-detail/China-factory-gold-Roll-up-Dish_1601010537663.html) | 3,61 € | 34,90 € | 31,29 € | 8,5 |
+| 7 | Mode homme · garder ses affaires sur soi | [Sacoche en cuir homme](https://www.alibaba.com/product-detail/MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html) | 10,75 € | 49,90 € | 39,15 € | 8,5 |
+| 8 | Papeterie · personnaliser ses lettres et cadeaux | [Coffret cachet de cire](https://www.alibaba.com/product-detail/Pink-Wax-Seal-Stamp-Kit-with_1601147778139.html) | 2,49 € | 29,90 € | 27,41 € | 8,5 |
+| 9 | Budget · tenir son budget | [Classeur budget à enveloppes](https://www.alibaba.com/product-detail/Marble-A6-Budget-Binder-with-Zip_1600733904045.html) | 2,57 € | 34,90 € | 32,33 € | 8,5 |
+| 10 | Loisirs créatifs · créer un bel objet fait main | [Kit punch needle](https://www.alibaba.com/product-detail/Punch-Needle-Embroidery-Beginner-Kit-DIY_1600444432316.html) | 3,10 € | 34,90 € | 31,80 € | 8,5 |
 
-La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. Les 10 produits visent la même cible : la personne qui s'entraîne plusieurs fois par semaine (course, Pilates, renforcement) et soigne sa récupération.
+La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. 10 idées dans 9 univers différents : chacune règle un problème du quotidien avec un effet waouh en vidéo.
 
-## 1. Sport et récupération · avoir une eau plus douce sous la douche — Pommeau de douche filtrant
+## 1. Salle de bain · avoir une eau plus douce sous la douche — Pommeau de douche filtrant
 
 [Lien Alibaba](https://www.alibaba.com/product-detail/Shower-Filter_1601697241736.html) · coût 6,75 € (7,85 $ × 0,86) · revente 39,90 € · marge 33,15 €
 
@@ -55,7 +55,7 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | Shenzhen Calux Purification Technology (fabricant vérifié, 14 ans, spécialiste de la filtration) : 7,85 à 20 $ selon le modèle, minimum 2 lots ; ancien fournisseur de secours : 5,50 $ (https://www.alibaba.com/product-detail/High-Pressure-Water-Filter-Shower-Head_1600995143105.html). |
 | À vérifier | Confirmer que le modèle à 7,85 $ est le pommeau complet (au-delà de 17 $ le coût dépasse 15 €) ; demander le prix avec logo pour 100 pièces, le prix des cartouches et un test de filtration (SGS). Aucune promesse médicale. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
 
-## 2. Sport et récupération · courir sans être ébloui — Lunettes de running polarisées
+## 2. Sport · courir sans être ébloui — Lunettes de running polarisées
 
 [Lien Alibaba](https://www.alibaba.com/product-detail/IRun-Custom-Cricket-Running-Sunglasses-Glasses_1601430271723.html) · coût 6,43 € (7,48 $ × 0,86) · revente 34,90 € · marge 28,47 €
 
@@ -84,245 +84,245 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 | Fournisseur | 7,48 $ (500 minimum), logo dès 100. |
 | À vérifier | Minimum de 500 pièces : à négocier avec le sourcing Scutify ; vérifier la norme CE et la catégorie de filtre. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
 
-## 3. Sport et récupération · se renforcer en douceur — Bracelets lestés pastel
+## 3. Salle de bain · être plus propre aux toilettes — Kit WC lavant sans électricité
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Wholesale-Resistance-Custom-Logo-Silicone-Ankle_11000024198018.html) · coût 5,03 € (5,85 $ × 0,86) · revente 39,90 € · marge 34,87 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
-| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
-| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
-| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
-| Problème | Les haltères sont encombrants et peu agréables ; on veut se renforcer en marchant ou pendant le Pilates. |
-| Question à résoudre | Comment se renforcer en douceur chez soi, simplement, sans payer un studio ? |
-| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
-| **Idée de business** | Je veux permettre aux femmes actives de se renforcer en douceur toute la journée, avec des bracelets jolis comme des bijoux. |
-| Solution à un problème | OUI : les haltères sont encombrants et peu agréables ; on veut se renforcer en marchant ou pendant le Pilates. |
-| Économique | OUI : remplace des haltères. |
-| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
-| Effet wow | Un bijou qui muscle. |
-| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
-| Poids / volume | Colis d'environ 1 kg. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : la meilleure preuve de vente (Bala), très photogénique. |
-| Prix en France | Decathlon 42,99 € le lot ; Bala 49 à 85 $ aux États-Unis. |
-| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
-| Fournisseur | 5,85 $ la paire (1 à 499), logo dès 50. |
-| À vérifier | Bien indiquer le poids de chaque bracelet. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
-
-## 4. Sport et récupération · faire du Pilates Reformer — Kit Pilates Plus « Reformer à la maison »
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) · coût 3,68 € (4,28 $ × 0,86) · revente 39,90 € · marge 36,22 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) · coût 7,31 € (8,5 $ × 0,86) · revente 49,90 € · marge 42,59 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
-| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
-| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
-| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
-| Problème | Une séance de Pilates sur machine (Reformer) coûte cher en studio et une machine coûte des milliers d'euros. |
-| Question à résoudre | Comment faire du pilates reformer chez soi, simplement, sans payer un studio ? |
-| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
-| **Idée de business** | Je veux permettre aux femmes qui aiment le Pilates de faire les mouvements du Reformer chez elles, avec un kit léger et un programme de 30 jours. |
-| Solution à un problème | OUI : une séance de Pilates sur machine (Reformer) coûte cher en studio et une machine coûte des milliers d'euros. |
-| Économique | OUI : 39,90 € une fois, au lieu de séances à 30-40 €. |
-| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
-| Effet wow | Les mouvements du Reformer dans un salon, avec une simple barre. |
-| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
-| Poids / volume | Colis d'environ 1 kg. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : c'est le produit d'entrée de la marque, le problème est fort et le marché est prouvé (SmartWorkout). |
-| Prix en France | Kits de 26 à 59 € ; SmartWorkout 99,90 €. |
-| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
-| Fournisseur | Barre 2,50 $ (lien) + disques de glisse 1,78 $ la paire (https://www.alibaba.com/product-detail/High-Quality-Core-Sliders-for-Gym_1601519504789.html). |
-| À vérifier | Tester la solidité des élastiques ; programme filmé avec une coach diplômée. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
-
-## 5. Sport et récupération · boire sur les longues sorties — Gilet d'hydratation
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Trail-Running-Vest-Hydration-Vest-Adjustable_1601644236868.html) · coût 8,59 € (9,99 $ × 0,86) · revente 44,90 € · marge 36,31 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. |
-| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
-| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans qui s'entraînent plusieurs fois par semaine (course, Pilates, renforcement) et prennent soin de leur récupération. |
-| Problème | Soif et coup de fatigue sur les longues sorties ; mains prises par la bouteille. |
-| Question à résoudre | Comment boire sur les longues sorties simplement, avec un bel objet ? |
-| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
-| **Idée de business** | Je veux permettre aux coureurs qui préparent un semi ou un trail de boire sans s'arrêter, les mains libres. |
-| Solution à un problème | OUI : soif et coup de fatigue sur les longues sorties ; mains prises par la bouteille. |
-| Économique | OUI : deux fois moins cher que Kiprun, cinq fois moins que Salomon. |
-| Besoin / passion | OUI : la course à pied, les défis, la performance. |
-| Effet wow | Boire en courant sans ralentir. |
-| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
-| Poids / volume | Léger, petit colis. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
+| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
+| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
+| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
+| Problème | Le papier toilette ne lave pas vraiment, irrite, coûte cher, et un WC japonais coûte 450 à 1 500 €. |
+| Question à résoudre | Comment être plus propre aux toilettes simplement, avec un bel objet ? |
+| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
+| **Idée de business** | Je veux permettre à chacun d'avoir la propreté d'un WC japonais chez soi, en 10 minutes et sans électricien. |
+| Solution à un problème | OUI : le papier toilette ne lave pas vraiment, irrite, coûte cher, et un WC japonais coûte 450 à 1 500 €. |
+| Économique | OUI : moins de papier toilette, au lieu d'un WC japonais à plusieurs centaines d'euros. |
+| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
+| Effet wow | Le jet qui sort et se range tout seul ; les pubs avec humour (comme Tushy aux États-Unis). |
+| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
+| Poids / volume | Colis d'environ 2 kg. |
 | 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : produit cher en magasin, très bonne marge, achat avant chaque course. |
-| Prix en France | Kiprun Race 900 59,99 à 60 € ; Salomon 149,99 à 179,99 €. |
-| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
-| Fournisseur | 5,49 à 9,99 $ (500 minimum). |
-| À vérifier | Minimum de 500 pièces ; vérifier le réglage pour toutes les morphologies. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : produit spectaculaire, vrai problème, marché prouvé aux États-Unis (Tushy). |
+| Prix en France | Brico Dépôt 39 €, Leroy Merlin 80 €, BOKU 86,90 € (Castorama). |
+| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
+| Fournisseur | 8,50 $ (50 à 999), logo dès 300. |
+| À vérifier | Vérifier la compatibilité avec les toilettes françaises et fournir le raccord ; colis d'environ 2 kg. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
 
-## 6. Sport et récupération · ne plus glisser — Chaussettes antidérapantes (lot de 3)
+## 4. Salon · cacher les câbles — Boîte cache-multiprise
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Rubber-Grip-Yoga-Dance-Socks_1600795685359.html) · coût 4,51 € (5,25 $ × 0,86) · revente 32,90 € · marge 28,39 €
-
-| Étape | Réponse |
-|---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
-| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
-| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
-| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
-| Problème | On glisse sur le tapis ou le parquet, et les studios imposent des chaussettes antidérapantes. |
-| Question à résoudre | Comment ne plus glisser chez soi, simplement, sans payer un studio ? |
-| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
-| **Idée de business** | Je veux permettre aux pratiquantes de Pilates d'être stables et à l'aise, avec des chaussettes douces et jolies. |
-| Solution à un problème | OUI : on glisse sur le tapis ou le parquet, et les studios imposent des chaussettes antidérapantes. |
-| Économique | OUI : 3 paires au prix de 2 en magasin. |
-| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
-| Effet wow | Le look « Pilates girl » complet. |
-| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
-| Poids / volume | Léger, petit colis. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : achat répété (on use les chaussettes), parfait en 2e produit. |
-| Prix en France | 1 paire 11,99 à 19 € ; 2 paires 26,99 à 32,90 €. |
-| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
-| Fournisseur | 1,75 $ la paire, logo dès 300. |
-| À vérifier | Vérifier les tailles et le tenue des picots au lavage. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
-
-## 7. Sport et récupération · tonifier fessiers et jambes — Kit Fessiers
-
-[Lien Alibaba](https://www.alibaba.com/product-detail/Zakerda-Non-Slip-latex-fabric-polyester_1601045479697.html) · coût 5,60 € (6,51 $ × 0,86) · revente 34,90 € · marge 29,30 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Cable-Management-Box-Organizer-Bamboo-Lid_1600989455921.html) · coût 3,01 € (3,5 $ × 0,86) · revente 34,90 € · marge 31,89 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
-| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
-| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
-| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
-| Problème | Les élastiques en latex roulent sur les cuisses et on ne sait pas quels exercices faire. |
-| Question à résoudre | Comment tonifier fessiers et jambes chez soi, simplement, sans payer un studio ? |
-| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
-| **Idée de business** | Je veux permettre aux femmes qui veulent des fessiers toniques de suivre un programme simple chez elles, avec des bandes qui ne roulent pas. |
-| Solution à un problème | OUI : les élastiques en latex roulent sur les cuisses et on ne sait pas quels exercices faire. |
-| Économique | OUI : un kit au lieu de deux achats séparés. |
-| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
-| Effet wow | Avant / après sur 30 jours. |
-| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
-| Poids / volume | Colis d'environ 500 g. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : énorme demande sur les réseaux, cible passionnée. |
-| Prix en France | Bandes 19,49 € + sangles 12,99 à 26,98 € achetées séparément. |
-| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
-| Fournisseur | Bandes 3,15 $ (lien) + sangles 3,36 $ (https://www.alibaba.com/product-detail/Professional-Kickback-Ankle-Strap-Glute-Workouts_1601112137291.html). |
-| À vérifier | Aucune promesse de résultat chiffrée. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
+| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
+| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
+| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
+| Problème | Multiprises et câbles visibles sous le bureau ou derrière la télé : moche, poussiéreux, dangereux avec des enfants ou des animaux. |
+| Question à résoudre | Comment cacher les câbles simplement, avec un bel objet ? |
+| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
+| **Idée de business** | Je veux permettre à chacun de cacher multiprises et câbles dans une jolie boîte, en 2 minutes. |
+| Solution à un problème | OUI : multiprises et câbles visibles sous le bureau ou derrière la télé : moche, poussiéreux, dangereux avec des enfants ou des animaux. |
+| Économique | OUI : maison plus nette et plus sûre. |
+| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
+| Effet wow | Le nid de câbles, puis la jolie boîte : avant / après immédiat. |
+| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
+| Poids / volume | Colis d'environ 1 kg. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : problème visible dans toutes les maisons, très partagé sur Pinterest. |
+| Prix en France | Leroy Merlin 23,29 € (barré 41,92 €) ; Pearl 9,95 à 43,95 €. |
+| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
+| Fournisseur | 3,50 $ (50 à 299), logo dès 500. |
+| À vérifier | Vérifier la taille pour les multiprises françaises (prises larges). Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
 
-## 8. Sport et récupération · suivre un cours de Pilates — Kit Pilates Studio
+## 5. Déco · ranger ses livres avec style — Étagère invisible pour livres (lot de 3)
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html) · coût 4,43 € (5,15 $ × 0,86) · revente 34,90 € · marge 30,47 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Floating-Shelf-Bracket-Heavy-Duty-Hidden_1601291464842.html) · coût 7,74 € (9,0 $ × 0,86) · revente 39,90 € · marge 32,16 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
-| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
-| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
-| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
-| Problème | Un cours collectif de Pilates coûte 15 à 30 € la séance et les horaires ne conviennent pas toujours. |
-| Question à résoudre | Comment suivre un cours de pilates chez soi, simplement, sans payer un studio ? |
-| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
-| **Idée de business** | Je veux permettre aux femmes qui n'ont pas le temps ou le budget d'aller en studio de suivre un vrai cours chez elles. |
-| Solution à un problème | OUI : un cours collectif de Pilates coûte 15 à 30 € la séance et les horaires ne conviennent pas toujours. |
-| Économique | OUI : le prix de deux séances en studio. |
-| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
-| Effet wow | Le cercle qui sculpte bras et cuisses en vidéo. |
-| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
+| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
+| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
+| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
+| Problème | Les livres s'entassent faute de place dans la bibliothèque. |
+| Question à résoudre | Comment ranger ses livres avec style simplement, avec un bel objet ? |
+| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
+| **Idée de business** | Je veux permettre aux lecteurs de ranger leurs livres au mur, avec un effet « livres qui flottent ». |
+| Solution à un problème | OUI : les livres s'entassent faute de place dans la bibliothèque. |
+| Économique | OUI : pas besoin d'acheter une bibliothèque. |
+| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
+| Effet wow | Les livres qui flottent : on se demande comment ça tient. |
+| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
 | Poids / volume | Colis d'environ 750 g. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : complète le Kit Pilates Plus pour les débutantes. |
-| Prix en France | Kits Pilates complets chez Decathlon ; séances de 15 à 30 €. |
-| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
-| Fournisseur | Cercle 3,40 $ (lien) + chaussettes 1,75 $. |
-| À vérifier | Programme filmé par une coach diplômée. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : effet waouh immédiat, classique de Pinterest. |
+| Prix en France | Lot de 3 en acrylique 57,46 € (ManoMano) ; étagères simples 13 à 24 €. |
+| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
+| Fournisseur | 3 $ le support (200 minimum). |
+| À vérifier | Fournir vis et chevilles ; indiquer le poids maximum par support. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
 
-## 9. Sport et récupération · penser à boire — Gourde 2 L pastel
+## 6. Cuisine · gagner de la place dans la cuisine — Égouttoir enroulable doré
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/motivational-water-bottle-2l-2-liter_1600264326049.html) · coût 1,95 € (2,27 $ × 0,86) · revente 29,90 € · marge 27,95 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/China-factory-gold-Roll-up-Dish_1601010537663.html) · coût 3,61 € (4,2 $ × 0,86) · revente 34,90 € · marge 31,29 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; SmartWorkout (kit + programme, exemple du support). |
-| Demande en France | Le Pilates est l'activité n° 1 sur ClassPass ; Pinterest le place parmi ses univers bien-être les plus suivis ; Bala vend ses bracelets lestés 49 à 85 $ aux États-Unis. |
-| Observation | Sur Pinterest et Instagram, le Pilates à la maison (tenue pastel, tapis, petits accessoires) est partout ; les cours en studio coûtent 15 à 40 € la séance. |
-| Cible et désir | Femmes de 20 à 40 ans qui veulent se tonifier en douceur à la maison, sans abonnement cher, avec un univers pastel et cocooning. |
-| Problème | On oublie de boire assez dans la journée, surtout quand on fait du sport. |
-| Question à résoudre | Comment penser à boire chez soi, simplement, sans payer un studio ? |
-| Pistes produit | Kit barre · bracelets lestés · chaussettes antidérapantes · cercle · bandes en tissu · disques de glisse · balle de massage · gourde · coffret cadeau. |
-| **Idée de business** | Je veux permettre aux femmes actives de boire assez, avec une gourde qu'elles ont envie de montrer. |
-| Solution à un problème | OUI : on oublie de boire assez dans la journée, surtout quand on fait du sport. |
-| Économique | OUI : une gourde au lieu de bouteilles en plastique. |
-| Besoin / passion | OUI : le Pilates, le bien-être, prendre soin de soi. |
-| Effet wow | Les repères d'heures qui motivent. |
-| Unique | Univers pastel, belle boîte, programme vidéo en français, communauté Instagram. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
+| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
+| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
+| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
+| Problème | Petit plan de travail encombré par l'égouttoir et la vaisselle qui sèche. |
+| Question à résoudre | Comment gagner de la place dans la cuisine simplement, avec un bel objet ? |
+| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
+| **Idée de business** | Je veux permettre à ceux qui ont une petite cuisine de libérer leur plan de travail avec un égouttoir qui se range en rouleau. |
+| Solution à un problème | OUI : petit plan de travail encombré par l'égouttoir et la vaisselle qui sèche. |
+| Économique | OUI : remplace un égouttoir encombrant. |
+| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
+| Effet wow | Il se déroule sur l'évier, on y pose la vaisselle, puis il s'enroule dans le tiroir. |
+| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
+| Poids / volume | Colis d'environ 750 g. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : très visuel, utile tous les jours, look premium doré. |
+| Prix en France | Pearl 22,95 à 39,95 € ; Emuca 25,90 € ; Joseph Joseph 33,24 à 41,99 €. |
+| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
+| Fournisseur | 4,20 $ (100 à 499), logo dès 400. |
+| À vérifier | Vérifier les dimensions par rapport aux éviers français. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
+
+## 7. Mode homme · garder ses affaires sur soi — Sacoche en cuir homme
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html) · coût 10,75 € (12,5 $ × 0,86) · revente 49,90 € · marge 39,15 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
+| Demande en France | L'organisation de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. |
+| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
+| Cible et désir | Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique. |
+| Problème | Les poches débordent (téléphone, clés, portefeuille) et on a peur des vols dans les transports. |
+| Question à résoudre | Comment garder ses affaires sur soi simplement, avec un bel objet ? |
+| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · pochette ordinateur · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir. |
+| **Idée de business** | Je veux permettre aux hommes qui sortent en ville de garder leurs affaires rangées sur eux, en sécurité et les mains libres, avec une sacoche en cuir qui a du style. |
+| Solution à un problème | OUI : les poches débordent (téléphone, clés, portefeuille) et on a peur des vols dans les transports. |
+| Économique | OUI : remplace des poches pleines et protège des vols. |
+| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
+| Effet wow | Les poches vidées sur la table, puis tout rangé dans la sacoche en 5 secondes. |
+| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
 | Poids / volume | Colis d'environ 500 g. |
-| 1. Répond aux critères principaux ? | Bien : vrai problème, passion forte, produit léger. |
-| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la vidéo. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : séances filmées, avant / après sur 30 jours, packs. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : produit d'appel et de fidélité, parfait dans les packs. |
-| Prix en France | Gourde 2 L inox 32,99 € (Breaking Limits). |
-| Angle pub / Instagram | Séance de 15 minutes dans un salon lumineux, tenue pastel, résultat sur 30 jours. |
-| Fournisseur | 2,27 $, logo dès 100. |
-| À vérifier | Vérifier le plastique sans BPA. Concurrence : Decathlon et Amazon vendent des accessoires de base ; la marque se démarque par l'univers pastel, le programme vidéo en français et les packs. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : produit très tendance, marge la plus forte de la liste, se vend toute l'année. |
+| Prix en France | Lacoste environ 60 à 150 € (parfois 40 € en promotion) ; places de marché en cuir 43 à 60 €. |
+| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
+| Fournisseur | Cuir véritable, 12,50 $ (50 à 499), logo accepté. |
+| À vérifier | Demander un certificat de matière et un échantillon avant d'écrire « cuir véritable » ; aucun design qui copie une marque. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
 
-## 10. Sport et récupération · préparer sa première course — Pack première course
+## 8. Papeterie · personnaliser ses lettres et cadeaux — Coffret cachet de cire
 
-[Lien Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-ABS-Race-Bibs-Clips_1601697619934.html) · coût 8,16 € (9,49 $ × 0,86) · revente 49,90 € · marge 41,74 €
+[Lien Alibaba](https://www.alibaba.com/product-detail/Pink-Wax-Seal-Stamp-Kit-with_1601147778139.html) · coût 2,49 € (2,9 $ × 0,86) · revente 29,90 € · marge 27,41 €
 
 | Étape | Réponse |
 |---|---|
-| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; FlipBelt et Ciele prouvent qu'un simple accessoire running bien pensé se vend 30 à 45 €. |
-| Demande en France | Des millions de Français courent ; les courses officielles affichent complet ; les marques running (Salomon, Ciele, FlipBelt, Kiprun) vendent leurs accessoires 20 à 180 €. |
-| Observation | Les coureurs partagent leurs sorties et leurs courses sur Instagram et Strava ; ils achètent volontiers l'accessoire qui règle le petit problème qui gâche leur sortie. |
-| Cible et désir | Femmes et hommes de 20 à 45 ans qui s'entraînent plusieurs fois par semaine (course, Pilates, renforcement) et prennent soin de leur récupération. |
-| Problème | Avant sa première course, on ne sait pas quoi acheter ni comment s'entraîner, et les épingles trouent le t-shirt. |
-| Question à résoudre | Comment préparer sa première course simplement, avec un bel objet ? |
-| Pistes produit | Pommeau de douche filtrant · ceinture de running · lunettes · gilet d'hydratation · casquette · flasques · sac à compartiment chaussures · gobelet isotherme · mini pistolet de massage · kit récup · aimants pour dossard. |
-| **Idée de business** | Je veux permettre à ceux qui préparent leur premier 10 km d'avoir tout l'équipement et un plan, dans un seul coffret. |
-| Solution à un problème | OUI : avant sa première course, on ne sait pas quoi acheter ni comment s'entraîner, et les épingles trouent le t-shirt. |
-| Économique | OUI : un coffret au lieu de quatre achats séparés. |
-| Besoin / passion | OUI : la course à pied, les défis, la performance. |
-| Effet wow | L'ouverture du coffret la veille de la course. |
-| Unique | Design sobre et premium aux couleurs de la marque, communauté de coureurs (défis, club), packs. |
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
+| Demande en France | L'organisation de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée. |
+| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
+| Cible et désir | Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique. |
+| Problème | Les cartes et les paquets cadeaux faits maison manquent de finition. |
+| Question à résoudre | Comment personnaliser ses lettres et cadeaux simplement, avec un bel objet ? |
+| Pistes produit | Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · pochette ordinateur · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir. |
+| **Idée de business** | Je veux permettre à ceux qui aiment écrire et offrir de donner une touche élégante à chaque lettre et chaque cadeau. |
+| Solution à un problème | OUI : les cartes et les paquets cadeaux faits maison manquent de finition. |
+| Économique | OUI : remplace des cartes et emballages de luxe. |
+| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
+| Effet wow | Le cachet qui se décolle de la cire, très partagé en vidéo. |
+| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
+| Poids / volume | Léger, petit colis. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : tendance Pinterest « Pen Pals » (+105 % « cute stamps »). |
+| Prix en France | Kit cachet de cire 40,94 € (Greenweez) ; kits d'entrée de gamme dès 3,59 € (Action). |
+| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
+| Fournisseur | 2,90 $ (10 à 49), lettre au choix. |
+| À vérifier | Proposer chaque lettre de l'alphabet en stock. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
+
+## 9. Budget · tenir son budget — Classeur budget à enveloppes
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Marble-A6-Budget-Binder-with-Zip_1600733904045.html) · coût 2,57 € (2,99 $ × 0,86) · revente 34,90 € · marge 32,33 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait. |
+| Demande en France | Maison et cuisine : catégorie n° 1 des pubs Meta en 2026 (TrendTrack) ; l'organisation de la maison est l'un des plus gros univers de Pinterest ; les vidéos avant / après de rangement font partie des plus partagées. |
+| Observation | Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour. |
+| Cible et désir | Femmes et hommes de 25 à 50 ans, souvent en appartement, qui veulent une maison nette, pratique et jolie, sans gros travaux. |
+| Problème | L'argent file sans qu'on sache où ; on n'arrive pas à mettre de côté. |
+| Question à résoudre | Comment tenir son budget simplement, avec un bel objet ? |
+| Pistes produit | Kit WC lavant · pommeau filtrant · égouttoir enroulable · boîte cache-multiprise · étagère invisible · porte-clés mural · vide-poche · trieur de papiers · classeur budget · coffret entrée. |
+| **Idée de business** | Je veux permettre à ceux qui veulent reprendre leur budget en main de suivre la méthode des enveloppes avec un joli classeur. |
+| Solution à un problème | OUI : l'argent file sans qu'on sache où ; on n'arrive pas à mettre de côté. |
+| Économique | OUI : aide à économiser bien plus que son prix. |
+| Besoin / passion | OUI : la déco, l'organisation, les beaux objets du quotidien. |
+| Effet wow | Le remplissage des enveloppes en vidéo, très partagé. |
+| Unique | Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français. |
+| Poids / volume | Léger, petit colis. |
+| 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
+| 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant la photo avant / après. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : tendance forte sur Pinterest et TikTok, achat très émotionnel. |
+| Prix en France | Kaufland 16,88 à 44,99 € ; Fruugo 18,16 € (prix conseillé 30,85 €). |
+| Angle pub / Instagram | Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes. |
+| Fournisseur | 2,99 $ (10 à 199), logo possible. |
+| À vérifier | Feuilles de budget à traduire et à imprimer en français. Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français. |
+
+## 10. Loisirs créatifs · créer un bel objet fait main — Kit punch needle
+
+[Lien Alibaba](https://www.alibaba.com/product-detail/Punch-Needle-Embroidery-Beginner-Kit-DIY_1600444432316.html) · coût 3,10 € (3,6 $ × 0,86) · revente 34,90 € · marge 31,80 €
+
+| Étape | Réponse |
+|---|---|
+| Boutique modèle | The Woobles et We Are Knitters : des kits créatifs vendus avec de belles vidéos et une communauté. |
+| Demande en France | Pinterest, rapport Loisirs 2026 : les gens échangent du temps d'écran contre des loisirs manuels ; kits premium vendus 50 à 65 €. |
+| Observation | Sur Pinterest et Instagram, les loisirs créatifs « cosy » explosent ; beaucoup veulent décrocher des écrans le soir. |
+| Cible et désir | Femmes et hommes de 20 à 45 ans qui cherchent une activité calme et créative le soir ou à offrir. |
+| Problème | Le soir, on passe des heures sur son téléphone sans vraiment se détendre. |
+| Question à résoudre | Comment décrocher des écrans le soir avec une activité simple et gratifiante ? |
+| Pistes produit | Punch needle · broderie · macramé · crochet · feutrage. |
+| **Idée de business** | Je veux permettre à ceux qui veulent décrocher des écrans de créer un bel objet de déco en une soirée, avec un kit simple et une vidéo. |
+| Solution à un problème | OUI : le soir, on passe des heures sur son téléphone sans vraiment se détendre. |
+| Économique | OUI : une activité qui dure plusieurs soirées, moins chère qu'un atelier (40 à 60 €). |
+| Besoin / passion | OUI : la déco, le fait main, la détente. |
+| Effet wow | La laine qui forme des boucles en relief à chaque coup d'aiguille : très satisfaisant en vidéo. |
+| Unique | Motifs exclusifs, belle boîte, vidéo pas à pas en français. |
 | Poids / volume | Léger, petit colis. |
 | 1. Répond aux critères principaux ? | Bien : vrai problème quotidien, produit léger, se garde toute l'année. |
 | 2. Bénéfice évident au premier regard ? | Oui : on comprend l'usage en voyant un coureur l'utiliser. |
-| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de sorties et de courses, défis du mois, packs avant une course. |
-| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : idée cadeau toute l'année (inscriptions aux courses), panier moyen élevé. |
-| Prix en France | FlipBelt 28 à 40 € + aimants 10 à 13 € + flasque 20 à 28 € achetés séparément. |
-| Angle pub / Instagram | Le petit problème en pleine course (téléphone qui saute, soif, soleil), puis la solution, en 10 secondes. |
-| Fournisseur | Aimants 0,50 $ (lien) + ceinture 6,29 $ + flasque 1,20 $. |
-| À vérifier | Plan d'entraînement à faire écrire par un coach diplômé. Concurrence : Decathlon (Kiprun) vend des versions basiques moins chères ; la marque se démarque par le design, la communauté (club, défis) et les packs. |
+| 3. Je visualise le site, les pubs, les arguments ? | Oui : vidéos de création en accéléré, avant / après, motifs du mois. |
+| 4. Prêt à investir 30 000 € sur ce seul produit ? | OUI : tendance Pinterest « loisirs manuels contre les écrans », achat cadeau toute l'année. |
+| Prix en France | Nature & Découvertes 11,99 € (basique) ; kits premium KnitPro 49,85 €, Modern Crafter 65 €. |
+| Angle pub / Instagram | La toile vierge, puis le coussin fini en accéléré, en 15 secondes. |
+| Fournisseur | 3,60 $ (10 à 99), 3,30 $ dès 100. |
+| À vérifier | Soigner les motifs et la boîte pour se démarquer des kits d'entrée de gamme ; tourner la vidéo en français. |
 
 ## 2e produits (plus de 50 €)
 
 | Pack | Coût | Revente | Lien |
 |---|---|---|---|
-| Pack Coureur : gilet d'hydratation + lunettes polarisées | 15,02 € | 69,90 € | [Alibaba](https://www.alibaba.com/product-detail/Trail-Running-Vest-Hydration-Vest-Adjustable_1601644236868.html) |
-| Pack Reformer complet : Kit Pilates Plus + bracelets lestés + 3 paires de chaussettes | 13,23 € | 79,90 € | [Alibaba](https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html) |
-| Pack Studio + Fessiers : cercle, chaussettes, bandes, sangles et 2 programmes | 10,03 € | 54,90 € | [Alibaba](https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html) |
+| Pack Salle de bain spa : kit WC lavant + pommeau filtrant | 14,06 € | 74,90 € | [Alibaba](https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html) |
+| Pack Maison nette : égouttoir enroulable + boîte cache-multiprise | 6,62 € | 59,90 € | [Alibaba](https://www.alibaba.com/product-detail/China-factory-gold-Roll-up-Dish_1601010537663.html) |
+| Pack Papeterie chic : coffret cachet de cire + classeur budget | 5,07 € | 54,90 € | [Alibaba](https://www.alibaba.com/product-detail/Pink-Wax-Seal-Stamp-Kit-with_1601147778139.html) |
 
 ## Sources
 
@@ -337,15 +337,28 @@ La note vient des formules du modèle Scutify. La ligne 1 a des formules différ
 - [StoneStream, pommeau filtrant](https://fr.stone-stream.com/products/pomme-de-douche-ecopower-noire-avec-kit-de-filtration-deau-dure)
 - [MineralStream, kit de douche](https://fr.mineralstream.co/products/mineralstream%E2%84%A2-noir-vitamine-c-kit-de-douche-complet)
 - [La Poste, tarifs Colissimo 2026](https://www.laposte.fr/professionnel/tarif-colissimo)
+- [TrendTrack, meilleurs produits sur Meta 2026](https://www.trendtrack.io/blog-post/the-best-products-on-meta-for-dropshipping-in-2026)
+- [Brico Dépôt, kit WC 2 douchettes](https://www.bricodepot.fr/p/0634154948774/media.bricodepot.fr)
+- [Castorama, BOKU](https://www.castorama.fr/mkp/kit-wc-japonais-poser-bidet-boku-autonettoyant-non-lectrique/3770027022190_CAFR.prd)
+- [Rue du Commerce, égouttoir Joseph Joseph](https://www.rueducommerce.fr/p/m26069676955.html)
+- [Castorama, égouttoir Emuca](https://www.castorama.fr/mkp/emuca-egouttoir-flexible-et-enroulable-en-silicone-acier-et-plastique-gris/8432393278612_CAFR.prd)
+- [Leroy Merlin, boîte cache-multiprise](https://www.leroymerlin.fr/produits/boites-multiprise-boite-rangement-de-cables-avec-couvercle-en-bois-boites-de-prises-cache-cordon-multifonctionnel-et-boite-de-gestion-cache-76567678.html)
+- [ManoMano, étagères invisibles acryliques](https://www.manomano.fr/p/etagere-murale-flottante-invisible-en-acrylique-transparent-de-38-cm-etagere-murale-pour-livres-denfants-lot-de-3-95155962)
 - [Pinterest Predicts 2026](https://newsroom.pinterest.com/en-ca/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/)
-- [Pinterest, rapport Loisirs 2026](https://newsroom.pinterest.com/news/2026-pinterest-hobbies-trend-report/)
-- [ClassPass, bilan 2025 (Pilates n° 1)](https://classpass.com/blog/2025-classpass-look-back-report/)
-- [Bala chez Goop](https://goop.com/bala-bangles-weighted-wrist-bangles/p/)
-- [Decathlon, lestés chevilles](https://www.decathlon.be/fr/vc/lestes-chevilles)
-- [Decathlon, chaussettes antidérapantes](https://www.decathlon.fr/vc/chaussettes-antiderapantes-femmes)
-- [Decathlon, kit complet Pilates](https://www.decathlon.fr/p/mp/kit-complet-pilates-fitness-avec-anneau-bandes-disques-balle-et-chaussettes/50e9ffcc-42ac-44e2-bba9-2e7b4c14e663/novar)
-- [ManoMano, kit barre Pilates](https://www.manomano.fr/p/lot-de-barre-pilates-elastique-multifonction-pour-maison-corde-de-traction-yoga-equipement-fitness-228599183)
-- [Decathlon Pro, lot de 3 bandes](https://www.decathlonpro.fr/art-bande-elastique-10kg-id-2871089.html)
-- [Sveltus, sangles de chevilles](https://www.fitnessboutique.fr/products/sveltus-sangle-cheville-musculation-x2-prod-sve5660)
+- [BeautyMatter, chiffres Pen Pals](https://beautymatter.com/articles/pinterest-predicts-2026)
+- [LeBonTri, comparatif porte-clés muraux](https://lebontri.fr/blog/rangement/meilleur-porte-cle-mural)
+- [Kaufland, porte-clés avec étagère](https://www.kaufland.fr/product/555558377/)
+- [Bruneau, vide-poche en cuir](https://www.bruneau.lu/en/product/8016752)
+- [Rue du Commerce, trieur Fellowes](https://www.rueducommerce.fr/p/m24070050610.html)
+- [Fruugo, classeur budget A6](https://www.fruugo.fr/classeur-budgetaire-a6-ecologique-leger-portable-et-classifiable-pour-la-gestion-de-fonds/p-410851074-869572147)
+- [Que Choisir, méthode des enveloppes](https://www.quechoisir.org/conseils-depenses-du-quotidien-maitrisez-votre-budget-avec-la-methode-des-enveloppes-n171136/)
+- [Rue du Commerce, pochette Yonis](https://www.rueducommerce.fr/p/m25078926004.html)
+- [LDLC, housse Trunk en cuir](https://www.ldlc.com/fiche/PB00613205.html)
+- [PaperWrld, carnet en cuir](https://paperwrld.com/fr-fr/products/leather-bound-travel-journal)
+- [Touslesprix, sous-mains](https://www.touslesprix.com/achat,sous-main-bureau-cuir-noir.html)
+- [Fossil, étui passeport en cuir](https://www.fossil.com/fr-fr/products/cadeau-etui-pour-passeport-en-cuir/MLG0800212.html)
+- [Greenweez, kit cachet de cire](https://www.greenweez.com/produit/encre-de-chine-noir-india-ink-20-ml/1PEBE0625)
+- [Lacoste, sacoches et pochettes homme](https://www.lacoste.com/fr/lacoste/homme/sacs-petite-maroquinerie/sacoches-pochettes/)
+- [LoveCrafts, kit punch needle KnitPro](https://www.lovecrafts.com/fr-fr/p/knitpro-punch-needle-the-earthy-kit)
 
 Liens Alibaba et prix fournisseur vérifiés le 14/11/2026. Les prix en France viennent des sites cités et peuvent changer.

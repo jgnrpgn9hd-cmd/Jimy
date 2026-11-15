@@ -45,21 +45,21 @@ with open(os.path.join(ICI, "produits.py"), "w") as out:
 
 # 2. upsells.py : packs à plus de 50 € (liens vérifiés le 14/11/2026)
 U = [
- ("Pack Coureur : gilet d'hydratation + lunettes polarisées", "Gilet d'hydratation",
-  "Tout pour les longues sorties et les courses au soleil.",
-  "Prix séparés dans la boutique : 44,90 + 34,90 = 79,80 €.",
-  "https://www.alibaba.com/product-detail/Trail-Running-Vest-Hydration-Vest-Adjustable_1601644236868.html", 17.47, 15.02, 69.90,
-  "Gilet 9,99 $ (lien) + lunettes 7,48 $. Marge 54,88 €."),
- ("Pack Reformer complet : Kit Pilates Plus + bracelets lestés + 3 paires de chaussettes", "Kit Pilates Plus « Reformer à la maison »",
-  "Tout pour faire du Pilates Reformer chez soi, en une seule commande.",
-  "Prix séparés dans la boutique : 39,90 + 39,90 + 32,90 = 112,70 €.",
-  "https://www.alibaba.com/product-detail/Pilates-Bar-Kit-with-Resistance-Bands_1600918081475.html", 15.38, 13.23, 79.90,
-  "Kit 4,28 $ (lien) + bracelets 5,85 $ + chaussettes 5,25 $. Marge 66,67 €."),
- ("Pack Studio + Fessiers : cercle, chaussettes, bandes, sangles et 2 programmes", "Kit Pilates Studio",
-  "Le cours collectif et le programme fessiers à la maison.",
+ ("Pack Salle de bain spa : kit WC lavant + pommeau filtrant", "Kit WC lavant sans électricité",
+  "Toute la salle de bain plus propre et plus douce, sans travaux.",
+  "Prix séparés dans la boutique : 49,90 + 39,90 = 89,80 €.",
+  "https://www.alibaba.com/product-detail/Ultra-Slim-Adjustable-Water-Manual-Bidet_1600984952493.html", 16.35, 14.06, 74.90,
+  "Kit WC 8,50 $ (lien) + pommeau 7,85 $. Marge 60,84 €."),
+ ("Pack Maison nette : égouttoir enroulable + boîte cache-multiprise", "Égouttoir enroulable doré",
+  "La cuisine et le salon dégagés en une commande.",
   "Prix séparés dans la boutique : 34,90 + 34,90 = 69,80 €.",
-  "https://www.alibaba.com/product-detail/Custom-Logo-38cm-Fitness-Yoga-Pilates_1600060372660.html", 11.66, 10.03, 54.90,
-  "Kit Studio 5,15 $ (lien) + Kit Fessiers 6,51 $. Marge 44,87 €."),
+  "https://www.alibaba.com/product-detail/China-factory-gold-Roll-up-Dish_1601010537663.html", 7.70, 6.62, 59.90,
+  "Égouttoir 4,20 $ (lien) + boîte 3,50 $. Marge 53,28 €."),
+ ("Pack Papeterie chic : coffret cachet de cire + classeur budget", "Coffret cachet de cire",
+  "Écrire, offrir et gérer son budget avec de beaux objets.",
+  "Prix séparés dans la boutique : 29,90 + 34,90 = 64,80 €.",
+  "https://www.alibaba.com/product-detail/Pink-Wax-Seal-Stamp-Kit-with_1601147778139.html", 5.89, 5.07, 54.90,
+  "Cachet 2,90 $ (lien) + classeur 2,99 $. Marge 49,83 €."),
 ]
 with open(os.path.join(ICI, "upsells.py"), "w") as out:
     out.write("# 2e produits (packs à plus de 50 €) : généré par construire_tableau.py.\n"
@@ -73,7 +73,7 @@ L = ["# Mes 10 idées de business — méthode Scutify", "",
      "**Inspirations :**",
      "- **FlipBelt, Ciele, Salomon** : des accessoires running simples vendus 30 à 180 €.",
      "- **SmartWorkout**, l'exemple du support : un kit qui règle un problème, avec un programme et une vraie marque.",
-     "- **Bala et SmartWorkout** : bracelets lestés et kits Pilates vendus 49 à 99 € ; **Run clubs et Strava** : communautés de sportifs.",
+     "- **Tushy, StoneStream, Joseph Joseph** : des objets du quotidien rendus beaux et vendus avec des pubs à effet waouh.",
      "- **Kosso et Hustle Wear** : une seule cible, plusieurs produits qui se répondent, des packs.",
      "- À ne pas copier : NOXYA (sommeil), la boutique de la coach.", "",
      "## Le tableau en résumé", "",
@@ -83,7 +83,7 @@ for k, f in enumerate(FICHES):
     n = note(6 + k, *f["criteres"], f["cout"], f["liv"], f["revente"])
     L.append(f"| {k + 1} | {f['niche']} | [{f['court']}]({f['lien']}) | {eur(f['cout'])} | {eur(f['revente'])} | {eur(f['marge'])} | {str(n).replace('.', ',')} |")
 L += ["", "La note vient des formules du modèle Scutify. La ligne 1 a des formules différentes dans le modèle, d'où sa note plus haute. "
-      "Les 10 produits visent la même cible : la personne qui s'entraîne plusieurs fois par semaine (course, Pilates, renforcement) et soigne sa récupération.", ""]
+      "10 idées dans 9 univers différents : chacune règle un problème du quotidien avec un effet waouh en vidéo.", ""]
 ETAPES = [("modele", "Boutique modèle"), ("demande", "Demande en France"), ("observation", "Observation"), ("cible", "Cible et désir"),
           ("probleme", "Problème"), ("question", "Question à résoudre"), ("pistes", "Pistes produit"), ("idee", "**Idée de business**"),
           ("c_probleme", "Solution à un problème"), ("c_economique", "Économique"), ("c_passion", "Besoin / passion"),

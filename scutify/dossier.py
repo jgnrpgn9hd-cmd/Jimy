@@ -48,34 +48,45 @@ FICHES = [
        "Minimum de 500 pièces : à négocier avec le sourcing Scutify ; vérifier la norme CE et la catégorie de filtre.",
        "OUI : accessoire très visible en photo, marge correcte."),
 ]
+
+import dossier_v8_maison as _mai, dossier_v7_organisation as _org
+_M = {f["court"]: dict(f) for f in _mai.FICHES}
+_O = {f["court"]: dict(f) for f in _org.FICHES}
+def _prendre(src, nom, univers):
+    f = dict(src[nom]); f["niche"] = univers + " · " + f["niche"].split(" · ", 1)[1]; return f
+FICHES[0]["niche"] = "Salle de bain · " + FICHES[0]["niche"].split(" · ", 1)[1]
+FICHES[1]["niche"] = "Sport · " + FICHES[1]["niche"].split(" · ", 1)[1]
 FICHES += [
- fiche("Gilet d'hydratation", "Gilet léger ajustable avec flasque souple 500 ml à l'avant et poche pour le téléphone", "boire sur les longues sorties",
-       A + "Trail-Running-Vest-Hydration-Vest-Adjustable_1601644236868.html", 9.99, 8, 44.90,
-       "Soif et coup de fatigue sur les longues sorties ; mains prises par la bouteille.",
-       "Je veux permettre aux coureurs qui préparent un semi ou un trail de boire sans s'arrêter, les mains libres.",
-       "OUI : deux fois moins cher que Kiprun, cinq fois moins que Salomon.", "Boire en courant sans ralentir.",
-       "Kiprun Race 900 59,99 à 60 € ; Salomon 149,99 à 179,99 €.", "5,49 à 9,99 $ (500 minimum).",
-       "Minimum de 500 pièces ; vérifier le réglage pour toutes les morphologies.",
-       "OUI : produit cher en magasin, très bonne marge, achat avant chaque course."),
- fiche("Pack première course", "Coffret : ceinture de running + 4 aimants pour dossard + flasque souple + plan d'entraînement 10 km", "préparer sa première course",
-       A + "Custom-Logo-ABS-Race-Bibs-Clips_1601697619934.html", 9.49, 8, 49.90,
-       "Avant sa première course, on ne sait pas quoi acheter ni comment s'entraîner, et les épingles trouent le t-shirt.",
-       "Je veux permettre à ceux qui préparent leur premier 10 km d'avoir tout l'équipement et un plan, dans un seul coffret.",
-       "OUI : un coffret au lieu de quatre achats séparés.", "L'ouverture du coffret la veille de la course.",
-       "FlipBelt 28 à 40 € + aimants 10 à 13 € + flasque 20 à 28 € achetés séparément.", "Aimants 0,50 $ (lien) + ceinture 6,29 $ + flasque 1,20 $.",
-       "Plan d'entraînement à faire écrire par un coach diplômé.",
-       "OUI : idée cadeau toute l'année (inscriptions aux courses), panier moyen élevé."),
+ _prendre(_M, "Kit WC lavant sans électricité", "Salle de bain"),
+ _prendre(_M, "Boîte cache-multiprise", "Salon"),
+ _prendre(_M, "Étagère invisible pour livres (lot de 3)", "Déco"),
+ _prendre(_M, "Égouttoir enroulable doré", "Cuisine"),
+ _prendre(_O, "Sacoche en cuir homme", "Mode homme"),
+ _prendre(_O, "Coffret cachet de cire", "Papeterie"),
+ _prendre(_M, "Classeur budget à enveloppes", "Budget"),
+ fiche("Kit punch needle", "Kit de broderie en relief : tambour, aiguille punch, laine, toile avec un motif mignon, vidéo en français", "créer un bel objet fait main",
+       "https://www.alibaba.com/product-detail/Punch-Needle-Embroidery-Beginner-Kit-DIY_1600444432316.html", 3.60, 9, 34.90,
+       "Le soir, on passe des heures sur son téléphone sans vraiment se détendre.",
+       "Je veux permettre à ceux qui veulent décrocher des écrans de créer un bel objet de déco en une soirée, avec un kit simple et une vidéo.",
+       "OUI : une activité qui dure plusieurs soirées, moins chère qu'un atelier (40 à 60 €).", "La laine qui forme des boucles en relief à chaque coup d'aiguille : très satisfaisant en vidéo.",
+       "Nature & Découvertes 11,99 € (basique) ; kits premium KnitPro 49,85 €, Modern Crafter 65 €.", "3,60 $ (10 à 99), 3,30 $ dès 100.",
+       "Soigner les motifs et la boîte pour se démarquer des kits d'entrée de gamme ; tourner la vidéo en français.",
+       "OUI : tendance Pinterest « loisirs manuels contre les écrans », achat cadeau toute l'année."),
 ]
-
-import dossier_v6_pilates as _pil
-_P = {f["court"]: dict(f) for f in _pil.FICHES}
-for _n in ["Bracelets lestés pastel", "Kit Pilates Plus « Reformer à la maison »", "Chaussettes antidérapantes (lot de 3)", "Kit Fessiers", "Kit Pilates Studio"]:
-    _f = _P[_n]; _f["niche"] = _f["niche"].replace("Pilates à la maison", "Sport et récupération"); FICHES.append(_f)
-
-_ordre = ["Pommeau de douche filtrant", "Lunettes de running polarisées", "Bracelets lestés pastel", "Kit Pilates Plus « Reformer à la maison »", "Gilet d'hydratation",
-          "Chaussettes antidérapantes (lot de 3)", "Kit Fessiers", "Kit Pilates Studio", "Gourde 2 L pastel", "Pack première course"]
-_f = _P["Gourde 2 L pastel"]; _f["niche"] = _f["niche"].replace("Pilates à la maison", "Sport et récupération"); FICHES.append(_f)
-FICHES.sort(key=lambda f: _ordre.index(f["court"]))
+for _f in FICHES[-1:]:
+    _f["niche"] = "Loisirs créatifs · " + _f["niche"].split(" · ", 1)[1]
+    _f.update(
+        demande="Pinterest, rapport Loisirs 2026 : les gens échangent du temps d'écran contre des loisirs manuels ; kits premium vendus 50 à 65 €.",
+        modele="The Woobles et We Are Knitters : des kits créatifs vendus avec de belles vidéos et une communauté.",
+        observation="Sur Pinterest et Instagram, les loisirs créatifs « cosy » explosent ; beaucoup veulent décrocher des écrans le soir.",
+        cible="Femmes et hommes de 20 à 45 ans qui cherchent une activité calme et créative le soir ou à offrir.",
+        question="Comment décrocher des écrans le soir avec une activité simple et gratifiante ?",
+        pistes="Punch needle · broderie · macramé · crochet · feutrage.",
+        c_passion="OUI : la déco, le fait main, la détente.",
+        c_unique="Motifs exclusifs, belle boîte, vidéo pas à pas en français.",
+        q3="Oui : vidéos de création en accéléré, avant / après, motifs du mois.",
+        angle_pub="La toile vierge, puis le coussin fini en accéléré, en 15 secondes.",
+        vigilance="Soigner les motifs et la boîte pour se démarquer des kits d'entrée de gamme ; tourner la vidéo en français.")
 for _f in FICHES:
     _f["cout"] = round(_f["usd"] * 0.86, 2)
     _f["marge"] = round(_f["revente"] - _f["cout"], 2)
@@ -94,4 +105,5 @@ SOURCES = [
  ("La Poste, tarifs Colissimo 2026", "https://www.laposte.fr/professionnel/tarif-colissimo"),
 ]
 _vus = {u for _, u in SOURCES}
-SOURCES += [s for s in _pil.SOURCES if s[1] not in _vus]
+SOURCES += [s for s in _mai.SOURCES + _org.SOURCES if s[1] not in _vus and not _vus.add(s[1])]
+SOURCES += [("LoveCrafts, kit punch needle KnitPro", "https://www.lovecrafts.com/fr-fr/p/knitpro-punch-needle-the-earthy-kit")]
