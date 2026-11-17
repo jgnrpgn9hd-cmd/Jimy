@@ -415,3 +415,5 @@ Version conseillée : polarisée iRun 1601430271723 (7,48 $ → 34,90 €, gain 
 
 ## Étape — Produit choisi avec la coach : Kit Pilates « Reformer à la maison ». Image de marque GALBE (pilates/galbe_marque.png).
 Symbole = anneau de Pilates en forme de G ; couleurs rose poudré, prune, sauge, blanc lait, framboise. Nom à vérifier à l'INPI.
+
+## Étape — Étude de marché GALBE (étape 02) : https://claude.ai/artifact/LpbZQNai5TDL3heZAQxvzc (source pilates/etude_marche_galbe.html)
