@@ -412,3 +412,6 @@ Filtre de robinet tenté : 4 annonces Alibaba supprimées (404), abandonné.
 
 ## Étape — Road Map Scutify étapes 1 à 4 pour les lunettes (artifact https://claude.ai/artifact/9XuksXw1VdXq3LtRWXWdsZ, source lunettes/roadmap_lunettes.html)
 Version conseillée : polarisée iRun 1601430271723 (7,48 $ → 34,90 €, gain ≈ 22,60 €). Offres : 1 paire 34,90 €, duo 59,90 €, paire + étui 39,90 €.
+
+## Étape — Produit choisi avec la coach : Kit Pilates « Reformer à la maison ». Image de marque GALBE (pilates/galbe_marque.png).
+Symbole = anneau de Pilates en forme de G ; couleurs rose poudré, prune, sauge, blanc lait, framboise. Nom à vérifier à l'INPI.
