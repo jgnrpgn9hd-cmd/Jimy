@@ -423,3 +423,6 @@ Symbole = anneau de Pilates en forme de G ; couleurs rose poudré, prune, sauge,
 ## Étape — Marque du kit Pilates renommée VAURE (Jairo) : symbole « teaser » en V, couleurs bleu ciel / bleu nuit / vert fluo. pilates/vaure_pilates_marque.png. GALBE gardé en archive.
 
 ## Étape — Couleurs VAURE Pilates : bleu marine #0B1F3A, blanc, vert fluo #2EF27A (bleu ciel retiré). Version précédente : pilates/vaure_pilates_marque_v1_ciel.png
+
+## Étape — Road Map 03 et 04 pour VAURE Pilates : https://claude.ai/artifact/BhcBayiTyHYAntR2kSDtmM (pilates/positionnement_shopify_vaure.html)
+Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo 69,90 € (≈50 €), chaussettes après achat 12,90 €.
