@@ -5,16 +5,16 @@
 <style>
 /* Mise en page : dossier d'étude de marché en 4 parties (ordre de la Road Map Scutify), colonne de lecture, tableaux qui défilent seuls sur téléphone */
 :root{
-  --bg:#fbf7f8; --surface:#ffffff; --ink:#3a1f2c; --muted:#76606a; --line:#ecdfe3;
-  --rose:#e9c7cf; --rose-soft:#f6e6ea; --sauge:#9db5a2; --sauge-ink:#3f5a46; --cta:#7a3550; --warn:#9a5214; --warn-bg:#fbefe3;
+  --bg:#f4f9fc; --surface:#ffffff; --ink:#0e2a3f; --muted:#4d6576; --line:#d6e9f3;
+  --rose:#bfe4f7; --rose-soft:#e8f5fc; --sauge:#2ef27a; --sauge-ink:#0b7a3c; --cta:#0b5f8a; --warn:#9a5214; --warn-bg:#fbefe3;
   --display:'Outfit',ui-sans-serif,system-ui,sans-serif; --body:'Inter',ui-sans-serif,system-ui,-apple-system,sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#1a1015; --surface:#24161d; --ink:#f3e6eb; --muted:#c3a9b4; --line:#3a2731;
-  --rose:#5a3343; --rose-soft:#2e1c25; --sauge:#6f8c76; --sauge-ink:#b9d3be; --cta:#e9a3bb; --warn:#f0b07a; --warn-bg:#2c1d12; color-scheme:dark}}
+  --bg:#0b1824; --surface:#112333; --ink:#e6f2f9; --muted:#9fbdd0; --line:#1f3a50;
+  --rose:#1d4a66; --rose-soft:#132c3f; --sauge:#2ef27a; --sauge-ink:#5ff59a; --cta:#8fd3f5; --warn:#f0b07a; --warn-bg:#2c1d12; color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#1a1015; --surface:#24161d; --ink:#f3e6eb; --muted:#c3a9b4; --line:#3a2731;
-  --rose:#5a3343; --rose-soft:#2e1c25; --sauge:#6f8c76; --sauge-ink:#b9d3be; --cta:#e9a3bb; --warn:#f0b07a; --warn-bg:#2c1d12; color-scheme:dark}
+  --bg:#0b1824; --surface:#112333; --ink:#e6f2f9; --muted:#9fbdd0; --line:#1f3a50;
+  --rose:#1d4a66; --rose-soft:#132c3f; --sauge:#2ef27a; --sauge-ink:#5ff59a; --cta:#8fd3f5; --warn:#f0b07a; --warn-bg:#2c1d12; color-scheme:dark}
 body{background:var(--bg);color:var(--ink);font:15px/1.65 var(--body);margin:0}
 .wrap{max-width:960px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
 h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.2;margin:0}
@@ -45,7 +45,7 @@ tr.us td{background:var(--rose-soft);font-weight:600}
 ol.q{padding-left:22px}
 ol.q li{margin-bottom:8px}
 ol.q .why{display:block;color:var(--muted);font-size:13px}
-.tag{display:inline-block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;background:var(--sauge);color:var(--bg);border-radius:999px;padding:2px 9px;margin-right:6px}
+.tag{display:inline-block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;background:var(--sauge);color:#0e2a3f;border-radius:999px;padding:2px 9px;margin-right:6px}
 a{color:var(--cta)}
 .src{font-size:13px;color:var(--muted)}
 </style>
