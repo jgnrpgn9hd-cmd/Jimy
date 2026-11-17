@@ -421,3 +421,5 @@ Symbole = anneau de Pilates en forme de G ; couleurs rose poudré, prune, sauge,
 ## Étape — Couleurs GALBE changées (Jairo) : bleu ciel #BFE4F7, bleu nuit #0E2A3F, vert fluo #2EF27A, blanc, bleu brume #E8F5FC. Ancienne version rose : pilates/galbe_marque_v1_rose.*
 
 ## Étape — Marque du kit Pilates renommée VAURE (Jairo) : symbole « teaser » en V, couleurs bleu ciel / bleu nuit / vert fluo. pilates/vaure_pilates_marque.png. GALBE gardé en archive.
+
+## Étape — Couleurs VAURE Pilates : bleu marine #0B1F3A, blanc, vert fluo #2EF27A (bleu ciel retiré). Version précédente : pilates/vaure_pilates_marque_v1_ciel.png
