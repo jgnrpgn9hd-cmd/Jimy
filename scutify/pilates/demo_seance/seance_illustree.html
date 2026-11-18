@@ -20,10 +20,30 @@
   svg.scene{position:absolute;left:0;right:0;top:20%;width:100%;height:56%}
   .cue{position:absolute;left:0;right:0;bottom:17%;text-align:center;font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:30px;letter-spacing:.02em;color:var(--ink)}
   .cue span{display:inline-block;transition:opacity .25s ease,transform .25s ease}
+  .mode{position:absolute;right:20px;top:66px;z-index:3;display:flex;background:rgba(43,23,16,.08);border-radius:999px;padding:3px;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+  .mode span{padding:6px 9px;border-radius:999px;color:var(--muted)}.mode .on{background:var(--ink);color:#fbf7f2}
+  .prep{position:absolute;left:14px;right:14px;bottom:14px;z-index:4;background:var(--night);color:#fbf7f2;border-radius:22px;padding:18px 18px 16px;transform:translateY(115%);transition:transform .5s cubic-bezier(.2,.9,.25,1)}
+  .app.intro .prep{transform:none}
+  .app.intro .bottom,.app.intro .cue{opacity:0}
+  .app.intro svg.scene{top:13%}
+  svg.scene{transition:top .5s cubic-bezier(.2,.9,.25,1)}
+  .ph{display:flex;justify-content:space-between;align-items:center;gap:10px}
+  .pk{font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--fluo)}
+  .pn{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:28px;line-height:.95;margin-top:4px}
+  .pic{width:64px;height:64px;flex:none;background:#2b1710;border-radius:16px}
+  .prep ol{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:9px;counter-reset:s}
+  .prep li{counter-increment:s;display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.35;color:#dcc7b4;opacity:0;transform:translateY(8px);transition:opacity .4s ease,transform .4s ease}
+  .prep li.on{opacity:1;transform:none;color:#fbf7f2}
+  .prep li::before{content:counter(s);flex:none;width:22px;height:22px;border-radius:50%;background:var(--fluo);color:var(--ink);font-weight:800;font-size:12px;display:grid;place-items:center}
+  .pf{display:flex;justify-content:space-between;align-items:center;margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.12)}
+  .cd{display:flex;align-items:baseline;gap:8px}.cd b{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:34px;color:var(--fluo);line-height:1}.cd span{font-size:11px;color:#9c8576;text-transform:uppercase;letter-spacing:.12em;font-weight:700}
+  .go{all:unset;background:var(--fluo);color:var(--ink);font-weight:700;font-size:14px;padding:12px 16px;border-radius:999px}
+  .bottom,.cue{transition:opacity .3s ease}
   .segs{position:absolute;left:20px;right:20px;top:46px;display:flex;gap:5px;z-index:3}
   .segs i{flex:1;height:5px;background:rgba(43,23,16,.14);border-radius:3px;overflow:hidden}
   .segs b{display:block;height:100%;background:var(--choco);transform-origin:left;transform:scaleX(0)}
   .title{top:66px!important}
+  .title h1{max-width:62%}
   .bottom{position:absolute;left:14px;right:14px;bottom:16px;height:84px;display:flex;align-items:stretch;background:#fff;border-radius:20px;box-shadow:0 12px 34px rgba(43,23,16,.16);overflow:hidden}
   .repbox{background:var(--choco);color:#fbf7f2;padding:0 34px 0 22px;display:flex;align-items:center;gap:6px;clip-path:polygon(0 0,100% 0,84% 100%,0 100%);min-width:52%}
   .repbox span{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:58px;line-height:1;color:var(--fluo);font-variant-numeric:tabular-nums}
@@ -67,6 +87,12 @@
   </svg>
 
   <div class="cue"><span id="cue">Inspire</span></div>
+  <div class="mode"><span class="on">Minuteur</span><span>À ton rythme</span></div>
+  <div class="prep" id="prep">
+    <div class="ph"><div><div class="pk">Prépare ton matériel</div><div class="pn" id="pname">La bande moyenne</div></div><svg class="pic" id="picon" viewBox="0 0 80 80"></svg></div>
+    <ol id="psteps"></ol>
+    <div class="pf"><div class="cd"><b id="cd">6</b><span>Ça commence</span></div><button class="go">Je suis prête →</button></div>
+  </div>
 
   <div class="segs"><i><b id="g0"></b></i><i><b id="g1"></b></i><i><b id="g2"></b></i></div>
   <div class="bottom">
@@ -147,8 +173,8 @@ function squat(t){const d=ease(t);
   const elb=P(sh.x+L.upper*lerp(.15,.98,reach),sh.y+L.upper*lerp(.98,.2,reach));
   const hand=P(elb.x+L.fore*lerp(.1,1,reach),elb.y+L.fore*lerp(.99,.05,reach));
   const kb=$('kitBack'),kf=$('kitFront');kb.innerHTML='';kf.innerHTML='';
-  const bp=mix(hip,knee,.8),ang=Math.atan2(knee.y-hip.y,knee.x-hip.x)*180/Math.PI;
-  raw(kf,`<rect x="${(bp.x-15).toFixed(1)}" y="${(bp.y-24).toFixed(1)}" width="30" height="48" rx="9" fill="${C.band}" transform="rotate(${(ang+90).toFixed(1)} ${bp.x.toFixed(1)} ${bp.y.toFixed(1)})"/>`);
+  const BANDF='#534032';const bp=mix(hip,knee,.8),ang=Math.atan2(knee.y-hip.y,knee.x-hip.x)*180/Math.PI;
+  raw(kf,`<rect x="${(bp.x-15).toFixed(1)}" y="${(bp.y-24).toFixed(1)}" width="30" height="48" rx="9" fill="${BANDF}" transform="rotate(${(ang+90).toFixed(1)} ${bp.x.toFixed(1)} ${bp.y.toFixed(1)})"/>`);
   return {S:{sh,hip,knee,ank,foot,elb,hand,front:P(1,0),farArm:{e:P(elb.x-10,elb.y+4),h:P(hand.x-10,hand.y+4)},farLeg:{k:P(knee.x-12,knee.y+3),a:P(ank.x-14,ank.y),f:P(foot.x-14,foot.y)}},hl:mix(hip,knee,.3),arrow:{at:P(hip.x-80,hip.y-20),dir:1}};}
 
 /* ---------- Exercice 3 : genoux vers la poitrine, pieds sur les sliders ---------- */
@@ -163,14 +189,38 @@ function tuck(t){const k=ease(t);
   return {S:{sh,hip,knee,ank,foot,elb,hand,front:P(0,1),farArm:{e:P(elb.x-12,elb.y),h:P(hand.x-14,hand.y)},farLeg:{k:P(knee.x-8,knee.y-4),a:P(ank.x-10,ank.y-2),f:P(foot.x-10,foot.y-2)}},hl:mix(sh,hip,.5),arrow:{at:P(ank.x+90,-70),dir:0}};}
 
 const EX=[
-  {f:bridge,name:'Pont fessier',kit:'Avec la bande moyenne',n:10,period:3.2,cues:['Expire, monte le bassin','Inspire, redescends']},
-  {f:squat,name:'Squat avec bande',kit:'Avec la bande forte',n:10,period:3.4,cues:['Inspire, descends','Expire, pousse dans les talons']},
-  {f:tuck,name:'Genoux à la poitrine',kit:'Avec les 2 sliders',n:10,period:3.0,cues:['Expire, ramène les genoux','Inspire, repousse']}];
-const PER=13; /* secondes montrées par exercice dans la démo */
+  {f:bridge,name:'Pont fessier',kit:'Avec la bande moyenne',acc:'La bande moyenne',icon:'band:#997b63',
+   steps:['Prends la bande moyenne, la taupe.','Enfile-la au-dessus des genoux, bien à plat, sans la vriller.','Allonge-toi sur le dos, pieds à plat, écartés de la largeur des hanches.','Pendant tout l\'exercice, pousse doucement les genoux vers l\'extérieur.'],n:10,period:3.2,cues:['Expire, monte le bassin','Inspire, redescends']},
+  {f:squat,name:'Squat avec bande',kit:'Avec la bande forte',acc:'La bande forte',icon:'band:#534032',
+   steps:['Change de bande : prends la forte, la marron foncé.','Place-la au-dessus des genoux.','Debout, pieds écartés de la largeur des épaules.','Garde les genoux dans l\'axe des pieds en descendant.'],n:10,period:3.4,cues:['Inspire, descends','Expire, pousse dans les talons']},
+  {f:tuck,name:'Genoux à la poitrine',kit:'Avec les 2 sliders',acc:'Les 2 sliders',icon:'sliders',
+   steps:['Enlève la bande et pose les 2 sliders à plat sur le tapis.','Mets la pointe de chaque pied sur un slider.','Mains sous les épaules, corps droit comme une planche.','Garde le ventre serré : le dos ne doit pas creuser.'],n:10,period:3.0,cues:['Expire, ramène les genoux','Inspire, repousse']}];
+const PER=13,INTRO=7,SEG=PER+INTRO; /* préparation puis exercice */
 
+const ICON={
+  'sliders':'<ellipse cx="40" cy="30" rx="26" ry="8" fill="#4e2719"/><ellipse cx="40" cy="27" rx="26" ry="7" fill="#6e3a27"/><ellipse cx="40" cy="55" rx="26" ry="8" fill="#4e2719"/><ellipse cx="40" cy="52" rx="26" ry="7" fill="#6e3a27"/>'};
+function bandIcon(c){return '<rect x="14" y="20" width="52" height="40" rx="14" fill="none" stroke="'+c+'" stroke-width="12"/>';}
+let lastIdx=-1,lastStep=-1;
 function render(T){
-  const idx=Math.floor(T/PER)%EX.length,e=EX[idx],lt=T%PER;
-  const ph=(lt%e.period)/e.period, tri=ph<.5?ph*2:2-ph*2;               // aller-retour
+  const idx=Math.floor(T/SEG)%EX.length,e=EX[idx],st=T%SEG,intro=st<INTRO,lt=Math.max(0,st-INTRO);
+  document.querySelector('.app').classList.toggle('intro',intro);
+  if(idx!==lastIdx){lastIdx=idx;$('pname').textContent=e.acc;
+    $('picon').innerHTML=e.icon.startsWith('band')?bandIcon(e.icon.split(':')[1]):ICON[e.icon];
+    $('psteps').innerHTML=e.steps.map(x=>'<li>'+x+'</li>').join('');lastStep=-1;}
+  $('num').textContent='EXERCICE '+(idx+1)+' / 3';$('name').textContent=e.name;$('kit').textContent=e.kit;
+  if(intro){
+    const r=e.f(0);drawBody(r.S);
+    const lis=$('psteps').children,k=Math.min(lis.length,Math.floor(st/1.2)+1);for(let i=0;i<lis.length;i++)lis[i].classList.toggle('on',i<k);
+    $('cd').textContent=Math.max(1,Math.ceil(INTRO-st));
+    /* le matériel s'allume sur l'illustration */
+    const pulse=.55+.45*Math.sin(st*4);$('kitFront').setAttribute('opacity',1);$('kitBack').setAttribute('opacity',1);
+    const kp=e.icon==='sliders'?P(r.S.ank.x+14,-8):mix(r.S.hip,r.S.knee,.78);
+    $('hl').setAttribute('cx',kp.x.toFixed(1));$('hl').setAttribute('cy',kp.y.toFixed(1));$('hl').setAttribute('opacity',pulse.toFixed(2));
+    $('arw').innerHTML='';
+    for(let i=0;i<3;i++)$('g'+i).style.transform='scaleX('+(i<idx?1:0)+')';
+    $('reps').textContent='0';$('repn').textContent='/ '+e.n;$('time').textContent='00:40';
+    return;}
+  const ph=(lt%e.period)/e.period, tri=ph<.5?ph*2:2-ph*2;
   const r=e.f(tri);drawBody(r.S);
   const A=r.arrow,g=$('arw');let up=ph<.5;let dx=0,dy=0;
   if(A.dir===-1)dy=up?-1:1; else if(A.dir===1)dy=up?1:-1; else dx=up?-1:1;
@@ -180,13 +230,10 @@ function render(T){
     '<path d="M'+(hx-uy*14-ux*16).toFixed(1)+' '+(hy+ux*14-uy*16).toFixed(1)+' L'+hx.toFixed(1)+' '+hy.toFixed(1)+' L'+(hx+uy*14-ux*16).toFixed(1)+' '+(hy-ux*14-uy*16).toFixed(1)+'"/>';
   g.setAttribute('opacity',(.35+.6*Math.sin(Math.PI*((ph*2)%1))).toFixed(2));
   $('hl').setAttribute('cx',r.hl.x.toFixed(1));$('hl').setAttribute('cy',r.hl.y.toFixed(1));$('hl').setAttribute('opacity',(.55+.45*tri).toFixed(2));
-  $('num').textContent='EXERCICE '+(idx+1)+' / 3';$('name').textContent=e.name;$('kit').textContent=e.kit;
-  const cue=$('cue');const ct=ph<.5?e.cues[0]:e.cues[1];if(cue.textContent!==ct){cue.textContent=ct;}
-  const reps=Math.min(e.n,Math.floor(lt/e.period)+ (ph>=.5?1:0)*0+Math.floor(lt/e.period)*0);
+  const cue=$('cue');const ct=ph<.5?e.cues[0]:e.cues[1];if(cue.textContent!==ct)cue.textContent=ct;
   $('reps').textContent=Math.min(e.n,Math.floor(lt/e.period)+1);$('repn').textContent='/ '+e.n;
   for(let i=0;i<3;i++)$('g'+i).style.transform='scaleX('+(i<idx?1:i===idx?(lt/PER).toFixed(3):0)+')';
-  const total=40,rest=Math.max(0,total-Math.floor(lt*40/PER));$('time').textContent='00:'+String(rest).padStart(2,'0');
-
+  const rest=Math.max(0,40-Math.floor(lt*40/PER));$('time').textContent='00:'+String(rest).padStart(2,'0');
 }
 let t0=null;
 if(window.__frame===undefined){(function loop(now){if(t0===null)t0=now;render((now-t0)/1000);requestAnimationFrame(loop);})(performance.now());}

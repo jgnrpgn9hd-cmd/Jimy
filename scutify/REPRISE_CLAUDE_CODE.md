@@ -511,3 +511,10 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - scutify/pilates/demo_seance/seance_silhouette.html (+ .mp4 39 s, format téléphone 9:16) : écran de séance « Jour 15 · Bas du corps », silhouette VAURE (membres épais à bouts ronds, chignon vert fluo), 3 exercices avec le kit : pont fessier + bande, squat + bande, genoux à la poitrine sur sliders. Mouvements calculés (pieds posés, genoux dans le bon sens), consignes de respiration, compteur de répétitions, temps restant, barre de progression, étapes.
 - Sert de base pour produire les séances du jour sans tournage (bibliothèque d'exercices + voix off).
 - Version « femme illustrée » (inspirée des applis de fitness, sans copier leur design) : demo_seance/seance_illustree.html + .mp4. Peau, cheveux bruns avec queue de cheval et élastique vert fluo, brassière vert fluo, legging chocolat, chaussettes crème ; membres effilés ; flèche verte dans le sens du mouvement ; écran : barre segmentée en haut, compteur de répétitions géant dans un bloc chocolat incliné, temps restant, pause.
+
+### Démo séance illustrée : étape « Prépare ton matériel » (18/11)
+- `scutify/pilates/demo_seance/seance_illustree.html` + `.mp4` (60 s) + `_apercu.png`.
+- Avant chaque exercice (7 s) : carte « Prépare ton matériel » avec le nom et l'icône de l'accessoire, 4 étapes de mise en place qui apparaissent une par une, l'accessoire qui s'allume sur l'illustration, un compte à rebours et le bouton « Je suis prête → ».
+- Bouton « Minuteur | À ton rythme » : le minuteur lance l'exercice tout seul ; « à ton rythme » attend que la cliente appuie sur « Je suis prête ».
+- Bande forte en marron foncé (#534032) pour la distinguer de la moyenne (taupe #997b63).
+- À faire valider par une prof de Pilates diplômée avant mise en ligne.
