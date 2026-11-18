@@ -36,9 +36,12 @@
 
   /* Animation au défilement */
   .vs.on{height:460vh}
-  .vs.on .vs-pin{position:absolute;top:0;left:0}
-  .vs.on.fx .vs-pin{position:fixed;top:0;left:0;z-index:1}
-  .vs.on.end .vs-pin{top:auto;bottom:0}
+  .vs.on .vs-pin{position:-webkit-sticky;position:sticky;top:0}
+  .vs.on.legacy .vs-pin{position:absolute;top:0;left:0}
+  .vs.on.legacy.fx .vs-pin{position:fixed;top:0;left:0;z-index:1}
+  .vs.on.legacy.end .vs-pin{top:auto;bottom:0}
+  .vs-btn{-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s ease-out}
+  .vs-btn:active{transform:scale(.97)}
 
   @media (max-width:760px){
     .vs.on{height:420vh}
@@ -121,12 +124,14 @@
   var A={th:52,sh:-52,to:75,ar:-55,hd:58},B={th:38,sh:38,to:128,ar:38,hd:128};
   var GREY=[221,214,206],NAVY=[85,43,29],INK=[43,23,16],WHITE=[255,255,255],CREAM=[244,236,226],FIG=[150,136,124],FLUO=[46,242,122],SUB1=[122,90,72],SUB2=[220,199,180];
   function seg(el,x1,y1,x2,y2){el.setAttribute('x1',x1.toFixed(2));el.setAttribute('y1',y1.toFixed(2));el.setAttribute('x2',x2.toFixed(2));el.setAttribute('y2',y2.toFixed(2))}
-  var mode='',ticking=false;
+  var mode='',ticking=false,legacy=false;
   function frame(){
     ticking=false;
     var r=vs.getBoundingClientRect(),ph=pin.offsetHeight,total=vs.offsetHeight-ph;
-    var m=r.top>0?'':(r.bottom<=ph?'end':'fx');
-    if(m!==mode){vs.classList.remove('fx','end');if(m)vs.classList.add(m);mode=m;}
+    /* le navigateur bloque l'écran lui-même (sticky) ; si le thème l'en empêche, on passe en secours */
+    if(!legacy&&r.top<-2&&r.bottom>ph+2&&Math.abs(pin.getBoundingClientRect().top)>2){legacy=true;vs.classList.add('legacy');}
+    if(legacy){var m=r.top>0?'':(r.bottom<=ph?'end':'fx');
+      if(m!==mode){vs.classList.remove('fx','end');if(m)vs.classList.add(m);mode=m;}}
     var p=c(-r.top/total);
 
     /* couleurs : gris terne -> bleu marine */
@@ -171,6 +176,7 @@
   }
   function req(){if(!ticking){ticking=true;requestAnimationFrame(frame);}}
   addEventListener('scroll',req,{passive:true});addEventListener('resize',req);
+  document.addEventListener('touchstart',function(){},{passive:true});
   frame();
 })();
 </script>
