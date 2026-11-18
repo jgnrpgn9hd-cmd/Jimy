@@ -480,3 +480,9 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Photo retouchée (sans logo, fond crème) envoyée comme fichier du thème : assets/kit-vaure-creme.webp (800 px, MD5 39bf8289… vérifié). Envoi par BASE64 : le 1er essai en 1200 px est arrivé corrompu (MD5 différent), refait en 800 px.
 - Fiche produit : la photo remplace le cadre « Photos du coffret très bientôt » tant que le produit n'a pas de média.
 - Accueil : nouvelle section `sections/vaure-pilates-coffret.liquid` (photo + 8 pièces + bouton) entre la 3D et le reste ; elle accélère aussi les apparitions des blocs (0,6 s au lieu de 1 s). MD5 vérifiés : coffret 18b343cc…, produit 88a637e0…, index b00e8927….
+
+## Retouches téléphone (section vaure-pilates-retouches, en dernier sur l'accueil)
+- Comparatif : sur téléphone, seules les colonnes Studio et VAURE restent (le tableau débordait).
+- Défi 30 jours : 2 colonnes compactes sur téléphone.
+- Barre collante « Le kit VAURE · Me prévenir » sur téléphone : apparaît après la 3D, disparaît au formulaire de liste d'attente.
+- MD5 vérifiés : retouches 9045cd6b…, index 707e0bb6….
