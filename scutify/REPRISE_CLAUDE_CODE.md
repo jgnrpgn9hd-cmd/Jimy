@@ -436,3 +436,9 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 ## Étape — Animations ajoutées à la page d'accueil Pilates (tracé du symbole, entrée du hero, apparition au défilement, survols, bouton qui pulse). Fichier envoyé et vérifié (md5 identique). Vidéo : scutify/pilates/shopify/apercu_animations.mp4
 
 ## Étape — Refonte complète du design de l'accueil Pilates (Jairo : « fait PowerPoint de 3e ») : hero éditorial + illustration animée, bandeau défilant vert fluo, constat en chiffres, kit en 3 cartes illustrées, frise du défi 30 jours, comparatif avec coches, FAQ en 2 colonnes, promesses, liste d'attente. md5 vérifié sur Shopify.
+
+## Accueil « scrollytelling » (inspiré de la vidéo CLAIR)
+- Nouvelle section `sections/vaure-pilates-scroll.liquid` placée en tête de l'accueil (templates/index.json) : silhouette VAURE qui passe d'assise voûtée à la posture du teaser (le V) au défilement, mot géant INACTIVE → ACTIVE, fond gris → bleu marine, 5 phrases, compteur Jour 01 → 30, bouton liste d'attente.
+- Réglage `hide_old_hero` (coché) : masque l'ancien bandeau d'ouverture de la section accueil.
+- Envoyé sur le thème brouillon 199730561406, sommes MD5 vérifiées (scroll 2ad6a3d0…, index d99e4390…). Rien de publié.
+- Aperçus : shopify/apercu_scroll.html, apercu_scroll_telephone.mp4, apercu_scroll_ordinateur.png.
