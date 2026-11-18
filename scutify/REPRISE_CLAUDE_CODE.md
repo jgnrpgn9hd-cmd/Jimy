@@ -454,3 +454,10 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Les 3 sections recolorées et réécrites ; la vitrine présente les 8 pièces (dessins chocolat), 3 dans le mot VAURE.
 - Envoyé sur le brouillon 199730561406, MD5 vérifiés : home bc1c6ab8…, scroll c03b1c03…, vitrine 770629ba…, index 4dcca8b2….
 - À faire : prix fournisseur du kit (marge), prix de vente 39,90 € à confirmer ; header/footer du thème encore aux anciennes couleurs.
+
+## Accueil en 3D (remplace l'ouverture en silhouette et la vitrine dessinée)
+- Retour du client : « pas ouf », cheap, pas assez d'effet waw, pas fluide. Cause : silhouette en bâtons et pièces dessinées.
+- Nouvelle section `sections/vaure-pilates-3d.liquid` (three.js 0.160 chargé depuis cdn.jsdelivr.net, rendu WebGL) : les 8 pièces du kit modélisées (matières, reflets, ombres douces), éclatées puis réunies en composition au défilement, étiquettes sur les pièces, 3 messages, bouton liste d'attente. Défilement lissé, 320vh (300vh sur téléphone), blocage natif (sticky). Cadrage automatique : image décalée à droite (ordinateur) ou vers le bas (téléphone).
+- Secours : sans WebGL ou avec « réduire les animations », version texte fixe.
+- index.json : vaure_3d (hide_old) + vaure_pilates. Les sections scroll et vitrine restent dans le thème mais ne sont plus affichées.
+- MD5 vérifiés : 3d 0f85d2c4…, index 13e69350…

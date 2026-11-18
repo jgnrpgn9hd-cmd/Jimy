@@ -1,1 +1,1 @@
-{"sections":{"vaure_scroll":{"type":"vaure-pilates-scroll","settings":{"hide_old_hero":true}},"vaure_vitrine":{"type":"vaure-pilates-vitrine","settings":{"hide_old_kit":true}},"vaure_pilates":{"type":"vaure-pilates-home","settings":{}}},"order":["vaure_scroll","vaure_vitrine","vaure_pilates"]}
+{"sections":{"vaure_3d":{"type":"vaure-pilates-3d","settings":{"hide_old":true}},"vaure_pilates":{"type":"vaure-pilates-home","settings":{}}},"order":["vaure_3d","vaure_pilates"]}

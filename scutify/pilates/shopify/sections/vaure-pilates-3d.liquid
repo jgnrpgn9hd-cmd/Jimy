@@ -1,0 +1,225 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap">
+{%- if section.settings.hide_old -%}<style>.vp .hero,.vp .kit{display:none}</style>{%- endif -%}
+<style>
+  .v3{--choco:#552b1d;--ink:#2b1710;--cream:#f4ece2;--fluo:#2ef27a;--muted:#7a5a48;position:relative;height:320vh;font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+  .v3 *{box-sizing:border-box}
+  .v3-pin{position:-webkit-sticky;position:sticky;top:0;height:100vh;height:100svh;min-height:560px;overflow:hidden;background:radial-gradient(90% 70% at 62% 58%,#fffaf4 0%,#f4ece2 55%,#e6d7c5 100%)}
+  .v3 canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+  .v3-txt{position:absolute;left:6vw;top:50%;transform:translateY(-50%);width:min(30rem,40vw);pointer-events:none}
+  .v3-b{position:absolute;left:0;top:50%;width:100%;transform:translateY(-50%);will-change:opacity,transform}
+  .v3-b .k{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:10px}
+  .v3-b .k::before{content:"";width:24px;height:2px;background:var(--fluo)}
+  .v3-b h1,.v3-b h2{font-family:'Outfit',sans-serif;font-weight:600;font-size:clamp(40px,5.6vw,84px);line-height:.98;letter-spacing:-.035em;margin:18px 0 16px;color:var(--ink);text-wrap:balance}
+  .v3-b h1 em,.v3-b h2 em{font-style:normal;font-weight:300}
+  .v3-b p{margin:0;font-size:17px;line-height:1.55;color:var(--muted);max-width:30ch}
+  .v3-btn{pointer-events:auto;display:inline-flex;align-items:center;gap:10px;margin-top:26px;background:var(--fluo);color:var(--ink);font-weight:600;font-size:15px;padding:16px 26px;border-radius:999px;text-decoration:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s ease-out,box-shadow .25s ease}
+  .v3-btn:hover{box-shadow:0 12px 34px rgba(46,242,122,.4)}
+  .v3-btn:active{transform:scale(.97)}
+  .v3-lab{position:absolute;left:0;top:0;pointer-events:none;display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--ink);white-space:nowrap;opacity:0;will-change:transform,opacity}
+  .v3-lab i{width:9px;height:9px;border-radius:50%;background:var(--fluo);box-shadow:0 0 0 4px rgba(46,242,122,.25)}
+  .v3-lab span{background:rgba(255,255,255,.72);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);padding:6px 10px;border-radius:999px}
+  .v3-prog{position:absolute;right:6vw;bottom:6vh;display:flex;gap:8px}
+  .v3-prog i{width:28px;height:3px;border-radius:2px;background:rgba(85,43,29,.18);overflow:hidden;position:relative}
+  .v3-prog i b{position:absolute;inset:0;background:var(--fluo);transform-origin:left;transform:scaleX(0)}
+  .v3-hint{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+
+  /* Sans 3D (ancien téléphone, mouvement réduit) : version fixe */
+  .v3.flat{height:auto}
+  .v3.flat .v3-pin{position:relative;height:auto;min-height:0;padding:90px 24px}
+  .v3.flat .v3-txt{position:static;transform:none;width:auto;max-width:640px;margin:0 auto;display:grid;gap:56px}
+  .v3.flat .v3-b{position:static;transform:none}
+  .v3.flat .v3-prog,.v3.flat .v3-hint,.v3.flat canvas{display:none}
+
+  @media (max-width:760px){
+    .v3{height:300vh}
+    .v3-txt{left:20px;right:20px;top:9vh;transform:none;width:auto}
+    .v3-b{top:0;transform:none}
+    .v3-b h1,.v3-b h2{font-size:clamp(34px,10vw,46px);margin:12px 0 10px}
+    .v3-b p{font-size:15px}
+    .v3-btn{margin-top:16px}
+    .v3-lab{font-size:11px}
+    .v3-prog{right:auto;left:20px;bottom:4vh}
+    .v3-hint{display:none}
+  }
+</style>
+
+<section class="v3" id="vp-kit" aria-label="Le kit VAURE">
+  <div class="v3-pin">
+    <canvas aria-hidden="true"></canvas>
+    <div class="v3-txt">
+      <div class="v3-b">
+        <span class="k">VAURE · Le Pilates à la maison</span>
+        <h1>Tout le studio. <em>Chez toi.</em></h1>
+        <p>15 minutes par jour, dans ton salon. Sans abonnement, sans horaires.</p>
+      </div>
+      <div class="v3-b">
+        <span class="k">Le kit</span>
+        <h2>8 pièces. <em>Un seul coffret.</em></h2>
+        <p>Tapis, cercle, ballon, 3 bandes, brique, sliders, rouleau et le programme vidéo.</p>
+      </div>
+      <div class="v3-b">
+        <span class="k">Le défi VAURE</span>
+        <h2>Prête pour <em>30 jours ?</em></h2>
+        <p>Une séance guidée par jour, puis une nouvelle séance chaque semaine.</p>
+        <a class="v3-btn" href="#vp-attente">Rejoindre la liste d'attente
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+      </div>
+    </div>
+    <div class="v3-labs" aria-hidden="true"></div>
+    <div class="v3-prog" aria-hidden="true"><i><b></b></i><i><b></b></i><i><b></b></i></div>
+    <div class="v3-hint" aria-hidden="true">Fais défiler</div>
+  </div>
+</section>
+
+<script type="module">
+const root=[...document.querySelectorAll('.v3')].pop();
+const flat=()=>root.classList.add('flat');
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let THREE;
+try{
+  const c=document.createElement('canvas');
+  if(!(c.getContext('webgl2')||c.getContext('webgl')))throw 0;
+  THREE=await import('https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js');
+}catch(e){flat();}
+if(THREE&&RM)flat();
+if(THREE&&!RM){
+const pin=root.querySelector('.v3-pin'),canvas=root.querySelector('canvas');
+const bs=[...root.querySelectorAll('.v3-b')],bars=[...root.querySelectorAll('.v3-prog b')],hint=root.querySelector('.v3-hint'),labBox=root.querySelector('.v3-labs');
+const renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true,powerPreference:'high-performance'});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+renderer.outputColorSpace=THREE.SRGBColorSpace;
+renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;
+renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+const scene=new THREE.Scene();
+const cam=new THREE.PerspectiveCamera(32,1,.1,60);
+
+/* Lumière de studio : une pièce lumineuse sert de reflet aux matières */
+const pm=new THREE.PMREMGenerator(renderer);
+const env=new THREE.Scene();
+env.add(new THREE.Mesh(new THREE.BoxGeometry(20,12,20),new THREE.MeshBasicMaterial({color:0x8a7566,side:THREE.BackSide})));
+const panel=(w,h,x,y,z,ry,k)=>{const m=new THREE.Mesh(new THREE.PlaneGeometry(w,h),new THREE.MeshBasicMaterial({color:new THREE.Color(k,k*.96,k*.9)}));m.position.set(x,y,z);m.rotation.y=ry;m.lookAt(0,0,0);env.add(m);};
+panel(8,4,0,5.5,0,0,6);panel(5,6,-9,1,2,0,3.2);panel(5,6,9,2,-3,0,2.2);panel(6,3,0,1,9,0,1.6);
+scene.environment=pm.fromScene(env,.03).texture;
+const key=new THREE.DirectionalLight(0xfff1e2,2.2);key.position.set(3,6,4);key.castShadow=true;
+key.shadow.mapSize.set(1024,1024);key.shadow.radius=6;key.shadow.bias=-.0004;
+Object.assign(key.shadow.camera,{left:-4,right:4,top:4,bottom:-4,near:1,far:20});
+scene.add(key,new THREE.HemisphereLight(0xfff6ec,0x6b4a3a,.5));
+const floor=new THREE.Mesh(new THREE.PlaneGeometry(30,30),new THREE.ShadowMaterial({opacity:.16}));
+floor.rotation.x=-Math.PI/2;floor.position.y=-.02;floor.receiveShadow=true;scene.add(floor);
+
+/* Textures dessinées à la volée */
+const tex=(w,h,draw,rep)=>{const c=document.createElement('canvas');c.width=w;c.height=h;draw(c.getContext('2d'),w,h);const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;if(rep){t.wrapS=t.wrapT=THREE.RepeatWrapping;t.repeat.set(rep[0],rep[1]);}return t;};
+const logo=(g,x,y,s,col)=>{g.fillStyle=col;g.font=`700 ${s}px Outfit, Inter, sans-serif`;g.textAlign='center';g.textBaseline='middle';g.letterSpacing=`${s*.12}px`;g.fillText('VAURE',x,y);};
+const CH=0x552b1d,CHL=0x6b3826,CR=0xefe3d3;
+const mat=(o)=>new THREE.MeshPhysicalMaterial(o);
+
+const pieces=[];
+const add=(name,obj,A,B)=>{obj.traverse(m=>{if(m.isMesh){m.castShadow=true;}});scene.add(obj);pieces.push({name,obj,A,B,ph:Math.random()*6.28,lo:new THREE.Vector3(0,.5,0)});return obj;};
+const P=(x,y,z,rx,ry,rz)=>({p:new THREE.Vector3(x,y,z),q:new THREE.Quaternion().setFromEuler(new THREE.Euler(rx,ry,rz))});
+
+// 1. Tapis roulé
+{const g=new THREE.Group();
+ const side=mat({color:CH,roughness:.85,sheen:.6,sheenColor:new THREE.Color(0x8a5a44)});
+ const end=tex(256,256,(g2,w)=>{g2.fillStyle='#4a2418';g2.fillRect(0,0,w,w);g2.strokeStyle='#6e3a27';g2.lineWidth=7;g2.beginPath();for(let a=0;a<40;a+=.05){const r=4+a*2.9;g2.lineTo(w/2+Math.cos(a)*r,w/2+Math.sin(a)*r);}g2.stroke();});
+ const cyl=new THREE.Mesh(new THREE.CylinderGeometry(.36,.36,1.9,96,1,true),side);g.add(cyl);
+ for(const s of[1,-1]){const cap=new THREE.Mesh(new THREE.CircleGeometry(.36,64),mat({map:end,roughness:.9}));cap.rotation.x=-s*Math.PI/2;cap.position.y=s*.95;g.add(cap);}
+ const lab=new THREE.Mesh(new THREE.CylinderGeometry(.362,.362,.34,96,1,true,-.6,1.2),mat({map:tex(512,128,(c,w,h)=>{c.fillStyle='#552b1d';c.fillRect(0,0,w,h);logo(c,w/2,h/2,64,'#f2e5d5');}),roughness:.8}));g.add(lab);
+ add('Le tapis',g,P(-.4,2.6,-1.8,.4,.3,1.2),P(-.15,.36,-.95,0,.12,Math.PI/2));}
+// 2. Cercle de Pilates
+{const g=new THREE.Group();
+ g.add(new THREE.Mesh(new THREE.TorusGeometry(.92,.055,32,160),mat({color:CH,roughness:.4,clearcoat:.5,clearcoatRoughness:.35})));
+ for(const s of[1,-1]){const pad=new THREE.Mesh(new THREE.CapsuleGeometry(.11,.26,12,24),mat({color:0x3a1d14,roughness:.75,sheen:.4}));pad.position.x=s*.92;g.add(pad);}
+ add('Le cercle',g,P(2.1,2.2,-1.2,.9,-.5,.3),P(.95,.92,-1.15,-.12,-.35,0));}
+// 3. Petit ballon
+{const t=tex(1024,512,(c,w,h)=>{const gr=c.createLinearGradient(0,0,0,h);gr.addColorStop(0,'#6e3a27');gr.addColorStop(1,'#552b1d');c.fillStyle=gr;c.fillRect(0,0,w,h);logo(c,w*.5,h*.5,64,'rgba(242,229,213,.85)');});
+ const b=new THREE.Mesh(new THREE.SphereGeometry(.42,96,64),mat({map:t,roughness:.32,clearcoat:.8,clearcoatRoughness:.2,sheen:.3}));b.rotation.y=-Math.PI/2;
+ const g=new THREE.Group();g.add(b);add('Le ballon',g,P(.3,2.7,.6,.3,1.2,.2),P(.42,1.02,.15,0,-.35,0));}
+// 4. Brique
+{const sh=new THREE.Shape(),w=.9,h=.58,r=.08;sh.moveTo(-w/2+r,-h/2);sh.lineTo(w/2-r,-h/2);sh.quadraticCurveTo(w/2,-h/2,w/2,-h/2+r);sh.lineTo(w/2,h/2-r);sh.quadraticCurveTo(w/2,h/2,w/2-r,h/2);sh.lineTo(-w/2+r,h/2);sh.quadraticCurveTo(-w/2,h/2,-w/2,h/2-r);sh.lineTo(-w/2,-h/2+r);sh.quadraticCurveTo(-w/2,-h/2,-w/2+r,-h/2);
+ const geo=new THREE.ExtrudeGeometry(sh,{depth:.3,bevelEnabled:true,bevelThickness:.03,bevelSize:.03,bevelSegments:5,curveSegments:10});geo.center();
+ const g=new THREE.Group();g.add(new THREE.Mesh(geo,mat({color:CR,roughness:.95})));
+ const face=new THREE.Mesh(new THREE.PlaneGeometry(.7,.3),new THREE.MeshStandardMaterial({map:tex(512,220,(c,w,h)=>{c.clearRect(0,0,w,h);logo(c,w/2,h/2,96,'rgba(170,140,112,.75)');}),transparent:true,roughness:1}));face.position.z=.181;g.add(face);
+ add('La brique',g,P(.9,.5,1.6,-.6,.8,.4),P(.42,.32,.15,0,-.35,0));}
+// 5. Les 3 bandes
+{const g=new THREE.Group();[['#d6cdc1',0],['#9a7b62',1],['#53402f',2]].forEach(([col,i])=>{
+  const t=tex(256,64,(c,w,h)=>{c.fillStyle=col;c.fillRect(0,0,w,h);c.strokeStyle='rgba(0,0,0,.09)';for(let x=-h;x<w;x+=5){c.beginPath();c.moveTo(x,0);c.lineTo(x+h,h);c.stroke();}},[3,1]);
+  const m=new THREE.Mesh(new THREE.CylinderGeometry(.34,.34,.17,96,1,true),mat({map:t,roughness:1,sheen:1,sheenColor:new THREE.Color(col),side:THREE.DoubleSide}));
+  m.scale.set(1,1,.38);m.position.set(0,i*.075+.09,i*.03);m.rotation.y=i*.25;g.add(m);});
+ add('Les 3 bandes',g,P(2.4,.3,1.3,.7,-.6,.5),P(-1.3,0,.15,0,.5,0));}
+// 6. Les 2 sliders
+{const g=new THREE.Group();for(const i of[0,1]){const d=new THREE.Mesh(new THREE.CylinderGeometry(.3,.3,.05,80),mat({color:0x4e2719,roughness:.5,clearcoat:.3}));d.position.set(i*.52,.03,i*.12);g.add(d);}
+ add('Les 2 sliders',g,P(1,-.2,2.1,1.1,.3,-.4),P(1.1,0,.75,0,-.2,0));}
+// 7. Rouleau
+{const t=tex(512,256,(c,w,h)=>{c.fillStyle='#552b1d';c.fillRect(0,0,w,h);c.strokeStyle='#3a1c12';c.lineWidth=14;for(let x=-h;x<w+h;x+=64){c.beginPath();c.moveTo(x,0);c.lineTo(x+h*.6,h);c.stroke();}},[1,2]);
+ const m=new THREE.Mesh(new THREE.CylinderGeometry(.28,.28,1.35,96),mat({map:t,roughness:.75,sheen:.4}));
+ const g=new THREE.Group();g.add(m);add('Le rouleau',g,P(-.9,-.1,2.3,.2,-.4,-1.2),P(-.55,.28,.62,0,.45,Math.PI/2));}
+// 8. Programme (téléphone)
+{const sh=new THREE.Shape(),w=.5,h=1,r=.08;sh.moveTo(-w/2+r,-h/2);sh.lineTo(w/2-r,-h/2);sh.quadraticCurveTo(w/2,-h/2,w/2,-h/2+r);sh.lineTo(w/2,h/2-r);sh.quadraticCurveTo(w/2,h/2,w/2-r,h/2);sh.lineTo(-w/2+r,h/2);sh.quadraticCurveTo(-w/2,h/2,-w/2,h/2-r);sh.lineTo(-w/2,-h/2+r);sh.quadraticCurveTo(-w/2,-h/2,-w/2+r,-h/2);
+ const geo=new THREE.ExtrudeGeometry(sh,{depth:.04,bevelEnabled:true,bevelThickness:.012,bevelSize:.012,bevelSegments:3});geo.center();
+ const g=new THREE.Group();g.add(new THREE.Mesh(geo,mat({color:0x1d1210,roughness:.3,metalness:.4,clearcoat:1})));
+ const scr=tex(300,600,(c,w,h)=>{const gr=c.createLinearGradient(0,0,0,h);gr.addColorStop(0,'#6a3726');gr.addColorStop(1,'#2b1710');c.fillStyle=gr;c.fillRect(0,0,w,h);
+   c.fillStyle='#2ef27a';c.font='600 20px Inter,sans-serif';c.fillText('JOUR 12 / 30',28,70);c.fillStyle='#f4ece2';c.font='600 34px Outfit,Inter,sans-serif';c.fillText('Gainage',28,115);c.fillText('doux',28,152);
+   c.strokeStyle='#f4ece2';c.lineWidth=14;c.lineCap='round';c.beginPath();c.moveTo(150,380);c.lineTo(225,315);c.moveTo(150,380);c.lineTo(98,308);c.lineTo(172,256);c.stroke();c.fillStyle='#2ef27a';c.beginPath();c.arc(84,282,15,0,7);c.fill();
+   c.fillStyle='rgba(255,255,255,.2)';c.fillRect(28,470,244,6);c.fillStyle='#2ef27a';c.fillRect(28,470,110,6);c.beginPath();c.arc(150,530,26,0,7);c.fill();});
+ const s=new THREE.Mesh(new THREE.PlaneGeometry(.46,.94),new THREE.MeshBasicMaterial({map:scr,toneMapped:false}));s.position.z=.034;g.add(s);
+ add('Le programme vidéo',g,P(2.9,1.3,.4,-.3,-.9,.2),P(1.75,.55,-.35,-.22,-.55,0));}
+
+/* Étiquettes */
+[[0,-.75,.55,0],[1,.6,.75,0],[2,0,.55,0],[3,-.2,.4,0],[4,.1,.15,.4],[5,0,.15,.35],[6,0,.35,.3],[7,.1,.6,0]].forEach(([i,x,y,z])=>pieces[i].lo.set(x,y,z));
+const labs=pieces.map(pc=>{const d=document.createElement('div');d.className='v3-lab';d.innerHTML='<i></i><span>'+pc.name+'</span>';labBox.appendChild(d);return d;});
+
+/* Animation au défilement, lissée */
+const cl=x=>x<0?0:x>1?1:x,ss=x=>{x=cl(x);return x*x*(3-2*x)};
+let target=0,cur=0,last=performance.now(),run=false,W=0,H=0;
+const read=()=>{const r=root.getBoundingClientRect();target=cl(-r.top/(root.offsetHeight-pin.offsetHeight));};
+const size=()=>{W=pin.clientWidth;H=pin.clientHeight;renderer.setSize(W,H,false);cam.aspect=W/H;
+  /* l'image du kit se décale : à droite sur ordinateur, vers le bas sur téléphone, pour laisser le texte libre */
+  if(W<761)cam.setViewOffset(W,H,0,-H*.2,W,H);else cam.setViewOffset(W,H,-W*.2,0,W,H);cam.updateProjectionMatrix();};
+const v=new THREE.Vector3(),q=new THREE.Quaternion(),look=new THREE.Vector3();
+function frame(now){
+  if(!run)return;requestAnimationFrame(frame);
+  const dt=Math.min(.05,(now-last)/1000);last=now;
+  cur+=(target-cur)*(1-Math.exp(-dt*7));
+  const p=cur,t=ss((p-.08)/.5),mob=W<761;
+  pieces.forEach((pc,i)=>{
+    const k=ss((p-.06-i*.025)/.5);
+    v.lerpVectors(pc.A.p,pc.B.p,k);q.slerpQuaternions(pc.A.q,pc.B.q,k);
+    const f=1-k*.85;v.y+=Math.sin(now/1000*.9+pc.ph)*.06*f;
+    pc.obj.position.copy(v);pc.obj.quaternion.copy(q);pc.obj.rotateY(Math.sin(now/1000*.5+pc.ph)*.12*f);
+  });
+  /* caméra : vue large -> composition -> tour lent autour du kit */
+  const zoom=ss((p-.62)/.38),orb=zoom*.5,tv=Math.tan(cam.fov*Math.PI/360);
+  const hw=mob?2.35:4.3,hh=mob?2.5:2.7,dist=Math.max(hh/tv,hw/(tv*cam.aspect))*(1-t*.1-zoom*.08);
+  cam.position.set(.25+Math.sin(orb)*dist,1.5+t*.7,Math.cos(orb)*dist);
+  look.set(.25,.75,0);cam.lookAt(look);
+  floor.material.opacity=.17*t;
+  renderer.render(scene,cam);
+  /* textes */
+  const seg=[[0,.3],[.3,.66],[.66,1.01]];
+  bs.forEach((b,i)=>{const[a,z]=seg[i],w=z-a;const fi=i?ss((p-a)/(w*.25)):1,fo=i<2?1-ss((p-(z-w*.22))/(w*.22)):1,o=Math.min(fi,fo);
+    b.style.opacity=o;b.style.visibility=o<.01?'hidden':'visible';b.style.transform=(mob?'':'translateY(-50%) ')+'translateY('+((1-fi)*30-(1-fo)*30).toFixed(1)+'px)';});
+  bars.forEach((b,i)=>{b.style.transform='scaleX('+cl((p-seg[i][0])/(seg[i][1]-seg[i][0])).toFixed(3)+')';});
+  hint.style.opacity=1-cl(p/.06);
+  /* étiquettes sur les pièces pendant la composition */
+  const lo=Math.min(ss((p-.4)/.12),1-ss((p-.64)/.08));
+  pieces.forEach((pc,i)=>{const d=labs[i];if(lo<.01||(mob&&(i===3||i===4||i===6))){d.style.opacity=0;return;}
+    v.copy(pc.obj.position).add(pc.lo);v.project(cam);const x=(v.x*.5+.5)*W,y=(-v.y*.5+.5)*H;
+    d.style.opacity=lo.toFixed(3);d.style.transform='translate('+x.toFixed(1)+'px,'+y.toFixed(1)+'px) translate(-6px,-50%)';});
+}
+const start=()=>{if(run)return;run=true;last=performance.now();requestAnimationFrame(frame);};
+new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)start();else run=false;});}).observe(root);
+addEventListener('scroll',read,{passive:true});addEventListener('resize',()=>{size();read();});
+size();read();cur=target;start();
+}
+</script>
+
+{% schema %}
+{
+  "name": "VAURE Pilates – kit 3D",
+  "settings": [
+    { "type": "checkbox", "id": "hide_old", "label": "Masquer l'ancien bandeau et l'ancien bloc « Le kit »", "default": true }
+  ],
+  "presets": [{ "name": "VAURE Pilates – kit 3D" }]
+}
+{% endschema %}
