@@ -467,3 +467,11 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - `blocks/_header-logo.liquid` (brouillon) : l'en-tête affiche ce logo au lieu de l'image de l'ancienne boutique (vaure-logo-noir.png).
 - Section 3D : les textures (tapis, ballon, brique) utilisent les mêmes tracés que le logo.
 - MD5 vérifiés : snippet b40b2207…, bloc 4c31d4fa…, 3d 7f754ac0….
+
+## Site pro (en-tête, pied, produit, pages, SEO) + bijoux archivés
+- 73 produits bijoux ARCHIVÉS (pas supprimés, réversible). Commande #1001 conservée.
+- Brouillon : config/settings_data.json recoloré (6 schémas crème/chocolat/vert fluo, boutons vert fluo), titres en Outfit (outfit_n6). Copie d'origine : shopify/settings_data_origine.json.
+- Produit « Kit Pilates VAURE – Le studio à la maison » (gid 16197494309246, handle kit-pilates-vaure) en BROUILLON, 39,90 € provisoire, SEO rempli, gabarit product.vaure → sections/vaure-pilates-produit.liquid.
+- Pages réécrites pour le Pilates (en ligne, boutique entière) : Notre histoire, Livraison, Retours, Contact, Questions fréquentes, Utilisation et entretien (ex-Matières et entretien), CGV (mentions légales de l'entreprise conservées). SEO (title/description) posés sur 5 pages.
+- Menus : « Journal » retiré de vaure-maison, « Utilisation et entretien » ajouté à vaure-pilates-aide.
+- Favicon : shopify/vaure_favicon_512.png à téléverser dans l'éditeur (upload d'image impossible depuis la session).
