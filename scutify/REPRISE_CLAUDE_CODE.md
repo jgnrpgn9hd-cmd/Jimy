@@ -534,3 +534,4 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Choix : 6 couleurs de peau, 6 coiffures (queue de cheval, chignon, afro, tresse, courts, foulard de sport), 5 couleurs de cheveux, 3 morphologies (fine, moyenne, ronde). Mémorisé sur le téléphone ; la silhouette choisie fait tous les exercices.
 - Tenue VAURE identique pour toutes (brassière fluo, legging chocolat) : c'est la signature de la marque.
 - Aperçus : apercu_silhouette_choix.png, apercu_silhouettes.png.
+- Menu déroulant « Menu » (en haut à droite de l'accueil, avec la mini-silhouette) : Ma silhouette, Ma musique, Mode de séance (bascule Minuteur / À ton rythme), Recommencer le défi (avec confirmation), Le site VAURE. Aperçu : apercu_menu.png.
