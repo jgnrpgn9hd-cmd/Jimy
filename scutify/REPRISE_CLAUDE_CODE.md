@@ -475,3 +475,8 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Pages réécrites pour le Pilates (en ligne, boutique entière) : Notre histoire, Livraison, Retours, Contact, Questions fréquentes, Utilisation et entretien (ex-Matières et entretien), CGV (mentions légales de l'entreprise conservées). SEO (title/description) posés sur 5 pages.
 - Menus : « Journal » retiré de vaure-maison, « Utilisation et entretien » ajouté à vaure-pilates-aide.
 - Favicon : shopify/vaure_favicon_512.png à téléverser dans l'éditeur (upload d'image impossible depuis la session).
+
+## Photo du kit sur le site
+- Photo retouchée (sans logo, fond crème) envoyée comme fichier du thème : assets/kit-vaure-creme.webp (800 px, MD5 39bf8289… vérifié). Envoi par BASE64 : le 1er essai en 1200 px est arrivé corrompu (MD5 différent), refait en 800 px.
+- Fiche produit : la photo remplace le cadre « Photos du coffret très bientôt » tant que le produit n'a pas de média.
+- Accueil : nouvelle section `sections/vaure-pilates-coffret.liquid` (photo + 8 pièces + bouton) entre la 3D et le reste ; elle accélère aussi les apparitions des blocs (0,6 s au lieu de 1 s). MD5 vérifiés : coffret 18b343cc…, produit 88a637e0…, index b00e8927….
