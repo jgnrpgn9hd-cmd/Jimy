@@ -528,3 +528,9 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
   - Sliders : « au sol, hors du tapis, pour qu'ils glissent ».
 - Page défi (brouillon 199730561406) alignée sur l'appli : MD5 da138be8… vérifié. Rien de publié.
 - Plus tard : connexion Spotify par compte (nécessite une appli développeur Spotify + Premium), playlists VAURE à créer par Jairo, hébergement de l'espace derrière le compte client.
+
+### « Ma silhouette » : chacune se reconnaît (18/11)
+- Espace séances : au premier lancement, fiche « Elle te ressemble » ; ensuite bouton « Ma silhouette » en haut de l'accueil.
+- Choix : 6 couleurs de peau, 6 coiffures (queue de cheval, chignon, afro, tresse, courts, foulard de sport), 5 couleurs de cheveux, 3 morphologies (fine, moyenne, ronde). Mémorisé sur le téléphone ; la silhouette choisie fait tous les exercices.
+- Tenue VAURE identique pour toutes (brassière fluo, legging chocolat) : c'est la signature de la marque.
+- Aperçus : apercu_silhouette_choix.png, apercu_silhouettes.png.

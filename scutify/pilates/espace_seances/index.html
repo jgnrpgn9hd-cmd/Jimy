@@ -197,6 +197,22 @@
   .stats{display:grid;grid-template-columns:1fr 1fr 1fr;margin-top:26px;border-top:1px solid rgba(255,255,255,.14)}
   .stats div{padding:14px 0 0;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:#9c8576}
   .stats b{display:block;font-family:'Barlow Condensed',sans-serif;font-size:40px;color:#fff;letter-spacing:0;line-height:1}
+
+  /* ---------- Ta silhouette ---------- */
+  .me{all:unset;cursor:pointer;display:flex;align-items:center;gap:8px;padding:4px 12px 4px 4px;border-radius:999px;background:rgba(255,255,255,.1);font-size:12px;font-weight:700;color:#fbf7f2}
+  .me svg{width:30px;height:30px;border-radius:50%;background:var(--cream)}
+  .av-top{display:grid;grid-template-columns:120px 1fr;gap:16px;align-items:center}
+  .av-prev{height:200px;width:120px;background:radial-gradient(80% 60% at 50% 60%,#fffaf4,var(--cream));border-radius:20px}
+  .av-top p{margin:8px 0 0;color:var(--muted);font-size:14px;line-height:1.45}
+  .av-row{margin-top:18px}
+  .av-row b{display:block;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+  .sw{display:flex;flex-wrap:wrap;gap:10px}
+  .sw button{width:38px;height:38px;border-radius:50%;border:0;padding:0;box-shadow:inset 0 0 0 1px rgba(43,23,16,.15);transition:transform .1s ease-out}
+  .sw button.on{box-shadow:0 0 0 3px var(--paper),0 0 0 6px var(--ink)}
+  .sw button:active,.ch button:active{transform:scale(.94)}
+  .ch{display:flex;flex-wrap:wrap;gap:8px}
+  .ch button{border:0;background:var(--cream);color:var(--ink);font-weight:600;font-size:14px;padding:10px 14px;border-radius:999px}
+  .ch button.on{background:var(--ink);color:#fbf7f2}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style></head>
 <body>
@@ -205,7 +221,7 @@
   <!-- ============ SÉANCES ============ -->
   <section class="scr" id="tab-home">
     <header class="hh">
-      <div class="hrow"><svg class="logo" viewBox="0 -6 616 112" aria-label="VAURE"><g fill="none" stroke="#2b1710" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/><g transform="translate(140 0)" fill="none" stroke="#2b1710" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2 L38 98 L74 2"/><path transform="translate(98 0)" d="M2 98 L38 2 L74 98"/><path transform="translate(200 0)" d="M4 2 V60 C4 84 18 98 38 98 C58 98 72 84 72 60 V2"/><path transform="translate(300 0)" d="M4 98 V2 H40 C60 2 70 14 70 30 C70 46 60 58 40 58 H4 M38 58 L70 98"/><path transform="translate(398 0)" d="M66 2 H4 V98 H66 M4 50 H54"/></g></svg><span class="tag">Mes séances</span></div>
+      <div class="hrow"><svg class="logo" viewBox="0 -6 616 112" aria-label="VAURE"><g fill="none" stroke="#2b1710" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/><g transform="translate(140 0)" fill="none" stroke="#2b1710" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2 L38 98 L74 2"/><path transform="translate(98 0)" d="M2 98 L38 2 L74 98"/><path transform="translate(200 0)" d="M4 2 V60 C4 84 18 98 38 98 C58 98 72 84 72 60 V2"/><path transform="translate(300 0)" d="M4 98 V2 H40 C60 2 70 14 70 30 C70 46 60 58 40 58 H4 M38 58 L70 98"/><path transform="translate(398 0)" d="M66 2 H4 V98 H66 M4 50 H54"/></g></svg><button class="me" id="meBtn"><svg viewBox="380 -470 200 480" id="meMini"><g></g></svg>Ma silhouette</button></div>
       <h1 class="bc">Le défi <em>30 jours</em></h1>
       <div class="prog"><div class="pt"><span><b id="doneN">0</b>/ 30 jours faits</span><span id="pPct">0 %</span></div><div class="pbar"><i id="pbar"></i></div></div>
     </header>
@@ -341,29 +357,49 @@ function raw(g,html){g.insertAdjacentHTML('beforeend',html);}
 function limb(g,a,b,w1,w2,col){const d=Math.hypot(b.x-a.x,b.y-a.y)||1,nx=-(b.y-a.y)/d,ny=(b.x-a.x)/d;
   poly(g,[P(a.x+nx*w1/2,a.y+ny*w1/2),P(b.x+nx*w2/2,b.y+ny*w2/2),P(b.x-nx*w2/2,b.y-ny*w2/2),P(a.x-nx*w1/2,a.y-ny*w1/2)],col);
   circ(g,a,w1/2,col);circ(g,b,w2/2,col);}
-const SK='#d8a07a',SKD='#b98463',HAIR='#3a2318',LEG='#552b1d',LEGD='#3a1d14',TOP='#2ef27a',SOCK='#f4ece2';
-function drawBody(S){const g=$('body');g.innerHTML='';
+const LEG='#552b1d',LEGD='#3a1d14',TOP='#2ef27a',SOCK='#f4ece2',SCARF='#2b1710';
+/* Silhouette choisie par la cliente : peau, cheveux, morphologie */
+const SKINS=['#f3d2b8','#e6b792','#d8a07a','#b97b55','#8d5638','#5e3a25'];
+const HAIRS=[['#1c120d','Noirs'],['#3a2318','Bruns'],['#6b4428','Châtains'],['#b88a4e','Blonds'],['#8e3b22','Roux']];
+const STYLES=[['queue','Queue de cheval'],['chignon','Chignon'],['afro','Afro'],['tresses','Tresse'],['court','Courts'],['foulard','Foulard']];
+const SHAPES=[['fine','Fine',.9],['moyenne','Moyenne',1.06],['ronde','Ronde',1.3]];
+const shade=(h,f)=>'#'+[1,3,5].map(i=>Math.round(parseInt(h.substr(i,2),16)*f).toString(16).padStart(2,'0')).join('');
+let AV=null;
+function drawBody(S,g=$('body')){g.innerHTML='';
+  const av=AV||{skin:2,hair:1,style:'queue',shape:'moyenne'};
+  const SK=SKINS[av.skin],SKD=shade(SK,.86),HAIR=HAIRS[av.hair][0],k=(SHAPES.find(x=>x[0]===av.shape)||SHAPES[1])[2],ka=1+(k-1)*.6;
   const dl=Math.hypot(S.sh.x-S.hip.x,S.sh.y-S.hip.y)||1,d=P((S.sh.x-S.hip.x)/dl,(S.sh.y-S.hip.y)/dl);
   const front=S.front||P(-d.y,d.x);let n=P(-d.y,d.x);if(n.x*front.x+n.y*front.y<0)n=P(-n.x,-n.y);
   const at=(t,o=0)=>P(S.hip.x+(S.sh.x-S.hip.x)*t+n.x*o,S.hip.y+(S.sh.y-S.hip.y)*t+n.y*o);
-  if(S.farArm){limb(g,S.sh,S.farArm.e,17,14,SKD);limb(g,S.farArm.e,S.farArm.h,14,11,SKD);}
-  if(S.farLeg){limb(g,S.hip,S.farLeg.k,36,24,LEGD);limb(g,S.farLeg.k,S.farLeg.a,24,15,LEGD);limb(g,S.farLeg.a,S.farLeg.f,13,10,'#dcc7b4');}
-  limb(g,S.hip,S.knee,40,26,LEG);limb(g,S.knee,S.ank,26,16,LEG);limb(g,S.ank,S.foot,14,10,SOCK);
-  circ(g,at(.02,-14),25,LEG);
-  limb(g,at(0),at(.2),52,46,LEG);limb(g,at(.2),at(.5),44,40,SK);limb(g,at(.5),at(.86),46,48,TOP);
-  circ(g,at(.66,14),15,TOP);
-  limb(g,at(.86),S.sh,40,30,SK);
+  if(S.farArm){limb(g,S.sh,S.farArm.e,17*ka,14*ka,SKD);limb(g,S.farArm.e,S.farArm.h,14*ka,11,SKD);}
+  if(S.farLeg){limb(g,S.hip,S.farLeg.k,36*k,24*k,LEGD);limb(g,S.farLeg.k,S.farLeg.a,24*k,15*ka,LEGD);limb(g,S.farLeg.a,S.farLeg.f,13,10,'#dcc7b4');}
+  limb(g,S.hip,S.knee,40*k,26*k,LEG);limb(g,S.knee,S.ank,26*k,16*ka,LEG);limb(g,S.ank,S.foot,14,10,SOCK);
+  circ(g,at(.02,-14*k),25*k,LEG);
+  limb(g,at(0),at(.2),52*k,46*k,LEG);limb(g,at(.2),at(.5),44*k,40*k,SK);limb(g,at(.5),at(.86),46*k,48*ka,TOP);
+  circ(g,at(.66,14*ka),15*ka,TOP);
+  limb(g,at(.86),S.sh,40*ka,30*ka,SK);
   const hd0=S.headDir||d,hl=Math.hypot(hd0.x,hd0.y)||1,hdir=P(hd0.x/hl,hd0.y/hl);
   let hn=P(-hdir.y,hdir.x);if(hn.x*front.x+hn.y*front.y<0)hn=P(-hn.x,-hn.y);
+  const Q=(a,b)=>P(hd.x+hn.x*a+hdir.x*b,hd.y+hn.y*a+hdir.y*b);
   const nk=P(S.sh.x+hdir.x*L.neck,S.sh.y+hdir.y*L.neck),hd=P(S.sh.x+hdir.x*(L.neck+L.head-6),S.sh.y+hdir.y*(L.neck+L.head-6));
-  limb(g,S.sh,nk,15,13,SK);
-  circ(g,P(hd.x-hn.x*5,hd.y-hn.y*5),L.head+1,HAIR);
-  circ(g,P(hd.x+hn.x*4,hd.y+hn.y*4),L.head-4,SK);
-  circ(g,P(hd.x+hn.x*(L.head-2)+hdir.x*2,hd.y+hn.y*(L.head-2)+hdir.y*2),4,SK);
-  const pt=P(hd.x-hn.x*(L.head+6)+hdir.x*10,hd.y-hn.y*(L.head+6)+hdir.y*10);
-  limb(g,P(hd.x-hn.x*16+hdir.x*14,hd.y-hn.y*16+hdir.y*14),pt,14,18,HAIR);circ(g,P(pt.x-hn.x*6-hdir.x*14,pt.y-hn.y*6-hdir.y*14),9,HAIR);
-  circ(g,P(hd.x-hn.x*14+hdir.x*18,hd.y-hn.y*14+hdir.y*18),5,TOP);
-  limb(g,S.sh,S.elb,19,15,SK);limb(g,S.elb,S.hand,15,11,SK);
+  const st=av.style;
+  if(st==='foulard'){
+    limb(g,S.sh,nk,26,22,SCARF);circ(g,Q(-3,0),L.head+5,SCARF);
+    circ(g,Q(7,-1),L.head-8,SK);circ(g,Q(L.head-4,1),4,SK);
+    limb(g,Q(-L.head+2,-4),Q(-L.head-6,-24),16,10,SCARF);                       // pan du foulard
+    circ(g,Q(-4,L.head+2),4,TOP);
+  }else{
+    limb(g,S.sh,nk,15,13,SK);
+    if(st==='afro')circ(g,Q(-6,4),L.head+12,HAIR);
+    circ(g,Q(-5,0),L.head+1,HAIR);
+    if(st==='chignon'){circ(g,Q(-10,L.head+6),15,HAIR);circ(g,Q(-8,L.head-6),5,TOP);}
+    if(st==='queue'){const pt=Q(-(L.head+6),10);limb(g,Q(-16,14),pt,14,18,HAIR);circ(g,P(pt.x-hn.x*6-hdir.x*14,pt.y-hn.y*6-hdir.y*14),9,HAIR);circ(g,Q(-14,18),5,TOP);}
+    if(st==='tresses'){let p=Q(-(L.head-2),-2);for(let i=0;i<6;i++){p=P(p.x-hn.x*3,Math.min(-6,p.y+10));circ(g,p,8-i*.5,HAIR);}circ(g,P(p.x,Math.min(-4,p.y+8)),4,TOP);}
+    circ(g,Q(4,0),L.head-4,SK);
+    circ(g,Q(L.head-2,2),4,SK);
+    if(st==='court')circ(g,Q(-2,L.head-8),12,HAIR);
+  }
+  limb(g,S.sh,S.elb,19*ka,15*ka,SK);limb(g,S.elb,S.hand,15*ka,11,SK);
 }
 
 /* ============================================================
@@ -681,7 +717,36 @@ function tick(now){const dt=lastNow===null?0:Math.min(.1,(now-lastNow)/1000);las
   frame();if(!window.__frame)requestAnimationFrame(tick);}
 renderHome();mountMusic();setTab('home');
 if(!window.__frame)requestAnimationFrame(tick);
+
+/* ============================================================
+   10. Ta silhouette : chacune choisit la silhouette qui lui ressemble
+   ============================================================ */
+AV=store.get('avatar',null);
+function standPose(){const r=X.fente(0);kit0();return r.S;}
+function drawMini(){const S=standPose();drawBody(S,$('meMini').querySelector('g'));const p=$('avPrev');if(p)drawBody(S,p.querySelector('g'));}
+function openAvatar(first){const a=AV||{skin:2,hair:1,style:'queue',shape:'moyenne'};AV=a;
+  const sw=(arr,key,fn)=>arr.map((v,i)=>`<button data-av="${key}" data-v="${i}" class="${a[key]===i?'on':''}" style="background:${fn(v)}" aria-label="${key} ${i+1}"></button>`).join('');
+  const ch=(arr,key)=>arr.map(v=>`<button data-av="${key}" data-v="${v[0]}" class="${a[key]===v[0]?'on':''}">${v[1]}</button>`).join('');
+  $('sheet').innerHTML=`<div class="grab"></div>
+    <div class="av-top"><svg class="av-prev" id="avPrev" viewBox="380 -470 200 480"><g></g></svg>
+      <div><span class="k">${first?'Bienvenue':'Ma silhouette'}</span><h2 class="bc" style="font-size:40px;margin:8px 0 0">Elle te <em>ressemble</em></h2>
+      <p>Choisis ta silhouette : c'est elle qui fera chaque exercice avec toi.</p></div></div>
+    <div class="av-row"><b>Ta peau</b><div class="sw">${sw(SKINS,'skin',v=>v)}</div></div>
+    <div class="av-row"><b>Tes cheveux</b><div class="ch">${ch(STYLES,'style')}</div></div>
+    <div class="av-row" id="avHairCol"><b>Leur couleur</b><div class="sw">${sw(HAIRS,'hair',v=>v[0])}</div></div>
+    <div class="av-row"><b>Ta morphologie</b><div class="ch">${ch(SHAPES,'shape')}</div></div>
+    <button class="btn" id="avOk">C'est moi →</button>
+    <p class="safe" style="text-align:center">Tu pourras la changer quand tu veux.</p>`;
+  $('avHairCol').style.display=a.style==='foulard'?'none':'';
+  $('sheet').classList.add('on');$('veil').classList.add('on');drawMini();}
+$('sheet').addEventListener('click',e=>{const b=e.target.closest('[data-av]');if(b){const k=b.dataset.av;AV[k]=(k==='skin'||k==='hair')?+b.dataset.v:b.dataset.v;
+    b.parentNode.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
+    if(k==='style')$('avHairCol').style.display=AV.style==='foulard'?'none':'';
+    store.set('avatar',AV);drawMini();}
+  if(e.target.closest('#avOk')){store.set('avatar',AV);closeSheet();drawMini();}});
+$('meBtn').onclick=()=>openAvatar(false);
+drawMini();if(!store.get('avatar',null))setTimeout(()=>openAvatar(true),400);
 /* outils de test (captures) */
-window.__dr=r=>drawBody(r.S);window.__api={X,EX,buildDay,startDay,setMode,setTab,openSheet,closeSheet,toEmbed,pose,frame,get PL(){return PL;},set:(i,t)=>{PL.i=i;PL.t=t;PL.at=t;lastStep=-1;frame();}};
+window.__dr=r=>drawBody(r.S);window.__api={openAvatar,setAV:v=>{AV=v;drawMini();},X,EX,buildDay,startDay,setMode,setTab,openSheet,closeSheet,toEmbed,pose,frame,get PL(){return PL;},set:(i,t)=>{PL.i=i;PL.t=t;PL.at=t;lastStep=-1;frame();}};
 </script>
 </body></html>
