@@ -442,3 +442,8 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Réglage `hide_old_hero` (coché) : masque l'ancien bandeau d'ouverture de la section accueil.
 - Envoyé sur le thème brouillon 199730561406, sommes MD5 vérifiées (scroll 2ad6a3d0…, index d99e4390…). Rien de publié.
 - Aperçus : shopify/apercu_scroll.html, apercu_scroll_telephone.mp4, apercu_scroll_ordinateur.png.
+
+## Vitrine du kit (inspirée de la vidéo KERB)
+- Nouvelle section `sections/vaure-pilates-vitrine.liquid` (id #vp-kit) juste après le scroll : le mot géant VAURE avec la barre, les disques et le téléphone glissés entre les lettres, qui flottent ; au toucher, l'élément s'agrandit et une carte « verre dépoli » s'ouvre (texte, 3 points, 39,90 €, liste d'attente), flèches précédent/suivant. Sur téléphone, le détail s'ouvre en plein écran.
+- Réglage `hide_old_kit` (coché) : masque l'ancien bloc « Le kit ».
+- Envoyé sur le brouillon 199730561406, MD5 vérifiés (vitrine 9f234e91…, index 4dcca8b2…). Aperçus : apercu_accueil_v2.html, apercu_vitrine_telephone.mp4, apercu_vitrine_ordinateur.png.

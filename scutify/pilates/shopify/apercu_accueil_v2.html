@@ -1,0 +1,696 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><body style="margin:0"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+  .vs{--navy:#0b1f3a;--fluo:#2ef27a;--ink:#0b1f3a;--sub:#5d6b7d;position:relative;font-family:'Inter',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+  .vs *{box-sizing:border-box}
+  .vs-pin{position:relative;height:100vh;height:100svh;min-height:560px;width:100%;overflow:hidden;background:#0b1f3a;color:#fff}
+  .vs-word{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+  .vs-word span{grid-area:1/1;font-family:'Outfit',sans-serif;font-weight:700;font-size:clamp(72px,17vw,250px);letter-spacing:.01em;line-height:1;white-space:nowrap;will-change:opacity,transform}
+  .vs-word .w1{color:rgba(11,31,58,.12);opacity:0}
+  .vs-word .w2{color:rgba(46,242,122,.13)}
+  .vs-fig{position:absolute;left:50%;top:46%;width:min(66vw,820px);transform:translate(-50%,-50%);overflow:visible}
+  .vs-fig line{stroke-linecap:round;stroke-width:15}
+  .vs-lines{position:absolute;left:6vw;bottom:15vh;width:min(36ch,40vw)}
+  .vs-b{position:absolute;left:0;bottom:0;width:100%;will-change:opacity,transform}
+  .vs-b .k{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--fluo);display:flex;align-items:center;gap:10px}
+  .vs-b .k::before{content:"";width:22px;height:2px;background:currentColor}
+  .vs-b h2{font-family:'Outfit',sans-serif;font-weight:600;font-size:clamp(28px,3.3vw,46px);line-height:1.04;letter-spacing:-.02em;margin:14px 0 10px;color:var(--ink)}
+  .vs-b p{margin:0;font-size:16px;line-height:1.55;color:var(--sub)}
+  .vs-btn{display:inline-flex;align-items:center;gap:10px;margin-top:22px;background:var(--fluo);color:var(--navy);font-weight:600;font-size:15px;padding:15px 24px;border-radius:999px;text-decoration:none}
+  .vs-btn small{display:block}
+  .vs-day{position:absolute;right:6vw;bottom:15vh;text-align:right;color:var(--sub);font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600}
+  .vs-day b{display:block;font-family:'Outfit',sans-serif;font-size:clamp(40px,4.5vw,64px);letter-spacing:-.03em;color:var(--ink);line-height:1;margin-bottom:6px;font-variant-numeric:tabular-nums}
+  .vs-day .tr{display:block;width:140px;height:2px;margin:14px 0 0 auto;background:rgba(127,140,156,.3);overflow:hidden}
+  .vs-day .tr i{display:block;height:100%;background:var(--fluo);transform-origin:left;transform:scaleX(1)}
+  .vs-hint{position:absolute;left:50%;bottom:26px;transform:translateX(-50%);font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--sub);opacity:0;display:flex;flex-direction:column;align-items:center;gap:8px}
+  .vs-hint::after{content:"";width:1px;height:28px;background:currentColor;animation:vsDrop 1.6s ease-in-out infinite}
+  @keyframes vsDrop{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+  /* Sans JS ou mouvement réduit : version fixe, pose finale, tous les textes */
+  .vs:not(.on) .vs-pin{height:auto;min-height:0;padding:70px 20px 80px}
+  .vs:not(.on) .vs-word,.vs:not(.on) .vs-day,.vs:not(.on) .vs-hint{display:none}
+  .vs:not(.on) .vs-fig{position:relative;left:auto;top:auto;transform:none;display:block;margin:0 auto 30px;width:min(80vw,420px)}
+  .vs:not(.on) .vs-lines{position:static;width:auto;max-width:640px;margin:0 auto;display:grid;gap:34px}
+  .vs:not(.on) .vs-b{position:static}
+  .vs:not(.on){--ink:#fff;--sub:#a9b8cb}
+
+  /* Animation au défilement */
+  .vs.on{height:460vh}
+  .vs.on .vs-pin{position:absolute;top:0;left:0}
+  .vs.on.fx .vs-pin{position:fixed;top:0;left:0;z-index:1}
+  .vs.on.end .vs-pin{top:auto;bottom:0}
+
+  @media (max-width:760px){
+    .vs.on{height:420vh}
+    .vs-fig{width:min(88vw,430px);top:38%}
+    .vs-lines{left:20px;right:20px;width:auto;bottom:calc(9vh + 64px)}
+    .vs-b h2{font-size:30px}
+    .vs-b p{font-size:15px}
+    .vs-day{right:auto;left:20px;bottom:5vh;text-align:left;display:flex;align-items:baseline;gap:10px}
+    .vs-day b{font-size:30px;margin:0}
+    .vs-day .tr{width:90px;margin:0 0 0 6px}
+    .vs-hint{display:none}
+  }
+</style>
+
+<style>.vp .hero{display:none}</style>
+<div class="vs" id="vs-demo">
+  <div class="vs-pin">
+    <div class="vs-word" aria-hidden="true"><span class="w1">INACTIVE</span><span class="w2">ACTIVE</span></div>
+
+    <svg class="vs-fig" viewBox="-160 -190 360 225" aria-hidden="true">
+      <defs>
+        <radialGradient id="vsg-demo"><stop offset="0" stop-color="#2ef27a" stop-opacity=".45"/><stop offset="1" stop-color="#2ef27a" stop-opacity="0"/></radialGradient>
+      </defs>
+      <circle class="halo" cx="20" cy="-70" r="150" fill="url(#vsg-demo)"/>
+      <line class="floor" x1="-150" y1="12" x2="190" y2="12" stroke="#ffffff" stroke-opacity=".18" style="stroke-width:2"/>
+      <line class="thigh" x1="0" y1="0" x2="66.98" y2="-52.33" stroke="#ffffff"/>
+      <line class="shin" x1="66.98" y1="-52.33" x2="133.96" y2="-104.66" stroke="#ffffff"/>
+      <line class="torso" x1="0" y1="0" x2="-58.49" y2="-74.86" stroke="#ffffff"/>
+      <line class="arm" x1="-58.49" y1="-74.86" x2="10.85" y2="-129.04" stroke="#ffffff"/>
+      <circle class="head" cx="-76.96" cy="-98.5" r="17" fill="#2ef27a"/>
+    </svg>
+
+    <div class="vs-lines">
+      <div class="vs-b" data-a="0" data-z=".2">
+        <span class="k">Jour 1</span>
+        <h2>Assise toute la journée&nbsp;?</h2>
+        <p>Bureau, voiture, canapé… et le corps qui s'endort.</p>
+      </div>
+      <div class="vs-b" data-a=".2" data-z=".4">
+        <span class="k">Le studio</span>
+        <h2>Le Reformer en studio&nbsp;? 25 à 35 € la séance.</h2>
+        <p>Et des horaires qui ne collent jamais aux tiens.</p>
+      </div>
+      <div class="vs-b" data-a=".4" data-z=".6">
+        <span class="k">La solution</span>
+        <h2>15 minutes. Dans ton salon.</h2>
+        <p>Une barre, deux disques de glisse, ton tapis. C'est tout.</p>
+      </div>
+      <div class="vs-b" data-a=".6" data-z=".8">
+        <span class="k">Le programme</span>
+        <h2>Une nouvelle séance chaque semaine.</h2>
+        <p>Le défi 30 jours pour démarrer, puis on continue ensemble.</p>
+      </div>
+      <div class="vs-b" data-a=".8" data-z="1">
+        <span class="k">Jour 30</span>
+        <h2>Prête pour le défi&nbsp;?</h2>
+        <p>Lancement très bientôt. Inscris-toi pour être prévenue en premier.</p>
+        <a class="vs-btn" href="#vp-attente">Rejoindre la liste d'attente
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+      </div>
+    </div>
+
+    <div class="vs-day" aria-hidden="true"><b>01</b>Jour / 30<span class="tr"><i></i></span></div>
+    <div class="vs-hint" aria-hidden="true">Fais défiler</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var vs=document.getElementById('vs-demo');
+  if(!vs||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches))return;
+  vs.classList.add('on');
+  var pin=vs.querySelector('.vs-pin'),q=function(s){return vs.querySelector(s)};
+  var w1=q('.w1'),w2=q('.w2'),halo=q('.halo'),floor=q('.floor'),head=q('.head'),
+      thigh=q('.thigh'),shin=q('.shin'),torso=q('.torso'),arm=q('.arm'),
+      day=q('.vs-day b'),bar=q('.vs-day i'),hint=q('.vs-hint'),bs=[].slice.call(vs.querySelectorAll('.vs-b'));
+  var c=function(x){return x<0?0:x>1?1:x}, ss=function(x){x=c(x);return x*x*(3-2*x)};
+  var mix=function(a,b,t){return 'rgb('+a.map(function(v,i){return Math.round(v+(b[i]-v)*t)}).join(',')+')'};
+  var L=function(d){return d*Math.PI/180};
+  var A={th:52,sh:-52,to:75,ar:-55,hd:58},B={th:38,sh:38,to:128,ar:38,hd:128};
+  var GREY=[200,208,218],NAVY=[11,31,58],WHITE=[255,255,255],FIG=[124,138,155],FLUO=[46,242,122],SUB1=[93,107,125],SUB2=[169,184,203];
+  function seg(el,x1,y1,x2,y2){el.setAttribute('x1',x1.toFixed(2));el.setAttribute('y1',y1.toFixed(2));el.setAttribute('x2',x2.toFixed(2));el.setAttribute('y2',y2.toFixed(2))}
+  var mode='',ticking=false;
+  function frame(){
+    ticking=false;
+    var r=vs.getBoundingClientRect(),ph=pin.offsetHeight,total=vs.offsetHeight-ph;
+    var m=r.top>0?'':(r.bottom<=ph?'end':'fx');
+    if(m!==mode){vs.classList.remove('fx','end');if(m)vs.classList.add(m);mode=m;}
+    var p=c(-r.top/total);
+
+    /* couleurs : gris terne -> bleu marine */
+    var tc=ss((p-.3)/.25);
+    pin.style.background=mix(GREY,NAVY,tc);
+    vs.style.setProperty('--ink',mix(NAVY,WHITE,tc));
+    vs.style.setProperty('--sub',mix(SUB1,SUB2,tc));
+
+    /* mot géant */
+    var tw=ss((p-.38)/.18);
+    w1.style.opacity=1-tw;w1.style.transform='scale('+(1+tw*.06)+')';
+    w2.style.opacity=tw;w2.style.transform='scale('+(.94+tw*.06)+')';
+
+    /* silhouette : assise voûtée -> posture du teaser (le V) */
+    var t=ss((p-.34)/.46);
+    var g=function(k){return A[k]+(B[k]-A[k])*t};
+    var kx=85*Math.cos(L(g('th'))),ky=-85*Math.sin(L(g('th')));
+    var fx=kx+85*Math.cos(L(g('sh'))),fy=ky-85*Math.sin(L(g('sh')));
+    var sx=95*Math.cos(L(g('to'))),sy=-95*Math.sin(L(g('to')));
+    seg(thigh,0,0,kx,ky);seg(shin,kx,ky,fx,fy);seg(torso,0,0,sx,sy);
+    seg(arm,sx,sy,sx+88*Math.cos(L(g('ar'))),sy-88*Math.sin(L(g('ar'))));
+    head.setAttribute('cx',(sx+30*Math.cos(L(g('hd')))).toFixed(2));head.setAttribute('cy',(sy-30*Math.sin(L(g('hd')))).toFixed(2));
+    var body=mix(FIG,WHITE,tc);[thigh,shin,torso,arm].forEach(function(e){e.setAttribute('stroke',body)});
+    head.setAttribute('fill',mix(FIG,FLUO,ss((p-.5)/.25)));
+    floor.setAttribute('stroke',tc>.5?'#ffffff':'#0b1f3a');
+    halo.style.opacity=ss((p-.55)/.25);
+    halo.style.transform='scale('+(.85+.15*ss((p-.55)/.3))+')';halo.style.transformOrigin='20px -70px';
+
+    /* textes */
+    bs.forEach(function(b,i){
+      var a=+b.dataset.a,z=+b.dataset.z,w=z-a,o;
+      var fi=i===0?1:ss((p-a)/(w*.3)), fo=i===bs.length-1?1:1-ss((p-(z-w*.3))/(w*.3));
+      o=Math.min(fi,fo);
+      b.style.opacity=o;b.style.transform='translateY('+((1-fi)*28-(1-fo)*28).toFixed(1)+'px)';
+      b.style.visibility=o<.01?'hidden':'visible';
+    });
+
+    /* compteur de jours */
+    var d=1+Math.round(29*c((p-.05)/.85));
+    day.textContent=(d<10?'0':'')+d;bar.style.transform='scaleX('+(d/30)+')';
+    hint.style.opacity=1-c(p/.05);
+  }
+  function req(){if(!ticking){ticking=true;requestAnimationFrame(frame);}}
+  addEventListener('scroll',req,{passive:true});addEventListener('resize',req);
+  frame();
+})();
+</script>
+
+<style>.vp .kit{display:none}</style>
+<style>
+  .vk{--navy:#0b1f3a;--fluo:#2ef27a;--paper:#eef2f7;--muted:#5d6b7d;position:relative;overflow:hidden;background:radial-gradient(120% 90% at 50% 40%,#ffffff 0%,var(--paper) 60%,#e3e9f1 100%);font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--navy);-webkit-font-smoothing:antialiased;padding:110px 0 120px}
+  .vk *{box-sizing:border-box}
+  .vk-head{text-align:center;padding:0 20px;position:relative;z-index:2}
+  .vk-head .k{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--muted);display:inline-flex;align-items:center;gap:10px}
+  .vk-head .k::before{content:"";width:22px;height:2px;background:var(--fluo)}
+  .vk-head h2{font-family:'Outfit',sans-serif;font-weight:600;font-size:clamp(30px,4vw,52px);letter-spacing:-.02em;line-height:1.05;margin:16px 0 0}
+  .vk-stage{position:relative;margin-top:40px;height:clamp(230px,28vw,440px)}
+  .vk-row{position:absolute;left:50%;top:50%;display:flex;align-items:center;white-space:nowrap;transform:translate(-50%,-50%);will-change:transform}
+  .vk-l{font-family:'Outfit',sans-serif;font-weight:700;font-size:clamp(90px,18.5vw,300px);line-height:.8;letter-spacing:-.04em;color:var(--navy);user-select:none;transition:opacity .5s ease,filter .5s ease}
+  .vk-i{all:unset;cursor:pointer;position:relative;z-index:2;display:block;margin:0 -2.2vw;transition:transform .5s cubic-bezier(.16,1,.3,1),opacity .5s ease,filter .5s ease}
+  .vk-i svg{display:block;height:clamp(130px,21vw,340px);width:auto;filter:drop-shadow(0 30px 30px rgba(11,31,58,.28));animation:vkFloat 5s ease-in-out infinite;animation-delay:var(--d,0s)}
+  .vk-i:hover{transform:translateY(-10px) rotate(-3deg) scale(1.04)}
+  .vk-i:focus-visible{outline:3px solid var(--fluo);outline-offset:6px;border-radius:20px}
+  .vk-i .dot{position:absolute;left:50%;top:-6px;transform:translateX(-50%);width:34px;height:34px;border-radius:50%;background:var(--fluo);color:var(--navy);display:grid;place-items:center;font-weight:700;font-size:20px;box-shadow:0 0 0 0 rgba(46,242,122,.6);animation:vkPing 2.2s ease-out infinite}
+  @keyframes vkFloat{0%,100%{transform:translateY(0) rotate(var(--r,0deg))}50%{transform:translateY(-12px) rotate(var(--r,0deg))}}
+  @keyframes vkPing{0%{box-shadow:0 0 0 0 rgba(46,242,122,.55)}80%,100%{box-shadow:0 0 0 18px rgba(46,242,122,0)}}
+  .vk-hint{text-align:center;margin-top:34px;font-size:13px;color:var(--muted);position:relative;z-index:2}
+  .vk-hint b{color:var(--navy)}
+
+  /* Ouverture d'un élément */
+  .vk-head,.vk-hint{transition:opacity .5s ease,filter .5s ease}
+  .vk.open .vk-l,.vk.open .vk-i,.vk.open .vk-head,.vk.open .vk-hint{opacity:.12;filter:blur(6px)}
+  .vk-ov{position:absolute;inset:0;z-index:5;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:30px;padding:40px 6vw;pointer-events:none;opacity:0;transition:opacity .45s ease}
+  .vk.open .vk-ov{pointer-events:auto;opacity:1}
+  .vk-big{justify-self:center;transform:translateX(-40px) scale(.7) rotate(-18deg);opacity:0;transition:transform .7s cubic-bezier(.16,1,.3,1),opacity .5s ease}
+  .vk-big svg{display:block;height:min(62vh,520px);width:auto;max-width:100%;filter:drop-shadow(0 40px 40px rgba(11,31,58,.3))}
+  .vk.open .vk-big{transform:none;opacity:1}
+  .vk-card{max-width:440px;padding:34px;border-radius:26px;background:rgba(255,255,255,.62);border:1px solid rgba(255,255,255,.9);box-shadow:0 30px 70px rgba(11,31,58,.16);-webkit-backdrop-filter:blur(18px) saturate(1.4);backdrop-filter:blur(18px) saturate(1.4);transform:translateX(50px);opacity:0;transition:transform .7s cubic-bezier(.16,1,.3,1) .08s,opacity .5s ease .08s}
+  .vk.open .vk-card{transform:none;opacity:1}
+  .vk-card .tag{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+  .vk-card h3{font-family:'Outfit',sans-serif;font-size:clamp(28px,3vw,40px);font-weight:600;letter-spacing:-.02em;line-height:1.05;margin:10px 0 12px}
+  .vk-card p{margin:0;color:var(--muted);font-size:15px;line-height:1.6}
+  .vk-card ul{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:10px}
+  .vk-card li{display:flex;gap:10px;align-items:center;font-size:14px;font-weight:500}
+  .vk-card li::before{content:"✓";display:grid;place-items:center;flex:none;width:22px;height:22px;border-radius:50%;background:var(--fluo);font-size:12px;font-weight:700}
+  .vk-card .foot{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:26px;padding-top:20px;border-top:1px solid rgba(11,31,58,.1)}
+  .vk-card .price{font-size:13px;color:var(--muted)}
+  .vk-card .price b{display:block;font-family:'Outfit',sans-serif;font-size:26px;color:var(--navy);letter-spacing:-.02em}
+  .vk-btn{display:inline-flex;align-items:center;gap:8px;background:var(--navy);color:#fff;font-weight:600;font-size:14px;padding:14px 20px;border-radius:999px;text-decoration:none}
+  .vk-nav{position:absolute;right:6vw;top:34px;display:flex;gap:10px}
+  .vk-nav button{all:unset;cursor:pointer;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.75);border:1px solid rgba(11,31,58,.1);font-size:20px;color:var(--navy);transition:background .2s}
+  .vk-nav button:hover{background:var(--fluo)}
+  .vk-count{position:absolute;left:6vw;top:44px;font-size:12px;letter-spacing:.18em;font-weight:600;color:var(--muted)}
+
+  @media (max-width:760px){
+    .vk{padding:80px 0 90px}
+    .vk-stage{height:200px;margin-top:20px}
+        .vk-i{margin:0 -3vw}
+    .vk-i svg{height:31vw}
+    .vk-i .dot{width:28px;height:28px;font-size:17px}
+    .vk-l{font-size:17.5vw}
+    .vk-ov{position:fixed;z-index:1000;grid-template-columns:1fr;align-content:end;padding:80px 16px 16px;gap:0;background:rgba(238,242,247,.72);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+    .vk-big{position:absolute;top:76px;bottom:52vh;left:0;right:0;display:grid;place-items:center;transform:scale(.7) rotate(-18deg);justify-self:auto}
+    .vk.open .vk-big{transform:none}
+    .vk-big svg{height:100%;max-height:300px}
+    .vk-card{max-width:none;padding:24px;transform:translateY(60px);position:relative;z-index:1}
+    .vk-card h3{font-size:26px}
+    .vk-nav{right:16px;top:18px}
+    .vk-count{left:16px;top:32px}
+  }
+  @media (prefers-reduced-motion:reduce){.vk *{animation:none!important;transition:none!important}}
+</style>
+
+
+
+
+
+<section class="vk" id="vp-kit">
+  <div class="vk-head">
+    <span class="k">Le kit</span>
+    <h2>Trois pièces. Tout le Reformer.</h2>
+  </div>
+
+  <div class="vk-stage">
+    <div class="vk-row">
+      <span class="vk-l" aria-hidden="true">V</span>
+      <button class="vk-i" type="button" data-n="0" style="--r:-8deg;--d:0s" aria-label="Voir la barre et les élastiques"><span class="dot">+</span>
+<svg viewBox="0 0 120 420" aria-hidden="true"><defs><linearGradient id="vkb1-demo" x1="0" x2="1"><stop offset="0" stop-color="#1b3557"/><stop offset=".5" stop-color="#0b1f3a"/><stop offset="1" stop-color="#06142a"/></linearGradient><linearGradient id="vkb2-demo" x1="0" x2="1"><stop offset="0" stop-color="#7cf7ab"/><stop offset=".55" stop-color="#2ef27a"/><stop offset="1" stop-color="#17c45b"/></linearGradient></defs>
+<path d="M40 70 C-10 160 -10 260 40 350" fill="none" stroke="#2ef27a" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+<path d="M80 70 C130 160 130 260 80 350" fill="none" stroke="#2ef27a" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+<rect x="48" y="20" width="24" height="380" rx="12" fill="url(#vkb1-demo)"/>
+<rect x="53" y="30" width="4" height="360" rx="2" fill="#fff" opacity=".18"/>
+<rect x="38" y="6" width="44" height="78" rx="22" fill="url(#vkb2-demo)"/>
+<rect x="38" y="336" width="44" height="78" rx="22" fill="url(#vkb2-demo)"/>
+<g fill="#0b1f3a" opacity=".25"><rect x="44" y="24" width="32" height="3" rx="1.5"/><rect x="44" y="34" width="32" height="3" rx="1.5"/><rect x="44" y="44" width="32" height="3" rx="1.5"/><rect x="44" y="374" width="32" height="3" rx="1.5"/><rect x="44" y="384" width="32" height="3" rx="1.5"/><rect x="44" y="394" width="32" height="3" rx="1.5"/></g>
+<text x="60" y="215" fill="#fff" font-family="Outfit,sans-serif" font-weight="700" font-size="13" letter-spacing="3" text-anchor="middle" transform="rotate(-90 60 210)">VAURE</text>
+</svg>
+</button>
+      <span class="vk-l" aria-hidden="true">AU</span>
+      <button class="vk-i" type="button" data-n="1" style="--r:6deg;--d:-1.6s" aria-label="Voir les disques de glisse"><span class="dot">+</span>
+<svg viewBox="0 0 240 260" aria-hidden="true"><defs><radialGradient id="vkd1-demo" cx=".35" cy=".3"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d9e2ec"/></radialGradient></defs>
+<g transform="translate(120 150)"><ellipse cx="0" cy="22" rx="104" ry="40" fill="#0b1f3a"/><ellipse cx="0" cy="0" rx="104" ry="40" fill="url(#vkd1-demo)"/><ellipse cx="0" cy="0" rx="74" ry="27" fill="none" stroke="#2ef27a" stroke-width="5"/><text x="0" y="5" font-family="Outfit,sans-serif" font-weight="700" font-size="14" letter-spacing="3" text-anchor="middle" fill="#0b1f3a">VAURE</text></g>
+<g transform="translate(120 70)"><ellipse cx="0" cy="18" rx="88" ry="33" fill="#0b1f3a"/><ellipse cx="0" cy="0" rx="88" ry="33" fill="url(#vkd1-demo)"/><ellipse cx="0" cy="0" rx="62" ry="22" fill="none" stroke="#2ef27a" stroke-width="5"/></g>
+</svg>
+</button>
+      <span class="vk-l" aria-hidden="true">RE</span>
+      <button class="vk-i" type="button" data-n="2" style="--r:-6deg;--d:-3.2s" aria-label="Voir le programme vidéo"><span class="dot">+</span>
+<svg viewBox="0 0 200 380" aria-hidden="true"><defs><linearGradient id="vkp1-demo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14305a"/><stop offset="1" stop-color="#0b1f3a"/></linearGradient></defs>
+<rect x="6" y="6" width="188" height="368" rx="34" fill="#06142a"/><rect x="16" y="16" width="168" height="348" rx="26" fill="url(#vkp1-demo)"/>
+<rect x="72" y="26" width="56" height="12" rx="6" fill="#06142a"/>
+<text x="34" y="78" font-family="Inter,sans-serif" font-weight="600" font-size="11" letter-spacing="2" fill="#2ef27a">JOUR 12 / 30</text>
+<text x="34" y="104" font-family="Outfit,sans-serif" font-weight="600" font-size="20" fill="#fff">Gainage doux</text>
+<circle cx="100" cy="200" r="58" fill="#2ef27a" opacity=".14"/>
+<g stroke="#fff" stroke-width="9" stroke-linecap="round"><line x1="100" y1="232" x2="148" y2="190"/><line x1="100" y1="232" x2="66" y2="186"/><line x1="66" y1="186" x2="114" y2="152"/></g><circle cx="56" cy="170" r="10" fill="#2ef27a"/>
+<rect x="34" y="280" width="132" height="4" rx="2" fill="#fff" opacity=".2"/><rect x="34" y="280" width="62" height="4" rx="2" fill="#2ef27a"/>
+<text x="34" y="306" font-family="Inter,sans-serif" font-size="11" fill="#a9b8cb">07:12</text><text x="166" y="306" font-family="Inter,sans-serif" font-size="11" fill="#a9b8cb" text-anchor="end">15:00</text>
+<circle cx="100" cy="334" r="16" fill="#2ef27a"/><path d="M95 326 L107 334 L95 342 Z" fill="#0b1f3a"/>
+</svg>
+</button>
+    </div>
+  </div>
+  <p class="vk-hint"><b>Touche un élément</b> pour le découvrir</p>
+
+  <div class="vk-ov" role="dialog" aria-modal="false" aria-label="Détail du kit">
+    <span class="vk-count">01 / 03</span>
+    <div class="vk-nav"><button type="button" class="pv" aria-label="Précédent">←</button><button type="button" class="nx" aria-label="Suivant">→</button><button type="button" class="cl" aria-label="Fermer">×</button></div>
+    <div class="vk-big"></div>
+    <div class="vk-card">
+      <span class="tag"></span>
+      <h3></h3>
+      <p></p>
+      <ul></ul>
+      <div class="foot">
+        <span class="price">Inclus dans le kit<b>39,90 €</b></span>
+        <a class="vk-btn" href="#vp-attente">Rejoindre la liste d'attente →</a>
+      </div>
+    </div>
+  </div>
+
+  <template class="vk-src">
+<svg viewBox="0 0 120 420" aria-hidden="true"><defs><linearGradient id="vkb1-demo" x1="0" x2="1"><stop offset="0" stop-color="#1b3557"/><stop offset=".5" stop-color="#0b1f3a"/><stop offset="1" stop-color="#06142a"/></linearGradient><linearGradient id="vkb2-demo" x1="0" x2="1"><stop offset="0" stop-color="#7cf7ab"/><stop offset=".55" stop-color="#2ef27a"/><stop offset="1" stop-color="#17c45b"/></linearGradient></defs>
+<path d="M40 70 C-10 160 -10 260 40 350" fill="none" stroke="#2ef27a" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+<path d="M80 70 C130 160 130 260 80 350" fill="none" stroke="#2ef27a" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+<rect x="48" y="20" width="24" height="380" rx="12" fill="url(#vkb1-demo)"/>
+<rect x="53" y="30" width="4" height="360" rx="2" fill="#fff" opacity=".18"/>
+<rect x="38" y="6" width="44" height="78" rx="22" fill="url(#vkb2-demo)"/>
+<rect x="38" y="336" width="44" height="78" rx="22" fill="url(#vkb2-demo)"/>
+<g fill="#0b1f3a" opacity=".25"><rect x="44" y="24" width="32" height="3" rx="1.5"/><rect x="44" y="34" width="32" height="3" rx="1.5"/><rect x="44" y="44" width="32" height="3" rx="1.5"/><rect x="44" y="374" width="32" height="3" rx="1.5"/><rect x="44" y="384" width="32" height="3" rx="1.5"/><rect x="44" y="394" width="32" height="3" rx="1.5"/></g>
+<text x="60" y="215" fill="#fff" font-family="Outfit,sans-serif" font-weight="700" font-size="13" letter-spacing="3" text-anchor="middle" transform="rotate(-90 60 210)">VAURE</text>
+</svg>
+</template>
+  <template class="vk-src">
+<svg viewBox="0 0 240 260" aria-hidden="true"><defs><radialGradient id="vkd1-demo" cx=".35" cy=".3"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d9e2ec"/></radialGradient></defs>
+<g transform="translate(120 150)"><ellipse cx="0" cy="22" rx="104" ry="40" fill="#0b1f3a"/><ellipse cx="0" cy="0" rx="104" ry="40" fill="url(#vkd1-demo)"/><ellipse cx="0" cy="0" rx="74" ry="27" fill="none" stroke="#2ef27a" stroke-width="5"/><text x="0" y="5" font-family="Outfit,sans-serif" font-weight="700" font-size="14" letter-spacing="3" text-anchor="middle" fill="#0b1f3a">VAURE</text></g>
+<g transform="translate(120 70)"><ellipse cx="0" cy="18" rx="88" ry="33" fill="#0b1f3a"/><ellipse cx="0" cy="0" rx="88" ry="33" fill="url(#vkd1-demo)"/><ellipse cx="0" cy="0" rx="62" ry="22" fill="none" stroke="#2ef27a" stroke-width="5"/></g>
+</svg>
+</template>
+  <template class="vk-src">
+<svg viewBox="0 0 200 380" aria-hidden="true"><defs><linearGradient id="vkp1-demo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14305a"/><stop offset="1" stop-color="#0b1f3a"/></linearGradient></defs>
+<rect x="6" y="6" width="188" height="368" rx="34" fill="#06142a"/><rect x="16" y="16" width="168" height="348" rx="26" fill="url(#vkp1-demo)"/>
+<rect x="72" y="26" width="56" height="12" rx="6" fill="#06142a"/>
+<text x="34" y="78" font-family="Inter,sans-serif" font-weight="600" font-size="11" letter-spacing="2" fill="#2ef27a">JOUR 12 / 30</text>
+<text x="34" y="104" font-family="Outfit,sans-serif" font-weight="600" font-size="20" fill="#fff">Gainage doux</text>
+<circle cx="100" cy="200" r="58" fill="#2ef27a" opacity=".14"/>
+<g stroke="#fff" stroke-width="9" stroke-linecap="round"><line x1="100" y1="232" x2="148" y2="190"/><line x1="100" y1="232" x2="66" y2="186"/><line x1="66" y1="186" x2="114" y2="152"/></g><circle cx="56" cy="170" r="10" fill="#2ef27a"/>
+<rect x="34" y="280" width="132" height="4" rx="2" fill="#fff" opacity=".2"/><rect x="34" y="280" width="62" height="4" rx="2" fill="#2ef27a"/>
+<text x="34" y="306" font-family="Inter,sans-serif" font-size="11" fill="#a9b8cb">07:12</text><text x="166" y="306" font-family="Inter,sans-serif" font-size="11" fill="#a9b8cb" text-anchor="end">15:00</text>
+<circle cx="100" cy="334" r="16" fill="#2ef27a"/><path d="M95 326 L107 334 L95 342 Z" fill="#0b1f3a"/>
+</svg>
+</template>
+</section>
+
+<script>
+(function(){
+  var s=document.currentScript.previousElementSibling;if(!s||!s.classList.contains('vk'))return;
+  var D=[
+    {t:'Résistance',h:'La barre et ses élastiques',p:"Le geste du Reformer, sans la machine. Tu tires, tu pousses, tu contrôles : chaque mouvement travaille en douceur.",l:['Démontable, se range partout','Élastiques fixés aux deux poignées','Bras, dos, jambes']},
+    {t:'Glisse',h:'Les 2 disques de glisse',p:"Sous les mains ou sous les pieds, ils glissent au sol pour enchaîner les mouvements de gainage avec fluidité.",l:['Légers et faciles à ranger','Gainage, fessiers, abdos','Pour les mains ou les pieds']},
+    {t:'Méthode',h:'Le programme vidéo',p:"15 minutes par jour, en français, de la première séance au défi final. Puis une nouvelle séance chaque semaine.",l:['Défi de 30 jours guidé','Débutante bienvenue','Une nouvelle séance chaque semaine']}
+  ];
+  var src=s.querySelectorAll('.vk-src'),big=s.querySelector('.vk-big'),card=s.querySelector('.vk-card'),cnt=s.querySelector('.vk-count'),row=s.querySelector('.vk-row'),cur=0;
+  function fill(n){cur=(n+3)%3;var d=D[cur];
+    card.querySelector('.tag').textContent=d.t;card.querySelector('h3').textContent=d.h;card.querySelector('p').textContent=d.p;
+    card.querySelector('ul').innerHTML=d.l.map(function(x){return '<li>'+x+'</li>'}).join('');
+    big.innerHTML=src[cur].innerHTML;cnt.textContent='0'+(cur+1)+' / 03';}
+  function open(n){fill(n);s.classList.add('open');}
+  function swap(n){s.classList.remove('open');setTimeout(function(){open(n)},260);}
+  function close(){s.classList.remove('open');}
+  s.querySelectorAll('.vk-i').forEach(function(b){b.addEventListener('click',function(){open(+b.dataset.n)})});
+  s.querySelector('.nx').addEventListener('click',function(){swap(cur+1)});
+  s.querySelector('.pv').addEventListener('click',function(){swap(cur-1)});
+  s.querySelector('.cl').addEventListener('click',close);
+  s.querySelector('.vk-btn').addEventListener('click',close);
+  s.querySelector('.vk-ov').addEventListener('click',function(e){if(e.target===this)close()});
+  document.addEventListener('keydown',function(e){if(!s.classList.contains('open'))return;if(e.key==='Escape')close();if(e.key==='ArrowRight')swap(cur+1);if(e.key==='ArrowLeft')swap(cur-1)});
+  /* le mot glisse doucement au défilement, comme sur la vidéo */
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  var tk=false;function mv(){tk=false;var r=s.getBoundingClientRect(),h=innerHeight,p=(h-r.top)/(h+r.height);p=p<0?0:p>1?1:p;
+    row.style.transform='translate(calc(-50% + '+((.5-p)*8).toFixed(2)+'vw),-50%)';}
+  addEventListener('scroll',function(){if(!tk){tk=true;requestAnimationFrame(mv)}},{passive:true});mv();
+})();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+  .vp{--navy:#0b1f3a;--navy2:#132b4d;--ink:#0b1f3a;--white:#ffffff;--paper:#f6f8fb;--fluo:#2ef27a;--muted:#5d6b7d;--line:#dde4ec;--soft:#a9b8cb;
+      font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased;overflow:hidden}
+  .vp *{box-sizing:border-box}
+  .vp h1,.vp h2,.vp h3{font-family:'Outfit','Inter',sans-serif;letter-spacing:-.02em;margin:0;text-wrap:balance}
+  .vp p{margin:0}
+  .vp section{scroll-margin-top:90px}
+  .vp .in{max-width:1200px;margin:0 auto;padding:0 24px}
+  .vp .kicker{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:10px}
+  .vp .kicker::before{content:"";width:24px;height:2px;background:var(--fluo)}
+  .vp .btn{display:inline-flex;align-items:center;gap:10px;background:var(--fluo);color:var(--navy);font-weight:600;padding:16px 26px;border-radius:999px;text-decoration:none;border:0;cursor:pointer;font-size:15px;transition:transform .25s ease,box-shadow .25s ease}
+  .vp .btn svg{transition:transform .25s ease}
+  .vp .btn:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(46,242,122,.35)}
+  .vp .btn:hover svg{transform:translateX(4px)}
+  .vp .btn:focus-visible,.vp input:focus-visible,.vp summary:focus-visible{outline:2px solid var(--fluo);outline-offset:4px}
+
+  .vp .hero{background:var(--navy);color:var(--white)}
+  .vp .hero .in{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding-top:96px;padding-bottom:88px}
+  .vp .hero .kicker{color:var(--soft)}
+  .vp .hero h1{font-size:clamp(44px,7vw,92px);font-weight:600;line-height:.98;margin:22px 0 26px}
+  .vp .hero h1 .l2{color:var(--fluo);font-weight:300;display:block}
+  .vp .hero .lead{font-size:18px;color:var(--soft);max-width:34ch}
+  .vp .hero .row{display:flex;flex-wrap:wrap;align-items:center;gap:22px;margin-top:36px}
+  .vp .hero .row .soon{font-size:14px;color:var(--soft)}
+  .vp .hero .meta{display:flex;gap:28px;margin-top:56px;padding-top:24px;border-top:1px solid rgba(255,255,255,.12);font-size:13px;color:var(--soft)}
+  .vp .hero .meta b{display:block;font-family:'Outfit',sans-serif;font-size:26px;color:var(--white);font-weight:600;letter-spacing:-.02em}
+  .vp .art{width:100%;max-width:520px;justify-self:end;aspect-ratio:1/1}
+  .vp .art svg{width:100%;height:100%;display:block}
+
+  .vp .marquee{background:var(--fluo);color:var(--navy);overflow:hidden;white-space:nowrap}
+  .vp .marquee .track{display:inline-flex;gap:40px;padding:14px 0;animation:vp-marquee 30s linear infinite}
+  .vp .marquee span{font-family:'Outfit',sans-serif;font-weight:600;font-size:15px;letter-spacing:.12em;text-transform:uppercase;display:inline-flex;align-items:center;gap:40px}
+  .vp .marquee span::after{content:"";width:8px;height:8px;border-radius:50%;background:var(--navy)}
+
+  .vp .pain{padding:120px 0}
+  .vp .pain .grid{display:grid;grid-template-columns:1.25fr .75fr;gap:72px;align-items:end}
+  .vp .pain h2{font-size:clamp(32px,4.4vw,58px);font-weight:600;line-height:1.05;margin-top:22px}
+  .vp .pain h2 em{font-style:normal;color:var(--muted);font-weight:300}
+  .vp .facts{display:grid;gap:28px}
+  .vp .fact{border-top:1px solid var(--line);padding-top:18px}
+  .vp .fact .n{font-family:'Outfit',sans-serif;font-size:52px;font-weight:600;letter-spacing:-.03em;line-height:1}
+  .vp .fact .n small{font-size:20px;font-weight:400;color:var(--muted);margin-left:6px;letter-spacing:0}
+  .vp .fact p{color:var(--muted);margin-top:8px;font-size:15px}
+  .vp .fact.good .n span{background:linear-gradient(transparent 84%,var(--fluo) 84%);padding-bottom:2px}
+
+  .vp .kit{background:var(--paper);padding:120px 0}
+  .vp .kit .head{display:flex;justify-content:space-between;align-items:end;gap:40px;flex-wrap:wrap}
+  .vp .kit h2,.vp .prog h2,.vp .compare h2,.vp .faq h2{font-size:clamp(30px,4vw,52px);font-weight:600;line-height:1.05;margin-top:20px}
+  .vp .kit h2{max-width:16ch}
+  .vp .kit .head p{color:var(--muted);max-width:42ch}
+  .vp .items{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:64px}
+  .vp .item{background:var(--white);border-radius:24px;padding:28px;transition:transform .35s ease,box-shadow .35s ease}
+  .vp .item:hover{transform:translateY(-6px);box-shadow:0 24px 50px rgba(11,31,58,.10)}
+  .vp .item .pic{aspect-ratio:4/3;border-radius:16px;background:var(--navy);display:grid;place-items:center;margin-bottom:24px}
+  .vp .item .pic svg{width:78%;height:auto}
+  .vp .item .tag{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .vp .item h3{font-size:24px;font-weight:600;margin:6px 0 8px}
+  .vp .item p{color:var(--muted);font-size:15px}
+
+  .vp .prog{background:var(--navy);color:var(--white);padding:120px 0}
+  .vp .prog .kicker{color:var(--soft)}
+  .vp .prog h2 .f{color:var(--fluo)}
+  .vp .timeline{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:72px;padding-top:40px}
+  .vp .timeline::before{content:"";position:absolute;top:8px;left:0;right:0;height:2px;background:rgba(255,255,255,.14)}
+  .vp .timeline .bar{position:absolute;top:8px;left:0;height:2px;width:100%;background:var(--fluo);transform-origin:left}
+  .vp .step{position:relative}
+  .vp .step::before{content:"";position:absolute;top:-38px;left:0;width:14px;height:14px;border-radius:50%;background:var(--navy);border:2px solid var(--fluo)}
+  .vp .step .d{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--fluo);font-weight:600}
+  .vp .step h3{font-size:24px;font-weight:600;margin:10px 0 8px}
+  .vp .step p{color:var(--soft);font-size:15px}
+
+  .vp .compare{padding:120px 0}
+  .vp .compare h2{max-width:18ch}
+  .vp .tbl{overflow-x:auto;margin-top:56px}
+  .vp table{border-collapse:separate;border-spacing:0;width:100%;min-width:640px}
+  .vp th,.vp td{text-align:center;padding:20px 16px;border-bottom:1px solid var(--line);font-size:15px}
+  .vp th:first-child,.vp td:first-child{text-align:left;color:var(--muted)}
+  .vp thead th{font-family:'Outfit',sans-serif;font-size:17px;font-weight:600;color:var(--ink)}
+  .vp th.us,.vp td.us{background:var(--navy);color:var(--white);border-bottom-color:rgba(255,255,255,.12)}
+  .vp thead .us{border-radius:20px 20px 0 0}
+  .vp tbody tr:last-child .us{border-radius:0 0 20px 20px}
+  .vp .ok,.vp .no{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;font-size:14px;font-weight:700;color:var(--navy)}
+  .vp .ok{background:var(--fluo)}
+  .vp .no{background:var(--paper)}
+  .vp .no::before{content:"";width:10px;height:2px;background:var(--soft)}
+
+  .vp .faq{background:var(--paper);padding:120px 0}
+  .vp .faq .grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:72px;align-items:start}
+  .vp .faq .side{position:sticky;top:120px}
+  .vp .faq .side p{color:var(--muted);margin-top:16px;max-width:34ch}
+  .vp .faq details{border-bottom:1px solid var(--line)}
+  .vp .faq summary{font-family:'Outfit',sans-serif;font-size:20px;font-weight:600;letter-spacing:-.01em;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0}
+  .vp .faq summary::-webkit-details-marker{display:none}
+  .vp .faq summary i{flex:none;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);position:relative;transition:background .3s ease}
+  .vp .faq summary i::before,.vp .faq summary i::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:2px;background:var(--ink);transform:translate(-50%,-50%)}
+  .vp .faq summary i::after{transform:translate(-50%,-50%) rotate(90deg);transition:transform .3s ease}
+  .vp .faq details[open] summary i{background:var(--fluo);border-color:var(--fluo)}
+  .vp .faq details[open] summary i::after{transform:translate(-50%,-50%) rotate(0)}
+  .vp .faq details p{color:var(--muted);padding:0 56px 24px 0;animation:vp-fade .4s ease both}
+  .vp .safe{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start;margin-top:40px;padding:22px;border-radius:18px;background:var(--white);font-size:14px;color:var(--muted)}
+  .vp .safe b{color:var(--ink)}
+
+  .vp .promises{display:grid;grid-template-columns:repeat(3,1fr)}
+  .vp .promises div{padding:36px 24px;border-right:1px solid var(--line)}
+  .vp .promises div:last-child{border-right:0}
+  .vp .promises b{display:block;font-family:'Outfit',sans-serif;font-size:20px;font-weight:600;letter-spacing:-.01em}
+  .vp .promises span{color:var(--muted);font-size:14px}
+
+  .vp .wait{background:var(--navy);color:var(--white);padding:128px 0}
+  .vp .wait .in{max-width:860px;text-align:center}
+  .vp .wait .kicker{justify-content:center;color:var(--soft)}
+  .vp .wait h2{font-size:clamp(36px,5.5vw,72px);font-weight:600;line-height:1;margin-top:22px}
+  .vp .wait h2 em{font-style:normal;color:var(--fluo);font-weight:300}
+  .vp .wait p.sub{color:var(--soft);margin:20px auto 0;max-width:46ch}
+  .vp .wait .field{display:flex;gap:8px;max-width:520px;margin:44px auto 0;padding:6px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16)}
+  .vp .wait input[type=email]{flex:1;min-width:0;background:transparent;border:0;color:var(--white);padding:14px 20px;font-size:16px}
+  .vp .wait input::placeholder{color:var(--soft)}
+  .vp .wait .msg{margin-top:18px;font-weight:600}
+  .vp .wait .msg.good{color:var(--fluo)}
+  .vp .wait .msg.bad{color:#ffb4b4}
+
+  @keyframes vp-marquee{to{transform:translateX(-50%)}}
+  @keyframes vp-fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  @keyframes vp-rise{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:none}}
+  @keyframes vp-draw{from{stroke-dashoffset:var(--len)}to{stroke-dashoffset:0}}
+  @keyframes vp-spin{to{transform:rotate(360deg)}}
+  @keyframes vp-breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+  .vp .hero .kicker,.vp .hero h1,.vp .hero .lead,.vp .hero .row,.vp .hero .meta{animation:vp-rise 1s cubic-bezier(.16,1,.3,1) both}
+  .vp .hero h1{animation-delay:.08s}.vp .hero .lead{animation-delay:.2s}.vp .hero .row{animation-delay:.32s}.vp .hero .meta{animation-delay:.44s}
+  .vp .art .ring{transform-origin:260px 260px;animation:vp-spin 60s linear infinite}
+  .vp .art .halo{transform-origin:260px 260px;animation:vp-breathe 6s ease-in-out infinite}
+  .vp .art .draw{stroke-dasharray:var(--len);animation:vp-draw 1.6s cubic-bezier(.65,0,.35,1) both}
+  .vp-js .rv{opacity:0;transform:translateY(36px);transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1s cubic-bezier(.16,1,.3,1);transition-delay:calc(var(--i,0) * 110ms)}
+  .vp-js .rv.is-in{opacity:1;transform:none}
+  .vp-js .timeline .bar{transform:scaleX(0);transition:transform 1.8s cubic-bezier(.65,0,.35,1) .3s}
+  .vp-js .timeline.is-in .bar{transform:scaleX(1)}
+  @media (prefers-reduced-motion:reduce){.vp *{animation:none!important;transition:none!important}.vp-js .rv{opacity:1;transform:none}.vp-js .timeline .bar{transform:none}.vp .art .draw{stroke-dasharray:none}}
+
+  @media (max-width:900px){
+    .vp .hero .in,.vp .pain .grid,.vp .faq .grid{grid-template-columns:1fr;gap:40px}
+    .vp .hero .in{padding-top:56px;padding-bottom:64px}
+    .vp .art{max-width:320px;justify-self:center;order:-1}
+    .vp .items,.vp .promises{grid-template-columns:1fr}
+    .vp .promises div{border-right:0;border-bottom:1px solid var(--line)}
+    .vp .timeline{grid-template-columns:1fr 1fr;row-gap:48px}
+    .vp .timeline::before,.vp .timeline .bar{display:none}
+    .vp .step::before{position:static;display:block;margin-bottom:14px}
+    .vp .pain,.vp .kit,.vp .prog,.vp .compare,.vp .faq{padding:80px 0}
+    .vp .wait{padding:88px 0}
+    .vp .faq .side{position:static}
+    .vp .hero .meta{gap:20px;flex-wrap:wrap}
+    .vp .fact .n{font-size:42px}
+  }
+  @media (max-width:520px){.vp .timeline{grid-template-columns:1fr}.vp .wait .field{flex-direction:column;border-radius:24px}.vp .wait .btn{justify-content:center}}
+</style>
+
+<div class="vp">
+  <section class="hero">
+    <div class="in">
+      <div>
+        <p class="kicker">VAURE · Le Pilates à la maison</p>
+        <h1>Le Reformer chez toi.<span class="l2">15 minutes par jour.</span></h1>
+        <p class="lead">Une barre, deux disques de glisse et un programme guidé de 30 jours. Pour te sentir plus tonique et plus droite, au prix d'une seule séance en studio.</p>
+        <div class="row">
+          <a class="btn" href="#vp-attente">Rejoindre la liste d'attente <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <span class="soon">Lancement très bientôt</span>
+        </div>
+        <div class="meta">
+          <div><b>15 min</b>par jour</div>
+          <div><b>30 jours</b>de programme guidé</div>
+          <div><b>3 pièces</b>qui tiennent dans un tiroir</div>
+        </div>
+      </div>
+      <div class="art" aria-hidden="true">
+        <svg viewBox="0 0 520 520">
+          <defs><radialGradient id="vpg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#1d3d66"/><stop offset="1" stop-color="#0b1f3a"/></radialGradient></defs>
+          <circle class="halo" cx="260" cy="260" r="236" fill="url(#vpg)"/>
+          <g class="ring"><circle cx="260" cy="260" r="210" fill="none" stroke="#2ef27a" stroke-opacity=".5" stroke-width="1.5" stroke-dasharray="2 10"/></g>
+          <circle cx="260" cy="260" r="160" fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="1"/>
+          <ellipse cx="150" cy="398" rx="58" ry="18" fill="#2ef27a"/><ellipse cx="150" cy="392" rx="58" ry="18" fill="#7ff7ad"/>
+          <ellipse cx="370" cy="398" rx="58" ry="18" fill="#2ef27a"/><ellipse cx="370" cy="392" rx="58" ry="18" fill="#7ff7ad"/>
+          <path class="draw" style="--len:220;animation-delay:.3s" d="M258 340 L360 160" fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+          <path class="draw" style="--len:170;animation-delay:.6s" d="M258 340 L190 196" fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+          <path class="draw" style="--len:120;animation-delay:.9s" d="M204 224 L300 168" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="round"/>
+          <circle cx="178" cy="168" r="20" fill="#2ef27a"/>
+        </svg>
+      </div>
+    </div>
+    <div class="marquee" aria-hidden="true"><div class="track">
+      <span>15 minutes par jour</span><span>Chez toi</span><span>Programme de 30 jours</span><span>Débutante bienvenue</span><span>À ton rythme</span><span>Façon Reformer</span>
+      <span>15 minutes par jour</span><span>Chez toi</span><span>Programme de 30 jours</span><span>Débutante bienvenue</span><span>À ton rythme</span><span>Façon Reformer</span>
+    </div></div>
+  </section>
+
+  <section class="pain">
+    <div class="in grid">
+      <div>
+        <p class="kicker rv">Le constat</p>
+        <h2 class="rv">Le Reformer t'a fait aimer le Pilates. <em>Son prix et ses horaires, beaucoup moins.</em></h2>
+      </div>
+      <div class="facts">
+        <div class="fact rv"><p class="n">25–35 €<small>la séance</small></p><p>Le prix d'un cours de Reformer en studio.</p></div>
+        <div class="fact rv"><p class="n">+100 €<small>par mois</small></p><p>Pour une seule séance par semaine.</p></div>
+        <div class="fact good rv"><p class="n"><span>39,90 €</span><small>une fois</small></p><p>Le kit VAURE, programme de 30 jours inclus.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="kit" id="vp-kit">
+    <div class="in">
+      <div class="head">
+        <div><p class="kicker rv">Le kit</p><h2 class="rv">Le matériel et la méthode, enfin réunis.</h2></div>
+        <p class="rv">La barre et ses élastiques recréent la résistance des ressorts du Reformer. Les disques recréent le chariot qui glisse. Le programme te guide chaque jour.</p>
+      </div>
+      <div class="items">
+        <article class="item rv">
+          <div class="pic"><svg viewBox="0 0 200 120" aria-hidden="true"><rect x="20" y="40" width="160" height="10" rx="5" fill="#fff"/><rect x="10" y="30" width="22" height="30" rx="8" fill="#2ef27a"/><rect x="168" y="30" width="22" height="30" rx="8" fill="#2ef27a"/><path d="M30 60 C60 104 140 104 170 60" fill="none" stroke="#a9b8cb" stroke-width="3" stroke-linecap="round"/></svg></div>
+          <p class="tag">Résistance</p><h3>La barre démontable</h3><p>Avec élastiques de résistance. Elle se démonte et se range dans un tiroir.</p>
+        </article>
+        <article class="item rv">
+          <div class="pic"><svg viewBox="0 0 200 120" aria-hidden="true"><ellipse cx="62" cy="76" rx="44" ry="14" fill="#2ef27a"/><ellipse cx="62" cy="70" rx="44" ry="14" fill="#7ff7ad"/><ellipse cx="138" cy="76" rx="44" ry="14" fill="#2ef27a"/><ellipse cx="138" cy="70" rx="44" ry="14" fill="#7ff7ad"/><path d="M40 36 h120" stroke="#a9b8cb" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 8"/></svg></div>
+          <p class="tag">Glisse</p><h3>Deux disques de glisse</h3><p>Pour les fentes, les planches et tous les mouvements glissés, comme sur la machine.</p>
+        </article>
+        <article class="item rv">
+          <div class="pic"><svg viewBox="0 0 200 120" aria-hidden="true"><rect x="70" y="10" width="60" height="100" rx="12" fill="#132b4d" stroke="#a9b8cb" stroke-width="2"/><circle cx="100" cy="52" r="16" fill="#2ef27a"/><path d="M96 45 L106 52 L96 59 Z" fill="#0b1f3a"/><rect x="82" y="82" width="36" height="5" rx="2.5" fill="#a9b8cb"/><rect x="82" y="92" width="22" height="5" rx="2.5" fill="#2ef27a"/></svg></div>
+          <p class="tag">Méthode</p><h3>Le programme 30 jours</h3><p>15 minutes par jour, en vidéo et en français, filmé par une coach diplômée.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="prog" id="vp-defi">
+    <div class="in">
+      <p class="kicker rv">Le défi VAURE</p>
+      <h2 class="rv">30 jours pour sentir <span class="f">la différence.</span></h2>
+      <div class="timeline rv">
+        <span class="bar" aria-hidden="true"></span>
+        <div class="step"><p class="d">Jours 1 à 7</p><h3>Les bases</h3><p>Respiration, centre, posture. Chaque mouvement appris en douceur.</p></div>
+        <div class="step"><p class="d">Jours 8 à 14</p><h3>Gainage</h3><p>Abdominaux profonds et dos, avec la barre et les élastiques.</p></div>
+        <div class="step"><p class="d">Jours 15 à 21</p><h3>Bas du corps</h3><p>Fessiers et jambes, avec les disques de glisse.</p></div>
+        <div class="step"><p class="d">Jours 22 à 30</p><h3>Enchaînements</h3><p>Des séances complètes, comme un vrai cours de Reformer.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="compare">
+    <div class="in">
+      <p class="kicker rv">Pourquoi VAURE</p>
+      <h2 class="rv">Tout ce qu'il te faut. Rien de ce qui te freine.</h2>
+      <div class="tbl rv"><table>
+        <thead><tr><th></th><th>Studio</th><th>Barre seule</th><th>Appli vidéo</th><th class="us">VAURE</th></tr></thead>
+        <tbody>
+          <tr><td>Matériel façon Reformer</td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="no" aria-label="non"></span></td><td class="us"><span class="ok" aria-label="oui">✓</span></td></tr>
+          <tr><td>Programme guidé</td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="no" aria-label="non"></span></td><td><span class="ok" aria-label="oui">✓</span></td><td class="us"><span class="ok" aria-label="oui">✓</span></td></tr>
+          <tr><td>Chez toi, à ton heure</td><td><span class="no" aria-label="non"></span></td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="ok" aria-label="oui">✓</span></td><td class="us"><span class="ok" aria-label="oui">✓</span></td></tr>
+          <tr><td>Prix</td><td>25–35 € la séance</td><td>Bas, sans méthode</td><td>Abonnement</td><td class="us"><b>39,90 € une fois</b></td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </section>
+
+  <section class="faq" id="vp-faq">
+    <div class="in grid">
+      <div class="side">
+        <p class="kicker rv">Tes questions</p>
+        <h2 class="rv">Tout ce qui te fait hésiter.</h2>
+        <p class="rv">Une autre question ? Écris-nous depuis la page Contact, on répond sous 24 h ouvrées.</p>
+      </div>
+      <div class="qs">
+        <details class="rv"><summary>Je suis débutante, c'est pour moi ?<i></i></summary><p>Oui. La première semaine sert à apprendre les bases, et chaque mouvement a une version plus facile.</p></details>
+        <details class="rv"><summary>J'ai un petit appartement, j'ai la place ?<i></i></summary><p>La place d'un tapis suffit. La barre se démonte et tout le kit tient dans un tiroir.</p></details>
+        <details class="rv"><summary>J'ai peur d'abandonner au bout de 3 jours.<i></i></summary><p>Le programme dure 15 minutes et te dit exactement quoi faire chaque jour. Tu coches ta séance, tu avances.</p></details>
+        <details class="rv"><summary>Une barre se trouve à 18 €, pourquoi VAURE ?<i></i></summary><p>Une barre seule ne te dit pas quoi faire. VAURE réunit le matériel complet et un programme guidé de 30 jours, filmé par une coach diplômée.</p></details>
+        <details class="rv"><summary>Est-ce que ça remplace un cours en studio ?<i></i></summary><p>Non, ce n'est pas le but. VAURE te permet de pratiquer chez toi entre deux cours, ou quand le studio n'est pas possible.</p></details>
+        <details class="rv"><summary>Et si le kit ne me convient pas ?<i></i></summary><p>Tu pourras le retourner pendant 30 jours. Les délais de livraison seront indiqués clairement avant la commande.</p></details>
+        <div class="safe rv"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z" fill="#2ef27a"/><path d="M8 12l3 3 5-6" fill="none" stroke="#0b1f3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><p><b>Ta sécurité d'abord.</b> Chaque séance commence par un échauffement. En cas de grossesse, de douleur ou de problème de dos, demande l'avis d'un professionnel de santé avant de commencer. VAURE parle de tonus, de posture et de bien-être, jamais de promesse médicale.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="in">
+    <div class="promises">
+      <div class="rv"><b>Programme en français</b><span>Filmé par une coach Pilates diplômée</span></div>
+      <div class="rv"><b>Retour sous 30 jours</b><span>Si le kit ne te convient pas</span></div>
+      <div class="rv"><b>Paiement sécurisé</b><span>Livraison suivie jusqu'à chez toi</span></div>
+    </div>
+  </div>
+
+  <section class="wait" id="vp-attente">
+    <div class="in">
+      <p class="kicker rv">Bientôt disponible</p>
+      <h2 class="rv">Sois la première à <em>commencer le défi.</em></h2>
+      <p class="sub rv">Laisse ton e-mail : tu seras prévenue en premier du lancement du kit VAURE.</p>
+      <form>
+        <input type="hidden" name="contact[tags]" value="liste-attente-vaure-pilates">
+        <div class="field">
+          <label for="vp-email" style="position:absolute;left:-9999px">Ton adresse e-mail</label>
+          <input id="vp-email" type="email" name="contact[email]" placeholder="Ton adresse e-mail" required autocomplete="email">
+          <button class="btn" type="submit">Je m'inscris</button>
+        </div>
+        
+        
+      </form>
+    </div>
+  </section>
+</div>
+
+<script>
+(function(){
+  var root=document.currentScript&&document.currentScript.previousElementSibling;
+  if(!root||!root.classList.contains('vp'))root=document.querySelector('.vp');
+  if(!root||!('IntersectionObserver' in window))return;
+  if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  root.classList.add('vp-js');
+  root.querySelectorAll('.items,.facts,.promises,.qs').forEach(function(g){
+    Array.prototype.forEach.call(g.children,function(el,i){el.style.setProperty('--i',i);});
+  });
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -60px 0px'});
+  root.querySelectorAll('.rv,.timeline').forEach(function(el){io.observe(el);});
+})();
+</script>
+
