@@ -434,3 +434,5 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 ## Étape — Brouillon Shopify : menus créés vaure-pilates (Le kit, Le défi 30 jours, FAQ, Liste d'attente → ancres /#vp-...) et vaure-pilates-aide ; header du brouillon = menu Pilates + annonces « Programme vidéo de 30 jours inclus » / « Retours sous 30 jours », pop-up bijoux retirée ; footer = menus Pilates + aide + maison. Choix A/B (bijoux) toujours en attente.
 
 ## Étape — Animations ajoutées à la page d'accueil Pilates (tracé du symbole, entrée du hero, apparition au défilement, survols, bouton qui pulse). Fichier envoyé et vérifié (md5 identique). Vidéo : scutify/pilates/shopify/apercu_animations.mp4
+
+## Étape — Refonte complète du design de l'accueil Pilates (Jairo : « fait PowerPoint de 3e ») : hero éditorial + illustration animée, bandeau défilant vert fluo, constat en chiffres, kit en 3 cartes illustrées, frise du défi 30 jours, comparatif avec coches, FAQ en 2 colonnes, promesses, liste d'attente. md5 vérifié sur Shopify.
