@@ -517,4 +517,4 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Avant chaque exercice (7 s) : carte « Prépare ton matériel » avec le nom et l'icône de l'accessoire, 4 étapes de mise en place qui apparaissent une par une, l'accessoire qui s'allume sur l'illustration, un compte à rebours et le bouton « Je suis prête → ».
 - Bouton « Minuteur | À ton rythme » : le minuteur lance l'exercice tout seul ; « à ton rythme » attend que la cliente appuie sur « Je suis prête ».
 - Bande forte en marron foncé (#534032) pour la distinguer de la moyenne (taupe #997b63).
-- À faire valider par une prof de Pilates diplômée avant mise en ligne.
+- Pas de validation par une prof (décision de Jairo) : on garde uniquement des mouvements classiques et sûrs, chacun avec une version plus facile, et la note de sécurité (avis d'un professionnel de santé en cas de grossesse, douleur ou problème de dos).
