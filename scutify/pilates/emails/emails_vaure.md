@@ -17,7 +17,7 @@ Merci de t'être inscrite. Tu fais partie des premières à rejoindre VAURE, et 
 Pour rappel, le kit, c'est :
 - un tapis, un cercle, un petit ballon, 3 bandes, une brique, 2 sliders et un rouleau ;
 - un défi de 30 jours, 15 minutes par jour ;
-- puis une nouvelle séance chaque semaine.
+- puis une séance chaque jour, toute l'année.
 
 En attendant, tu peux regarder le programme semaine par semaine.
 
@@ -72,21 +72,26 @@ L'équipe VAURE
 
 ---
 
-## 4. La séance de la semaine (modèle à réutiliser)
-**Quand :** chaque semaine, le même jour (par exemple le lundi matin), aux clientes qui ont acheté le kit.
-**Objet :** Ta séance de la semaine : [NOM DE LA SÉANCE]
-**Aperçu :** 15 minutes, [ACCESSOIRES UTILISÉS].
+## 4. Tes séances de la semaine (modèle à réutiliser)
+**Quand :** chaque lundi matin, aux clientes qui ont acheté le kit (un seul e-mail par semaine, pas un par jour : on ne veut pas les saouler).
+**Objet :** Ta semaine VAURE : 7 séances de 15 minutes
+**Aperçu :** Le programme du lundi au dimanche.
 
 Salut,
 
-Nouvelle semaine, nouvelle séance.
+Voici ta semaine. Une séance de 15 minutes par jour :
 
-**[NOM DE LA SÉANCE]**
-15 minutes · avec [ACCESSOIRES] · niveau [doux / intermédiaire / tonique]
+- **Lundi** : [SÉANCE] · avec [ACCESSOIRES]
+- **Mardi** : [SÉANCE] · avec [ACCESSOIRES]
+- **Mercredi** : [SÉANCE] · avec [ACCESSOIRES]
+- **Jeudi** : [SÉANCE] · avec [ACCESSOIRES]
+- **Vendredi** : [SÉANCE] · avec [ACCESSOIRES]
+- **Samedi** : [SÉANCE] · avec [ACCESSOIRES]
+- **Dimanche** : récupération douce sur le rouleau
 
-[UNE PHRASE SUR LA SÉANCE, par exemple : « On travaille le gainage avec le cercle, et on finit par 2 minutes d'étirements sur le rouleau. »]
+Tu en rates une ? Pas grave, reprends le lendemain.
 
-**[Lancer la séance]** → [LIEN DE LA VIDÉO]
+**[Voir mes séances]** → [LIEN DE L'ESPACE SÉANCES]
 
 Bonne séance,
 L'équipe VAURE
@@ -116,7 +121,7 @@ L'équipe VAURE
 1. **Application :** installe **Shopify Email** (gratuite jusqu'à 10 000 e-mails par mois).
 2. **E-mail 1 (bienvenue) :** Marketing > Automatisations > Créer > « Accueillir un nouvel abonné ». Ajoute la condition « le client a l'étiquette `liste-attente-vaure-pilates` », colle le texte, mets le bouton vert fluo, active.
 3. **E-mails 2 et 3 :** Marketing > Créer une campagne > Shopify Email. Destinataires : segment « clients avec l'étiquette `liste-attente-vaure-pilates` ». Programme l'envoi.
-4. **E-mail 4 :** une campagne par semaine, segment « a acheté le Kit Pilates VAURE ». Duplique la précédente et change seulement le nom, la phrase et le lien.
+4. **E-mail 4 :** une campagne chaque lundi, segment « a acheté le Kit Pilates VAURE ». Duplique la précédente et change seulement les 7 séances.
 5. **E-mail 5 :** avec une application d'avis (par exemple Judge.me, version gratuite) qui envoie la demande automatiquement après la livraison. Colle ce texte à la place du texte par défaut.
 
 Règle d'or : **ne jamais écrire de faux avis, de faux compte à rebours ou de fausse promotion** dans ces e-mails.

@@ -501,3 +501,8 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 ## E-mails (étape 05 de la Road Map)
 - scutify/pilates/emails/emails_vaure.md : 5 e-mails prêts à coller (bienvenue liste d'attente, J-3, lancement, séance de la semaine, demande d'avis J+14) + mise en place dans Shopify Email / application d'avis. Les automatisations ne se créent pas par l'API : à faire par le client.
 - email_bienvenue.html + .png : maquette de l'e-mail de bienvenue aux couleurs VAURE (logo vectoriel, titre condensé, bloc chiffres, bouton fluo).
+
+## Séances quotidiennes après le défi (demande client)
+- Formulation partout : « le défi de 30 jours, puis une séance chaque jour, toute l'année » (1 an, jamais « à vie » ni « illimité »).
+- Mis à jour : 3D (msg final), fiche produit (puce + FAQ), page défi (« Et après le jour 30 ? »), bande chiffres (52 → 365 séances du jour par an, bandeau « Une séance par jour »), description du produit, page FAQ, résumé de la page défi, e-mails (e-mail 4 devient le programme de la semaine, 1 seul e-mail le lundi avec 7 séances).
+- MD5 vérifiés : 3d 36e2b19b…, produit de4e1c5e…, defi 60020687…, sport 495e296d….
