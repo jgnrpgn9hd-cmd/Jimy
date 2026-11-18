@@ -492,3 +492,8 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Elle passe aussi les titres de l'accueil en Barlow Condensed 800, capitales, accents en italique vert fluo.
 - Aucune statistique inventée : uniquement des chiffres calculables.
 - MD5 vérifiés : sport 979e233c…, index b32375f2….
+
+## Page « Le défi 30 jours »
+- Page /pages/le-defi-30-jours (gid 711051411838), gabarit page.defi → sections/vaure-pilates-defi.liquid : en-tête noir sportif, frise des 30 jours en 4 couleurs, 4 phases (n° en relief, texte, accessoires, 4 mouvements Pilates réels avec jours), bloc « Et après le jour 30 ? », note sécurité. SEO rempli.
+- Menu principal : « Le défi 30 jours » pointe vers la page, « FAQ » vers /pages/questions-frequentes. Annonce du bandeau du haut → la page.
+- MD5 vérifiés : defi 1a9f032b…, page.defi cd17293d….
