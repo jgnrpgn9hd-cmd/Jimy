@@ -1,0 +1,25 @@
+{%- comment -%}
+  Logo VAURE : symbole du « teaser » (le V, point vert fluo) + logotype dessiné sur mesure.
+  Les traits prennent la couleur du texte (currentColor), donc le logo s'adapte au fond.
+  Paramètres : height (px, ordinateur), height_mobile (px), symbol (true/false).
+{%- endcomment -%}
+{%- liquid
+  assign h = height | default: 26
+  assign hm = height_mobile | default: 22
+-%}
+<svg class="vaure-logo" viewBox="{% if symbol == false %}134 -6 482 112{% else %}0 -6 616 112{% endif %}" role="img" aria-label="VAURE" style="--vl-h:{{ h }}px;--vl-hm:{{ hm }}px">
+  {%- unless symbol == false -%}
+  <g fill="none" stroke="currentColor" stroke-linecap="round">
+    <path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/>
+  </g>
+  <circle cx="16" cy="13" r="10" fill="#2ef27a"/>
+  {%- endunless -%}
+  <g transform="translate(140 0)" fill="none" stroke="currentColor" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 2 L38 98 L74 2"/>
+    <path transform="translate(98 0)" d="M2 98 L38 2 L74 98"/>
+    <path transform="translate(200 0)" d="M4 2 V60 C4 84 18 98 38 98 C58 98 72 84 72 60 V2"/>
+    <path transform="translate(300 0)" d="M4 98 V2 H40 C60 2 70 14 70 30 C70 46 60 58 40 58 H4 M38 58 L70 98"/>
+    <path transform="translate(398 0)" d="M66 2 H4 V98 H66 M4 50 H54"/>
+  </g>
+</svg>
+<style>.vaure-logo{display:block;height:var(--vl-hm);width:auto;overflow:visible}@media (min-width:750px){.vaure-logo{height:var(--vl-h)}}</style>

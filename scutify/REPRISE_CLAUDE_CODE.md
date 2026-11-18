@@ -461,3 +461,9 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Secours : sans WebGL ou avec « réduire les animations », version texte fixe.
 - index.json : vaure_3d (hide_old) + vaure_pilates. Les sections scroll et vitrine restent dans le thème mais ne sont plus affichées.
 - MD5 vérifiés : 3d 0f85d2c4…, index 13e69350…
+
+## Le vrai logo partout
+- `snippets/vaure-logo.liquid` : logo vectoriel (symbole du teaser + point vert fluo + logotype VΛURE dessiné), traits en currentColor.
+- `blocks/_header-logo.liquid` (brouillon) : l'en-tête affiche ce logo au lieu de l'image de l'ancienne boutique (vaure-logo-noir.png).
+- Section 3D : les textures (tapis, ballon, brique) utilisent les mêmes tracés que le logo.
+- MD5 vérifiés : snippet b40b2207…, bloc 4c31d4fa…, 3d 7f754ac0….
