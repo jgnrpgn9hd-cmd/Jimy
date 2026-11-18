@@ -53,6 +53,36 @@
   .vp .wait input[type=email]{min-width:0;width:min(360px,100%);padding:15px 18px;border-radius:999px;border:0;font-size:16px}
   .vp .ok{color:var(--fluo);margin-top:16px;font-weight:600}
   .vp .err{color:#ffb4b4;margin-top:16px}
+
+  /* Animations : entrée du hero, tracé du symbole, apparition au défilement, survols */
+  @keyframes vp-up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+  @keyframes vp-draw{from{stroke-dashoffset:var(--len)}to{stroke-dashoffset:0}}
+  @keyframes vp-pop{0%{transform:scale(0)}70%{transform:scale(1.25)}100%{transform:scale(1)}}
+  @keyframes vp-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  @keyframes vp-glow{0%,100%{box-shadow:0 0 0 0 rgba(46,242,122,.55)}50%{box-shadow:0 0 0 12px rgba(46,242,122,0)}}
+  .vp .hero .eyebrow,.vp .hero h1,.vp .hero .lead,.vp .hero .cta-row,.vp .hero .note{animation:vp-up .8s cubic-bezier(.2,.7,.2,1) both}
+  .vp .hero h1{animation-delay:.12s}.vp .hero .lead{animation-delay:.26s}.vp .hero .cta-row{animation-delay:.4s}.vp .hero .note{animation-delay:.52s}
+  .vp .mark{animation:vp-float 5s ease-in-out 2s infinite}
+  .vp .mark path{stroke-dasharray:var(--len);animation:vp-draw 1.1s cubic-bezier(.6,0,.2,1) both}
+  .vp .mark .p1{--len:96;animation-delay:.3s}.vp .mark .p2{--len:74;animation-delay:.55s}.vp .mark .p3{--len:56;animation-delay:.85s}
+  .vp .mark circle{transform-box:fill-box;transform-origin:center;animation:vp-pop .6s cubic-bezier(.3,1.6,.5,1) 1.2s both}
+  .vp .hero .btn{animation:vp-glow 2.4s ease-in-out 1.6s infinite}
+  .vp .btn{transition:transform .2s ease,background-color .2s ease}
+  .vp .btn:hover{transform:translateY(-2px) scale(1.03)}
+  .vp .card,.vp .week,.vp .trust div{transition:transform .25s ease,box-shadow .25s ease}
+  .vp .card:hover,.vp .trust div:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(11,31,58,.12)}
+  .vp .week:hover{transform:translateY(-6px) rotate(-.6deg);box-shadow:0 14px 30px rgba(11,31,58,.25)}
+  .vp .kit .card{position:relative;overflow:hidden}
+  .vp .kit .card::before{content:"";position:absolute;inset:0 0 auto;height:6px;background:var(--fluo);transform:scaleX(0);transform-origin:left;transition:transform .7s cubic-bezier(.2,.7,.2,1) .2s}
+  .vp .kit .card{border-top:1px solid var(--line)}
+  .vp .kit.is-in .card::before,.vp:not(.vp-js) .kit .card::before{transform:scaleX(1)}
+  .vp .faq details p{animation:vp-up .35s ease both}
+  .vp .faq summary::after{transition:transform .3s ease}
+  .vp .faq details[open] summary::after{transform:rotate(180deg)}
+  .vp tr.us td{transition:background-color .4s ease}
+  .vp-js .rv{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1);transition-delay:calc(var(--i,0) * 90ms)}
+  .vp-js .rv.is-in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.vp *,.vp *::before{animation:none!important;transition:none!important}.vp-js .rv{opacity:1;transform:none}.vp .mark path{stroke-dasharray:none}}
   @media (max-width:860px){.vp .hero .grid,.vp .cols,.vp .trust{grid-template-columns:1fr}.vp .weeks{grid-template-columns:1fr 1fr}.vp .mark{max-width:200px;order:-1}.vp .band{padding:56px 0}}
   @media (max-width:520px){.vp .weeks{grid-template-columns:1fr}}
 </style>
@@ -64,13 +94,13 @@
         <p class="eyebrow">VAURE · Le Pilates à la maison</p>
         <h1>Le Reformer chez toi, <em>15 minutes par jour.</em></h1>
         <p class="lead">Une barre, deux disques de glisse et un programme guidé de 30 jours pour te sentir plus tonique et plus droite, au prix d'une séance en studio.</p>
-        <p style="margin-top:28px"><a class="btn" href="#vp-attente">Je veux être prévenue du lancement</a></p>
+        <p class="cta-row" style="margin-top:28px"><a class="btn" href="#vp-attente">Je veux être prévenue du lancement</a></p>
         <p class="note">Le kit arrive bientôt. Inscris-toi pour être la première informée.</p>
       </div>
       <svg class="mark" viewBox="-10 -10 140 130" role="img" aria-label="Symbole VAURE : la posture du teaser qui forme un V">
-        <path d="M52 96 L98 14" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
-        <path d="M52 96 L22 30" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
-        <path d="M28 44 L74 16" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+        <path class="p1" d="M52 96 L98 14" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
+        <path class="p2" d="M52 96 L22 30" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
+        <path class="p3" d="M28 44 L74 16" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
         <circle cx="16" cy="13" r="10" fill="#2ef27a"/>
       </svg>
     </div>
@@ -78,47 +108,47 @@
 
   <section class="band problem">
     <div class="in">
-      <p class="eyebrow">Le problème</p>
-      <h2>Tu adores le Reformer. Mais à quel prix ?</h2>
+      <p class="eyebrow rv">Le problème</p>
+      <h2 class="rv">Tu adores le Reformer. Mais à quel prix ?</h2>
       <div class="cols">
-        <div class="card"><p class="big">25 à 35 €</p><h3>la séance en studio</h3><p>Une fois par semaine, c'est plus de 100 € par mois.</p></div>
-        <div class="card"><p class="big">Pas le temps</p><h3>des horaires qui ne collent pas</h3><p>Créneaux complets, trajets, cours à réserver des jours à l'avance.</p></div>
-        <div class="card"><p class="big">Seule à la maison</p><h3>sans méthode, on lâche</h3><p>Une barre seule ou des vidéos au hasard : sans programme clair, on abandonne vite.</p></div>
+        <div class="card rv"><p class="big">25 à 35 €</p><h3>la séance en studio</h3><p>Une fois par semaine, c'est plus de 100 € par mois.</p></div>
+        <div class="card rv"><p class="big">Pas le temps</p><h3>des horaires qui ne collent pas</h3><p>Créneaux complets, trajets, cours à réserver des jours à l'avance.</p></div>
+        <div class="card rv"><p class="big">Seule à la maison</p><h3>sans méthode, on lâche</h3><p>Une barre seule ou des vidéos au hasard : sans programme clair, on abandonne vite.</p></div>
       </div>
     </div>
   </section>
 
   <section class="band kit" id="vp-kit">
     <div class="in">
-      <p class="eyebrow">La solution VAURE</p>
-      <h2>Le matériel et la méthode, enfin réunis</h2>
-      <p class="sub">La barre et ses élastiques recréent la résistance des ressorts du Reformer. Les disques de glisse recréent le chariot qui glisse. Le programme te guide chaque jour.</p>
+      <p class="eyebrow rv">La solution VAURE</p>
+      <h2 class="rv">Le matériel et la méthode, enfin réunis</h2>
+      <p class="sub rv">La barre et ses élastiques recréent la résistance des ressorts du Reformer. Les disques de glisse recréent le chariot qui glisse. Le programme te guide chaque jour.</p>
       <div class="cols">
-        <div class="card"><h3>Une barre démontable</h3><p>Avec élastiques de résistance. Elle se démonte et se range dans un tiroir.</p></div>
-        <div class="card"><h3>Deux disques de glisse</h3><p>Pour les fentes, les planches et les mouvements glissés, comme sur la machine.</p></div>
-        <div class="card"><h3>Un programme de 30 jours</h3><p>15 minutes par jour, en vidéo et en français, du niveau débutante au niveau intermédiaire.</p></div>
+        <div class="card rv"><h3>Une barre démontable</h3><p>Avec élastiques de résistance. Elle se démonte et se range dans un tiroir.</p></div>
+        <div class="card rv"><h3>Deux disques de glisse</h3><p>Pour les fentes, les planches et les mouvements glissés, comme sur la machine.</p></div>
+        <div class="card rv"><h3>Un programme de 30 jours</h3><p>15 minutes par jour, en vidéo et en français, du niveau débutante au niveau intermédiaire.</p></div>
       </div>
     </div>
   </section>
 
   <section class="band" id="vp-defi" style="padding-top:0">
     <div class="in">
-      <p class="eyebrow">Le défi VAURE</p>
-      <h2>30 jours, 4 semaines, 15 minutes par jour</h2>
+      <p class="eyebrow rv">Le défi VAURE</p>
+      <h2 class="rv">30 jours, 4 semaines, 15 minutes par jour</h2>
       <div class="weeks">
-        <div class="week"><p class="w">Semaine 1</p><h3>Les bases</h3><p>Respiration, centre, posture. On apprend chaque mouvement en douceur.</p></div>
-        <div class="week"><p class="w">Semaine 2</p><h3>Gainage</h3><p>Abdominaux profonds et dos, avec la barre et les élastiques.</p></div>
-        <div class="week"><p class="w">Semaine 3</p><h3>Bas du corps</h3><p>Fessiers et jambes, avec les disques de glisse.</p></div>
-        <div class="week"><p class="w">Semaine 4</p><h3>Enchaînements</h3><p>Des séances complètes, façon cours de Reformer.</p></div>
+        <div class="week rv"><p class="w">Semaine 1</p><h3>Les bases</h3><p>Respiration, centre, posture. On apprend chaque mouvement en douceur.</p></div>
+        <div class="week rv"><p class="w">Semaine 2</p><h3>Gainage</h3><p>Abdominaux profonds et dos, avec la barre et les élastiques.</p></div>
+        <div class="week rv"><p class="w">Semaine 3</p><h3>Bas du corps</h3><p>Fessiers et jambes, avec les disques de glisse.</p></div>
+        <div class="week rv"><p class="w">Semaine 4</p><h3>Enchaînements</h3><p>Des séances complètes, façon cours de Reformer.</p></div>
       </div>
     </div>
   </section>
 
   <section class="band problem">
     <div class="in">
-      <p class="eyebrow">Pourquoi VAURE</p>
-      <h2>Ce que les autres ne te donnent pas</h2>
-      <div class="tbl"><table>
+      <p class="eyebrow rv">Pourquoi VAURE</p>
+      <h2 class="rv">Ce que les autres ne te donnent pas</h2>
+      <div class="tbl rv"><table>
         <thead><tr><th></th><th>Matériel</th><th>Programme guidé</th><th>Chez toi, à ton heure</th><th>Prix</th></tr></thead>
         <tbody>
           <tr><td>Studio de Reformer</td><td>Oui</td><td>Oui</td><td>Non</td><td>25 à 35 € la séance</td></tr>
@@ -132,18 +162,18 @@
 
   <section class="band faq" id="vp-faq">
     <div class="in">
-      <p class="eyebrow">Tes questions</p>
-      <h2>Tout ce qui te fait hésiter</h2>
+      <p class="eyebrow rv">Tes questions</p>
+      <h2 class="rv">Tout ce qui te fait hésiter</h2>
       <div style="margin-top:20px">
-        <details><summary>Je suis débutante, c'est pour moi ?</summary><p>Oui. La première semaine est faite pour apprendre les bases, et chaque mouvement a une version plus facile.</p></details>
-        <details><summary>J'ai un petit appartement, j'ai la place ?</summary><p>La place d'un tapis suffit. La barre se démonte et tout le kit tient dans un tiroir.</p></details>
-        <details><summary>J'ai peur d'abandonner au bout de 3 jours.</summary><p>C'est pour ça que le programme dure 15 minutes et te dit exactement quoi faire chaque jour. Tu coches ta séance, tu avances.</p></details>
-        <details><summary>Une barre de Pilates se trouve à 18 €, pourquoi VAURE ?</summary><p>Une barre seule ne te dit pas quoi faire. VAURE réunit le matériel complet et un programme guidé de 30 jours, filmé par une coach diplômée.</p></details>
-        <details><summary>Est-ce que ça remplace un cours en studio ?</summary><p>Non, et ce n'est pas le but. VAURE te permet de pratiquer chez toi entre deux cours, ou quand le studio n'est pas possible.</p></details>
-        <details><summary>Et si le kit ne me convient pas ?</summary><p>Tu pourras le retourner pendant 30 jours. Les délais de livraison seront indiqués clairement avant la commande.</p></details>
+        <details class="rv"><summary>Je suis débutante, c'est pour moi ?</summary><p>Oui. La première semaine est faite pour apprendre les bases, et chaque mouvement a une version plus facile.</p></details>
+        <details class="rv"><summary>J'ai un petit appartement, j'ai la place ?</summary><p>La place d'un tapis suffit. La barre se démonte et tout le kit tient dans un tiroir.</p></details>
+        <details class="rv"><summary>J'ai peur d'abandonner au bout de 3 jours.</summary><p>C'est pour ça que le programme dure 15 minutes et te dit exactement quoi faire chaque jour. Tu coches ta séance, tu avances.</p></details>
+        <details class="rv"><summary>Une barre de Pilates se trouve à 18 €, pourquoi VAURE ?</summary><p>Une barre seule ne te dit pas quoi faire. VAURE réunit le matériel complet et un programme guidé de 30 jours, filmé par une coach diplômée.</p></details>
+        <details class="rv"><summary>Est-ce que ça remplace un cours en studio ?</summary><p>Non, et ce n'est pas le but. VAURE te permet de pratiquer chez toi entre deux cours, ou quand le studio n'est pas possible.</p></details>
+        <details class="rv"><summary>Et si le kit ne me convient pas ?</summary><p>Tu pourras le retourner pendant 30 jours. Les délais de livraison seront indiqués clairement avant la commande.</p></details>
       </div>
-      <div class="safe"><h3 style="font-size:19px">Ta sécurité d'abord</h3><p style="margin-top:8px;color:var(--muted)">Chaque séance commence par un échauffement. En cas de grossesse, de douleur ou de problème de dos, demande l'avis d'un professionnel de santé avant de commencer. VAURE parle de tonus, de posture et de bien-être : nous ne faisons aucune promesse médicale.</p></div>
-      <div class="trust">
+      <div class="safe rv"><h3 style="font-size:19px">Ta sécurité d'abord</h3><p style="margin-top:8px;color:var(--muted)">Chaque séance commence par un échauffement. En cas de grossesse, de douleur ou de problème de dos, demande l'avis d'un professionnel de santé avant de commencer. VAURE parle de tonus, de posture et de bien-être : nous ne faisons aucune promesse médicale.</p></div>
+      <div class="trust rv-group">
         <div>Programme en français<span>Filmé par une coach Pilates diplômée</span></div>
         <div>Retour pendant 30 jours<span>Si le kit ne te convient pas</span></div>
         <div>15 minutes par jour<span>À ton rythme, quand tu veux</span></div>
@@ -153,9 +183,9 @@
 
   <section class="band wait" id="vp-attente">
     <div class="in">
-      <p class="eyebrow" style="color:var(--fluo)">Bientôt disponible</p>
-      <h2>Sois la première à commencer le défi</h2>
-      <p class="sub">Laisse ton e-mail : tu seras prévenue du lancement du kit VAURE et tu recevras une séance offerte pour découvrir la méthode.</p>
+      <p class="eyebrow rv" style="color:var(--fluo)">Bientôt disponible</p>
+      <h2 class="rv">Sois la première à commencer le défi</h2>
+      <p class="sub rv">Laisse ton e-mail : tu seras prévenue du lancement du kit VAURE et tu recevras une séance offerte pour découvrir la méthode.</p>
       {%- form 'customer', id: 'vp-waitlist' -%}
         <input type="hidden" name="contact[tags]" value="liste-attente-vaure-pilates">
         <label for="vp-email" style="position:absolute;left:-9999px">Ton adresse e-mail</label>
@@ -167,6 +197,21 @@
     </div>
   </section>
 </div>
+
+<script>
+(function(){
+  var root=document.currentScript&&document.currentScript.previousElementSibling;
+  if(!root||!root.classList.contains('vp'))root=document.querySelector('.vp');
+  if(!root||!('IntersectionObserver' in window))return;
+  if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  root.classList.add('vp-js');
+  root.querySelectorAll('.cols,.weeks,.trust,.faq .in > div').forEach(function(g){
+    Array.prototype.forEach.call(g.querySelectorAll(':scope > .rv, :scope > div'),function(el,i){el.classList.add('rv');el.style.setProperty('--i',i);});
+  });
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target);}});},{threshold:.15,rootMargin:'0px 0px -40px 0px'});
+  root.querySelectorAll('.rv,.kit').forEach(function(el){io.observe(el);});
+})();
+</script>
 
 {% schema %}
 {
