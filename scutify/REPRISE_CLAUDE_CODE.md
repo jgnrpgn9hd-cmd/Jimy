@@ -428,3 +428,5 @@ Symbole = anneau de Pilates en forme de G ; couleurs rose poudré, prune, sauge,
 Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo 69,90 € (≈50 €), chaussettes après achat 12,90 €.
 
 ## Étape — Fichier Scutify « Mes concurrents » rempli pour VAURE Pilates (pilates/Scutify_Mes_concurrents_VAURE_Pilates.xlsx) : 8 concurrents, onglet Votre marque, onglet ajouté SWOT et persona. Visiteurs SimilarWeb à relever par Jairo.
+
+## Étape — Site Shopify : thème non publié « VAURE Pilates – brouillon » (gid 199730561406), copie de « VAURE – version 3 ». Page d'accueil = section sections/vaure-pilates-home.liquid (sans produit, liste d'attente via formulaire client, tag liste-attente-vaure-pilates). Copie locale : pilates/shopify/. theme_bash et theme_screenshot refusés (droits du connecteur) ; écriture via themeFilesUpsert.

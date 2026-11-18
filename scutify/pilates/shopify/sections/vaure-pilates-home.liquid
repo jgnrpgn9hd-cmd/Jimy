@@ -1,0 +1,176 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+  .vp{--navy:#0b1f3a;--white:#ffffff;--fluo:#2ef27a;--mist:#eef2f6;--muted:#55657a;--line:#d9e1ea;font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--navy);background:var(--white);line-height:1.6}
+  .vp *{box-sizing:border-box}
+  .vp h1,.vp h2,.vp h3{font-family:'Outfit','Inter',sans-serif;line-height:1.15;margin:0;text-wrap:balance}
+  .vp p{margin:0}
+  .vp .in{max-width:1120px;margin:0 auto;padding:0 20px}
+  .vp .band{padding:72px 0}
+  .vp .eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+  .vp .btn{display:inline-block;background:var(--fluo);color:var(--navy);font-weight:700;padding:15px 28px;border-radius:999px;text-decoration:none;border:0;cursor:pointer;font-size:16px}
+  .vp .btn:focus-visible,.vp input:focus-visible{outline:3px solid var(--fluo);outline-offset:3px}
+  .vp .hero{background:var(--navy);color:var(--white);padding:80px 0 72px}
+  .vp .hero .grid{display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:center}
+  .vp .hero h1{font-size:clamp(36px,6vw,64px);margin:14px 0 18px}
+  .vp .hero h1 em{font-style:normal;color:var(--fluo)}
+  .vp .hero .lead{font-size:18px;color:#c8d3e0;max-width:36ch}
+  .vp .hero .eyebrow{color:var(--fluo)}
+  .vp .hero .note{font-size:14px;color:#9fb1c7;margin-top:14px}
+  .vp .mark{width:100%;max-width:320px;justify-self:center}
+  .vp .problem{background:var(--mist)}
+  .vp .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:32px}
+  .vp .card{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:24px}
+  .vp .card h3{font-size:20px;margin-bottom:8px}
+  .vp .card .big{font-family:'Outfit',sans-serif;font-size:34px;font-weight:700}
+  .vp h2{font-size:clamp(28px,4vw,40px)}
+  .vp .sub{color:var(--muted);font-size:17px;margin-top:10px;max-width:60ch}
+  .vp .kit .card{border-top:6px solid var(--fluo)}
+  .vp .weeks{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:32px}
+  .vp .week{background:var(--navy);color:var(--white);border-radius:16px;padding:22px}
+  .vp .week .w{color:var(--fluo);font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+  .vp .week h3{font-size:19px;margin:6px 0}
+  .vp .week p{color:#c8d3e0;font-size:15px}
+  .vp .tbl{overflow-x:auto;margin-top:28px}
+  .vp table{border-collapse:collapse;width:100%;min-width:560px}
+  .vp th,.vp td{text-align:left;padding:14px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  .vp th{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+  .vp tr.us td{background:var(--navy);color:var(--white);font-weight:600}
+  .vp tr.us td:first-child{border-radius:12px 0 0 12px}.vp tr.us td:last-child{border-radius:0 12px 12px 0}
+  .vp .faq details{border-bottom:1px solid var(--line);padding:18px 0}
+  .vp .faq summary{font-family:'Outfit',sans-serif;font-size:19px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px}
+  .vp .faq summary::after{content:"+";color:var(--navy);background:var(--fluo);border-radius:50%;width:28px;height:28px;display:grid;place-items:center;flex:none}
+  .vp .faq details[open] summary::after{content:"–"}
+  .vp .faq p{margin-top:10px;color:var(--muted);max-width:70ch}
+  .vp .safe{background:var(--mist);border-radius:16px;padding:24px;margin-top:28px}
+  .vp .trust{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+  .vp .trust div{border:1px solid var(--line);border-radius:14px;padding:18px;font-weight:600}
+  .vp .trust span{display:block;font-weight:400;color:var(--muted);font-size:14px}
+  .vp .wait{background:var(--navy);color:var(--white);text-align:center}
+  .vp .wait .sub{color:#c8d3e0;margin:12px auto 0}
+  .vp .wait form{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+  .vp .wait input[type=email]{min-width:0;width:min(360px,100%);padding:15px 18px;border-radius:999px;border:0;font-size:16px}
+  .vp .ok{color:var(--fluo);margin-top:16px;font-weight:600}
+  .vp .err{color:#ffb4b4;margin-top:16px}
+  @media (max-width:860px){.vp .hero .grid,.vp .cols,.vp .trust{grid-template-columns:1fr}.vp .weeks{grid-template-columns:1fr 1fr}.vp .mark{max-width:200px;order:-1}.vp .band{padding:56px 0}}
+  @media (max-width:520px){.vp .weeks{grid-template-columns:1fr}}
+</style>
+
+<div class="vp">
+  <section class="hero">
+    <div class="in grid">
+      <div>
+        <p class="eyebrow">VAURE · Le Pilates à la maison</p>
+        <h1>Le Reformer chez toi, <em>15 minutes par jour.</em></h1>
+        <p class="lead">Une barre, deux disques de glisse et un programme guidé de 30 jours pour te sentir plus tonique et plus droite, au prix d'une séance en studio.</p>
+        <p style="margin-top:28px"><a class="btn" href="#vp-attente">Je veux être prévenue du lancement</a></p>
+        <p class="note">Le kit arrive bientôt. Inscris-toi pour être la première informée.</p>
+      </div>
+      <svg class="mark" viewBox="-10 -10 140 130" role="img" aria-label="Symbole VAURE : la posture du teaser qui forme un V">
+        <path d="M52 96 L98 14" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
+        <path d="M52 96 L22 30" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
+        <path d="M28 44 L74 16" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="16" cy="13" r="10" fill="#2ef27a"/>
+      </svg>
+    </div>
+  </section>
+
+  <section class="band problem">
+    <div class="in">
+      <p class="eyebrow">Le problème</p>
+      <h2>Tu adores le Reformer. Mais à quel prix ?</h2>
+      <div class="cols">
+        <div class="card"><p class="big">25 à 35 €</p><h3>la séance en studio</h3><p>Une fois par semaine, c'est plus de 100 € par mois.</p></div>
+        <div class="card"><p class="big">Pas le temps</p><h3>des horaires qui ne collent pas</h3><p>Créneaux complets, trajets, cours à réserver des jours à l'avance.</p></div>
+        <div class="card"><p class="big">Seule à la maison</p><h3>sans méthode, on lâche</h3><p>Une barre seule ou des vidéos au hasard : sans programme clair, on abandonne vite.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band kit">
+    <div class="in">
+      <p class="eyebrow">La solution VAURE</p>
+      <h2>Le matériel et la méthode, enfin réunis</h2>
+      <p class="sub">La barre et ses élastiques recréent la résistance des ressorts du Reformer. Les disques de glisse recréent le chariot qui glisse. Le programme te guide chaque jour.</p>
+      <div class="cols">
+        <div class="card"><h3>Une barre démontable</h3><p>Avec élastiques de résistance. Elle se démonte et se range dans un tiroir.</p></div>
+        <div class="card"><h3>Deux disques de glisse</h3><p>Pour les fentes, les planches et les mouvements glissés, comme sur la machine.</p></div>
+        <div class="card"><h3>Un programme de 30 jours</h3><p>15 minutes par jour, en vidéo et en français, du niveau débutante au niveau intermédiaire.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" style="padding-top:0">
+    <div class="in">
+      <p class="eyebrow">Le défi VAURE</p>
+      <h2>30 jours, 4 semaines, 15 minutes par jour</h2>
+      <div class="weeks">
+        <div class="week"><p class="w">Semaine 1</p><h3>Les bases</h3><p>Respiration, centre, posture. On apprend chaque mouvement en douceur.</p></div>
+        <div class="week"><p class="w">Semaine 2</p><h3>Gainage</h3><p>Abdominaux profonds et dos, avec la barre et les élastiques.</p></div>
+        <div class="week"><p class="w">Semaine 3</p><h3>Bas du corps</h3><p>Fessiers et jambes, avec les disques de glisse.</p></div>
+        <div class="week"><p class="w">Semaine 4</p><h3>Enchaînements</h3><p>Des séances complètes, façon cours de Reformer.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band problem">
+    <div class="in">
+      <p class="eyebrow">Pourquoi VAURE</p>
+      <h2>Ce que les autres ne te donnent pas</h2>
+      <div class="tbl"><table>
+        <thead><tr><th></th><th>Matériel</th><th>Programme guidé</th><th>Chez toi, à ton heure</th><th>Prix</th></tr></thead>
+        <tbody>
+          <tr><td>Studio de Reformer</td><td>Oui</td><td>Oui</td><td>Non</td><td>25 à 35 € la séance</td></tr>
+          <tr><td>Barre vendue seule</td><td>Oui</td><td>Non</td><td>Oui</td><td>Bas, mais sans méthode</td></tr>
+          <tr><td>Application de vidéos</td><td>Non</td><td>Oui</td><td>Oui</td><td>Abonnement chaque mois</td></tr>
+          <tr class="us"><td>VAURE</td><td>Oui</td><td>Oui</td><td>Oui</td><td>Le prix d'une séance, une seule fois</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </section>
+
+  <section class="band faq">
+    <div class="in">
+      <p class="eyebrow">Tes questions</p>
+      <h2>Tout ce qui te fait hésiter</h2>
+      <div style="margin-top:20px">
+        <details><summary>Je suis débutante, c'est pour moi ?</summary><p>Oui. La première semaine est faite pour apprendre les bases, et chaque mouvement a une version plus facile.</p></details>
+        <details><summary>J'ai un petit appartement, j'ai la place ?</summary><p>La place d'un tapis suffit. La barre se démonte et tout le kit tient dans un tiroir.</p></details>
+        <details><summary>J'ai peur d'abandonner au bout de 3 jours.</summary><p>C'est pour ça que le programme dure 15 minutes et te dit exactement quoi faire chaque jour. Tu coches ta séance, tu avances.</p></details>
+        <details><summary>Une barre de Pilates se trouve à 18 €, pourquoi VAURE ?</summary><p>Une barre seule ne te dit pas quoi faire. VAURE réunit le matériel complet et un programme guidé de 30 jours, filmé par une coach diplômée.</p></details>
+        <details><summary>Est-ce que ça remplace un cours en studio ?</summary><p>Non, et ce n'est pas le but. VAURE te permet de pratiquer chez toi entre deux cours, ou quand le studio n'est pas possible.</p></details>
+        <details><summary>Et si le kit ne me convient pas ?</summary><p>Tu pourras le retourner pendant 30 jours. Les délais de livraison seront indiqués clairement avant la commande.</p></details>
+      </div>
+      <div class="safe"><h3 style="font-size:19px">Ta sécurité d'abord</h3><p style="margin-top:8px;color:var(--muted)">Chaque séance commence par un échauffement. En cas de grossesse, de douleur ou de problème de dos, demande l'avis d'un professionnel de santé avant de commencer. VAURE parle de tonus, de posture et de bien-être : nous ne faisons aucune promesse médicale.</p></div>
+      <div class="trust">
+        <div>Programme en français<span>Filmé par une coach Pilates diplômée</span></div>
+        <div>Retour pendant 30 jours<span>Si le kit ne te convient pas</span></div>
+        <div>15 minutes par jour<span>À ton rythme, quand tu veux</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band wait" id="vp-attente">
+    <div class="in">
+      <p class="eyebrow" style="color:var(--fluo)">Bientôt disponible</p>
+      <h2>Sois la première à commencer le défi</h2>
+      <p class="sub">Laisse ton e-mail : tu seras prévenue du lancement du kit VAURE et tu recevras une séance offerte pour découvrir la méthode.</p>
+      {%- form 'customer', id: 'vp-waitlist' -%}
+        <input type="hidden" name="contact[tags]" value="liste-attente-vaure-pilates">
+        <label for="vp-email" style="position:absolute;left:-9999px">Ton adresse e-mail</label>
+        <input id="vp-email" type="email" name="contact[email]" placeholder="Ton adresse e-mail" required autocomplete="email">
+        <button class="btn" type="submit">Je m'inscris</button>
+        {%- if form.posted_successfully? -%}<p class="ok" style="flex-basis:100%">C'est noté, tu seras prévenue en premier.</p>{%- endif -%}
+        {%- if form.errors -%}<p class="err" style="flex-basis:100%">Vérifie ton adresse e-mail et réessaie.</p>{%- endif -%}
+      {%- endform -%}
+    </div>
+  </section>
+</div>
+
+{% schema %}
+{
+  "name": "VAURE Pilates – accueil",
+  "settings": [],
+  "presets": [{ "name": "VAURE Pilates – accueil" }]
+}
+{% endschema %}
