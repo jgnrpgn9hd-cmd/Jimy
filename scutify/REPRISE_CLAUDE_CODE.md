@@ -497,3 +497,7 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Page /pages/le-defi-30-jours (gid 711051411838), gabarit page.defi → sections/vaure-pilates-defi.liquid : en-tête noir sportif, frise des 30 jours en 4 couleurs, 4 phases (n° en relief, texte, accessoires, 4 mouvements Pilates réels avec jours), bloc « Et après le jour 30 ? », note sécurité. SEO rempli.
 - Menu principal : « Le défi 30 jours » pointe vers la page, « FAQ » vers /pages/questions-frequentes. Annonce du bandeau du haut → la page.
 - MD5 vérifiés : defi 1a9f032b…, page.defi cd17293d….
+
+## E-mails (étape 05 de la Road Map)
+- scutify/pilates/emails/emails_vaure.md : 5 e-mails prêts à coller (bienvenue liste d'attente, J-3, lancement, séance de la semaine, demande d'avis J+14) + mise en place dans Shopify Email / application d'avis. Les automatisations ne se créent pas par l'API : à faire par le client.
+- email_bienvenue.html + .png : maquette de l'e-mail de bienvenue aux couleurs VAURE (logo vectoriel, titre condensé, bloc chiffres, bouton fluo).
