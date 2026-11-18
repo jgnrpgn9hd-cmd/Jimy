@@ -506,3 +506,7 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Formulation partout : « le défi de 30 jours, puis une séance chaque jour, toute l'année » (1 an, jamais « à vie » ni « illimité »).
 - Mis à jour : 3D (msg final), fiche produit (puce + FAQ), page défi (« Et après le jour 30 ? »), bande chiffres (52 → 365 séances du jour par an, bandeau « Une séance par jour »), description du produit, page FAQ, résumé de la page défi, e-mails (e-mail 4 devient le programme de la semaine, 1 seul e-mail le lundi avec 7 séances).
 - MD5 vérifiés : 3d 36e2b19b…, produit de4e1c5e…, defi 60020687…, sport 495e296d….
+
+## Prototype séance avec silhouette + kit
+- scutify/pilates/demo_seance/seance_silhouette.html (+ .mp4 39 s, format téléphone 9:16) : écran de séance « Jour 15 · Bas du corps », silhouette VAURE (membres épais à bouts ronds, chignon vert fluo), 3 exercices avec le kit : pont fessier + bande, squat + bande, genoux à la poitrine sur sliders. Mouvements calculés (pieds posés, genoux dans le bon sens), consignes de respiration, compteur de répétitions, temps restant, barre de progression, étapes.
+- Sert de base pour produire les séances du jour sans tournage (bibliothèque d'exercices + voix off).
