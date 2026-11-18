@@ -1,0 +1,116 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,800&display=swap">
+<style>
+  /* Titres sportifs sur toute la page : condensés, gras, en capitales */
+  .v3-b h1,.v3-b h2,.vc h2,.vp h2,.vsp h2{font-family:'Barlow Condensed','Outfit',sans-serif!important;font-weight:800!important;text-transform:uppercase;letter-spacing:-.005em!important;line-height:.92!important}
+  .v3-b h1 em,.v3-b h2 em,.vc h2 em,.vp h2 em,.vp h2 .f{font-style:italic!important;font-weight:800!important;color:var(--fluo,#2ef27a)}
+  .vc h2 em,.vp .pain h2 em{color:#552b1d}
+  .v3-b h1,.v3-b h2{font-size:clamp(48px,7vw,104px)!important}
+  .vc h2,.vp h2{font-size:clamp(40px,5.4vw,76px)!important}
+
+  .vsp{--fluo:#2ef27a;--ink:#140b08;background:var(--ink);color:#fbf7f2;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;position:relative;overflow:hidden}
+  .vsp *{box-sizing:border-box}
+  .vsp::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(-58deg,rgba(255,255,255,.035) 0 2px,transparent 2px 22px);pointer-events:none}
+  .vsp-tick{background:var(--fluo);color:var(--ink);transform:rotate(-2.2deg) scale(1.04);margin:-8px 0 0;padding:14px 0;white-space:nowrap;overflow:hidden;position:relative;z-index:1}
+  .vsp-tick div{display:inline-flex;gap:38px;animation:vspTick 26s linear infinite;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-style:italic;font-size:24px;text-transform:uppercase;letter-spacing:.02em}
+  .vsp-tick span::after{content:"/";margin-left:38px;opacity:.45}
+  @keyframes vspTick{to{transform:translateX(-50%)}}
+  .vsp .in{max-width:1200px;margin:0 auto;padding:96px 24px 104px;position:relative;z-index:1}
+  .vsp .k{font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--fluo);display:flex;align-items:center;gap:10px}
+  .vsp .k::before{content:"";width:28px;height:3px;background:var(--fluo);transform:skewX(-20deg)}
+  .vsp h2{font-size:clamp(44px,6vw,88px);margin:16px 0 0;max-width:14ch}
+  .vsp h2 em{color:var(--fluo)}
+  .vsp-big{display:grid;grid-template-columns:1.3fr 1fr;gap:56px;align-items:end;margin-top:56px;padding-bottom:56px;border-bottom:1px solid rgba(255,255,255,.12)}
+  .vsp-pct{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-style:italic;font-size:clamp(120px,19vw,260px);line-height:.8;letter-spacing:-.03em;color:var(--fluo);font-variant-numeric:tabular-nums}
+  .vsp-big p{font-size:18px;line-height:1.5;color:#dcc7b4;max-width:34ch;margin:0}
+  .vsp-big p b{color:#fff}
+  .vsp-big small{display:block;margin-top:14px;font-size:12px;color:#9c8576;line-height:1.5}
+  .vsp-nums{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:8px}
+  .vsp-num{padding:36px 22px 8px 0;border-right:1px solid rgba(255,255,255,.12)}
+  .vsp-num:last-child{border-right:0}
+  .vsp-num+.vsp-num{padding-left:24px}
+  .vsp-num b{display:block;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(56px,6.4vw,92px);line-height:.9;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+  .vsp-num b i{font-style:normal;font-size:.42em;color:var(--fluo);margin-left:4px;letter-spacing:0}
+  .vsp-num>span{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:#dcc7b4}
+  .vsp-bars{margin-top:72px;display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
+  .vsp-bars h3{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:36px;line-height:.95;margin:12px 0 10px}
+  .vsp-bars > div > p{color:#9c8576;font-size:14px;margin:0}
+  .vsp-bar{margin-bottom:22px}
+  .vsp-bar .t{display:flex;justify-content:space-between;align-items:baseline;font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;margin-bottom:10px}
+  .vsp-bar .t b{font-family:'Barlow Condensed',sans-serif;font-size:30px;letter-spacing:0;font-style:italic;color:var(--fluo);font-variant-numeric:tabular-nums}
+  .vsp-bar .tr{height:12px;background:rgba(255,255,255,.08);transform:skewX(-18deg);overflow:hidden}
+  .vsp-bar .tr i{display:block;height:100%;width:var(--w);background:linear-gradient(90deg,#1fc864,var(--fluo));transform-origin:left;transform:scaleX(1)}
+  .vsp-js .vsp-bar .tr i{transform:scaleX(0);transition:transform 1.2s cubic-bezier(.2,.9,.25,1) var(--d,0s)}
+  .vsp-js .vsp-bars.go .tr i{transform:scaleX(1)}
+  @media (max-width:900px){
+    .vsp .in{padding:72px 16px 80px}
+    .vsp-big,.vsp-bars{grid-template-columns:1fr;gap:28px}
+    .vsp-nums{grid-template-columns:1fr 1fr}
+    .vsp-num{border-right:0;border-bottom:1px solid rgba(255,255,255,.12);padding:26px 0 18px!important}
+    .vsp-num:nth-child(odd){padding-right:16px!important}
+    .vsp-num:nth-child(even){padding-left:16px!important;border-left:1px solid rgba(255,255,255,.12)}
+    .vsp-tick div{font-size:20px}
+  }
+  @media (prefers-reduced-motion:reduce){.vsp-tick div{animation:none}.vsp-js .vsp-bar .tr i{transition:none;transform:none}}
+</style>
+
+<section class="vsp" aria-label="VAURE en chiffres">
+  <div class="vsp-tick" aria-hidden="true"><div>
+    <span>15 min par jour</span><span>30 jours de défi</span><span>8 pièces</span><span>Zéro abonnement</span><span>Chez toi</span><span>À ton rythme</span>
+    <span>15 min par jour</span><span>30 jours de défi</span><span>8 pièces</span><span>Zéro abonnement</span><span>Chez toi</span><span>À ton rythme</span>
+  </div></div>
+  <div class="in">
+    <span class="k">VAURE en chiffres</span>
+    <h2>Le studio, <em>sans le prix du studio.</em></h2>
+
+    <div class="vsp-big">
+      <div class="vsp-pct"><span data-to="95" data-pre="−">−95</span>%</div>
+      <div>
+        <p><b>Par rapport à un an de Pilates en studio.</b> Un cours par semaine pendant un an, c'est plus de 1 500 €. Le kit VAURE se paie une fois, et le programme continue chaque semaine.</p>
+        <small>Calcul : 52 séances × 30 € = 1 560 € par an, comparé au prix du kit VAURE.</small>
+      </div>
+    </div>
+
+    <div class="vsp-nums">
+      <div class="vsp-num"><b><span data-to="15">15</span><i>min</i></b><span>par séance</span></div>
+      <div class="vsp-num"><b><span data-to="30">30</span><i>jours</i></b><span>de défi guidé</span></div>
+      <div class="vsp-num"><b><span data-to="8">8</span><i>pièces</i></b><span>dans le coffret</span></div>
+      <div class="vsp-num"><b><span data-to="52">52</span><i>/ an</i></b><span>nouvelles séances</span></div>
+    </div>
+
+    <div class="vsp-bars">
+      <div>
+        <span class="k">Le défi 30 jours</span>
+        <h3>Ce que tu travailles</h3>
+        <p>Répartition des 30 jours du programme.</p>
+      </div>
+      <div>
+        <div class="vsp-bar"><div class="t">Les bases <b><span data-to="23">23</span> %</b></div><div class="tr"><i style="--w:23%;--d:0s"></i></div></div>
+        <div class="vsp-bar"><div class="t">Gainage <b><span data-to="23">23</span> %</b></div><div class="tr"><i style="--w:23%;--d:.12s"></i></div></div>
+        <div class="vsp-bar"><div class="t">Bas du corps <b><span data-to="23">23</span> %</b></div><div class="tr"><i style="--w:23%;--d:.24s"></i></div></div>
+        <div class="vsp-bar"><div class="t">Enchaînements complets <b><span data-to="30">30</span> %</b></div><div class="tr"><i style="--w:30%;--d:.36s"></i></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function(){
+  var s=document.querySelector('.vsp');if(!s||!('IntersectionObserver' in window))return;
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  s.classList.add('vsp-js');
+  function count(el){var to=+el.dataset.to,pre=el.dataset.pre||'',t0=performance.now(),D=1100;
+    (function f(now){var k=Math.min(1,(now-t0)/D),e=1-Math.pow(1-k,3);el.textContent=pre+Math.round(to*e);if(k<1)requestAnimationFrame(f);})(t0);}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;
+    e.target.querySelectorAll('[data-to]').forEach(count);if(e.target.classList.contains('vsp-bars'))e.target.classList.add('go');io.unobserve(e.target);});},{threshold:.35});
+  s.querySelectorAll('.vsp-big,.vsp-nums,.vsp-bars').forEach(function(el){io.observe(el);});
+})();
+</script>
+
+{% schema %}
+{
+  "name": "VAURE – chiffres",
+  "settings": [],
+  "presets": [{ "name": "VAURE – chiffres" }]
+}
+{% endschema %}

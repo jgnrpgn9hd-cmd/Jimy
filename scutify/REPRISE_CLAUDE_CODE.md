@@ -486,3 +486,9 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Défi 30 jours : 2 colonnes compactes sur téléphone.
 - Barre collante « Le kit VAURE · Me prévenir » sur téléphone : apparaît après la 3D, disparaît au formulaire de liste d'attente.
 - MD5 vérifiés : retouches 9045cd6b…, index 707e0bb6….
+
+## Style plus sportif (retour client : « trop classique »)
+- Nouvelle section `sections/vaure-pilates-sport.liquid` (après le coffret) : bandeau vert fluo incliné qui défile, « −95 % » (calcul affiché : 52 × 30 € = 1 560 €/an vs prix du kit ; reste vrai jusqu'à un prix de kit de 78 €), compteurs animés 15 min / 30 jours / 8 pièces / 52 séances par an, barres de répartition du défi (7/30 = 23 %, 9/30 = 30 %).
+- Elle passe aussi les titres de l'accueil en Barlow Condensed 800, capitales, accents en italique vert fluo.
+- Aucune statistique inventée : uniquement des chiffres calculables.
+- MD5 vérifiés : sport 979e233c…, index b32375f2….
