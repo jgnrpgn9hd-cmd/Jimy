@@ -1,13 +1,13 @@
 <!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><body style="margin:0"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap">
 <style>
-  .vs{--navy:#0b1f3a;--fluo:#2ef27a;--ink:#0b1f3a;--sub:#5d6b7d;position:relative;font-family:'Inter',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+  .vs{--navy:#552b1d;--fluo:#2ef27a;--ink:#2b1710;--sub:#7a5a48;position:relative;font-family:'Inter',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
   .vs *{box-sizing:border-box}
-  .vs-pin{position:relative;height:100vh;height:100svh;min-height:560px;width:100%;overflow:hidden;background:#0b1f3a;color:#fff}
+  .vs-pin{position:relative;height:100vh;height:100svh;min-height:560px;width:100%;overflow:hidden;background:#552b1d;color:#fff}
   .vs-word{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
   .vs-word span{grid-area:1/1;font-family:'Outfit',sans-serif;font-weight:700;font-size:clamp(72px,17vw,250px);letter-spacing:.01em;line-height:1;white-space:nowrap;will-change:opacity,transform}
-  .vs-word .w1{color:rgba(11,31,58,.12);opacity:0}
-  .vs-word .w2{color:rgba(46,242,122,.13)}
+  .vs-word .w1{color:rgba(85,43,29,.13);opacity:0}
+  .vs-word .w2{color:rgba(244,236,226,.09)}
   .vs-fig{position:absolute;left:50%;top:46%;width:min(66vw,820px);transform:translate(-50%,-50%);overflow:visible}
   .vs-fig line{stroke-linecap:round;stroke-width:15}
   .vs-lines{position:absolute;left:6vw;bottom:15vh;width:min(36ch,40vw)}
@@ -32,7 +32,7 @@
   .vs:not(.on) .vs-fig{position:relative;left:auto;top:auto;transform:none;display:block;margin:0 auto 30px;width:min(80vw,420px)}
   .vs:not(.on) .vs-lines{position:static;width:auto;max-width:640px;margin:0 auto;display:grid;gap:34px}
   .vs:not(.on) .vs-b{position:static}
-  .vs:not(.on){--ink:#fff;--sub:#a9b8cb}
+  .vs:not(.on){--ink:#fff;--sub:#dcc7b4}
 
   /* Animation au défilement */
   .vs.on{height:460vh}
@@ -60,7 +60,7 @@
 
     <svg class="vs-fig" viewBox="-160 -190 360 225" aria-hidden="true">
       <defs>
-        <radialGradient id="vsg-demo"><stop offset="0" stop-color="#2ef27a" stop-opacity=".45"/><stop offset="1" stop-color="#2ef27a" stop-opacity="0"/></radialGradient>
+        <radialGradient id="vsg-demo"><stop offset="0" stop-color="#2ef27a" stop-opacity=".3"/><stop offset="1" stop-color="#2ef27a" stop-opacity="0"/></radialGradient>
       </defs>
       <circle class="halo" cx="20" cy="-70" r="150" fill="url(#vsg-demo)"/>
       <line class="floor" x1="-150" y1="12" x2="190" y2="12" stroke="#ffffff" stroke-opacity=".18" style="stroke-width:2"/>
@@ -85,7 +85,7 @@
       <div class="vs-b" data-a=".4" data-z=".6">
         <span class="k">La solution</span>
         <h2>15 minutes. Dans ton salon.</h2>
-        <p>Une barre, deux disques de glisse, ton tapis. C'est tout.</p>
+        <p>Un tapis, 7 accessoires assortis. Tout le studio.</p>
       </div>
       <div class="vs-b" data-a=".6" data-z=".8">
         <span class="k">Le programme</span>
@@ -119,7 +119,7 @@
   var mix=function(a,b,t){return 'rgb('+a.map(function(v,i){return Math.round(v+(b[i]-v)*t)}).join(',')+')'};
   var L=function(d){return d*Math.PI/180};
   var A={th:52,sh:-52,to:75,ar:-55,hd:58},B={th:38,sh:38,to:128,ar:38,hd:128};
-  var GREY=[200,208,218],NAVY=[11,31,58],WHITE=[255,255,255],FIG=[124,138,155],FLUO=[46,242,122],SUB1=[93,107,125],SUB2=[169,184,203];
+  var GREY=[221,214,206],NAVY=[85,43,29],INK=[43,23,16],WHITE=[255,255,255],CREAM=[244,236,226],FIG=[150,136,124],FLUO=[46,242,122],SUB1=[122,90,72],SUB2=[220,199,180];
   function seg(el,x1,y1,x2,y2){el.setAttribute('x1',x1.toFixed(2));el.setAttribute('y1',y1.toFixed(2));el.setAttribute('x2',x2.toFixed(2));el.setAttribute('y2',y2.toFixed(2))}
   var mode='',ticking=false;
   function frame(){
@@ -132,7 +132,7 @@
     /* couleurs : gris terne -> bleu marine */
     var tc=ss((p-.3)/.25);
     pin.style.background=mix(GREY,NAVY,tc);
-    vs.style.setProperty('--ink',mix(NAVY,WHITE,tc));
+    vs.style.setProperty('--ink',mix(INK,WHITE,tc));
     vs.style.setProperty('--sub',mix(SUB1,SUB2,tc));
 
     /* mot géant */
@@ -149,9 +149,9 @@
     seg(thigh,0,0,kx,ky);seg(shin,kx,ky,fx,fy);seg(torso,0,0,sx,sy);
     seg(arm,sx,sy,sx+88*Math.cos(L(g('ar'))),sy-88*Math.sin(L(g('ar'))));
     head.setAttribute('cx',(sx+30*Math.cos(L(g('hd')))).toFixed(2));head.setAttribute('cy',(sy-30*Math.sin(L(g('hd')))).toFixed(2));
-    var body=mix(FIG,WHITE,tc);[thigh,shin,torso,arm].forEach(function(e){e.setAttribute('stroke',body)});
+    var body=mix(FIG,CREAM,tc);[thigh,shin,torso,arm].forEach(function(e){e.setAttribute('stroke',body)});
     head.setAttribute('fill',mix(FIG,FLUO,ss((p-.5)/.25)));
-    floor.setAttribute('stroke',tc>.5?'#ffffff':'#0b1f3a');
+    floor.setAttribute('stroke',mix(INK,WHITE,tc));
     halo.style.opacity=ss((p-.55)/.25);
     halo.style.transform='scale('+(.85+.15*ss((p-.55)/.3))+')';halo.style.transformOrigin='20px -70px';
 
@@ -177,7 +177,7 @@
 
 <style>.vp .kit{display:none}</style>
 <style>
-  .vk{--navy:#0b1f3a;--fluo:#2ef27a;--paper:#eef2f7;--muted:#5d6b7d;position:relative;overflow:hidden;background:radial-gradient(120% 90% at 50% 40%,#ffffff 0%,var(--paper) 60%,#e3e9f1 100%);font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--navy);-webkit-font-smoothing:antialiased;padding:110px 0 120px}
+  .vk{--navy:#552b1d;--ink:#2b1710;--fluo:#2ef27a;--paper:#f4ece2;--muted:#7a5a48;position:relative;overflow:hidden;background:radial-gradient(120% 90% at 50% 40%,#fbf7f2 0%,var(--paper) 60%,#eadfd1 100%);font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--navy);-webkit-font-smoothing:antialiased;padding:110px 0 120px}
   .vk *{box-sizing:border-box}
   .vk-head{text-align:center;padding:0 20px;position:relative;z-index:2}
   .vk-head .k{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--muted);display:inline-flex;align-items:center;gap:10px}
@@ -185,16 +185,16 @@
   .vk-head h2{font-family:'Outfit',sans-serif;font-weight:600;font-size:clamp(30px,4vw,52px);letter-spacing:-.02em;line-height:1.05;margin:16px 0 0}
   .vk-stage{position:relative;margin-top:40px;height:clamp(230px,28vw,440px)}
   .vk-row{position:absolute;left:50%;top:50%;display:flex;align-items:center;white-space:nowrap;transform:translate(-50%,-50%);will-change:transform}
-  .vk-l{font-family:'Outfit',sans-serif;font-weight:700;font-size:clamp(90px,18.5vw,300px);line-height:.8;letter-spacing:-.04em;color:var(--navy);user-select:none;transition:opacity .5s ease,filter .5s ease}
+  .vk-l{font-family:'Outfit',sans-serif;font-weight:700;font-size:clamp(80px,16.5vw,270px);line-height:.8;letter-spacing:-.04em;color:var(--navy);user-select:none;transition:opacity .5s ease,filter .5s ease}
   .vk-i{all:unset;cursor:pointer;position:relative;z-index:2;display:block;margin:0 -2.2vw;transition:transform .5s cubic-bezier(.16,1,.3,1),opacity .5s ease,filter .5s ease}
-  .vk-i svg{display:block;height:clamp(130px,21vw,340px);width:auto;filter:drop-shadow(0 30px 30px rgba(11,31,58,.28));animation:vkFloat 5s ease-in-out infinite;animation-delay:var(--d,0s)}
+  .vk-i svg{display:block;height:clamp(120px,19vw,310px);width:auto;filter:drop-shadow(0 30px 30px rgba(61,31,21,.30));animation:vkFloat 5s ease-in-out infinite;animation-delay:var(--d,0s)}
   .vk-i:hover{transform:translateY(-10px) rotate(-3deg) scale(1.04)}
   .vk-i:focus-visible{outline:3px solid var(--fluo);outline-offset:6px;border-radius:20px}
-  .vk-i .dot{position:absolute;left:50%;top:-6px;transform:translateX(-50%);width:34px;height:34px;border-radius:50%;background:var(--fluo);color:var(--navy);display:grid;place-items:center;font-weight:700;font-size:20px;box-shadow:0 0 0 0 rgba(46,242,122,.6);animation:vkPing 2.2s ease-out infinite}
+  .vk-i .dot{position:absolute;left:50%;top:-6px;transform:translateX(-50%);width:34px;height:34px;border-radius:50%;background:var(--fluo);color:var(--ink);display:grid;place-items:center;font-weight:700;font-size:20px;box-shadow:0 0 0 0 rgba(46,242,122,.6);animation:vkPing 2.2s ease-out infinite}
   @keyframes vkFloat{0%,100%{transform:translateY(0) rotate(var(--r,0deg))}50%{transform:translateY(-12px) rotate(var(--r,0deg))}}
   @keyframes vkPing{0%{box-shadow:0 0 0 0 rgba(46,242,122,.55)}80%,100%{box-shadow:0 0 0 18px rgba(46,242,122,0)}}
   .vk-hint{text-align:center;margin-top:34px;font-size:13px;color:var(--muted);position:relative;z-index:2}
-  .vk-hint b{color:var(--navy)}
+  .vk-hint b{color:var(--ink)}
 
   /* Ouverture d'un élément */
   .vk-head,.vk-hint{transition:opacity .5s ease,filter .5s ease}
@@ -202,38 +202,38 @@
   .vk-ov{position:absolute;inset:0;z-index:5;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:30px;padding:40px 6vw;pointer-events:none;opacity:0;transition:opacity .45s ease}
   .vk.open .vk-ov{pointer-events:auto;opacity:1}
   .vk-big{justify-self:center;transform:translateX(-40px) scale(.7) rotate(-18deg);opacity:0;transition:transform .7s cubic-bezier(.16,1,.3,1),opacity .5s ease}
-  .vk-big svg{display:block;height:min(62vh,520px);width:auto;max-width:100%;filter:drop-shadow(0 40px 40px rgba(11,31,58,.3))}
+  .vk-big svg{display:block;height:min(62vh,520px);width:auto;max-width:100%;filter:drop-shadow(0 40px 40px rgba(61,31,21,.32))}
   .vk.open .vk-big{transform:none;opacity:1}
-  .vk-card{max-width:440px;padding:34px;border-radius:26px;background:rgba(255,255,255,.62);border:1px solid rgba(255,255,255,.9);box-shadow:0 30px 70px rgba(11,31,58,.16);-webkit-backdrop-filter:blur(18px) saturate(1.4);backdrop-filter:blur(18px) saturate(1.4);transform:translateX(50px);opacity:0;transition:transform .7s cubic-bezier(.16,1,.3,1) .08s,opacity .5s ease .08s}
+  .vk-card{max-width:440px;padding:34px;border-radius:26px;background:rgba(255,255,255,.62);border:1px solid rgba(255,255,255,.9);box-shadow:0 30px 70px rgba(61,31,21,.16);-webkit-backdrop-filter:blur(18px) saturate(1.4);backdrop-filter:blur(18px) saturate(1.4);transform:translateX(50px);opacity:0;transition:transform .7s cubic-bezier(.16,1,.3,1) .08s,opacity .5s ease .08s}
   .vk.open .vk-card{transform:none;opacity:1}
   .vk-card .tag{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--muted)}
-  .vk-card h3{font-family:'Outfit',sans-serif;font-size:clamp(28px,3vw,40px);font-weight:600;letter-spacing:-.02em;line-height:1.05;margin:10px 0 12px}
+  .vk-card h3{color:var(--ink);font-family:'Outfit',sans-serif;font-size:clamp(28px,3vw,40px);font-weight:600;letter-spacing:-.02em;line-height:1.05;margin:10px 0 12px}
   .vk-card p{margin:0;color:var(--muted);font-size:15px;line-height:1.6}
   .vk-card ul{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:10px}
   .vk-card li{display:flex;gap:10px;align-items:center;font-size:14px;font-weight:500}
-  .vk-card li::before{content:"✓";display:grid;place-items:center;flex:none;width:22px;height:22px;border-radius:50%;background:var(--fluo);font-size:12px;font-weight:700}
-  .vk-card .foot{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:26px;padding-top:20px;border-top:1px solid rgba(11,31,58,.1)}
+  .vk-card li::before{content:"✓";display:grid;place-items:center;flex:none;width:22px;height:22px;border-radius:50%;background:var(--fluo);color:var(--ink);font-size:12px;font-weight:700}
+  .vk-card .foot{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:26px;padding-top:20px;border-top:1px solid rgba(85,43,29,.12)}
   .vk-card .price{font-size:13px;color:var(--muted)}
   .vk-card .price b{display:block;font-family:'Outfit',sans-serif;font-size:26px;color:var(--navy);letter-spacing:-.02em}
-  .vk-btn{display:inline-flex;align-items:center;gap:8px;background:var(--navy);color:#fff;font-weight:600;font-size:14px;padding:14px 20px;border-radius:999px;text-decoration:none}
+  .vk-btn{display:inline-flex;align-items:center;gap:8px;background:var(--fluo);color:var(--ink);font-weight:600;font-size:14px;padding:14px 20px;border-radius:999px;text-decoration:none}
   .vk-nav{position:absolute;right:6vw;top:34px;display:flex;gap:10px}
-  .vk-nav button{all:unset;cursor:pointer;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.75);border:1px solid rgba(11,31,58,.1);font-size:20px;color:var(--navy);transition:background .2s}
+  .vk-nav button{all:unset;cursor:pointer;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.75);border:1px solid rgba(85,43,29,.12);font-size:20px;color:var(--navy);transition:background .2s}
   .vk-nav button:hover{background:var(--fluo)}
   .vk-count{position:absolute;left:6vw;top:44px;font-size:12px;letter-spacing:.18em;font-weight:600;color:var(--muted)}
 
   @media (max-width:760px){
     .vk{padding:80px 0 90px}
     .vk-stage{height:200px;margin-top:20px}
-        .vk-i{margin:0 -3vw}
-    .vk-i svg{height:31vw}
+    .vk-i{margin:0 -1.6vw}
+    .vk-i svg{height:24vw}
     .vk-i .dot{width:28px;height:28px;font-size:17px}
-    .vk-l{font-size:17.5vw}
-    .vk-ov{position:fixed;z-index:1000;grid-template-columns:1fr;align-content:end;padding:80px 16px 16px;gap:0;background:rgba(238,242,247,.72);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+    .vk-l{font-size:12.5vw}
+    .vk-ov{position:fixed;z-index:1000;grid-template-columns:1fr;align-content:end;padding:80px 16px 16px;gap:0;background:rgba(244,236,226,.78);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
     .vk-big{position:absolute;top:76px;bottom:52vh;left:0;right:0;display:grid;place-items:center;transform:scale(.7) rotate(-18deg);justify-self:auto}
     .vk.open .vk-big{transform:none}
     .vk-big svg{height:100%;max-height:300px}
     .vk-card{max-width:none;padding:24px;transform:translateY(60px);position:relative;z-index:1}
-    .vk-card h3{font-size:26px}
+    .vk-card h3{color:var(--ink);font-size:26px}
     .vk-nav{right:16px;top:18px}
     .vk-count{left:16px;top:32px}
   }
@@ -244,54 +244,45 @@
 
 
 
+
+
+
+
+
 <section class="vk" id="vp-kit">
   <div class="vk-head">
     <span class="k">Le kit</span>
-    <h2>Trois pièces. Tout le Reformer.</h2>
+    <h2>Tout le studio. Chez toi.</h2>
   </div>
 
   <div class="vk-stage">
     <div class="vk-row">
       <span class="vk-l" aria-hidden="true">V</span>
-      <button class="vk-i" type="button" data-n="0" style="--r:-8deg;--d:0s" aria-label="Voir la barre et les élastiques"><span class="dot">+</span>
-<svg viewBox="0 0 120 420" aria-hidden="true"><defs><linearGradient id="vkb1-demo" x1="0" x2="1"><stop offset="0" stop-color="#1b3557"/><stop offset=".5" stop-color="#0b1f3a"/><stop offset="1" stop-color="#06142a"/></linearGradient><linearGradient id="vkb2-demo" x1="0" x2="1"><stop offset="0" stop-color="#7cf7ab"/><stop offset=".55" stop-color="#2ef27a"/><stop offset="1" stop-color="#17c45b"/></linearGradient></defs>
-<path d="M40 70 C-10 160 -10 260 40 350" fill="none" stroke="#2ef27a" stroke-width="5" stroke-linecap="round" opacity=".9"/>
-<path d="M80 70 C130 160 130 260 80 350" fill="none" stroke="#2ef27a" stroke-width="5" stroke-linecap="round" opacity=".9"/>
-<rect x="48" y="20" width="24" height="380" rx="12" fill="url(#vkb1-demo)"/>
-<rect x="53" y="30" width="4" height="360" rx="2" fill="#fff" opacity=".18"/>
-<rect x="38" y="6" width="44" height="78" rx="22" fill="url(#vkb2-demo)"/>
-<rect x="38" y="336" width="44" height="78" rx="22" fill="url(#vkb2-demo)"/>
-<g fill="#0b1f3a" opacity=".25"><rect x="44" y="24" width="32" height="3" rx="1.5"/><rect x="44" y="34" width="32" height="3" rx="1.5"/><rect x="44" y="44" width="32" height="3" rx="1.5"/><rect x="44" y="374" width="32" height="3" rx="1.5"/><rect x="44" y="384" width="32" height="3" rx="1.5"/><rect x="44" y="394" width="32" height="3" rx="1.5"/></g>
-<text x="60" y="215" fill="#fff" font-family="Outfit,sans-serif" font-weight="700" font-size="13" letter-spacing="3" text-anchor="middle" transform="rotate(-90 60 210)">VAURE</text>
-</svg>
+      <button class="vk-i" type="button" data-n="2" style="--r:-8deg;--d:0s" aria-label="Voir le cercle de Pilates"><span class="dot">+</span>
+<svg viewBox="0 0 280 270" aria-hidden="true"><circle cx="140" cy="135" r="108" fill="none" stroke="#552b1d" stroke-width="17"/><circle cx="140" cy="135" r="113" fill="none" stroke="#7a4430" stroke-width="3" opacity=".7"/>
+<rect x="6" y="100" width="40" height="70" rx="18" fill="#1d1210"/><rect x="14" y="94" width="40" height="82" rx="19" fill="#4a2518"/>
+<rect x="234" y="100" width="40" height="70" rx="18" fill="#1d1210"/><rect x="226" y="94" width="40" height="82" rx="19" fill="#4a2518"/>
+<text x="34" y="139" text-anchor="middle" transform="rotate(-90 34 135)" font-family="Outfit,sans-serif" font-weight="700" font-size="11" letter-spacing="2" fill="#f2e5d5">VAURE</text>
+<text x="246" y="139" text-anchor="middle" transform="rotate(90 246 135)" font-family="Outfit,sans-serif" font-weight="700" font-size="11" letter-spacing="2" fill="#f2e5d5">VAURE</text></svg>
 </button>
       <span class="vk-l" aria-hidden="true">AU</span>
-      <button class="vk-i" type="button" data-n="1" style="--r:6deg;--d:-1.6s" aria-label="Voir les disques de glisse"><span class="dot">+</span>
-<svg viewBox="0 0 240 260" aria-hidden="true"><defs><radialGradient id="vkd1-demo" cx=".35" cy=".3"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d9e2ec"/></radialGradient></defs>
-<g transform="translate(120 150)"><ellipse cx="0" cy="22" rx="104" ry="40" fill="#0b1f3a"/><ellipse cx="0" cy="0" rx="104" ry="40" fill="url(#vkd1-demo)"/><ellipse cx="0" cy="0" rx="74" ry="27" fill="none" stroke="#2ef27a" stroke-width="5"/><text x="0" y="5" font-family="Outfit,sans-serif" font-weight="700" font-size="14" letter-spacing="3" text-anchor="middle" fill="#0b1f3a">VAURE</text></g>
-<g transform="translate(120 70)"><ellipse cx="0" cy="18" rx="88" ry="33" fill="#0b1f3a"/><ellipse cx="0" cy="0" rx="88" ry="33" fill="url(#vkd1-demo)"/><ellipse cx="0" cy="0" rx="62" ry="22" fill="none" stroke="#2ef27a" stroke-width="5"/></g>
-</svg>
+      <button class="vk-i" type="button" data-n="1" style="--r:6deg;--d:-1.6s" aria-label="Voir le petit ballon"><span class="dot">+</span>
+<svg viewBox="0 0 240 240" aria-hidden="true"><defs><radialGradient id="vb-demo" cx=".36" cy=".3" r=".75"><stop offset="0" stop-color="#a5643f"/><stop offset=".55" stop-color="#5e2f20"/><stop offset="1" stop-color="#341a11"/></radialGradient></defs>
+<circle cx="120" cy="124" r="110" fill="url(#vb-demo)"/><ellipse cx="82" cy="68" rx="34" ry="18" transform="rotate(-32 82 68)" fill="#fff" opacity=".2"/><circle cx="120" cy="18" r="3.5" fill="#c58a62"/>
+<text x="120" y="132" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="700" font-size="20" letter-spacing="3" fill="#f2e5d5" opacity=".9">VAURE</text></svg>
 </button>
       <span class="vk-l" aria-hidden="true">RE</span>
-      <button class="vk-i" type="button" data-n="2" style="--r:-6deg;--d:-3.2s" aria-label="Voir le programme vidéo"><span class="dot">+</span>
-<svg viewBox="0 0 200 380" aria-hidden="true"><defs><linearGradient id="vkp1-demo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14305a"/><stop offset="1" stop-color="#0b1f3a"/></linearGradient></defs>
-<rect x="6" y="6" width="188" height="368" rx="34" fill="#06142a"/><rect x="16" y="16" width="168" height="348" rx="26" fill="url(#vkp1-demo)"/>
-<rect x="72" y="26" width="56" height="12" rx="6" fill="#06142a"/>
-<text x="34" y="78" font-family="Inter,sans-serif" font-weight="600" font-size="11" letter-spacing="2" fill="#2ef27a">JOUR 12 / 30</text>
-<text x="34" y="104" font-family="Outfit,sans-serif" font-weight="600" font-size="20" fill="#fff">Gainage doux</text>
-<circle cx="100" cy="200" r="58" fill="#2ef27a" opacity=".14"/>
-<g stroke="#fff" stroke-width="9" stroke-linecap="round"><line x1="100" y1="232" x2="148" y2="190"/><line x1="100" y1="232" x2="66" y2="186"/><line x1="66" y1="186" x2="114" y2="152"/></g><circle cx="56" cy="170" r="10" fill="#2ef27a"/>
-<rect x="34" y="280" width="132" height="4" rx="2" fill="#fff" opacity=".2"/><rect x="34" y="280" width="62" height="4" rx="2" fill="#2ef27a"/>
-<text x="34" y="306" font-family="Inter,sans-serif" font-size="11" fill="#a9b8cb">07:12</text><text x="166" y="306" font-family="Inter,sans-serif" font-size="11" fill="#a9b8cb" text-anchor="end">15:00</text>
-<circle cx="100" cy="334" r="16" fill="#2ef27a"/><path d="M95 326 L107 334 L95 342 Z" fill="#0b1f3a"/>
-</svg>
+      <button class="vk-i" type="button" data-n="0" style="--r:-6deg;--d:-3.2s" aria-label="Voir le tapis"><span class="dot">+</span>
+<svg viewBox="0 0 160 420" aria-hidden="true"><defs><linearGradient id="vt-demo" x1="0" x2="1"><stop offset="0" stop-color="#6a3726"/><stop offset=".55" stop-color="#552b1d"/><stop offset="1" stop-color="#43211a"/></linearGradient></defs>
+<path d="M10 412 V82 A70 70 0 0 1 150 82 V412 Z" fill="url(#vt-demo)"/><path d="M22 400 V84 A58 58 0 0 1 80 26" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="3"/>
+<text x="80" y="380" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="700" font-size="24" letter-spacing="3" fill="#f2e5d5">VAURE</text></svg>
 </button>
     </div>
   </div>
-  <p class="vk-hint"><b>Touche un élément</b> pour le découvrir</p>
+  <p class="vk-hint"><b>Touche un élément</b> pour découvrir les 8 pièces du kit</p>
 
   <div class="vk-ov" role="dialog" aria-modal="false" aria-label="Détail du kit">
-    <span class="vk-count">01 / 03</span>
+    <span class="vk-count">01 / 08</span>
     <div class="vk-nav"><button type="button" class="pv" aria-label="Précédent">←</button><button type="button" class="nx" aria-label="Suivant">→</button><button type="button" class="cl" aria-label="Fermer">×</button></div>
     <div class="vk-big"></div>
     <div class="vk-card">
@@ -307,35 +298,55 @@
   </div>
 
   <template class="vk-src">
-<svg viewBox="0 0 120 420" aria-hidden="true"><defs><linearGradient id="vkb1-demo" x1="0" x2="1"><stop offset="0" stop-color="#1b3557"/><stop offset=".5" stop-color="#0b1f3a"/><stop offset="1" stop-color="#06142a"/></linearGradient><linearGradient id="vkb2-demo" x1="0" x2="1"><stop offset="0" stop-color="#7cf7ab"/><stop offset=".55" stop-color="#2ef27a"/><stop offset="1" stop-color="#17c45b"/></linearGradient></defs>
-<path d="M40 70 C-10 160 -10 260 40 350" fill="none" stroke="#2ef27a" stroke-width="5" stroke-linecap="round" opacity=".9"/>
-<path d="M80 70 C130 160 130 260 80 350" fill="none" stroke="#2ef27a" stroke-width="5" stroke-linecap="round" opacity=".9"/>
-<rect x="48" y="20" width="24" height="380" rx="12" fill="url(#vkb1-demo)"/>
-<rect x="53" y="30" width="4" height="360" rx="2" fill="#fff" opacity=".18"/>
-<rect x="38" y="6" width="44" height="78" rx="22" fill="url(#vkb2-demo)"/>
-<rect x="38" y="336" width="44" height="78" rx="22" fill="url(#vkb2-demo)"/>
-<g fill="#0b1f3a" opacity=".25"><rect x="44" y="24" width="32" height="3" rx="1.5"/><rect x="44" y="34" width="32" height="3" rx="1.5"/><rect x="44" y="44" width="32" height="3" rx="1.5"/><rect x="44" y="374" width="32" height="3" rx="1.5"/><rect x="44" y="384" width="32" height="3" rx="1.5"/><rect x="44" y="394" width="32" height="3" rx="1.5"/></g>
-<text x="60" y="215" fill="#fff" font-family="Outfit,sans-serif" font-weight="700" font-size="13" letter-spacing="3" text-anchor="middle" transform="rotate(-90 60 210)">VAURE</text>
-</svg>
+<svg viewBox="0 0 160 420" aria-hidden="true"><defs><linearGradient id="vt-demo" x1="0" x2="1"><stop offset="0" stop-color="#6a3726"/><stop offset=".55" stop-color="#552b1d"/><stop offset="1" stop-color="#43211a"/></linearGradient></defs>
+<path d="M10 412 V82 A70 70 0 0 1 150 82 V412 Z" fill="url(#vt-demo)"/><path d="M22 400 V84 A58 58 0 0 1 80 26" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="3"/>
+<text x="80" y="380" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="700" font-size="24" letter-spacing="3" fill="#f2e5d5">VAURE</text></svg>
 </template>
   <template class="vk-src">
-<svg viewBox="0 0 240 260" aria-hidden="true"><defs><radialGradient id="vkd1-demo" cx=".35" cy=".3"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d9e2ec"/></radialGradient></defs>
-<g transform="translate(120 150)"><ellipse cx="0" cy="22" rx="104" ry="40" fill="#0b1f3a"/><ellipse cx="0" cy="0" rx="104" ry="40" fill="url(#vkd1-demo)"/><ellipse cx="0" cy="0" rx="74" ry="27" fill="none" stroke="#2ef27a" stroke-width="5"/><text x="0" y="5" font-family="Outfit,sans-serif" font-weight="700" font-size="14" letter-spacing="3" text-anchor="middle" fill="#0b1f3a">VAURE</text></g>
-<g transform="translate(120 70)"><ellipse cx="0" cy="18" rx="88" ry="33" fill="#0b1f3a"/><ellipse cx="0" cy="0" rx="88" ry="33" fill="url(#vkd1-demo)"/><ellipse cx="0" cy="0" rx="62" ry="22" fill="none" stroke="#2ef27a" stroke-width="5"/></g>
-</svg>
+<svg viewBox="0 0 240 240" aria-hidden="true"><defs><radialGradient id="vb-demo" cx=".36" cy=".3" r=".75"><stop offset="0" stop-color="#a5643f"/><stop offset=".55" stop-color="#5e2f20"/><stop offset="1" stop-color="#341a11"/></radialGradient></defs>
+<circle cx="120" cy="124" r="110" fill="url(#vb-demo)"/><ellipse cx="82" cy="68" rx="34" ry="18" transform="rotate(-32 82 68)" fill="#fff" opacity=".2"/><circle cx="120" cy="18" r="3.5" fill="#c58a62"/>
+<text x="120" y="132" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="700" font-size="20" letter-spacing="3" fill="#f2e5d5" opacity=".9">VAURE</text></svg>
 </template>
   <template class="vk-src">
-<svg viewBox="0 0 200 380" aria-hidden="true"><defs><linearGradient id="vkp1-demo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14305a"/><stop offset="1" stop-color="#0b1f3a"/></linearGradient></defs>
-<rect x="6" y="6" width="188" height="368" rx="34" fill="#06142a"/><rect x="16" y="16" width="168" height="348" rx="26" fill="url(#vkp1-demo)"/>
-<rect x="72" y="26" width="56" height="12" rx="6" fill="#06142a"/>
+<svg viewBox="0 0 280 270" aria-hidden="true"><circle cx="140" cy="135" r="108" fill="none" stroke="#552b1d" stroke-width="17"/><circle cx="140" cy="135" r="113" fill="none" stroke="#7a4430" stroke-width="3" opacity=".7"/>
+<rect x="6" y="100" width="40" height="70" rx="18" fill="#1d1210"/><rect x="14" y="94" width="40" height="82" rx="19" fill="#4a2518"/>
+<rect x="234" y="100" width="40" height="70" rx="18" fill="#1d1210"/><rect x="226" y="94" width="40" height="82" rx="19" fill="#4a2518"/>
+<text x="34" y="139" text-anchor="middle" transform="rotate(-90 34 135)" font-family="Outfit,sans-serif" font-weight="700" font-size="11" letter-spacing="2" fill="#f2e5d5">VAURE</text>
+<text x="246" y="139" text-anchor="middle" transform="rotate(90 246 135)" font-family="Outfit,sans-serif" font-weight="700" font-size="11" letter-spacing="2" fill="#f2e5d5">VAURE</text></svg>
+</template>
+  <template class="vk-src">
+<svg viewBox="0 0 230 300" aria-hidden="true"><defs><pattern id="vf-demo" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 6 L6 0" stroke="#000" stroke-opacity=".08" stroke-width="1"/></pattern></defs>
+<g><rect x="8" y="10" width="62" height="280" rx="6" fill="#d0c8bd"/><rect x="8" y="10" width="62" height="280" rx="6" fill="url(#vf-demo)"/><rect x="16" y="22" width="46" height="18" fill="#141010"/><text x="39" y="35" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="700" font-size="9" letter-spacing="1.5" fill="#fff">VAURE</text></g>
+<g><rect x="84" y="10" width="62" height="280" rx="6" fill="#997b63"/><rect x="84" y="10" width="62" height="280" rx="6" fill="url(#vf-demo)"/><rect x="92" y="22" width="46" height="18" fill="#141010"/><text x="115" y="35" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="700" font-size="9" letter-spacing="1.5" fill="#fff">VAURE</text></g>
+<g><rect x="160" y="10" width="62" height="280" rx="6" fill="#534032"/><rect x="160" y="10" width="62" height="280" rx="6" fill="url(#vf-demo)"/><rect x="168" y="22" width="46" height="18" fill="#141010"/><text x="191" y="35" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="700" font-size="9" letter-spacing="1.5" fill="#fff">VAURE</text></g></svg>
+</template>
+  <template class="vk-src">
+<svg viewBox="0 0 260 210" aria-hidden="true"><path d="M30 60 L180 30 L240 60 L90 92 Z" fill="#fbf3e8"/><path d="M30 60 L90 92 V190 L30 158 Z" fill="#dcc7ae"/><path d="M90 92 L240 60 V158 L90 190 Z" fill="#efe1cf"/>
+<text x="165" y="136" text-anchor="middle" transform="skewY(-12) translate(0 34)" font-family="Outfit,sans-serif" font-weight="700" font-size="22" letter-spacing="3" fill="#b59c80">VAURE</text></svg>
+</template>
+  <template class="vk-src">
+<svg viewBox="0 0 240 210" aria-hidden="true"><defs><linearGradient id="vs2-demo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6e3a27"/><stop offset="1" stop-color="#47231a"/></linearGradient></defs>
+<rect x="14" y="22" width="212" height="74" rx="37" fill="url(#vs2-demo)"/><rect x="14" y="116" width="212" height="74" rx="37" fill="url(#vs2-demo)"/>
+<path d="M50 34 H190" stroke="#fff" stroke-opacity=".12" stroke-width="3" stroke-linecap="round"/><path d="M50 128 H190" stroke="#fff" stroke-opacity=".12" stroke-width="3" stroke-linecap="round"/>
+<text x="120" y="64" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#f2e5d5" opacity=".55">VAURE</text></svg>
+</template>
+  <template class="vk-src">
+<svg viewBox="0 0 150 380" aria-hidden="true"><defs><linearGradient id="vr-demo" x1="0" x2="1"><stop offset="0" stop-color="#6a3726"/><stop offset=".5" stop-color="#552b1d"/><stop offset="1" stop-color="#3d1f15"/></linearGradient><clipPath id="vrc-demo"><rect x="15" y="10" width="120" height="360" rx="20"/></clipPath></defs>
+<rect x="15" y="10" width="120" height="360" rx="20" fill="url(#vr-demo)"/>
+<g clip-path="url(#vrc-demo)" stroke="#2e170f" stroke-width="7" stroke-linecap="round" opacity=".75"><path d="M10 40 L140 90"/><path d="M10 110 L140 160"/><path d="M10 180 L140 230"/><path d="M10 250 L140 300"/><path d="M10 320 L140 370"/></g>
+<text x="75" y="195" text-anchor="middle" transform="rotate(-90 75 190)" font-family="Outfit,sans-serif" font-weight="700" font-size="14" letter-spacing="3" fill="#f2e5d5" opacity=".8">VAURE</text></svg>
+</template>
+  <template class="vk-src">
+<svg viewBox="0 0 200 380" aria-hidden="true"><defs><linearGradient id="vkp1-demo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6a3726"/><stop offset="1" stop-color="#3d1f15"/></linearGradient></defs>
+<rect x="6" y="6" width="188" height="368" rx="34" fill="#1d1210"/><rect x="16" y="16" width="168" height="348" rx="26" fill="url(#vkp1-demo)"/>
+<rect x="72" y="26" width="56" height="12" rx="6" fill="#1d1210"/>
 <text x="34" y="78" font-family="Inter,sans-serif" font-weight="600" font-size="11" letter-spacing="2" fill="#2ef27a">JOUR 12 / 30</text>
-<text x="34" y="104" font-family="Outfit,sans-serif" font-weight="600" font-size="20" fill="#fff">Gainage doux</text>
-<circle cx="100" cy="200" r="58" fill="#2ef27a" opacity=".14"/>
-<g stroke="#fff" stroke-width="9" stroke-linecap="round"><line x1="100" y1="232" x2="148" y2="190"/><line x1="100" y1="232" x2="66" y2="186"/><line x1="66" y1="186" x2="114" y2="152"/></g><circle cx="56" cy="170" r="10" fill="#2ef27a"/>
+<text x="34" y="104" font-family="Outfit,sans-serif" font-weight="600" font-size="20" fill="#f4ece2">Gainage doux</text>
+<circle cx="100" cy="200" r="58" fill="#2ef27a" opacity=".12"/>
+<g stroke="#f4ece2" stroke-width="9" stroke-linecap="round"><line x1="100" y1="232" x2="148" y2="190"/><line x1="100" y1="232" x2="66" y2="186"/><line x1="66" y1="186" x2="114" y2="152"/></g><circle cx="56" cy="170" r="10" fill="#2ef27a"/>
 <rect x="34" y="280" width="132" height="4" rx="2" fill="#fff" opacity=".2"/><rect x="34" y="280" width="62" height="4" rx="2" fill="#2ef27a"/>
-<text x="34" y="306" font-family="Inter,sans-serif" font-size="11" fill="#a9b8cb">07:12</text><text x="166" y="306" font-family="Inter,sans-serif" font-size="11" fill="#a9b8cb" text-anchor="end">15:00</text>
-<circle cx="100" cy="334" r="16" fill="#2ef27a"/><path d="M95 326 L107 334 L95 342 Z" fill="#0b1f3a"/>
-</svg>
+<text x="34" y="306" font-family="Inter,sans-serif" font-size="11" fill="#dcc7b4">07:12</text><text x="166" y="306" font-family="Inter,sans-serif" font-size="11" fill="#dcc7b4" text-anchor="end">15:00</text>
+<circle cx="100" cy="334" r="16" fill="#2ef27a"/><path d="M95 326 L107 334 L95 342 Z" fill="#2b1710"/></svg>
 </template>
 </section>
 
@@ -343,15 +354,20 @@
 (function(){
   var s=document.currentScript.previousElementSibling;if(!s||!s.classList.contains('vk'))return;
   var D=[
-    {t:'Résistance',h:'La barre et ses élastiques',p:"Le geste du Reformer, sans la machine. Tu tires, tu pousses, tu contrôles : chaque mouvement travaille en douceur.",l:['Démontable, se range partout','Élastiques fixés aux deux poignées','Bras, dos, jambes']},
-    {t:'Glisse',h:'Les 2 disques de glisse',p:"Sous les mains ou sous les pieds, ils glissent au sol pour enchaîner les mouvements de gainage avec fluidité.",l:['Légers et faciles à ranger','Gainage, fessiers, abdos','Pour les mains ou les pieds']},
+    {t:'La base',h:'Le tapis',p:"Ton espace de séance, prêt en deux secondes. Tu le déroules, tu commences, tu le ranges.",l:['Ta zone de séance, partout','Se roule et se range','Assorti au reste du kit']},
+    {t:'Gainage',h:'Le petit ballon',p:"Entre les genoux, sous le dos ou dans les mains : il ajoute un peu d'instabilité pour faire travailler les muscles profonds.",l:['Abdos et dos','Intérieur des cuisses','Étirements accompagnés']},
+    {t:'Résistance',h:'Le cercle de Pilates',p:"Tu le presses, tu l'écartes : il résiste à chaque mouvement. L'accessoire culte du Pilates.",l:['Bras et poitrine','Intérieur et extérieur des cuisses','Poignées rembourrées']},
+    {t:'Intensité',h:'Les 3 bandes élastiques',p:"Trois couleurs, trois niveaux de résistance. Tu commences par la plus douce et tu progresses à ton rythme.",l:['3 niveaux de résistance','Fessiers et jambes','Progression à ton rythme']},
+    {t:'Soutien',h:'La brique',p:"Elle t'aide à bien te placer : sous les mains, sous le bassin ou entre les genoux. Idéale quand on débute.",l:['Aide au placement','Débutante bienvenue','Légère et compacte']},
+    {t:'Glisse',h:'Les 2 sliders',p:"Sous les mains ou sous les pieds, ils glissent au sol pour enchaîner les mouvements avec fluidité.",l:['Gainage','Fessiers et jambes','Mains ou pieds']},
+    {t:'Récupération',h:'Le rouleau',p:"En fin de séance, pour relâcher le dos et les jambes en douceur.",l:['Fin de séance','Dos et jambes','Reliefs texturés']},
     {t:'Méthode',h:'Le programme vidéo',p:"15 minutes par jour, en français, de la première séance au défi final. Puis une nouvelle séance chaque semaine.",l:['Défi de 30 jours guidé','Débutante bienvenue','Une nouvelle séance chaque semaine']}
   ];
   var src=s.querySelectorAll('.vk-src'),big=s.querySelector('.vk-big'),card=s.querySelector('.vk-card'),cnt=s.querySelector('.vk-count'),row=s.querySelector('.vk-row'),cur=0;
-  function fill(n){cur=(n+3)%3;var d=D[cur];
+  function fill(n){var N=D.length;cur=(n+N)%N;var d=D[cur];
     card.querySelector('.tag').textContent=d.t;card.querySelector('h3').textContent=d.h;card.querySelector('p').textContent=d.p;
     card.querySelector('ul').innerHTML=d.l.map(function(x){return '<li>'+x+'</li>'}).join('');
-    big.innerHTML=src[cur].innerHTML;cnt.textContent='0'+(cur+1)+' / 03';}
+    big.innerHTML=src[cur].innerHTML;cnt.textContent='0'+(cur+1)+' / 0'+D.length;}
   function open(n){fill(n);s.classList.add('open');}
   function swap(n){s.classList.remove('open');setTimeout(function(){open(n)},260);}
   function close(){s.classList.remove('open');}
@@ -365,7 +381,7 @@
   /* le mot glisse doucement au défilement, comme sur la vidéo */
   if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
   var tk=false;function mv(){tk=false;var r=s.getBoundingClientRect(),h=innerHeight,p=(h-r.top)/(h+r.height);p=p<0?0:p>1?1:p;
-    row.style.transform='translate(calc(-50% + '+((.5-p)*8).toFixed(2)+'vw),-50%)';}
+    var amp=innerWidth<761?0:8;row.style.transform='translate(calc(-50% + '+((.5-p)*amp).toFixed(2)+'vw),-50%)';}
   addEventListener('scroll',function(){if(!tk){tk=true;requestAnimationFrame(mv)}},{passive:true});mv();
 })();
 </script>
@@ -373,7 +389,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap">
 <style>
-  .vp{--navy:#0b1f3a;--navy2:#132b4d;--ink:#0b1f3a;--white:#ffffff;--paper:#f6f8fb;--fluo:#2ef27a;--muted:#5d6b7d;--line:#dde4ec;--soft:#a9b8cb;
+  .vp{--navy:#552b1d;--navy2:#6a3726;--ink:#2b1710;--white:#ffffff;--paper:#f4ece2;--fluo:#2ef27a;--muted:#7a5a48;--line:#e7dccd;--soft:#dcc7b4;
       font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased;overflow:hidden}
   .vp *{box-sizing:border-box}
   .vp h1,.vp h2,.vp h3{font-family:'Outfit','Inter',sans-serif;letter-spacing:-.02em;margin:0;text-wrap:balance}
@@ -424,7 +440,7 @@
   .vp .kit .head p{color:var(--muted);max-width:42ch}
   .vp .items{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:64px}
   .vp .item{background:var(--white);border-radius:24px;padding:28px;transition:transform .35s ease,box-shadow .35s ease}
-  .vp .item:hover{transform:translateY(-6px);box-shadow:0 24px 50px rgba(11,31,58,.10)}
+  .vp .item:hover{transform:translateY(-6px);box-shadow:0 24px 50px rgba(85,43,29,.12)}
   .vp .item .pic{aspect-ratio:4/3;border-radius:16px;background:var(--navy);display:grid;place-items:center;margin-bottom:24px}
   .vp .item .pic svg{width:78%;height:auto}
   .vp .item .tag{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
@@ -529,12 +545,12 @@
 </style>
 
 <div class="vp">
-  <section class="hero">
+  <section class="hero" style="display:none">
     <div class="in">
       <div>
         <p class="kicker">VAURE · Le Pilates à la maison</p>
-        <h1>Le Reformer chez toi.<span class="l2">15 minutes par jour.</span></h1>
-        <p class="lead">Une barre, deux disques de glisse et un programme guidé de 30 jours. Pour te sentir plus tonique et plus droite, au prix d'une seule séance en studio.</p>
+        <h1>Ton studio de Pilates chez toi.<span class="l2">15 minutes par jour.</span></h1>
+        <p class="lead">Un tapis, 7 accessoires assortis et un programme guidé de 30 jours. Pour te sentir plus tonique et plus droite, au prix d'une seule séance en studio.</p>
         <div class="row">
           <a class="btn" href="#vp-attente">Rejoindre la liste d'attente <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           <span class="soon">Lancement très bientôt</span>
@@ -542,7 +558,7 @@
         <div class="meta">
           <div><b>15 min</b>par jour</div>
           <div><b>30 jours</b>de programme guidé</div>
-          <div><b>3 pièces</b>qui tiennent dans un tiroir</div>
+          <div><b>8 pièces</b>qui se rangent dans un placard</div>
         </div>
       </div>
       <div class="art" aria-hidden="true">
@@ -561,8 +577,8 @@
       </div>
     </div>
     <div class="marquee" aria-hidden="true"><div class="track">
-      <span>15 minutes par jour</span><span>Chez toi</span><span>Programme de 30 jours</span><span>Débutante bienvenue</span><span>À ton rythme</span><span>Façon Reformer</span>
-      <span>15 minutes par jour</span><span>Chez toi</span><span>Programme de 30 jours</span><span>Débutante bienvenue</span><span>À ton rythme</span><span>Façon Reformer</span>
+      <span>15 minutes par jour</span><span>Chez toi</span><span>Programme de 30 jours</span><span>Débutante bienvenue</span><span>À ton rythme</span><span>Studio complet</span>
+      <span>15 minutes par jour</span><span>Chez toi</span><span>Programme de 30 jours</span><span>Débutante bienvenue</span><span>À ton rythme</span><span>Studio complet</span>
     </div></div>
   </section>
 
@@ -570,17 +586,17 @@
     <div class="in grid">
       <div>
         <p class="kicker rv">Le constat</p>
-        <h2 class="rv">Le Reformer t'a fait aimer le Pilates. <em>Son prix et ses horaires, beaucoup moins.</em></h2>
+        <h2 class="rv">Le Pilates en studio, tu adores. <em>Son prix et ses horaires, beaucoup moins.</em></h2>
       </div>
       <div class="facts">
-        <div class="fact rv"><p class="n">25–35 €<small>la séance</small></p><p>Le prix d'un cours de Reformer en studio.</p></div>
+        <div class="fact rv"><p class="n">25–35 €<small>la séance</small></p><p>Le prix d'un cours de Pilates Reformer en studio.</p></div>
         <div class="fact rv"><p class="n">+100 €<small>par mois</small></p><p>Pour une seule séance par semaine.</p></div>
         <div class="fact good rv"><p class="n"><span>39,90 €</span><small>une fois</small></p><p>Le kit VAURE, programme de 30 jours inclus.</p></div>
       </div>
     </div>
   </section>
 
-  <section class="kit" id="vp-kit">
+  <section class="kit" style="display:none" id="vp-kit">
     <div class="in">
       <div class="head">
         <div><p class="kicker rv">Le kit</p><h2 class="rv">Le matériel et la méthode, enfin réunis.</h2></div>
@@ -610,9 +626,9 @@
       <div class="timeline rv">
         <span class="bar" aria-hidden="true"></span>
         <div class="step"><p class="d">Jours 1 à 7</p><h3>Les bases</h3><p>Respiration, centre, posture. Chaque mouvement appris en douceur.</p></div>
-        <div class="step"><p class="d">Jours 8 à 14</p><h3>Gainage</h3><p>Abdominaux profonds et dos, avec la barre et les élastiques.</p></div>
-        <div class="step"><p class="d">Jours 15 à 21</p><h3>Bas du corps</h3><p>Fessiers et jambes, avec les disques de glisse.</p></div>
-        <div class="step"><p class="d">Jours 22 à 30</p><h3>Enchaînements</h3><p>Des séances complètes, comme un vrai cours de Reformer.</p></div>
+        <div class="step"><p class="d">Jours 8 à 14</p><h3>Gainage</h3><p>Abdominaux profonds et dos, avec le cercle et le ballon.</p></div>
+        <div class="step"><p class="d">Jours 15 à 21</p><h3>Bas du corps</h3><p>Fessiers et jambes, avec les bandes et les sliders.</p></div>
+        <div class="step"><p class="d">Jours 22 à 30</p><h3>Enchaînements</h3><p>Des séances complètes, comme un vrai cours en studio.</p></div>
       </div>
     </div>
   </section>
@@ -622,9 +638,9 @@
       <p class="kicker rv">Pourquoi VAURE</p>
       <h2 class="rv">Tout ce qu'il te faut. Rien de ce qui te freine.</h2>
       <div class="tbl rv"><table>
-        <thead><tr><th></th><th>Studio</th><th>Barre seule</th><th>Appli vidéo</th><th class="us">VAURE</th></tr></thead>
+        <thead><tr><th></th><th>Studio</th><th>Accessoires seuls</th><th>Appli vidéo</th><th class="us">VAURE</th></tr></thead>
         <tbody>
-          <tr><td>Matériel façon Reformer</td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="no" aria-label="non"></span></td><td class="us"><span class="ok" aria-label="oui">✓</span></td></tr>
+          <tr><td>Matériel complet de studio</td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="no" aria-label="non"></span></td><td class="us"><span class="ok" aria-label="oui">✓</span></td></tr>
           <tr><td>Programme guidé</td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="no" aria-label="non"></span></td><td><span class="ok" aria-label="oui">✓</span></td><td class="us"><span class="ok" aria-label="oui">✓</span></td></tr>
           <tr><td>Chez toi, à ton heure</td><td><span class="no" aria-label="non"></span></td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="ok" aria-label="oui">✓</span></td><td class="us"><span class="ok" aria-label="oui">✓</span></td></tr>
           <tr><td>Prix</td><td>25–35 € la séance</td><td>Bas, sans méthode</td><td>Abonnement</td><td class="us"><b>39,90 € une fois</b></td></tr>
@@ -642,12 +658,12 @@
       </div>
       <div class="qs">
         <details class="rv"><summary>Je suis débutante, c'est pour moi ?<i></i></summary><p>Oui. La première semaine sert à apprendre les bases, et chaque mouvement a une version plus facile.</p></details>
-        <details class="rv"><summary>J'ai un petit appartement, j'ai la place ?<i></i></summary><p>La place d'un tapis suffit. La barre se démonte et tout le kit tient dans un tiroir.</p></details>
+        <details class="rv"><summary>J'ai un petit appartement, j'ai la place ?<i></i></summary><p>La place d'un tapis suffit. Tout le kit se range dans un placard.</p></details>
         <details class="rv"><summary>J'ai peur d'abandonner au bout de 3 jours.<i></i></summary><p>Le programme dure 15 minutes et te dit exactement quoi faire chaque jour. Tu coches ta séance, tu avances.</p></details>
-        <details class="rv"><summary>Une barre se trouve à 18 €, pourquoi VAURE ?<i></i></summary><p>Une barre seule ne te dit pas quoi faire. VAURE réunit le matériel complet et un programme guidé de 30 jours, filmé par une coach diplômée.</p></details>
+        <details class="rv"><summary>Des accessoires se trouvent pas cher, pourquoi VAURE ?<i></i></summary><p>Des accessoires seuls ne te disent pas quoi faire. VAURE réunit un tapis, 7 accessoires assortis et un programme guidé de 30 jours, filmé par une coach diplômée.</p></details>
         <details class="rv"><summary>Est-ce que ça remplace un cours en studio ?<i></i></summary><p>Non, ce n'est pas le but. VAURE te permet de pratiquer chez toi entre deux cours, ou quand le studio n'est pas possible.</p></details>
         <details class="rv"><summary>Et si le kit ne me convient pas ?<i></i></summary><p>Tu pourras le retourner pendant 30 jours. Les délais de livraison seront indiqués clairement avant la commande.</p></details>
-        <div class="safe rv"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z" fill="#2ef27a"/><path d="M8 12l3 3 5-6" fill="none" stroke="#0b1f3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><p><b>Ta sécurité d'abord.</b> Chaque séance commence par un échauffement. En cas de grossesse, de douleur ou de problème de dos, demande l'avis d'un professionnel de santé avant de commencer. VAURE parle de tonus, de posture et de bien-être, jamais de promesse médicale.</p></div>
+        <div class="safe rv"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z" fill="#2ef27a"/><path d="M8 12l3 3 5-6" fill="none" stroke="#2b1710" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><p><b>Ta sécurité d'abord.</b> Chaque séance commence par un échauffement. En cas de grossesse, de douleur ou de problème de dos, demande l'avis d'un professionnel de santé avant de commencer. VAURE parle de tonus, de posture et de bien-être, jamais de promesse médicale.</p></div>
       </div>
     </div>
   </section>
@@ -694,3 +710,4 @@
 })();
 </script>
 
+</body>

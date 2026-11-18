@@ -447,3 +447,10 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Nouvelle section `sections/vaure-pilates-vitrine.liquid` (id #vp-kit) juste après le scroll : le mot géant VAURE avec la barre, les disques et le téléphone glissés entre les lettres, qui flottent ; au toucher, l'élément s'agrandit et une carte « verre dépoli » s'ouvre (texte, 3 points, 39,90 €, liste d'attente), flèches précédent/suivant. Sur téléphone, le détail s'ouvre en plein écran.
 - Réglage `hide_old_kit` (coché) : masque l'ancien bloc « Le kit ».
 - Envoyé sur le brouillon 199730561406, MD5 vérifiés (vitrine 9f234e91…, index 4dcca8b2…). Aperçus : apercu_accueil_v2.html, apercu_vitrine_telephone.mp4, apercu_vitrine_ordinateur.png.
+
+## Nouveau kit 8 pièces + palette B (crème, chocolat, vert fluo)
+- Kit retenu : tapis, petit ballon, cercle, 3 bandes élastiques, brique, 2 sliders, rouleau (couleur chocolat, logo personnalisable) + programme vidéo. L'ancienne barre « Reformer » est abandonnée.
+- Palette 60/30/10 : crème #F4ECE2, chocolat #552B1D (texte foncé #2B1710), vert fluo #2EF27A pour les boutons.
+- Les 3 sections recolorées et réécrites ; la vitrine présente les 8 pièces (dessins chocolat), 3 dans le mot VAURE.
+- Envoyé sur le brouillon 199730561406, MD5 vérifiés : home bc1c6ab8…, scroll c03b1c03…, vitrine 770629ba…, index 4dcca8b2….
+- À faire : prix fournisseur du kit (marge), prix de vente 39,90 € à confirmer ; header/footer du thème encore aux anciennes couleurs.
