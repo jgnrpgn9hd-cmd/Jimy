@@ -518,3 +518,13 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Bouton « Minuteur | À ton rythme » : le minuteur lance l'exercice tout seul ; « à ton rythme » attend que la cliente appuie sur « Je suis prête ».
 - Bande forte en marron foncé (#534032) pour la distinguer de la moyenne (taupe #997b63).
 - Pas de validation par une prof (décision de Jairo) : on garde uniquement des mouvements classiques et sûrs, chacun avec une version plus facile, et la note de sécurité (avis d'un professionnel de santé en cas de grossesse, douleur ou problème de dos).
+
+### Espace « Mes séances » : les 30 jours + onglet Musique (18/11)
+- `scutify/pilates/espace_seances/index.html` : appli web (téléphone).
+  - Onglet Séances : progression, séance du jour, grille 30 jours (couleur par phase), fiche du jour (matériel à sortir, plan, durée calculée ≈ 14-15 min).
+  - Lecteur : 18 exercices animés (illustration), « Prépare ton matériel » avant chaque nouvel exercice avec version plus facile, rappel court entre les tours, vrai choix Minuteur / À ton rythme (bouton « Fini »), pause, passer, fin de séance qui coche le jour (mémorisé sur le téléphone).
+  - Programme : échauffement respiration + mouvements de la phase (rappels des phases précédentes si besoin) + retour au calme sur le rouleau ; jour 30 = séance du jour 1.
+  - Onglet Musique : on colle un lien Spotify, Deezer, Apple Music ou YouTube → lecteur intégré qui reste chargé pendant toute la séance (bouton « Musique » dans le lecteur). Sans compte connecté, certaines plateformes ne jouent que des extraits. Lecture réelle non testable ici (Spotify/Deezer bloqués dans l'environnement de travail).
+  - Sliders : « au sol, hors du tapis, pour qu'ils glissent ».
+- Page défi (brouillon 199730561406) alignée sur l'appli : MD5 da138be8… vérifié. Rien de publié.
+- Plus tard : connexion Spotify par compte (nécessite une appli développeur Spotify + Premium), playlists VAURE à créer par Jairo, hébergement de l'espace derrière le compte client.
