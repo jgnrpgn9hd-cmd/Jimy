@@ -432,3 +432,5 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 ## Étape — Site Shopify : thème non publié « VAURE Pilates – brouillon » (gid 199730561406), copie de « VAURE – version 3 ». Page d'accueil = section sections/vaure-pilates-home.liquid (sans produit, liste d'attente via formulaire client, tag liste-attente-vaure-pilates). Copie locale : pilates/shopify/. theme_bash et theme_screenshot refusés (droits du connecteur) ; écriture via themeFilesUpsert.
 
 ## Étape — Brouillon Shopify : menus créés vaure-pilates (Le kit, Le défi 30 jours, FAQ, Liste d'attente → ancres /#vp-...) et vaure-pilates-aide ; header du brouillon = menu Pilates + annonces « Programme vidéo de 30 jours inclus » / « Retours sous 30 jours », pop-up bijoux retirée ; footer = menus Pilates + aide + maison. Choix A/B (bijoux) toujours en attente.
+
+## Étape — Animations ajoutées à la page d'accueil Pilates (tracé du symbole, entrée du hero, apparition au défilement, survols, bouton qui pulse). Fichier envoyé et vérifié (md5 identique). Vidéo : scutify/pilates/shopify/apercu_animations.mp4
