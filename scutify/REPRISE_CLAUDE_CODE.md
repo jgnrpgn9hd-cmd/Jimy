@@ -606,3 +606,8 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Ajoutée en fin d'index.html. Sur Shopify, elle est ajoutée au bout de assets/vaure-rouleau.js (af5fdb23…), déjà chargé par page.seances.
 - Le film d'accueil (vaure-pilates-film) a sa propre copie du dessin, encore à l'ancienne version.
 - photos_site/PROMPTS_EXERCICES.md : prompts pour 18 vraies photos d'exercices, en option.
+
+## Vraies photos dans l'appli
+- espace_seances/photos_exercices.js, aussi ajouté au bout de assets/vaure-rouleau.js (b041f204…) : la photo remplace le dessin pendant l'exercice. Si la photo est absente ou ne charge pas, le dessin reste.
+- Photos branchées : pont, squat, planche, rouleau (CDN Shopify .../files/ + nom du fichier, donc à téléverser).
+- Les 14 autres exercices attendent leurs photos : prompts dans photos_site/PROMPTS_EXERCICES.md. Pour en ajouter une : une ligne dans PH {id:[fichier, cadrage, ratio]}.
