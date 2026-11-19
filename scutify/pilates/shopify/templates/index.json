@@ -37,6 +37,10 @@
     "vaure_ambiance": {
       "type": "vaure-pilates-ambiance",
       "settings": {}
+    },
+    "vaure_toutes": {
+      "type": "vaure-pilates-toutes",
+      "settings": {}
     }
   },
   "order": [
@@ -44,6 +48,7 @@
     "vaure_coffret",
     "vaure_film",
     "vaure_ambiance",
+    "vaure_toutes",
     "vaure_appli",
     "vaure_sport",
     "vaure_pilates",

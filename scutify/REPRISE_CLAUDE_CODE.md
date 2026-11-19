@@ -579,3 +579,9 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Photos (générées avec ChatGPT, optimisées en WebP) : `pilates/photos_site/` → vaure-kit-vue-dessus.webp (coffret + fiche produit), vaure-pont-salon.webp (nouvelle section « ambiance » + fiche), vaure-bandes.webp (fiche). Le site les appelle par leur nom via `file_url` : Jairo doit les déposer dans Shopify > Contenu > Fichiers avec ces noms exacts, sinon images cassées.
 - Nouvelle section `vaure-pilates-ambiance.liquid` entre le film et la section exercices : « Ton salon devient ton studio », photo du salon en léger zoom au défilement (ordi : texte à gauche sur chocolat, photo à droite ; téléphone : photo plein écran, texte en bas).
 - La fenêtre d'envoi de fichiers (upload_file) a été refusée → dépôt manuel par Jairo.
+
+## Section « Elle te ressemble » (accueil)
+- sections/vaure-pilates-toutes.liquid (md5 473ec2d6…) : 3 cartes photo (squat bande moyenne, planche avant-bras, mountain climber sliders), défilement horizontal sur mobile, 3 colonnes décalées sur ordinateur.
+- index.json (41c79926…) : vaure_toutes inséré après vaure_ambiance. Envoyé sur le thème 199816577406 « VAURE Pilates – photos » (non publié).
+- Photos à téléverser dans Contenu > Fichiers : vaure-squat-bande.webp, vaure-planche-foulard.webp, vaure-sliders-genoux.webp.
+- vaure-cercle-a-refaire.webp NON utilisée : le cercle n'est pas serré entre les genoux.
