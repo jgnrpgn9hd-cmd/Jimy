@@ -585,3 +585,8 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - index.json (41c79926…) : vaure_toutes inséré après vaure_ambiance. Envoyé sur le thème 199816577406 « VAURE Pilates – photos » (non publié).
 - Photos à téléverser dans Contenu > Fichiers : vaure-squat-bande.webp, vaure-planche-foulard.webp, vaure-sliders-genoux.webp.
 - vaure-cercle-a-refaire.webp NON utilisée : le cercle n'est pas serré entre les genoux.
+
+## Photos pièce par pièce
+- coffret (md5 4ee3afde…) : bande « Pièce par pièce » avec 5 photos (vaure-tapis, vaure-cercle, vaure-ballon, vaure-brique-sliders, vaure-rouleau-dos .webp, 900x1125).
+- produit (30ccfa9f…) : galerie de secours à 4 miniatures (pont, bandes, cercle, brique-sliders), recadrées en 4:5.
+- Envoyé sur le thème 199816577406 (non publié). Les sliders du kit sont ovales : la photo du mountain climber les montre ronds, c'est à refaire un jour.
