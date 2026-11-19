@@ -553,4 +553,4 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 ### Silhouettes redessinées (19/11)
 - Dessin organique : contours lissés (courbes), cuisses et mollets galbés, vrai buste (taille, hanches, poitrine), brassière à encolure arrondie avec bretelle, legging taille haute, mains et pieds, reflet de lumière ; tête avec œil, sourcil, oreille, menton, coupe de cheveux en volume ; queue de cheval ne passe plus sous le tapis.
 - Mêmes choix (6 peaux, 6 coiffures dont foulard, 5 couleurs, 3 morphologies). Aperçu : espace_seances/apercu_silhouettes_v2.png.
-- Thème brouillon : assets/vaure-seances.js MD5 9589dfd9… vérifié. Rien de publié.
+- Thème brouillon : assets/vaure-seances.js MD5 bf3e2e83… vérifié (oreille, bretelle, bouche retouchées). Rien de publié.
