@@ -599,3 +599,10 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
   - À la place, assets/vaure-rouleau.js (c83f11e5…) applique le correctif ; il est chargé après vaure-seances.js dans page.seances (7210e448…).
   - Si on réenvoie un jour le vaure-seances.js complet, le correctif devient inutile.
 - produit (6d8772ec…) : carte « Le rouleau » corrigée.
+
+## Silhouettes v2
+- espace_seances/silhouette_v2.js remplace drawBody : corps plus pleins (buste, épaules arrondies, mollets), tête plus grande, cou court.
+- Tenue chocolat comme sur les photos (brassière foncée, legging chocolat, liserés fluo, chaussettes blanches), visage épuré, articulations lissées.
+- Ajoutée en fin d'index.html. Sur Shopify, elle est ajoutée au bout de assets/vaure-rouleau.js (af5fdb23…), déjà chargé par page.seances.
+- Le film d'accueil (vaure-pilates-film) a sa propre copie du dessin, encore à l'ancienne version.
+- photos_site/PROMPTS_EXERCICES.md : prompts pour 18 vraies photos d'exercices, en option.
