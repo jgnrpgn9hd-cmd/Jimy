@@ -84,7 +84,11 @@
           </div>
         {%- endif -%}
       {%- else -%}
-        <img src="{{ 'kit-vaure-creme.webp' | asset_url }}" width="800" height="800" alt="Le kit VAURE : tapis, cercle, ballon, 3 bandes, brique, 2 sliders et rouleau" loading="eager">
+        <img src="{{ 'vaure-kit-vue-dessus.webp' | file_url }}" width="1200" height="1281" alt="Le kit VAURE vu du dessus : petit ballon, cercle, 3 bandes, brique, 2 sliders, rouleau et tapis" loading="eager">
+        <div class="thumbs" style="grid-template-columns:1fr 1fr">
+          <img src="{{ 'vaure-pont-salon.webp' | file_url }}" width="1600" height="1751" alt="Pont fessier avec la bande taupe sur le tapis VAURE, dans un salon lumineux" loading="lazy">
+          <img src="{{ 'vaure-bandes.webp' | file_url }}" width="1199" height="1312" alt="Les 3 bandes VAURE : légère crème, moyenne taupe, forte chocolat" loading="lazy">
+        </div>
       {%- endif -%}
     </div>
 

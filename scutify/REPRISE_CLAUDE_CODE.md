@@ -573,3 +573,9 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 
 ### Logo Instagram (19/11)
 - `pilates/logo_insta/` : 5 photos de profil 1080×1080 (PNG + SVG), symbole centré pour le cercle Instagram : chocolat (recommandé), crème, nuit, fluo, logo complet. Aperçu en cercle : apercu_cercle.png. Retour de Jairo sur le site : début correct, « à partir de la vidéo c'est génial ».
+
+### Photos IA de Jairo intégrées (19/11)
+- Jairo a publié « VAURE Pilates – transitions » (199815266686 = MAIN). Nouvelle copie de travail : « VAURE Pilates – photos » (gid 199816577406, non publiée). MD5 vérifiés : ambiance b7b6d914…, coffret a0e485ac…, produit a8b7f203…, index.json 82f389d8….
+- Photos (générées avec ChatGPT, optimisées en WebP) : `pilates/photos_site/` → vaure-kit-vue-dessus.webp (coffret + fiche produit), vaure-pont-salon.webp (nouvelle section « ambiance » + fiche), vaure-bandes.webp (fiche). Le site les appelle par leur nom via `file_url` : Jairo doit les déposer dans Shopify > Contenu > Fichiers avec ces noms exacts, sinon images cassées.
+- Nouvelle section `vaure-pilates-ambiance.liquid` entre le film et la section exercices : « Ton salon devient ton studio », photo du salon en léger zoom au défilement (ordi : texte à gauche sur chocolat, photo à droite ; téléphone : photo plein écran, texte en bas).
+- La fenêtre d'envoi de fichiers (upload_file) a été refusée → dépôt manuel par Jairo.

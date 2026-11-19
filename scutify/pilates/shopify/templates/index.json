@@ -33,12 +33,17 @@
     "vaure_liens": {
       "type": "vaure-pilates-liens",
       "settings": {}
+    },
+    "vaure_ambiance": {
+      "type": "vaure-pilates-ambiance",
+      "settings": {}
     }
   },
   "order": [
     "vaure_3d",
     "vaure_coffret",
     "vaure_film",
+    "vaure_ambiance",
     "vaure_appli",
     "vaure_sport",
     "vaure_pilates",
