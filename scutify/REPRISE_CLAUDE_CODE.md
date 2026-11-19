@@ -542,3 +542,10 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Page « Les exercices » /pages/les-exercices (gid 711062716798, gabarit seances, noindex).
 - Menu vaure-pilates : Le kit · Le défi 30 jours · Les exercices · FAQ · Liste d'attente.
 - Rien de publié. Plus tard : réserver la page aux clientes (compte client) ou garder le jour 1 en accès libre comme démonstration.
+
+### Amélioration du site : textes vrais + section « Les exercices » (19/11)
+- Corrigé (faux par rapport au kit réel) : « barre démontable », « disques de glisse », « filmé par une coach diplômée », « programme vidéo », « plus tonique et plus droite », « sentir la différence », « Reformer », « au prix d'une seule séance » (39,90 € > 35 €) → remplacés par les vraies pièces et « exercices guidés ».
+- Fichiers (brouillon 199730561406, MD5 vérifiés) : home 82167597…, 3d 9198d0ce…, coffret d58c8d6e…, produit d0d6a643… (lien « les essayer ici »), page.seances 8b076c2c… (correctif écran étroit < 380 px).
+- Nouvelle section accueil `vaure-pilates-appli` (3fa9a24e…) après le coffret : « Chaque séance, guidée pas à pas », 4 points, musique, bouton « Essayer les exercices », téléphone avec l'appli en direct (iframe /pages/les-exercices). index.json 18b93081….
+- Page FAQ et description du produit : « programme vidéo » → « exercices guidés ».
+- Couleur bleu marine du dessin d'accueil remplacée par le chocolat. Rien de publié.

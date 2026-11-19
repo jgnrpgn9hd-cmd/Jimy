@@ -1,0 +1,64 @@
+<style>
+  .vap{--fluo:#2ef27a;--ink:#2b1710;--night:#140b08;background:var(--night);color:#fbf7f2;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;position:relative;overflow:hidden}
+  .vap *{box-sizing:border-box}
+  .vap::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(-58deg,rgba(255,255,255,.035) 0 2px,transparent 2px 22px);pointer-events:none}
+  .vap .in{max-width:1200px;margin:0 auto;padding:104px 24px;display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:center;position:relative}
+  .vap .k{font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--fluo);display:flex;align-items:center;gap:10px}
+  .vap .k::before{content:"";width:28px;height:3px;background:var(--fluo);transform:skewX(-20deg)}
+  .vap h2{font-family:'Barlow Condensed','Outfit',sans-serif;font-weight:800;text-transform:uppercase;font-size:clamp(44px,5.6vw,80px);line-height:.9;margin:16px 0 0;letter-spacing:-.005em}
+  .vap h2 em{font-style:italic;color:var(--fluo)}
+  .vap .lead{color:#dcc7b4;font-size:17px;line-height:1.5;max-width:44ch;margin:18px 0 0}
+  .vap ol{list-style:none;padding:0;margin:36px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:28px 32px}
+  .vap li{border-top:1px solid rgba(255,255,255,.14);padding-top:16px}
+  .vap li b{display:block;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-style:italic;font-size:15px;color:var(--fluo);letter-spacing:.06em}
+  .vap li h3{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:26px;line-height:.95;margin:6px 0 6px}
+  .vap li p{margin:0;color:#b9a393;font-size:14px;line-height:1.5}
+  .vap .mus{margin:28px 0 0;font-size:14px;color:#dcc7b4}
+  .vap .mus b{color:#fff}
+  .vap .btn{display:inline-flex;align-items:center;gap:10px;margin-top:28px;background:var(--fluo);color:var(--ink);font-weight:700;font-size:15px;padding:16px 26px;border-radius:999px;text-decoration:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s ease-out}
+  .vap .btn:active{transform:scale(.97)}
+  .vap .ph{justify-self:center;position:relative;width:min(340px,100%)}
+  .vap .frame{position:relative;aspect-ratio:9/18.5;border-radius:46px;background:#000;padding:12px;box-shadow:0 0 0 2px #3a2a22,0 40px 90px rgba(0,0,0,.55)}
+  .vap .frame iframe{display:block;width:100%;height:100%;border:0;border-radius:36px;background:#f4ece2}
+  .vap .notch{position:absolute;top:20px;left:50%;transform:translateX(-50%);width:90px;height:24px;border-radius:999px;background:#000;z-index:2}
+  .vap .try{position:absolute;left:-18px;top:40px;transform:rotate(-6deg);background:var(--fluo);color:var(--ink);font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:18px;padding:8px 14px;border-radius:10px;z-index:3}
+  @media (max-width:900px){
+    .vap .in{grid-template-columns:1fr;gap:48px;padding:72px 16px}
+    .vap ol{grid-template-columns:1fr;gap:18px}
+    .vap .ph{width:min(300px,86vw)}
+    .vap .try{left:-8px}
+  }
+</style>
+
+<section class="vap" aria-label="Les exercices VAURE">
+  <div class="in">
+    <div>
+      <span class="k">Les exercices</span>
+      <h2>Chaque séance, <em>guidée pas à pas.</em></h2>
+      <p class="lead">Tu n'as jamais fait de Pilates ? Pas grave. Avant chaque exercice, on te dit quoi prendre dans le kit et comment t'en servir. Ensuite, tu n'as plus qu'à suivre.</p>
+      <ol>
+        <li><b>01</b><h3>Prépare ton matériel</h3><p>Quel accessoire prendre, comment le placer, comment te mettre en position.</p></li>
+        <li><b>02</b><h3>Suis le mouvement</h3><p>Chaque exercice est animé, avec la respiration à suivre et une version plus facile.</p></li>
+        <li><b>03</b><h3>Minuteur ou à ton rythme</h3><p>Le temps défile tout seul, ou tu avances quand tu es prête.</p></li>
+        <li><b>04</b><h3>Elle te ressemble</h3><p>Choisis ta silhouette : couleur de peau, cheveux, foulard, morphologie.</p></li>
+      </ol>
+      <p class="mus"><b>Et ta musique :</b> Spotify, Deezer, Apple Music ou YouTube, directement dans ta séance.</p>
+      <a class="btn" href="/pages/les-exercices">Essayer les exercices
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+    </div>
+    <div class="ph">
+      <span class="try">Essaie ici</span>
+      <div class="frame"><span class="notch" aria-hidden="true"></span>
+        <iframe src="/pages/les-exercices" title="Aperçu des exercices VAURE" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "VAURE – les exercices",
+  "settings": [],
+  "presets": [{ "name": "VAURE – les exercices" }]
+}
+{% endschema %}

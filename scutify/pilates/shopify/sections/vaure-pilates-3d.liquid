@@ -56,7 +56,7 @@
       <div class="v3-b">
         <span class="k">Le kit</span>
         <h2>8 pièces. <em>Un seul coffret.</em></h2>
-        <p>Tapis, cercle, ballon, 3 bandes, brique, sliders, rouleau et le programme vidéo.</p>
+        <p>Tapis, cercle, ballon, 3 bandes, brique, sliders, rouleau et les exercices guidés.</p>
       </div>
       <div class="v3-b">
         <span class="k">Le défi VAURE</span>
@@ -168,7 +168,7 @@ const P=(x,y,z,rx,ry,rz)=>({p:new THREE.Vector3(x,y,z),q:new THREE.Quaternion().
    c.strokeStyle='#f4ece2';c.lineWidth=14;c.lineCap='round';c.beginPath();c.moveTo(150,380);c.lineTo(225,315);c.moveTo(150,380);c.lineTo(98,308);c.lineTo(172,256);c.stroke();c.fillStyle='#2ef27a';c.beginPath();c.arc(84,282,15,0,7);c.fill();
    c.fillStyle='rgba(255,255,255,.2)';c.fillRect(28,470,244,6);c.fillStyle='#2ef27a';c.fillRect(28,470,110,6);c.beginPath();c.arc(150,530,26,0,7);c.fill();});
  const s=new THREE.Mesh(new THREE.PlaneGeometry(.46,.94),new THREE.MeshBasicMaterial({map:scr,toneMapped:false}));s.position.z=.034;g.add(s);
- add('Le programme vidéo',g,P(2.9,1.3,.4,-.3,-.9,.2),P(1.75,.55,-.35,-.22,-.55,0));}
+ add('Les exercices guidés',g,P(2.9,1.3,.4,-.3,-.9,.2),P(1.75,.55,-.35,-.22,-.55,0));}
 
 /* Étiquettes */
 [[0,-.75,.55,0],[1,.6,.75,0],[2,0,.55,0],[3,-.2,.4,0],[4,.1,.15,.4],[5,0,.15,.35],[6,0,.35,.3],[7,.1,.6,0]].forEach(([i,x,y,z])=>pieces[i].lo.set(x,y,z));
