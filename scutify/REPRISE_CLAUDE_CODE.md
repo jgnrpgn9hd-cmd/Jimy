@@ -570,3 +570,6 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 ### Thème publié par Jairo + transitions entre sections (19/11)
 - Jairo a publié « VAURE Pilates – brouillon » (199730561406, maintenant MAIN). Le connecteur interdit d'écrire dans le thème en ligne → copie créée : « VAURE Pilates – transitions » (gid 199815266686, non publié). Toute nouvelle modif se fait sur cette copie, puis Jairo la publie.
 - Nouvelle section `vaure-pilates-liens.liquid` (MD5 9029ac4e…), dernière de l'accueil (index.json 1b8a0d64…) : chaque section monte comme une carte arrondie qui s'élargit (clip-path), la précédente s'assombrit (voile), titres mot par mot qui sortent du flou, listes/chiffres/images qui montent en cascade. Rien si mouvement réduit. Aperçu : apercu_transitions.png.
+
+### Logo Instagram (19/11)
+- `pilates/logo_insta/` : 5 photos de profil 1080×1080 (PNG + SVG), symbole centré pour le cercle Instagram : chocolat (recommandé), crème, nuit, fluo, logo complet. Aperçu en cercle : apercu_cercle.png. Retour de Jairo sur le site : début correct, « à partir de la vidéo c'est génial ».
