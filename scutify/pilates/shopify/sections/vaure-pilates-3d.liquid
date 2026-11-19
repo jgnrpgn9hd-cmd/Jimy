@@ -119,6 +119,8 @@ const logo=(g,x,y,s,col,sym)=>{const k=s/100,LW=sym?610:464,ox=sym?140:0;g.save(
 const CH=0x552b1d,CHL=0x6b3826,CR=0xefe3d3;
 const mat=(o)=>new THREE.MeshPhysicalMaterial(o);
 
+const stadium=(L,W)=>{const r=W/2,h=L/2-r,sh=new THREE.Shape();sh.moveTo(-h,-r);sh.lineTo(h,-r);sh.absarc(h,0,r,-Math.PI/2,Math.PI/2,false);sh.lineTo(-h,r);sh.absarc(-h,0,r,Math.PI/2,Math.PI*1.5,false);return sh;};
+const suede=tex(256,256,(c,w,h)=>{c.fillStyle='#4a2518';c.fillRect(0,0,w,h);for(let i=0;i<5000;i++){c.fillStyle=Math.random()<.5?'rgba(0,0,0,.08)':'rgba(255,220,190,.05)';c.fillRect(Math.random()*w,Math.random()*h,2,2);}});
 const pieces=[];
 const add=(name,obj,A,B)=>{obj.traverse(m=>{if(m.isMesh){m.castShadow=true;}});scene.add(obj);pieces.push({name,obj,A,B,ph:Math.random()*6.28,lo:new THREE.Vector3(0,.5,0)});return obj;};
 const P=(x,y,z,rx,ry,rz)=>({p:new THREE.Vector3(x,y,z),q:new THREE.Quaternion().setFromEuler(new THREE.Euler(rx,ry,rz))});
@@ -129,22 +131,24 @@ const P=(x,y,z,rx,ry,rz)=>({p:new THREE.Vector3(x,y,z),q:new THREE.Quaternion().
  const end=tex(256,256,(g2,w)=>{g2.fillStyle='#4a2418';g2.fillRect(0,0,w,w);g2.strokeStyle='#6e3a27';g2.lineWidth=7;g2.beginPath();for(let a=0;a<40;a+=.05){const r=4+a*2.9;g2.lineTo(w/2+Math.cos(a)*r,w/2+Math.sin(a)*r);}g2.stroke();});
  const cyl=new THREE.Mesh(new THREE.CylinderGeometry(.36,.36,1.9,96,1,true),side);g.add(cyl);
  for(const s of[1,-1]){const cap=new THREE.Mesh(new THREE.CircleGeometry(.36,64),mat({map:end,roughness:.9}));cap.rotation.x=-s*Math.PI/2;cap.position.y=s*.95;g.add(cap);}
- const lab=new THREE.Mesh(new THREE.CylinderGeometry(.362,.362,.34,96,1,true,-.6,1.2),mat({map:tex(512,128,(c,w,h)=>{c.fillStyle='#552b1d';c.fillRect(0,0,w,h);logo(c,w/2,h/2,56,'#f2e5d5');}),roughness:.8}));g.add(lab);
  add('Le tapis',g,P(-.4,2.6,-1.8,.4,.3,1.2),P(-.15,.36,-.95,0,.12,Math.PI/2));}
 // 2. Cercle de Pilates
 {const g=new THREE.Group();
- g.add(new THREE.Mesh(new THREE.TorusGeometry(.92,.055,32,160),mat({color:CH,roughness:.4,clearcoat:.5,clearcoatRoughness:.35})));
- for(const s of[1,-1]){const pad=new THREE.Mesh(new THREE.CapsuleGeometry(.11,.26,12,24),mat({color:0x3a1d14,roughness:.75,sheen:.4}));pad.position.x=s*.92;g.add(pad);}
+ g.add(new THREE.Mesh(new THREE.TorusGeometry(.92,.045,32,160),mat({color:0x5e2f1f,roughness:.55,clearcoat:.2})));
+ const padG=new THREE.ExtrudeGeometry(stadium(.46,.2),{depth:.035,bevelEnabled:true,bevelThickness:.012,bevelSize:.012,bevelSegments:3,curveSegments:16});padG.center();
+ const backG=new THREE.ExtrudeGeometry(stadium(.42,.17),{depth:.03,bevelEnabled:false,curveSegments:16});backG.center();
+ const padM=mat({map:suede,color:0xb08a78,roughness:1}),backM=mat({color:0x161010,roughness:.6});
+ for(const s of[1,-1])for(const io of[1,-1]){const pg=new THREE.Group();const pad=new THREE.Mesh(padG,padM),bk=new THREE.Mesh(backG,backM);
+   pad.position.z=io*.07;bk.position.z=io*.045;pg.add(pad,bk);pg.rotation.z=Math.PI/2;pg.rotation.y=Math.PI/2;pg.position.x=s*.92;g.add(pg);}
  add('Le cercle',g,P(2.1,2.2,-1.2,.9,-.5,.3),P(.95,.92,-1.15,-.12,-.35,0));}
 // 3. Petit ballon
-{const t=tex(1024,512,(c,w,h)=>{const gr=c.createLinearGradient(0,0,0,h);gr.addColorStop(0,'#6e3a27');gr.addColorStop(1,'#552b1d');c.fillStyle=gr;c.fillRect(0,0,w,h);logo(c,w*.5,h*.5,60,'rgba(242,229,213,.9)',true);});
- const b=new THREE.Mesh(new THREE.SphereGeometry(.42,96,64),mat({map:t,roughness:.32,clearcoat:.8,clearcoatRoughness:.2,sheen:.3}));b.rotation.y=-Math.PI/2;
- const g=new THREE.Group();g.add(b);add('Le ballon',g,P(.3,2.7,.6,.3,1.2,.2),P(.42,1.02,.15,0,-.35,0));}
+{const b=new THREE.Mesh(new THREE.SphereGeometry(.42,96,64),mat({color:0x6a3420,roughness:.28,clearcoat:.9,clearcoatRoughness:.15}));
+ const vl=new THREE.Mesh(new THREE.CylinderGeometry(.018,.022,.012,20),mat({color:0x3a1c12,roughness:.5}));vl.position.y=.418;
+ const g=new THREE.Group();g.add(b,vl);add('Le ballon',g,P(.3,2.7,.6,.3,1.2,.2),P(.42,1.02,.15,0,-.35,0));}
 // 4. Brique
 {const sh=new THREE.Shape(),w=.9,h=.58,r=.08;sh.moveTo(-w/2+r,-h/2);sh.lineTo(w/2-r,-h/2);sh.quadraticCurveTo(w/2,-h/2,w/2,-h/2+r);sh.lineTo(w/2,h/2-r);sh.quadraticCurveTo(w/2,h/2,w/2-r,h/2);sh.lineTo(-w/2+r,h/2);sh.quadraticCurveTo(-w/2,h/2,-w/2,h/2-r);sh.lineTo(-w/2,-h/2+r);sh.quadraticCurveTo(-w/2,-h/2,-w/2+r,-h/2);
  const geo=new THREE.ExtrudeGeometry(sh,{depth:.3,bevelEnabled:true,bevelThickness:.03,bevelSize:.03,bevelSegments:5,curveSegments:10});geo.center();
  const g=new THREE.Group();g.add(new THREE.Mesh(geo,mat({color:CR,roughness:.95})));
- const face=new THREE.Mesh(new THREE.PlaneGeometry(.7,.3),new THREE.MeshStandardMaterial({map:tex(512,220,(c,w,h)=>{c.clearRect(0,0,w,h);logo(c,w/2,h/2,66,'rgba(150,118,92,.85)',true);}),transparent:true,roughness:1}));face.position.z=.181;g.add(face);
  add('La brique',g,P(.9,.5,1.6,-.6,.8,.4),P(.42,.32,.15,0,-.35,0));}
 // 5. Les 3 bandes
 {const g=new THREE.Group();[['#d6cdc1',0],['#9a7b62',1],['#53402f',2]].forEach(([col,i])=>{
@@ -153,12 +157,17 @@ const P=(x,y,z,rx,ry,rz)=>({p:new THREE.Vector3(x,y,z),q:new THREE.Quaternion().
   m.scale.set(1,1,.38);m.position.set(0,i*.075+.09,i*.03);m.rotation.y=i*.25;g.add(m);});
  add('Les 3 bandes',g,P(2.4,.3,1.3,.7,-.6,.5),P(-1.3,0,.15,0,.5,0));}
 // 6. Les 2 sliders
-{const g=new THREE.Group();for(const i of[0,1]){const d=new THREE.Mesh(new THREE.CylinderGeometry(.3,.3,.05,80),mat({color:0x4e2719,roughness:.5,clearcoat:.3}));d.position.set(i*.52,.03,i*.12);g.add(d);}
+{const g=new THREE.Group();const top=new THREE.ExtrudeGeometry(stadium(.7,.3),{depth:.03,bevelEnabled:true,bevelThickness:.012,bevelSize:.014,bevelSegments:4,curveSegments:24}),base=new THREE.ExtrudeGeometry(stadium(.68,.28),{depth:.014,bevelEnabled:false,curveSegments:24});
+ const tm=mat({color:0x3f1d12,roughness:.62}),bm=mat({color:0x8a5234,roughness:.5});
+ for(const i of[0,1]){const sg=new THREE.Group(),a=new THREE.Mesh(top,tm),c=new THREE.Mesh(base,bm);a.position.z=.016;sg.add(a,c);sg.rotation.x=-Math.PI/2;sg.position.set(i*.12,.01,i*.38);g.add(sg);}
  add('Les 2 sliders',g,P(1,-.2,2.1,1.1,.3,-.4),P(1.1,0,.75,0,-.2,0));}
 // 7. Rouleau
-{const t=tex(512,256,(c,w,h)=>{c.fillStyle='#552b1d';c.fillRect(0,0,w,h);c.strokeStyle='#3a1c12';c.lineWidth=14;for(let x=-h;x<w+h;x+=64){c.beginPath();c.moveTo(x,0);c.lineTo(x+h*.6,h);c.stroke();}},[1,2]);
- const m=new THREE.Mesh(new THREE.CylinderGeometry(.28,.28,1.35,96),mat({map:t,roughness:.75,sheen:.4}));
- const g=new THREE.Group();g.add(m);add('Le rouleau',g,P(-.9,-.1,2.3,.2,-.4,-1.2),P(-.55,.28,.62,0,.45,Math.PI/2));}
+{const pr=[],Lr=.82,n=7;pr.push(new THREE.Vector2(0,-Lr/2),new THREE.Vector2(.17,-Lr/2));
+ for(let i=0;i<=n*12;i++){const u=i/(n*12),y=-Lr/2+u*Lr,rid=Math.pow(Math.abs(Math.sin(u*n*Math.PI)),.6);pr.push(new THREE.Vector2(.19+.035*rid,y));}
+ pr.push(new THREE.Vector2(.17,Lr/2),new THREE.Vector2(0,Lr/2));
+ const t=tex(512,512,(c,w,h)=>{c.fillStyle='#5a2c1c';c.fillRect(0,0,w,h);c.fillStyle='#4a2216';for(let y=0;y<h;y+=64)for(let x=0;x<w;x+=64){c.beginPath();c.moveTo(x+8,y+56);c.lineTo(x+32,y+8);c.lineTo(x+56,y+56);c.fill();}},[3,1]);
+ const m=new THREE.Mesh(new THREE.LatheGeometry(pr,64),mat({map:t,roughness:.85,sheen:.5,sheenColor:new THREE.Color(0x8a5a44)}));
+ const g=new THREE.Group();g.add(m);add('Le rouleau',g,P(-.9,-.1,2.3,.2,-.4,-1.2),P(-.6,.225,.65,0,.45,Math.PI/2));}
 // 8. Programme (téléphone)
 {const sh=new THREE.Shape(),w=.5,h=1,r=.08;sh.moveTo(-w/2+r,-h/2);sh.lineTo(w/2-r,-h/2);sh.quadraticCurveTo(w/2,-h/2,w/2,-h/2+r);sh.lineTo(w/2,h/2-r);sh.quadraticCurveTo(w/2,h/2,w/2-r,h/2);sh.lineTo(-w/2+r,h/2);sh.quadraticCurveTo(-w/2,h/2,-w/2,h/2-r);sh.lineTo(-w/2,-h/2+r);sh.quadraticCurveTo(-w/2,-h/2,-w/2+r,-h/2);
  const geo=new THREE.ExtrudeGeometry(sh,{depth:.04,bevelEnabled:true,bevelThickness:.012,bevelSize:.012,bevelSegments:3});geo.center();

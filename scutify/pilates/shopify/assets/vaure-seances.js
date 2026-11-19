@@ -104,6 +104,9 @@ function slider(g,x){raw(g,`<ellipse cx="${f1(x)}" cy="-6" rx="40" ry="8" fill="
 function brick(g,c,w,h,rot=0){raw(g,`<g transform="rotate(${f1(rot)} ${f1(c.x)} ${f1(c.y)})"><rect x="${f1(c.x-w/2)}" y="${f1(c.y-h/2)}" width="${w}" height="${h}" rx="5" fill="#7a4430"/><rect x="${f1(c.x-w/2)}" y="${f1(c.y-h/2)}" width="${w}" height="7" rx="3" fill="#95573e"/></g>`);}
 function ball(g,c,r){raw(g,`<circle cx="${f1(c.x)}" cy="${f1(c.y)}" r="${r}" fill="#6e3a27"/><circle cx="${f1(c.x-r*.35)}" cy="${f1(c.y-r*.35)}" r="${f1(r*.28)}" fill="#8d4f37"/>`);}
 function ring(g,c,rx,ry,rot){raw(g,`<g transform="rotate(${f1(rot)} ${f1(c.x)} ${f1(c.y)})"><ellipse cx="${f1(c.x)}" cy="${f1(c.y)}" rx="${f1(rx)}" ry="${ry}" fill="none" stroke="#552b1d" stroke-width="9"/><rect x="${f1(c.x-9)}" y="${f1(c.y-ry-10)}" width="18" height="16" rx="6" fill="#2b1710"/><rect x="${f1(c.x-9)}" y="${f1(c.y+ry-6)}" width="18" height="16" rx="6" fill="#2b1710"/></g>`);}
+/* rouleau VAURE vu de bout : court, à reliefs, posé en travers du tapis */
+function rollerEnd(g,cx,cy,r){let s='';for(let i=0;i<12;i++){const a=i*Math.PI/6;s+=`<circle cx="${f1(cx+Math.cos(a)*r*.98)}" cy="${f1(cy+Math.sin(a)*r*.98)}" r="${f1(r*.2)}" fill="#5a2e20"/>`;}
+  raw(g,s+`<circle cx="${cx}" cy="${cy}" r="${r}" fill="#5a2e20"/><circle cx="${cx}" cy="${cy}" r="${f1(r*.62)}" fill="none" stroke="#3f1f15" stroke-width="2.5"/><path d="M${f1(cx-r*.55)} ${f1(cy-r*.55)} A${r} ${r} 0 0 1 ${f1(cx+r*.3)} ${f1(cy-r*.85)}" fill="none" stroke="#7a4430" stroke-width="3" stroke-linecap="round" opacity=".8"/>`);}
 function roller(g,x1,x2,y1,y2){const h=y2-y1;raw(g,`<rect x="${x1}" y="${y1}" width="${x2-x1}" height="${h}" rx="${h/2}" fill="#5a2e20"/><rect x="${x1+8}" y="${y1+4}" width="${x2-x1-16}" height="7" rx="3.5" fill="#7a4430" opacity=".8"/>`);}
 const FL=(k,a,f,dx=-6,dy=4)=>({k:off(k,dx,dy),a:off(a,dx-2,0),f:off(f,dx-2,0)});
 const MAT=P(420,4);
@@ -174,7 +177,7 @@ X.pike=t=>{kit0();const d=ease(t),hand=P(292,-12),sh=mix(P(300,-148),P(282,-150)
 const dy=-24-hip.y,ank=P(hip.x+Math.sqrt(Math.max(0,238*238-dy*dy)),-24),knee=mix(hip,ank,.513),foot=P(ank.x+30,-18),elb=off(mix(sh,hand,.5),3,0);
 slider(KB,ank.x+14);
 return {S:{sh,hip,knee,ank,foot,elb,hand,front:P(0,1),farArm:{e:off(elb,-12,0),h:off(hand,-14,0)},farLeg:{k:off(knee,-8,-4),a:off(ank,-10,-2),f:off(foot,-10,-2)}},hl:hip,arrow:{at:P(hip.x+56,hip.y-40),dir:-1},at:P(ank.x+14,-8)};};
-X.rouleau=t=>{kit0();roller(KB,235,452,-40,-2);const d=ease(t),sh=P(285,-62),hip=P(430,-62),ank=P(590,-16),foot=P(623,-11);
+X.rouleau=t=>{kit0();rollerEnd(KB,304,-22,20);const d=ease(t),sh=P(280,-62),hip=P(432,-27),ank=P(565,-16),foot=P(598,-11);
 const knee=ik(hip,ank,L.thigh,L.shin,(a,b)=>a.y<b.y?a:b),aa=lerp(-12,132,d),elb=pol(sh,aa,86),hand=pol(sh,aa,166);
 return {S:{sh,hip,knee,ank,foot,elb,hand,front:P(0,-1),headDir:P(-1,0),farArm:{e:off(elb,-6,4),h:off(hand,-8,6)},farLeg:FL(knee,ank,foot)},hl:mix(sh,hip,.5),arrow:{at:P(250,-170),dir:-1},at:P(340,-21)};};
 const ICON={
@@ -182,7 +185,7 @@ tapis:'<rect x="10" y="24" width="60" height="34" rx="6" fill="#6a3726"/><circle
 brique:'<rect x="16" y="22" width="48" height="36" rx="6" fill="#7a4430"/><rect x="16" y="22" width="48" height="9" rx="4" fill="#95573e"/>',
 cercle:'<ellipse cx="40" cy="40" rx="24" ry="24" fill="none" stroke="#6e3a27" stroke-width="7"/><rect x="31" y="9" width="18" height="12" rx="5" fill="#f4ece2" opacity=".85"/><rect x="31" y="59" width="18" height="12" rx="5" fill="#f4ece2" opacity=".85"/>',
 ballon:'<circle cx="40" cy="40" r="24" fill="#6e3a27"/><circle cx="32" cy="32" r="7" fill="#8d4f37"/>',
-rouleau:'<rect x="10" y="28" width="60" height="24" rx="12" fill="#5a2e20"/><ellipse cx="62" cy="40" rx="6" ry="12" fill="#7a4430"/>',
+rouleau:'<rect x="14" y="26" width="52" height="28" rx="9" fill="#5a2e20"/><path d="M24 28v24M33 28v24M42 28v24M51 28v24M60 28v24" stroke="#3f1f15" stroke-width="3"/><path d="M20 32h40" stroke="#7a4430" stroke-width="3" stroke-linecap="round" opacity=".8"/>',
 slider1:'<ellipse cx="40" cy="44" rx="26" ry="9" fill="#4e2719"/><ellipse cx="40" cy="41" rx="26" ry="8" fill="#6e3a27"/>',
 sliders:'<ellipse cx="40" cy="30" rx="26" ry="8" fill="#4e2719"/><ellipse cx="40" cy="27" rx="26" ry="7" fill="#6e3a27"/><ellipse cx="40" cy="55" rx="26" ry="8" fill="#4e2719"/><ellipse cx="40" cy="52" rx="26" ry="7" fill="#6e3a27"/>'};
 const bandIcon=c=>'<rect x="14" y="20" width="52" height="40" rx="14" fill="none" stroke="'+c+'" stroke-width="12"/>';
@@ -223,7 +226,7 @@ steps:['Prends le petit ballon.','Assise, genoux pliés, pieds à plat.','Tiens 
 pike:{name:'Pike sur sliders',kit:'Avec les 2 sliders',acc:'Les 2 sliders',icon:'sliders',period:4,reps:8,cues:['Expire, monte les fesses','Inspire, reviens en planche'],
 steps:['Prends les 2 sliders. '+SOL,'Pointe des pieds sur les sliders, mains sous les épaules.','Jambes tendues, monte les fesses vers le plafond.','Les pieds glissent vers les mains, puis reviens en planche.'],easy:'Fais plutôt « genoux à la poitrine ».'},
 rouleau:{name:'Retour au calme',kit:'Sur le rouleau',acc:'Le rouleau',icon:'rouleau',period:8,reps:6,cues:['Inspire, ouvre les bras','Expire, relâche tout'],
-steps:['Pose le rouleau dans la longueur, au milieu du tapis.','Assieds-toi au bout, puis allonge-toi dessus : tête et bassin posés.','Genoux pliés, pieds à plat au sol.','Ouvre doucement les bras sur les côtés, sans forcer.'],easy:'Reste allongée sur le tapis, sans le rouleau.'}
+steps:['Pose le rouleau en travers du tapis.','Allonge-toi : le rouleau sous le haut du dos, juste sous les omoplates. Les fesses restent au sol.','Genoux pliés, pieds à plat. Si ta nuque tire, soutiens ta tête avec les mains.','Ouvre doucement les bras sur les côtés, sans forcer.'],easy:'Reste allongée sur le tapis, sans le rouleau.'}
 };
 const PH=[{n:'Les bases',from:1,to:7,c:'#3a2a22'},{n:'Le gainage',from:8,to:14,c:'#5c4031'},{n:'Le bas du corps',from:15,to:21,c:'#8a5e45'},{n:'Les enchaînements',from:22,to:30,c:'#2ef27a'}];
 const RANGE={bascule:[1,7],enroule:[1,7],hundred:[3,7],planche:[8,14],cercle:[8,14],sls:[9,14],deadbug:[11,14],

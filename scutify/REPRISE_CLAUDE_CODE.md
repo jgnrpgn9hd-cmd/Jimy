@@ -590,3 +590,12 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - coffret (md5 4ee3afde…) : bande « Pièce par pièce » avec 5 photos (vaure-tapis, vaure-cercle, vaure-ballon, vaure-brique-sliders, vaure-rouleau-dos .webp, 900x1125).
 - produit (30ccfa9f…) : galerie de secours à 4 miniatures (pont, bandes, cercle, brique-sliders), recadrées en 4:5.
 - Envoyé sur le thème 199816577406 (non publié). Les sliders du kit sont ovales : la photo du mountain climber les montre ronds, c'est à refaire un jour.
+
+## Le produit correspond partout aux vraies photos
+- 3D d'accueil (md5 99523459…) : sliders ovales, cercle fin avec poignées plates en suédine, ballon uni brillant, brique crème unie, tapis uni (logos retirés), rouleau court à reliefs.
+- Appli : exercice « Retour au calme » refait, avec le rouleau en travers sous le haut du dos, une nouvelle icône et de nouvelles consignes.
+  - Les fichiers locaux sont à jour.
+  - Sur Shopify, assets/vaure-seances.js n'a PAS été réenvoyé : il est trop gros pour l'envoi, et theme_bash est refusé faute de permissions.
+  - À la place, assets/vaure-rouleau.js (c83f11e5…) applique le correctif ; il est chargé après vaure-seances.js dans page.seances (7210e448…).
+  - Si on réenvoie un jour le vaure-seances.js complet, le correctif devient inutile.
+- produit (6d8772ec…) : carte « Le rouleau » corrigée.
