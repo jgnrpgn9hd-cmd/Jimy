@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VAURE · Teaser</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0}
+  html,body{background:#000;height:100%}
+  body{display:grid;place-items:center}
+  .v{position:relative;width:540px;height:960px;overflow:hidden;background:#0d0907;font-family:Inter,sans-serif;color:#f4ece2}
+  .lay{position:absolute;inset:0}
+  .blob{position:absolute;border-radius:50%;filter:blur(60px);will-change:transform}
+  #beam{background:conic-gradient(from 180deg at 50% -6%,transparent 0deg 158deg,rgba(255,232,210,.22) 170deg,rgba(255,240,224,.32) 180deg,rgba(255,232,210,.22) 190deg,transparent 202deg 360deg);filter:blur(14px)}
+  .words{position:absolute;left:0;right:0;top:47%;display:flex;justify-content:center;align-items:center;font-size:36px;color:#efe4d8;white-space:nowrap}
+  .words span{display:inline-block;will-change:filter,opacity,transform}
+  .words .w2{font-weight:600}
+  .sym{display:grid;place-items:center;width:62px;height:62px;border-radius:17px;background:linear-gradient(160deg,rgba(255,255,255,.16),rgba(255,255,255,.04));box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.28),0 0 34px rgba(46,242,122,.3)}
+  .sym svg{width:40px}
+  #symF{position:absolute;left:50%;top:50%;z-index:6}
+  #card{position:absolute;left:50%;top:50%;width:380px;height:240px;margin:-120px 0 0 -190px;border-radius:30px;background:linear-gradient(160deg,rgba(255,255,255,.16),rgba(255,255,255,.04));box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.26),0 40px 80px rgba(0,0,0,.6)}
+  #card .bar{position:absolute;left:26px;right:26px;top:22px;display:flex;justify-content:space-between;font-size:11px;letter-spacing:.18em;color:#d8c3b0;font-weight:600}
+  #card .dots{position:absolute;left:0;right:0;bottom:30px;display:flex;justify-content:center;gap:14px}
+  #card .dots i{width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.1);box-shadow:inset 0 0 0 1.2px rgba(255,255,255,.24);display:grid;place-items:center}
+  #card .dots i b{width:12px;height:12px;border-radius:50%;background:var(--c)}
+  #card .ring{position:absolute;left:50%;top:44%;width:84px;height:84px;margin:-42px 0 0 -42px;border-radius:50%;box-shadow:0 0 0 2px rgba(46,242,122,.85),0 0 40px rgba(46,242,122,.5)}
+  #tap{position:absolute;width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,.9);box-shadow:0 0 0 6px rgba(255,255,255,.18);z-index:7}
+  #tun{perspective:520px;perspective-origin:50% 48%}
+  #tun .w{position:absolute;left:50%;top:48%;transform-style:preserve-3d}
+  #tun img,#hero{position:absolute;width:210px;height:455px;border-radius:26px;box-shadow:0 0 0 1px rgba(255,255,255,.18)}
+  #tun img{left:-105px;top:-227px;backface-visibility:hidden}
+  #heroL{perspective:700px}
+  #hero{left:50%;top:50%;margin:-227px 0 0 -105px;transform-origin:50% 50%}
+  #pill{position:absolute;top:50%;height:96px;margin-top:-48px;border-radius:999px;background:linear-gradient(180deg,rgba(255,255,255,.1),rgba(255,255,255,.03));box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.24),0 20px 50px rgba(0,0,0,.5);overflow:hidden}
+  #pill i{position:absolute;left:0;top:0;bottom:0;background:linear-gradient(90deg,rgba(46,242,122,.05),rgba(46,242,122,.5));box-shadow:0 0 40px rgba(46,242,122,.45)}
+  #pct{position:absolute;right:30px;top:50%;transform:translateY(-50%);font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:48px;white-space:nowrap}
+  #arcs{position:absolute;left:0;top:50%;width:540px;height:320px}
+  #logoL{display:grid;place-items:center}
+  #logoS svg{width:120px}
+  #pix{display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:repeat(22,1fr)}
+  #pix i{background:#f4ece2;opacity:0}
+  #end{display:grid;place-items:center;align-content:center;gap:22px;text-align:center;color:#2b1710;opacity:0}
+  #end svg{width:300px}
+  #end p{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:46px;line-height:.95}
+  #end p em{font-style:italic;color:#552b1d}
+  #end small{font-size:13px;letter-spacing:.24em;text-transform:uppercase;font-weight:600;color:#7a5a48}
+  #grain{opacity:.06;background-image:repeating-radial-gradient(circle at 17% 31%,#fff 0 1px,transparent 1px 3px);mix-blend-mode:overlay}
+</style></head>
+<body>
+<div class="v" id="v">
+  <div class="lay" id="bg"><div class="blob" id="b1"></div><div class="blob" id="b2"></div><div class="blob" id="b3"></div></div>
+  <div class="lay" id="beam"></div>
+  <div class="words" id="A"><span>Ton</span>&nbsp;<span class="w2">studio</span><span id="gap" style="display:inline-block;width:0"></span>&nbsp;<span>chez toi</span></div>
+  <div class="lay" style="perspective:800px"><div id="card"><div class="bar"><span>JOUR 15 · BAS DU CORPS</span><span>15 MIN</span></div><div class="ring"></div>
+    <div class="dots"><i style="--c:#c4a284"><b></b></i><i style="--c:#997b63"><b></b></i><i style="--c:#2ef27a"><b></b></i><i style="--c:#534032"><b></b></i><i style="--c:#6e3a27"><b></b></i></div></div></div>
+  <div class="sym" id="symF"><svg viewBox="4 -6 104 112"><g fill="none" stroke="#f4ece2" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/></svg></div>
+  <div id="tap"></div>
+  <div class="words" id="B"><span>Prépare.</span>&nbsp;<span class="w2">Suis.</span>&nbsp;<span>Respire.</span></div>
+  <div class="lay" id="tun"><div class="w" id="tw"></div></div>
+  <div class="words" id="C" style="font-weight:600;color:#fff;text-shadow:0 0 18px #0d0907,0 0 40px #0d0907"><span>Elle</span>&nbsp;<span>te</span>&nbsp;<span>ressemble</span></div>
+  <div class="lay" id="heroL"><img id="hero" src="s_squat.png" alt=""></div>
+  <svg id="arcs" viewBox="0 0 540 320"></svg>
+  <div id="pill"><i id="fill"></i><span id="pct">Jour 1</span></div>
+  <div class="words" id="D"><span style="font-family:'Barlow Condensed';font-weight:800;font-size:64px;text-transform:uppercase">15&nbsp;minutes</span>&nbsp;&nbsp;<span style="font-size:28px">par jour</span></div>
+  <div class="lay" id="logoL"><div id="logoS"><svg viewBox="4 -6 104 112"><g fill="none" stroke="#f4ece2" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/></svg></div></div>
+  <div class="lay" id="pix"></div>
+  <div class="lay" id="end"><svg class="logo" viewBox="0 -6 616 112" aria-label="VAURE"><g fill="none" stroke="#2b1710" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/><g transform="translate(140 0)" fill="none" stroke="#2b1710" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2 L38 98 L74 2"/><path transform="translate(98 0)" d="M2 98 L38 2 L74 98"/><path transform="translate(200 0)" d="M4 2 V60 C4 84 18 98 38 98 C58 98 72 84 72 60 V2"/><path transform="translate(300 0)" d="M4 98 V2 H40 C60 2 70 14 70 30 C70 46 60 58 40 58 H4 M38 58 L70 98"/><path transform="translate(398 0)" d="M66 2 H4 V98 H66 M4 50 H54"/></g></svg><p>Le défi <em>30 jours</em></p><small>Bientôt disponible · vaure.fr</small></div>
+  <div class="lay" id="grain"></div>
+</div>
+<script>
+const $=id=>document.getElementById(id),cl=x=>Math.max(0,Math.min(1,x)),ss=x=>{x=cl(x);return x*x*(3-2*x)},lerp=(a,b,t)=>a+(b-a)*t;
+const eo=x=>{x=cl(x);return 1-Math.pow(1-x,3)},ei=x=>{x=cl(x);return x*x*x};
+/* mots qui sortent du flou, un par un */
+function wordsIn(el,t,a,step=.16,dur=.5){[...el.querySelectorAll(':scope>span')].forEach((s,i)=>{if(s.id==='gap')return;const k=eo((t-a-i*step)/dur);
+  s.style.opacity=k;s.style.filter='blur('+((1-k)*12).toFixed(1)+'px)';s.style.transform='translateY('+((1-k)*14).toFixed(1)+'px)';});}
+function hide(el){el.style.opacity=0;}
+/* fond : taches de lumière qui se déplacent tout le temps */
+const B=[['b1',320,'rgba(232,212,194,.62)'],['b2',280,'rgba(190,164,144,.5)'],['b3',240,'rgba(255,244,232,.45)']];
+B.forEach(([id,s,c])=>{const e=$(id);e.style.width=e.style.height=s+'px';e.style.background=c;});
+function bg(t){const P=[[270+150*Math.sin(t*.7),640+90*Math.cos(t*.5)],[180+120*Math.cos(t*.9+1),300+160*Math.sin(t*.6)],[380+110*Math.sin(t*1.1+2),480+140*Math.cos(t*.8+1)]];
+  B.forEach(([id,s],i)=>{$(id).style.transform=`translate(${P[i][0]-s/2}px,${P[i][1]-s/2}px)`;});}
+/* tunnel */
+const SCR=['s_home','s_avatar','s_prep','s_pont','s_clam','s_sheet','s_pike','s_music','s_avatar','s_prep','s_pont','s_home'];
+const tw=$('tw');const IM=SCR.map(s=>{const im=document.createElement('img');im.src=s+'.png';tw.appendChild(im);return im;});
+const WALL=[[-330,0,'rotateY(70deg)'],[330,0,'rotateY(-70deg)'],[0,-330,'rotateX(-74deg) rotateZ(90deg)'],[0,330,'rotateX(74deg) rotateZ(-90deg)']];
+const FROM=[[-900,0],[900,0],[0,-1100],[0,1100]];
+/* pixels de la transition finale */
+const pix=$('pix');const PX=[];for(let i=0;i<12*22;i++){const d=document.createElement('i');pix.appendChild(d);PX.push((Math.sin(i*12.9898)*43758.5453)%1);}
+function render(t){
+  bg(t);
+  $('beam').style.opacity=(.5+.3*Math.sin(t*1.3))*(t<11?1:0)+(t>11.6&&t<12.9?ss((t-11.6)/.5)*1.4:0);
+  /* SCÈNE 1 : « Ton studio … chez toi », l'icône s'insère et écarte les mots */
+  const A=$('A');
+  if(t<3.2){A.style.opacity=1;wordsIn(A,t,.15);const g=eo((t-1.45)/.45);$('gap').style.width=(g*86)+'px';
+    /* quand la carte passe dessus, les mots partent en flou vers le bas */
+    const o=ss((t-2.35)/.5);A.style.filter='blur('+(o*14)+'px)';A.style.transform=`translateY(${o*90}px) scale(${1-o*.1})`;A.style.opacity=1-o;}else hide(A);
+  /* icône : apparaît dans le trou, puis s'envole sur la carte */
+  {const s=$('symF'),k=eo((t-1.55)/.4),fly=ss((t-2.2)/.7);
+   const x=lerp(13,0,fly),y=lerp(0,-12,fly),sc=lerp(.55+.45*k,1.35,fly)*(1-ss((t-4.3)/.5)*.2);
+   s.style.opacity=t<1.5?0:t>4.9?0:1;s.style.transform=`translate(-50%,-50%) translate(${x}px,${y}px) scale(${sc}) rotate(${(1-k)*-40}deg)`;
+   if(t>4.3){const z=ei((t-4.3)/.6);s.style.transform+=` scale(${1+z*7})`;s.style.filter=`blur(${z*16}px)`;s.style.opacity=1-z;}else s.style.filter='none';}
+  /* carte en verre : descend de haut en biais, reçoit l'icône, puis fonce vers la caméra */
+  {const c=$('card'),a=eo((t-2.15)/.8),z=ei((t-4.3)/.6);
+   c.style.opacity=t<2.1||t>4.95?0:1;
+   c.style.transform=`translateY(${(1-a)*-520}px) rotateX(${lerp(55,10,a)+Math.sin(t*1.4)*3}deg) rotateY(${lerp(-25,6,ss((t-2.2)/2))}deg) rotateZ(${(1-a)*-8}deg) scale(${lerp(.7,1,a)*(1+z*6)})`;
+   c.style.filter=`blur(${z*18}px)`;if(t>4.3)c.style.opacity=1-z;
+   c.querySelector('.ring').style.boxShadow=`0 0 0 2px rgba(46,242,122,.85),0 0 ${30+25*Math.sin(t*5)}px rgba(46,242,122,.55)`;}
+  /* doigt qui touche */
+  {const p=$('tap'),k=ss((t-3.3)/.5),press=Math.max(0,Math.sin(cl((t-3.85)/.35)*Math.PI));
+   p.style.opacity=t>3.2&&t<4.35?ss((t-3.2)/.2)*(1-ss((t-4.15)/.2)):0;p.style.left=lerp(420,262,k)+'px';p.style.top=lerp(700,486,k)+'px';p.style.transform=`scale(${1-press*.3})`;p.style.boxShadow=`0 0 0 ${6+press*22}px rgba(46,242,122,${.25*press+.1})`;}
+  /* SCÈNE 2 : le texte naît derrière la carte qui traverse l'écran */
+  const Bw=$('B');if(t>4.45&&t<5.95){Bw.style.opacity=1;wordsIn(Bw,t,4.5,.14,.45);const o=ss((t-5.55)/.4);Bw.style.transform=`scale(${1-o*.3})`;Bw.style.filter=`blur(${o*8}px)`;Bw.style.opacity=1-o;}else hide(Bw);
+  /* SCÈNE 3 : les écrans arrivent des 4 bords, la caméra avance dans le tunnel */
+  {const on=t>5.3&&t<8.9;$('tun').style.opacity=on?1:0;
+   if(on)IM.forEach((im,i)=>{const side=i%4,row=Math.floor(i/4),arr=eo((t-5.3-row*.12-side*.05)/.8);
+     const z=-420-row*460+ss((t-6.2)/2.6)*1500+ei((t-8.1)/.7)*900;
+     const W=WALL[side],F=FROM[side],x=lerp(F[0],W[0],arr),y=lerp(F[1],W[1],arr);
+     im.style.transform=`translate3d(${x}px,${y}px,${z}px) ${W[2]}`;im.style.opacity=cl((z+2000)/400)*cl((420-z)/200);});}
+  const Cw=$('C');if(t>5.75&&t<8.2){Cw.style.opacity=1;wordsIn(Cw,t,5.8,.15,.45);const o=ss((t-7.8)/.35);Cw.style.filter=`blur(${o*10}px)`;Cw.style.transform=`scale(${1+o*.5})`;Cw.style.opacity=1-o;}else hide(Cw);
+  /* SCÈNE 4 : un écran pivote, remplit l'image, puis glisse pour laisser place à la jauge */
+  {const h=$('hero'),k=ss((t-7.7)/.9),out=ei((t-8.75)/.55);
+   h.style.opacity=t>7.6&&t<9.35?1:0;
+   h.style.transform=`translateX(${lerp(330,0,k)-out*640}px) translateY(${out*-120}px) rotateY(${lerp(-70,0,k)+out*-38}deg) rotateZ(${out*-18}deg) scale(${lerp(.75,1.9,k)})`;}
+  {const p=$('pill'),k=eo((t-8.85)/.6),f=ss((t-9.1)/1.5),stretch=ei((t-10.55)/.45);
+   const w=lerp(160,440,k)+stretch*900,left=lerp(560,50,k)-stretch*850;
+   p.style.opacity=t>8.8&&t<11.05?1:0;p.style.width=w+'px';p.style.left=left+'px';
+   $('fill').style.width=(6+94*f)+'%';$('pct').textContent='Jour '+Math.max(1,Math.round(1+29*f));
+   const g=$('arcs');g.style.opacity=t>9&&t<11?ss((t-9)/.4)*(1-stretch):0;let s='';for(let i=0;i<6;i++){const o=(t*70+i*20)%120;s+=`<path d="M${-20+i*10} ${70+o} Q270 ${180+o*.6} ${560-i*10} ${70+o}" fill="none" stroke="rgba(244,236,226,${.42-i*.06})" stroke-width="3"/>`;}g.innerHTML=s;}
+  /* SCÈNE 5 : la ligne de lumière se resserre en texte */
+  const Dw=$('D');if(t>10.75&&t<12.1){Dw.style.opacity=1;wordsIn(Dw,t,10.8,.3,.45);const o=ss((t-11.75)/.35);Dw.style.transform=`translateY(${-o*40}px) scale(${1-o*.4})`;Dw.style.filter=`blur(${o*8}px)`;Dw.style.opacity=1-o;}else hide(Dw);
+  /* SCÈNE 6 : le faisceau converge sur le symbole VAURE */
+  {const L=$('logoS'),k=eo((t-11.85)/.5);L.style.opacity=t>11.8&&t<13.2?k:0;L.style.transform=`scale(${lerp(.4,1,k)})`;L.style.filter=`drop-shadow(0 0 ${20+20*Math.sin(t*6)}px rgba(46,242,122,.7))`;}
+  /* SCÈNE 7 : transition en pixels vers le crème */
+  PX.forEach((r,i)=>{pix.children[i].style.opacity=t>12.75+Math.abs(r)*.45?1:0;});
+  {const e=eo((t-13.15)/.5);$('end').style.opacity=t>13.1?e:0;$('end').style.transform=`scale(${1.05-.05*e})`;}
+}
+window.renderAt=render;
+if(!window.__frame){let t0=null;(function loop(now){if(t0===null)t0=now;render(((now-t0)/1000)%15.5);requestAnimationFrame(loop);})(performance.now());}
+</script>
+</body></html>
