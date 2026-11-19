@@ -1,0 +1,242 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,800;1,800&family=Inter:wght@400;500;600&display=swap">
+<style>
+  .vf{position:relative;height:520vh;background:#0d0907;color:#f4ece2;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  .vf *{box-sizing:border-box;margin:0}
+  .vf-pin{position:-webkit-sticky;position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
+  .vf-bg{position:absolute;inset:0;overflow:hidden}
+  .vf-bg i{position:absolute;border-radius:50%;filter:blur(70px);will-change:transform}
+  .vf-stage{position:absolute;left:50%;top:50%;width:540px;height:960px;margin:-480px 0 0 -270px;transform-origin:50% 50%}
+  .vf .lay{position:absolute;inset:0}
+  .vf-beam{background:conic-gradient(from 180deg at 50% -6%,transparent 0deg 158deg,rgba(255,232,210,.22) 170deg,rgba(255,240,224,.32) 180deg,rgba(255,232,210,.22) 190deg,transparent 202deg 360deg);filter:blur(14px)}
+  .vf .words{position:absolute;left:-200px;right:-200px;top:47%;display:flex;justify-content:center;align-items:center;font-size:36px;color:#efe4d8;white-space:nowrap}
+  .vf .words span{display:inline-block;will-change:filter,opacity,transform}
+  .vf .words .w2{font-weight:600}
+  .vf .sym{position:absolute;left:50%;top:50%;z-index:6;display:grid;place-items:center;width:62px;height:62px;border-radius:17px;background:linear-gradient(160deg,rgba(255,255,255,.16),rgba(255,255,255,.04));box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.28),0 0 34px rgba(46,242,122,.3)}
+  .vf .sym svg{width:40px}
+  .vf-card{position:absolute;left:50%;top:50%;width:380px;height:240px;margin:-120px 0 0 -190px;border-radius:30px;background:linear-gradient(160deg,rgba(255,255,255,.16),rgba(255,255,255,.04));box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.26),0 40px 80px rgba(0,0,0,.6)}
+  .vf-card .bar{position:absolute;left:26px;right:26px;top:22px;display:flex;justify-content:space-between;font-size:11px;letter-spacing:.18em;color:#d8c3b0;font-weight:600}
+  .vf-card .dots{position:absolute;left:0;right:0;bottom:30px;display:flex;justify-content:center;gap:14px}
+  .vf-card .dots i{width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.1);box-shadow:inset 0 0 0 1.2px rgba(255,255,255,.24);display:grid;place-items:center}
+  .vf-card .dots i b{width:12px;height:12px;border-radius:50%;background:var(--c)}
+  .vf-card .ring{position:absolute;left:50%;top:44%;width:84px;height:84px;margin:-42px 0 0 -42px;border-radius:50%;box-shadow:0 0 0 2px rgba(46,242,122,.85),0 0 40px rgba(46,242,122,.5)}
+  .vf-tap{position:absolute;width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,.9);z-index:7}
+  .vf-tun{perspective:520px;perspective-origin:50% 48%}
+  .vf-tun .w{position:absolute;left:50%;top:48%;transform-style:preserve-3d}
+  .vf-sc{position:absolute;width:210px;height:455px;border-radius:26px;overflow:hidden;background:radial-gradient(120% 70% at 50% 62%,#fffaf4,#f4ece2 55%,#e6d7c5);color:#2b1710;box-shadow:0 0 0 1px rgba(255,255,255,.2)}
+  .vf-tun .vf-sc{left:-105px;top:-227px;backface-visibility:hidden}
+  .vf-sc .k{position:absolute;left:16px;top:18px;font-size:9px;letter-spacing:.16em;font-weight:700;color:#7a5a48}
+  .vf-sc .n{position:absolute;left:16px;right:12px;top:32px;font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:26px;line-height:.9}
+  .vf-sc .a{position:absolute;left:16px;top:84px;font-size:10px;font-weight:600;color:#7a5a48;display:flex;gap:6px;align-items:center}
+  .vf-sc .a::before{content:"";width:6px;height:6px;border-radius:50%;background:#2ef27a}
+  .vf-sc svg{position:absolute;left:-6px;right:-6px;top:150px;width:222px;height:150px}
+  .vf-sc .c{position:absolute;left:0;right:0;top:318px;text-align:center;font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:17px}
+  .vf-sc .b{position:absolute;left:10px;right:10px;bottom:12px;height:52px;border-radius:14px;background:#fff;display:flex;overflow:hidden;box-shadow:0 8px 20px rgba(43,23,16,.15)}
+  .vf-sc .b b{background:#552b1d;color:#2ef27a;font-family:'Barlow Condensed',sans-serif;font-size:34px;padding:0 18px 0 12px;display:flex;align-items:center;clip-path:polygon(0 0,100% 0,84% 100%,0 100%)}
+  .vf-sc .b span{flex:1;display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-style:italic;font-size:22px}
+  .vf-heroL{perspective:700px}
+  .vf-hero{left:50%;top:50%;margin:-227px 0 0 -105px}
+  .vf-pill{position:absolute;top:50%;height:96px;margin-top:-48px;border-radius:999px;background:linear-gradient(180deg,rgba(255,255,255,.1),rgba(255,255,255,.03));box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.24),0 20px 50px rgba(0,0,0,.5);overflow:hidden}
+  .vf-pill i{position:absolute;left:0;top:0;bottom:0;background:linear-gradient(90deg,rgba(46,242,122,.05),rgba(46,242,122,.5));box-shadow:0 0 40px rgba(46,242,122,.45)}
+  .vf-pill span{position:absolute;right:30px;top:50%;transform:translateY(-50%);font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:48px;white-space:nowrap}
+  .vf-arcs{position:absolute;left:-200px;top:50%;width:940px;height:320px}
+  .vf-logo{display:grid;place-items:center}
+  .vf-logo div svg{width:120px}
+  .vf-pix{position:absolute;inset:0;display:grid;grid-template-columns:repeat(24,1fr);grid-template-rows:repeat(14,1fr)}
+  .vf-pix i{background:#f4ece2;opacity:0}
+  .vf-end{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;text-align:center;color:#2b1710;opacity:0;padding:0 24px}
+  .vf-end>svg{width:min(300px,70vw)}
+  .vf-end p{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:clamp(40px,6vw,72px);line-height:.95}
+  .vf-end p em{font-style:italic;color:#552b1d}
+  .vf-end a{display:inline-flex;align-items:center;gap:10px;background:#2ef27a;color:#2b1710;font-weight:700;font-size:15px;padding:16px 26px;border-radius:999px;text-decoration:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s ease-out}
+  .vf-end a:active{transform:scale(.97)}
+  .vf-hint{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:#bfa995}
+  @media (max-width:760px){.vf{height:440vh}}
+  .vf.static{height:auto}.vf.static .vf-pin{position:relative;height:100svh}
+</style>
+
+<section class="vf" aria-label="VAURE en mouvement">
+  <div class="vf-pin">
+    <div class="vf-bg"><i></i><i></i><i></i></div>
+    <div class="vf-stage" aria-hidden="true">
+      <div class="lay vf-beam"></div>
+      <div class="words" data-w="A"><span>Ton</span>&nbsp;<span class="w2">studio</span><span class="gap" style="display:inline-block;width:0"></span>&nbsp;<span>chez toi</span></div>
+      <div class="lay" style="perspective:800px"><div class="vf-card"><div class="bar"><span>JOUR 15 · BAS DU CORPS</span><span>15 MIN</span></div><div class="ring"></div>
+        <div class="dots"><i style="--c:#c4a284"><b></b></i><i style="--c:#997b63"><b></b></i><i style="--c:#2ef27a"><b></b></i><i style="--c:#534032"><b></b></i><i style="--c:#6e3a27"><b></b></i></div></div></div>
+      <div class="sym"><svg viewBox="4 -6 104 112"><g fill="none" stroke="#f4ece2" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/></svg></div>
+      <div class="vf-tap"></div>
+      <div class="words" data-w="B"><span>Prépare.</span>&nbsp;<span class="w2">Suis.</span>&nbsp;<span>Respire.</span></div>
+      <div class="lay vf-tun"><div class="w"><div class="vf-sc"><span class="k">EXERCICE 1 / 3</span><div class="n">Pont fessier</div><div class="a">Avec la bande moyenne</div><svg viewBox="190 -330 540 360"><rect x="130" y="-2" width="580" height="14" rx="7" fill="#552b1d"/><g class="vf-fig" data-f="pont"></g></svg><div class="c">Expire, monte le bassin</div><div class="b"><b>3</b><span>00:31</span></div></div><div class="vf-sc"><span class="k">EXERCICE 2 / 3</span><div class="n">Squat avec bande</div><div class="a">Avec la bande forte</div><svg viewBox="190 -330 540 360"><rect x="130" y="-2" width="580" height="14" rx="7" fill="#552b1d"/><g class="vf-fig" data-f="squat"></g></svg><div class="c">Inspire, descends</div><div class="b"><b>5</b><span>00:22</span></div></div><div class="vf-sc"><span class="k">EXERCICE 3 / 3</span><div class="n">Teaser guidé</div><div class="a">Avec le petit ballon</div><svg viewBox="190 -330 540 360"><rect x="130" y="-2" width="580" height="14" rx="7" fill="#552b1d"/><g class="vf-fig" data-f="teaser"></g></svg><div class="c">Expire, décolle les pieds</div><div class="b"><b>2</b><span>00:48</span></div></div><div class="vf-sc"><span class="k">EXERCICE 1 / 3</span><div class="n">Pike sur sliders</div><div class="a">Avec les 2 sliders</div><svg viewBox="190 -330 540 360"><rect x="130" y="-2" width="580" height="14" rx="7" fill="#552b1d"/><g class="vf-fig" data-f="pike"></g></svg><div class="c">Expire, monte les fesses</div><div class="b"><b>4</b><span>00:27</span></div></div><div class="vf-sc"><span class="k">EXERCICE 2 / 3</span><div class="n">Squat avec bande</div><div class="a">Avec la bande forte</div><svg viewBox="190 -330 540 360"><rect x="130" y="-2" width="580" height="14" rx="7" fill="#552b1d"/><g class="vf-fig" data-f="squat"></g></svg><div class="c">Inspire, descends</div><div class="b"><b>5</b><span>00:22</span></div></div><div class="vf-sc"><span class="k">EXERCICE 3 / 3</span><div class="n">Teaser guidé</div><div class="a">Avec le petit ballon</div><svg viewBox="190 -330 540 360"><rect x="130" y="-2" width="580" height="14" rx="7" fill="#552b1d"/><g class="vf-fig" data-f="teaser"></g></svg><div class="c">Expire, décolle les pieds</div><div class="b"><b>2</b><span>00:48</span></div></div><div class="vf-sc"><span class="k">EXERCICE 1 / 3</span><div class="n">Pike sur sliders</div><div class="a">Avec les 2 sliders</div><svg viewBox="190 -330 540 360"><rect x="130" y="-2" width="580" height="14" rx="7" fill="#552b1d"/><g class="vf-fig" data-f="pike"></g></svg><div class="c">Expire, monte les fesses</div><div class="b"><b>4</b><span>00:27</span></div></div><div class="vf-sc"><span class="k">EXERCICE 2 / 3</span><div class="n">Pont fessier</div><div class="a">Avec la bande moyenne</div><svg viewBox="190 -330 540 360"><rect x="130" y="-2" width="580" height="14" rx="7" fill="#552b1d"/><g class="vf-fig" data-f="pont"></g></svg><div class="c">Expire, monte le bassin</div><div class="b"><b>3</b><span>00:31</span></div></div><div class="vf-sc"><span class="k">EXERCICE 3 / 3</span><div class="n">Squat avec bande</div><div class="a">Avec la bande forte</div><svg viewBox="190 -330 540 360"><rect x="130" y="-2" width="580" height="14" rx="7" fill="#552b1d"/><g class="vf-fig" data-f="squat"></g></svg><div class="c">Inspire, descends</div><div class="b"><b>5</b><span>00:22</span></div></div><div class="vf-sc"><span class="k">EXERCICE 1 / 3</span><div class="n">Teaser guidé</div><div class="a">Avec le petit ballon</div><svg viewBox="190 -330 540 360"><rect x="130" y="-2" width="580" height="14" rx="7" fill="#552b1d"/><g class="vf-fig" data-f="teaser"></g></svg><div class="c">Expire, décolle les pieds</div><div class="b"><b>2</b><span>00:48</span></div></div><div class="vf-sc"><span class="k">EXERCICE 2 / 3</span><div class="n">Pike sur sliders</div><div class="a">Avec les 2 sliders</div><svg viewBox="190 -330 540 360"><rect x="130" y="-2" width="580" height="14" rx="7" fill="#552b1d"/><g class="vf-fig" data-f="pike"></g></svg><div class="c">Expire, monte les fesses</div><div class="b"><b>4</b><span>00:27</span></div></div><div class="vf-sc"><span class="k">EXERCICE 3 / 3</span><div class="n">Pont fessier</div><div class="a">Avec la bande moyenne</div><svg viewBox="190 -330 540 360"><rect x="130" y="-2" width="580" height="14" rx="7" fill="#552b1d"/><g class="vf-fig" data-f="pont"></g></svg><div class="c">Expire, monte le bassin</div><div class="b"><b>3</b><span>00:31</span></div></div></div></div>
+      <div class="words" data-w="C" style="font-weight:600;color:#fff;text-shadow:0 0 18px #0d0907,0 0 40px #0d0907"><span>Elle</span>&nbsp;<span>te</span>&nbsp;<span>ressemble</span></div>
+      <div class="lay vf-heroL"><div class="vf-sc vf-hero"><span class="k">EXERCICE 2 / 3</span><div class="n">Squat avec bande</div><div class="a">Avec la bande forte</div><svg viewBox="190 -330 540 360"><rect x="130" y="-2" width="580" height="14" rx="7" fill="#552b1d"/><g class="vf-fig" data-f="squat"></g></svg><div class="c">Inspire, descends</div><div class="b"><b>5</b><span>00:22</span></div></div></div>
+      <svg class="vf-arcs" viewBox="0 0 940 320"></svg>
+      <div class="vf-pill"><i></i><span>Jour 1</span></div>
+      <div class="words" data-w="D"><span style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:64px;text-transform:uppercase">15&nbsp;minutes</span>&nbsp;&nbsp;<span style="font-size:28px">par jour</span></div>
+      <div class="lay vf-logo"><div><svg viewBox="4 -6 104 112"><g fill="none" stroke="#f4ece2" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/></svg></div></div>
+    </div>
+    <div class="vf-pix"></div>
+    <div class="vf-end"><svg class="logo" viewBox="0 -6 616 112" aria-label="VAURE"><g fill="none" stroke="#2b1710" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/><g transform="translate(140 0)" fill="none" stroke="#2b1710" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2 L38 98 L74 2"/><path transform="translate(98 0)" d="M2 98 L38 2 L74 98"/><path transform="translate(200 0)" d="M4 2 V60 C4 84 18 98 38 98 C58 98 72 84 72 60 V2"/><path transform="translate(300 0)" d="M4 98 V2 H40 C60 2 70 14 70 30 C70 46 60 58 40 58 H4 M38 58 L70 98"/><path transform="translate(398 0)" d="M66 2 H4 V98 H66 M4 50 H54"/></g></svg><p>Le défi <em>30 jours</em></p>
+      <a href="#vp-attente">Être prévenue du lancement <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></div>
+    <div class="vf-hint" aria-hidden="true">Fais défiler</div>
+  </div>
+</section>
+
+<script>
+/* Silhouettes VAURE dessinées à l'affichage (même moteur que les exercices) */
+(function(){
+const NS='http://www.w3.org/2000/svg',L={torso:150,thigh:122,shin:116,upper:86,fore:80,neck:20,head:27},P=(x,y)=>({x,y}),R=Math.PI/180,f1=n=>(+n).toFixed(1),lerp=(a,b,t)=>a+(b-a)*t,mix=(a,b,t)=>P(lerp(a.x,b.x,t),lerp(a.y,b.y,t));
+function circ(g,c,r,fill){const e=document.createElementNS(NS,'circle');e.setAttribute('cx',f1(c.x));e.setAttribute('cy',f1(c.y));e.setAttribute('r',r);e.setAttribute('fill',fill);g.appendChild(e);}
+function raw(g,html){g.insertAdjacentHTML('beforeend',html);}
+const VV=(a,b)=>P(b.x-a.x,b.y-a.y),LN=v=>Math.hypot(v.x,v.y)||1;
+function crPath(pts){const n=pts.length;let d='M'+f1(pts[0].x)+' '+f1(pts[0].y);
+for(let i=0;i<n;i++){const p0=pts[(i-1+n)%n],p1=pts[i],p2=pts[(i+1)%n],p3=pts[(i+2)%n];
+d+=' C'+f1(p1.x+(p2.x-p0.x)/6)+' '+f1(p1.y+(p2.y-p0.y)/6)+' '+f1(p2.x-(p3.x-p1.x)/6)+' '+f1(p2.y-(p3.y-p1.y)/6)+' '+f1(p2.x)+' '+f1(p2.y);}
+return d+'Z';}
+function shape(g,pts,col){raw(g,'<path d="'+crPath(pts)+'" fill="'+col+'"/>');}
+function seg(g,a,b,prof,col,k=1,hl=false){const v=VV(a,b),L=LN(v),u=P(v.x/L,v.y/L),n=P(-u.y,u.x);
+const pt=(t,w)=>P(a.x+u.x*L*t+n.x*w*k,a.y+u.y*L*t+n.y*w*k),w0=prof[0][1]*k,we=prof[prof.length-1][1]*k;
+const pts=[...prof.map(([t,w])=>pt(t,w)),P(b.x+u.x*we*.8,b.y+u.y*we*.8),...prof.map(([t,w])=>pt(t,-w)).reverse(),P(a.x-u.x*w0*.8,a.y-u.y*w0*.8)];
+shape(g,pts,col);
+if(arguments[7]){const sd=n.y<0?-1:1,c2=arguments[7];
+shape(g,[...prof.map(([t,w])=>pt(t,sd*w)),P(b.x+u.x*we*.55+n.x*sd*we*.5,b.y+u.y*we*.55+n.y*sd*we*.5),...prof.map(([t,w])=>pt(t,sd*w*.2)).reverse()],c2);}
+if(hl){const sd=n.y<0?1:-1,hp=prof.slice(1,-1).map(([t,w])=>pt(t,sd*w*.55));
+if(hp.length>1)raw(g,'<path d="M'+hp.map(p=>f1(p.x)+' '+f1(p.y)).join(' L')+'" fill="none" stroke="#fff" stroke-opacity=".17" stroke-width="3" stroke-linecap="round"/>');}
+return u;}
+const THIGH=[[0,20],[.22,21],[.55,16.5],[.85,12.6],[1,12]],SHIN=[[0,11.8],[.25,13.2],[.55,11],[.85,8],[1,7.4]],
+UARM=[[0,9.6],[.35,9],[.75,7.2],[1,6.6]],FARM=[[0,6.6],[.25,7.1],[.8,5.3],[1,4.9]],FOOT=[[0,6.6],[.45,6.9],[1,4.4]],HAND=[[0,4.8],[.5,6.2],[1,4.2]];
+const TF=[[-.13,12],[-.03,21],[.12,20.5],[.3,17.5],[.45,16],[.56,18],[.64,23.5],[.7,25],[.76,22],[.86,17],[1,12]],
+TB=[[-.13,16],[-.03,27],[.1,26],[.26,19],[.45,16.5],[.62,18.5],[.8,19.5],[.92,17],[1,13]];
+const lerpProf=(pr,t)=>{if(t<=pr[0][0])return pr[0][1];for(let i=1;i<pr.length;i++)if(t<=pr[i][0]){const [t0,w0]=pr[i-1],[t1,w1]=pr[i];return w0+(w1-w0)*(t-t0)/(t1-t0);}return pr[pr.length-1][1];};
+const LEG='#552b1d',LEGD='#3a1d14',TOP='#2ef27a',TOPD='#1fc864',SOCK='#f4ece2',SCARF='#2b1710';
+const SKINS=['#f3d2b8','#e6b792','#d8a07a','#b97b55','#8d5638','#5e3a25'];
+const HAIRS=[['#1c120d','Noirs'],['#3a2318','Bruns'],['#6b4428','Châtains'],['#b88a4e','Blonds'],['#8e3b22','Roux']];
+const STYLES=[['queue','Queue de cheval'],['chignon','Chignon'],['afro','Afro'],['tresses','Tresse'],['court','Courts'],['foulard','Foulard']];
+const SHAPES=[['fine','Fine',.9],['moyenne','Moyenne',1.06],['ronde','Ronde',1.3]];
+const shade=(h,f)=>'#'+[1,3,5].map(i=>Math.min(255,Math.round(parseInt(h.substr(i,2),16)*f)).toString(16).padStart(2,'0')).join('');
+let AV=null;
+function drawBody(S,g){g.innerHTML='';
+{const xs=[S.hip.x,S.sh.x,S.ank.x,S.foot.x,S.hand.x],x0=Math.min(...xs)-20,x1=Math.max(...xs)+20,lo=Math.max(S.hip.y,S.sh.y);if(g.id==='body')raw(g,'<ellipse cx="'+f1((x0+x1)/2)+'" cy="-1" rx="'+f1((x1-x0)/2)+'" ry="'+f1(lo>-80?7:5)+'" fill="#2b1710" opacity=".16"/>');}
+const av=AV||{skin:2,hair:1,style:'queue',shape:'moyenne'};
+const SK=SKINS[av.skin],SKD=shade(SK,.84),SKS=shade(SK,.92),HAIR=HAIRS[av.hair][0],k=(SHAPES.find(x=>x[0]===av.shape)||SHAPES[1])[2],ka=1+(k-1)*.55;
+const dl=LN(VV(S.hip,S.sh)),d=P((S.sh.x-S.hip.x)/dl,(S.sh.y-S.hip.y)/dl);
+const front=S.front||P(-d.y,d.x);let n=P(-d.y,d.x);if(n.x*front.x+n.y*front.y<0)n=P(-n.x,-n.y);
+const at=(t,o=0)=>P(S.hip.x+(S.sh.x-S.hip.x)*t+n.x*o,S.hip.y+(S.sh.y-S.hip.y)*t+n.y*o);
+const hand=(e,h,col)=>{const u=VV(e,h),L=LN(u),uu=P(u.x/L,u.y/L);seg(g,P(h.x-uu.x*3,h.y-uu.y*3),P(h.x+uu.x*12,h.y+uu.y*12),HAND,col,ka);};
+if(S.farArm){seg(g,S.sh,S.farArm.e,UARM,SKD,ka);seg(g,S.farArm.e,S.farArm.h,FARM,SKD,ka);hand(S.farArm.e,S.farArm.h,SKD);}
+if(S.farLeg){seg(g,S.hip,S.farLeg.k,THIGH,LEGD,k);seg(g,S.farLeg.k,S.farLeg.a,SHIN,LEGD,k);seg(g,S.farLeg.a,S.farLeg.f,FOOT,'#dccbb9');}
+seg(g,S.hip,S.knee,THIGH,LEG,k,true,'#3f1f15');seg(g,S.knee,S.ank,SHIN,LEG,k,true,'#3f1f15');seg(g,S.ank,S.foot,FOOT,SOCK,1,false,'#ddd0c2');
+{const m1=mix(S.hip,S.knee,.08),m2=S.knee,m3=mix(S.knee,S.ank,.92);raw(g,'<path d="M'+f1(m1.x)+' '+f1(m1.y)+' L'+f1(m2.x)+' '+f1(m2.y)+' L'+f1(m3.x)+' '+f1(m3.y)+'" fill="none" stroke="'+TOP+'" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>');}
+const tsr=(t0,t1)=>{const ts=[];for(let t=t0;t<t1-1e-6;t+=.04)ts.push(t);ts.push(t1);return ts;};
+const torso=(f0,f1_,b0,b1,dw=0,capTop=false,capBot=false)=>{
+const fr=tsr(f0,f1_).map(t=>at(t,(lerpProf(TF,t)+dw)*k)),bk=tsr(b0,b1).map(t=>at(t,-(lerpProf(TB,t)+dw)*k)).reverse();
+const pts=[...fr];if(capTop)pts.push(at(Math.max(f1_,b1)+.06,0));pts.push(...bk);if(capBot)pts.push(at(Math.min(f0,b0)-.05,2));return pts;};
+const strip=(t0,t1,dw,col)=>{const ts=tsr(t0,t1);shape(g,[...ts.map(t=>at(t,-(lerpProf(TB,t)+dw)*k)),...ts.map(t=>at(t,-(lerpProf(TB,t)*.35)*k)).reverse()],col);};
+shape(g,torso(-.13,1,-.13,1,0,true,true),SK);strip(.32,.95,0,SKD);
+shape(g,torso(-.13,.32,-.13,.3,.6,false,true),LEG);strip(-.1,.3,.6,'#3f1f15');
+{const a1=at(.32,(lerpProf(TF,.32)+.6)*k),a2=at(.3,-(lerpProf(TB,.3)+.6)*k);raw(g,'<path d="M'+f1(a1.x)+' '+f1(a1.y)+' L'+f1(a2.x)+' '+f1(a2.y)+'" stroke="#7a4430" stroke-width="2.5" stroke-linecap="round"/>');}
+shape(g,torso(.5,.75,.53,.84,.9),TOP);strip(.53,.82,.9,TOPD);
+const hd0=S.headDir||d,hl=LN(hd0),hdir=P(hd0.x/hl,hd0.y/hl);
+let hn=P(-hdir.y,hdir.x);if(hn.x*front.x+hn.y*front.y<0)hn=P(-hn.x,-hn.y);
+const nk=P(S.sh.x+hdir.x*L.neck,S.sh.y+hdir.y*L.neck),C=P(S.sh.x+hdir.x*(L.neck+L.head-6),S.sh.y+hdir.y*(L.neck+L.head-6));
+const cp=(ang,r)=>P(C.x+hn.x*Math.cos(ang*R)*r+hdir.x*Math.sin(ang*R)*r,C.y+hn.y*Math.cos(ang*R)*r+hdir.y*Math.sin(ang*R)*r);
+const ring=arr=>arr.map(([a,r])=>cp(a,r));
+const st=av.style;
+const SKULL=[[0,22.5],[12,25],[24,23],[50,23],[90,24.5],[130,24.5],[170,23],[210,21],[245,15],[280,14],[310,20],[336,22.5]];
+if(st==='foulard'){
+seg(g,S.sh,nk,[[0,13],[1,11]],SCARF);
+shape(g,ring([[30,27],[70,30],[110,31],[150,30],[190,29],[225,27],[260,22],[290,20]]),SCARF);
+shape(g,ring([[-58,16],[-25,20.5],[0,21.5],[12,24],[26,21],[48,16],[70,9],[150,5],[230,6]]),SK);
+}else{
+seg(g,S.sh,nk,[[0,8],[1,7]],SKS);
+if(st==='afro')shape(g,ring([[40,30],[80,36],[120,38],[160,36],[200,32],[235,24],[20,24]]),HAIR);
+if(st==='chignon'){const c=cp(118,31);circ(g,c,13,HAIR);}
+if(st==='queue'){const base=cp(150,23),tip=P(base.x-hn.x*16,Math.min(-6,base.y+34));seg(g,base,tip,[[0,7],[.35,9],[.8,5],[1,2.5]],HAIR);}
+if(st==='tresses'){let p=cp(195,20);for(let i=0;i<7;i++){p=P(p.x-hn.x*1.5,Math.min(-6,p.y+9));circ(g,p,7.2-i*.45,HAIR);circ(g,P(p.x+2,p.y-2),2,'rgba(255,255,255,.12)');}circ(g,P(p.x,Math.min(-4,p.y+7)),3.5,TOP);}
+shape(g,ring(SKULL),SK);
+const cap=st==='court'?[[48,26],[70,27],[95,27.5],[130,27],[165,26],[200,24],[232,19],[205,13],[150,10],[100,12],[62,19]]
+:[[54,25.5],[75,26.5],[100,27],[135,26.5],[170,25.5],[205,23.5],[230,18],[200,13],[150,10],[105,13],[66,20]];
+shape(g,ring(cap),HAIR);
+raw(g,'<path d="M'+ring([[70,24],[95,25],[120,24]]).map(p=>f1(p.x)+' '+f1(p.y)).join(' L')+'" fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="3" stroke-linecap="round"/>');
+circ(g,cp(176,9),4.2,SKD);
+if(st==='queue')circ(g,cp(150,23),4.6,TOP);
+if(st==='chignon')circ(g,cp(110,23),4.2,TOP);
+}
+if(st!=='foulard'||true)circ(g,cp(-2,12),6,'rgba(232,110,95,.22)');
+circ(g,cp(30,15.5),2.5,'#2b1710');raw(g,'<path d="M'+f1(cp(30,15.5).x)+' '+f1(cp(30,15.5).y)+' L'+f1(cp(24,19.5).x)+' '+f1(cp(24,19.5).y)+'" stroke="#2b1710" stroke-width="1.6" stroke-linecap="round"/>');
+raw(g,'<path d="M'+f1(cp(42,17).x)+' '+f1(cp(42,17).y)+' L'+f1(cp(30,20.5).x)+' '+f1(cp(30,20.5).y)+'" stroke="'+(st==='foulard'?'#2b1710':HAIR)+'" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>');
+seg(g,S.sh,S.elb,UARM,SK,ka,true,SKD);seg(g,S.elb,S.hand,FARM,SK,ka,true,SKD);hand(S.elb,S.hand,SK);
+}
+const POSES={"pont":{"S":{"sh":{"x":250,"y":-27},"hip":{"x":402,"y":-142},"ank":{"x":545,"y":-16},"foot":{"x":578,"y":-11},"knee":{"x":523.4,"y":-130},"elb":{"x":325,"y":-16},"hand":{"x":400,"y":-12},"front":{"x":0,"y":-1},"headDir":{"x":-1,"y":0.1},"farLeg":{"k":{"x":517.4,"y":-126},"a":{"x":537,"y":-16},"f":{"x":570,"y":-11}}},"kb":"","kf":"<rect x=\"481.7\" y=\"-156.6\" width=\"30\" height=\"48\" rx=\"9\" fill=\"#997b63\" transform=\"rotate(95.7 496.7 -132.6)\"></rect>","av":{"skin":1,"hair":3,"style":"queue","shape":"fine"}},"squat":{"S":{"sh":{"x":472.4,"y":-239.5},"hip":{"x":372,"y":-128},"knee":{"x":494,"y":-127.5},"ank":{"x":470,"y":-14},"foot":{"x":506,"y":-9},"elb":{"x":556.6,"y":-222.3},"hand":{"x":636.6,"y":-218.3},"front":{"x":1,"y":0},"farArm":{"e":{"x":546.6,"y":-218.3},"h":{"x":626.6,"y":-214.3}},"farLeg":{"k":{"x":482,"y":-124.5},"a":{"x":456,"y":-14},"f":{"x":492,"y":-9}}},"kb":"","kf":"<rect x=\"454.6\" y=\"-151.6\" width=\"30\" height=\"48\" rx=\"9\" fill=\"#534032\" transform=\"rotate(90.2 469.6 -127.6)\"></rect>","av":{"skin":5,"hair":0,"style":"afro","shape":"ronde"}},"teaser":{"S":{"sh":{"x":333.6,"y":-144.9},"hip":{"x":430,"y":-30},"knee":{"x":505.1,"y":-126.1},"ank":{"x":620.8,"y":-118},"foot":{"x":647.7,"y":-110.3},"elb":{"x":410.9,"y":-182.6},"hand":{"x":482.8,"y":-217.7},"farArm":{"e":{"x":404.9,"y":-179.6},"h":{"x":476.8,"y":-214.7}},"farLeg":{"k":{"x":497.1,"y":-124.1},"a":{"x":610.8,"y":-118},"f":{"x":637.7,"y":-110.3}}},"kb":"<circle cx=\"502.6\" cy=\"-227.3\" r=\"24\" fill=\"#6e3a27\"></circle><circle cx=\"494.2\" cy=\"-235.7\" r=\"6.7\" fill=\"#8d4f37\"></circle>","kf":"","av":{"skin":4,"hair":0,"style":"tresses","shape":"moyenne"}},"pike":{"S":{"sh":{"x":282,"y":-150},"hip":{"x":396.9,"y":-246.4},"knee":{"x":440.4,"y":-132.3},"ank":{"x":481.6,"y":-24},"foot":{"x":511.6,"y":-18},"elb":{"x":290,"y":-81},"hand":{"x":292,"y":-12},"front":{"x":0,"y":1},"farArm":{"e":{"x":278,"y":-81},"h":{"x":278,"y":-12}},"farLeg":{"k":{"x":432.4,"y":-136.3},"a":{"x":471.6,"y":-26},"f":{"x":501.6,"y":-20}}},"kb":"<ellipse cx=\"495.6\" cy=\"-6\" rx=\"40\" ry=\"8\" fill=\"#4e2719\"></ellipse><ellipse cx=\"495.6\" cy=\"-9\" rx=\"40\" ry=\"7\" fill=\"#6e3a27\"></ellipse>","kf":"","av":{"skin":2,"hair":2,"style":"court","shape":"fine"}}};
+document.querySelectorAll('.vf-fig').forEach(function(g){const d=POSES[g.dataset.f];if(!d)return;AV=d.av;
+const k=document.createElementNS(NS,'g'),b=document.createElementNS(NS,'g'),f=document.createElementNS(NS,'g');k.innerHTML=d.kb;f.innerHTML=d.kf;drawBody(d.S,b);g.appendChild(k);g.appendChild(b);g.appendChild(f);});
+})();
+</script>
+
+<script>
+(function(){
+var root=[].slice.call(document.querySelectorAll('.vf')).pop();if(!root)return;
+var q=function(s){return root.querySelector(s)},qa=function(s){return [].slice.call(root.querySelectorAll(s))};
+var cl=function(x){return Math.max(0,Math.min(1,x))},ss=function(x){x=cl(x);return x*x*(3-2*x)},lerp=function(a,b,t){return a+(b-a)*t},
+    eo=function(x){x=cl(x);return 1-Math.pow(1-x,3)},ei=function(x){x=cl(x);return x*x*x};
+var pin=q('.vf-pin'),stage=q('.vf-stage'),pix=q('.vf-pix'),endC=q('.vf-end'),hint=q('.vf-hint');
+var W={};qa('.words').forEach(function(w){W[w.dataset.w]=w;});
+var sym=qa('.sym')[0],card=q('.vf-card'),ring=q('.vf-card .ring'),tap=q('.vf-tap'),gap=q('.gap'),hero=q('.vf-hero'),pill=q('.vf-pill'),fill=q('.vf-pill i'),pct=q('.vf-pill span'),arcs=q('.vf-arcs'),logo=q('.vf-logo div'),beam=q('.vf-beam'),tun=q('.vf-tun');
+var CARDS=qa('.vf-tun .vf-sc');
+var BL=[[340,'rgba(232,212,194,.55)'],[300,'rgba(190,164,144,.45)'],[260,'rgba(255,244,232,.4)']],blobs=qa('.vf-bg i');
+blobs.forEach(function(b,i){b.style.width=b.style.height=BL[i][0]+'px';b.style.background=BL[i][1];});
+var PX=[];for(var i=0;i<24*14;i++){var d=document.createElement('i');pix.appendChild(d);PX.push(Math.abs((Math.sin(i*12.9898)*43758.5453)%1));}
+var WALL=[[-330,0,'rotateY(70deg)'],[330,0,'rotateY(-70deg)'],[0,-330,'rotateX(-74deg) rotateZ(90deg)'],[0,330,'rotateX(74deg) rotateZ(-90deg)']],FROM=[[-900,0],[900,0],[0,-1100],[0,1100]];
+function wordsIn(el,t,a,step,dur){[].slice.call(el.children).forEach(function(s,i){if(s.className==='gap')return;var k=eo((t-a-i*step)/dur);
+  s.style.opacity=k;s.style.filter='blur('+((1-k)*12).toFixed(1)+'px)';s.style.transform='translateY('+((1-k)*14).toFixed(1)+'px)';});}
+function show(el,on){el.style.visibility=on?'visible':'hidden';}
+var VW=0,VH=0;
+function size(){VW=pin.clientWidth;VH=pin.clientHeight;var s=Math.min(VH/960,VW/540);stage.style.transform='scale('+s+')';}
+function render(t){
+  var bw=VW,bh=VH;
+  var P=[[bw*.5+bw*.3*Math.sin(t*.7),bh*.66+bh*.1*Math.cos(t*.5)],[bw*.35+bw*.25*Math.cos(t*.9+1),bh*.3+bh*.16*Math.sin(t*.6)],[bw*.68+bw*.22*Math.sin(t*1.1+2),bh*.5+bh*.15*Math.cos(t*.8+1)]];
+  blobs.forEach(function(b,i){b.style.transform='translate('+(P[i][0]-BL[i][0]/2)+'px,'+(P[i][1]-BL[i][0]/2)+'px)';});
+  beam.style.opacity=(.5+.3*Math.sin(t*1.3))*(t<11?1:0)+(t>11.6&&t<12.9?ss((t-11.6)/.5)*1.4:0);
+  hint.style.opacity=1-cl(t/.6);
+  var A=W.A;show(A,t<3.2);if(t<3.2){wordsIn(A,t,.15,.16,.5);gap.style.width=(eo((t-1.45)/.45)*86)+'px';var o=ss((t-2.35)/.5);A.style.filter='blur('+(o*14)+'px)';A.style.transform='translateY('+(o*90)+'px) scale('+(1-o*.1)+')';A.style.opacity=1-o;}
+  (function(){var k=eo((t-1.55)/.4),fly=ss((t-2.2)/.7),x=lerp(13,0,fly),y=lerp(0,-12,fly),sc=lerp(.55+.45*k,1.35,fly)*(1-ss((t-4.3)/.5)*.2);
+   show(sym,t>1.5&&t<4.9);var tr='translate(-50%,-50%) translate('+x+'px,'+y+'px) scale('+sc+') rotate('+((1-k)*-40)+'deg)';var z=ei((t-4.3)/.6);
+   if(t>4.3){tr+=' scale('+(1+z*7)+')';sym.style.filter='blur('+(z*16)+'px)';sym.style.opacity=1-z;}else{sym.style.filter='none';sym.style.opacity=1;}sym.style.transform=tr;})();
+  (function(){var a=eo((t-2.15)/.8),z=ei((t-4.3)/.6);show(card,t>2.1&&t<4.95);
+   card.style.transform='translateY('+((1-a)*-520)+'px) rotateX('+(lerp(55,10,a)+Math.sin(t*1.4)*3)+'deg) rotateY('+lerp(-25,6,ss((t-2.2)/2))+'deg) rotateZ('+((1-a)*-8)+'deg) scale('+(lerp(.7,1,a)*(1+z*6))+')';
+   card.style.filter='blur('+(z*18)+'px)';card.style.opacity=t>4.3?1-z:1;ring.style.boxShadow='0 0 0 2px rgba(46,242,122,.85),0 0 '+(30+25*Math.sin(t*5))+'px rgba(46,242,122,.55)';})();
+  (function(){var k=ss((t-3.3)/.5),press=Math.max(0,Math.sin(cl((t-3.85)/.35)*Math.PI));tap.style.opacity=t>3.2&&t<4.35?ss((t-3.2)/.2)*(1-ss((t-4.15)/.2)):0;
+   tap.style.left=lerp(420,262,k)+'px';tap.style.top=lerp(700,486,k)+'px';tap.style.transform='scale('+(1-press*.3)+')';tap.style.boxShadow='0 0 0 '+(6+press*22)+'px rgba(46,242,122,'+(.25*press+.1)+')';})();
+  var B=W.B;show(B,t>4.45&&t<5.95);if(t>4.45&&t<5.95){wordsIn(B,t,4.5,.14,.45);var o2=ss((t-5.55)/.4);B.style.transform='scale('+(1-o2*.3)+')';B.style.filter='blur('+(o2*8)+'px)';B.style.opacity=1-o2;}
+  var on=t>5.3&&t<8.9;show(tun,on);
+  if(on)CARDS.forEach(function(im,i){var side=i%4,row=Math.floor(i/4),arr=eo((t-5.3-row*.12-side*.05)/.8);
+    var z=-420-row*460+ss((t-6.2)/2.6)*1500+ei((t-8.1)/.7)*900,Wl=WALL[side],F=FROM[side];
+    im.style.transform='translate3d('+lerp(F[0],Wl[0],arr)+'px,'+lerp(F[1],Wl[1],arr)+'px,'+z+'px) '+Wl[2];im.style.opacity=cl((z+2000)/400)*cl((420-z)/200);});
+  var C=W.C;show(C,t>5.75&&t<8.2);if(t>5.75&&t<8.2){wordsIn(C,t,5.8,.15,.45);var o3=ss((t-7.8)/.35);C.style.filter='blur('+(o3*10)+'px)';C.style.transform='scale('+(1+o3*.5)+')';C.style.opacity=1-o3;}
+  (function(){var k=ss((t-7.7)/.9),out=ei((t-8.75)/.55);show(hero,t>7.6&&t<9.35);
+   hero.style.transform='translateX('+(lerp(330,0,k)-out*640)+'px) translateY('+(out*-120)+'px) rotateY('+(lerp(-70,0,k)+out*-38)+'deg) rotateZ('+(out*-18)+'deg) scale('+lerp(.75,1.9,k)+')';})();
+  (function(){var k=eo((t-8.85)/.6),f=ss((t-9.1)/1.5),st=ei((t-10.55)/.45),w=lerp(160,440,k)+st*900,left=lerp(560,50,k)-st*850;
+   show(pill,t>8.8&&t<11.05);pill.style.width=w+'px';pill.style.left=left+'px';fill.style.width=(6+94*f)+'%';pct.textContent='Jour '+Math.max(1,Math.round(1+29*f));
+   arcs.style.opacity=t>9&&t<11?ss((t-9)/.4)*(1-st):0;var s='';for(var i=0;i<6;i++){var o=(t*70+i*20)%120;s+='<path d="M'+(-20+i*10)+' '+(70+o)+' Q470 '+(180+o*.6)+' '+(960-i*10)+' '+(70+o)+'" fill="none" stroke="rgba(244,236,226,'+(.42-i*.06)+')" stroke-width="3"/>';}arcs.innerHTML=s;})();
+  var D=W.D;show(D,t>10.75&&t<12.1);if(t>10.75&&t<12.1){wordsIn(D,t,10.8,.3,.45);var o4=ss((t-11.75)/.35);D.style.transform='translateY('+(-o4*40)+'px) scale('+(1-o4*.4)+')';D.style.filter='blur('+(o4*8)+'px)';D.style.opacity=1-o4;}
+  (function(){var k=eo((t-11.85)/.5);logo.style.opacity=t>11.8&&t<13.2?k:0;logo.style.transform='scale('+lerp(.4,1,k)+')';logo.style.filter='drop-shadow(0 0 '+(20+20*Math.sin(t*6))+'px rgba(46,242,122,.7))';})();
+  for(var j=0;j<PX.length;j++)pix.children[j].style.opacity=t>12.75+PX[j]*.45?1:0;
+  var e=eo((t-13.15)/.5);endC.style.opacity=t>13.1?e:0;endC.style.pointerEvents=t>13.4?'auto':'none';endC.style.transform='scale('+(1.05-.05*e)+')';
+}
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){root.classList.add('static');size();render(15);return;}
+var target=0,cur=0,run=false,last=0,clock=0;
+function read(){var r=root.getBoundingClientRect();target=cl(-r.top/(root.offsetHeight-pin.offsetHeight))*15.2;}
+function frame(now){if(!run)return;requestAnimationFrame(frame);var dt=Math.min(.05,(now-last)/1000);last=now;clock+=dt;
+  cur+=(target-cur)*(1-Math.exp(-dt*6));render(cur);}
+new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){if(!run){run=true;last=performance.now();requestAnimationFrame(frame);}}else run=false;});}).observe(root);
+addEventListener('scroll',read,{passive:true});addEventListener('resize',function(){size();read();});
+size();read();cur=target;render(cur);
+})();
+</script>
+
+{% schema %}
+{
+  "name": "VAURE – film",
+  "settings": [],
+  "presets": [{ "name": "VAURE – film" }]
+}
+{% endschema %}

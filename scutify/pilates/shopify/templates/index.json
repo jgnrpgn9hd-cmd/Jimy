@@ -25,11 +25,16 @@
     "vaure_appli": {
       "type": "vaure-pilates-appli",
       "settings": {}
+    },
+    "vaure_film": {
+      "type": "vaure-pilates-film",
+      "settings": {}
     }
   },
   "order": [
     "vaure_3d",
     "vaure_coffret",
+    "vaure_film",
     "vaure_appli",
     "vaure_sport",
     "vaure_pilates",
