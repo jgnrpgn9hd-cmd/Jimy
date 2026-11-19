@@ -535,3 +535,10 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Tenue VAURE identique pour toutes (brassière fluo, legging chocolat) : c'est la signature de la marque.
 - Aperçus : apercu_silhouette_choix.png, apercu_silhouettes.png.
 - Menu déroulant « Menu » (en haut à droite de l'accueil, avec la mini-silhouette) : Ma silhouette, Ma musique, Mode de séance (bascule Minuteur / À ton rythme), Recommencer le défi (avec confirmation), Le site VAURE. Aperçu : apercu_menu.png.
+
+### « Les exercices » dans le menu du site (19/11)
+- Menu déroulant in-app retiré (demande de Jairo) : « Ma silhouette » reste un bouton dans l'appli.
+- Appli mise sur le thème brouillon 199730561406 : templates/page.seances.liquid (layout none, plein écran, logo = retour au site, MD5 16d61d24…), assets/vaure-seances.css (0786279d…), assets/vaure-seances.js (0997efc6…). Copies dans pilates/shopify/.
+- Page « Les exercices » /pages/les-exercices (gid 711062716798, gabarit seances, noindex).
+- Menu vaure-pilates : Le kit · Le défi 30 jours · Les exercices · FAQ · Liste d'attente.
+- Rien de publié. Plus tard : réserver la page aux clientes (compte client) ou garder le jour 1 en accès libre comme démonstration.

@@ -15,7 +15,7 @@
   .scr[hidden]{display:none}
 
   /* ---------- Accueil ---------- */
-  .hh{background:var(--night);color:#fbf7f2;padding:22px 20px 26px;position:relative;z-index:3}
+  .hh{background:var(--night);color:#fbf7f2;padding:22px 20px 26px;position:relative;overflow:hidden}
   .hh::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(-58deg,rgba(255,255,255,.035) 0 2px,transparent 2px 22px)}
   .hh>*{position:relative}
   .hrow{display:flex;justify-content:space-between;align-items:center}
@@ -213,19 +213,6 @@
   .ch{display:flex;flex-wrap:wrap;gap:8px}
   .ch button{border:0;background:var(--cream);color:var(--ink);font-weight:600;font-size:14px;padding:10px 14px;border-radius:999px}
   .ch button.on{background:var(--ink);color:#fbf7f2}
-
-  .menu{position:relative}
-  .me .chev{width:12px;height:12px;background:none;border-radius:0;transition:transform .2s ease}
-  .me[aria-expanded="true"] .chev{transform:rotate(180deg)}
-  .dd{position:absolute;right:0;top:calc(100% + 8px);z-index:10;width:268px;background:var(--paper);color:var(--ink);border-radius:18px;padding:6px;box-shadow:0 20px 50px rgba(20,11,8,.35);transform-origin:top right;transform:scale(.96) translateY(-4px);opacity:0;pointer-events:none;transition:transform .18s ease-out,opacity .18s ease-out}
-  .dd.on{transform:none;opacity:1;pointer-events:auto}
-  .dd button,.dd a{all:unset;box-sizing:border-box;cursor:pointer;display:flex;align-items:center;gap:12px;width:100%;padding:10px;border-radius:12px;color:var(--ink);text-decoration:none}
-  .dd button:active,.dd a:active{background:var(--cream)}
-  .dd b{display:block;font-size:14px;font-weight:700}
-  .dd small{display:block;font-size:12px;color:var(--muted);margin-top:1px}
-  .mi-ic{width:36px;height:36px;flex:none;border-radius:10px;background:var(--cream);display:grid;place-items:center;font-size:16px;color:var(--choco);overflow:hidden}
-  .mi-ic svg{width:36px;height:36px}
-  .dd [data-mi="reset"] b{color:#a3361b}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style></head>
 <body>
@@ -234,14 +221,7 @@
   <!-- ============ SÉANCES ============ -->
   <section class="scr" id="tab-home">
     <header class="hh">
-      <div class="hrow"><svg class="logo" viewBox="0 -6 616 112" aria-label="VAURE"><g fill="none" stroke="#2b1710" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/><g transform="translate(140 0)" fill="none" stroke="#2b1710" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2 L38 98 L74 2"/><path transform="translate(98 0)" d="M2 98 L38 2 L74 98"/><path transform="translate(200 0)" d="M4 2 V60 C4 84 18 98 38 98 C58 98 72 84 72 60 V2"/><path transform="translate(300 0)" d="M4 98 V2 H40 C60 2 70 14 70 30 C70 46 60 58 40 58 H4 M38 58 L70 98"/><path transform="translate(398 0)" d="M66 2 H4 V98 H66 M4 50 H54"/></g></svg><div class="menu"><button class="me" id="meBtn" aria-haspopup="true" aria-expanded="false"><svg viewBox="380 -470 200 480" id="meMini"><g></g></svg>Menu<svg class="chev" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 4.5l3 3 3-3"/></svg></button>
-        <div class="dd" id="dd" role="menu">
-          <button role="menuitem" data-mi="avatar"><span class="mi-ic"><svg viewBox="380 -470 200 480" id="ddAv"><g></g></svg></span><span><b>Ma silhouette</b><small>Peau, cheveux, morphologie</small></span></button>
-          <button role="menuitem" data-mi="music"><span class="mi-ic">♪</span><span><b>Ma musique</b><small id="ddMus">Connecter une playlist</small></span></button>
-          <button role="menuitem" data-mi="mode"><span class="mi-ic">⏱</span><span><b>Mode de séance</b><small id="ddMode">Minuteur</small></span></button>
-          <button role="menuitem" data-mi="reset"><span class="mi-ic">↺</span><span><b>Recommencer le défi</b><small>Remet les 30 jours à zéro</small></span></button>
-          <a role="menuitem" href="https://www.vaure.fr" target="_blank" rel="noopener"><span class="mi-ic">↗</span><span><b>Le site VAURE</b><small>vaure.fr</small></span></a>
-        </div></div></div>
+      <div class="hrow"><svg class="logo" viewBox="0 -6 616 112" aria-label="VAURE"><g fill="none" stroke="#2b1710" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/><g transform="translate(140 0)" fill="none" stroke="#2b1710" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2 L38 98 L74 2"/><path transform="translate(98 0)" d="M2 98 L38 2 L74 98"/><path transform="translate(200 0)" d="M4 2 V60 C4 84 18 98 38 98 C58 98 72 84 72 60 V2"/><path transform="translate(300 0)" d="M4 98 V2 H40 C60 2 70 14 70 30 C70 46 60 58 40 58 H4 M38 58 L70 98"/><path transform="translate(398 0)" d="M66 2 H4 V98 H66 M4 50 H54"/></g></svg><button class="me" id="meBtn"><svg viewBox="380 -470 200 480" id="meMini"><g></g></svg>Ma silhouette</button></div>
       <h1 class="bc">Le défi <em>30 jours</em></h1>
       <div class="prog"><div class="pt"><span><b id="doneN">0</b>/ 30 jours faits</span><span id="pPct">0 %</span></div><div class="pbar"><i id="pbar"></i></div></div>
     </header>
@@ -743,7 +723,7 @@ if(!window.__frame)requestAnimationFrame(tick);
    ============================================================ */
 AV=store.get('avatar',null);
 function standPose(){const r=X.fente(0);kit0();return r.S;}
-function drawMini(){const S=standPose();drawBody(S,$('meMini').querySelector('g'));drawBody(S,$('ddAv').querySelector('g'));const p=$('avPrev');if(p)drawBody(S,p.querySelector('g'));}
+function drawMini(){const S=standPose();drawBody(S,$('meMini').querySelector('g'));const p=$('avPrev');if(p)drawBody(S,p.querySelector('g'));}
 function openAvatar(first){const a=AV||{skin:2,hair:1,style:'queue',shape:'moyenne'};AV=a;
   const sw=(arr,key,fn)=>arr.map((v,i)=>`<button data-av="${key}" data-v="${i}" class="${a[key]===i?'on':''}" style="background:${fn(v)}" aria-label="${key} ${i+1}"></button>`).join('');
   const ch=(arr,key)=>arr.map(v=>`<button data-av="${key}" data-v="${v[0]}" class="${a[key]===v[0]?'on':''}">${v[1]}</button>`).join('');
@@ -764,17 +744,9 @@ $('sheet').addEventListener('click',e=>{const b=e.target.closest('[data-av]');if
     if(k==='style')$('avHairCol').style.display=AV.style==='foulard'?'none':'';
     store.set('avatar',AV);drawMini();}
   if(e.target.closest('#avOk')){store.set('avatar',AV);closeSheet();drawMini();}});
-function ddSync(){$('ddMode').textContent=MODE==='timer'?'Minuteur':'À ton rythme';$('ddMus').textContent=MUS?'Connectée : '+MUS.p:'Connecter une playlist';}
-function ddToggle(open){const o=open===undefined?!$('dd').classList.contains('on'):open;ddSync();$('dd').classList.toggle('on',o);$('meBtn').setAttribute('aria-expanded',o);}
-$('meBtn').onclick=e=>{e.stopPropagation();ddToggle();};
-document.addEventListener('click',e=>{if(!e.target.closest('.menu'))ddToggle(false);});
-$('dd').addEventListener('click',e=>{const b=e.target.closest('[data-mi]');if(!b)return;const m=b.dataset.mi;
-  if(m==='avatar'){ddToggle(false);openAvatar(false);}
-  if(m==='music'){ddToggle(false);setTab('music');}
-  if(m==='mode'){setMode(MODE==='timer'?'rythme':'timer');ddSync();}
-  if(m==='reset'){if(confirm('Remettre les 30 jours à zéro ? Tes jours cochés seront effacés.')){DONE=[];store.set('done',DONE);renderHome();ddToggle(false);}}});
+$('meBtn').onclick=()=>openAvatar(false);
 drawMini();if(!store.get('avatar',null))setTimeout(()=>openAvatar(true),400);
 /* outils de test (captures) */
-window.__dr=r=>drawBody(r.S);window.__api={ddToggle,openAvatar,setAV:v=>{AV=v;drawMini();},X,EX,buildDay,startDay,setMode,setTab,openSheet,closeSheet,toEmbed,pose,frame,get PL(){return PL;},set:(i,t)=>{PL.i=i;PL.t=t;PL.at=t;lastStep=-1;frame();}};
+window.__dr=r=>drawBody(r.S);window.__api={openAvatar,setAV:v=>{AV=v;drawMini();},X,EX,buildDay,startDay,setMode,setTab,openSheet,closeSheet,toEmbed,pose,frame,get PL(){return PL;},set:(i,t)=>{PL.i=i;PL.t=t;PL.at=t;lastStep=-1;frame();}};
 </script>
 </body></html>
