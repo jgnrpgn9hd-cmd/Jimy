@@ -29,6 +29,10 @@
     "vaure_film": {
       "type": "vaure-pilates-film",
       "settings": {}
+    },
+    "vaure_liens": {
+      "type": "vaure-pilates-liens",
+      "settings": {}
     }
   },
   "order": [
@@ -38,6 +42,7 @@
     "vaure_appli",
     "vaure_sport",
     "vaure_pilates",
-    "vaure_retouches"
+    "vaure_retouches",
+    "vaure_liens"
   ]
 }
