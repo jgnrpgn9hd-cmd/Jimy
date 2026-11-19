@@ -554,3 +554,8 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Dessin organique : contours lissés (courbes), cuisses et mollets galbés, vrai buste (taille, hanches, poitrine), brassière à encolure arrondie avec bretelle, legging taille haute, mains et pieds, reflet de lumière ; tête avec œil, sourcil, oreille, menton, coupe de cheveux en volume ; queue de cheval ne passe plus sous le tapis.
 - Mêmes choix (6 peaux, 6 coiffures dont foulard, 5 couleurs, 3 morphologies). Aperçu : espace_seances/apercu_silhouettes_v2.png.
 - Thème brouillon : assets/vaure-seances.js MD5 bf3e2e83… vérifié (oreille, bretelle, bouche retouchées). Rien de publié.
+
+### Silhouettes v3 + teaser vidéo (19/11)
+- Silhouettes : ombrage (volume) sur membres et buste, bande fluo sur le côté du legging, joue, cils, ombre au sol. Envoyé sur le brouillon (assets/vaure-seances.js, MD5 local a65e46fc…) ; la vérification MD5 côté Shopify n'a pas pu être faite (refusée).
+- `video_promo/vaure_teaser.mp4` (15 s, 1080×1920, 30 i/s, sans son) dans le style « lancement produit » de la vidéo de référence de Jairo : faisceau de lumière, textes qui sortent du flou, carte en verre 3D, tunnel des vrais écrans de l'appli, jauge Jour 1 → Jour 30, « 15 minutes par jour », logo puis flash crème « Le défi 30 jours · Bientôt disponible · vaure.fr ». Aucune marque ni logo tiers. Source : video_promo/promo.html (renderAt(t)).
+- Son : à ajouter directement dans TikTok/Instagram (musique de la bibliothèque de l'appli, droits gérés par la plateforme).
