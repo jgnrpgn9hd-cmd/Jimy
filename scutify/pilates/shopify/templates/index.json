@@ -41,9 +41,14 @@
     "vaure_cta": {
       "type": "vaure-pilates-cta",
       "settings": {}
+    },
+    "vaure_annonce": {
+      "type": "vaure-pilates-annonce",
+      "settings": {}
     }
   },
   "order": [
+    "vaure_annonce",
     "vaure_3d",
     "vaure_coffret",
     "vaure_film",

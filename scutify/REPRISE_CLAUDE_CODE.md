@@ -636,3 +636,16 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
   - .pain et .compare dans home ;
   - le bloc photo et liste du coffret, pour ne garder que « Pièce par pièce ».
 - Nouvel ordre : ouverture → pièce par pièce → film → elle te ressemble → appli → −95 % → défi 30 jours → FAQ → liste d'attente.
+
+## Leviers repérés chez une marque qui vend bien (Milia Matcha), appliqués sans copier
+- Leur site n'est pas accessible d'ici (DNS bloqué). Leviers repérés par recherche web :
+  - barre d'annonce ;
+  - livraison offerte dès un montant ;
+  - packs et accessoires ;
+  - abonnement avec remise ;
+  - histoire de la fondatrice ;
+  - carte cadeau ;
+  - don à une association ;
+  - « de retour en stock ».
+- Fait : sections/vaure-pilates-annonce.liquid (0809a770…), placée en tête d'index.json (5d6a3441…). Bandeau défilant avec 4 infos vraies : lancement, exercices gratuits, retours 30 jours, 39,90 € une fois.
+- En attente de décisions de Jairo : seuil de livraison offerte, pack, carte cadeau, vraie histoire de la fondatrice.
