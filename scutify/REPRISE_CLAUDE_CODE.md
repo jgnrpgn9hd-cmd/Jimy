@@ -677,3 +677,4 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Le texte présente le sport et la régularité, le prix et les horaires du studio, puis le kit et les exercices guidés. La liste « Ce que je te promets » est conservée.
 - Correction au passage : « programme vidéo » devient « exercices guidés » (ce sont des animations, pas des vidéos).
 - Menu vaure-pilates : ajout de « Pourquoi VAURE » entre « Les exercices » et « FAQ ». Les menus sont communs à tous les thèmes : c'est donc visible tout de suite sur le site en ligne.
+- Détails validés par le fondateur (réponse « Voilà c bien » à l'exemple proposé) : muscu depuis des années ; Pilates découvert en cherchant un sport complet à faire chez soi.
