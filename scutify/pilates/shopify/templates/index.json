@@ -41,6 +41,10 @@
     "vaure_toutes": {
       "type": "vaure-pilates-toutes",
       "settings": {}
+    },
+    "vaure_cta": {
+      "type": "vaure-pilates-cta",
+      "settings": {}
     }
   },
   "order": [
@@ -53,6 +57,7 @@
     "vaure_sport",
     "vaure_pilates",
     "vaure_retouches",
-    "vaure_liens"
+    "vaure_liens",
+    "vaure_cta"
   ]
 }

@@ -611,3 +611,12 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - espace_seances/photos_exercices.js, aussi ajouté au bout de assets/vaure-rouleau.js (b041f204…) : la photo remplace le dessin pendant l'exercice. Si la photo est absente ou ne charge pas, le dessin reste.
 - Photos branchées : pont, squat, planche, rouleau (CDN Shopify .../files/ + nom du fichier, donc à téléverser).
 - Les 14 autres exercices attendent leurs photos : prompts dans photos_site/PROMPTS_EXERCICES.md. Pour en ajouter une : une ligne dans PH {id:[fichier, cadrage, ratio]}.
+
+## Pousser à l'inscription (liste d'attente)
+- sections/vaure-pilates-cta.liquid (0a07b80a…), en dernier dans index.json (8965a74b…).
+- Une barre fixe en bas de l'écran, « Le kit VAURE · 39,90 € · Être prévenue », apparaît après le kit 3D. Elle se cache quand le formulaire est visible et en bas de page.
+- La même section enrichit le bloc #vp-attente par script, sans réenvoyer la grosse section home :
+  - ajoute la photo du kit et le prix dans le surtitre ;
+  - ajoute 3 assurances vraies : prévenue en premier, exercices déjà gratuits, désinscription en un clic ;
+  - ajoute un lien « commence le jour 1 » après l'inscription.
+- Prix vérifié : le produit kit-pilates-vaure est à 39,90 €, encore en brouillon (DRAFT).
