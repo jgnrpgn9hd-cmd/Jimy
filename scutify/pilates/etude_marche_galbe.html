@@ -1,0 +1,134 @@
+<title>VAURE · Étude de marché</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Mise en page : dossier d'étude de marché en 4 parties (ordre de la Road Map Scutify), colonne de lecture, tableaux qui défilent seuls sur téléphone */
+:root{
+  --bg:#ffffff; --surface:#ffffff; --ink:#0b1f3a; --muted:#55657a; --line:#d9e1ea;
+  --rose:#0b1f3a; --rose-soft:#eef2f6; --sauge:#2ef27a; --sauge-ink:#0a7a3b; --cta:#0b1f3a; --warn:#9a5214; --warn-bg:#fbefe3;
+  --display:'Outfit',ui-sans-serif,system-ui,sans-serif; --body:'Inter',ui-sans-serif,system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0b1f3a; --surface:#10294a; --ink:#ffffff; --muted:#b9c6d6; --line:#24406a;
+  --rose:#ffffff; --rose-soft:#132f55; --sauge:#2ef27a; --sauge-ink:#2ef27a; --cta:#2ef27a; --warn:#f0b07a; --warn-bg:#2c1d12; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0b1f3a; --surface:#10294a; --ink:#ffffff; --muted:#b9c6d6; --line:#24406a;
+  --rose:#ffffff; --rose-soft:#132f55; --sauge:#2ef27a; --sauge-ink:#2ef27a; --cta:#2ef27a; --warn:#f0b07a; --warn-bg:#2c1d12; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.65 var(--body);margin:0}
+.wrap{max-width:960px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.2;margin:0}
+h1{font-size:clamp(28px,5vw,40px)}
+h2{font-size:24px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h2 .n{font-size:12px;letter-spacing:.14em;color:var(--sauge-ink);font-family:var(--body);font-weight:600;text-transform:uppercase}
+h3{font-size:16px;margin-top:22px}
+p,li{max-width:68ch}
+.lead{color:var(--muted);font-size:16px;margin-top:10px}
+.band{background:var(--rose-soft);border-radius:14px;padding:18px 20px;margin-top:18px}
+.band b{color:var(--cta)}
+section{margin-top:44px;padding-top:28px;border-top:1px solid var(--line)}
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:16px}
+.fig{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}
+.fig .v{font-family:var(--display);font-size:26px;font-weight:600;font-variant-numeric:tabular-nums}
+.fig .l{color:var(--muted);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:14px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;min-width:0}
+.box h3{margin-top:0}
+.tbl{overflow-x:auto;margin-top:14px}
+table{border-collapse:collapse;width:100%;min-width:620px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+td.num{white-space:nowrap}
+tr.us td{background:var(--rose-soft);font-weight:600}
+.note{background:var(--warn-bg);border-left:3px solid var(--warn);padding:12px 16px;border-radius:6px;margin-top:16px}
+.note b{color:var(--warn)}
+ol.q{padding-left:22px}
+ol.q li{margin-bottom:8px}
+ol.q .why{display:block;color:var(--muted);font-size:13px}
+.tag{display:inline-block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;background:var(--sauge);color:#0e2a3f;border-radius:999px;padding:2px 9px;margin-right:6px}
+a{color:var(--cta)}
+.src{font-size:13px;color:var(--muted)}
+</style>
+
+<div class="wrap">
+<header>
+  <h1>VAURE · Étude de marché</h1>
+  <p class="lead">Étape 02 de la Road Map Scutify pour le kit Pilates « Reformer à la maison » : le marché, la concurrence, l'expertise à maîtriser et le questionnaire à faire passer.</p>
+  <div class="band">Le produit : <b>barre de Pilates démontable avec élastiques, 2 disques de glisse et programme vidéo de 30 jours</b>, vendu 39,90 €. Il coûte environ 3,68 € chez le fournisseur.</div>
+</header>
+
+<section id="marche">
+  <h2><span class="n">Partie 1</span>Le marché</h2>
+  <div class="figs">
+    <div class="fig"><div class="v">≈ 400 000</div><div class="l">pratiquants réguliers de Pilates en France en 2026</div></div>
+    <div class="fig"><div class="v">250 à 260 M€</div><div class="l">chiffre d'affaires des studios de Pilates en France</div></div>
+    <div class="fig"><div class="v">+10 à 12 %</div><div class="l">de croissance par an estimée</div></div>
+    <div class="fig"><div class="v">+207 %</div><div class="l">de réservations de Pilates Reformer en France en 2024</div></div>
+    <div class="fig"><div class="v">20 à 35 €</div><div class="l">le prix d'une séance en studio</div></div>
+  </div>
+
+  <h3>Ce que ça veut dire pour VAURE</h3>
+  <ul>
+    <li><b>La demande est forte et récente.</b> Le Reformer est devenu la tendance fitness numéro un. Club Pilates vise 30 à 35 studios en France fin 2026, et Paris compte déjà plus de 80 studios équipés de Reformers.</li>
+    <li><b>Le Reformer coûte cher.</b> Une séance coûte 25 à 30 € en studio premium, jusqu'à 35 € (The New Me à Toulouse). Le kit à 39,90 € coûte <b>le prix d'une à deux séances</b>.</li>
+    <li><b>Le Pilates à la maison est déjà installé.</b> Decathlon propose des défis gratuits de Pilates au mur sur 29 jours, et Basic-Fit publie des séances « inspirées du Reformer » à faire chez soi. Le format « programme de 30 jours » correspond donc à ce que la cible connaît.</li>
+    <li><b>C'est aussi un style de vie.</b> Le Pilates est devenu un marqueur de mode de vie sain sur Instagram et TikTok (tendance « clean girl »), ce qui pousse à l'achat d'un bel objet.</li>
+    <li><b>Toute l'année :</b> le Pilates n'est pas saisonnier. Les pics attendus : janvier (bonnes résolutions), septembre (rentrée), avant l'été.</li>
+  </ul>
+  <p class="src">Sources : <a href="https://lexpress-franchise.com/articles/comment-se-porte-le-marche-du-pilates-en-france/">L'Express Franchise</a> · <a href="https://modelesdebusinessplan.com/blogs/infos/marche-pilates">Modèles de business plan (marché Pilates)</a> · <a href="https://www.toute-la-franchise.com/news-club-pilates-croissance-soutenue-en-france">Toute la franchise (Club Pilates)</a> · <a href="https://modelesdebusinessplan.com/blogs/infos/pilates-reformer-marche-sature">Prix des séances Reformer</a> · <a href="https://conseilsport.decathlon.fr/defi-gratuit-29-jours-de-pilates-au-mur">Decathlon, défi de 29 jours</a> · <a href="https://www.basic-fit.com/fr-fr/blog/reformer-inspired-pilates">Basic-Fit</a>. Les chiffres de taille du marché viennent de sites spécialisés en franchise et en business plans : ce sont des estimations, à citer avec prudence.</p>
+</section>
+
+<section id="concurrence">
+  <h2><span class="n">Partie 2</span>La concurrence</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Concurrent</th><th>Prix</th><th>Point fort</th><th>Point faible</th></tr></thead>
+    <tbody>
+      <tr><td>Studios Reformer (Club Pilates, studios indépendants)</td><td class="num">20 à 35 € la séance</td><td>Machine, coach, ambiance</td><td>Cher sur la durée, horaires, déplacement</td></tr>
+      <tr><td>Barres de Pilates génériques (Fruugo, ManoMano, Kaufland)</td><td class="num">≈ 18 € la barre ; kits 59 €</td><td>Prix bas</td><td>Aucun programme, aucune marque, notices en anglais</td></tr>
+      <tr><td>Decathlon (Domyos et autres marques)</td><td class="num">anneau 14,99 € ; élastiques 4,99 € ; kit complet NEOLYMP 212,99 €</td><td>Confiance, magasins partout</td><td>Accessoires séparés, pas de kit « Reformer à la maison » avec programme</td></tr>
+      <tr><td>Vidéos gratuites (YouTube, défis Decathlon, Basic-Fit)</td><td class="num">gratuit</td><td>Accessible à tous</td><td>Pas de matériel, pas de suivi, on décroche vite</td></tr>
+      <tr class="us"><td>VAURE</td><td class="num">39,90 €</td><td colspan="2">Kit complet (barre + élastiques + disques) + programme vidéo de 30 jours en français + belle boîte cadeau, au prix d'une à deux séances</td></tr>
+    </tbody>
+  </table></div>
+  <p class="src">Prix relevés : <a href="https://www.fruugo.fr/kit-de-barre-pilates-portable-avec-bande-de-resistance-a-l%25E2%2580%2599exercice-barre-de-pilates-d%25E2%2580%2599exercice/p-320330177-711165143">Fruugo</a> · <a href="https://www.decathlon.fr/vc/elastique-pilates">Decathlon, élastiques Pilates</a> · <a href="https://www.decathlon.ch/fr/p/mp/coffret-pilates-pro-barre-sz-6-8-kg-tapis-anneau-ballon-bandes-halteres/dbabda0c-8cf7-4b86-b02c-f5303218fad0/c85">Decathlon, kit NEOLYMP</a> · <a href="https://www.kaufland.fr/product/547089874/">Kaufland</a>.</p>
+  <div class="note"><b>Le vrai risque :</b> une barre seule se trouve à environ 18 €. VAURE ne peut pas se battre sur le prix de la barre. Ce que le client paie, c'est <b>le programme, la méthode et la marque</b>. Le programme vidéo doit donc être de vraie qualité : c'est lui qui justifie les 39,90 €.</div>
+</section>
+
+<section id="expertise">
+  <h2><span class="n">Partie 3</span>L'expertise à maîtriser</h2>
+  <div class="grid">
+    <div class="box"><h3>La méthode Pilates</h3><p>Créée par Joseph Pilates, elle repose sur 6 principes : <b>centrage, concentration, contrôle, précision, respiration et fluidité</b>. On travaille les muscles profonds (abdominaux, dos, fessiers), la posture et la souplesse.</p></div>
+    <div class="box"><h3>Reformer, sol et barre</h3><p>Le <b>Reformer</b> est une machine avec un chariot qui glisse et des ressorts. La <b>barre avec élastiques</b> reproduit la résistance des ressorts, et les <b>disques de glisse</b> reproduisent le chariot qui glisse (fentes, planches, écarts). C'est ce duo qui permet de faire des mouvements « façon Reformer » chez soi.</p></div>
+    <div class="box"><h3>Le programme</h3><p>15 minutes par jour sur 30 jours, du niveau débutant au niveau intermédiaire. Un échauffement à chaque séance. Des variantes plus douces pour débuter. Les vidéos doivent être filmées par <b>une coach Pilates diplômée</b> : ce n'est pas à toi de les tourner.</p></div>
+    <div class="box"><h3>La sécurité</h3><p>La presse alerte déjà sur les blessures quand on fait du Pilates seul chez soi. Il faut donc : un échauffement, des consignes claires, un message « en cas de grossesse, de douleur ou de problème de dos, demande l'avis d'un professionnel de santé », et aucune promesse médicale.</p></div>
+  </div>
+
+  <h3>Règles à respecter pour vendre</h3>
+  <ul>
+    <li><b>Sécurité du produit (règlement européen GPSR).</b> Depuis décembre 2024, un produit vendu dans l'UE doit avoir un responsable établi en Europe, une notice en français et un étiquetage avec le fabricant. Demande à Scutify comment il gère ce point pour le dropshipping.</li>
+    <li><b>Élastiques :</b> préférer le TPE au latex, à cause des allergies. Indiquer clairement la matière et le niveau de résistance de chaque élastique.</li>
+    <li><b>Publicité :</b> on parle de tonus, de posture et de bien-être. Jamais de « perdre X kilos » ni de « soigne le mal de dos ».</li>
+  </ul>
+  <p class="src">Sources : <a href="https://www.parismatch.be/actualites/sport/2026/05/20/faire-du-pilates-a-la-maison-peut-etre-tres-dangereux-on-peut-meme-se-retrouver-paralyse-au-niveau-de-la-colonne-vertebrale-ANIYAD67LNH2ZAIMA45JGDXOKM/">Paris Match, mise en garde sur le Pilates à la maison</a> · <a href="https://conseilsport.decathlon.fr/pilates-au-mur-la-nouvelle-pratique-en-vogue">Decathlon, Pilates au mur</a>.</p>
+</section>
+
+<section id="questionnaire">
+  <h2><span class="n">Partie 4</span>Le questionnaire</h2>
+  <p>À faire passer à <b>30 femmes de 20 à 40 ans</b> qui font ou veulent faire du Pilates, par exemple en Google Forms ou en story Instagram. Le but est de vérifier le prix, le besoin et ce qui fait acheter.</p>
+  <ol class="q">
+    <li><span class="tag">Profil</span>Quel âge as-tu, et fais-tu du sport en ce moment ? Lequel ?<span class="why">Pour vérifier que la cible est la bonne.</span></li>
+    <li><span class="tag">Profil</span>As-tu déjà fait du Pilates ? En studio, à la maison avec des vidéos, ou jamais ?</li>
+    <li><span class="tag">Problème</span>Qu'est-ce qui t'empêche d'aller plus souvent au Pilates en studio : le prix, les horaires, la distance, la gêne d'être débutante ?<span class="why">La réponse donne l'angle de la publicité.</span></li>
+    <li><span class="tag">Prix</span>Combien paies-tu (ou paierais-tu) une séance de Pilates Reformer ?</li>
+    <li><span class="tag">Habitude</span>As-tu déjà suivi un programme sportif en vidéo à la maison ? Jusqu'au bout ?<span class="why">Pour savoir si le programme de 30 jours doit être plus court ou plus motivant.</span></li>
+    <li><span class="tag">Produit</span>Si tu pouvais faire les mouvements du Reformer chez toi avec une barre légère, des élastiques et des disques de glisse, ça t'intéresserait ? Pourquoi ?</li>
+    <li><span class="tag">Prix</span>Quel prix te paraît juste pour ce kit avec un programme vidéo de 30 jours : moins de 30 €, 30 à 40 €, 40 à 50 €, plus de 50 € ?</li>
+    <li><span class="tag">Achat</span>Qu'est-ce qui te ferait acheter : les vidéos du programme, les avis, le design du kit, un prix de lancement, la livraison rapide ?</li>
+    <li><span class="tag">Programme</span>Combien de minutes par jour es-tu prête à faire : 10, 15, 20 ou 30 minutes ?</li>
+    <li><span class="tag">Style</span>Quelles couleurs aimes-tu pour ton matériel de sport : pastel, neutre, couleurs vives ?</li>
+    <li><span class="tag">Canal</span>Où découvres-tu tes produits de sport : Instagram, TikTok, Pinterest, en magasin, par une amie ?<span class="why">Pour choisir où mettre le budget publicitaire.</span></li>
+    <li><span class="tag">Cadeau</span>Est-ce que tu offrirais ce kit, ou aimerais-tu le recevoir en cadeau ?</li>
+  </ol>
+  <div class="note"><b>Comment lire les réponses :</b> si plus de la moitié des personnes choisissent « 30 à 40 € » ou plus à la question 7, le prix de 39,90 € est validé. Si la question 3 fait ressortir surtout « le prix », l'angle de pub sera « le Reformer au prix d'une séance ». Si c'est plutôt « les horaires », l'angle sera « 15 minutes, chez toi, quand tu veux ».</div>
+</section>
+</div>

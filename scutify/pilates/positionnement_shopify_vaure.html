@@ -1,0 +1,220 @@
+<title>VAURE Pilates · Positionnement et boutique</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Mise en page : étapes 03 et 04 de la Road Map en colonne de lecture ; à côté du plan de la page produit, une maquette téléphone aux couleurs VAURE */
+:root{
+  --bg:#ffffff; --surface:#ffffff; --tint:#eef2f6; --ink:#0b1f3a; --muted:#55657a; --line:#d9e1ea;
+  --navy:#0b1f3a; --fluo:#2ef27a; --fluo-ink:#0a7a3b; --warn:#9a5214; --warn-bg:#fbefe3;
+  --display:'Outfit',ui-sans-serif,system-ui,sans-serif; --body:'Inter',ui-sans-serif,system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0b1f3a; --surface:#10294a; --tint:#132f55; --ink:#ffffff; --muted:#b9c6d6; --line:#24406a;
+  --fluo-ink:#2ef27a; --warn:#f0b07a; --warn-bg:#2c1d12; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0b1f3a; --surface:#10294a; --tint:#132f55; --ink:#ffffff; --muted:#b9c6d6; --line:#24406a;
+  --fluo-ink:#2ef27a; --warn:#f0b07a; --warn-bg:#2c1d12; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.65 var(--body);margin:0}
+.wrap{max-width:1000px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.2;margin:0}
+h1{font-size:clamp(28px,5vw,40px)}
+h2{font-size:24px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h2 .n{font-size:12px;letter-spacing:.14em;color:var(--fluo-ink);font-family:var(--body);font-weight:600;text-transform:uppercase}
+h3{font-size:16px;margin-top:24px}
+p,li{max-width:68ch}
+.lead{color:var(--muted);font-size:16px;margin-top:10px}
+.promise{margin-top:18px;background:var(--navy);color:#ffffff;border-radius:14px;padding:20px 22px}
+.promise .big{font-family:var(--display);font-size:clamp(22px,4vw,30px);font-weight:600}
+.promise .big em{font-style:normal;color:var(--fluo)}
+.promise p{color:#b9c6d6;margin:6px 0 0}
+section{margin-top:44px;padding-top:28px;border-top:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-top:14px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;min-width:0}
+.box h3{margin-top:0}
+.quote{font-family:var(--display);font-size:19px;font-weight:600;margin:4px 0}
+.tbl{overflow-x:auto;margin-top:14px}
+table{border-collapse:collapse;width:100%;min-width:600px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+td.num{white-space:nowrap}
+.note{background:var(--warn-bg);border-left:3px solid var(--warn);padding:12px 16px;border-radius:6px;margin-top:16px}
+.note b{color:var(--warn)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.chip{font-size:13px;padding:4px 10px;border-radius:999px;background:var(--tint)}
+.chip.no{text-decoration:line-through;color:var(--muted)}
+.lp{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:28px;margin-top:18px;align-items:start}
+@media (max-width:780px){.lp{grid-template-columns:1fr}}
+.steps{counter-reset:s;list-style:none;padding:0;margin:12px 0 0}
+.steps li{counter-increment:s;padding:10px 0 10px 40px;position:relative;border-bottom:1px solid var(--line)}
+.steps li::before{content:counter(s);position:absolute;left:0;top:10px;width:26px;height:26px;border-radius:50%;background:var(--navy);color:#ffffff;font-size:12px;font-weight:700;display:grid;place-items:center}
+.steps .copy{display:block;color:var(--muted);font-size:14px;margin-top:2px}
+.phone{width:100%;max-width:300px;justify-self:center;border:10px solid #050f1e;border-radius:34px;background:#ffffff;overflow:hidden;color:#0b1f3a;font-size:12px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 16px)}
+.phone .bar{background:#2ef27a;color:#0b1f3a;text-align:center;padding:6px 4px;font-size:10px;font-weight:700;letter-spacing:.06em}
+.phone .top{background:#0b1f3a;color:#ffffff;padding:16px 14px 18px;text-align:center}
+.phone .logo{font-family:var(--display);letter-spacing:.3em;font-size:13px}
+.phone h4{font-family:var(--display);font-size:21px;margin:10px 0 4px;line-height:1.15}
+.phone .sub{color:#b9c6d6;font-size:11px}
+.phone .stars{color:#2ef27a;font-size:11px;margin-top:6px}
+.phone .price{font-family:var(--display);font-size:20px;margin-top:6px}
+.phone .cta{display:block;margin:12px 14px 6px;background:#2ef27a;color:#0b1f3a;text-align:center;border-radius:999px;padding:11px;font-weight:700}
+.phone .kit{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:8px 14px}
+.phone .kit div{background:#eef2f6;border-radius:10px;padding:8px 4px;text-align:center;font-size:10px;line-height:1.3}
+.phone ul{list-style:none;padding:4px 14px 14px;margin:0}
+.phone li{padding:6px 0;border-bottom:1px solid #d9e1ea;font-size:11px}
+.phone li b{color:#0a7a3b}
+a{color:var(--fluo-ink)}
+.src{font-size:13px;color:var(--muted)}
+</style>
+
+<div class="wrap">
+<header>
+  <h1>VAURE Pilates · Positionnement et boutique</h1>
+  <p class="lead">Étapes 03 et 04 de la Road Map Scutify pour le kit Pilates « Reformer à la maison » : barre démontable avec élastiques, 2 disques de glisse et programme vidéo de 30 jours.</p>
+  <div class="promise">
+    <div class="big">Le Reformer chez toi, <em>15 minutes par jour.</em></div>
+    <p>La promesse de VAURE en une phrase : les mouvements du Pilates Reformer dans ton salon, guidés jour après jour, pour le prix d'une séance en studio.</p>
+  </div>
+</header>
+
+<!-- 03 -->
+<section id="positionnement">
+  <h2><span class="n">Étape 03</span>Positionnement</h2>
+
+  <h3>Branding</h3>
+  <div class="grid">
+    <div class="box"><h3>Qui est VAURE</h3><p>La marque du Pilates à la maison. Une coach énergique et bienveillante, qui pousse à se lever du canapé sans jamais culpabiliser. Le bleu marine apporte le sérieux, le vert fluo l'énergie.</p></div>
+    <div class="box"><h3>La cliente type : Léa, 29 ans</h3><p>Elle travaille à Lyon, a testé le Reformer en studio et a adoré. Mais à 30 € la séance, avec des horaires compliqués, elle n'y va qu'une fois par mois. Elle suit des comptes Pilates sur Instagram et veut se sentir tonique et droite.</p></div>
+    <div class="box"><h3>Ce qui nous différencie</h3><p>Un <b>kit complet</b> (barre, élastiques, disques) <b>et un programme guidé de 30 jours</b> en français. Les concurrents vendent soit du matériel sans méthode, soit des vidéos sans matériel.</p></div>
+  </div>
+
+  <h3>Bénéfices émotionnels</h3>
+  <div class="grid">
+    <div class="box"><p class="quote">La fierté</p><p>Tenir 30 jours, cocher chaque séance et voir la différence dans sa posture.</p></div>
+    <div class="box"><p class="quote">La liberté</p><p>Faire sa séance quand on veut : le matin avant le travail, le soir après le dîner.</p></div>
+    <div class="box"><p class="quote">Se sentir bien dans son corps</p><p>Plus tonique, plus droite, plus souple. Sans parler de poids ni de régime.</p></div>
+    <div class="box"><p class="quote">Le plaisir sans culpabilité</p><p>Le Reformer qu'on aime, sans payer 30 € à chaque fois.</p></div>
+    <div class="box"><p class="quote">L'appartenance</p><p>Faire partie du défi VAURE de 30 jours, partager ses progrès avec la communauté.</p></div>
+  </div>
+
+  <h3>Copywriting</h3>
+  <div class="grid">
+    <div class="box"><h3>Titres</h3>
+      <p class="quote">Le Reformer chez toi, 15 minutes par jour.</p>
+      <p>Ton studio de Pilates tient dans un tiroir.</p>
+      <p>30 jours pour te sentir plus forte, chez toi.</p>
+    </div>
+    <div class="box"><h3>Hooks vidéo (3 premières secondes)</h3>
+      <ul>
+        <li>« J'ai arrêté de payer 30 € la séance de Reformer. Voilà pourquoi. »</li>
+        <li>« Le Reformer… dans mon salon ? »</li>
+        <li>« Jour 1 sur 30 du défi VAURE. »</li>
+        <li>« 15 minutes, une barre, deux disques. Regarde. »</li>
+      </ul>
+    </div>
+    <div class="box"><h3>Réponses aux objections</h3>
+      <ul>
+        <li><b>« Je suis débutante »</b> : le programme commence en douceur, avec une version facile de chaque mouvement.</li>
+        <li><b>« Je n'ai pas de place »</b> : la barre se démonte et le kit tient dans un tiroir.</li>
+        <li><b>« Je vais abandonner »</b> : 15 minutes par jour et une séance claire chaque jour.</li>
+        <li><b>« Une barre, ça se trouve à 18 € »</b> : ici, tu as le kit complet et le programme guidé.</li>
+      </ul>
+    </div>
+  </div>
+  <p>Mots à utiliser et à éviter :</p>
+  <div class="chips">
+    <span class="chip">tonique</span><span class="chip">posture</span><span class="chip">gainage</span><span class="chip">souplesse</span><span class="chip">15 minutes</span><span class="chip">à ton rythme</span>
+    <span class="chip no">maigrir</span><span class="chip no">perdre X kilos</span><span class="chip no">soigne le mal de dos</span><span class="chip no">remplace le kiné</span>
+  </div>
+</section>
+
+<!-- 04 -->
+<section id="shopify">
+  <h2><span class="n">Étape 04</span>King of Shopify</h2>
+
+  <div class="lp">
+    <div>
+      <h3>Page d'accueil</h3>
+      <ol class="steps">
+        <li><b>Hero</b> : vidéo d'une séance dans un salon lumineux, titre « Le Reformer chez toi, 15 minutes par jour », bouton « Je commence le défi ».</li>
+        <li><b>Le kit en 3 éléments</b> : barre, disques, programme.</li>
+        <li><b>Le défi de 30 jours</b>, présenté semaine par semaine.</li>
+        <li><b>Avis</b> et photos des clientes (dès les premières ventes).</li>
+        <li><b>Newsletter</b> : « Reçois la séance du jour par e-mail ».</li>
+      </ol>
+      <p>Menu : Le kit · Le défi 30 jours · Avis · FAQ.</p>
+
+      <h3>Page produit (landing page) et ses textes</h3>
+      <ol class="steps">
+        <li><b>Bandeau</b><span class="copy">« Livraison offerte · Programme 30 jours inclus »</span></li>
+        <li><b>Hero</b><span class="copy">« Le Reformer chez toi, 15 minutes par jour. » · Barre, élastiques, disques et programme vidéo de 30 jours. · 39,90 € · Bouton « Je commence le défi »</span></li>
+        <li><b>Le problème</b><span class="copy">« Tu adores le Reformer, mais 30 € la séance et des horaires impossibles ? »</span></li>
+        <li><b>La solution</b><span class="copy">« VAURE recrée les mouvements du Reformer chez toi : la barre et ses élastiques font la résistance, les disques font la glisse. »</span></li>
+        <li><b>Ce que tu reçois</b><span class="copy">Barre démontable · 3 élastiques de résistance · 2 disques de glisse · accès au programme vidéo de 30 jours · boîte VAURE.</span></li>
+        <li><b>Le programme</b><span class="copy">Semaine 1 : les bases · Semaine 2 : gainage · Semaine 3 : bas du corps · Semaine 4 : enchaînements complets.</span></li>
+        <li><b>Comparatif</b><span class="copy">Studio : 30 € la séance · Barre seule : sans méthode · VAURE : kit + programme, 39,90 € une fois.</span></li>
+        <li><b>Avis clientes</b><span class="copy">Uniquement de vrais avis, avec photos, ajoutés après les premières ventes.</span></li>
+        <li><b>FAQ</b><span class="copy">Débutante ? Place nécessaire ? Durée des séances ? Accès aux vidéos ? Délai de livraison ? Retours ?</span></li>
+        <li><b>Rappel de l'offre</b><span class="copy">Bouton vert fluo fixé en bas de l'écran sur téléphone.</span></li>
+      </ol>
+    </div>
+
+    <div class="phone" aria-label="Aperçu de la page produit VAURE sur téléphone">
+      <div class="bar">LIVRAISON OFFERTE · PROGRAMME 30 JOURS INCLUS</div>
+      <div class="top">
+        <svg viewBox="0 0 120 110" width="44" height="40" role="img" aria-label="Symbole VAURE">
+          <path d="M52 96 L98 14" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
+          <path d="M52 96 L22 30" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
+          <path d="M28 44 L74 16" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+          <circle cx="16" cy="13" r="10" fill="#2ef27a"/>
+        </svg>
+        <div class="logo">VAURE</div>
+        <h4>Le Reformer chez toi, 15 minutes par jour.</h4>
+        <div class="sub">Barre · élastiques · disques · programme 30 jours</div>
+        <div class="price">39,90 €</div>
+      </div>
+      <span class="cta">Je commence le défi</span>
+      <div class="kit"><div>Barre démontable</div><div>2 disques de glisse</div><div>Programme 30 jours</div></div>
+      <ul>
+        <li><b>15 min</b> par jour, à ton rythme</li>
+        <li><b>Débutante</b> bienvenue</li>
+        <li>Tient dans un <b>tiroir</b></li>
+        <li>Retour possible pendant <b>30 jours</b></li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>L'offre</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Offre</th><th>Prix</th><th>Gain estimé</th><th>À quoi elle sert</th></tr></thead>
+    <tbody>
+      <tr><td>Kit VAURE (barre + élastiques + disques + programme)</td><td class="num">39,90 €</td><td class="num">≈ 26 €</td><td>L'offre principale</td></tr>
+      <tr><td>Kit + chaussettes antidérapantes</td><td class="num">44,90 €</td><td class="num">≈ 30 €</td><td>Augmenter le panier</td></tr>
+      <tr><td>Duo « avec une amie » (2 kits)</td><td class="num">69,90 €</td><td class="num">≈ 50 €</td><td>Bouche-à-oreille, cadeau</td></tr>
+      <tr><td>Chaussettes seules, proposées après l'achat</td><td class="num">12,90 €</td><td class="num">≈ 11 €</td><td>Vente en 1 clic après la commande</td></tr>
+    </tbody>
+  </table></div>
+  <p class="src">Gains estimés avec le coût fournisseur (kit 4,28 $ soit 3,68 € ; chaussettes 1,75 $), la livraison Colissimo (8,59 € pour 1 kit, 10,49 € pour 2) et 3 % de frais. Le prix livré exact viendra de Scutify. Le programme vidéo a un coût à part : la coach qui le filme.</p>
+
+  <h3>Pages secondaires</h3>
+  <ul>
+    <li><b>Le défi 30 jours</b> : le programme semaine par semaine, et comment accéder aux vidéos.</li>
+    <li><b>À propos</b> : pourquoi VAURE existe, en 5 lignes.</li>
+    <li><b>FAQ</b> complète, sécurité comprise : échauffement, et l'avis d'un professionnel de santé en cas de grossesse ou de douleur.</li>
+    <li><b>Livraison</b> avec les délais réels de Scutify, et <b>Retours</b> sous 30 jours.</li>
+    <li><b>Contact</b>, <b>Suivi de commande</b>.</li>
+    <li><b>Mentions légales, CGV, confidentialité</b> : obligatoires en France.</li>
+  </ul>
+
+  <h3>Visuels à préparer</h3>
+  <ul>
+    <li>Vidéo d'une séance de 15 secondes dans un salon lumineux, tenue unie, pour le hero et les publicités.</li>
+    <li>Photos du kit déballé sur fond blanc : barre montée, élastiques, disques, boîte VAURE.</li>
+    <li>3 gros plans des mouvements « façon Reformer » : fente avec disque, rowing avec la barre, pont avec élastique.</li>
+    <li>Le calendrier du défi en visuel (30 cases), à partager en story.</li>
+    <li>Le logo VAURE en marine et blanc, le vert fluo pour les boutons uniquement.</li>
+  </ul>
+
+  <div class="note"><b>À régler avant d'ouvrir la boutique :</b> trouver la coach diplômée qui filme le programme ; demander à Scutify comment il gère la sécurité produit en Europe (règlement GPSR) et la notice en français ; n'afficher un prix barré que s'il a vraiment été pratiqué ; ne publier que de vrais avis.</div>
+</section>
+</div>

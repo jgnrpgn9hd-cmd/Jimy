@@ -1,0 +1,119 @@
+{%- comment -%}
+  VAURE : le logo de l'en-tête est le logo vectoriel (snippets/vaure-logo.liquid)
+  au lieu de l'image de l'ancienne boutique. Il prend la couleur de l'en-tête.
+{%- endcomment -%}
+
+{% liquid
+  assign block_settings = block.settings
+  assign alt_text_fallback = 'accessibility.home_logo_alt' | t: store_name: shop.name
+  assign vl_h = settings.logo_height | plus: 6
+  assign vl_hm = settings.logo_height_mobile | plus: 4
+%}
+
+<a
+  {% if template.name == 'index' and block_settings.hide_logo_on_home_page %}
+    data-hidden-on-home-page
+  {% endif %}
+  href="{{ routes.root_url }}"
+  class="size-style spacing-style header-logo"
+  aria-label="{{ alt_text_fallback | escape }}"
+  style="
+    {% render 'size-style', settings: block_settings %}
+    {% render 'spacing-style', settings: block_settings %}
+    --font-family: var(--font-body--family);
+    --font-style: var(--font-body--style);
+    --font-weight: 600;
+  "
+  {{ block.shopify_attributes }}
+>
+  <span class="header-logo__image-container header-logo__image-container--original" data-testid="header-logo">
+    {% render 'vaure-logo', height: vl_h, height_mobile: vl_hm %}
+  </span>
+</a>
+
+{% stylesheet %}
+  .header-logo {
+    display: flex;
+    height: 100%;
+    font-size: var(--font-size--md);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    font-style: var(--font-style);
+    color: var(--color-foreground);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    &[data-hidden-on-home-page] {
+      display: none;
+
+      #header-component:is(
+          [sticky='always']:not([data-scroll-direction='none']),
+          [sticky='scroll-up'][data-scroll-direction='up']
+        )
+        & {
+        display: flex;
+      }
+    }
+
+    @media screen and (max-width: 749px) {
+      padding: 0;
+    }
+
+    @media screen and (min-width: 750px) {
+      flex-shrink: 0;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "t:names.logo",
+  "tag": null,
+  "class": "header-logo",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:content.edit_logo_in_theme_settings"
+    },
+    {
+      "type": "header",
+      "content": "t:content.visibility"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_logo_on_home_page",
+      "label": "t:settings.hide_logo_on_home_page",
+      "info": "t:info.hide_logo_on_home_page_help"
+    },
+    {
+      "type": "header",
+      "content": "t:content.padding_desktop"
+    },
+    {
+      "type": "range",
+      "id": "padding-block-start",
+      "label": "t:settings.top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-block-end",
+      "label": "t:settings.bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    }
+  ]
+}
+{% endschema %}

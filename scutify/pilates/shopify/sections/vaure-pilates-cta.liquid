@@ -1,0 +1,60 @@
+<style>
+  .vcta{position:fixed;left:50%;bottom:16px;z-index:60;transform:translate(-50%,140%);transition:transform .45s cubic-bezier(.2,.9,.25,1);width:min(560px,calc(100% - 24px));
+    display:flex;align-items:center;gap:14px;padding:10px 10px 10px 18px;border-radius:999px;background:rgba(43,23,16,.94);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+    color:#fbf7f2;font-family:'Inter',system-ui,sans-serif;box-shadow:0 18px 40px -12px rgba(20,11,8,.55);-webkit-font-smoothing:antialiased}
+  .vcta.on{transform:translate(-50%,0)}
+  .vcta .t{flex:1;min-width:0;line-height:1.25}
+  .vcta .t b{display:block;font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .vcta .t span{font-size:12px;color:#d9c6b5}
+  .vcta a{flex:none;display:inline-flex;align-items:center;gap:8px;background:#2ef27a;color:#2b1710;font-weight:700;font-size:14px;padding:13px 18px;border-radius:999px;text-decoration:none;-webkit-tap-highlight-color:transparent;transition:transform .1s ease-out}
+  .vcta a:active{transform:scale(.96)}
+  @media (max-width:380px){.vcta .t span{display:none}.vcta a{padding:12px 14px}}
+  @media (prefers-reduced-motion:reduce){.vcta{transition:none}}
+  /* Liste d'attente : visuel du kit, prix et petites assurances */
+  .vp .wait .wkit{display:block;width:min(260px,62vw);height:auto;margin:0 auto 34px;border-radius:24px;box-shadow:0 30px 60px -24px rgba(0,0,0,.6);transform:rotate(-3deg)}
+  .vp .wait .wperks{list-style:none;padding:0;margin:28px auto 0;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 22px;font-size:14px;color:var(--soft,#d9c6b5)}
+  .vp .wait .wperks li{display:flex;align-items:center;gap:8px}
+  .vp .wait .wperks li::before{content:"";width:7px;height:7px;border-radius:50%;background:#2ef27a}
+  .vp .wait .msg a,.vp .wait .wperks a{color:inherit;text-underline-offset:3px}
+  /* Page épurée : on retire les doublons */
+  .vsb{display:none!important}                                  /* 2e barre collante (doublon de celle-ci) */
+  .vsp-tick,.vsp-nums,.vsp-bars{display:none!important}         /* chiffres déjà dits ailleurs ; on garde le −95 % */
+  .vp .pain,.vp .compare{display:none!important}                /* 3e et 4e comparaison de prix */
+  .vc>.in{display:none!important}.vc .vc-pc{margin-top:0}       /* coffret : la photo du kit est déjà dans l'ouverture */
+  .vc .vc-pc h3{font-size:clamp(30px,3.6vw,48px);margin-bottom:28px}
+</style>
+<div class="vcta" id="vcta" aria-hidden="true">
+  <div class="t"><b>Le kit VAURE · 39,90 €</b><span>8 pièces + le défi 30 jours guidé</span></div>
+  <a href="#vp-attente" tabindex="-1">Être prévenue
+    <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+</div>
+<script>
+(function(){var bar=document.getElementById('vcta');if(!bar)return;var link=bar.querySelector('a');
+  var hero=document.querySelector('.v3'),form=document.getElementById('vp-attente'),formIn=false,t=false;
+  if(form&&window.IntersectionObserver)new IntersectionObserver(function(e){formIn=e[0].isIntersecting;up();},{threshold:.1}).observe(form);
+  function up(){t=false;var past=hero?hero.getBoundingClientRect().bottom<innerHeight*.5:scrollY>innerHeight;
+    var near=(innerHeight+scrollY)>=document.documentElement.scrollHeight-40,show=past&&!formIn&&!near;
+    bar.classList.toggle('on',show);bar.setAttribute('aria-hidden',show?'false':'true');link.tabIndex=show?0:-1;}
+  addEventListener('scroll',function(){if(!t){t=true;requestAnimationFrame(up);}},{passive:true});up();
+})();
+</script>
+<script>
+(function(){var w=document.getElementById('vp-attente');if(!w||w.dataset.vx)return;w.dataset.vx=1;var inr=w.querySelector('.in')||w;
+  var k=inr.querySelector('.kicker');
+  var im=new Image();im.className='wkit';im.src={{ 'vaure-kit-vue-dessus.webp' | file_url | json }};im.width=1200;im.height=1281;im.loading='lazy';
+  im.alt='Le kit VAURE vu du dessus : les 8 pièces chocolat et crème';im.onerror=function(){im.remove();};
+  if(k){inr.insertBefore(im,k);k.textContent='Bientôt disponible · 39,90 €';}
+  var ul=document.createElement('ul');ul.className='wperks';
+  ul.innerHTML='<li>Prévenue en premier, le jour du lancement</li><li><a href="/pages/les-exercices">Les exercices guidés</a> déjà accessibles, gratuitement</li><li>Désinscription en un clic</li>';
+  var f=inr.querySelector('form');(f||inr).insertAdjacentElement(f?'afterend':'beforeend',ul);
+  var ok=inr.querySelector('.msg.good');if(ok)ok.insertAdjacentHTML('beforeend',' En attendant, <a href="/pages/les-exercices">commence le jour 1</a>.');
+})();
+</script>
+
+{% schema %}
+{
+  "name": "VAURE – barre d'action",
+  "settings": [],
+  "presets": [{ "name": "VAURE – barre d'action" }]
+}
+{% endschema %}

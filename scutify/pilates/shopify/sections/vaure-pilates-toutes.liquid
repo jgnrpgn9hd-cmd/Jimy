@@ -1,0 +1,68 @@
+<style>
+  .vto{background:#f4ece2;color:#2b1710;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;padding:96px 0 104px;overflow:hidden}
+  .vto .hd{max-width:1200px;margin:0 auto;padding:0 24px;display:grid;gap:18px}
+  .vto .k{font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:#552b1d;display:flex;align-items:center;gap:10px}
+  .vto .k::before{content:"";width:28px;height:3px;background:#2ef27a;transform:skewX(-20deg)}
+  .vto h2{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:clamp(42px,5.6vw,80px);line-height:.9;margin:0;max-width:14ch}
+  .vto h2 em{font-style:italic;color:#552b1d}
+  .vto .hd p{margin:0;font-size:17px;line-height:1.55;color:#5a4134;max-width:46ch}
+  .vto .hd a{color:#2b1710;font-weight:600;text-underline-offset:3px}
+  .vto .row{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:36px 16px 8px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .vto .row::-webkit-scrollbar{display:none}
+  .vto .row{align-items:flex-start}.vto figure{flex:0 0 82%;margin:0;scroll-snap-align:center}.vto .ph.l{aspect-ratio:4/3}
+  .vto .ph{position:relative;aspect-ratio:1/1;border-radius:18px;overflow:hidden;background:#e6d8c8}
+  .vto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}
+  .vto figure:hover img{transform:scale(1.04)}
+  .vto figcaption{margin-top:12px;display:flex;flex-direction:column;gap:3px}
+  .vto figcaption b{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:24px;line-height:1;letter-spacing:.01em}
+  .vto figcaption span{font-size:14px;color:#6d5446}
+  .vto .tag{position:absolute;left:12px;top:12px;background:rgba(20,11,8,.72);color:#fbf7f2;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;padding:6px 10px;border-radius:99px;backdrop-filter:blur(6px)}
+  .vto .tag i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#2ef27a;margin-right:7px;vertical-align:1px}
+  @media (min-width:761px){
+    .vto{padding:128px 0 140px}
+    .vto .hd{grid-template-columns:1.1fr 1fr;align-items:end;column-gap:64px}
+    .vto .hd .k,.vto .hd h2{grid-column:1}.vto .hd p{grid-column:2;grid-row:2}
+    .vto .row{max-width:1200px;margin:0 auto;padding:56px 24px 0;overflow:visible;gap:28px}
+    .vto figure{flex:1 1 0}
+    .vto figure:nth-child(2){margin-top:72px}
+  }
+  @media (max-width:760px){.vto .hd{padding:0 16px}}
+  .vto-on .vto figure{opacity:0;transform:translateY(40px);transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1);transition-delay:calc(var(--i,0) * 120ms)}
+  .vto-on .vto figure.in{opacity:1;transform:none}
+</style>
+<section class="vto" aria-label="Pour toutes">
+  <div class="hd">
+    <span class="k">Elle te ressemble</span>
+    <h2>Toutes différentes. <em>Même kit.</em></h2>
+    <p>Quel que soit ton âge, ta morphologie ou ta tenue, les mouvements s'adaptent à toi. Dans l'appli, tu choisis la silhouette qui te ressemble et tu suis les exercices avec elle. <a href="/pages/les-exercices">Voir les exercices</a></p>
+  </div>
+  <div class="row">
+    <figure style="--i:0">
+      <div class="ph"><img src="{{ 'vaure-squat-bande.webp' | file_url }}" width="1100" height="1173" loading="lazy" alt="Une femme fait un squat, la bande taupe VAURE au-dessus des genoux, sur le tapis chocolat" style="object-position:50% 25%"><span class="tag"><i></i>Bande moyenne</span></div>
+      <figcaption><b>Squat avec bande</b><span>Cuisses et fessiers · bande moyenne</span></figcaption>
+    </figure>
+    <figure style="--i:1">
+      <div class="ph l"><img src="{{ 'vaure-planche-foulard.webp' | file_url }}" width="1100" height="733" loading="lazy" alt="Une femme portant un foulard tient une planche sur les avant-bras, sur le tapis chocolat VAURE" style="object-position:40% 50%"><span class="tag"><i></i>Tapis</span></div>
+      <figcaption><b>Planche avant-bras</b><span>Gainage · tapis seul</span></figcaption>
+    </figure>
+    <figure style="--i:2">
+      <div class="ph l"><img src="{{ 'vaure-sliders-genoux.webp' | file_url }}" width="1100" height="733" loading="lazy" alt="Une femme fait des mountain climbers en appui sur les mains, les pieds sur les deux sliders VAURE" style="object-position:50% 50%"><span class="tag"><i></i>2 sliders</span></div>
+      <figcaption><b>Mountain climber</b><span>Gainage et cardio · 2 sliders</span></figcaption>
+    </figure>
+  </div>
+</section>
+<script>
+(function(){var s=[].slice.call(document.querySelectorAll('.vto')).pop();if(!s||!window.IntersectionObserver)return;
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  document.documentElement.classList.add('vto-on');
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.15});
+  [].forEach.call(s.querySelectorAll('figure'),function(f){io.observe(f);});})();
+</script>
+
+{% schema %}
+{
+  "name": "VAURE – pour toutes",
+  "settings": [],
+  "presets": [{ "name": "VAURE – pour toutes" }]
+}
+{% endschema %}

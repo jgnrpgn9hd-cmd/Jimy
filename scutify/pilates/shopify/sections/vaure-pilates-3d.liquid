@@ -1,0 +1,121 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap">
+{%- if section.settings.hide_old -%}<style>.vp .hero,.vp .kit{display:none}</style>{%- endif -%}
+<style>
+  .v3{--choco:#552b1d;--ink:#2b1710;--cream:#f4ece2;--fluo:#2ef27a;--muted:#7a5a48;position:relative;height:300vh;font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+  .v3 *{box-sizing:border-box}
+  .v3-pin{position:-webkit-sticky;position:sticky;top:0;height:100vh;height:100svh;min-height:560px;overflow:hidden;background:radial-gradient(90% 70% at 70% 50%,#fffaf4 0%,#f4ece2 55%,#e9dccd 100%)}
+  /* Les photos : un panneau à droite (ordinateur), en bas (téléphone) */
+  .v3-ph{position:absolute;right:max(24px,calc((100vw - 1240px)/2));top:50%;width:min(46vw,620px);height:min(80vh,760px);transform:translateY(-50%);border-radius:30px;overflow:hidden;background:#e6d8c8;box-shadow:0 40px 80px -40px rgba(43,23,16,.55)}
+  .v3-ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;will-change:opacity,transform}
+  .v3-ph img:first-child{opacity:1}
+  .v3-ph::after{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(43,23,16,.06);pointer-events:none}
+  .v3-tag{position:absolute;left:16px;bottom:16px;z-index:2;display:flex;align-items:center;gap:8px;background:rgba(251,247,242,.86);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);padding:8px 14px;border-radius:999px;font-size:12px;font-weight:600;letter-spacing:.02em;color:var(--ink)}
+  .v3-tag i{width:8px;height:8px;border-radius:50%;background:var(--fluo);box-shadow:0 0 0 4px rgba(46,242,122,.25)}
+  .v3-txt{position:absolute;left:max(24px,calc((100vw - 1240px)/2));top:50%;transform:translateY(-50%);width:min(30rem,40vw);height:0;pointer-events:none}
+  .v3-b{position:absolute;left:0;top:50%;width:100%;transform:translateY(-50%);will-change:opacity,transform}
+  .v3-b .k{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:10px}
+  .v3-b .k::before{content:"";width:24px;height:2px;background:var(--fluo)}
+  .v3-b h1,.v3-b h2{font-family:'Outfit',sans-serif;font-weight:600;font-size:clamp(40px,5.4vw,82px);line-height:.98;letter-spacing:-.035em;margin:18px 0 16px;color:var(--ink);text-wrap:balance}
+  .v3-b h1 em,.v3-b h2 em{font-style:normal;font-weight:300}
+  .v3-b p{margin:0;font-size:17px;line-height:1.55;color:var(--muted);max-width:30ch}
+  .v3-btn{pointer-events:auto;display:inline-flex;align-items:center;gap:10px;margin-top:26px;background:var(--fluo);color:var(--ink);font-weight:600;font-size:15px;padding:16px 26px;border-radius:999px;text-decoration:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s ease-out,box-shadow .25s ease}
+  .v3-btn:hover{box-shadow:0 12px 34px rgba(46,242,122,.4)}
+  .v3-btn:active{transform:scale(.97)}
+  .v3-b .v3-btn{visibility:inherit}
+  .v3-prog{position:absolute;left:max(24px,calc((100vw - 1240px)/2));bottom:6vh;display:flex;gap:8px}
+  .v3-prog i{width:28px;height:3px;border-radius:2px;background:rgba(85,43,29,.18);overflow:hidden;position:relative}
+  .v3-prog i b{position:absolute;inset:0;background:var(--fluo);transform-origin:left;transform:scaleX(0)}
+  .v3-hint{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+
+  /* Sans animation (mouvement réduit) : version fixe */
+  .v3.flat{height:auto}
+  .v3.flat .v3-pin{position:relative;height:auto;min-height:0;padding:72px 24px;display:grid;gap:40px}
+  .v3.flat .v3-ph{position:relative;right:auto;top:auto;transform:none;width:100%;max-width:620px;height:auto;aspect-ratio:4/5;margin:0 auto}
+  .v3.flat .v3-txt{position:static;transform:none;width:auto;height:auto;max-width:640px;margin:0 auto;display:grid;gap:48px}
+  .v3.flat .v3-b{position:static;transform:none}
+  .v3.flat .v3-prog,.v3.flat .v3-hint{display:none}
+
+  @media (max-width:760px){
+    .v3{height:280vh}
+    .v3-txt{left:20px;right:20px;top:calc(env(safe-area-inset-top) + 7vh);transform:none;width:auto}
+    .v3-b{top:0;transform:none}
+    .v3-b h1,.v3-b h2{font-size:clamp(34px,10vw,46px);margin:12px 0 10px}
+    .v3-b p{font-size:15px}
+    .v3-btn{margin-top:14px;padding:14px 22px}
+    .v3-ph{left:16px;right:16px;width:auto;top:auto;bottom:calc(4vh + 22px);height:52vh;transform:none;border-radius:24px}
+    .v3-prog{left:20px;bottom:2.2vh}
+    .v3-hint{display:none}
+  }
+</style>
+
+<section class="v3" id="vp-kit" aria-label="Le kit VAURE">
+  <div class="v3-pin">
+    <div class="v3-ph">
+      <img src="{{ 'vaure-pont-salon.webp' | file_url }}" width="1600" height="1751" alt="Une femme fait un pont fessier avec la bande taupe sur le tapis chocolat VAURE, dans son salon" fetchpriority="high" style="object-position:30% 60%">
+      <img src="{{ 'vaure-kit-vue-dessus.webp' | file_url }}" width="1200" height="1281" alt="Le kit VAURE vu du dessus : petit ballon, cercle, 3 bandes, brique, 2 sliders, rouleau et tapis" loading="lazy">
+      <img src="{{ 'vaure-squat-bande.webp' | file_url }}" width="1100" height="1173" alt="Une femme fait un squat avec une bande VAURE au-dessus des genoux, sur le tapis chocolat" loading="lazy" style="object-position:50% 30%">
+      <span class="v3-tag" aria-hidden="true"><i></i><span class="v3-tagt">Ton salon, ton studio</span></span>
+    </div>
+    <div class="v3-txt">
+      <div class="v3-b">
+        <span class="k">VAURE · Le Pilates à la maison</span>
+        <h1>Tout le studio. <em>Chez toi.</em></h1>
+        <p>15 minutes par jour, dans ton salon. Sans abonnement, sans horaires.</p>
+      </div>
+      <div class="v3-b">
+        <span class="k">Le kit</span>
+        <h2>8 pièces. <em>Un seul coffret.</em></h2>
+        <p>Tapis, cercle, ballon, 3 bandes, brique, sliders, rouleau et les exercices guidés.</p>
+      </div>
+      <div class="v3-b">
+        <span class="k">Le défi VAURE</span>
+        <h2>Prête pour <em>30 jours ?</em></h2>
+        <p>15 minutes par jour : le défi de 30 jours, puis une séance chaque jour, toute l'année.</p>
+        <a class="v3-btn" href="#vp-attente">Rejoindre la liste d'attente
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+      </div>
+    </div>
+    <div class="v3-prog" aria-hidden="true"><i><b></b></i><i><b></b></i><i><b></b></i></div>
+    <div class="v3-hint" aria-hidden="true">Fais défiler</div>
+  </div>
+</section>
+
+<script>
+(function(){
+  var root=[].slice.call(document.querySelectorAll('.v3')).pop();if(!root)return;
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){root.classList.add('flat');return;}
+  var pin=root.querySelector('.v3-pin'),bs=[].slice.call(root.querySelectorAll('.v3-b')),bars=[].slice.call(root.querySelectorAll('.v3-prog b')),
+      imgs=[].slice.call(root.querySelectorAll('.v3-ph img')),hint=root.querySelector('.v3-hint'),tag=root.querySelector('.v3-tagt');
+  var TAGS=['Ton salon, ton studio','Les 8 pièces du coffret','Le défi 30 jours'];
+  var cl=function(x){return x<0?0:x>1?1:x},ss=function(x){x=cl(x);return x*x*(3-2*x)};
+  var seg=[[0,.33],[.33,.66],[.66,1.01]],target=0,cur=0,run=false,last=0,lastTag=-1;
+  function read(){var r=root.getBoundingClientRect();target=cl(-r.top/(root.offsetHeight-pin.offsetHeight||1));}
+  function frame(now){if(!run)return;requestAnimationFrame(frame);
+    var dt=Math.min(.05,(now-last)/1000||0);last=now;cur+=(target-cur)*(1-Math.exp(-dt*8));var p=cur,mob=innerWidth<761;
+    /* photos : fondu enchaîné + léger zoom continu */
+    imgs.forEach(function(im,i){var a=seg[i][0],z=seg[i][1],w=z-a;
+      var fi=i?ss((p-a+w*.12)/(w*.24)):1,fo=i<2?1-ss((p-z+w*.12)/(w*.24)):1,o=Math.min(fi,fo);
+      var lp=cl((p-a+w*.12)/(w*1.24));im.style.opacity=o.toFixed(3);im.style.transform='scale('+(1.1-.1*lp).toFixed(4)+')';});
+    var idx=p<seg[1][0]?0:p<seg[2][0]?1:2;if(idx!==lastTag){lastTag=idx;tag.textContent=TAGS[idx];}
+    /* textes */
+    bs.forEach(function(b,i){var a=seg[i][0],z=seg[i][1],w=z-a;var fi=i?ss((p-a)/(w*.25)):1,fo=i<2?1-ss((p-(z-w*.22))/(w*.22)):1,o=Math.min(fi,fo);
+      b.style.opacity=o;b.style.visibility=o<.01?'hidden':'visible';b.style.transform=(mob?'':'translateY(-50%) ')+'translateY('+((1-fi)*30-(1-fo)*30).toFixed(1)+'px)';});
+    bars.forEach(function(b,i){b.style.transform='scaleX('+cl((p-seg[i][0])/(seg[i][1]-seg[i][0])).toFixed(3)+')';});
+    if(hint)hint.style.opacity=1-cl(p/.06);
+  }
+  function start(){if(run)return;run=true;last=performance.now();requestAnimationFrame(frame);}
+  if(window.IntersectionObserver)new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)start();else run=false;});}).observe(root);else start();
+  addEventListener('scroll',read,{passive:true});addEventListener('resize',read);read();cur=target;start();
+})();
+</script>
+
+{% schema %}
+{
+  "name": "VAURE – ouverture",
+  "settings": [
+    { "type": "checkbox", "id": "hide_old", "label": "Masquer l'ancien bandeau et l'ancien bloc « Le kit »", "default": true }
+  ],
+  "presets": [{ "name": "VAURE – ouverture" }]
+}
+{% endschema %}

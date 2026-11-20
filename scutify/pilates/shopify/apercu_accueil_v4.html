@@ -1,0 +1,628 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><body style="margin:0"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>.vp .hero,.vp .kit{display:none}</style>
+<style>
+  .v3{--choco:#552b1d;--ink:#2b1710;--cream:#f4ece2;--fluo:#2ef27a;--muted:#7a5a48;position:relative;height:320vh;font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+  .v3 *{box-sizing:border-box}
+  .v3-pin{position:-webkit-sticky;position:sticky;top:0;height:100vh;height:100svh;min-height:560px;overflow:hidden;background:radial-gradient(90% 70% at 62% 58%,#fffaf4 0%,#f4ece2 55%,#e6d7c5 100%)}
+  .v3 canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+  .v3-txt{position:absolute;left:6vw;top:50%;transform:translateY(-50%);width:min(30rem,40vw);pointer-events:none}
+  .v3-b{position:absolute;left:0;top:50%;width:100%;transform:translateY(-50%);will-change:opacity,transform}
+  .v3-b .k{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:10px}
+  .v3-b .k::before{content:"";width:24px;height:2px;background:var(--fluo)}
+  .v3-b h1,.v3-b h2{font-family:'Outfit',sans-serif;font-weight:600;font-size:clamp(40px,5.6vw,84px);line-height:.98;letter-spacing:-.035em;margin:18px 0 16px;color:var(--ink);text-wrap:balance}
+  .v3-b h1 em,.v3-b h2 em{font-style:normal;font-weight:300}
+  .v3-b p{margin:0;font-size:17px;line-height:1.55;color:var(--muted);max-width:30ch}
+  .v3-btn{pointer-events:auto;display:inline-flex;align-items:center;gap:10px;margin-top:26px;background:var(--fluo);color:var(--ink);font-weight:600;font-size:15px;padding:16px 26px;border-radius:999px;text-decoration:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s ease-out,box-shadow .25s ease}
+  .v3-btn:hover{box-shadow:0 12px 34px rgba(46,242,122,.4)}
+  .v3-btn:active{transform:scale(.97)}
+  .v3-lab{position:absolute;left:0;top:0;pointer-events:none;display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--ink);white-space:nowrap;opacity:0;will-change:transform,opacity}
+  .v3-lab i{width:9px;height:9px;border-radius:50%;background:var(--fluo);box-shadow:0 0 0 4px rgba(46,242,122,.25)}
+  .v3-lab span{background:rgba(255,255,255,.72);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);padding:6px 10px;border-radius:999px}
+  .v3-prog{position:absolute;right:6vw;bottom:6vh;display:flex;gap:8px}
+  .v3-prog i{width:28px;height:3px;border-radius:2px;background:rgba(85,43,29,.18);overflow:hidden;position:relative}
+  .v3-prog i b{position:absolute;inset:0;background:var(--fluo);transform-origin:left;transform:scaleX(0)}
+  .v3-hint{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+
+  /* Sans 3D (ancien téléphone, mouvement réduit) : version fixe */
+  .v3.flat{height:auto}
+  .v3.flat .v3-pin{position:relative;height:auto;min-height:0;padding:90px 24px}
+  .v3.flat .v3-txt{position:static;transform:none;width:auto;max-width:640px;margin:0 auto;display:grid;gap:56px}
+  .v3.flat .v3-b{position:static;transform:none}
+  .v3.flat .v3-prog,.v3.flat .v3-hint,.v3.flat canvas{display:none}
+
+  @media (max-width:760px){
+    .v3{height:300vh}
+    .v3-txt{left:20px;right:20px;top:9vh;transform:none;width:auto}
+    .v3-b{top:0;transform:none}
+    .v3-b h1,.v3-b h2{font-size:clamp(34px,10vw,46px);margin:12px 0 10px}
+    .v3-b p{font-size:15px}
+    .v3-btn{margin-top:16px}
+    .v3-lab{font-size:11px}
+    .v3-prog{right:auto;left:20px;bottom:4vh}
+    .v3-hint{display:none}
+  }
+</style>
+
+<section class="v3" id="vp-kit" aria-label="Le kit VAURE">
+  <div class="v3-pin">
+    <canvas aria-hidden="true"></canvas>
+    <div class="v3-txt">
+      <div class="v3-b">
+        <span class="k">VAURE · Le Pilates à la maison</span>
+        <h1>Tout le studio. <em>Chez toi.</em></h1>
+        <p>15 minutes par jour, dans ton salon. Sans abonnement, sans horaires.</p>
+      </div>
+      <div class="v3-b">
+        <span class="k">Le kit</span>
+        <h2>8 pièces. <em>Un seul coffret.</em></h2>
+        <p>Tapis, cercle, ballon, 3 bandes, brique, sliders, rouleau et le programme vidéo.</p>
+      </div>
+      <div class="v3-b">
+        <span class="k">Le défi VAURE</span>
+        <h2>Prête pour <em>30 jours ?</em></h2>
+        <p>Une séance guidée par jour, puis une nouvelle séance chaque semaine.</p>
+        <a class="v3-btn" href="#vp-attente">Rejoindre la liste d'attente
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+      </div>
+    </div>
+    <div class="v3-labs" aria-hidden="true"></div>
+    <div class="v3-prog" aria-hidden="true"><i><b></b></i><i><b></b></i><i><b></b></i></div>
+    <div class="v3-hint" aria-hidden="true">Fais défiler</div>
+  </div>
+</section>
+
+<script type="module">
+const root=[...document.querySelectorAll('.v3')].pop();
+const flat=()=>root.classList.add('flat');
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let THREE;
+try{
+  const c=document.createElement('canvas');
+  if(!(c.getContext('webgl2')||c.getContext('webgl')))throw 0;
+  THREE=await import('file:///tmp/claude-0/-home-user-Jimy/7659988a-c8b4-52f7-804b-1d5b6bb82102/scratchpad/t3/package/build/three.module.min.js');
+}catch(e){flat();}
+if(THREE&&RM)flat();
+if(THREE&&!RM){
+const pin=root.querySelector('.v3-pin'),canvas=root.querySelector('canvas');
+const bs=[...root.querySelectorAll('.v3-b')],bars=[...root.querySelectorAll('.v3-prog b')],hint=root.querySelector('.v3-hint'),labBox=root.querySelector('.v3-labs');
+const renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true,powerPreference:'high-performance'});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+renderer.outputColorSpace=THREE.SRGBColorSpace;
+renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;
+renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+const scene=new THREE.Scene();
+const cam=new THREE.PerspectiveCamera(32,1,.1,60);
+
+/* Lumière de studio : une pièce lumineuse sert de reflet aux matières */
+const pm=new THREE.PMREMGenerator(renderer);
+const env=new THREE.Scene();
+env.add(new THREE.Mesh(new THREE.BoxGeometry(20,12,20),new THREE.MeshBasicMaterial({color:0x8a7566,side:THREE.BackSide})));
+const panel=(w,h,x,y,z,ry,k)=>{const m=new THREE.Mesh(new THREE.PlaneGeometry(w,h),new THREE.MeshBasicMaterial({color:new THREE.Color(k,k*.96,k*.9)}));m.position.set(x,y,z);m.rotation.y=ry;m.lookAt(0,0,0);env.add(m);};
+panel(8,4,0,5.5,0,0,6);panel(5,6,-9,1,2,0,3.2);panel(5,6,9,2,-3,0,2.2);panel(6,3,0,1,9,0,1.6);
+scene.environment=pm.fromScene(env,.03).texture;
+const key=new THREE.DirectionalLight(0xfff1e2,2.2);key.position.set(3,6,4);key.castShadow=true;
+key.shadow.mapSize.set(1024,1024);key.shadow.radius=6;key.shadow.bias=-.0004;
+Object.assign(key.shadow.camera,{left:-4,right:4,top:4,bottom:-4,near:1,far:20});
+scene.add(key,new THREE.HemisphereLight(0xfff6ec,0x6b4a3a,.5));
+const floor=new THREE.Mesh(new THREE.PlaneGeometry(30,30),new THREE.ShadowMaterial({opacity:.16}));
+floor.rotation.x=-Math.PI/2;floor.position.y=-.02;floor.receiveShadow=true;scene.add(floor);
+
+/* Textures dessinées à la volée */
+const tex=(w,h,draw,rep)=>{const c=document.createElement('canvas');c.width=w;c.height=h;draw(c.getContext('2d'),w,h);const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;if(rep){t.wrapS=t.wrapT=THREE.RepeatWrapping;t.repeat.set(rep[0],rep[1]);}return t;};
+/* Le vrai logo VAURE : symbole du teaser (point vert fluo) + logotype dessiné, mêmes tracés que l'en-tête */
+const WP=[['M2 2 L38 98 L74 2',0],['M2 98 L38 2 L74 98',98],['M4 2 V60 C4 84 18 98 38 98 C58 98 72 84 72 60 V2',200],['M4 98 V2 H40 C60 2 70 14 70 30 C70 46 60 58 40 58 H4 M38 58 L70 98',300],['M66 2 H4 V98 H66 M4 50 H54',398]].map(([d,x])=>[new Path2D(d),x]);
+const MP=[['M52 96 L98 14',13],['M52 96 L22 30',13],['M28 44 L74 16',7]].map(([d,w])=>[new Path2D(d),w]);
+const logo=(g,x,y,s,col,sym)=>{const k=s/100,LW=sym?610:464,ox=sym?140:0;g.save();g.translate(x-LW*k/2,y-50*k);g.scale(k,k);g.strokeStyle=col;g.lineCap='round';g.lineJoin='round';
+  if(sym){MP.forEach(([pa,w])=>{g.lineWidth=w;g.stroke(pa);});g.fillStyle='#2ef27a';g.beginPath();g.arc(16,13,10,0,7);g.fill();}
+  g.lineWidth=11;WP.forEach(([pa,dx])=>{g.save();g.translate(ox+dx,0);g.stroke(pa);g.restore();});g.restore();};
+const CH=0x552b1d,CHL=0x6b3826,CR=0xefe3d3;
+const mat=(o)=>new THREE.MeshPhysicalMaterial(o);
+
+const pieces=[];
+const add=(name,obj,A,B)=>{obj.traverse(m=>{if(m.isMesh){m.castShadow=true;}});scene.add(obj);pieces.push({name,obj,A,B,ph:Math.random()*6.28,lo:new THREE.Vector3(0,.5,0)});return obj;};
+const P=(x,y,z,rx,ry,rz)=>({p:new THREE.Vector3(x,y,z),q:new THREE.Quaternion().setFromEuler(new THREE.Euler(rx,ry,rz))});
+
+// 1. Tapis roulé
+{const g=new THREE.Group();
+ const side=mat({color:CH,roughness:.85,sheen:.6,sheenColor:new THREE.Color(0x8a5a44)});
+ const end=tex(256,256,(g2,w)=>{g2.fillStyle='#4a2418';g2.fillRect(0,0,w,w);g2.strokeStyle='#6e3a27';g2.lineWidth=7;g2.beginPath();for(let a=0;a<40;a+=.05){const r=4+a*2.9;g2.lineTo(w/2+Math.cos(a)*r,w/2+Math.sin(a)*r);}g2.stroke();});
+ const cyl=new THREE.Mesh(new THREE.CylinderGeometry(.36,.36,1.9,96,1,true),side);g.add(cyl);
+ for(const s of[1,-1]){const cap=new THREE.Mesh(new THREE.CircleGeometry(.36,64),mat({map:end,roughness:.9}));cap.rotation.x=-s*Math.PI/2;cap.position.y=s*.95;g.add(cap);}
+ const lab=new THREE.Mesh(new THREE.CylinderGeometry(.362,.362,.34,96,1,true,-.6,1.2),mat({map:tex(512,128,(c,w,h)=>{c.fillStyle='#552b1d';c.fillRect(0,0,w,h);logo(c,w/2,h/2,56,'#f2e5d5');}),roughness:.8}));g.add(lab);
+ add('Le tapis',g,P(-.4,2.6,-1.8,.4,.3,1.2),P(-.15,.36,-.95,0,.12,Math.PI/2));}
+// 2. Cercle de Pilates
+{const g=new THREE.Group();
+ g.add(new THREE.Mesh(new THREE.TorusGeometry(.92,.055,32,160),mat({color:CH,roughness:.4,clearcoat:.5,clearcoatRoughness:.35})));
+ for(const s of[1,-1]){const pad=new THREE.Mesh(new THREE.CapsuleGeometry(.11,.26,12,24),mat({color:0x3a1d14,roughness:.75,sheen:.4}));pad.position.x=s*.92;g.add(pad);}
+ add('Le cercle',g,P(2.1,2.2,-1.2,.9,-.5,.3),P(.95,.92,-1.15,-.12,-.35,0));}
+// 3. Petit ballon
+{const t=tex(1024,512,(c,w,h)=>{const gr=c.createLinearGradient(0,0,0,h);gr.addColorStop(0,'#6e3a27');gr.addColorStop(1,'#552b1d');c.fillStyle=gr;c.fillRect(0,0,w,h);logo(c,w*.5,h*.5,60,'rgba(242,229,213,.9)',true);});
+ const b=new THREE.Mesh(new THREE.SphereGeometry(.42,96,64),mat({map:t,roughness:.32,clearcoat:.8,clearcoatRoughness:.2,sheen:.3}));b.rotation.y=-Math.PI/2;
+ const g=new THREE.Group();g.add(b);add('Le ballon',g,P(.3,2.7,.6,.3,1.2,.2),P(.42,1.02,.15,0,-.35,0));}
+// 4. Brique
+{const sh=new THREE.Shape(),w=.9,h=.58,r=.08;sh.moveTo(-w/2+r,-h/2);sh.lineTo(w/2-r,-h/2);sh.quadraticCurveTo(w/2,-h/2,w/2,-h/2+r);sh.lineTo(w/2,h/2-r);sh.quadraticCurveTo(w/2,h/2,w/2-r,h/2);sh.lineTo(-w/2+r,h/2);sh.quadraticCurveTo(-w/2,h/2,-w/2,h/2-r);sh.lineTo(-w/2,-h/2+r);sh.quadraticCurveTo(-w/2,-h/2,-w/2+r,-h/2);
+ const geo=new THREE.ExtrudeGeometry(sh,{depth:.3,bevelEnabled:true,bevelThickness:.03,bevelSize:.03,bevelSegments:5,curveSegments:10});geo.center();
+ const g=new THREE.Group();g.add(new THREE.Mesh(geo,mat({color:CR,roughness:.95})));
+ const face=new THREE.Mesh(new THREE.PlaneGeometry(.7,.3),new THREE.MeshStandardMaterial({map:tex(512,220,(c,w,h)=>{c.clearRect(0,0,w,h);logo(c,w/2,h/2,66,'rgba(150,118,92,.85)',true);}),transparent:true,roughness:1}));face.position.z=.181;g.add(face);
+ add('La brique',g,P(.9,.5,1.6,-.6,.8,.4),P(.42,.32,.15,0,-.35,0));}
+// 5. Les 3 bandes
+{const g=new THREE.Group();[['#d6cdc1',0],['#9a7b62',1],['#53402f',2]].forEach(([col,i])=>{
+  const t=tex(256,64,(c,w,h)=>{c.fillStyle=col;c.fillRect(0,0,w,h);c.strokeStyle='rgba(0,0,0,.09)';for(let x=-h;x<w;x+=5){c.beginPath();c.moveTo(x,0);c.lineTo(x+h,h);c.stroke();}},[3,1]);
+  const m=new THREE.Mesh(new THREE.CylinderGeometry(.34,.34,.17,96,1,true),mat({map:t,roughness:1,sheen:1,sheenColor:new THREE.Color(col),side:THREE.DoubleSide}));
+  m.scale.set(1,1,.38);m.position.set(0,i*.075+.09,i*.03);m.rotation.y=i*.25;g.add(m);});
+ add('Les 3 bandes',g,P(2.4,.3,1.3,.7,-.6,.5),P(-1.3,0,.15,0,.5,0));}
+// 6. Les 2 sliders
+{const g=new THREE.Group();for(const i of[0,1]){const d=new THREE.Mesh(new THREE.CylinderGeometry(.3,.3,.05,80),mat({color:0x4e2719,roughness:.5,clearcoat:.3}));d.position.set(i*.52,.03,i*.12);g.add(d);}
+ add('Les 2 sliders',g,P(1,-.2,2.1,1.1,.3,-.4),P(1.1,0,.75,0,-.2,0));}
+// 7. Rouleau
+{const t=tex(512,256,(c,w,h)=>{c.fillStyle='#552b1d';c.fillRect(0,0,w,h);c.strokeStyle='#3a1c12';c.lineWidth=14;for(let x=-h;x<w+h;x+=64){c.beginPath();c.moveTo(x,0);c.lineTo(x+h*.6,h);c.stroke();}},[1,2]);
+ const m=new THREE.Mesh(new THREE.CylinderGeometry(.28,.28,1.35,96),mat({map:t,roughness:.75,sheen:.4}));
+ const g=new THREE.Group();g.add(m);add('Le rouleau',g,P(-.9,-.1,2.3,.2,-.4,-1.2),P(-.55,.28,.62,0,.45,Math.PI/2));}
+// 8. Programme (téléphone)
+{const sh=new THREE.Shape(),w=.5,h=1,r=.08;sh.moveTo(-w/2+r,-h/2);sh.lineTo(w/2-r,-h/2);sh.quadraticCurveTo(w/2,-h/2,w/2,-h/2+r);sh.lineTo(w/2,h/2-r);sh.quadraticCurveTo(w/2,h/2,w/2-r,h/2);sh.lineTo(-w/2+r,h/2);sh.quadraticCurveTo(-w/2,h/2,-w/2,h/2-r);sh.lineTo(-w/2,-h/2+r);sh.quadraticCurveTo(-w/2,-h/2,-w/2+r,-h/2);
+ const geo=new THREE.ExtrudeGeometry(sh,{depth:.04,bevelEnabled:true,bevelThickness:.012,bevelSize:.012,bevelSegments:3});geo.center();
+ const g=new THREE.Group();g.add(new THREE.Mesh(geo,mat({color:0x1d1210,roughness:.3,metalness:.4,clearcoat:1})));
+ const scr=tex(300,600,(c,w,h)=>{const gr=c.createLinearGradient(0,0,0,h);gr.addColorStop(0,'#6a3726');gr.addColorStop(1,'#2b1710');c.fillStyle=gr;c.fillRect(0,0,w,h);
+   c.fillStyle='#2ef27a';c.font='600 20px Inter,sans-serif';c.fillText('JOUR 12 / 30',28,70);c.fillStyle='#f4ece2';c.font='600 34px Outfit,Inter,sans-serif';c.fillText('Gainage',28,115);c.fillText('doux',28,152);
+   c.strokeStyle='#f4ece2';c.lineWidth=14;c.lineCap='round';c.beginPath();c.moveTo(150,380);c.lineTo(225,315);c.moveTo(150,380);c.lineTo(98,308);c.lineTo(172,256);c.stroke();c.fillStyle='#2ef27a';c.beginPath();c.arc(84,282,15,0,7);c.fill();
+   c.fillStyle='rgba(255,255,255,.2)';c.fillRect(28,470,244,6);c.fillStyle='#2ef27a';c.fillRect(28,470,110,6);c.beginPath();c.arc(150,530,26,0,7);c.fill();});
+ const s=new THREE.Mesh(new THREE.PlaneGeometry(.46,.94),new THREE.MeshBasicMaterial({map:scr,toneMapped:false}));s.position.z=.034;g.add(s);
+ add('Le programme vidéo',g,P(2.9,1.3,.4,-.3,-.9,.2),P(1.75,.55,-.35,-.22,-.55,0));}
+
+/* Étiquettes */
+[[0,-.75,.55,0],[1,.6,.75,0],[2,0,.55,0],[3,-.2,.4,0],[4,.1,.15,.4],[5,0,.15,.35],[6,0,.35,.3],[7,.1,.6,0]].forEach(([i,x,y,z])=>pieces[i].lo.set(x,y,z));
+const labs=pieces.map(pc=>{const d=document.createElement('div');d.className='v3-lab';d.innerHTML='<i></i><span>'+pc.name+'</span>';labBox.appendChild(d);return d;});
+
+/* Animation au défilement, lissée */
+const cl=x=>x<0?0:x>1?1:x,ss=x=>{x=cl(x);return x*x*(3-2*x)};
+let target=0,cur=0,last=performance.now(),run=false,W=0,H=0;
+const read=()=>{const r=root.getBoundingClientRect();target=cl(-r.top/(root.offsetHeight-pin.offsetHeight));};
+const size=()=>{W=pin.clientWidth;H=pin.clientHeight;renderer.setSize(W,H,false);cam.aspect=W/H;
+  /* l'image du kit se décale : à droite sur ordinateur, vers le bas sur téléphone, pour laisser le texte libre */
+  if(W<761)cam.setViewOffset(W,H,0,-H*.2,W,H);else cam.setViewOffset(W,H,-W*.2,0,W,H);cam.updateProjectionMatrix();};
+const v=new THREE.Vector3(),q=new THREE.Quaternion(),look=new THREE.Vector3();
+function frame(now){
+  if(!run)return;requestAnimationFrame(frame);
+  const dt=Math.min(.05,(now-last)/1000);last=now;
+  cur+=(target-cur)*(1-Math.exp(-dt*7));
+  const p=cur,t=ss((p-.08)/.5),mob=W<761;
+  pieces.forEach((pc,i)=>{
+    const k=ss((p-.06-i*.025)/.5);
+    v.lerpVectors(pc.A.p,pc.B.p,k);q.slerpQuaternions(pc.A.q,pc.B.q,k);
+    const f=1-k*.85;v.y+=Math.sin(now/1000*.9+pc.ph)*.06*f;
+    pc.obj.position.copy(v);pc.obj.quaternion.copy(q);pc.obj.rotateY(Math.sin(now/1000*.5+pc.ph)*.12*f);
+  });
+  /* caméra : vue large -> composition -> tour lent autour du kit */
+  const zoom=ss((p-.62)/.38),orb=zoom*.5,tv=Math.tan(cam.fov*Math.PI/360);
+  const hw=mob?2.35:4.3,hh=mob?2.5:2.7,dist=Math.max(hh/tv,hw/(tv*cam.aspect))*(1-t*.1-zoom*.08);
+  cam.position.set(.25+Math.sin(orb)*dist,1.5+t*.7,Math.cos(orb)*dist);
+  look.set(.25,.75,0);cam.lookAt(look);
+  floor.material.opacity=.17*t;
+  renderer.render(scene,cam);
+  /* textes */
+  const seg=[[0,.3],[.3,.66],[.66,1.01]];
+  bs.forEach((b,i)=>{const[a,z]=seg[i],w=z-a;const fi=i?ss((p-a)/(w*.25)):1,fo=i<2?1-ss((p-(z-w*.22))/(w*.22)):1,o=Math.min(fi,fo);
+    b.style.opacity=o;b.style.visibility=o<.01?'hidden':'visible';b.style.transform=(mob?'':'translateY(-50%) ')+'translateY('+((1-fi)*30-(1-fo)*30).toFixed(1)+'px)';});
+  bars.forEach((b,i)=>{b.style.transform='scaleX('+cl((p-seg[i][0])/(seg[i][1]-seg[i][0])).toFixed(3)+')';});
+  hint.style.opacity=1-cl(p/.06);
+  /* étiquettes sur les pièces pendant la composition */
+  const lo=Math.min(ss((p-.4)/.12),1-ss((p-.64)/.08));
+  pieces.forEach((pc,i)=>{const d=labs[i];if(lo<.01||(mob&&(i===3||i===4||i===6))){d.style.opacity=0;return;}
+    v.copy(pc.obj.position).add(pc.lo);v.project(cam);const x=(v.x*.5+.5)*W,y=(-v.y*.5+.5)*H;
+    d.style.opacity=lo.toFixed(3);d.style.transform='translate('+x.toFixed(1)+'px,'+y.toFixed(1)+'px) translate(-6px,-50%)';});
+}
+const start=()=>{if(run)return;run=true;last=performance.now();requestAnimationFrame(frame);};
+new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)start();else run=false;});}).observe(root);
+addEventListener('scroll',read,{passive:true});addEventListener('resize',()=>{size();read();});
+size();read();cur=target;start();
+}
+</script><style>
+  .vc{--choco:#552b1d;--ink:#2b1710;--cream:#f4ece2;--fluo:#2ef27a;--muted:#7a5a48;background:var(--cream);font-family:'Inter',system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;padding:104px 0}
+  .vc *{box-sizing:border-box}
+  .vc .in{max-width:1200px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}
+  .vc img{width:100%;height:auto;display:block;border-radius:28px}
+  .vc .k{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:10px}
+  .vc .k::before{content:"";width:24px;height:2px;background:var(--fluo)}
+  .vc h2{font-family:'Outfit',sans-serif;font-weight:600;font-size:clamp(32px,4.2vw,56px);line-height:1.02;letter-spacing:-.03em;margin:18px 0 16px;text-wrap:balance}
+  .vc h2 em{font-style:normal;font-weight:300}
+  .vc p{margin:0;color:var(--muted);font-size:17px;line-height:1.6;max-width:44ch}
+  .vc ul{list-style:none;padding:0;margin:26px 0 30px;display:grid;grid-template-columns:1fr 1fr;gap:12px 18px}
+  .vc li{display:flex;gap:10px;align-items:center;font-size:15px;font-weight:500}
+  .vc li::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--fluo);box-shadow:0 0 0 4px rgba(46,242,122,.22)}
+  .vc-btn{display:inline-flex;align-items:center;gap:10px;background:var(--fluo);color:var(--ink);font-weight:600;font-size:15px;padding:16px 26px;border-radius:999px;text-decoration:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s ease-out,box-shadow .25s ease}
+  .vc-btn:hover{box-shadow:0 12px 34px rgba(46,242,122,.4)}
+  .vc-btn:active{transform:scale(.97)}
+  /* apparition plus vive des blocs de la page (retour de l'audit) */
+  .vp-js .rv{transition-duration:.6s!important;transition-delay:calc(var(--i,0) * 70ms)!important}
+  @media (max-width:900px){.vc{padding:64px 0}.vc .in{grid-template-columns:1fr;gap:32px;padding:0 16px}}
+</style>
+<section class="vc" aria-label="Le coffret VAURE">
+  <div class="in">
+    <img src="file:///tmp/claude-0/-home-user-Jimy/7659988a-c8b4-52f7-804b-1d5b6bb82102/scratchpad/kit_800.webp" width="800" height="800" loading="lazy" alt="Le kit VAURE : tapis, cercle, ballon, 3 bandes, brique, 2 sliders et rouleau">
+    <div>
+      <span class="k">Le coffret</span>
+      <h2>Tout est dedans. <em>Rien à acheter en plus.</em></h2>
+      <p>Des pièces assorties, pensées pour aller ensemble, et le programme vidéo pour savoir exactement quoi en faire.</p>
+      <ul>
+        <li>Un tapis</li><li>Un cercle de Pilates</li><li>Un petit ballon</li><li>3 bandes élastiques</li>
+        <li>Une brique</li><li>2 sliders</li><li>Un rouleau</li><li>Le programme vidéo</li>
+      </ul>
+      <a class="vc-btn" href="#vp-attente">Être prévenue du lancement
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+    </div>
+  </div>
+</section>
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+  .vp{--navy:#552b1d;--navy2:#6a3726;--ink:#2b1710;--white:#ffffff;--paper:#f4ece2;--fluo:#2ef27a;--muted:#7a5a48;--line:#e7dccd;--soft:#dcc7b4;
+      font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased;overflow:hidden}
+  .vp *{box-sizing:border-box}
+  .vp h1,.vp h2,.vp h3{font-family:'Outfit','Inter',sans-serif;letter-spacing:-.02em;margin:0;text-wrap:balance}
+  .vp p{margin:0}
+  .vp section{scroll-margin-top:90px}
+  .vp .in{max-width:1200px;margin:0 auto;padding:0 24px}
+  .vp .kicker{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:10px}
+  .vp .kicker::before{content:"";width:24px;height:2px;background:var(--fluo)}
+  .vp .btn{display:inline-flex;align-items:center;gap:10px;background:var(--fluo);color:var(--navy);font-weight:600;padding:16px 26px;border-radius:999px;text-decoration:none;border:0;cursor:pointer;font-size:15px;transition:transform .25s ease,box-shadow .25s ease}
+  .vp .btn svg{transition:transform .25s ease}
+  .vp .btn:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(46,242,122,.35)}
+  .vp .btn:hover svg{transform:translateX(4px)}
+  .vp .btn,.vp summary{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+  .vp .btn:active{transform:scale(.97);box-shadow:none;transition-duration:.1s}
+  .vp .faq summary:active i{transform:scale(.9)}
+  .vp .btn:focus-visible,.vp input:focus-visible,.vp summary:focus-visible{outline:2px solid var(--fluo);outline-offset:4px}
+
+  .vp .hero{background:var(--navy);color:var(--white)}
+  .vp .hero .in{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding-top:96px;padding-bottom:88px}
+  .vp .hero .kicker{color:var(--soft)}
+  .vp .hero h1{font-size:clamp(44px,7vw,92px);font-weight:600;line-height:.98;margin:22px 0 26px}
+  .vp .hero h1 .l2{color:var(--fluo);font-weight:300;display:block}
+  .vp .hero .lead{font-size:18px;color:var(--soft);max-width:34ch}
+  .vp .hero .row{display:flex;flex-wrap:wrap;align-items:center;gap:22px;margin-top:36px}
+  .vp .hero .row .soon{font-size:14px;color:var(--soft)}
+  .vp .hero .meta{display:flex;gap:28px;margin-top:56px;padding-top:24px;border-top:1px solid rgba(255,255,255,.12);font-size:13px;color:var(--soft)}
+  .vp .hero .meta b{display:block;font-family:'Outfit',sans-serif;font-size:26px;color:var(--white);font-weight:600;letter-spacing:-.02em}
+  .vp .art{width:100%;max-width:520px;justify-self:end;aspect-ratio:1/1}
+  .vp .art svg{width:100%;height:100%;display:block}
+
+  .vp .marquee{background:var(--fluo);color:var(--navy);overflow:hidden;white-space:nowrap}
+  .vp .marquee .track{display:inline-flex;gap:40px;padding:14px 0;animation:vp-marquee 30s linear infinite}
+  .vp .marquee span{font-family:'Outfit',sans-serif;font-weight:600;font-size:15px;letter-spacing:.12em;text-transform:uppercase;display:inline-flex;align-items:center;gap:40px}
+  .vp .marquee span::after{content:"";width:8px;height:8px;border-radius:50%;background:var(--navy)}
+
+  .vp .pain{padding:120px 0}
+  .vp .pain .grid{display:grid;grid-template-columns:1.25fr .75fr;gap:72px;align-items:end}
+  .vp .pain h2{font-size:clamp(32px,4.4vw,58px);font-weight:600;line-height:1.05;margin-top:22px}
+  .vp .pain h2 em{font-style:normal;color:var(--muted);font-weight:300}
+  .vp .facts{display:grid;gap:28px}
+  .vp .fact{border-top:1px solid var(--line);padding-top:18px}
+  .vp .fact .n{font-family:'Outfit',sans-serif;font-size:52px;font-weight:600;letter-spacing:-.03em;line-height:1}
+  .vp .fact .n small{font-size:20px;font-weight:400;color:var(--muted);margin-left:6px;letter-spacing:0}
+  .vp .fact p{color:var(--muted);margin-top:8px;font-size:15px}
+  .vp .fact.good .n span{background:linear-gradient(transparent 84%,var(--fluo) 84%);padding-bottom:2px}
+
+  .vp .kit{background:var(--paper);padding:120px 0}
+  .vp .kit .head{display:flex;justify-content:space-between;align-items:end;gap:40px;flex-wrap:wrap}
+  .vp .kit h2,.vp .prog h2,.vp .compare h2,.vp .faq h2{font-size:clamp(30px,4vw,52px);font-weight:600;line-height:1.05;margin-top:20px}
+  .vp .kit h2{max-width:16ch}
+  .vp .kit .head p{color:var(--muted);max-width:42ch}
+  .vp .items{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:64px}
+  .vp .item{background:var(--white);border-radius:24px;padding:28px;transition:transform .35s ease,box-shadow .35s ease}
+  .vp .item:hover{transform:translateY(-6px);box-shadow:0 24px 50px rgba(85,43,29,.12)}
+  .vp .item .pic{aspect-ratio:4/3;border-radius:16px;background:var(--navy);display:grid;place-items:center;margin-bottom:24px}
+  .vp .item .pic svg{width:78%;height:auto}
+  .vp .item .tag{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .vp .item h3{font-size:24px;font-weight:600;margin:6px 0 8px}
+  .vp .item p{color:var(--muted);font-size:15px}
+
+  .vp .prog{background:var(--navy);color:var(--white);padding:120px 0}
+  .vp .prog .kicker{color:var(--soft)}
+  .vp .prog h2 .f{color:var(--fluo)}
+  .vp .timeline{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:72px;padding-top:40px}
+  .vp .timeline::before{content:"";position:absolute;top:8px;left:0;right:0;height:2px;background:rgba(255,255,255,.14)}
+  .vp .timeline .bar{position:absolute;top:8px;left:0;height:2px;width:100%;background:var(--fluo);transform-origin:left}
+  .vp .step{position:relative}
+  .vp .step::before{content:"";position:absolute;top:-38px;left:0;width:14px;height:14px;border-radius:50%;background:var(--navy);border:2px solid var(--fluo)}
+  .vp .step .d{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--fluo);font-weight:600}
+  .vp .step h3{font-size:24px;font-weight:600;margin:10px 0 8px}
+  .vp .step p{color:var(--soft);font-size:15px}
+
+  .vp .compare{padding:120px 0}
+  .vp .compare h2{max-width:18ch}
+  .vp .tbl{overflow-x:auto;margin-top:56px}
+  .vp table{border-collapse:separate;border-spacing:0;width:100%;min-width:640px}
+  .vp th,.vp td{text-align:center;padding:20px 16px;border-bottom:1px solid var(--line);font-size:15px}
+  .vp th:first-child,.vp td:first-child{text-align:left;color:var(--muted)}
+  .vp thead th{font-family:'Outfit',sans-serif;font-size:17px;font-weight:600;color:var(--ink)}
+  .vp th.us,.vp td.us{background:var(--navy);color:var(--white);border-bottom-color:rgba(255,255,255,.12)}
+  .vp thead .us{border-radius:20px 20px 0 0}
+  .vp tbody tr:last-child .us{border-radius:0 0 20px 20px}
+  .vp .ok,.vp .no{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;font-size:14px;font-weight:700;color:var(--navy)}
+  .vp .ok{background:var(--fluo)}
+  .vp .no{background:var(--paper)}
+  .vp .no::before{content:"";width:10px;height:2px;background:var(--soft)}
+
+  .vp .faq{background:var(--paper);padding:120px 0}
+  .vp .faq .grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:72px;align-items:start}
+  .vp .faq .side{position:sticky;top:120px}
+  .vp .faq .side p{color:var(--muted);margin-top:16px;max-width:34ch}
+  .vp .faq details{border-bottom:1px solid var(--line)}
+  .vp .faq summary{font-family:'Outfit',sans-serif;font-size:20px;font-weight:600;letter-spacing:-.01em;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0}
+  .vp .faq summary::-webkit-details-marker{display:none}
+  .vp .faq summary i{flex:none;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);position:relative;transition:background .3s ease}
+  .vp .faq summary i::before,.vp .faq summary i::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:2px;background:var(--ink);transform:translate(-50%,-50%)}
+  .vp .faq summary i::after{transform:translate(-50%,-50%) rotate(90deg);transition:transform .3s ease}
+  .vp .faq details[open] summary i{background:var(--fluo);border-color:var(--fluo)}
+  .vp .faq details[open] summary i::after{transform:translate(-50%,-50%) rotate(0)}
+  .vp .faq details p{color:var(--muted);padding:0 56px 24px 0;animation:vp-fade .4s ease both}
+  .vp .safe{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start;margin-top:40px;padding:22px;border-radius:18px;background:var(--white);font-size:14px;color:var(--muted)}
+  .vp .safe b{color:var(--ink)}
+
+  .vp .promises{display:grid;grid-template-columns:repeat(3,1fr)}
+  .vp .promises div{padding:36px 24px;border-right:1px solid var(--line)}
+  .vp .promises div:last-child{border-right:0}
+  .vp .promises b{display:block;font-family:'Outfit',sans-serif;font-size:20px;font-weight:600;letter-spacing:-.01em}
+  .vp .promises span{color:var(--muted);font-size:14px}
+
+  .vp .wait{background:var(--navy);color:var(--white);padding:128px 0}
+  .vp .wait .in{max-width:860px;text-align:center}
+  .vp .wait .kicker{justify-content:center;color:var(--soft)}
+  .vp .wait h2{font-size:clamp(36px,5.5vw,72px);font-weight:600;line-height:1;margin-top:22px}
+  .vp .wait h2 em{font-style:normal;color:var(--fluo);font-weight:300}
+  .vp .wait p.sub{color:var(--soft);margin:20px auto 0;max-width:46ch}
+  .vp .wait .field{display:flex;gap:8px;max-width:520px;margin:44px auto 0;padding:6px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16)}
+  .vp .wait input[type=email]{flex:1;min-width:0;background:transparent;border:0;color:var(--white);padding:14px 20px;font-size:16px}
+  .vp .wait input::placeholder{color:var(--soft)}
+  .vp .wait .msg{margin-top:18px;font-weight:600}
+  .vp .wait .msg.good{color:var(--fluo)}
+  .vp .wait .msg.bad{color:#ffb4b4}
+
+  @keyframes vp-marquee{to{transform:translateX(-50%)}}
+  @keyframes vp-fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  @keyframes vp-rise{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:none}}
+  @keyframes vp-draw{from{stroke-dashoffset:var(--len)}to{stroke-dashoffset:0}}
+  @keyframes vp-spin{to{transform:rotate(360deg)}}
+  @keyframes vp-breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+  .vp .hero .kicker,.vp .hero h1,.vp .hero .lead,.vp .hero .row,.vp .hero .meta{animation:vp-rise 1s cubic-bezier(.16,1,.3,1) both}
+  .vp .hero h1{animation-delay:.08s}.vp .hero .lead{animation-delay:.2s}.vp .hero .row{animation-delay:.32s}.vp .hero .meta{animation-delay:.44s}
+  .vp .art .ring{transform-origin:260px 260px;animation:vp-spin 60s linear infinite}
+  .vp .art .halo{transform-origin:260px 260px;animation:vp-breathe 6s ease-in-out infinite}
+  .vp .art .draw{stroke-dasharray:var(--len);animation:vp-draw 1.6s cubic-bezier(.65,0,.35,1) both}
+  .vp-js .rv{opacity:0;transform:translateY(36px);transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1s cubic-bezier(.16,1,.3,1);transition-delay:calc(var(--i,0) * 110ms)}
+  .vp-js .rv.is-in{opacity:1;transform:none}
+  .vp-js .timeline .bar{transform:scaleX(0);transition:transform 1.8s cubic-bezier(.65,0,.35,1) .3s}
+  .vp-js .timeline.is-in .bar{transform:scaleX(1)}
+  @media (prefers-reduced-motion:reduce){.vp *{animation:none!important;transition:none!important}.vp-js .rv{opacity:1;transform:none}.vp-js .timeline .bar{transform:none}.vp .art .draw{stroke-dasharray:none}}
+
+  @media (max-width:900px){
+    .vp .hero .in,.vp .pain .grid,.vp .faq .grid{grid-template-columns:1fr;gap:40px}
+    .vp .hero .in{padding-top:56px;padding-bottom:64px}
+    .vp .art{max-width:320px;justify-self:center;order:-1}
+    .vp .items,.vp .promises{grid-template-columns:1fr}
+    .vp .promises div{border-right:0;border-bottom:1px solid var(--line)}
+    .vp .timeline{grid-template-columns:1fr 1fr;row-gap:48px}
+    .vp .timeline::before,.vp .timeline .bar{display:none}
+    .vp .step::before{position:static;display:block;margin-bottom:14px}
+    .vp .pain,.vp .kit,.vp .prog,.vp .compare,.vp .faq{padding:80px 0}
+    .vp .wait{padding:88px 0}
+    .vp .faq .side{position:static}
+    .vp .hero .meta{gap:20px;flex-wrap:wrap}
+    .vp .fact .n{font-size:42px}
+  }
+  @media (max-width:520px){.vp .timeline{grid-template-columns:1fr}.vp .wait .field{flex-direction:column;border-radius:24px}.vp .wait .btn{justify-content:center}}
+</style>
+
+<div class="vp">
+  <section class="hero">
+    <div class="in">
+      <div>
+        <p class="kicker">VAURE · Le Pilates à la maison</p>
+        <h1>Ton studio de Pilates chez toi.<span class="l2">15 minutes par jour.</span></h1>
+        <p class="lead">Un tapis, 7 accessoires assortis et un programme guidé de 30 jours. Pour te sentir plus tonique et plus droite, au prix d'une seule séance en studio.</p>
+        <div class="row">
+          <a class="btn" href="#vp-attente">Rejoindre la liste d'attente <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <span class="soon">Lancement très bientôt</span>
+        </div>
+        <div class="meta">
+          <div><b>15 min</b>par jour</div>
+          <div><b>30 jours</b>de programme guidé</div>
+          <div><b>8 pièces</b>qui se rangent dans un placard</div>
+        </div>
+      </div>
+      <div class="art" aria-hidden="true">
+        <svg viewBox="0 0 520 520">
+          <defs><radialGradient id="vpg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#1d3d66"/><stop offset="1" stop-color="#0b1f3a"/></radialGradient></defs>
+          <circle class="halo" cx="260" cy="260" r="236" fill="url(#vpg)"/>
+          <g class="ring"><circle cx="260" cy="260" r="210" fill="none" stroke="#2ef27a" stroke-opacity=".5" stroke-width="1.5" stroke-dasharray="2 10"/></g>
+          <circle cx="260" cy="260" r="160" fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="1"/>
+          <ellipse cx="150" cy="398" rx="58" ry="18" fill="#2ef27a"/><ellipse cx="150" cy="392" rx="58" ry="18" fill="#7ff7ad"/>
+          <ellipse cx="370" cy="398" rx="58" ry="18" fill="#2ef27a"/><ellipse cx="370" cy="392" rx="58" ry="18" fill="#7ff7ad"/>
+          <path class="draw" style="--len:220;animation-delay:.3s" d="M258 340 L360 160" fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+          <path class="draw" style="--len:170;animation-delay:.6s" d="M258 340 L190 196" fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+          <path class="draw" style="--len:120;animation-delay:.9s" d="M204 224 L300 168" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="round"/>
+          <circle cx="178" cy="168" r="20" fill="#2ef27a"/>
+        </svg>
+      </div>
+    </div>
+    <div class="marquee" aria-hidden="true"><div class="track">
+      <span>15 minutes par jour</span><span>Chez toi</span><span>Programme de 30 jours</span><span>Débutante bienvenue</span><span>À ton rythme</span><span>Studio complet</span>
+      <span>15 minutes par jour</span><span>Chez toi</span><span>Programme de 30 jours</span><span>Débutante bienvenue</span><span>À ton rythme</span><span>Studio complet</span>
+    </div></div>
+  </section>
+
+  <section class="pain">
+    <div class="in grid">
+      <div>
+        <p class="kicker rv">Le constat</p>
+        <h2 class="rv">Le Pilates en studio, tu adores. <em>Son prix et ses horaires, beaucoup moins.</em></h2>
+      </div>
+      <div class="facts">
+        <div class="fact rv"><p class="n">25–35 €<small>la séance</small></p><p>Le prix d'un cours de Pilates Reformer en studio.</p></div>
+        <div class="fact rv"><p class="n">+100 €<small>par mois</small></p><p>Pour une seule séance par semaine.</p></div>
+        <div class="fact good rv"><p class="n"><span>39,90 €</span><small>une fois</small></p><p>Le kit VAURE, programme de 30 jours inclus.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="kit" id="vp-kit">
+    <div class="in">
+      <div class="head">
+        <div><p class="kicker rv">Le kit</p><h2 class="rv">Le matériel et la méthode, enfin réunis.</h2></div>
+        <p class="rv">La barre et ses élastiques recréent la résistance des ressorts du Reformer. Les disques recréent le chariot qui glisse. Le programme te guide chaque jour.</p>
+      </div>
+      <div class="items">
+        <article class="item rv">
+          <div class="pic"><svg viewBox="0 0 200 120" aria-hidden="true"><rect x="20" y="40" width="160" height="10" rx="5" fill="#fff"/><rect x="10" y="30" width="22" height="30" rx="8" fill="#2ef27a"/><rect x="168" y="30" width="22" height="30" rx="8" fill="#2ef27a"/><path d="M30 60 C60 104 140 104 170 60" fill="none" stroke="#a9b8cb" stroke-width="3" stroke-linecap="round"/></svg></div>
+          <p class="tag">Résistance</p><h3>La barre démontable</h3><p>Avec élastiques de résistance. Elle se démonte et se range dans un tiroir.</p>
+        </article>
+        <article class="item rv">
+          <div class="pic"><svg viewBox="0 0 200 120" aria-hidden="true"><ellipse cx="62" cy="76" rx="44" ry="14" fill="#2ef27a"/><ellipse cx="62" cy="70" rx="44" ry="14" fill="#7ff7ad"/><ellipse cx="138" cy="76" rx="44" ry="14" fill="#2ef27a"/><ellipse cx="138" cy="70" rx="44" ry="14" fill="#7ff7ad"/><path d="M40 36 h120" stroke="#a9b8cb" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 8"/></svg></div>
+          <p class="tag">Glisse</p><h3>Deux disques de glisse</h3><p>Pour les fentes, les planches et tous les mouvements glissés, comme sur la machine.</p>
+        </article>
+        <article class="item rv">
+          <div class="pic"><svg viewBox="0 0 200 120" aria-hidden="true"><rect x="70" y="10" width="60" height="100" rx="12" fill="#132b4d" stroke="#a9b8cb" stroke-width="2"/><circle cx="100" cy="52" r="16" fill="#2ef27a"/><path d="M96 45 L106 52 L96 59 Z" fill="#0b1f3a"/><rect x="82" y="82" width="36" height="5" rx="2.5" fill="#a9b8cb"/><rect x="82" y="92" width="22" height="5" rx="2.5" fill="#2ef27a"/></svg></div>
+          <p class="tag">Méthode</p><h3>Le programme 30 jours</h3><p>15 minutes par jour, en vidéo et en français, filmé par une coach diplômée.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="prog" id="vp-defi">
+    <div class="in">
+      <p class="kicker rv">Le défi VAURE</p>
+      <h2 class="rv">30 jours pour sentir <span class="f">la différence.</span></h2>
+      <div class="timeline rv">
+        <span class="bar" aria-hidden="true"></span>
+        <div class="step"><p class="d">Jours 1 à 7</p><h3>Les bases</h3><p>Respiration, centre, posture. Chaque mouvement appris en douceur.</p></div>
+        <div class="step"><p class="d">Jours 8 à 14</p><h3>Gainage</h3><p>Abdominaux profonds et dos, avec le cercle et le ballon.</p></div>
+        <div class="step"><p class="d">Jours 15 à 21</p><h3>Bas du corps</h3><p>Fessiers et jambes, avec les bandes et les sliders.</p></div>
+        <div class="step"><p class="d">Jours 22 à 30</p><h3>Enchaînements</h3><p>Des séances complètes, comme un vrai cours en studio.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="compare">
+    <div class="in">
+      <p class="kicker rv">Pourquoi VAURE</p>
+      <h2 class="rv">Tout ce qu'il te faut. Rien de ce qui te freine.</h2>
+      <div class="tbl rv"><table>
+        <thead><tr><th></th><th>Studio</th><th>Accessoires seuls</th><th>Appli vidéo</th><th class="us">VAURE</th></tr></thead>
+        <tbody>
+          <tr><td>Matériel complet de studio</td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="no" aria-label="non"></span></td><td class="us"><span class="ok" aria-label="oui">✓</span></td></tr>
+          <tr><td>Programme guidé</td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="no" aria-label="non"></span></td><td><span class="ok" aria-label="oui">✓</span></td><td class="us"><span class="ok" aria-label="oui">✓</span></td></tr>
+          <tr><td>Chez toi, à ton heure</td><td><span class="no" aria-label="non"></span></td><td><span class="ok" aria-label="oui">✓</span></td><td><span class="ok" aria-label="oui">✓</span></td><td class="us"><span class="ok" aria-label="oui">✓</span></td></tr>
+          <tr><td>Prix</td><td>25–35 € la séance</td><td>Bas, sans méthode</td><td>Abonnement</td><td class="us"><b>39,90 € une fois</b></td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </section>
+
+  <section class="faq" id="vp-faq">
+    <div class="in grid">
+      <div class="side">
+        <p class="kicker rv">Tes questions</p>
+        <h2 class="rv">Tout ce qui te fait hésiter.</h2>
+        <p class="rv">Une autre question ? Écris-nous depuis la page Contact, on répond sous 24 h ouvrées.</p>
+      </div>
+      <div class="qs">
+        <details class="rv"><summary>Je suis débutante, c'est pour moi ?<i></i></summary><p>Oui. La première semaine sert à apprendre les bases, et chaque mouvement a une version plus facile.</p></details>
+        <details class="rv"><summary>J'ai un petit appartement, j'ai la place ?<i></i></summary><p>La place d'un tapis suffit. Tout le kit se range dans un placard.</p></details>
+        <details class="rv"><summary>J'ai peur d'abandonner au bout de 3 jours.<i></i></summary><p>Le programme dure 15 minutes et te dit exactement quoi faire chaque jour. Tu coches ta séance, tu avances.</p></details>
+        <details class="rv"><summary>Des accessoires se trouvent pas cher, pourquoi VAURE ?<i></i></summary><p>Des accessoires seuls ne te disent pas quoi faire. VAURE réunit un tapis, 7 accessoires assortis et un programme guidé de 30 jours, filmé par une coach diplômée.</p></details>
+        <details class="rv"><summary>Est-ce que ça remplace un cours en studio ?<i></i></summary><p>Non, ce n'est pas le but. VAURE te permet de pratiquer chez toi entre deux cours, ou quand le studio n'est pas possible.</p></details>
+        <details class="rv"><summary>Et si le kit ne me convient pas ?<i></i></summary><p>Tu pourras le retourner pendant 30 jours. Les délais de livraison seront indiqués clairement avant la commande.</p></details>
+        <div class="safe rv"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z" fill="#2ef27a"/><path d="M8 12l3 3 5-6" fill="none" stroke="#2b1710" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><p><b>Ta sécurité d'abord.</b> Chaque séance commence par un échauffement. En cas de grossesse, de douleur ou de problème de dos, demande l'avis d'un professionnel de santé avant de commencer. VAURE parle de tonus, de posture et de bien-être, jamais de promesse médicale.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="in">
+    <div class="promises">
+      <div class="rv"><b>Programme en français</b><span>Filmé par une coach Pilates diplômée</span></div>
+      <div class="rv"><b>Retour sous 30 jours</b><span>Si le kit ne te convient pas</span></div>
+      <div class="rv"><b>Paiement sécurisé</b><span>Livraison suivie jusqu'à chez toi</span></div>
+    </div>
+  </div>
+
+  <section class="wait" id="vp-attente">
+    <div class="in">
+      <p class="kicker rv">Bientôt disponible</p>
+      <h2 class="rv">Sois la première à <em>commencer le défi.</em></h2>
+      <p class="sub rv">Laisse ton e-mail : tu seras prévenue en premier du lancement du kit VAURE.</p>
+      <form>
+        <input type="hidden" name="contact[tags]" value="liste-attente-vaure-pilates">
+        <div class="field">
+          <label for="vp-email" style="position:absolute;left:-9999px">Ton adresse e-mail</label>
+          <input id="vp-email" type="email" name="contact[email]" placeholder="Ton adresse e-mail" required autocomplete="email">
+          <button class="btn" type="submit">Je m'inscris</button>
+        </div>
+        
+        
+      </form>
+    </div>
+  </section>
+</div>
+
+<script>
+(function(){
+  var root=document.currentScript&&document.currentScript.previousElementSibling;
+  if(!root||!root.classList.contains('vp'))root=document.querySelector('.vp');
+  if(!root||!('IntersectionObserver' in window))return;
+  if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  root.classList.add('vp-js');
+  root.querySelectorAll('.items,.facts,.promises,.qs').forEach(function(g){
+    Array.prototype.forEach.call(g.children,function(el,i){el.style.setProperty('--i',i);});
+  });
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -60px 0px'});
+  root.querySelectorAll('.rv,.timeline').forEach(function(el){io.observe(el);});
+})();
+</script>
+
+<style>
+  /* 1. Comparatif lisible sur téléphone : on garde Studio face à VAURE */
+  @media (max-width:760px){
+    .vp table{min-width:0}
+    .vp th:nth-child(3),.vp td:nth-child(3),.vp th:nth-child(4),.vp td:nth-child(4){display:none}
+    .vp th,.vp td{padding:16px 10px;font-size:14px}
+    .vp th:first-child,.vp td:first-child{width:46%}
+  }
+  /* 2. Défi 30 jours plus compact sur téléphone : 2 colonnes, moins de vide */
+  @media (max-width:900px){
+    .vp .timeline{grid-template-columns:1fr 1fr!important;row-gap:32px;column-gap:18px;margin-top:40px;padding-top:0}
+    .vp .step::before{margin-bottom:10px}
+    .vp .step h3{font-size:19px;margin:6px 0 4px}
+    .vp .step p{font-size:14px}
+  }
+  /* 3. Barre d'action collante sur téléphone */
+  .vsb{position:fixed;left:12px;right:12px;bottom:12px;z-index:60;display:none;align-items:center;gap:12px;padding:10px 10px 10px 18px;border-radius:999px;background:rgba(43,23,16,.92);-webkit-backdrop-filter:blur(14px) saturate(1.3);backdrop-filter:blur(14px) saturate(1.3);color:#fbf7f2;font-family:'Inter',system-ui,sans-serif;box-shadow:0 14px 40px rgba(43,23,16,.3);transform:translateY(140%);transition:transform .45s cubic-bezier(.2,.9,.25,1)}
+  .vsb.on{transform:none}
+  .vsb p{margin:0;flex:1;font-size:13px;line-height:1.3}
+  .vsb p b{display:block;font-family:'Outfit',sans-serif;font-size:15px;font-weight:600}
+  .vsb a{flex:none;background:#2ef27a;color:#2b1710;font-weight:600;font-size:14px;padding:12px 18px;border-radius:999px;text-decoration:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s ease-out}
+  .vsb a:active{transform:scale(.96)}
+  @media (max-width:760px){.vsb{display:flex}}
+  @media (prefers-reduced-motion:reduce){.vsb{transition:none}}
+</style>
+
+<div class="vsb" aria-hidden="true">
+  <p><b>Le kit VAURE</b>Lancement très bientôt</p>
+  <a href="#vp-attente" tabindex="-1">Me prévenir</a>
+</div>
+
+<script>
+(function(){
+  var bar=document.querySelector('.vsb');if(!bar||!('IntersectionObserver' in window))return;
+  var hero=document.querySelector('.v3'),wait=document.getElementById('vp-attente'),pastHero=false,atWait=false;
+  function upd(){var on=pastHero&&!atWait;bar.classList.toggle('on',on);bar.setAttribute('aria-hidden',on?'false':'true');bar.querySelector('a').tabIndex=on?0:-1;}
+  if(hero)new IntersectionObserver(function(e){pastHero=!e[0].isIntersecting&&e[0].boundingClientRect.top<0;upd();}).observe(hero);else pastHero=true;
+  if(wait)new IntersectionObserver(function(e){atWait=e[0].isIntersecting;upd();},{rootMargin:'0px 0px -20% 0px'}).observe(wait);
+  upd();
+})();
+</script>
+
+</body>
