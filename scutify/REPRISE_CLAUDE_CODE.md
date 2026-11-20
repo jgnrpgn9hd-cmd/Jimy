@@ -627,3 +627,12 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Une pastille en bas à gauche de la photo change avec chaque étape.
 - Ordinateur : texte à gauche, photo à droite. Téléphone : texte en haut, photo en bas.
 - Mouvement réduit : version fixe. Même id #vp-kit et classe .v3, donc la barre d'action continue de fonctionner.
+
+## Accueil épuré (doublons retirés)
+- index.json (ce6dfe79…) : section ambiance retirée, car elle doublait l'ouverture.
+- cta (b90c1078…) masque en CSS les autres doublons :
+  - .vsb, la 2e barre collante de « retouches » ;
+  - le bandeau défilant et les 4 chiffres de « sport », ainsi que les barres 23 % ;
+  - .pain et .compare dans home ;
+  - le bloc photo et liste du coffret, pour ne garder que « Pièce par pièce ».
+- Nouvel ordre : ouverture → pièce par pièce → film → elle te ressemble → appli → −95 % → défi 30 jours → FAQ → liste d'attente.

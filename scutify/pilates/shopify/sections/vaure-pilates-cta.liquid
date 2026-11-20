@@ -16,6 +16,12 @@
   .vp .wait .wperks li{display:flex;align-items:center;gap:8px}
   .vp .wait .wperks li::before{content:"";width:7px;height:7px;border-radius:50%;background:#2ef27a}
   .vp .wait .msg a,.vp .wait .wperks a{color:inherit;text-underline-offset:3px}
+  /* Page épurée : on retire les doublons */
+  .vsb{display:none!important}                                  /* 2e barre collante (doublon de celle-ci) */
+  .vsp-tick,.vsp-nums,.vsp-bars{display:none!important}         /* chiffres déjà dits ailleurs ; on garde le −95 % */
+  .vp .pain,.vp .compare{display:none!important}                /* 3e et 4e comparaison de prix */
+  .vc>.in{display:none!important}.vc .vc-pc{margin-top:0}       /* coffret : la photo du kit est déjà dans l'ouverture */
+  .vc .vc-pc h3{font-size:clamp(30px,3.6vw,48px);margin-bottom:28px}
 </style>
 <div class="vcta" id="vcta" aria-hidden="true">
   <div class="t"><b>Le kit VAURE · 39,90 €</b><span>8 pièces + le défi 30 jours guidé</span></div>
