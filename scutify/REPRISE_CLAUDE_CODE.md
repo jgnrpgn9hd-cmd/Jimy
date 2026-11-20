@@ -649,3 +649,14 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
   - « de retour en stock ».
 - Fait : sections/vaure-pilates-annonce.liquid (0809a770…), placée en tête d'index.json (5d6a3441…). Bandeau défilant avec 4 infos vraies : lancement, exercices gratuits, retours 30 jours, 39,90 € une fois.
 - En attente de décisions de Jairo : seuil de livraison offerte, pack, carte cadeau, vraie histoire de la fondatrice.
+
+## Inspiré des mécaniques de vente de Milia Matcha (analysé avec Playwright, sans rien copier)
+- Hôtes miliamatcha.com et www.miliamatcha.com ajoutés à l'environnement réseau, avec l'accord de Jairo.
+- toutes (57dcbfc8…) : mosaïque 2 colonnes (téléphone) ou 3 (ordinateur) de 6 photos lifestyle, avec une pastille par photo.
+  - Attention au bug corrigé : la classe d'apparition « in » entrait en collision avec .vto .in (padding). Elle s'appelle maintenant « vis ».
+- produit (fce61300…), dans la zone d'achat :
+  - avantages courts en 2 colonnes ;
+  - prix dans le bouton (« Ajouter au panier · 39,90 € ») ;
+  - bandeau défilant de réassurance ;
+  - section « 3 étapes. 15 minutes. ».
+- Pas d'avis, pas de compteur de clients : ce serait faux.
