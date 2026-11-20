@@ -671,3 +671,9 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - toutes (9fb63ecf…) : légendes de la mosaïque en texte simple, sans pastille ni point vert ; coins moins arrondis.
 - cta (f0727770…) : le bloc « −95 % » (sport) est masqué et le constat .pain (25–35 € la séance) est réaffiché ; tirets au lieu des points verts.
 - Produit renommé « Le kit VAURE » (au lieu de « Kit Pilates VAURE – Le studio à la maison »). Handle inchangé : kit-pilates-vaure.
+
+## Page « Pourquoi VAURE » (/pages/notre-histoire, gid 710130893182)
+- Réécrite à la 1re personne, signée « Jairo, fondateur de VAURE ». Seul fait réel connu : il aime le sport. Rien d'autre d'inventé : ni date, ni anecdote, ni chiffre.
+- Le texte présente le sport et la régularité, le prix et les horaires du studio, puis le kit et les exercices guidés. La liste « Ce que je te promets » est conservée.
+- Correction au passage : « programme vidéo » devient « exercices guidés » (ce sont des animations, pas des vidéos).
+- Menu vaure-pilates : ajout de « Pourquoi VAURE » entre « Les exercices » et « FAQ ». Les menus sont communs à tous les thèmes : c'est donc visible tout de suite sur le site en ligne.
