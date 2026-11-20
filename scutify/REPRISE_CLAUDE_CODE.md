@@ -620,3 +620,10 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
   - ajoute 3 assurances vraies : prévenue en premier, exercices déjà gratuits, désinscription en un clic ;
   - ajoute un lien « commence le jour 1 » après l'inscription.
 - Prix vérifié : le produit kit-pilates-vaure est à 39,90 €, encore en brouillon (DRAFT).
+
+## Ouverture en photos (remplace le kit 3D)
+- sections/vaure-pilates-3d.liquid (md5 3bbda3de…, nom de schéma « VAURE – ouverture », 25 caractères max) : plus de three.js.
+- 3 vraies photos en fondu enchaîné au défilement, avec un léger zoom, synchronisées avec les 3 textes : pont-salon, puis kit vue de dessus, puis squat-bande.
+- Une pastille en bas à gauche de la photo change avec chaque étape.
+- Ordinateur : texte à gauche, photo à droite. Téléphone : texte en haut, photo en bas.
+- Mouvement réduit : version fixe. Même id #vp-kit et classe .v3, donc la barre d'action continue de fonctionner.
