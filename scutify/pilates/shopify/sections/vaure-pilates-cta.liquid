@@ -14,12 +14,12 @@
   .vp .wait .wkit{display:block;width:min(260px,62vw);height:auto;margin:0 auto 34px;border-radius:24px;box-shadow:0 30px 60px -24px rgba(0,0,0,.6);transform:rotate(-3deg)}
   .vp .wait .wperks{list-style:none;padding:0;margin:28px auto 0;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 22px;font-size:14px;color:var(--soft,#d9c6b5)}
   .vp .wait .wperks li{display:flex;align-items:center;gap:8px}
-  .vp .wait .wperks li::before{content:"";width:7px;height:7px;border-radius:50%;background:#2ef27a}
+  .vp .wait .wperks li::before{content:"";width:12px;height:2px;background:currentColor;opacity:.6}
   .vp .wait .msg a,.vp .wait .wperks a{color:inherit;text-underline-offset:3px}
   /* Page épurée : on retire les doublons */
   .vsb{display:none!important}                                  /* 2e barre collante (doublon de celle-ci) */
-  .vsp-tick,.vsp-nums,.vsp-bars{display:none!important}         /* chiffres déjà dits ailleurs ; on garde le −95 % */
-  .vp .pain,.vp .compare{display:none!important}                /* 3e et 4e comparaison de prix */
+  .vsp{display:none!important}                                  /* bloc « −95 % » : trop « promo », on garde le constat chiffré plus sobre */
+  .vp .compare{display:none!important}                          /* tableau comparatif : doublon du constat */
   .vc>.in{display:none!important}.vc .vc-pc{margin-top:0}       /* coffret : la photo du kit est déjà dans l'ouverture */
   .vc .vc-pc h3{font-size:clamp(30px,3.6vw,48px);margin-bottom:28px}
 </style>

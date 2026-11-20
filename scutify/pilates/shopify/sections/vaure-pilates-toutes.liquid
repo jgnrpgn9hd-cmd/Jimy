@@ -10,17 +10,17 @@
   .vto .hd a{color:#2b1710;font-weight:600;text-underline-offset:3px}
   /* Mosaïque */
   .vto .mo{columns:2;column-gap:10px}
-  .vto figure{position:relative;margin:0 0 10px;break-inside:avoid;border-radius:18px;overflow:hidden;background:#e6d8c8}
+  .vto figure{position:relative;margin:0 0 10px;break-inside:avoid;border-radius:10px;overflow:hidden;background:#e6d8c8}
   .vto img{display:block;width:100%;height:auto;transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}
   .vto figure:hover img{transform:scale(1.04)}
   .vto figcaption{position:absolute;left:10px;bottom:10px;right:10px;display:flex}
-  .vto figcaption span{background:rgba(20,11,8,.72);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);color:#fbf7f2;font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;padding:6px 10px;border-radius:99px;display:inline-flex;align-items:center;gap:7px;max-width:100%}
+  .vto figcaption span{background:none;color:#fbf7f2;font-size:13px;letter-spacing:.01em;font-weight:500;padding:0;text-shadow:0 1px 10px rgba(0,0,0,.45);display:inline-flex;align-items:center;gap:7px;max-width:100%}
   .vto figcaption i{width:7px;height:7px;border-radius:50%;background:#2ef27a;flex:none}
   @media (min-width:761px){
     .vto{padding:128px 0 140px}
     .vto .hd{grid-template-columns:1.1fr 1fr;align-items:end;column-gap:64px;margin-bottom:56px}
     .vto .hd .k,.vto .hd h2{grid-column:1}.vto .hd p{grid-column:2;grid-row:2}
-    .vto .mo{columns:3;column-gap:16px}.vto figure{margin-bottom:16px;border-radius:22px}
+    .vto .mo{columns:3;column-gap:16px}.vto figure{margin-bottom:16px;border-radius:12px}
     .vto figcaption{left:14px;bottom:14px}
   }
   @media (max-width:760px){.vto .in{padding:0 12px}.vto .hd{padding:0 4px}.vto figcaption span{font-size:10px;padding:5px 8px}}
@@ -35,12 +35,12 @@
       <p>Quel que soit ton âge, ta morphologie ou ta tenue, les mouvements s'adaptent à toi. Dans l'appli, tu choisis la silhouette qui te ressemble et tu suis les exercices avec elle. <a href="/pages/les-exercices">Voir les exercices</a></p>
     </div>
     <div class="mo">
-      <figure><img src="{{ 'vaure-squat-bande.webp' | file_url }}" width="1100" height="1173" loading="lazy" alt="Une femme fait un squat, une bande VAURE au-dessus des genoux, sur le tapis chocolat"><figcaption><span><i></i>Squat · bande</span></figcaption></figure>
-      <figure><img src="{{ 'vaure-planche-foulard.webp' | file_url }}" width="1100" height="733" loading="lazy" alt="Une femme portant un foulard tient une planche sur les avant-bras, sur le tapis chocolat VAURE"><figcaption><span><i></i>Planche · tapis</span></figcaption></figure>
-      <figure><img src="{{ 'vaure-rouleau-dos.webp' | file_url }}" width="900" height="1125" loading="lazy" alt="Une femme allongée, le rouleau VAURE sous le haut du dos, bras ouverts"><figcaption><span><i></i>Retour au calme · rouleau</span></figcaption></figure>
-      <figure><img src="{{ 'vaure-sliders-genoux.webp' | file_url }}" width="1100" height="733" loading="lazy" alt="Une femme fait des mountain climbers, les pieds sur les deux sliders VAURE"><figcaption><span><i></i>Mountain climber · sliders</span></figcaption></figure>
-      <figure><img src="{{ 'vaure-bandes.webp' | file_url }}" width="1199" height="1312" loading="lazy" alt="Les 3 bandes VAURE : légère crème, moyenne taupe, forte chocolat"><figcaption><span><i></i>Les 3 bandes</span></figcaption></figure>
-      <figure><img src="{{ 'vaure-pont-salon.webp' | file_url }}" width="1199" height="1312" loading="lazy" alt="Une femme fait un pont fessier avec la bande taupe sur le tapis chocolat VAURE" style="object-position:30% 60%"><figcaption><span><i></i>Pont fessier · bande</span></figcaption></figure>
+      <figure><img src="{{ 'vaure-squat-bande.webp' | file_url }}" width="1100" height="1173" loading="lazy" alt="Une femme fait un squat, une bande VAURE au-dessus des genoux, sur le tapis chocolat"><figcaption><span>Squat · bande</span></figcaption></figure>
+      <figure><img src="{{ 'vaure-planche-foulard.webp' | file_url }}" width="1100" height="733" loading="lazy" alt="Une femme portant un foulard tient une planche sur les avant-bras, sur le tapis chocolat VAURE"><figcaption><span>Planche · tapis</span></figcaption></figure>
+      <figure><img src="{{ 'vaure-rouleau-dos.webp' | file_url }}" width="900" height="1125" loading="lazy" alt="Une femme allongée, le rouleau VAURE sous le haut du dos, bras ouverts"><figcaption><span>Retour au calme · rouleau</span></figcaption></figure>
+      <figure><img src="{{ 'vaure-sliders-genoux.webp' | file_url }}" width="1100" height="733" loading="lazy" alt="Une femme fait des mountain climbers, les pieds sur les deux sliders VAURE"><figcaption><span>Mountain climber · sliders</span></figcaption></figure>
+      <figure><img src="{{ 'vaure-bandes.webp' | file_url }}" width="1199" height="1312" loading="lazy" alt="Les 3 bandes VAURE : légère crème, moyenne taupe, forte chocolat"><figcaption><span>Les 3 bandes</span></figcaption></figure>
+      <figure><img src="{{ 'vaure-pont-salon.webp' | file_url }}" width="1199" height="1312" loading="lazy" alt="Une femme fait un pont fessier avec la bande taupe sur le tapis chocolat VAURE" style="object-position:30% 60%"><figcaption><span>Pont fessier · bande</span></figcaption></figure>
     </div>
   </div>
 </section>

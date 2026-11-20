@@ -660,3 +660,14 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
   - bandeau défilant de réassurance ;
   - section « 3 étapes. 15 minutes. ».
 - Pas d'avis, pas de compteur de clients : ce serait faux.
+
+## Moins « site IA / dropshipping »
+- annonce (d39d6283…) : une seule phrase fixe, plus de défilement.
+- produit (d2be7f78…) :
+  - bandeau défilant retiré ;
+  - les 3 cases « paiement sécurisé / livraison suivie » remplacées par une ligne discrète ;
+  - puces fluo remplacées par de petits tirets.
+  - Il reste du CSS .vpp-tick mort : il ne sert plus, on peut le retirer.
+- toutes (9fb63ecf…) : légendes de la mosaïque en texte simple, sans pastille ni point vert ; coins moins arrondis.
+- cta (f0727770…) : le bloc « −95 % » (sport) est masqué et le constat .pain (25–35 € la séance) est réaffiché ; tirets au lieu des points verts.
+- Produit renommé « Le kit VAURE » (au lieu de « Kit Pilates VAURE – Le studio à la maison »). Handle inchangé : kit-pilates-vaure.

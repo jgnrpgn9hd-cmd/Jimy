@@ -23,7 +23,7 @@
   .vpp-lead{color:var(--muted);font-size:17px;max-width:46ch}
   .vpp-ticks{list-style:none;padding:0;margin:22px 0 24px;display:grid;grid-template-columns:1fr 1fr;gap:10px 18px}
   .vpp-ticks li{display:flex;gap:9px;align-items:center;font-size:14px;font-weight:600}
-  .vpp-ticks li::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--fluo);box-shadow:0 0 0 4px rgba(46,242,122,.22)}
+  .vpp-ticks li::before{content:"";flex:none;width:12px;height:2px;background:var(--ink)}
   .vpp-tick{overflow:hidden;background:var(--ink);color:#fbf7f2;font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}
   .vpp-tick>div{display:flex;width:max-content;animation:vppt 28s linear infinite}
   .vpp-tick span{padding:14px 22px;white-space:nowrap;display:inline-flex;align-items:center;gap:22px}
@@ -44,6 +44,7 @@
   .vpp-btn:hover{box-shadow:0 12px 34px rgba(46,242,122,.4)}
   .vpp-btn:active{transform:scale(.97)}
   .vpp-btn[disabled]{background:var(--cream);color:var(--muted);cursor:default;box-shadow:none}
+  .vpp-note{margin-top:14px;font-size:13px;color:var(--muted)}
   .vpp-trust{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}
   .vpp-trust div{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:12px 14px;font-size:13px;color:var(--muted)}
   .vpp-trust b{display:block;color:var(--ink);font-size:14px}
@@ -131,16 +132,11 @@
       {%- else -%}
         <div class="vpp-buy"><a class="vpp-btn" href="/#vp-attente">Bientôt disponible · Me prévenir</a></div>
       {%- endif -%}
-      <div class="vpp-trust">
-        <div><b>Retours 30 jours</b>Si le kit ne te convient pas</div>
-        <div><b>Paiement sécurisé</b>Paiement chiffré, sans frais cachés</div>
-        <div><b>Livraison suivie</b>Numéro de suivi par e-mail</div>
-      </div>
+      <p class="vpp-note">Retours sous 30 jours. Livraison suivie, numéro envoyé par e-mail.</p>
       {%- if product.description != blank -%}<div class="vpp-desc">{{ product.description }}</div>{%- endif -%}
     </div>
   </div>
 
-  <div class="vpp-tick" aria-hidden="true"><div>{%- for i in (1..2) -%}<span>8 pièces assorties</span><span>Défi 30 jours guidé</span><span>15 min par jour</span><span>Retours 30 jours</span><span>Paiement sécurisé</span>{%- endfor -%}</div></div>
 
   <section class="vpp-sec">
     <div class="in">
