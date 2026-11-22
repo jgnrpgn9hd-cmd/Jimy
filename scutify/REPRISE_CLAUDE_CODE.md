@@ -747,3 +747,4 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
   - Toucher à droite ou à gauche pour avancer ou reculer ; pause pendant le glissé ; aucun mouvement si l'animation est réduite.
 - Correction ordinateur : les boutons de la FAQ prennent toute la largeur de la grille.
 - Relecture ordinateur de chaque bloc : rien d'autre à signaler.
+- produit (e0616908…) : titres h1/h2 en Barlow Condensed majuscules, comme sur l'accueil.
