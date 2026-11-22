@@ -759,3 +759,13 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 ## Titres qui ne disaient rien
 - Coffret : « Pièce par pièce. Même chocolat, même crème. » → « Pièce par pièce. À quoi sert chacune. » + légendes réécrites pour dire l'usage de chaque pièce.
 - Mosaïque : « Toutes différentes. Même kit. » → « Pour tous les corps. Chaque mouvement s'adapte. »
+
+## Nettoyage des restes « bijoux » + réglages globaux du thème (thème 199816577406)
+- snippets/vaure-extras.liquid : « Retirer ce bijou » → « Retirer cet article » ; version imprimable « VAURE – le Pilates à la maison » ;
+  le message après inscription n'annonce plus le code VAURE10 (code réservé aux bijoux) → « C'est noté : tu seras prévenue en premier du lancement » ;
+  messages au tutoiement ; bouton mode sombre retiré ; or #B08D57 → chocolat ; boutons flottants remontés quand la barre d'achat est visible ;
+  sur l'accueil, le bandeau d'annonce du thème est masqué (on garde celui du lancement).
+- snippets/vaure-theme-init.liquid : plus de mode sombre automatique (cassait les sections claires) ; titres du thème en Fraunces.
+- config/settings_data.json : boutons principaux chocolat (plus de vert fluo) dans panier/contact/pages, angles 4–6 px, titres produits et boutons sans majuscules.
+- sections/header-group.json : « Programme vidéo de 30 jours inclus » (faux : pas de vidéo) → « Le défi 30 jours guidé, inclus avec le kit ».
+- Restent dans le thème mais NON affichés (aucun render) : vaure-popup (−10 % bijoux), vaure-black-friday (bijoux). À supprimer un jour.
