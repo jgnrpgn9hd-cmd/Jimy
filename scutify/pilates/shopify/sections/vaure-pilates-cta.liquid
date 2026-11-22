@@ -39,6 +39,21 @@
   /* Bloc de réassurance en double avant l'inscription */
   .vp .promises{display:none!important}
   .vp .wait .wperks li{display:block}.vp .wait .wperks li::before{display:inline-block;vertical-align:middle;margin-right:8px}
+  .vp .faq .vnext{grid-column:1/-1}
+  /* « Pièce par pièce » en stories (téléphone) : barres de progression, défilement auto, toucher pour avancer */
+  .vst-bars{display:none}
+  @media (max-width:900px){
+    .vc-pc .rw{scroll-behavior:smooth}
+    .vc-pc .vnext{padding:0 16px}
+    .vc-pc figure{flex:0 0 84%!important}
+    .vc-pc .ph{aspect-ratio:4/5;border-radius:18px}
+    .vst-bars{display:flex;gap:4px;padding:0 16px 12px}
+    .vst-bars i{flex:1;height:3px;border-radius:3px;background:rgba(43,23,16,.15);overflow:hidden;position:relative}
+    .vst-bars i b{position:absolute;inset:0;background:#2b1710;transform-origin:left;transform:scaleX(0)}
+    .vst-bars i.done b{transform:none}
+    .vst-bars i.on b{animation:vstp var(--d,3.6s) linear forwards}
+    @keyframes vstp{to{transform:none}}
+  }
 </style>
 <div class="vcta" id="vcta" aria-hidden="true">
   <div class="t"><b>Le kit VAURE · 39,90 €</b><span>8 pièces + le défi 30 jours guidé</span></div>
@@ -125,6 +140,28 @@
     d.innerHTML=a[1].map(function(l){return '<a class="'+(l.s?'s':'p')+'" href="'+l.href+'">'+l.t+'</a>';}).join('');box.appendChild(d);});
   /* la citation du fondateur a déjà son lien « Lire l'histoire » : on le retire pour ne pas doubler */
   var w=document.querySelector('.vfo .who a');if(w)w.remove();
+})();
+</script>
+<script>
+/* Stories façon Instagram pour « Pièce par pièce », uniquement sur téléphone */
+(function(){
+  if(innerWidth>900)return;var rw=document.querySelector('.vc-pc .rw');if(!rw)return;
+  var figs=[].slice.call(rw.children);if(figs.length<2)return;
+  var RM=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches,D=3600;
+  var bars=document.createElement('div');bars.className='vst-bars';bars.setAttribute('aria-hidden','true');
+  bars.innerHTML=figs.map(function(){return '<i><b></b></i>';}).join('');rw.parentNode.insertBefore(bars,rw);
+  var B=[].slice.call(bars.children),cur=0,timer=null,vis=false,paused=false;
+  function mark(i){B.forEach(function(b,k){b.classList.toggle('done',k<i);b.classList.remove('on');});void bars.offsetWidth;if(!RM&&vis&&!paused){B[i].style.setProperty('--d',D+'ms');B[i].classList.add('on');}else B[i].classList.add('done');}
+  function go(i,scroll){cur=(i+figs.length)%figs.length;if(scroll)rw.scrollTo({left:figs[cur].offsetLeft-16,behavior:'smooth'});mark(cur);clearTimeout(timer);
+    if(!RM&&vis&&!paused)timer=setTimeout(function(){go(cur+1,true);},D);}
+  /* toucher à droite = suivante, à gauche = précédente */
+  rw.addEventListener('click',function(e){var r=rw.getBoundingClientRect();go(cur+((e.clientX-r.left)>r.width*.35?1:-1),true);});
+  /* glisser au doigt : on suit la carte la plus visible et on met en pause */
+  var st=null;rw.addEventListener('scroll',function(){clearTimeout(st);st=setTimeout(function(){var x=rw.scrollLeft+16,best=0,dm=1e9;figs.forEach(function(f,k){var d=Math.abs(f.offsetLeft-x);if(d<dm){dm=d;best=k;}});if(best!==cur){cur=best;mark(cur);}},120);},{passive:true});
+  rw.addEventListener('touchstart',function(){paused=true;clearTimeout(timer);mark(cur);},{passive:true});
+  rw.addEventListener('touchend',function(){paused=false;go(cur,false);},{passive:true});
+  if(window.IntersectionObserver)new IntersectionObserver(function(es){vis=es[0].isIntersecting;if(vis)go(cur,false);else{clearTimeout(timer);mark(cur);}},{threshold:.6}).observe(rw);
+  mark(0);
 })();
 </script>
 

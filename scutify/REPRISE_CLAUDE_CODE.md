@@ -740,3 +740,10 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
   - dégradé sous les légendes de la mosaïque ;
   - .promises masqué (réassurance en double, avec « paiement sécurisé ») ;
   - mise en page des assurances de la liste d'attente corrigée.
+
+## Inspiration réseaux sociaux
+- cta (55178f0f…) : « Pièce par pièce » en stories façon Instagram sur téléphone (≤ 900 px).
+  - Cartes à 84 % de largeur, barres de progression en haut, passage automatique toutes les 3,6 s quand la section est visible.
+  - Toucher à droite ou à gauche pour avancer ou reculer ; pause pendant le glissé ; aucun mouvement si l'animation est réduite.
+- Correction ordinateur : les boutons de la FAQ prennent toute la largeur de la grille.
+- Relecture ordinateur de chaque bloc : rien d'autre à signaler.
