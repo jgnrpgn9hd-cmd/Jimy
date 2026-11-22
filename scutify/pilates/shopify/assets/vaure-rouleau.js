@@ -91,7 +91,8 @@ const PH={
   pont:['vaure-pont-salon.webp','50% 62%',.9],
   squat:['vaure-squat-bande.webp','50% 40%',.9],
   planche:['vaure-planche-foulard.webp','45% 55%',1.5],
-  rouleau:['vaure-rouleau-dos.webp','40% 60%',.8]
+  rouleau:['vaure-rouleau-dos.webp','40% 60%',.8],
+  cercle:['vaure-ex-cercle.webp','45% 55%',1.5]
 };
 const app=document.getElementById('app'),svg=app&&app.querySelector('svg.scene');if(!svg)return;
 const st=document.createElement('style');

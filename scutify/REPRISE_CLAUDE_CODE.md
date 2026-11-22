@@ -716,3 +716,10 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
   - la version de l'exercice ;
   - les jours qui correspondent à l'objectif (8–14 gainage, 15–21 bas du corps).
 - Mention de sécurité incluse. Testé avec Playwright, aucune erreur.
+
+## Photos d'exercices générées (Canva)
+- Règle de l'outil : le prompt doit être écrit par l'utilisateur, mot pour mot. Jairo copie-colle donc le prompt, puis je génère.
+- Le connecteur ne renvoie qu'une miniature de 200 px (l'original fait 2496×1664). Jairo télécharge depuis Canva et m'envoie le fichier ou une capture.
+- Cercle : media Canva MAHboCBmNcE. Recadré depuis sa capture : photos_site/vaure-ex-cercle.webp (1090×722).
+- Branché dans PH (cercle) dans photos_exercices.js, index.html et assets/vaure-rouleau.js (3fee58d0…).
+- Jairo doit téléverser vaure-ex-cercle.webp dans Shopify Fichiers.
