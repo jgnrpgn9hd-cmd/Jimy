@@ -731,3 +731,12 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
   - Liste d'attente, titre identitaire : « Deviens celle qui tient son rendez-vous. »
   - Le test de niveau reçoit l'id #vp-niveau.
 - Idée unique de la marque : la régularité. 15 minutes par jour, chez toi.
+
+## Relecture de l'accueil complet (maquette locale de toutes les sections, Playwright)
+- theme_screenshot et la vitrine sont inaccessibles d'ici : connecteur sans permission, proxy en 403.
+- cta (52bf18ea…) :
+  - une seule typo de titres : Barlow Condensed en majuscules, appliquée aussi à offre, séance, niveau et « pièce par pièce » ;
+  - l'italique du hero passe en chocolat (le fluo sur crème se lisait mal) ;
+  - dégradé sous les légendes de la mosaïque ;
+  - .promises masqué (réassurance en double, avec « paiement sécurisé ») ;
+  - mise en page des assurances de la liste d'attente corrigée.
