@@ -723,3 +723,11 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Cercle : media Canva MAHboCBmNcE. Recadré depuis sa capture : photos_site/vaure-ex-cercle.webp (1090×722).
 - Branché dans PH (cercle) dans photos_exercices.js, index.html et assets/vaure-rouleau.js (3fee58d0…).
 - Jairo doit téléverser vaure-ex-cercle.webp dans Shopify Fichiers.
+
+## Clarté / identité / conversion (principe Apple, Nike, Coca-Cola)
+- cta (86af0707…) :
+  - chaque bloc se termine par une action (.vnext) : constat → « Découvrir le kit » ; pièces → « Voir le kit et son prix » ; défi → bouton principal + « Commencer le jour 1 » ; mosaïque → « Trouver mon niveau » ; fondateur → bouton principal + « Lire l'histoire » ; FAQ → bouton principal + « Poser une autre question ».
+  - Bouton principal : « Être prévenue du lancement » tant que le produit n'est pas disponible, puis « Je veux le kit · prix » automatiquement (all_products['kit-pilates-vaure']).
+  - Liste d'attente, titre identitaire : « Deviens celle qui tient son rendez-vous. »
+  - Le test de niveau reçoit l'id #vp-niveau.
+- Idée unique de la marque : la régularité. 15 minutes par jour, chez toi.

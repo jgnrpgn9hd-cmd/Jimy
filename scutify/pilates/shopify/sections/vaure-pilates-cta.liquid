@@ -22,6 +22,13 @@
   .vp .compare{display:none!important}                          /* tableau comparatif : doublon du constat */
   .vc>.in{display:none!important}.vc .vc-pc{margin-top:0}       /* coffret : la photo du kit est déjà dans l'ouverture */
   .vc .vc-pc h3{font-size:clamp(30px,3.6vw,48px);margin-bottom:28px}
+  /* Chaque bloc se termine par une action */
+  .vnext{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;margin-top:36px}
+  .vnext a.p{display:inline-flex;align-items:center;gap:10px;padding:15px 24px;border-radius:999px;font-weight:600;font-size:15px;text-decoration:none;background:#2b1710;color:#fbf7f2;font-family:'Inter',system-ui,sans-serif;transition:transform .1s ease-out}
+  .vnext a.p:active{transform:scale(.97)}
+  .vnext a.s{font-size:15px;font-weight:600;color:inherit;text-underline-offset:4px;font-family:'Inter',system-ui,sans-serif}
+  .vnext.dk a.p{background:#2ef27a;color:#2b1710}
+  .vnext.ct{justify-content:center}
 </style>
 <div class="vcta" id="vcta" aria-hidden="true">
   <div class="t"><b>Le kit VAURE · 39,90 €</b><span>8 pièces + le défi 30 jours guidé</span></div>
@@ -42,6 +49,9 @@
 (function(){var w=document.getElementById('vp-attente');if(!w||w.dataset.vx)return;w.dataset.vx=1;var inr=w.querySelector('.in')||w;
   var k=inr.querySelector('.kicker');
   if(k){k.textContent='Bientôt disponible · 39,90 €';}
+  /* Nike : on vend une identité, pas des accessoires */
+  var h=inr.querySelector('h2');if(h)h.innerHTML='Deviens celle qui <em>tient son rendez-vous.</em>';
+  var sb=inr.querySelector('p.sub');if(sb)sb.textContent='15 minutes par jour, chez toi. Laisse ton e-mail : tu seras prévenue en premier du lancement du kit VAURE.';
   var ul=document.createElement('ul');ul.className='wperks';
   ul.innerHTML='<li>Prévenue en premier, le jour du lancement</li><li><a href="/pages/les-exercices">Les exercices guidés</a> déjà accessibles, gratuitement</li><li>Désinscription en un clic</li>';
   var f=inr.querySelector('form');(f||inr).insertAdjacentElement(f?'afterend':'beforeend',ul);
@@ -82,6 +92,29 @@
         requestAnimationFrame(st);});},{threshold:.4});
     io.observe(nums[0].closest('ul'));
   }
+})();
+</script>
+<script>
+/* Coca-Cola : chaque bloc finit par une action. Le bouton suit l'état du produit (liste d'attente puis achat). */
+(function(){
+  {%- assign kit = all_products['kit-pilates-vaure'] -%}
+  {%- capture bt -%}Je veux le kit · {{ kit.price | money }}{%- endcapture -%}
+  var BUY={% if kit and kit.available %}{href:{{ kit.url | json }},t:{{ bt | json }}}{% else %}null{% endif %};
+  var MAIN=BUY||{href:'#vp-attente',t:'Être prévenue du lancement'};
+  var nv=document.querySelector('.vnv');if(nv&&!nv.id)nv.id='vp-niveau';
+  var A=[
+    ['.vp .pain .in',[{href:'#vp-offre',t:'Découvrir le kit · 39,90 €'}],false,false],
+    ['.vc-pc',[{href:'#vp-offre',t:'Voir le kit et son prix'}],false,false],
+    ['.vp .prog .in',[MAIN,{href:'/pages/les-exercices',t:'Commencer le jour 1',s:1}],true,false],
+    ['.vto .in',[{href:'#vp-niveau',t:'Trouver mon niveau'},{href:'/pages/les-exercices',t:'Essayer le jour 1',s:1}],false,false],
+    ['.vfo .in',[MAIN,{href:'/pages/notre-histoire',t:'Lire l\'histoire',s:1}],true,false],
+    ['.vp .faq .in',[MAIN,{href:'/pages/nous-contacter',t:'Poser une autre question',s:1}],false,true]
+  ];
+  A.forEach(function(a){var box=document.querySelector(a[0]);if(!box||box.querySelector('.vnext'))return;
+    var d=document.createElement('div');d.className='vnext'+(a[2]?' dk':'')+(a[3]?' ct':'');
+    d.innerHTML=a[1].map(function(l){return '<a class="'+(l.s?'s':'p')+'" href="'+l.href+'">'+l.t+'</a>';}).join('');box.appendChild(d);});
+  /* la citation du fondateur a déjà son lien « Lire l'histoire » : on le retire pour ne pas doubler */
+  var w=document.querySelector('.vfo .who a');if(w)w.remove();
 })();
 </script>
 
