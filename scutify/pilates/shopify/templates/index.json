@@ -45,6 +45,10 @@
     "vaure_annonce": {
       "type": "vaure-pilates-annonce",
       "settings": {}
+    },
+    "vaure_seance": {
+      "type": "vaure-pilates-seance",
+      "settings": {}
     }
   },
   "order": [
@@ -54,6 +58,7 @@
     "vaure_film",
     "vaure_toutes",
     "vaure_appli",
+    "vaure_seance",
     "vaure_sport",
     "vaure_pilates",
     "vaure_retouches",

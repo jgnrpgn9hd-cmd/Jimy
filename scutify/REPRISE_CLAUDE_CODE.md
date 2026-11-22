@@ -678,3 +678,9 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Correction au passage : « programme vidéo » devient « exercices guidés » (ce sont des animations, pas des vidéos).
 - Menu vaure-pilates : ajout de « Pourquoi VAURE » entre « Les exercices » et « FAQ ». Les menus sont communs à tous les thèmes : c'est donc visible tout de suite sur le site en ligne.
 - Détails validés par le fondateur (réponse « Voilà c bien » à l'exemple proposé) : muscu depuis des années ; Pilates découvert en cherchant un sport complet à faire chez soi.
+
+## Site plus concret : « Une séance, minute par minute »
+- sections/vaure-pilates-seance.liquid (54e2e167…), placée après vaure_appli dans index.json (819faf13…).
+- Onglets Jour 1 / 10 / 18 / 25. Les données viennent de buildDay() dans l'appli : exercices, matériel, nombre de tours, temps d'effort.
+- 12 min 30 d'effort, 14 min en tout avec les préparations.
+- À faire si Jairo fournit les infos du fournisseur : fiche technique avec dimensions et matières (tapis, cercle, ballon, bandes, brique, sliders, rouleau).
