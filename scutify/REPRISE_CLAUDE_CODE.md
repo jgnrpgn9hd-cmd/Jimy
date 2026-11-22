@@ -755,3 +755,7 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Angles doux 6px partout (photos, cartes, quiz, FAQ). Repères/puces chocolat au lieu du fluo (appli, défi, film).
 - Fiche produit : ticker retiré, puces en 2 colonnes, prix dans le bouton, bloc « 3 étapes. 15 minutes. », ligne de note sobre à la place des encadrés.
 - Fichiers : sections/vaure-pilates-cta.liquid (d91a7866…), sections/vaure-pilates-produit.liquid (e265e14c…) — envoyés et vérifiés sur le thème non publié 199816577406.
+
+## Titres qui ne disaient rien
+- Coffret : « Pièce par pièce. Même chocolat, même crème. » → « Pièce par pièce. À quoi sert chacune. » + légendes réécrites pour dire l'usage de chaque pièce.
+- Mosaïque : « Toutes différentes. Même kit. » → « Pour tous les corps. Chaque mouvement s'adapte. »
