@@ -50,6 +50,17 @@
   var ok=inr.querySelector('.msg.good');if(ok)ok.insertAdjacentHTML('beforeend',' En attendant, <a href="/pages/les-exercices">commence le jour 1</a>.');
 })();
 </script>
+<script>
+/* Un fil logique pour l'accueil : promesse → constat → le kit → la méthode → le défi → pour toutes → questions → inscription */
+(function(){
+  var home=document.querySelector('.vp');if(!home)return;
+  function wrapOf(sel){var e=document.querySelector(sel);return e&&(e.closest('.shopify-section')||e);}
+  function moveAfter(sel,afterSel){var el=home.querySelector(sel),ref=wrapOf(afterSel);if(!el||!ref||el.dataset.moved)return;el.dataset.moved=1;
+    var w=document.createElement('div');w.className=home.className+' vp-moved';ref.parentNode.insertBefore(w,ref.nextSibling);w.appendChild(el);}
+  moveAfter('.pain','.v3');      /* le constat, juste après la promesse */
+  moveAfter('.prog','.vse');     /* le défi 30 jours, juste après la séance type */
+})();
+</script>
 
 {% schema %}
 {

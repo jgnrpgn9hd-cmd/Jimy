@@ -684,3 +684,10 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Onglets Jour 1 / 10 / 18 / 25. Les données viennent de buildDay() dans l'appli : exercices, matériel, nombre de tours, temps d'effort.
 - 12 min 30 d'effort, 14 min en tout avec les préparations.
 - À faire si Jairo fournit les infos du fournisseur : fiche technique avec dimensions et matières (tapis, cercle, ballon, bandes, brique, sliders, rouleau).
+
+## Accueil avec un fil logique
+- Ordre : annonce → ouverture (promesse) → constat (prix et horaires du studio) → pièce par pièce (le kit) → appli → film → séance type → défi 30 jours → mosaïque « pour toutes » → FAQ → liste d'attente.
+- index.json (3255f30c…) : appli placée avant film.
+- cta (bcca65e6…) : un script déplace .pain juste après .v3, et .prog juste après .vse.
+  - Chaque bloc est enveloppé dans un div qui reprend les classes de .vp (dont vp-js), pour garder les styles.
+  - Testé sur une maquette (Playwright).
