@@ -1,3 +1,5 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&display=swap">
 <style>
   .vcta{position:fixed;left:50%;bottom:16px;z-index:60;transform:translate(-50%,140%);transition:transform .45s cubic-bezier(.2,.9,.25,1);width:min(560px,calc(100% - 24px));
     display:flex;align-items:center;gap:14px;padding:10px 10px 10px 18px;border-radius:999px;background:rgba(43,23,16,.94);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
@@ -54,6 +56,46 @@
     .vst-bars i.on b{animation:vstp var(--d,3.6s) linear forwards}
     @keyframes vstp{to{transform:none}}
   }
+  /* ===== Direction premium : titres serif élégants, boutons chocolat sobres, angles doux, fluo retiré ===== */
+  html body .v3-b h1,html body .v3-b h2,html body .vc h2,html body .vp h2,html body .vof h2,html body .vse h2,html body .vnv h2,html body .vc .vc-pc h3,html body .vto h2,html body .vap h2,html body .vsp h2{
+    font-family:'Fraunces','Outfit',Georgia,serif!important;font-weight:400!important;text-transform:none!important;letter-spacing:-.025em!important;line-height:1.02!important;font-variation-settings:'opsz' 96}
+  html body .v3-b h1,html body .v3-b h2{font-size:clamp(46px,6.2vw,92px)!important}
+  html body .vc h2,html body .vp h2,html body .vof h2,html body .vse h2,html body .vnv h2,html body .vto h2,html body .vap h2{font-size:clamp(38px,4.8vw,68px)!important}
+  html body .vc .vc-pc h3{font-size:clamp(32px,3.8vw,52px)!important}
+  html body .v3-b h1 em,html body .v3-b h2 em,html body .vc h2 em,html body .vp h2 em,html body .vp h2 .f,html body .vof h2 em,html body .vse h2 em,html body .vnv h2 em,html body .vc-pc h3 em,html body .vto h2 em,html body .vap h2 em{
+    font-style:italic!important;font-weight:300!important;color:#7a4a35!important}
+  html body .vp .prog h2 em,html body .vp .prog h2 .f,html body .vp .wait h2 em,html body .vap h2 em{color:#d9c6b5!important}
+  .vfo blockquote{font-family:'Fraunces','Outfit',Georgia,serif!important;font-weight:300!important;font-style:italic}
+  .vfo blockquote b{font-style:normal;font-weight:500!important}
+  /* Boutons : chocolat plein, angles légers, pas de lueur */
+  .v3-btn,.vc-btn,.vnext a.p,.vof .cta,.vse .go,.vnv .res a.p,.vp .btn,.vap .btn,.vf-end a,.vcta a{
+    background:#2b1710!important;color:#fbf7f2!important;border-radius:4px!important;box-shadow:none!important;font-weight:600!important;letter-spacing:.02em}
+  .vp .prog .vnext a.p,.vfo .vnext a.p,.vp .wait .btn,.vap .btn,.vf-end a,.vcta a{background:#f4ece2!important;color:#2b1710!important}
+  .vnv .res a.s{border-radius:4px!important}
+  .vp .wait .field{border-radius:6px!important}
+  .vp .wait .field .btn{border-radius:4px!important}
+  /* Barre collante : plus discrète */
+  .vcta{border-radius:8px!important;padding:8px 8px 8px 16px!important}
+  /* Angles doux partout (fini les grosses bulles) */
+  .v3-ph,.vof .ph,.vse .card,.vnv .card,.vto figure,.vc-pc .ph,.vnv .opts button,.vp .faq details,.vp .safe{border-radius:6px!important}
+  .vse .tabs button{border-radius:4px!important}
+  /* Repères et puces : chocolat au lieu du fluo */
+  .vof .k::before,.vse .k::before,.vnv .k::before,.vto .k::before,.v3-b .k::before,.vp .kicker::before{background:#552b1d!important}
+  .vp .prog .kicker::before,.vp .wait .kicker::before,.vap .k::before{background:#c4a284!important}
+  .v3-tag i{display:none}
+  .vse .bar i[style*="2ef27a"]{background:#c4a284!important}
+  .vse li i[style*="2ef27a"]{background:#c4a284!important}
+  .vp .pain .fact.good .n span{background:none!important;box-shadow:inset 0 -3px 0 #552b1d}
+  /* Fin des traces sportives fluo : appli, défi, film (sauf l'écran de l'appli, qui reste l'appli) */
+  html body .vap .k{color:#c4a284!important}
+  html body .vap li b{color:#c4a284!important}
+  html body .vap li h3{font-family:'Fraunces','Outfit',Georgia,serif!important;font-weight:400!important;text-transform:none!important;font-size:24px!important;line-height:1.1!important;letter-spacing:-.01em}
+  html body .vap .try{background:#f4ece2!important;color:#2b1710!important}
+  html body .vp .timeline .bar{background:#c4a284!important}
+  html body .vp .step::before{border-color:#c4a284!important}
+  html body .vp .step .d{color:#c4a284!important}
+  html body .vp .prog .kicker{color:#d9c6b5!important}
+  html body .vf-end p{font-family:'Fraunces','Outfit',Georgia,serif!important;font-weight:400!important;text-transform:none!important;letter-spacing:-.02em}
 </style>
 <div class="vcta" id="vcta" aria-hidden="true">
   <div class="t"><b>Le kit VAURE · 39,90 €</b><span>8 pièces + le défi 30 jours guidé</span></div>

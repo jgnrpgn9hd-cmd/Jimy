@@ -748,3 +748,10 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - Correction ordinateur : les boutons de la FAQ prennent toute la largeur de la grille.
 - Relecture ordinateur de chaque bloc : rien d'autre à signaler.
 - produit (e0616908…) : titres h1/h2 en Barlow Condensed majuscules, comme sur l'accueil.
+
+## Direction premium (« ça fait boutique à 17 € »)
+- Titres en serif Fraunces (poids 400, italique em #7a4a35 ; #d9c6b5 sur fonds sombres) sur tout l'accueil et la fiche produit.
+- Boutons chocolat pleins, angles 4px, plus de lueur fluo ; crème sur les sections sombres. Barre collante plus discrète (8px).
+- Angles doux 6px partout (photos, cartes, quiz, FAQ). Repères/puces chocolat au lieu du fluo (appli, défi, film).
+- Fiche produit : ticker retiré, puces en 2 colonnes, prix dans le bouton, bloc « 3 étapes. 15 minutes. », ligne de note sobre à la place des encadrés.
+- Fichiers : sections/vaure-pilates-cta.liquid (d91a7866…), sections/vaure-pilates-produit.liquid (e265e14c…) — envoyés et vérifiés sur le thème non publié 199816577406.
