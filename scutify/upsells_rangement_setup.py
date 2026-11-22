@@ -1,0 +1,20 @@
+# 2e produits (upsell, > 50 € autorisé), proposés après le produit principal.
+# (nom, se vend avec, problème, preuve prix France, lien Alibaba, prix fournisseur $, coût €, revente €, note)
+U = [('Pack « zéro câble » : plateau range-câbles + gaine + boîte cache-multiprise',
+  'Range-câbles, gaine, cache-multiprise',
+  "On veut faire disparaître tous les câbles du bureau d'un coup.",
+  'Prix séparés : 24,90 + 22,90 + 26,90 = 74,70 €.',
+  'https://www.alibaba.com/product-detail/No-Drill-Wire-Mesh-Trays-Under_1601281002565.html',
+  10.24,
+  8.54,
+  54.9,
+  'Range-câbles (2,37 €) + gaine (1,87 €) + cache-multiprise (4,30 €). Marge 46,36 €.'),
+ ('Pack « bureau rangé » : pegboard + tiroir caché + support casque + support vertical',
+  'Pegboard, tiroir, support casque, support vertical',
+  'On veut libérer tout le bureau et tout ranger à la verticale.',
+  'Prix séparés : 39,90 + 22,90 + 22,90 + 22,90 = 108,60 €.',
+  'https://www.alibaba.com/product-detail/Clamp-on-Desk-Metal-Pegboard-Organizer_1600980196791.html',
+  14.84,
+  12.77,
+  74.9,
+  'Pegboard (8,60 €) + tiroir (1,72 €) + support casque (1,50 €) + support vertical (0,95 €). Marge 62,13 €.')]

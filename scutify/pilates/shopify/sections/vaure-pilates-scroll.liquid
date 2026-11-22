@@ -1,0 +1,192 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+  .vs{--navy:#552b1d;--fluo:#2ef27a;--ink:#2b1710;--sub:#7a5a48;position:relative;font-family:'Inter',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+  .vs *{box-sizing:border-box}
+  .vs-pin{position:relative;height:100vh;height:100svh;min-height:560px;width:100%;overflow:hidden;background:#552b1d;color:#fff}
+  .vs-word{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+  .vs-word span{grid-area:1/1;font-family:'Outfit',sans-serif;font-weight:700;font-size:clamp(72px,17vw,250px);letter-spacing:.01em;line-height:1;white-space:nowrap;will-change:opacity,transform}
+  .vs-word .w1{color:rgba(85,43,29,.13);opacity:0}
+  .vs-word .w2{color:rgba(244,236,226,.09)}
+  .vs-fig{position:absolute;left:50%;top:46%;width:min(66vw,820px);transform:translate(-50%,-50%);overflow:visible}
+  .vs-fig line{stroke-linecap:round;stroke-width:15}
+  .vs-lines{position:absolute;left:6vw;bottom:15vh;width:min(36ch,40vw)}
+  .vs-b{position:absolute;left:0;bottom:0;width:100%;will-change:opacity,transform}
+  .vs-b .k{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--fluo);display:flex;align-items:center;gap:10px}
+  .vs-b .k::before{content:"";width:22px;height:2px;background:currentColor}
+  .vs-b h2{font-family:'Outfit',sans-serif;font-weight:600;font-size:clamp(28px,3.3vw,46px);line-height:1.04;letter-spacing:-.02em;margin:14px 0 10px;color:var(--ink)}
+  .vs-b p{margin:0;font-size:16px;line-height:1.55;color:var(--sub)}
+  .vs-btn{display:inline-flex;align-items:center;gap:10px;margin-top:22px;background:var(--fluo);color:var(--navy);font-weight:600;font-size:15px;padding:15px 24px;border-radius:999px;text-decoration:none}
+  .vs-btn small{display:block}
+  .vs-day{position:absolute;right:6vw;bottom:15vh;text-align:right;color:var(--sub);font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600}
+  .vs-day b{display:block;font-family:'Outfit',sans-serif;font-size:clamp(40px,4.5vw,64px);letter-spacing:-.03em;color:var(--ink);line-height:1;margin-bottom:6px;font-variant-numeric:tabular-nums}
+  .vs-day .tr{display:block;width:140px;height:2px;margin:14px 0 0 auto;background:rgba(127,140,156,.3);overflow:hidden}
+  .vs-day .tr i{display:block;height:100%;background:var(--fluo);transform-origin:left;transform:scaleX(1)}
+  .vs-hint{position:absolute;left:50%;bottom:26px;transform:translateX(-50%);font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--sub);opacity:0;display:flex;flex-direction:column;align-items:center;gap:8px}
+  .vs-hint::after{content:"";width:1px;height:28px;background:currentColor;animation:vsDrop 1.6s ease-in-out infinite}
+  @keyframes vsDrop{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+  /* Sans JS ou mouvement réduit : version fixe, pose finale, tous les textes */
+  .vs:not(.on) .vs-pin{height:auto;min-height:0;padding:70px 20px 80px}
+  .vs:not(.on) .vs-word,.vs:not(.on) .vs-day,.vs:not(.on) .vs-hint{display:none}
+  .vs:not(.on) .vs-fig{position:relative;left:auto;top:auto;transform:none;display:block;margin:0 auto 30px;width:min(80vw,420px)}
+  .vs:not(.on) .vs-lines{position:static;width:auto;max-width:640px;margin:0 auto;display:grid;gap:34px}
+  .vs:not(.on) .vs-b{position:static}
+  .vs:not(.on){--ink:#fff;--sub:#dcc7b4}
+
+  /* Animation au défilement */
+  .vs.on{height:460vh}
+  .vs.on .vs-pin{position:-webkit-sticky;position:sticky;top:0}
+  .vs.on.legacy .vs-pin{position:absolute;top:0;left:0}
+  .vs.on.legacy.fx .vs-pin{position:fixed;top:0;left:0;z-index:1}
+  .vs.on.legacy.end .vs-pin{top:auto;bottom:0}
+  .vs-btn{-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s ease-out}
+  .vs-btn:active{transform:scale(.97)}
+
+  @media (max-width:760px){
+    .vs.on{height:420vh}
+    .vs-fig{width:min(88vw,430px);top:38%}
+    .vs-lines{left:20px;right:20px;width:auto;bottom:calc(9vh + 64px)}
+    .vs-b h2{font-size:30px}
+    .vs-b p{font-size:15px}
+    .vs-day{right:auto;left:20px;bottom:5vh;text-align:left;display:flex;align-items:baseline;gap:10px}
+    .vs-day b{font-size:30px;margin:0}
+    .vs-day .tr{width:90px;margin:0 0 0 6px}
+    .vs-hint{display:none}
+  }
+</style>
+
+{%- if section.settings.hide_old_hero -%}<style>.vp .hero{display:none}</style>{%- endif -%}
+<div class="vs" id="vs-{{ section.id }}">
+  <div class="vs-pin">
+    <div class="vs-word" aria-hidden="true"><span class="w1">INACTIVE</span><span class="w2">ACTIVE</span></div>
+
+    <svg class="vs-fig" viewBox="-160 -190 360 225" aria-hidden="true">
+      <defs>
+        <radialGradient id="vsg-{{ section.id }}"><stop offset="0" stop-color="#2ef27a" stop-opacity=".3"/><stop offset="1" stop-color="#2ef27a" stop-opacity="0"/></radialGradient>
+      </defs>
+      <circle class="halo" cx="20" cy="-70" r="150" fill="url(#vsg-{{ section.id }})"/>
+      <line class="floor" x1="-150" y1="12" x2="190" y2="12" stroke="#ffffff" stroke-opacity=".18" style="stroke-width:2"/>
+      <line class="thigh" x1="0" y1="0" x2="66.98" y2="-52.33" stroke="#ffffff"/>
+      <line class="shin" x1="66.98" y1="-52.33" x2="133.96" y2="-104.66" stroke="#ffffff"/>
+      <line class="torso" x1="0" y1="0" x2="-58.49" y2="-74.86" stroke="#ffffff"/>
+      <line class="arm" x1="-58.49" y1="-74.86" x2="10.85" y2="-129.04" stroke="#ffffff"/>
+      <circle class="head" cx="-76.96" cy="-98.5" r="17" fill="#2ef27a"/>
+    </svg>
+
+    <div class="vs-lines">
+      <div class="vs-b" data-a="0" data-z=".2">
+        <span class="k">Jour 1</span>
+        <h2>Assise toute la journée&nbsp;?</h2>
+        <p>Bureau, voiture, canapé… et le corps qui s'endort.</p>
+      </div>
+      <div class="vs-b" data-a=".2" data-z=".4">
+        <span class="k">Le studio</span>
+        <h2>Le Reformer en studio&nbsp;? 25 à 35 € la séance.</h2>
+        <p>Et des horaires qui ne collent jamais aux tiens.</p>
+      </div>
+      <div class="vs-b" data-a=".4" data-z=".6">
+        <span class="k">La solution</span>
+        <h2>15 minutes. Dans ton salon.</h2>
+        <p>Un tapis, 7 accessoires assortis. Tout le studio.</p>
+      </div>
+      <div class="vs-b" data-a=".6" data-z=".8">
+        <span class="k">Le programme</span>
+        <h2>Une nouvelle séance chaque semaine.</h2>
+        <p>Le défi 30 jours pour démarrer, puis on continue ensemble.</p>
+      </div>
+      <div class="vs-b" data-a=".8" data-z="1">
+        <span class="k">Jour 30</span>
+        <h2>Prête pour le défi&nbsp;?</h2>
+        <p>Lancement très bientôt. Inscris-toi pour être prévenue en premier.</p>
+        <a class="vs-btn" href="#vp-attente">Rejoindre la liste d'attente
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+      </div>
+    </div>
+
+    <div class="vs-day" aria-hidden="true"><b>01</b>Jour / 30<span class="tr"><i></i></span></div>
+    <div class="vs-hint" aria-hidden="true">Fais défiler</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var vs=document.getElementById('vs-{{ section.id }}');
+  if(!vs||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches))return;
+  vs.classList.add('on');
+  var pin=vs.querySelector('.vs-pin'),q=function(s){return vs.querySelector(s)};
+  var w1=q('.w1'),w2=q('.w2'),halo=q('.halo'),floor=q('.floor'),head=q('.head'),
+      thigh=q('.thigh'),shin=q('.shin'),torso=q('.torso'),arm=q('.arm'),
+      day=q('.vs-day b'),bar=q('.vs-day i'),hint=q('.vs-hint'),bs=[].slice.call(vs.querySelectorAll('.vs-b'));
+  var c=function(x){return x<0?0:x>1?1:x}, ss=function(x){x=c(x);return x*x*(3-2*x)};
+  var mix=function(a,b,t){return 'rgb('+a.map(function(v,i){return Math.round(v+(b[i]-v)*t)}).join(',')+')'};
+  var L=function(d){return d*Math.PI/180};
+  var A={th:52,sh:-52,to:75,ar:-55,hd:58},B={th:38,sh:38,to:128,ar:38,hd:128};
+  var GREY=[221,214,206],NAVY=[85,43,29],INK=[43,23,16],WHITE=[255,255,255],CREAM=[244,236,226],FIG=[150,136,124],FLUO=[46,242,122],SUB1=[122,90,72],SUB2=[220,199,180];
+  function seg(el,x1,y1,x2,y2){el.setAttribute('x1',x1.toFixed(2));el.setAttribute('y1',y1.toFixed(2));el.setAttribute('x2',x2.toFixed(2));el.setAttribute('y2',y2.toFixed(2))}
+  var mode='',ticking=false,legacy=false;
+  function frame(){
+    ticking=false;
+    var r=vs.getBoundingClientRect(),ph=pin.offsetHeight,total=vs.offsetHeight-ph;
+    /* le navigateur bloque l'écran lui-même (sticky) ; si le thème l'en empêche, on passe en secours */
+    if(!legacy&&r.top<-2&&r.bottom>ph+2&&Math.abs(pin.getBoundingClientRect().top)>2){legacy=true;vs.classList.add('legacy');}
+    if(legacy){var m=r.top>0?'':(r.bottom<=ph?'end':'fx');
+      if(m!==mode){vs.classList.remove('fx','end');if(m)vs.classList.add(m);mode=m;}}
+    var p=c(-r.top/total);
+
+    /* couleurs : gris terne -> bleu marine */
+    var tc=ss((p-.3)/.25);
+    pin.style.background=mix(GREY,NAVY,tc);
+    vs.style.setProperty('--ink',mix(INK,WHITE,tc));
+    vs.style.setProperty('--sub',mix(SUB1,SUB2,tc));
+
+    /* mot géant */
+    var tw=ss((p-.38)/.18);
+    w1.style.opacity=1-tw;w1.style.transform='scale('+(1+tw*.06)+')';
+    w2.style.opacity=tw;w2.style.transform='scale('+(.94+tw*.06)+')';
+
+    /* silhouette : assise voûtée -> posture du teaser (le V) */
+    var t=ss((p-.34)/.46);
+    var g=function(k){return A[k]+(B[k]-A[k])*t};
+    var kx=85*Math.cos(L(g('th'))),ky=-85*Math.sin(L(g('th')));
+    var fx=kx+85*Math.cos(L(g('sh'))),fy=ky-85*Math.sin(L(g('sh')));
+    var sx=95*Math.cos(L(g('to'))),sy=-95*Math.sin(L(g('to')));
+    seg(thigh,0,0,kx,ky);seg(shin,kx,ky,fx,fy);seg(torso,0,0,sx,sy);
+    seg(arm,sx,sy,sx+88*Math.cos(L(g('ar'))),sy-88*Math.sin(L(g('ar'))));
+    head.setAttribute('cx',(sx+30*Math.cos(L(g('hd')))).toFixed(2));head.setAttribute('cy',(sy-30*Math.sin(L(g('hd')))).toFixed(2));
+    var body=mix(FIG,CREAM,tc);[thigh,shin,torso,arm].forEach(function(e){e.setAttribute('stroke',body)});
+    head.setAttribute('fill',mix(FIG,FLUO,ss((p-.5)/.25)));
+    floor.setAttribute('stroke',mix(INK,WHITE,tc));
+    halo.style.opacity=ss((p-.55)/.25);
+    halo.style.transform='scale('+(.85+.15*ss((p-.55)/.3))+')';halo.style.transformOrigin='20px -70px';
+
+    /* textes */
+    bs.forEach(function(b,i){
+      var a=+b.dataset.a,z=+b.dataset.z,w=z-a,o;
+      var fi=i===0?1:ss((p-a)/(w*.3)), fo=i===bs.length-1?1:1-ss((p-(z-w*.3))/(w*.3));
+      o=Math.min(fi,fo);
+      b.style.opacity=o;b.style.transform='translateY('+((1-fi)*28-(1-fo)*28).toFixed(1)+'px)';
+      b.style.visibility=o<.01?'hidden':'visible';
+    });
+
+    /* compteur de jours */
+    var d=1+Math.round(29*c((p-.05)/.85));
+    day.textContent=(d<10?'0':'')+d;bar.style.transform='scaleX('+(d/30)+')';
+    hint.style.opacity=1-c(p/.05);
+  }
+  function req(){if(!ticking){ticking=true;requestAnimationFrame(frame);}}
+  addEventListener('scroll',req,{passive:true});addEventListener('resize',req);
+  document.addEventListener('touchstart',function(){},{passive:true});
+  frame();
+})();
+</script>
+
+{% schema %}
+{
+  "name": "VAURE Pilates – scroll",
+  "settings": [
+    { "type": "checkbox", "id": "hide_old_hero", "label": "Masquer l'ancien bandeau d'ouverture", "default": true }
+  ],
+  "presets": [{ "name": "VAURE Pilates – scroll" }]
+}
+{% endschema %}

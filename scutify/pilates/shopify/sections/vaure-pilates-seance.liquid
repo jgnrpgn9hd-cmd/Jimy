@@ -1,0 +1,88 @@
+<style>
+  .vse{background:#fbf7f2;color:#2b1710;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;padding:104px 0}
+  .vse .in{max-width:1100px;margin:0 auto;padding:0 24px}
+  .vse .k{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:#7a5a48;display:flex;align-items:center;gap:10px}
+  .vse .k::before{content:"";width:24px;height:2px;background:#2ef27a}
+  .vse h2{font-family:'Outfit',sans-serif;font-weight:600;font-size:clamp(32px,4.2vw,54px);line-height:1.02;letter-spacing:-.03em;margin:16px 0 12px;max-width:18ch}
+  .vse h2 em{font-style:normal;font-weight:300}
+  .vse .sub{margin:0;color:#7a5a48;font-size:17px;line-height:1.55;max-width:52ch}
+  .vse .tabs{display:flex;gap:8px;margin:36px 0 22px;overflow-x:auto;scrollbar-width:none}
+  .vse .tabs::-webkit-scrollbar{display:none}
+  .vse .tabs button{all:unset;cursor:pointer;flex:none;padding:10px 16px;border-radius:999px;border:1px solid #e2d4c4;font-size:14px;font-weight:600;color:#5a4134;-webkit-tap-highlight-color:transparent}
+  .vse .tabs button[aria-selected=true]{background:#2b1710;border-color:#2b1710;color:#fbf7f2}
+  .vse .card{background:#fff;border:1px solid #eadfd2;border-radius:20px;padding:26px}
+  .vse .head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+  .vse .head b{font-family:'Outfit',sans-serif;font-size:22px;font-weight:600}
+  .vse .head span{font-size:14px;color:#7a5a48}
+  .vse .bar{display:flex;height:10px;border-radius:99px;overflow:hidden;gap:2px;margin-bottom:22px}
+  .vse .bar i{display:block;height:100%;transform-origin:left;transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+  .vse.anim .bar i{transform:scaleX(0)}
+  .vse li{transition:opacity .5s ease,transform .5s ease}
+  .vse.anim li{opacity:0;transform:translateY(8px)}
+  .vse ol{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+  .vse li{display:grid;grid-template-columns:14px 1fr auto;gap:14px;align-items:center;padding:12px 0;border-top:1px solid #f1e8dd}
+  .vse li:first-child{border-top:0}
+  .vse li i{width:10px;height:10px;border-radius:3px}
+  .vse li b{font-weight:600;font-size:15px}
+  .vse li small{display:block;color:#7a5a48;font-size:13px;margin-top:2px}
+  .vse li em{font-style:normal;font-variant-numeric:tabular-nums;font-weight:600;font-size:14px;color:#2b1710}
+  .vse .foot{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-top:20px}
+  .vse .foot p{margin:0;font-size:13px;color:#7a5a48;max-width:52ch}
+  .vse .go{display:inline-flex;align-items:center;gap:8px;background:#2b1710;color:#fbf7f2;font-weight:600;font-size:14px;padding:13px 20px;border-radius:999px;text-decoration:none}
+  @media (max-width:760px){.vse{padding:72px 0}.vse .in{padding:0 16px}.vse .card{padding:20px}}
+</style>
+<section class="vse" aria-label="Une séance type">
+  <div class="in">
+    <span class="k">Concrètement</span>
+    <h2>Une séance, <em>minute par minute.</em></h2>
+    <p class="sub">Voici exactement ce que tu fais, selon le jour du défi. Chaque exercice se répète en plusieurs tours, avec un temps de préparation avant chacun.</p>
+    <div class="tabs" role="tablist" aria-label="Jour du défi"></div>
+    <div class="card" role="tabpanel"></div>
+  </div>
+</section>
+<script>
+(function(){
+  var root=[].slice.call(document.querySelectorAll('.vse')).pop();if(!root)return;
+  /* Séances calculées par le programme de l'appli (temps d'effort, hors préparation) */
+  var C={chauffe:'#c4a284',ex:['#552b1d','#997b63','#2ef27a','#534032'],calme:'#d9c6b5'};
+  var D=[
+    {j:1,t:'Les bases',tours:4,ex:[['Bascule du bassin','La brique',300],['Enroulé de colonne','La brique',300]]},
+    {j:10,t:'Le gainage',tours:3,ex:[['Planche','Le tapis',120],['Cercle entre les genoux','Le cercle',225],['Single leg stretch','Le tapis',225]]},
+    {j:18,t:'Le bas du corps',tours:2,ex:[['Pont fessier','La bande moyenne',150],['Clamshell','La bande légère',150],['Squat avec bande','La bande forte',150],['Fente arrière','Un slider',150]]},
+    {j:25,t:'Les enchaînements',tours:2,ex:[['Roll up','Le tapis',150],['Teaser guidé','Le petit ballon',150],['Pont fessier','La bande moyenne',150],['Single leg stretch','Le tapis',150]]}
+  ];
+  var tabs=root.querySelector('.tabs'),card=root.querySelector('.card');
+  var fmt=function(s){var m=Math.floor(s/60),r=s%60;return m+' min'+(r?' '+(r<10?'0':'')+r:'');};
+  function show(i){var d=D[i];
+    [].forEach.call(tabs.children,function(b,k){b.setAttribute('aria-selected',k===i?'true':'false');});
+    var rows=[['Échauffement','Respiration, sur le tapis',60,C.chauffe]].concat(d.ex.map(function(e,k){return [e[0],e[1]+' · '+d.tours+' tours',e[2],C.ex[k%4]];})).concat([['Retour au calme','Sur le rouleau',90,C.calme]]);
+    var tot=rows.reduce(function(s,r){return s+r[2];},0);
+    card.innerHTML='<div class="head"><b>Jour '+d.j+' · '+d.t+'</b><span>'+fmt(tot)+' d\'effort · 14 min en tout, préparations comprises</span></div>'+
+      '<div class="bar" aria-hidden="true">'+rows.map(function(r){return '<i style="flex:'+r[2]+';background:'+r[3]+'"></i>';}).join('')+'</div>'+
+      '<ol>'+rows.map(function(r){return '<li><i style="background:'+r[3]+'"></i><div><b>'+r[0]+'</b><small>'+r[1]+'</small></div><em data-s="'+r[2]+'">'+fmt(r[2])+'</em></li>';}).join('')+'</ol>'+
+      '<div class="foot"><p>Avant chaque exercice : le matériel à prendre, les gestes expliqués et une version plus facile.</p><a class="go" href="/pages/les-exercices">Essayer le jour 1</a></div>';
+  }
+  /* Animation : la barre se remplit segment par segment, les durées comptent jusqu'à leur valeur */
+  var RM=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches,seen=false;
+  function play(){if(RM)return;root.classList.add('anim');void card.offsetWidth;
+    var bars=card.querySelectorAll('.bar i'),lis=card.querySelectorAll('li'),ems=card.querySelectorAll('li em');
+    requestAnimationFrame(function(){root.classList.remove('anim');
+      [].forEach.call(bars,function(b,k){b.style.transitionDelay=(k*120)+'ms';});
+      [].forEach.call(lis,function(l,k){l.style.transitionDelay=(k*90)+'ms';});
+      [].forEach.call(ems,function(e,k){var to=+e.dataset.s,t0=null,dl=k*90;
+        function st(ts){if(t0===null)t0=ts+dl;var p=Math.max(0,Math.min(1,(ts-t0)/800));p=1-Math.pow(1-p,3);e.textContent=fmt(Math.round(to*p/15)*15||0);if(p<1)requestAnimationFrame(st);else e.textContent=fmt(to);}
+        requestAnimationFrame(st);});});}
+  D.forEach(function(d,i){var b=document.createElement('button');b.type='button';b.setAttribute('role','tab');b.textContent='Jour '+d.j;b.onclick=function(){show(i);play();};tabs.appendChild(b);});
+  show(0);
+  if(!RM&&window.IntersectionObserver){root.classList.add('anim');
+    var io=new IntersectionObserver(function(es){if(es[0].isIntersecting&&!seen){seen=true;io.disconnect();play();}},{threshold:.35});io.observe(card);}
+})();
+</script>
+
+{% schema %}
+{
+  "name": "VAURE – séance type",
+  "settings": [],
+  "presets": [{ "name": "VAURE – séance type" }]
+}
+{% endschema %}

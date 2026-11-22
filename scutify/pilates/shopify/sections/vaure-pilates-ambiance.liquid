@@ -1,0 +1,37 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,800;1,800&family=Inter:wght@400;500;600&display=swap">
+<style>
+  .vam{position:relative;height:96vh;height:96svh;min-height:560px;overflow:hidden;background:#2b1710;color:#fbf7f2;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  .vam img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 60%;transform-origin:50% 60%;will-change:transform}
+  .vam::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,11,8,0) 40%,rgba(20,11,8,.78) 100%)}
+  .vam .in{position:absolute;left:0;right:0;bottom:0;z-index:1;max-width:1200px;margin:0 auto;padding:0 24px 64px}
+  .vam .k{font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:#2ef27a;display:flex;align-items:center;gap:10px}
+  .vam .k::before{content:"";width:28px;height:3px;background:#2ef27a;transform:skewX(-20deg)}
+  .vam h2{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:clamp(44px,6.4vw,92px);line-height:.9;margin:14px 0 0;max-width:13ch;letter-spacing:-.005em}
+  .vam h2 em{font-style:italic;color:#2ef27a}
+  .vam p{margin:16px 0 0;font-size:17px;line-height:1.5;color:#efe4d8;max-width:36ch}
+  @media (min-width:761px){.vam{height:88vh;min-height:620px}.vam img{left:40%;width:60%;object-position:30% 60%;transform-origin:0 60%}.vam::after{left:40%;background:linear-gradient(90deg,#2b1710 0%,rgba(43,23,16,0) 22%)}.vam .in{top:50%;bottom:auto;left:0;right:auto;width:40%;margin:0;transform:translateY(-50%);padding:0 48px 0 max(24px,calc((100vw - 1200px)/2))}}
+  @media (max-width:760px){.vam .in{padding:0 16px 48px}.vam img{object-position:12% 60%;transform-origin:12% 60%}}
+</style>
+<section class="vam" aria-label="Le Pilates chez toi">
+  <img src="{{ 'vaure-pont-salon.webp' | file_url }}" width="1600" height="1751" loading="lazy" alt="Une femme fait un pont fessier avec la bande taupe sur le tapis chocolat VAURE, dans son salon, à côté du ballon, du cercle et de la brique">
+  <div class="in">
+    <span class="k">Chez toi</span>
+    <h2>Ton salon devient <em>ton studio.</em></h2>
+    <p>Déroule le tapis, prends ta bande, lance ta séance. 15 minutes, à l'heure qui t'arrange.</p>
+  </div>
+</section>
+<script>
+(function(){var s=[].slice.call(document.querySelectorAll('.vam')).pop();if(!s)return;var img=s.querySelector('img');
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  var t=false;function u(){t=false;var r=s.getBoundingClientRect(),vh=innerHeight,p=Math.max(0,Math.min(1,(vh-r.top)/(vh+r.height)));
+    img.style.transform='scale('+(1.14-.14*p).toFixed(4)+')';}
+  addEventListener('scroll',function(){if(!t){t=true;requestAnimationFrame(u);}},{passive:true});u();})();
+</script>
+{% schema %}
+{
+  "name": "VAURE – ambiance",
+  "settings": [],
+  "presets": [{ "name": "VAURE – ambiance" }]
+}
+{% endschema %}

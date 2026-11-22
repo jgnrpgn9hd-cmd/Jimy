@@ -1,0 +1,83 @@
+{
+  "sections": {
+    "vaure_3d": {
+      "type": "vaure-pilates-3d",
+      "settings": {
+        "hide_old": true
+      }
+    },
+    "vaure_coffret": {
+      "type": "vaure-pilates-coffret",
+      "settings": {}
+    },
+    "vaure_sport": {
+      "type": "vaure-pilates-sport",
+      "settings": {}
+    },
+    "vaure_pilates": {
+      "type": "vaure-pilates-home",
+      "settings": {}
+    },
+    "vaure_retouches": {
+      "type": "vaure-pilates-retouches",
+      "settings": {}
+    },
+    "vaure_appli": {
+      "type": "vaure-pilates-appli",
+      "settings": {}
+    },
+    "vaure_film": {
+      "type": "vaure-pilates-film",
+      "settings": {}
+    },
+    "vaure_liens": {
+      "type": "vaure-pilates-liens",
+      "settings": {}
+    },
+    "vaure_toutes": {
+      "type": "vaure-pilates-toutes",
+      "settings": {}
+    },
+    "vaure_cta": {
+      "type": "vaure-pilates-cta",
+      "settings": {}
+    },
+    "vaure_annonce": {
+      "type": "vaure-pilates-annonce",
+      "settings": {}
+    },
+    "vaure_seance": {
+      "type": "vaure-pilates-seance",
+      "settings": {}
+    },
+    "vaure_offre": {
+      "type": "vaure-pilates-offre",
+      "settings": {}
+    },
+    "vaure_fondateur": {
+      "type": "vaure-pilates-fondateur",
+      "settings": {}
+    },
+    "vaure_niveau": {
+      "type": "vaure-pilates-niveau",
+      "settings": {}
+    }
+  },
+  "order": [
+    "vaure_annonce",
+    "vaure_3d",
+    "vaure_coffret",
+    "vaure_offre",
+    "vaure_appli",
+    "vaure_film",
+    "vaure_seance",
+    "vaure_toutes",
+    "vaure_niveau",
+    "vaure_fondateur",
+    "vaure_sport",
+    "vaure_pilates",
+    "vaure_retouches",
+    "vaure_liens",
+    "vaure_cta"
+  ]
+}

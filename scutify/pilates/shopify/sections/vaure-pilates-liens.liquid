@@ -1,0 +1,58 @@
+<style>
+  /* Titres : mots qui sortent du flou */
+  .vt-on .vt-w{display:inline-block;opacity:0;filter:blur(10px);transform:translateY(.35em);transition:opacity .7s cubic-bezier(.2,.8,.2,1),filter .7s cubic-bezier(.2,.8,.2,1),transform .7s cubic-bezier(.2,.8,.2,1);transition-delay:calc(var(--d,0) * 70ms)}
+  .vt-on .vt-in .vt-w{opacity:1;filter:none;transform:none}
+  /* Blocs qui montent en douceur */
+  .vt-on .vt-up{opacity:0;filter:blur(6px);transform:translateY(28px) scale(.98);transition:opacity .8s cubic-bezier(.2,.8,.2,1),filter .8s cubic-bezier(.2,.8,.2,1),transform .8s cubic-bezier(.2,.8,.2,1);transition-delay:calc(var(--d,0) * 80ms)}
+  .vt-on .vt-up.vt-in{opacity:1;filter:none;transform:none}
+  /* Voile qui assombrit la section qu'on quitte */
+  .vt-veil{position:absolute;left:0;right:0;bottom:0;height:100vh;pointer-events:none;z-index:50;background:linear-gradient(180deg,rgba(13,9,7,0),rgba(13,9,7,.55));opacity:0}
+</style>
+
+<script>
+(function(){
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  var html=document.documentElement;html.classList.add('vt-on');
+  var cl=function(x){return Math.max(0,Math.min(1,x))},ease=function(x){x=cl(x);return 1-Math.pow(1-x,3)};
+
+  /* 1. Titres découpés en mots */
+  var TITLES='.vc h2,.vap h2,.vsp h2,.vsp h3,.vp .pain h2,.vp .prog h2,.vp .compare h2,.vp .faq h2,.vp .wait h2,.vd-week h2,.vd-after h2';
+  [].forEach.call(document.querySelectorAll(TITLES),function(h){
+    if(h.dataset.vt)return;h.dataset.vt=1;var n=0,out=document.createDocumentFragment();
+    [].slice.call(h.childNodes).forEach(function(node){
+      if(node.nodeType===3){node.textContent.split(/(\s+)/).forEach(function(w){if(!w)return;if(/^\s+$/.test(w)){out.appendChild(document.createTextNode(w));return;}
+        var s=document.createElement('span');s.className='vt-w';s.style.setProperty('--d',n++);s.textContent=w;out.appendChild(s);});}
+      else{var s=document.createElement('span');s.className='vt-w';s.style.setProperty('--d',n++);s.appendChild(node.cloneNode(true));out.appendChild(s);}
+    });
+    h.innerHTML='';h.appendChild(out);h.classList.add('vt-t');
+  });
+  /* 2. Blocs qui montent, en cascade */
+  var UPS=['.vc img','.vc li','.vap li','.vap .ph','.vap .mus','.vsp-num','.vsp-bar','.vsp-big'];
+  UPS.forEach(function(sel){[].forEach.call(document.querySelectorAll(sel),function(el,i){el.classList.add('vt-up');el.style.setProperty('--d',i%8);});});
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('vt-in');io.unobserve(e.target);}});},{threshold:.2,rootMargin:'0px 0px -8% 0px'});
+  [].forEach.call(document.querySelectorAll('.vt-t,.vt-up'),function(el){io.observe(el);});
+
+  /* 3. Sections : la suivante monte comme une carte, la précédente s'assombrit */
+  var secs=[].filter.call(document.querySelectorAll('.shopify-section'),function(s){return /__vaure_/.test(s.id)&&!/vaure_(retouches|liens)/.test(s.id)&&s.offsetHeight>80;});
+  if(secs.length<2)return;
+  secs.forEach(function(s,i){if(i>0){var v=document.createElement('div');v.className='vt-veil';var prev=secs[i-1];
+    if(getComputedStyle(prev).position==='static')prev.style.position='relative';prev.appendChild(v);s._veil=v;}});
+  var vh=innerHeight,ticking=false;
+  function update(){ticking=false;
+    secs.forEach(function(s,i){if(i===0)return;var top=s.getBoundingClientRect().top,p=ease((vh-top)/(vh*.9));
+      if(top>vh){if(s._clip){s.style.clipPath='';s._clip=false;}s._veil.style.opacity=0;return;}
+      s._veil.style.opacity=(p*.9).toFixed(3);
+      if(p>=1){if(s._clip){s.style.clipPath='';s._clip=false;}return;}
+      var ins=(1-p)*(innerWidth<760?7:9),r=(1-p)*(innerWidth<760?34:56);s.style.clipPath='inset(0 '+ins.toFixed(2)+'% 0 '+ins.toFixed(2)+'% round '+r.toFixed(1)+'px '+r.toFixed(1)+'px 0 0)';s._clip=true;});}
+  function onScroll(){if(!ticking){ticking=true;requestAnimationFrame(update);}}
+  addEventListener('scroll',onScroll,{passive:true});addEventListener('resize',function(){vh=innerHeight;onScroll();});update();
+})();
+</script>
+
+{% schema %}
+{
+  "name": "VAURE – transitions",
+  "settings": [],
+  "presets": [{ "name": "VAURE – transitions" }]
+}
+{% endschema %}

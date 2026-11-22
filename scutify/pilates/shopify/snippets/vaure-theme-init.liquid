@@ -1,0 +1,17 @@
+{%- comment -%}
+  VAURE : titres du thème dans la serif de l'accueil (Fraunces), et mode sombre retiré
+  (les pages VAURE sont pensées en clair ; on efface un ancien choix enregistré).
+{%- endcomment -%}
+<script>
+  (function () { try { localStorage.removeItem('vaureTheme'); } catch (e) {} document.documentElement.removeAttribute('data-vaure-theme'); })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&display=swap">
+<style>
+  /* Titres du thème (pages, panier, contact, 404…) dans la même serif que l'accueil */
+  :root{--font-heading--family:'Fraunces',Georgia,serif;--font-heading--weight:400;--font-heading--style:normal}
+  #MainContent h1,#MainContent .h1{letter-spacing:-.025em;font-variation-settings:'opsz' 96}
+  #MainContent .rte h2,#MainContent .rte h3{font-family:'Fraunces',Georgia,serif;font-weight:400;letter-spacing:-.015em}
+  #MainContent .rte a{color:#552B1D;text-underline-offset:3px}
+</style>

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VAURE · Teaser</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0}
+  html,body{background:#000;height:100%}
+  body{display:grid;place-items:center}
+  .v{position:relative;width:540px;height:960px;overflow:hidden;background:#0b0604;font-family:Inter,sans-serif;color:#f4ece2}
+  .lay{position:absolute;inset:0}
+  /* faisceau de lumière venu d'en haut */
+  #beam{background:radial-gradient(60% 55% at 50% -6%,rgba(255,236,214,.55),rgba(255,226,200,.12) 45%,transparent 70%)}
+  #cone{background:conic-gradient(from 180deg at 50% -8%,transparent 0deg 154deg,rgba(255,230,205,.16) 166deg,rgba(255,236,214,.22) 180deg,rgba(255,230,205,.16) 194deg,transparent 206deg 360deg);filter:blur(18px)}
+  #floor{background:radial-gradient(50% 18% at 50% 74%,rgba(255,230,205,.22),transparent 70%)}
+  #grain{opacity:.07;background-image:repeating-radial-gradient(circle at 17% 31%,#fff 0 1px,transparent 1px 3px);mix-blend-mode:overlay}
+  .t{position:absolute;left:0;right:0;top:46%;text-align:center;font-weight:400;font-size:40px;letter-spacing:-.01em;color:#efe4d8;will-change:filter,opacity,transform;white-space:nowrap}
+  .t b{font-weight:600}
+  #t4,#t5{font-weight:600;color:#fff;text-shadow:0 0 18px #0b0604,0 0 36px #0b0604,0 0 60px #0b0604}
+  .t .bc{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.01em}
+  .t em{font-style:italic;color:#2ef27a}
+  .t small{display:block;font-size:15px;letter-spacing:.24em;text-transform:uppercase;color:#bfa995;margin-top:14px;font-weight:500}
+  .sym{display:inline-grid;place-items:center;width:58px;height:58px;border-radius:16px;vertical-align:middle;margin:0 10px;background:rgba(255,255,255,.06);box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.18),0 0 30px rgba(46,242,122,.25)}
+  .sym svg{width:38px}
+  /* carte en verre */
+  #card{position:absolute;left:50%;top:50%;width:360px;height:230px;margin:-115px 0 0 -180px;border-radius:30px;background:linear-gradient(160deg,rgba(255,255,255,.14),rgba(255,255,255,.03));box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.22),0 40px 80px rgba(0,0,0,.6);transform-style:preserve-3d}
+  #card .orb{position:absolute;left:50%;top:44%;width:96px;height:96px;margin:-48px 0 0 -48px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#2b1710,#140b08);box-shadow:0 0 0 2px rgba(46,242,122,.8),0 0 40px rgba(46,242,122,.55),inset 0 0 22px rgba(46,242,122,.35);display:grid;place-items:center}
+  #card .orb svg{width:56px}
+  #card .dots{position:absolute;left:0;right:0;bottom:30px;display:flex;justify-content:center;gap:14px}
+  #card .dots i{width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.1);box-shadow:inset 0 0 0 1.2px rgba(255,255,255,.22);display:grid;place-items:center}
+  #card .dots i b{width:12px;height:12px;border-radius:50%;background:var(--c)}
+  #card .bar{position:absolute;left:24px;right:24px;top:22px;display:flex;justify-content:space-between;font-size:11px;letter-spacing:.18em;color:#cdb8a5;font-weight:600}
+  /* tunnel d'écrans */
+  #tun{perspective:520px;perspective-origin:50% 48%}
+  #tun .w{position:absolute;left:50%;top:48%;transform-style:preserve-3d}
+  #tun img{position:absolute;width:210px;height:455px;border-radius:26px;box-shadow:0 0 0 1px rgba(255,255,255,.15);left:-105px;top:-227px;backface-visibility:hidden}
+  /* jauge */
+  #pill{position:absolute;left:50%;top:50%;width:420px;height:96px;margin:-48px 0 0 -210px;border-radius:999px;background:rgba(255,255,255,.06);box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.2);overflow:hidden}
+  #pill i{position:absolute;left:0;top:0;bottom:0;background:linear-gradient(90deg,rgba(46,242,122,.15),rgba(46,242,122,.55));border-radius:999px;box-shadow:0 0 40px rgba(46,242,122,.45)}
+  #pill span{position:absolute;right:30px;top:50%;transform:translateY(-50%);font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:46px;letter-spacing:.01em}
+  #pill small{position:absolute;left:30px;top:50%;transform:translateY(-50%);font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:#dcc7b4}
+  #arcs{position:absolute;left:50%;top:50%;width:520px;height:300px;margin:-20px 0 0 -260px}
+  /* logo */
+  #logo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
+  #logo svg{width:300px}
+  #logo .wm g{stroke:#f4ece2}
+  #flash{background:#f4ece2}
+  #end{display:grid;place-items:center;align-content:center;gap:22px;text-align:center;color:#2b1710}
+  #end svg{width:300px}
+  #end p{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:44px;line-height:.95}
+  #end p em{font-style:italic;color:#552b1d}
+  #end small{font-size:13px;letter-spacing:.24em;text-transform:uppercase;font-weight:600;color:#7a5a48}
+</style></head>
+<body>
+<div class="v" id="v">
+  <div class="lay" id="beam"></div><div class="lay" id="cone"></div><div class="lay" id="floor"></div>
+  <div class="t" id="t1">Le Pilates,</div>
+  <div class="t" id="t2">avec <span class="sym" id="symA"><svg viewBox="4 -6 104 112"><g fill="none" stroke="#f4ece2" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/></svg></span> <b>VAURE</b></div>
+  <div class="lay" style="perspective:700px"><div id="card"><div class="bar"><span>JOUR 15</span><span>15 MIN</span></div><div class="orb"><svg viewBox="4 -6 104 112"><g fill="none" stroke="#f4ece2" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/></svg></div>
+    <div class="dots"><i style="--c:#c4a284"><b></b></i><i style="--c:#997b63"><b></b></i><i style="--c:#2ef27a"><b></b></i><i style="--c:#534032"><b></b></i><i style="--c:#6e3a27"><b></b></i></div></div></div>
+  <div class="t" id="t3">Prépare. <b>Suis.</b> Respire.</div>
+  <div class="lay" id="tun"><div class="w" id="tw"></div></div>
+  <div class="t" id="t4" style="font-size:30px">Elle te ressemble</div>
+  <div class="t" id="t5" style="font-size:30px">Chaque mouvement, guidé</div>
+  <svg id="arcs" viewBox="0 0 520 300"></svg>
+  <div id="pill"><i id="fill"></i><small>Le défi</small><span id="pct">Jour 1</span></div>
+  <div class="t" id="t6"><span class="bc" style="font-size:72px">15 minutes</span><small>par jour, chez toi</small></div>
+  <div id="logo"><div class="wm"><svg class="logo" viewBox="0 -6 616 112" aria-label="VAURE"><g fill="none" stroke="#f4ece2" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/><g transform="translate(140 0)" fill="none" stroke="#f4ece2" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2 L38 98 L74 2"/><path transform="translate(98 0)" d="M2 98 L38 2 L74 98"/><path transform="translate(200 0)" d="M4 2 V60 C4 84 18 98 38 98 C58 98 72 84 72 60 V2"/><path transform="translate(300 0)" d="M4 98 V2 H40 C60 2 70 14 70 30 C70 46 60 58 40 58 H4 M38 58 L70 98"/><path transform="translate(398 0)" d="M66 2 H4 V98 H66 M4 50 H54"/></g></svg></div></div>
+  <div class="lay" id="flash"></div>
+  <div class="lay" id="end"><svg class="logo" viewBox="0 -6 616 112" aria-label="VAURE"><g fill="none" stroke="#2b1710" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/><g transform="translate(140 0)" fill="none" stroke="#2b1710" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2 L38 98 L74 2"/><path transform="translate(98 0)" d="M2 98 L38 2 L74 98"/><path transform="translate(200 0)" d="M4 2 V60 C4 84 18 98 38 98 C58 98 72 84 72 60 V2"/><path transform="translate(300 0)" d="M4 98 V2 H40 C60 2 70 14 70 30 C70 46 60 58 40 58 H4 M38 58 L70 98"/><path transform="translate(398 0)" d="M66 2 H4 V98 H66 M4 50 H54"/></g></svg><p>Le défi <em>30 jours</em></p><small>Bientôt disponible · vaure.fr</small></div>
+  <div class="lay" id="grain"></div>
+</div>
+<script>
+const $=id=>document.getElementById(id),cl=x=>Math.max(0,Math.min(1,x)),ss=x=>{x=cl(x);return x*x*(3-2*x)};
+const win=(t,a,b,fi=.5,fo=.4)=>Math.min(ss((t-a)/fi),1-ss((t-(b-fo))/fo));
+/* texte qui sort d'un flou */
+function blurText(el,t,a,b,dy=0){const k=win(t,a,b,.7,.45),inn=ss((t-a)/.7),out=ss((t-(b-.45))/.45);
+  el.style.opacity=k.toFixed(3);el.style.filter='blur('+((1-inn)*14+out*10).toFixed(1)+'px)';
+  el.style.transform='translateY('+(dy+(1-inn)*10-out*6).toFixed(1)+'px) scale('+(1+(1-inn)*.06+out*.04).toFixed(3)+')';el.style.letterSpacing=((1-inn)*.08).toFixed(3)+'em';}
+/* écrans du tunnel */
+const SCR=['s_home','s_avatar','s_prep','s_pont','s_squat','s_sheet','s_clam','s_pike','s_music','s_avatar','s_prep','s_squat'];
+const tw=$('tw');const IM=SCR.map((s,i)=>{const im=document.createElement('img');im.src=s+'.png';tw.appendChild(im);return im;});
+function tunnel(t){const a=6.0,b=9.4,on=win(t,a,b,.5,.5);$('tun').style.opacity=on;if(on<=0){return;}
+  const p=(t-a);IM.forEach((im,i)=>{const side=i%4,row=Math.floor(i/4);
+    let z=-700+row*-460+p*560;                   // les écrans avancent vers la caméra
+    let tr;
+    if(side===0)tr=`translate3d(-330px,0,${z}px) rotateY(70deg)`;
+    else if(side===1)tr=`translate3d(330px,0,${z}px) rotateY(-70deg)`;
+    else if(side===2)tr=`translate3d(0,-330px,${z}px) rotateX(-74deg) rotateZ(90deg)`;
+    else tr=`translate3d(0,330px,${z}px) rotateX(74deg) rotateZ(-90deg)`;
+    im.style.transform=tr;im.style.opacity=cl((z+1900)/500)*cl((300-z)/220);});}
+function render(t){
+  /* lumière : s'allume, respire */
+  const L=ss(t/1.2)*(1-.25*ss((t-11)/1));$('beam').style.opacity=(L*(.85+.15*Math.sin(t*1.7))).toFixed(3);
+  $('cone').style.opacity=(ss((t-.3)/1.2)*(t<6||t>9.4?1:.35)).toFixed(3);$('floor').style.opacity=(L*.9).toFixed(3);
+  blurText($('t1'),t,0.2,2.2);
+  blurText($('t2'),t,2.2,3.7);
+  {const s=$('symA'),k=ss((t-2.7)/.5);s.style.transform='scale('+(.6+.4*k)+') rotate('+((1-k)*-30)+'deg)';s.style.opacity=k;}
+  /* carte en verre qui monte et pivote */
+  {const c=$('card'),k=win(t,3.5,5.4,.7,.5),r=ss((t-3.5)/1.9);c.style.opacity=k;
+   c.style.transform=`translateY(${(1-ss((t-3.5)/.7))*80-ss((t-4.9)/.5)*60}px) rotateX(${lerp(48,12,r)}deg) rotateY(${lerp(-18,10,r)}deg) scale(${lerp(.82,1.04,r)})`;
+   c.querySelector('.orb').style.boxShadow=`0 0 0 2px rgba(46,242,122,.8),0 0 ${30+20*Math.sin(t*4)}px rgba(46,242,122,.55),inset 0 0 22px rgba(46,242,122,.35)`;}
+  blurText($('t3'),t,5.0,6.4);
+  tunnel(t);
+  blurText($('t4'),t,6.5,7.9);blurText($('t5'),t,7.9,9.3);
+  /* jauge du défi */
+  {const k=win(t,9.3,11.1,.4,.4),f=ss((t-9.5)/1.3);$('pill').style.opacity=k;$('pill').style.transform='scale('+(.9+.1*ss((t-9.3)/.4))+')';
+   $('fill').style.width=(8+92*f).toFixed(1)+'%';$('pct').textContent='Jour '+Math.max(1,Math.round(1+29*f));
+   const g=$('arcs');g.style.opacity=k*.7;let h='';for(let i=0;i<5;i++){const o=(f*240+i*28)%240;h+=`<path d="M${40+i*6} ${120+o*.4} Q260 ${210+o*.3} ${480-i*6} ${120+o*.4}" fill="none" stroke="rgba(244,236,226,${.35-i*.06})" stroke-width="3"/>`;}g.innerHTML=h;}
+  blurText($('t6'),t,11.1,12.6,-20);
+  /* logo */
+  {const k=win(t,12.6,13.9,.5,.3),lo=$('logo');lo.style.opacity=k;lo.style.filter='blur('+((1-ss((t-12.6)/.6))*12)+'px)';lo.style.transform='translate(-50%,-50%) scale('+(1.15-.15*ss((t-12.6)/1))+')';}
+  {const f=ss((t-13.8)/.35);$('flash').style.opacity=f;const e=ss((t-14.0)/.5);$('end').style.opacity=e;$('end').style.transform='scale('+(1.04-.04*e)+')';}
+}
+const lerp=(a,b,t)=>a+(b-a)*t;
+window.renderAt=render;
+if(!window.__frame){let t0=null;(function loop(now){if(t0===null)t0=now;render(((now-t0)/1000)%16.5);requestAnimationFrame(loop);})(performance.now());}
+</script>
+</body></html>

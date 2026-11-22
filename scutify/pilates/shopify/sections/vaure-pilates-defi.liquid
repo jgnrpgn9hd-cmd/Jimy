@@ -1,0 +1,159 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,800&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  .vd{--choco:#552b1d;--ink:#2b1710;--night:#140b08;--cream:#f4ece2;--paper:#fbf7f2;--fluo:#2ef27a;--muted:#7a5a48;--line:#e1d3c1;font-family:'Inter',system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;line-height:1.55}
+  .vd *{box-sizing:border-box}
+  .vd p{margin:0}
+  .vd .in{max-width:1200px;margin:0 auto;padding:0 24px}
+  .vd-top{background:var(--night);color:#fbf7f2;padding:88px 0 0;overflow:hidden;position:relative}
+  .vd-top::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(-58deg,rgba(255,255,255,.035) 0 2px,transparent 2px 22px)}
+  .vd-top .in{position:relative}
+  .vd-top h1{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:clamp(64px,12vw,176px);line-height:.84;letter-spacing:-.01em;margin:0}
+  .vd-top h1 em{font-style:italic;color:var(--fluo)}
+  .vd-top .row{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;margin-top:28px;padding-bottom:40px}
+  .vd-top .row p{max-width:40ch;color:#dcc7b4;font-size:17px}
+  .vd-meta{display:flex;gap:28px}
+  .vd-meta div{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:#dcc7b4}
+  .vd-meta b{display:block;font-family:'Barlow Condensed',sans-serif;font-size:44px;line-height:1;letter-spacing:0;color:#fff}
+  .vd-days{display:grid;grid-template-columns:repeat(30,1fr);gap:4px;padding:0 0 40px}
+  .vd-days i{height:34px;border-radius:3px;background:rgba(255,255,255,.08);transform:skewX(-14deg)}
+  .vd-days i.a{background:#3a2a22}.vd-days i.b{background:#5c4031}.vd-days i.c{background:#8a5e45}.vd-days i.d{background:var(--fluo)}
+  .vd-legend{display:flex;gap:18px;flex-wrap:wrap;padding-bottom:56px;font-size:12px;color:#dcc7b4}
+  .vd-legend span{display:flex;align-items:center;gap:8px}
+  .vd-legend span::before{content:"";width:14px;height:10px;transform:skewX(-14deg);background:var(--c)}
+
+  .vd-week{display:grid;grid-template-columns:220px 1fr 1fr;gap:40px;padding:56px 0;border-bottom:1px solid var(--line);align-items:start}
+  .vd-week:first-child{padding-top:72px}
+  .vd-n{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-style:italic;font-size:132px;line-height:.78;color:transparent;-webkit-text-stroke:2px var(--choco)}
+  .vd-n small{display:block;font-style:normal;-webkit-text-stroke:0;color:var(--muted);font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-family:'Inter',sans-serif;font-weight:600;margin-top:14px}
+  .vd-week h2{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:clamp(36px,4vw,54px);line-height:.92;margin:0 0 12px}
+  .vd-week h2 em{font-style:italic;color:var(--choco)}
+  .vd-week .txt{color:var(--muted);font-size:16px;max-width:42ch}
+  .vd-tools{margin-top:18px;font-size:13px;font-weight:600;color:var(--ink)}
+  .vd-tools span{color:var(--muted);font-weight:500}
+  .vd-moves{list-style:none;padding:0;margin:0;border-top:2px solid var(--ink)}
+  .vd-moves li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--line);font-size:15px;font-weight:500}
+  .vd-moves li span{color:var(--muted);font-size:13px;font-weight:400;text-align:right}
+
+  .vd-after{background:var(--choco);color:#fbf7f2;padding:88px 0}
+  .vd-after .in{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+  .vd-after h2{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:clamp(40px,5vw,72px);line-height:.9;margin:0}
+  .vd-after h2 em{font-style:italic;color:var(--fluo)}
+  .vd-after p{color:#dcc7b4;font-size:17px;max-width:44ch}
+  .vd-btn{display:inline-flex;align-items:center;gap:10px;margin-top:24px;background:var(--fluo);color:var(--ink);font-weight:700;font-size:15px;padding:16px 26px;border-radius:999px;text-decoration:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s ease-out}
+  .vd-btn:active{transform:scale(.97)}
+  .vd-note{background:var(--paper);padding:40px 0;font-size:14px;color:var(--muted)}
+  .vd-note b{color:var(--ink)}
+
+  @media (max-width:900px){
+    .vd-top{padding-top:56px}
+    .vd-days{gap:2px}.vd-days i{height:26px}
+    .vd-week{grid-template-columns:1fr;gap:18px;padding:40px 0}
+    .vd-n{font-size:96px}
+    .vd-after{padding:64px 0}.vd-after .in{grid-template-columns:1fr;gap:20px}
+    .vd .in{padding:0 16px}
+  }
+</style>
+
+<div class="vd">
+  <section class="vd-top">
+    <div class="in">
+      <h1>Le défi <em>30 jours</em></h1>
+      <div class="row">
+        <p>Quatre semaines, une séance de 15 minutes par jour. On commence doucement, on finit par des séances complètes, comme en studio.</p>
+        <div class="vd-meta"><div><b>30</b>séances</div><div><b>15</b>min</div><div><b>4</b>phases</div></div>
+      </div>
+      <div class="vd-days" aria-hidden="true">
+        {%- for i in (1..30) -%}{%- if i <= 7 -%}<i class="a"></i>{%- elsif i <= 14 -%}<i class="b"></i>{%- elsif i <= 21 -%}<i class="c"></i>{%- else -%}<i class="d"></i>{%- endif -%}{%- endfor -%}
+      </div>
+      <div class="vd-legend" aria-hidden="true">
+        <span style="--c:#3a2a22">Jours 1 à 7 · Bases</span><span style="--c:#5c4031">8 à 14 · Gainage</span><span style="--c:#8a5e45">15 à 21 · Bas du corps</span><span style="--c:#2ef27a">22 à 30 · Enchaînements</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="in">
+    <article class="vd-week">
+      <div class="vd-n">01<small>Jours 1 à 7</small></div>
+      <div>
+        <h2>Les <em>bases</em></h2>
+        <p class="txt">Respirer avec le mouvement, trouver ton centre, placer ton bassin. C'est la semaine qui rend tout le reste plus facile.</p>
+        <p class="vd-tools">Avec : <span>le tapis, la brique</span></p>
+      </div>
+      <ul class="vd-moves">
+        <li>Respiration latérale <span>chaque jour, en échauffement</span></li>
+        <li>Bascule du bassin <span>jours 1 à 7</span></li>
+        <li>Le Hundred, version débutante <span>jours 3 à 7</span></li>
+        <li>Enroulé de colonne <span>jours 1 à 7</span></li>
+      </ul>
+    </article>
+
+    <article class="vd-week">
+      <div class="vd-n">02<small>Jours 8 à 14</small></div>
+      <div>
+        <h2>Le <em>gainage</em></h2>
+        <p class="txt">On renforce le centre du corps : abdominaux profonds et dos. Le cercle et le ballon ajoutent de la résistance et un peu d'instabilité.</p>
+        <p class="vd-tools">Avec : <span>le cercle, le petit ballon</span></p>
+      </div>
+      <ul class="vd-moves">
+        <li>Planche sur les avant-bras <span>jours 8 à 14</span></li>
+        <li>Single leg stretch <span>jours 9 à 14</span></li>
+        <li>Pression du cercle entre les genoux <span>jours 8 à 14</span></li>
+        <li>Dead bug avec ballon <span>jours 11 à 14</span></li>
+      </ul>
+    </article>
+
+    <article class="vd-week">
+      <div class="vd-n">03<small>Jours 15 à 21</small></div>
+      <div>
+        <h2>Le <em>bas du corps</em></h2>
+        <p class="txt">Fessiers, cuisses et stabilité. Les bandes élastiques et les sliders font travailler les jambes sans charge lourde.</p>
+        <p class="vd-tools">Avec : <span>les 3 bandes, les 2 sliders</span></p>
+      </div>
+      <ul class="vd-moves">
+        <li>Pont fessier avec bande <span>jours 15 à 21</span></li>
+        <li>Clamshell <span>jours 15 à 18</span></li>
+        <li>Squat avec bande <span>jours 16 à 21</span></li>
+        <li>Fente arrière sur slider <span>jours 17 à 21</span></li>
+        <li>Leg circles <span>jours 19 à 21</span></li>
+        <li>Genoux à la poitrine sur sliders <span>jours 19 à 21</span></li>
+      </ul>
+    </article>
+
+    <article class="vd-week">
+      <div class="vd-n">04<small>Jours 22 à 30</small></div>
+      <div>
+        <h2>Les <em>enchaînements</em></h2>
+        <p class="txt">On assemble tout. Des séances complètes et fluides, avec un peu plus de rythme. Le jour 30, tu refais la séance du jour 1 pour voir le chemin parcouru.</p>
+        <p class="vd-tools">Avec : <span>tout le kit, et le rouleau pour finir</span></p>
+      </div>
+      <ul class="vd-moves">
+        <li>Roll up <span>jours 22 à 29</span></li>
+        <li>Teaser, version guidée <span>jours 24 à 29</span></li>
+        <li>Pike sur sliders <span>jours 26 à 29</span></li>
+        <li>Retour au calme sur le rouleau <span>chaque jour</span></li>
+      </ul>
+    </article>
+  </div>
+
+  <section class="vd-after">
+    <div class="in">
+      <h2>Et après <em>le jour 30 ?</em></h2>
+      <div>
+        <p>Tu ne t'arrêtes pas là. Chaque jour, une séance de 15 minutes t'attend, toute l'année, pour continuer à progresser avec le même kit.</p>
+        <a class="vd-btn" href="/#vp-attente">Être prévenue du lancement
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="vd-note"><div class="in"><b>Ta sécurité d'abord.</b> Chaque séance commence par un échauffement et chaque mouvement a une version plus facile. En cas de grossesse, de douleur ou de problème de dos, demande l'avis d'un professionnel de santé avant de commencer.</div></div>
+</div>
+
+{% schema %}
+{
+  "name": "VAURE – défi 30 jours",
+  "settings": [],
+  "presets": [{ "name": "VAURE – défi 30 jours" }]
+}
+{% endschema %}

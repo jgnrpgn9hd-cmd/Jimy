@@ -1,0 +1,50 @@
+{%- assign kit = all_products['kit-pilates-vaure'] -%}
+<style>
+  .vof{background:#fbf7f2;color:#2b1710;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;padding:88px 0}
+  .vof *{box-sizing:border-box}
+  .vof .in{max-width:1100px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+  .vof .ph{border-radius:16px;overflow:hidden;background:#efe4d6;aspect-ratio:1/1}
+  .vof .ph img{width:100%;height:100%;object-fit:cover;display:block}
+  .vof .k{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:#7a5a48}
+  .vof h2{font-family:'Outfit',sans-serif;font-weight:600;font-size:clamp(34px,4.4vw,56px);line-height:1;letter-spacing:-.03em;margin:12px 0 10px}
+  .vof .pr{display:flex;align-items:baseline;gap:12px;margin:0 0 22px}
+  .vof .pr b{font-family:'Outfit',sans-serif;font-size:30px;font-weight:600}
+  .vof .pr span{font-size:14px;color:#7a5a48}
+  .vof ul{list-style:none;margin:0 0 26px;padding:0;display:grid;gap:10px;border-top:1px solid #e7dccd;padding-top:20px}
+  .vof li{display:grid;grid-template-columns:28px 1fr;gap:10px;font-size:15px;line-height:1.45}
+  .vof li b{font-family:'Outfit',sans-serif;font-weight:600;color:#552b1d}
+  .vof .cta{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;background:#2b1710;color:#fbf7f2;font-weight:600;font-size:16px;padding:17px 24px;border-radius:999px;text-decoration:none;-webkit-tap-highlight-color:transparent;transition:transform .1s ease-out}
+  .vof .cta:active{transform:scale(.98)}
+  .vof .note{margin:14px 0 0;font-size:13px;color:#7a5a48;text-align:center}
+  .vof .note a{color:#2b1710;text-underline-offset:3px}
+  @media (max-width:820px){.vof{padding:64px 0}.vof .in{grid-template-columns:1fr;gap:28px;padding:0 16px}}
+</style>
+<section class="vof" id="vp-offre" aria-label="Le kit VAURE">
+  <div class="in">
+    <div class="ph"><img src="{{ 'vaure-kit-vue-dessus.webp' | file_url }}" width="1200" height="1281" loading="lazy" alt="Le kit VAURE vu du dessus : ballon, cercle, 3 bandes, brique, 2 sliders, rouleau et tapis"></div>
+    <div>
+      <span class="k">Le kit</span>
+      <h2>{% if kit and kit.title != blank %}{{ kit.title }}{% else %}Le kit VAURE{% endif %}</h2>
+      <div class="pr"><b>{% if kit and kit.price %}{{ kit.price | money }}{% else %}39,90 €{% endif %}</b><span>une seule fois, sans abonnement</span></div>
+      <ul>
+        <li><b>8</b><span>pièces assorties : tapis, cercle, petit ballon, 3 bandes, brique, 2 sliders, rouleau</span></li>
+        <li><b>30</b><span>jours de défi guidé, puis une séance chaque jour</span></li>
+        <li><b>15</b><span>minutes par séance, chez toi, à ton heure</span></li>
+      </ul>
+      {%- if kit and kit.available -%}
+        <a class="cta" href="{{ kit.url }}">Je veux le kit · {{ kit.price | money }}</a>
+      {%- else -%}
+        <a class="cta" href="#vp-attente">Être prévenue du lancement</a>
+      {%- endif -%}
+      <p class="note">Les exercices sont déjà gratuits : <a href="/pages/les-exercices">essaie le jour 1</a></p>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "VAURE – offre",
+  "settings": [],
+  "presets": [{ "name": "VAURE – offre" }]
+}
+{% endschema %}

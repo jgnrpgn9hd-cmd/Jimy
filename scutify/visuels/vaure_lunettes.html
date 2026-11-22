@@ -1,0 +1,102 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;background:#06100c}
+  body{width:1200px;height:1500px;font-family:'Inter Display','Inter',sans-serif}
+</style></head>
+<body>
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
+      <stop offset="0" stop-color="#16362a"/>
+      <stop offset=".55" stop-color="#0a1913"/>
+      <stop offset="1" stop-color="#040907"/>
+    </radialGradient>
+    <linearGradient id="lens" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#06261c"/>
+      <stop offset=".45" stop-color="#14684a"/>
+      <stop offset=".8" stop-color="#3fb07e"/>
+      <stop offset="1" stop-color="#9be8bf"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2f2d"/>
+      <stop offset="1" stop-color="#0b0d0c"/>
+    </linearGradient>
+    <linearGradient id="temple" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b302e"/>
+      <stop offset="1" stop-color="#0d0f0e"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#000" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="lensClip">
+      <path id="lensPath" d="M170 590 C170 560 230 548 330 548 L870 548 C970 548 1030 560 1030 590
+        C1030 680 990 770 880 785 C790 797 700 780 660 730 C640 705 620 695 600 695
+        C580 695 560 705 540 730 C500 780 410 797 320 785 C210 770 170 680 170 590 Z"/>
+    </clipPath>
+    <!-- Logo VAURE : un V dont l'ouverture laisse passer le soleil, posé sur l'horizon -->
+    <g id="mark">
+      <path d="M0 0 L42 92 L84 0" fill="none" stroke="#f2f5f3" stroke-width="11" stroke-linejoin="miter"/>
+      <circle cx="42" cy="24" r="10" fill="#3fd18f"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+
+  <!-- En-tête : logo + nom -->
+  <g transform="translate(558 120)"><use href="#mark"/></g>
+  <text x="613" y="290" text-anchor="middle" fill="#f2f5f3" font-size="64" font-weight="600" letter-spacing="26">VAURE</text>
+  <text x="600" y="335" text-anchor="middle" fill="#8fb8a4" font-size="20" font-weight="400" letter-spacing="8">VOIR CLAIR, TOUT LE TEMPS</text>
+
+  <!-- Ombre portée -->
+  <ellipse cx="600" cy="850" rx="400" ry="26" fill="url(#shadow)"/>
+
+  <!-- Branches (vues de face, en fuite) -->
+  <path d="M1036 572 L1088 566 L1092 584 L1038 594 Z" fill="url(#temple)"/>
+  <path d="M164 572 L112 566 L108 584 L162 594 Z" fill="url(#temple)"/>
+
+  <!-- Verre écran -->
+  <use href="#lensPath" fill="url(#lens)"/>
+  <g clip-path="url(#lensClip)">
+    <polygon points="250,540 420,540 230,820 60,820" fill="url(#sheen)"/>
+    <polygon points="470,540 530,540 340,820 280,820" fill="url(#sheen)" opacity=".6"/>
+    <path d="M640 560 C780 556 930 562 1010 590 C900 586 780 590 640 600 Z" fill="#fff" opacity=".10"/>
+    <!-- Logo gravé au laser sur le verre -->
+    <text x="232" y="618" fill="#e9fff4" fill-opacity=".55" font-size="22" font-weight="600" letter-spacing="9">VAURE</text>
+  </g>
+  <use href="#lensPath" fill="none" stroke="#0c1a14" stroke-opacity=".6" stroke-width="2"/>
+
+  <!-- Monture : barre supérieure -->
+  <path d="M155 602 C150 548 222 526 330 526 L870 526 C978 526 1050 548 1045 602
+           L1030 594 C1030 562 970 549 870 549 L330 549 C230 549 170 562 170 594 Z" fill="url(#frame)"/>
+  <!-- Logo sur le pont -->
+  <g transform="translate(589 530) scale(.24)"><use href="#mark"/></g>
+
+  <!-- Plaquettes de nez -->
+  <rect x="566" y="696" width="18" height="34" rx="9" fill="#9aa6a0" opacity=".85" transform="rotate(18 575 713)"/>
+  <rect x="616" y="696" width="18" height="34" rx="9" fill="#9aa6a0" opacity=".85" transform="rotate(-18 625 713)"/>
+
+  <!-- Vue de côté : branche avec le nom -->
+  <g transform="translate(250 1010)">
+    <path d="M0 18 C0 6 10 0 24 0 L620 6 C650 6 680 18 700 48 C708 60 700 70 690 62 C670 44 650 36 620 34 L24 36 C10 36 0 30 0 18 Z" fill="url(#temple)"/>
+    
+    <g transform="translate(60 6) scale(.25)"><use href="#mark"/></g>
+    <text x="100" y="27" fill="#d9e6df" font-size="20" font-weight="600" letter-spacing="10">VAURE</text>
+  </g>
+  <text x="600" y="1100" text-anchor="middle" fill="#6f9584" font-size="17" letter-spacing="4">BRANCHE · LOGO EN RELIEF</text>
+
+  <!-- Accroche -->
+  <text x="600" y="1230" text-anchor="middle" fill="#f2f5f3" font-size="58" font-weight="700" letter-spacing="1">Fini l'éblouissement.</text>
+  <text x="600" y="1285" text-anchor="middle" fill="#a9c9b9" font-size="24" font-weight="400" letter-spacing="2">Verres miroir vert · Protection UV400 · Ultra-légères</text>
+
+  <!-- Bas de page -->
+  <line x1="420" y1="1360" x2="780" y2="1360" stroke="#2c4a3d" stroke-width="2"/>
+  <text x="600" y="1410" text-anchor="middle" fill="#3fd18f" font-size="30" font-weight="600" letter-spacing="6">34,90 €</text>
+</svg>
+</body></html>

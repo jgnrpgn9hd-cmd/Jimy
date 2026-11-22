@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VAURE · Séance du jour</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--choco:#552b1d;--ink:#2b1710;--night:#140b08;--cream:#f4ece2;--fluo:#2ef27a;--muted:#7a5a48}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--night);height:100%}
+  body{font-family:Inter,system-ui,sans-serif;color:#fbf7f2;display:grid;place-items:center;-webkit-font-smoothing:antialiased}
+  .app{width:min(100vw,430px);aspect-ratio:9/16;max-height:100vh;position:relative;overflow:hidden;background:radial-gradient(120% 70% at 50% 62%,#fffaf4 0%,var(--cream) 55%,#e6d7c5 100%);color:var(--ink)}
+  .top{position:absolute;left:0;right:0;top:0;padding:18px 20px 0;display:flex;justify-content:space-between;align-items:flex-start;z-index:2}
+  .day{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--muted)}
+  .day b{color:var(--ink)}
+  .logo{height:16px;width:auto}
+  .title{position:absolute;left:20px;right:20px;top:58px;z-index:2}
+  .title .n{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-style:italic;font-size:15px;color:var(--choco);letter-spacing:.06em}
+  .title h1{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:38px;line-height:.9;margin:4px 0 6px;letter-spacing:-.005em}
+  .title .kit{font-size:12px;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:8px}
+  .title .kit::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--fluo);box-shadow:0 0 0 4px rgba(46,242,122,.25)}
+  svg.scene{position:absolute;left:0;right:0;top:20%;width:100%;height:56%}
+  .cue{position:absolute;left:0;right:0;bottom:23%;text-align:center;font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:30px;letter-spacing:.02em;color:var(--ink)}
+  .cue span{display:inline-block;transition:opacity .25s ease,transform .25s ease}
+  .bottom{position:absolute;left:0;right:0;bottom:0;background:var(--night);color:#fbf7f2;padding:16px 20px 20px;border-radius:22px 22px 0 0}
+  .row{display:flex;justify-content:space-between;align-items:baseline}
+  .reps{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:44px;line-height:1}
+  .reps i{font-style:normal;font-size:16px;color:#9c8576;margin-left:4px}
+  .time{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-style:italic;font-size:28px;color:var(--fluo);font-variant-numeric:tabular-nums}
+  .lbl{font-size:10px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:#9c8576;margin-top:2px}
+  .bar{height:6px;background:rgba(255,255,255,.1);margin-top:12px;transform:skewX(-18deg);overflow:hidden}
+  .bar i{display:block;height:100%;background:var(--fluo);transform-origin:left}
+  .steps{display:flex;gap:6px;margin-top:12px}
+  .steps span{flex:1;font-size:10px;color:#9c8576;font-weight:600;letter-spacing:.08em;text-transform:uppercase;border-top:3px solid rgba(255,255,255,.12);padding-top:6px}
+  .steps span.on{color:#fbf7f2;border-color:var(--fluo)}
+  .steps span.done{border-color:#6b4a3a}
+</style></head>
+<body>
+<div class="app">
+  <div class="top">
+    <div class="day">Jour 15 · <b>Bas du corps</b></div>
+    <svg class="logo" viewBox="0 -6 616 112" aria-label="VAURE"><g fill="none" stroke="#2b1710" stroke-linecap="round"><path d="M52 96 L98 14" stroke-width="13"/><path d="M52 96 L22 30" stroke-width="13"/><path d="M28 44 L74 16" stroke-width="7"/></g><circle cx="16" cy="13" r="10" fill="#2ef27a"/><g transform="translate(140 0)" fill="none" stroke="#2b1710" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2 L38 98 L74 2"/><path transform="translate(98 0)" d="M2 98 L38 2 L74 98"/><path transform="translate(200 0)" d="M4 2 V60 C4 84 18 98 38 98 C58 98 72 84 72 60 V2"/><path transform="translate(300 0)" d="M4 98 V2 H40 C60 2 70 14 70 30 C70 46 60 58 40 58 H4 M38 58 L70 98"/><path transform="translate(398 0)" d="M66 2 H4 V98 H66 M4 50 H54"/></g></svg>
+  </div>
+  <div class="title"><div class="n" id="num">EXERCICE 1 / 3</div><h1 id="name">Pont fessier</h1><div class="kit" id="kit">Avec la bande moyenne</div></div>
+
+  <svg class="scene" viewBox="60 -470 720 520" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <radialGradient id="glow"><stop offset="0" stop-color="#2ef27a" stop-opacity=".35"/><stop offset="1" stop-color="#2ef27a" stop-opacity="0"/></radialGradient>
+      <linearGradient id="matg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#6a3726"/><stop offset="1" stop-color="#43211a"/></linearGradient>
+    </defs>
+    <ellipse cx="420" cy="18" rx="330" ry="22" fill="#2b1710" opacity=".10"/>
+    <rect x="130" y="-2" width="580" height="14" rx="7" fill="url(#matg)"/>
+    <circle id="hl" cx="0" cy="0" r="90" fill="url(#glow)"/>
+    <g id="kitBack"></g>
+    <g id="body" fill="none" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="kitFront"></g>
+  </svg>
+
+  <div class="cue"><span id="cue">Inspire</span></div>
+
+  <div class="bottom">
+    <div class="row"><div><div class="reps" id="reps">0<i>/ 10</i></div><div class="lbl">Répétitions</div></div><div style="text-align:right"><div class="time" id="time">00:40</div><div class="lbl">Restant</div></div></div>
+    <div class="bar"><i id="bar"></i></div>
+    <div class="steps"><span id="s0">Pont</span><span id="s1">Squat bande</span><span id="s2">Genoux sliders</span></div>
+  </div>
+</div>
+
+<script>
+/* Silhouette VAURE : membres épais à bouts ronds, même esprit que le symbole du logo.
+   Les mouvements sont calculés (cinématique) pour rester crédibles : les pieds restent posés, les genoux plient dans le bon sens. */
+const NS='http://www.w3.org/2000/svg',$=id=>document.getElementById(id);
+const L={torso:150,thigh:122,shin:116,upper:86,fore:80,neck:20,head:27};
+const C={body:'#2b1710',far:'#7a5a48',band:'#997b63',slider:'#4e2719'};
+const ease=t=>.5-.5*Math.cos(Math.PI*t);
+const lerp=(a,b,t)=>a+(b-a)*t, P=(x,y)=>({x,y}), mix=(a,b,t)=>P(lerp(a.x,b.x,t),lerp(a.y,b.y,t));
+function ik(A,Cc,l1,l2,pick){const dx=Cc.x-A.x,dy=Cc.y-A.y;let d=Math.hypot(dx,dy);d=Math.min(d,l1+l2-.5);
+  const a=Math.acos((l1*l1+d*d-l2*l2)/(2*l1*d)),th=Math.atan2(dy,dx);
+  const k1=P(A.x+l1*Math.cos(th+a),A.y+l1*Math.sin(th+a)),k2=P(A.x+l1*Math.cos(th-a),A.y+l1*Math.sin(th-a));return pick(k1,k2);}
+const along=(a,b,len)=>{const d=Math.hypot(b.x-a.x,b.y-a.y);return P(a.x+(b.x-a.x)/d*len,a.y+(b.y-a.y)/d*len)};
+function line(g,a,b,w,col){const l=document.createElementNS(NS,'line');l.setAttribute('x1',a.x.toFixed(1));l.setAttribute('y1',a.y.toFixed(1));l.setAttribute('x2',b.x.toFixed(1));l.setAttribute('y2',b.y.toFixed(1));l.setAttribute('stroke',col);l.setAttribute('stroke-width',w);g.appendChild(l);}
+function circ(g,c,r,fill){const e=document.createElementNS(NS,'circle');e.setAttribute('cx',c.x.toFixed(1));e.setAttribute('cy',c.y.toFixed(1));e.setAttribute('r',r);e.setAttribute('fill',fill);g.appendChild(e);}
+function raw(g,html){g.insertAdjacentHTML('beforeend',html);}
+function drawBody(S){const g=$('body');g.innerHTML='';
+  /* membres du côté éloigné, plus clairs */
+  if(S.farArm){line(g,S.sh,S.farArm.e,17,C.far);line(g,S.farArm.e,S.farArm.h,15,C.far);}
+  if(S.farLeg){line(g,S.hip,S.farLeg.k,30,C.far);line(g,S.farLeg.k,S.farLeg.a,24,C.far);line(g,S.farLeg.a,S.farLeg.f,16,C.far);}
+  line(g,S.hip,S.sh,46,C.body);                       // buste
+  line(g,S.hip,S.knee,33,C.body);line(g,S.knee,S.ank,25,C.body);line(g,S.ank,S.foot,17,C.body);
+  line(g,S.sh,S.elb,19,C.body);line(g,S.elb,S.hand,16,C.body);
+  const nk=along(S.hip,S.sh,L.torso+L.neck),hd=along(S.hip,S.sh,L.torso+L.neck+L.head-4);
+  line(g,S.sh,nk,15,C.body);circ(g,hd,L.head,C.body);
+  const top=along(S.hip,S.sh,L.torso+L.neck+L.head*2+4);circ(g,top,10,'#2ef27a');   // chignon vert fluo
+}
+
+/* ---------- Exercice 1 : pont fessier avec bande ---------- */
+function bridge(t){const up=ease(t);
+  const sh=P(250,-27),ank=P(545,-16),foot=P(578,-11);
+  const hip=P(lerp(392,402,up),lerp(-27,-142,up));
+  const knee=ik(hip,ank,L.thigh,L.shin,(a,b)=>a.y<b.y?a:b);
+  const hand=P(400,-12),elb=P(325,-16);
+  const kb=$('kitBack'),kf=$('kitFront');kb.innerHTML='';kf.innerHTML='';
+  const bp=mix(hip,knee,.78),ang=Math.atan2(knee.y-hip.y,knee.x-hip.x)*180/Math.PI;   // bande au-dessus des genoux
+  raw(kf,`<rect x="${(bp.x-15).toFixed(1)}" y="${(bp.y-24).toFixed(1)}" width="30" height="48" rx="9" fill="${C.band}" transform="rotate(${(ang+90).toFixed(1)} ${bp.x.toFixed(1)} ${bp.y.toFixed(1)})"/>`);
+  return {S:{sh,hip,knee,ank,foot,elb,hand,farLeg:{k:P(knee.x-6,knee.y+4),a:P(ank.x-8,ank.y),f:P(foot.x-8,foot.y)}},hl:mix(hip,knee,.25)};}
+
+/* ---------- Exercice 2 : squat avec bande ---------- */
+function squat(t){const d=ease(t);
+  const ank=P(470,-14),foot=P(506,-9);
+  const hip=P(lerp(452,372,d),lerp(-236,-128,d));
+  const knee=ik(hip,ank,L.thigh,L.shin,(a,b)=>a.x>b.x?a:b);
+  const lean=lerp(4,42,d)*Math.PI/180;                                   // buste qui se penche vers l'avant
+  const sh=P(hip.x+L.torso*Math.sin(lean),hip.y-L.torso*Math.cos(lean));
+  const reach=lerp(.15,1,d);                                               // bras vers l'avant pour l'équilibre
+  const elb=P(sh.x+L.upper*lerp(.15,.98,reach),sh.y+L.upper*lerp(.98,.2,reach));
+  const hand=P(elb.x+L.fore*lerp(.1,1,reach),elb.y+L.fore*lerp(.99,.05,reach));
+  const kb=$('kitBack'),kf=$('kitFront');kb.innerHTML='';kf.innerHTML='';
+  const bp=mix(hip,knee,.8),ang=Math.atan2(knee.y-hip.y,knee.x-hip.x)*180/Math.PI;
+  raw(kf,`<rect x="${(bp.x-15).toFixed(1)}" y="${(bp.y-24).toFixed(1)}" width="30" height="48" rx="9" fill="${C.band}" transform="rotate(${(ang+90).toFixed(1)} ${bp.x.toFixed(1)} ${bp.y.toFixed(1)})"/>`);
+  return {S:{sh,hip,knee,ank,foot,elb,hand,farArm:{e:P(elb.x-10,elb.y+4),h:P(hand.x-10,hand.y+4)},farLeg:{k:P(knee.x-12,knee.y+3),a:P(ank.x-14,ank.y),f:P(foot.x-14,foot.y)}},hl:mix(hip,knee,.3)};}
+
+/* ---------- Exercice 3 : genoux vers la poitrine, pieds sur les sliders ---------- */
+function tuck(t){const k=ease(t);
+  const hand=P(292,-12),sh=P(300,-142);
+  const ank=P(lerp(678,486,k),-24),foot=P(ank.x+30,-18);
+  const hip=P(lerp(455,430,k),lerp(-120,-172,k));
+  const knee=ik(hip,ank,L.thigh,L.shin,(a,b)=>a.y>b.y?a:b);
+  const elb=mix(sh,hand,.5);elb.x+=3;
+  const kb=$('kitBack'),kf=$('kitFront');kb.innerHTML='';kf.innerHTML='';
+  raw(kb,`<ellipse cx="${(ank.x+14).toFixed(1)}" cy="-6" rx="40" ry="8" fill="${C.slider}"/><ellipse cx="${(ank.x+14).toFixed(1)}" cy="-9" rx="40" ry="7" fill="#6e3a27"/>`);
+  return {S:{sh,hip,knee,ank,foot,elb,hand,farArm:{e:P(elb.x-12,elb.y),h:P(hand.x-14,hand.y)},farLeg:{k:P(knee.x-8,knee.y-4),a:P(ank.x-10,ank.y-2),f:P(foot.x-10,foot.y-2)}},hl:mix(sh,hip,.5)};}
+
+const EX=[
+  {f:bridge,name:'Pont fessier',kit:'Avec la bande moyenne',n:10,period:3.2,cues:['Expire, monte le bassin','Inspire, redescends']},
+  {f:squat,name:'Squat avec bande',kit:'Avec la bande forte',n:10,period:3.4,cues:['Inspire, descends','Expire, pousse dans les talons']},
+  {f:tuck,name:'Genoux à la poitrine',kit:'Avec les 2 sliders',n:10,period:3.0,cues:['Expire, ramène les genoux','Inspire, repousse']}];
+const PER=13; /* secondes montrées par exercice dans la démo */
+
+function render(T){
+  const idx=Math.floor(T/PER)%EX.length,e=EX[idx],lt=T%PER;
+  const ph=(lt%e.period)/e.period, tri=ph<.5?ph*2:2-ph*2;               // aller-retour
+  const r=e.f(tri);drawBody(r.S);
+  $('hl').setAttribute('cx',r.hl.x.toFixed(1));$('hl').setAttribute('cy',r.hl.y.toFixed(1));$('hl').setAttribute('opacity',(.55+.45*tri).toFixed(2));
+  $('num').textContent='EXERCICE '+(idx+1)+' / 3';$('name').textContent=e.name;$('kit').textContent=e.kit;
+  const cue=$('cue');const ct=ph<.5?e.cues[0]:e.cues[1];if(cue.textContent!==ct){cue.textContent=ct;}
+  const reps=Math.min(e.n,Math.floor(lt/e.period)+ (ph>=.5?1:0)*0+Math.floor(lt/e.period)*0);
+  $('reps').innerHTML=Math.min(e.n,Math.floor(lt/e.period)+1)+'<i>/ '+e.n+'</i>';
+  const total=40,rest=Math.max(0,total-Math.floor(lt*40/PER));$('time').textContent='00:'+String(rest).padStart(2,'0');
+  $('bar').style.transform='scaleX('+(lt/PER).toFixed(3)+')';
+  for(let i=0;i<3;i++){const s=$('s'+i);s.className=i===idx?'on':(i<idx?'done':'');}
+}
+let t0=null;
+if(window.__frame===undefined){(function loop(now){if(t0===null)t0=now;render((now-t0)/1000);requestAnimationFrame(loop);})(performance.now());}
+window.renderAt=render;
+</script>
+</body></html>

@@ -1,0 +1,68 @@
+<style>
+  .vc{--choco:#552b1d;--ink:#2b1710;--cream:#f4ece2;--fluo:#2ef27a;--muted:#7a5a48;background:var(--cream);font-family:'Inter',system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;padding:104px 0}
+  .vc *{box-sizing:border-box}
+  .vc .in{max-width:1200px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}
+  .vc img{width:100%;height:auto;display:block;border-radius:28px}
+  .vc .k{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:10px}
+  .vc .k::before{content:"";width:24px;height:2px;background:var(--fluo)}
+  .vc h2{font-family:'Outfit',sans-serif;font-weight:600;font-size:clamp(32px,4.2vw,56px);line-height:1.02;letter-spacing:-.03em;margin:18px 0 16px;text-wrap:balance}
+  .vc h2 em{font-style:normal;font-weight:300}
+  .vc p{margin:0;color:var(--muted);font-size:17px;line-height:1.6;max-width:44ch}
+  .vc ul{list-style:none;padding:0;margin:26px 0 30px;display:grid;grid-template-columns:1fr 1fr;gap:12px 18px}
+  .vc li{display:flex;gap:10px;align-items:center;font-size:15px;font-weight:500}
+  .vc li::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--fluo);box-shadow:0 0 0 4px rgba(46,242,122,.22)}
+  .vc-btn{display:inline-flex;align-items:center;gap:10px;background:var(--fluo);color:var(--ink);font-weight:600;font-size:15px;padding:16px 26px;border-radius:999px;text-decoration:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s ease-out,box-shadow .25s ease}
+  .vc-btn:hover{box-shadow:0 12px 34px rgba(46,242,122,.4)}
+  .vc-btn:active{transform:scale(.97)}
+  /* apparition plus vive des blocs de la page (retour de l'audit) */
+  .vp-js .rv{transition-duration:.6s!important;transition-delay:calc(var(--i,0) * 70ms)!important}
+  /* Pièce par pièce */
+  .vc-pc{max-width:1200px;margin:88px auto 0;padding:0 24px}
+  .vc-pc h3{font-family:'Outfit',sans-serif;font-weight:600;font-size:clamp(24px,2.6vw,34px);letter-spacing:-.02em;margin:0 0 22px}
+  .vc-pc h3 em{font-style:normal;font-weight:300;color:var(--muted)}
+  .vc-pc .rw{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+  .vc-pc figure{margin:0}
+  .vc-pc .ph{aspect-ratio:4/5;border-radius:20px;overflow:hidden;background:#eadfd2}
+  .vc-pc img{width:100%;height:100%;object-fit:cover;border-radius:0;transition:transform 1.1s cubic-bezier(.2,.8,.2,1)}
+  .vc-pc figure:hover img{transform:scale(1.05)}
+  .vc-pc figcaption{margin-top:10px;font-size:15px;font-weight:600}
+  .vc-pc figcaption span{display:block;font-weight:400;font-size:13px;color:var(--muted);margin-top:2px}
+  @media (max-width:900px){.vc-pc{margin-top:56px;padding:0}.vc-pc h3{padding:0 16px}
+    .vc-pc .rw{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding:0 16px 6px;scroll-padding-left:16px;scrollbar-width:none}
+    .vc-pc .rw::-webkit-scrollbar{display:none}.vc-pc figure{flex:0 0 62%;scroll-snap-align:start}}
+  @media (max-width:900px){.vc{padding:64px 0}.vc .in{grid-template-columns:1fr;gap:32px;padding:0 16px}}
+</style>
+<section class="vc" aria-label="Le coffret VAURE">
+  <div class="in">
+    <img src="{{ 'vaure-kit-vue-dessus.webp' | file_url }}" width="1200" height="1281" loading="lazy" alt="Le kit VAURE vu du dessus : petit ballon, cercle, 3 bandes, brique, 2 sliders, rouleau et tapis">
+    <div>
+      <span class="k">Le coffret</span>
+      <h2>Tout est dedans. <em>Rien à acheter en plus.</em></h2>
+      <p>Des pièces assorties, pensées pour aller ensemble, et les exercices guidés pour savoir exactement quoi en faire.</p>
+      <ul>
+        <li>Un tapis</li><li>Un cercle de Pilates</li><li>Un petit ballon</li><li>3 bandes élastiques</li>
+        <li>Une brique</li><li>2 sliders</li><li>Un rouleau</li><li>Les exercices guidés</li>
+      </ul>
+      <a class="vc-btn" href="#vp-attente">Être prévenue du lancement
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+    </div>
+  </div>
+  <div class="vc-pc">
+    <h3>Pièce par pièce. <em>À quoi sert chacune.</em></h3>
+    <div class="rw">
+      <figure><div class="ph"><img src="{{ 'vaure-tapis.webp' | file_url }}" width="900" height="1125" loading="lazy" alt="Le tapis VAURE chocolat à moitié roulé sur le sol, dans une lumière douce"></div><figcaption>Le tapis<span>Ta zone de séance, partout. Se roule et se range</span></figcaption></figure>
+      <figure><div class="ph"><img src="{{ 'vaure-cercle.webp' | file_url }}" width="900" height="1125" loading="lazy" alt="Le cercle de Pilates VAURE chocolat et ses deux poignées en mousse, posé à plat"></div><figcaption>Le cercle<span>Il résiste quand tu le presses : bras, cuisses</span></figcaption></figure>
+      <figure><div class="ph"><img src="{{ 'vaure-ballon.webp' | file_url }}" width="900" height="1125" loading="lazy" alt="Le petit ballon VAURE chocolat posé au sol"></div><figcaption>Le petit ballon<span>Un peu d'instabilité pour les muscles profonds</span></figcaption></figure>
+      <figure><div class="ph"><img src="{{ 'vaure-brique-sliders.webp' | file_url }}" width="900" height="1125" loading="lazy" alt="La brique crème VAURE et les deux sliders ovales chocolat"></div><figcaption>La brique et les 2 sliders<span>La brique pour bien te placer, les sliders pour glisser</span></figcaption></figure>
+      <figure><div class="ph"><img src="{{ 'vaure-rouleau-dos.webp' | file_url }}" width="900" height="1125" loading="lazy" alt="Une femme allongée sur le tapis VAURE, le rouleau à reliefs sous le haut du dos, bras ouverts"></div><figcaption>Le rouleau<span>En fin de séance, pour relâcher le haut du dos</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "VAURE – coffret",
+  "settings": [],
+  "presets": [{ "name": "VAURE – coffret" }]
+}
+{% endschema %}

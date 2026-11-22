@@ -1,0 +1,137 @@
+# Dossier ORGANISATION ÉLÉGANTE : 10 objets cohérents (maison, papiers, bureau, voyage), inspirés des tendances Pinterest
+# « home organization », « Pen Pals », « Poetcore ». Chaque objet règle un problème précis de la même cliente.
+# Méthode du support Scutify (niche → observation → cible → problème → pistes → idée → critères → 4 questions).
+# Liens Alibaba et prix vérifiés le 14/11/2026. Coût = $ × 0,86. Version précédente (Pilates) : dossier_v6_pilates.py.
+
+DEMANDE = "L'organisation de la maison est l'un des plus gros univers de Pinterest ; Pinterest Predicts 2026 : « snail mail gifts » +110 %, « cute stamps » +105 % ; la méthode des enveloppes (budget) est très partagée."
+MODELE = "Kosso et Hustle Wear (une cible, plusieurs produits qui se répondent, des packs) ; Bellroy et Fossil prouvent qu'on paie cher un objet d'organisation bien fait."
+CIBLE = "Femmes et hommes de 25 à 45 ans, actifs, qui veulent une maison et une vie plus organisées, avec de beaux objets plutôt que du plastique."
+CONC = "Concurrence : des versions basiques à petit prix existent (Amazon, Kaufland, Action) ; la marque se démarque par le design, les finitions, la belle boîte et les étiquettes en français."
+PISTES = "Porte-clés mural · vide-poche en cuir · trieur de papiers · classeur budget · pochette ordinateur · carnet rechargeable · sous-main · pochette passeports · cachet de cire · sacoche en cuir."
+
+
+def fiche(court, nom, usage, lien, usd, liv, revente, probleme, idee, eco, wow, prix_france, fournisseur, vigilance, q4, poids="Léger, petit colis."):
+    return dict(
+        court=court, nom=nom, niche=f"Organisation élégante · {usage}", lien=lien, usd=usd, liv=liv, revente=revente,
+        criteres=("OUI", "OUI", "OUI", "OUI", "OUI", "NON"), modele=MODELE, demande=DEMANDE,
+        observation="Sur Pinterest, les intérieurs et les bureaux bien rangés sont partout ; dans la vraie vie, clés, papiers et câbles s'éparpillent et on perd du temps chaque jour.",
+        cible=CIBLE, probleme=probleme,
+        question=f"Comment {usage.lower()} simplement, avec un bel objet ?",
+        pistes=PISTES, idee=idee,
+        c_probleme="OUI : " + probleme[0].lower() + probleme[1:],
+        c_economique=eco, c_passion="OUI : la déco, l'organisation, les beaux objets du quotidien.", c_wow=wow,
+        c_unique="Design sobre et premium (cuir, bois, laiton), belle boîte, étiquettes et guide en français.",
+        c_poids=poids,
+        q1="Bien : vrai problème quotidien, produit léger, se garde toute l'année.",
+        q2="Oui : on comprend l'usage en voyant la photo avant / après.",
+        q3="Oui : vidéos avant / après, « 5 minutes pour ranger mon entrée », packs.",
+        q4=q4, prix_france=prix_france,
+        angle_pub="Avant / après : le désordre, puis l'objet qui range tout, en 15 secondes.",
+        fournisseur=fournisseur, vigilance=vigilance + " " + CONC)
+
+
+A = "https://www.alibaba.com/product-detail/"
+FICHES = [
+ fiche("Porte-clés mural avec étagère", "Porte-clés mural en bois : crochets pour les clés, étagère vide-poche, range-courrier", "ne plus chercher ses clés",
+       A + "Wooden-wood-Wall-Mounted-Key-and_1600214960552.html", 3.00, 7, 34.90,
+       "On cherche ses clés tous les matins et le courrier s'entasse dans l'entrée.",
+       "Je veux permettre aux familles de retrouver clés et courrier en une seconde, avec un bel objet dans l'entrée.",
+       "OUI : fin des clés perdues et des doubles à refaire.", "Avant / après de l'entrée en 15 secondes.",
+       "Modèles de 20,50 à 36,66 € (comparatif LeBonTri), Kaufland 22,78 €.", "3 $ (10 à 49), bois et métal.",
+       "Fournir les vis et chevilles ; vérifier la solidité des crochets.",
+       "OUI : produit d'entrée simple, visuel et utile tous les jours.", poids="Colis d'environ 1 kg."),
+ fiche("Vide-poche en cuir", "Plateau vide-poche en cuir à boutons-pression pour clés, montre, bijoux, portefeuille", "ranger ses petits objets",
+       A + "Handmade-Premium-Leather-Valet-Tray-Dice_1601215748409.html", 1.00, 9, 29.90,
+       "Montre, bijoux, clés et monnaie traînent sur la table de chevet ou le meuble de l'entrée.",
+       "Je veux permettre à chacun de poser ses objets du quotidien au même endroit, dans un plateau élégant.",
+       "OUI : plus d'objets perdus le matin.", "Le plateau qui se monte en un clic avec les boutons-pression.",
+       "Bruneau 41,95 € HT ; Montblanc 340 € ; artisans 30 à 60 €.", "1 $ (1 à 499), logo dès 300.",
+       "Vérifier la matière (cuir ou simili) et l'annoncer honnêtement.",
+       "OUI : idée cadeau toute l'année, parfait en 2e produit."),
+ fiche("Trieur papiers importants", "Trieur 13 compartiments ignifugé à fermeture zip, avec étiquettes en français (santé, impôts, banque, maison…)", "retrouver ses papiers importants",
+       A + "Fireproof-Multi-Layer-Accordion-File-Folder_1601781954486.html", 9.50, 7, 39.90,
+       "Les papiers importants sont éparpillés et on ne retrouve rien le jour où on en a besoin.",
+       "Je veux permettre aux familles de ranger tous leurs papiers importants au même endroit, classés et protégés.",
+       "OUI : du temps gagné et du stress en moins à chaque démarche.", "Tout un tiroir de papiers rangé dans un seul trieur.",
+       "Trieurs simples 11 à 20 € ; Fellowes 48,96 € ; valisettes 40 à 50 €.", "9,50 $ (200 à 499), 7 $ dès 5 000.",
+       "Ne pas promettre une protection totale contre le feu sans test ; parler de « résistant à la chaleur ».",
+       "OUI : vrai problème pour toutes les familles, peu de produits beaux et organisés.", poids="Colis d'environ 1 kg."),
+ fiche("Classeur budget à enveloppes", "Classeur A6 avec enveloppes zippées, feuilles de budget en français et étiquettes", "tenir son budget",
+       A + "Marble-A6-Budget-Binder-with-Zip_1600733904045.html", 2.99, 8, 34.90,
+       "L'argent file sans qu'on sache où ; on n'arrive pas à mettre de côté.",
+       "Je veux permettre à ceux qui veulent reprendre leur budget en main de suivre la méthode des enveloppes avec un joli classeur.",
+       "OUI : aide à économiser bien plus que son prix.", "Le remplissage des enveloppes en vidéo, très partagé.",
+       "Kaufland 16,88 à 44,99 € ; Fruugo 18,16 € (prix conseillé 30,85 €).", "2,99 $ (10 à 199), logo possible.",
+       "Feuilles de budget à traduire et à imprimer en français.",
+       "OUI : tendance forte sur Pinterest et TikTok, achat très émotionnel."),
+ fiche("Pochette ordinateur portable", "Pochette fine en cuir synthétique imperméable pour ordinateur 13-15 pouces, avec support et tapis de souris intégrés", "protéger son ordinateur",
+       A + "Waterproof-PU-Leather-Lap-Sleeve-Slim_1601679096387.html", 4.20, 8, 34.90,
+       "L'ordinateur se raye et prend des chocs dans le sac, et on travaille mal installé au café ou en déplacement.",
+       "Je veux permettre aux actifs qui travaillent partout de protéger leur ordinateur et de s'installer en 5 secondes, avec une pochette élégante qui sert aussi de support.",
+       "OUI : évite une réparation d'écran ou de coque ; remplace support et tapis de souris.", "La pochette qui se déplie en support et en tapis de souris.",
+       "Yonis 31,20 à 44,20 € ; modèle avec support et tapis 35,98 € ; Trunk en cuir 39,95 à 67,95 €.", "4,20 $ (100 à 499), logo accepté, plusieurs couleurs.",
+       "Annoncer « cuir synthétique » ; vérifier les tailles (13, 14, 15 pouces) et la compatibilité MacBook.",
+       "OUI : tout le monde a un ordinateur portable, cohérent avec le sous-main et le carnet.", poids="Colis d'environ 500 g."),
+ fiche("Carnet en cuir rechargeable", "Carnet en cuir style vintage avec recharges kraft, logo doré", "noter et organiser ses idées",
+       A + "High-Quality-Handmade-Custom-Vintage-Genuine_1600923403516.html", 2.30, 8, 34.90,
+       "Les idées et les listes sont éparpillées sur des papiers volants et dans le téléphone.",
+       "Je veux permettre à ceux qui aiment écrire de tout garder dans un seul carnet qui dure des années.",
+       "OUI : on change seulement la recharge.", "Le cuir qui se patine, très « Pinterest ».",
+       "PaperWrld 36,49 à 39,49 € ; Traveler's Company 52 à 66 $.", "Cuir véritable, 2,30 $ (100 minimum).",
+       "Vérifier la qualité du cuir sur échantillon.",
+       "OUI : tendance « Poetcore » et journaling, achat répété des recharges."),
+ fiche("Sous-main de bureau", "Grand sous-main en cuir synthétique, imperméable et antidérapant", "avoir un bureau net",
+       A + "Multifunctional-Desk-Pad-Waterproof-PU-Leather_1600108081618.html", 3.20, 7, 34.90,
+       "Le bureau en télétravail est encombré, rayé et taché.",
+       "Je veux permettre à ceux qui travaillent chez eux d'avoir un bureau net et agréable en un seul geste.",
+       "OUI : protège le bureau et remplace le tapis de souris.", "Le bureau transformé en 10 secondes.",
+       "Sous-mains synthétiques de 15 à 47 € (JGD jusqu'à 47 €).", "3,20 $ (2 à 2 999), logo dès 0,15 $.",
+       "Annoncer « cuir synthétique », jamais « cuir ».",
+       "OUI : télétravail installé, produit utile tous les jours.", poids="Colis d'environ 750 g."),
+ fiche("Pochette passeports famille", "Pochette zippée pour 4 passeports, billets et cartes, protection RFID", "garder les papiers de voyage ensemble",
+       A + "Pu-Leather-Passport-Bag-Rfid-Multi_1600903701183.html", 2.49, 9, 29.90,
+       "À l'aéroport, on cherche les passeports et les billets de toute la famille dans tous les sacs.",
+       "Je veux permettre aux familles qui voyagent d'avoir tous leurs papiers au même endroit, dans une pochette sûre.",
+       "OUI : moins de stress et de risque de perte en voyage.", "Toute la famille prête au contrôle en une seconde.",
+       "Modèles simples 5 à 25 € (Voopies 24,90 €) ; Fossil en cuir 89 €.", "2,49 $ (5 à 49), 1,99 $ dès 1 000.",
+       "Tester la protection RFID avant de l'annoncer.",
+       "OUI : achat facile avant chaque voyage, idée cadeau."),
+ fiche("Coffret cachet de cire", "Coffret avec tampon en laiton à l'initiale, perles de cire, cuillère", "personnaliser ses lettres et cadeaux",
+       A + "Pink-Wax-Seal-Stamp-Kit-with_1601147778139.html", 2.90, 9, 29.90,
+       "Les cartes et les paquets cadeaux faits maison manquent de finition.",
+       "Je veux permettre à ceux qui aiment écrire et offrir de donner une touche élégante à chaque lettre et chaque cadeau.",
+       "OUI : remplace des cartes et emballages de luxe.", "Le cachet qui se décolle de la cire, très partagé en vidéo.",
+       "Kit cachet de cire 40,94 € (Greenweez) ; kits d'entrée de gamme dès 3,59 € (Action).", "2,90 $ (10 à 49), lettre au choix.",
+       "Proposer chaque lettre de l'alphabet en stock.",
+       "OUI : tendance Pinterest « Pen Pals » (+105 % « cute stamps »)."),
+ fiche("Sacoche en cuir homme", "Sacoche bandoulière en cuir véritable, compacte, pour téléphone, clés, portefeuille et écouteurs", "garder ses affaires sur soi",
+       A + "MARRANT-Genuine-Leather-Men-Sling-Bag_1601104139339.html", 12.50, 8, 49.90,
+       "Les poches débordent (téléphone, clés, portefeuille) et on a peur des vols dans les transports.",
+       "Je veux permettre aux hommes qui sortent en ville de garder leurs affaires rangées sur eux, en sécurité et les mains libres, avec une sacoche en cuir qui a du style.",
+       "OUI : remplace des poches pleines et protège des vols.", "Les poches vidées sur la table, puis tout rangé dans la sacoche en 5 secondes.",
+       "Lacoste environ 60 à 150 € (parfois 40 € en promotion) ; places de marché en cuir 43 à 60 €.", "Cuir véritable, 12,50 $ (50 à 499), logo accepté.",
+       "Demander un certificat de matière et un échantillon avant d'écrire « cuir véritable » ; aucun design qui copie une marque.",
+       "OUI : produit très tendance, marge la plus forte de la liste, se vend toute l'année.", poids="Colis d'environ 500 g."),
+]
+for _f in FICHES:
+    _f["cout"] = round(_f["usd"] * 0.86, 2)
+    _f["marge"] = round(_f["revente"] - _f["cout"], 2)
+
+SOURCES = [
+ ("Pinterest Predicts 2026", "https://newsroom.pinterest.com/en-ca/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/"),
+ ("BeautyMatter, chiffres Pen Pals", "https://beautymatter.com/articles/pinterest-predicts-2026"),
+ ("LeBonTri, comparatif porte-clés muraux", "https://lebontri.fr/blog/rangement/meilleur-porte-cle-mural"),
+ ("Kaufland, porte-clés avec étagère", "https://www.kaufland.fr/product/555558377/"),
+ ("Bruneau, vide-poche en cuir", "https://www.bruneau.lu/en/product/8016752"),
+ ("Rue du Commerce, trieur Fellowes", "https://www.rueducommerce.fr/p/m24070050610.html"),
+ ("Fruugo, classeur budget A6", "https://www.fruugo.fr/classeur-budgetaire-a6-ecologique-leger-portable-et-classifiable-pour-la-gestion-de-fonds/p-410851074-869572147"),
+ ("Que Choisir, méthode des enveloppes", "https://www.quechoisir.org/conseils-depenses-du-quotidien-maitrisez-votre-budget-avec-la-methode-des-enveloppes-n171136/"),
+ ("Rue du Commerce, pochette Yonis", "https://www.rueducommerce.fr/p/m25078926004.html"),
+ ("LDLC, housse Trunk en cuir", "https://www.ldlc.com/fiche/PB00613205.html"),
+ ("PaperWrld, carnet en cuir", "https://paperwrld.com/fr-fr/products/leather-bound-travel-journal"),
+ ("Touslesprix, sous-mains", "https://www.touslesprix.com/achat,sous-main-bureau-cuir-noir.html"),
+ ("Fossil, étui passeport en cuir", "https://www.fossil.com/fr-fr/products/cadeau-etui-pour-passeport-en-cuir/MLG0800212.html"),
+ ("Greenweez, kit cachet de cire", "https://www.greenweez.com/produit/encre-de-chine-noir-india-ink-20-ml/1PEBE0625"),
+ ("Lacoste, sacoches et pochettes homme", "https://www.lacoste.com/fr/lacoste/homme/sacs-petite-maroquinerie/sacoches-pochettes/"),
+ ("La Poste, tarifs Colissimo 2026", "https://www.laposte.fr/professionnel/tarif-colissimo"),
+]

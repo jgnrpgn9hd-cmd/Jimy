@@ -1,0 +1,61 @@
+<style>
+  .vto{background:#f4ece2;color:#2b1710;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;padding:96px 0 104px}
+  .vto .in{max-width:1200px;margin:0 auto;padding:0 24px}
+  .vto .hd{display:grid;gap:18px;margin-bottom:40px}
+  .vto .k{font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:#552b1d;display:flex;align-items:center;gap:10px}
+  .vto .k::before{content:"";width:28px;height:3px;background:#2ef27a;transform:skewX(-20deg)}
+  .vto h2{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:clamp(42px,5.6vw,80px);line-height:.9;margin:0;max-width:14ch}
+  .vto h2 em{font-style:italic;color:#552b1d}
+  .vto .hd p{margin:0;font-size:17px;line-height:1.55;color:#5a4134;max-width:46ch}
+  .vto .hd a{color:#2b1710;font-weight:600;text-underline-offset:3px}
+  /* Mosaïque */
+  .vto .mo{columns:2;column-gap:10px}
+  .vto figure{position:relative;margin:0 0 10px;break-inside:avoid;border-radius:10px;overflow:hidden;background:#e6d8c8}
+  .vto img{display:block;width:100%;height:auto;transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}
+  .vto figure:hover img{transform:scale(1.04)}
+  .vto figcaption{position:absolute;left:10px;bottom:10px;right:10px;display:flex}
+  .vto figcaption span{background:none;color:#fbf7f2;font-size:13px;letter-spacing:.01em;font-weight:500;padding:0;text-shadow:0 1px 10px rgba(0,0,0,.45);display:inline-flex;align-items:center;gap:7px;max-width:100%}
+  .vto figcaption i{width:7px;height:7px;border-radius:50%;background:#2ef27a;flex:none}
+  @media (min-width:761px){
+    .vto{padding:128px 0 140px}
+    .vto .hd{grid-template-columns:1.1fr 1fr;align-items:end;column-gap:64px;margin-bottom:56px}
+    .vto .hd .k,.vto .hd h2{grid-column:1}.vto .hd p{grid-column:2;grid-row:2}
+    .vto .mo{columns:3;column-gap:16px}.vto figure{margin-bottom:16px;border-radius:12px}
+    .vto figcaption{left:14px;bottom:14px}
+  }
+  @media (max-width:760px){.vto .in{padding:0 12px}.vto .hd{padding:0 4px}.vto figcaption span{font-size:10px;padding:5px 8px}}
+  .vto-on .vto figure{opacity:0;transform:translateY(34px);transition:opacity .8s cubic-bezier(.2,.8,.2,1),transform .8s cubic-bezier(.2,.8,.2,1)}
+  .vto-on .vto figure.vis{opacity:1;transform:none}
+</style>
+<section class="vto" aria-label="Pour toutes">
+  <div class="in">
+    <div class="hd">
+      <span class="k">Elle te ressemble</span>
+      <h2>Pour tous les corps. <em>Chaque mouvement s'adapte.</em></h2>
+      <p>Quel que soit ton âge, ta morphologie ou ta tenue, les mouvements s'adaptent à toi. Dans l'appli, tu choisis la silhouette qui te ressemble et tu suis les exercices avec elle. <a href="/pages/les-exercices">Voir les exercices</a></p>
+    </div>
+    <div class="mo">
+      <figure><img src="{{ 'vaure-squat-bande.webp' | file_url }}" width="1100" height="1173" loading="lazy" alt="Une femme fait un squat, une bande VAURE au-dessus des genoux, sur le tapis chocolat"><figcaption><span>Squat · bande</span></figcaption></figure>
+      <figure><img src="{{ 'vaure-planche-foulard.webp' | file_url }}" width="1100" height="733" loading="lazy" alt="Une femme portant un foulard tient une planche sur les avant-bras, sur le tapis chocolat VAURE"><figcaption><span>Planche · tapis</span></figcaption></figure>
+      <figure><img src="{{ 'vaure-rouleau-dos.webp' | file_url }}" width="900" height="1125" loading="lazy" alt="Une femme allongée, le rouleau VAURE sous le haut du dos, bras ouverts"><figcaption><span>Retour au calme · rouleau</span></figcaption></figure>
+      <figure><img src="{{ 'vaure-sliders-genoux.webp' | file_url }}" width="1100" height="733" loading="lazy" alt="Une femme fait des mountain climbers, les pieds sur les deux sliders VAURE"><figcaption><span>Mountain climber · sliders</span></figcaption></figure>
+      <figure><img src="{{ 'vaure-bandes.webp' | file_url }}" width="1199" height="1312" loading="lazy" alt="Les 3 bandes VAURE : légère crème, moyenne taupe, forte chocolat"><figcaption><span>Les 3 bandes</span></figcaption></figure>
+      <figure><img src="{{ 'vaure-pont-salon.webp' | file_url }}" width="1199" height="1312" loading="lazy" alt="Une femme fait un pont fessier avec la bande taupe sur le tapis chocolat VAURE" style="object-position:30% 60%"><figcaption><span>Pont fessier · bande</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+<script>
+(function(){var s=[].slice.call(document.querySelectorAll('.vto')).pop();if(!s||!window.IntersectionObserver)return;
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  document.documentElement.classList.add('vto-on');
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target);}});},{threshold:.12});
+  [].forEach.call(s.querySelectorAll('figure'),function(f,i){f.style.transitionDelay=(i%3)*90+'ms';io.observe(f);});})();
+</script>
+
+{% schema %}
+{
+  "name": "VAURE – pour toutes",
+  "settings": [],
+  "presets": [{ "name": "VAURE – pour toutes" }]
+}
+{% endschema %}
