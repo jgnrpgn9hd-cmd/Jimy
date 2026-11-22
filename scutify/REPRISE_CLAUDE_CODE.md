@@ -769,3 +769,13 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - config/settings_data.json : boutons principaux chocolat (plus de vert fluo) dans panier/contact/pages, angles 4–6 px, titres produits et boutons sans majuscules.
 - sections/header-group.json : « Programme vidéo de 30 jours inclus » (faux : pas de vidéo) → « Le défi 30 jours guidé, inclus avec le kit ».
 - Restent dans le thème mais NON affichés (aucun render) : vaure-popup (−10 % bijoux), vaure-black-friday (bijoux). À supprimer un jour.
+
+## Google / onglet + pages (restes bijoux et infos fausses)
+- snippets/meta-tags.liquid (md5 1747e240…) : titre de l'accueil « VAURE – Bijoux en acier faits pour durer » → « VAURE – Le Pilates à la maison : le kit et le défi 30 jours » ;
+  description de l'accueil (et de toute page qui retomberait sur la description bijoux de la boutique) → texte du kit ; balise description toujours remplie.
+- Produit : description SEO « programme vidéo » → « exercices guidés ».
+- Pages : CGV « programme vidéo » → « programme d'exercices guidés » ; Pourquoi VAURE : phrase « chocolat et crème » remplacée, lien kit → /#vp-offre ;
+  Suivre ma commande : « 11 à 21 jours » (ancien délai bijoux, non vérifié) retiré, renvoi vers Livraison, tutoiement ;
+  Questions fréquentes : « Des accessoires se trouvent pas cher » → « On trouve des accessoires moins chers ailleurs. Pourquoi VAURE ? ».
+- Vérifié : aucun produit actif (pas de bijoux visibles), menus utilisés = vaure-pilates / vaure-pilates-aide / vaure-maison (propres).
+- Reste : la description de la boutique (Préférences Shopify) parle encore de bijoux → à changer par Jairo dans Boutique en ligne > Préférences. Même question FAQ sur l'accueil (vaure-pilates-home.liquid) à reformuler au prochain envoi.
