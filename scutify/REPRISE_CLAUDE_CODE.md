@@ -691,3 +691,11 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - cta (bcca65e6…) : un script déplace .pain juste après .v3, et .prog juste après .vse.
   - Chaque bloc est enveloppé dans un div qui reprend les classes de .vp (dont vp-js), pour garder les styles.
   - Testé sur une maquette (Playwright).
+
+## Inspiré de makemymask.co (analysé avec Playwright ; hôtes ajoutés au réseau)
+- Ce qu'ils font : produit et prix tout de suite, bouton direct, fondatrice experte, protocole en étapes, diagnostic, beaucoup d'avis.
+- sections/vaure-pilates-offre.liquid (6fb834c2…) : carte produit avec photo, titre et prix lus dans all_products['kit-pilates-vaure'] (39,90 € par défaut), 3 chiffres clés et un bouton.
+  - Le bouton passe tout seul à « Je veux le kit · prix » vers la fiche produit quand le produit est actif et disponible.
+- sections/vaure-pilates-fondateur.liquid (525ada27…) : citation de Léo sur fond chocolat, lien vers /pages/notre-histoire.
+- index.json (fd91d8a3…) : annonce → ouverture → [constat] → pièce par pièce → OFFRE → appli → film → séance → [défi] → mosaïque → FONDATEUR → FAQ → liste d'attente.
+- cta (0d8f5388…) : photo du kit retirée du bloc liste d'attente, pour ne pas la montrer une 3e fois.

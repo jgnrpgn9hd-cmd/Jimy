@@ -49,16 +49,26 @@
     "vaure_seance": {
       "type": "vaure-pilates-seance",
       "settings": {}
+    },
+    "vaure_offre": {
+      "type": "vaure-pilates-offre",
+      "settings": {}
+    },
+    "vaure_fondateur": {
+      "type": "vaure-pilates-fondateur",
+      "settings": {}
     }
   },
   "order": [
     "vaure_annonce",
     "vaure_3d",
     "vaure_coffret",
+    "vaure_offre",
     "vaure_appli",
     "vaure_film",
     "vaure_seance",
     "vaure_toutes",
+    "vaure_fondateur",
     "vaure_sport",
     "vaure_pilates",
     "vaure_retouches",

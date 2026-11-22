@@ -41,9 +41,7 @@
 <script>
 (function(){var w=document.getElementById('vp-attente');if(!w||w.dataset.vx)return;w.dataset.vx=1;var inr=w.querySelector('.in')||w;
   var k=inr.querySelector('.kicker');
-  var im=new Image();im.className='wkit';im.src={{ 'vaure-kit-vue-dessus.webp' | file_url | json }};im.width=1200;im.height=1281;im.loading='lazy';
-  im.alt='Le kit VAURE vu du dessus : les 8 pièces chocolat et crème';im.onerror=function(){im.remove();};
-  if(k){inr.insertBefore(im,k);k.textContent='Bientôt disponible · 39,90 €';}
+  if(k){k.textContent='Bientôt disponible · 39,90 €';}
   var ul=document.createElement('ul');ul.className='wperks';
   ul.innerHTML='<li>Prévenue en premier, le jour du lancement</li><li><a href="/pages/les-exercices">Les exercices guidés</a> déjà accessibles, gratuitement</li><li>Désinscription en un clic</li>';
   var f=inr.querySelector('form');(f||inr).insertAdjacentElement(f?'afterend':'beforeend',ul);
