@@ -1,5 +1,5 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Caveat:wght@500;600&display=swap">
 <style>
   .vcta{position:fixed;left:50%;bottom:16px;z-index:60;transform:translate(-50%,140%);transition:transform .45s cubic-bezier(.2,.9,.25,1);width:min(560px,calc(100% - 24px));
     display:flex;align-items:center;gap:14px;padding:10px 10px 10px 18px;border-radius:999px;background:rgba(43,23,16,.94);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
@@ -96,6 +96,33 @@
   html body .vp .step .d{color:#c4a284!important}
   html body .vp .prog .kicker{color:#d9c6b5!important}
   html body .vf-end p{font-family:'Fraunces','Outfit',Georgia,serif!important;font-weight:400!important;text-transform:none!important;letter-spacing:-.02em}
+  html body .v3{--fluo:#7a4a35}  /* repères de l'ouverture : chocolat, plus de fluo */
+  /* ===== De la vie, sans effet « IA » ===== */
+  /* Grain argentique léger sur les photos : moins lisse, plus vrai */
+  .vc-pc .ph,.vof .ph,.v3-ph{position:relative}
+  .vto figure::before,.vc-pc .ph::after,.vof .ph::after,.v3-ph::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:1;opacity:.16;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+  /* Légendes de la mosaïque écrites à la main, comme dans un carnet */
+  .vto figcaption span{font-family:'Caveat',cursive!important;font-size:24px!important;font-weight:600!important;letter-spacing:0!important;transform:rotate(-2.5deg);transform-origin:left bottom;text-shadow:0 1px 12px rgba(0,0,0,.5)!important}
+  .vto figure:nth-child(even) figcaption span{transform:rotate(2deg)}
+  @media (max-width:760px){.vto figcaption span{font-size:19px!important}}
+  /* Photos qui « respirent » doucement en entrant à l'écran */
+  @media (prefers-reduced-motion:no-preference){
+    .vto figure.vis img,.vc-pc .ph img{animation:vbreath 9s ease-out both}
+    @keyframes vbreath{from{transform:scale(1.08)}to{transform:scale(1)}}
+  }
+  /* Aujourd'hui : la vraie date et la séance du jour */
+  .vauj{background:#fbf7f2;border-top:1px solid #eadfd2;border-bottom:1px solid #eadfd2;font-family:'Inter',system-ui,sans-serif;color:#2b1710;-webkit-font-smoothing:antialiased}
+  .vauj .in{max-width:1200px;margin:0 auto;padding:22px 24px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 28px}
+  .vauj .d{font-family:'Caveat',cursive;font-size:30px;line-height:1;color:#7a4a35;white-space:nowrap}
+  .vauj .s{flex:1;min-width:220px;font-size:15px;line-height:1.45}
+  .vauj .s b{font-weight:600}
+  .vauj .s span{color:#7a5a48}
+  .vauj .live{display:inline-block;width:8px;height:8px;border-radius:50%;background:#7a4a35;margin-right:8px;vertical-align:middle;animation:vpulse 2.4s ease-in-out infinite}
+  @keyframes vpulse{0%,100%{opacity:1}50%{opacity:.25}}
+  .vauj a{flex:none;display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:4px;background:#2b1710;color:#fbf7f2;font-weight:600;font-size:14px;text-decoration:none}
+  @media (max-width:760px){.vauj .in{padding:18px 16px}.vauj a{width:100%;justify-content:center}}
+  @media (prefers-reduced-motion:reduce){.vauj .live{animation:none}}
 </style>
 <div class="vcta" id="vcta" aria-hidden="true">
   <div class="t"><b>Le kit VAURE · 39,90 €</b><span>8 pièces + le défi 30 jours guidé</span></div>
@@ -207,6 +234,21 @@
 })();
 </script>
 
+<script>
+/* « Aujourd'hui » : la date du jour et le contenu réel de la séance du jour 1, juste après la promesse */
+(function(){
+  var hero=document.querySelector('.v3');if(!hero||document.querySelector('.vauj'))return;
+  var ref=hero.closest('.shopify-section')||hero,d=new Date(),txt;
+  try{txt=d.toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'});}catch(e){txt='';}
+  var s=document.createElement('section');s.className='vauj';s.setAttribute('aria-label','La séance du jour');
+  s.innerHTML='<div class="in"><span class="d">'+(txt?'Aujourd\'hui, '+txt:'Aujourd\'hui')+'</span>'+
+    '<p class="s"><i class="live" aria-hidden="true"></i><b>Jour 1 · Les bases</b> <span>· respiration, bascule du bassin, enroulé de colonne, retour au calme sur le rouleau · 14 min</span></p>'+
+    '<a href="/pages/les-exercices">La faire maintenant</a></div>';
+  ref.parentNode.insertBefore(s,ref.nextSibling);
+})();
+/* FAQ de l'accueil : question reformulée */
+(function(){[].forEach.call(document.querySelectorAll('.vp .faq summary'),function(s){var n=s.firstChild;if(n&&n.nodeType===3&&n.nodeValue.indexOf('se trouvent pas cher')>-1)n.nodeValue='On trouve des accessoires moins chers ailleurs. Pourquoi VAURE ?';});})();
+</script>
 {% schema %}
 {
   "name": "VAURE – barre d'action",

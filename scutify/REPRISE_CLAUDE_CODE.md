@@ -779,3 +779,10 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
   Questions fréquentes : « Des accessoires se trouvent pas cher » → « On trouve des accessoires moins chers ailleurs. Pourquoi VAURE ? ».
 - Vérifié : aucun produit actif (pas de bijoux visibles), menus utilisés = vaure-pilates / vaure-pilates-aide / vaure-maison (propres).
 - Reste : la description de la boutique (Préférences Shopify) parle encore de bijoux → à changer par Jairo dans Boutique en ligne > Préférences. Même question FAQ sur l'accueil (vaure-pilates-home.liquid) à reformuler au prochain envoi.
+
+## De la vie, sans effet « IA » (vaure-pilates-cta.liquid, md5 0000e87e…)
+- Bandeau « Aujourd'hui, <vraie date> » juste après l'ouverture : séance du jour 1 réelle (respiration, bascule du bassin, enroulé de colonne, retour au calme · 14 min) + bouton « La faire maintenant ».
+- Grain argentique léger sur les photos (mosaïque, pièces, offre, ouverture). Légendes de la mosaïque en écriture manuscrite (Caveat), légèrement penchées.
+- Photos qui « respirent » (léger dézoom) en entrant à l'écran. Repères de l'ouverture en chocolat (plus de fluo).
+- FAQ accueil : question reformulée en JS (« On trouve des accessoires moins chers ailleurs. Pourquoi VAURE ? »).
+- Photos Pilates TOUJOURS absentes de Shopify Fichiers : envoi bloqué côté Claude (sortie de fichiers), Jairo doit les téléverser (12 fichiers envoyés en pièce jointe).
