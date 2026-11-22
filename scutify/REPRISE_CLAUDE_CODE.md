@@ -706,3 +706,13 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
   - profondeur au survol des photos (mosaïque, pièce par pièce, offre) ; uniquement avec une souris, et désactivé si mouvement réduit ;
   - les chiffres 8 · 30 · 15 de l'offre comptent à l'apparition.
 - Testé avec Playwright : compteurs 0,0,0 → 8,30,15, transform appliqué au survol, aucune erreur JS.
+
+## « Ton niveau en 3 questions » (inspiré du diagnostic de makemymask)
+- sections/vaure-pilates-niveau.liquid (472e33e9…), placée après vaure_toutes dans index.json (8837acb6…).
+- Les 3 questions : sport actuel, Pilates déjà pratiqué, objectif.
+- Niveau = Q1+Q2 : 0–1 débutante, 2–3 bases, 4 confirmée. Chaque résultat donne :
+  - le jour de départ (1, ou 8 pour une confirmée) ;
+  - la bande (légère, moyenne, ou forte pour le squat), cohérente avec les consignes de l'appli ;
+  - la version de l'exercice ;
+  - les jours qui correspondent à l'objectif (8–14 gainage, 15–21 bas du corps).
+- Mention de sécurité incluse. Testé avec Playwright, aucune erreur.

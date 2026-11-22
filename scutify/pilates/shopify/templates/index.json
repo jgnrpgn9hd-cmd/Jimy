@@ -57,6 +57,10 @@
     "vaure_fondateur": {
       "type": "vaure-pilates-fondateur",
       "settings": {}
+    },
+    "vaure_niveau": {
+      "type": "vaure-pilates-niveau",
+      "settings": {}
     }
   },
   "order": [
@@ -68,6 +72,7 @@
     "vaure_film",
     "vaure_seance",
     "vaure_toutes",
+    "vaure_niveau",
     "vaure_fondateur",
     "vaure_sport",
     "vaure_pilates",

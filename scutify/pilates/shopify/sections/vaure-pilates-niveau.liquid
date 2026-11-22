@@ -1,0 +1,84 @@
+<style>
+  .vnv{background:#f4ece2;color:#2b1710;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;padding:96px 0}
+  .vnv *{box-sizing:border-box}
+  .vnv .in{max-width:760px;margin:0 auto;padding:0 24px}
+  .vnv .k{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:#7a5a48;display:flex;align-items:center;gap:10px}
+  .vnv .k::before{content:"";width:24px;height:2px;background:#2ef27a}
+  .vnv h2{font-family:'Outfit',sans-serif;font-weight:600;font-size:clamp(32px,4.2vw,52px);line-height:1.02;letter-spacing:-.03em;margin:16px 0 10px}
+  .vnv h2 em{font-style:normal;font-weight:300}
+  .vnv .sub{margin:0 0 28px;color:#7a5a48;font-size:17px;line-height:1.55}
+  .vnv .card{background:#fff;border-radius:20px;padding:28px;border:1px solid #eadfd2}
+  .vnv .step{font-size:13px;font-weight:600;color:#7a5a48;margin-bottom:6px}
+  .vnv .prog{height:4px;border-radius:4px;background:#efe4d6;margin-bottom:22px;overflow:hidden}
+  .vnv .prog i{display:block;height:100%;background:#2b1710;transition:width .4s cubic-bezier(.2,.8,.2,1)}
+  .vnv .q{font-family:'Outfit',sans-serif;font-size:24px;font-weight:600;letter-spacing:-.01em;margin:0 0 18px;line-height:1.2}
+  .vnv .opts{display:grid;gap:10px}
+  .vnv .opts button{all:unset;cursor:pointer;display:block;padding:16px 18px;border:1px solid #e2d4c4;border-radius:14px;font-size:16px;font-weight:500;transition:border-color .2s,background .2s;-webkit-tap-highlight-color:transparent}
+  .vnv .opts button:hover{border-color:#2b1710}
+  .vnv .opts button:focus-visible{outline:2px solid #2b1710;outline-offset:2px}
+  .vnv .opts button small{display:block;color:#7a5a48;font-size:13px;font-weight:400;margin-top:2px}
+  .vnv .back{all:unset;cursor:pointer;margin-top:16px;font-size:14px;color:#7a5a48;text-decoration:underline;text-underline-offset:3px}
+  .vnv .res h3{font-family:'Outfit',sans-serif;font-size:26px;font-weight:600;margin:0 0 16px;letter-spacing:-.01em}
+  .vnv .res dl{display:grid;grid-template-columns:auto 1fr;gap:12px 18px;margin:0 0 20px;padding:18px 0;border-top:1px solid #f1e8dd;border-bottom:1px solid #f1e8dd}
+  .vnv .res dt{font-size:13px;font-weight:600;color:#7a5a48;text-transform:uppercase;letter-spacing:.08em;padding-top:2px}
+  .vnv .res dd{margin:0;font-size:16px;line-height:1.45}
+  .vnv .res dd b{font-weight:600}
+  .vnv .res .acts{display:flex;gap:10px;flex-wrap:wrap}
+  .vnv .res a{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;border-radius:999px;font-weight:600;font-size:15px;text-decoration:none}
+  .vnv .res a.p{background:#2b1710;color:#fbf7f2}
+  .vnv .res a.s{border:1px solid #2b1710;color:#2b1710}
+  .vnv .res .safe{margin:16px 0 0;font-size:13px;color:#7a5a48}
+  @media (max-width:760px){.vnv{padding:72px 0}.vnv .in{padding:0 16px}.vnv .card{padding:22px}}
+</style>
+<section class="vnv" aria-label="Ton niveau en 3 questions">
+  <div class="in">
+    <span class="k">Pour toi</span>
+    <h2>Ton niveau <em>en 3 questions.</em></h2>
+    <p class="sub">30 secondes pour savoir par quel jour commencer et avec quelle bande.</p>
+    <div class="card" aria-live="polite"></div>
+  </div>
+</section>
+<script>
+(function(){
+  var root=[].slice.call(document.querySelectorAll('.vnv')).pop();if(!root)return;var card=root.querySelector('.card');
+  var Q=[
+    {q:'Tu fais du sport en ce moment ?',o:[['Pas vraiment','Rarement ou pas du tout'],['Un peu','1 à 2 fois par semaine'],['Souvent','3 fois par semaine ou plus']]},
+    {q:'Le Pilates, tu connais ?',o:[['Jamais essayé',''],['Quelques séances','En cours ou en vidéo'],['J\'en fais régulièrement','']]},
+    {q:'Ce que tu veux travailler en priorité ?',o:[['Bouger chaque jour','Posture, respiration, régularité'],['Le ventre et le dos','Gainage'],['Les jambes et les fessiers','Bas du corps']]}
+  ];
+  var A=[],i=0;
+  function render(){
+    if(i>=Q.length){return result();}
+    var q=Q[i];
+    card.innerHTML='<div class="step">Question '+(i+1)+' sur '+Q.length+'</div><div class="prog"><i style="width:'+(i/Q.length*100)+'%"></i></div>'+
+      '<p class="q">'+q.q+'</p><div class="opts">'+q.o.map(function(o,k){return '<button type="button" data-k="'+k+'">'+o[0]+(o[1]?'<small>'+o[1]+'</small>':'')+'</button>';}).join('')+'</div>'+
+      (i?'<button type="button" class="back">Question précédente</button>':'');
+    [].forEach.call(card.querySelectorAll('.opts button'),function(b){b.onclick=function(){A[i]=+b.dataset.k;i++;render();};});
+    var bk=card.querySelector('.back');if(bk)bk.onclick=function(){i--;render();};
+  }
+  function result(){
+    var sc=A[0]+A[1],lvl=sc<=1?0:sc<=3?1:2;
+    var L=[
+      {t:'Débutante, et c\'est parfait',jour:'Jour 1',why:'La première semaine t\'apprend les bases : respiration, centre, posture.',bande:'La <b>bande légère</b> (crème) pour tes premiers exercices avec bande. Tu passeras à la moyenne quand ce sera facile.',ver:'Prends la <b>version plus facile</b> proposée avant chaque exercice, sans hésiter.'},
+      {t:'Tu as déjà de bonnes bases',jour:'Jour 1',why:'Même avec un peu de sport, la première semaine pose les bons gestes du Pilates. Elle passera vite.',bande:'La <b>bande moyenne</b> (taupe). Garde la légère pour le clamshell.',ver:'Fais la version normale, et la version facile si un mouvement est nouveau pour toi.'},
+      {t:'Sportive confirmée',jour:'Jour 1, ou directement le jour 8',why:'Tu peux survoler les bases et attaquer le gainage au jour 8. Commencer au jour 1 reste le plus sûr.',bande:'La <b>bande forte</b> (chocolat) pour le squat. La moyenne pour le reste.',ver:'Version normale. Garde un mouvement lent et contrôlé : en Pilates, c\'est ça qui fait travailler.'}
+    ][lvl];
+    var F=['Ta séance du jour, chaque jour : c\'est la régularité qui fait tout.','Les jours 8 à 14 sont pour toi : planche, cercle et ballon pour le gainage.','Les jours 15 à 21 sont pour toi : bandes et sliders pour les jambes et les fessiers.'][A[2]];
+    card.innerHTML='<div class="res"><div class="step">Ton résultat</div><h3>'+L.t+'</h3>'+
+      '<dl><dt>Commence</dt><dd><b>'+L.jour+'</b>. '+L.why+'</dd><dt>Bande</dt><dd>'+L.bande+'</dd><dt>Version</dt><dd>'+L.ver+'</dd><dt>Ton objectif</dt><dd>'+F+'</dd></dl>'+
+      '<div class="acts"><a class="p" href="/pages/les-exercices">Essayer le jour 1</a><a class="s" href="#vp-attente">Être prévenue du lancement</a></div>'+
+      '<p class="safe">En cas de grossesse, de douleur ou de problème de dos, demande d\'abord l\'avis d\'un professionnel de santé.</p>'+
+      '<button type="button" class="back">Refaire le test</button></div>';
+    card.querySelector('.back').onclick=function(){A=[];i=0;render();};
+  }
+  render();
+})();
+</script>
+
+{% schema %}
+{
+  "name": "VAURE – ton niveau",
+  "settings": [],
+  "presets": [{ "name": "VAURE – ton niveau" }]
+}
+{% endschema %}
