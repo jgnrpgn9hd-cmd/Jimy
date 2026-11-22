@@ -699,3 +699,10 @@ Offres : kit 39,90 € (≈26 €), kit + chaussettes 44,90 € (≈30 €), duo
 - sections/vaure-pilates-fondateur.liquid (525ada27…) : citation de Léo sur fond chocolat, lien vers /pages/notre-histoire.
 - index.json (fd91d8a3…) : annonce → ouverture → [constat] → pièce par pièce → OFFRE → appli → film → séance → [défi] → mosaïque → FONDATEUR → FAQ → liste d'attente.
 - cta (0d8f5388…) : photo du kit retirée du bloc liste d'attente, pour ne pas la montrer une 3e fois.
+
+## Animations demandées (1 et 3), plus une
+- seance (9289a9e5…) : la barre de temps se remplit segment par segment et les durées comptent jusqu'à leur valeur. Ça se joue à l'apparition et à chaque changement d'onglet.
+- cta (eff87d47…) :
+  - profondeur au survol des photos (mosaïque, pièce par pièce, offre) ; uniquement avec une souris, et désactivé si mouvement réduit ;
+  - les chiffres 8 · 30 · 15 de l'offre comptent à l'apparition.
+- Testé avec Playwright : compteurs 0,0,0 → 8,30,15, transform appliqué au survol, aucune erreur JS.

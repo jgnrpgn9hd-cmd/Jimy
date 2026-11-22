@@ -59,6 +59,31 @@
   moveAfter('.prog','.vse');     /* le défi 30 jours, juste après la séance type */
 })();
 </script>
+<script>
+/* Petits mouvements : photos qui suivent la souris (ordinateur), chiffres de l'offre qui comptent */
+(function(){
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  /* 1. Profondeur au survol, seulement avec une souris */
+  if(window.matchMedia&&matchMedia('(hover:hover) and (pointer:fine)').matches){
+    [].forEach.call(document.querySelectorAll('.vto figure,.vc-pc .ph,.vof .ph'),function(box){
+      var img=box.querySelector('img');if(!img)return;img.style.transition='transform .7s cubic-bezier(.2,.8,.2,1)';img.style.willChange='transform';
+      box.addEventListener('mousemove',function(e){var r=box.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+        img.style.transform='scale(1.07) translate('+(-x*14).toFixed(1)+'px,'+(-y*14).toFixed(1)+'px)';});
+      box.addEventListener('mouseleave',function(){img.style.transform='';});
+    });
+  }
+  /* 2. Les chiffres 8 · 30 · 15 de l'offre comptent quand on arrive dessus */
+  var nums=[].slice.call(document.querySelectorAll('.vof li b'));
+  if(nums.length&&window.IntersectionObserver){
+    nums.forEach(function(b){b.dataset.to=b.textContent;b.textContent='0';});
+    var io=new IntersectionObserver(function(es){if(!es[0].isIntersecting)return;io.disconnect();
+      nums.forEach(function(b,k){var to=+b.dataset.to,t0=null;
+        function st(ts){if(t0===null)t0=ts+k*120;var p=Math.max(0,Math.min(1,(ts-t0)/900));p=1-Math.pow(1-p,3);b.textContent=Math.round(to*p);if(p<1)requestAnimationFrame(st);}
+        requestAnimationFrame(st);});},{threshold:.4});
+    io.observe(nums[0].closest('ul'));
+  }
+})();
+</script>
 
 {% schema %}
 {
